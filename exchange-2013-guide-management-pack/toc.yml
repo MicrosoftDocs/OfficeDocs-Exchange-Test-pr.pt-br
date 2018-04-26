@@ -1,0 +1,19 @@
+- name: Guia do Pacote de Gerenciamento do Exchange Server 2013
+  href: exchange-server-2013-management-pack-guide.md
+  items:
+  - name: Importar o Pacote de Gerenciamento do Exchange Server 2013
+    href: import-the-exchange-server-2013-management-pack.md
+  - name: Introdução ao Pacote de Gerenciamento do Exchange Server 2013
+    href: getting-started-with-exchange-server-2013-management-pack.md
+  - name: Como usar o Exchange Server 2013 Management Pack para a Solução de Problemas
+    href: using-the-exchange-server-2013-management-pack-for-troubleshooting.md
+  - name: Procedimentos Relacionados à Implantação
+    href: procedures-related-to-deployment.md
+  - name: Procedures related to post-deployment operation
+    href: procedures-related-to-post-deployment-operation.md
+  - name: Entendendo Como o Pacote de Gerenciamento do Exchange Server 2013 Relata a Integridade do Sistema
+    href: understanding-how-exchange-server-2013-management-pack-reports-system-health.md
+  - name: 'Appendix A: Exchange health sets'
+    href: appendix-a-exchange-health-sets.md
+  - name: 'Apêndice B: Recursos adicionais'
+    href: appendix-b-additional-resources.md
