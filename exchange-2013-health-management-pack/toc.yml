@@ -1,0 +1,141 @@
+- name: Conjuntos de integridade do Exchange 2013 Management Pack
+  href: exchange-2013-management-pack-health-sets.md
+  items:
+  - name: Solucionando problemas de integridade do ActiveSync definido
+    href: troubleshooting-activesync-health-set.md
+  - name: Solução de problemas de conjunto de integridade de ActiveSync.Protocol
+    href: troubleshooting-activesync-protocol-health-set.md
+  - name: Solução de problemas de conjunto de integridade de ActiveSync.Proxy
+    href: troubleshooting-activesync-proxy-health-set.md
+  - name: Solucionando problemas de conjunto de integridade da AD
+    href: troubleshooting-ad-health-set.md
+  - name: Solucionando problemas de integridade de Antimalware definido
+    href: troubleshooting-antimalware-health-set.md
+  - name: Solucionando problemas de integridade AntiSpam definido
+    href: troubleshooting-antispam-health-set.md
+  - name: Solucionando problemas de integridade de descoberta automática definido
+    href: troubleshooting-autodiscover-health-set.md
+  - name: Solução de problemas de conjunto de integridade de Autodiscover.Protocol
+    href: troubleshooting-autodiscover-protocol-health-set.md
+  - name: Solução de problemas de conjunto de integridade de Autodiscover.Proxy
+    href: troubleshooting-autodiscover-proxy-health-set.md
+  - name: Solucionando problemas de integridade de classificação definido
+    href: troubleshooting-classification-health-set.md
+  - name: Solucionando problemas de conjunto de integridade de ClientAccess.Proxy
+    href: troubleshooting-clientaccess-proxy-health-set.md
+  - name: Solucionando problemas de integridade de conformidade definido
+    href: troubleshooting-compliance-health-set.md
+  - name: Solucionando problemas de integridade DataProtection definido
+    href: troubleshooting-dataprotection-health-set.md
+  - name: Solucionando problemas de integridade de espaço em disco definido
+    href: troubleshooting-diskspace-health-set.md
+  - name: Solução de problemas conjunto de integridade do ECP
+    href: troubleshooting-ecp-health-set.md
+  - name: Solucionando problemas de ECP. Conjunto de integridade de proxy
+    href: troubleshooting-ecp-proxy-health-set.md
+  - name: Solucionando problemas de integridade EDS definido
+    href: troubleshooting-eds-health-set.md
+  - name: Solucionando problemas de integridade EventAssistants definido
+    href: troubleshooting-eventassistants-health-set.md
+  - name: Solução de problemas do conjunto de integridade EWS
+    href: troubleshooting-ews-health-set.md
+  - name: Solucionando problemas de EWS. Conjunto de integridade de protocolo
+    href: troubleshooting-ews-protocol-health-set.md
+  - name: Solucionando problemas de EWS. Conjunto de integridade de proxy
+    href: troubleshooting-ews-proxy-health-set.md
+  - name: Solucionando problemas de integridade FfoQuarantine definido
+    href: troubleshooting-ffoquarantine-health-set.md
+  - name: Solucionando problemas de integridade FfoTransport definido
+    href: troubleshooting-ffotransport-health-set.md
+  - name: Solucionando problemas de integridade FfoUmc definido
+    href: troubleshooting-ffoumc-health-set.md
+  - name: Solucionando problemas de integridade FfoWebService definido
+    href: troubleshooting-ffowebservice-health-set.md
+  - name: Conjunto de integridade FIPS para solução de problemas
+    href: troubleshooting-fips-health-set.md
+  - name: Solucionando problemas de integridade FreeBusy definido
+    href: troubleshooting-freebusy-health-set.md
+  - name: Solucionando problemas de integridade FrontendTransport definido
+    href: troubleshooting-frontendtransport-health-set.md
+  - name: Solucionando problemas de integridade HubTransport definido
+    href: troubleshooting-hubtransport-health-set.md
+  - name: Conjunto de integridade IMAP para solução de problemas
+    href: troubleshooting-imap-health-set.md
+  - name: Solucionando problemas de IMAP. Conjunto de integridade de protocolo
+    href: troubleshooting-imap-protocol-health-set.md
+  - name: Solucionando problemas de IMAP. Conjunto de integridade de proxy
+    href: troubleshooting-imap-proxy-health-set.md
+  - name: Solucionando problemas de integridade MailboxMigration definido
+    href: troubleshooting-mailboxmigration-health-set.md
+  - name: Solucionando problemas de integridade MailboxSpace definido
+    href: troubleshooting-mailboxspace-health-set.md
+  - name: Solucionando problemas de integridade MailboxTransport definido
+    href: troubleshooting-mailboxtransport-health-set.md
+  - name: Solucionando problemas de integridade de fluxo de mensagens definido
+    href: troubleshooting-mailflow-health-set.md
+  - name: Solucionando problemas de integridade de memória definido
+    href: troubleshooting-memory-health-set.md
+  - name: Solucionando problemas de integridade MessageTracing definido
+    href: troubleshooting-messagetracing-health-set.md
+  - name: Solucionando problemas de monitoramento de integridade definido
+    href: troubleshooting-monitoring-health-set.md
+  - name: Conjunto de integridade do MRS de solução de problemas
+    href: troubleshooting-mrs-health-set.md
+  - name: Solucionando problemas de integridade MSExchangeCertificateDeployment definido
+    href: troubleshooting-msexchangecertificatedeployment-health-set.md
+  - name: Solucionando problemas de integridade de rede definido
+    href: troubleshooting-network-health-set.md
+  - name: Solucionando problemas de integridade do OAB definido
+    href: troubleshooting-oab-health-set.md
+  - name: Solucionando problemas de OAB. Conjunto de integridade de proxy
+    href: troubleshooting-oab-proxy-health-set.md
+  - name: Solucionando problemas de integridade do Outlook definido
+    href: troubleshooting-outlook-health-set.md
+  - name: Solucionando problemas de conjunto de integridade de Outlook.Protocol
+    href: troubleshooting-outlook-protocol-health-set.md
+  - name: Solução de problemas de conjunto de integridade de Outlook.Proxy
+    href: troubleshooting-outlook-proxy-health-set.md
+  - name: Solução de problemas conjunto de integridade do OWA
+    href: troubleshooting-owa-health-set.md
+  - name: Solucionando problemas de OWA. Conjunto de integridade de protocolo
+    href: troubleshooting-owa-protocol-health-set.md
+  - name: Solucionando problemas de OWA. Conjunto de integridade de Protocol.Dep
+    href: troubleshooting-owa-protocol-dep-health-set.md
+  - name: Solucionando problemas de OWA. Conjunto de integridade de proxy
+    href: troubleshooting-owa-proxy-health-set.md
+  - name: Solução de problemas de conjunto de integridade de POP
+    href: troubleshooting-pop-health-set.md
+  - name: Troubleshooting POP. Conjunto de integridade de protocolo
+    href: troubleshooting-pop-protocol-health-set.md
+  - name: Troubleshooting POP. Conjunto de integridade de proxy
+    href: troubleshooting-pop-proxy-health-set.md
+  - name: Solucionando problemas de integridade PowershellDataProvider definido
+    href: troubleshooting-powershelldataprovider-health-set.md
+  - name: Solucionando problemas de integridade PublicFolders definido
+    href: troubleshooting-publicfolders-health-set.md
+  - name: Solucionando problemas de conjunto de integridade de PushNotifications.Protocol
+    href: troubleshooting-pushnotifications-protocol-health-set.md
+  - name: Solucionando problemas de integridade RemoteMonitoring definido
+    href: troubleshooting-remotemonitoring-health-set.md
+  - name: Solucionando problemas de integridade RPS definido
+    href: troubleshooting-rps-health-set.md
+  - name: RPS da solução de problemas. Conjunto de integridade de proxy
+    href: troubleshooting-rps-proxy-health-set.md
+  - name: Solucionando problemas de integridade da pesquisa definido
+    href: troubleshooting-search-health-set.md
+  - name: Solucionando problemas de integridade SiteMailbox definido
+    href: troubleshooting-sitemailbox-health-set.md
+  - name: Solucionando problemas de conjunto de integridade de SMTP
+    href: troubleshooting-smtp-health-set.md
+  - name: Solucionando problemas de integridade do repositório definido
+    href: troubleshooting-store-health-set.md
+  - name: Solucionando problemas de integridade de transporte definido
+    href: troubleshooting-transport-health-set.md
+  - name: Solucionando problemas de UM conjunto de integridade
+    href: troubleshooting-um-health-set.md
+  - name: Solucionando problemas de Unificação de mensagens. Conjunto de integridade CallRouter
+    href: troubleshooting-um-callrouter-health-set.md
+  - name: Solucionando problemas de Unificação de mensagens. Conjunto de integridade de protocolo
+    href: troubleshooting-um-protocol-health-set.md
+  - name: Solucionando problemas de integridade UserThrottling definido
+    href: troubleshooting-userthrottling-health-set.md
