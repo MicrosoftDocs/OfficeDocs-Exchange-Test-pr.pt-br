@@ -1,0 +1,93 @@
+- name: Implantações Híbridas do Exchange Server 2013
+  href: exchange-server-hybrid-deployments-exchange-2013-help.md
+  items:
+  - name: Assistente de Configuração Híbrida
+    href: hybrid-configuration-wizard-exchange-2013-help.md
+  - name: Perguntas frequentes do Assistente de Configuração Híbrida
+    href: hybrid-configuration-wizard-faqs-exchange-2013-help.md
+  - name: Pré-requisitos de implantação híbrida
+    href: hybrid-deployment-prerequisites-exchange-2013-help.md
+  - name: Requisitos de certificado para implantações híbridas
+    href: certificate-requirements-for-hybrid-deployments-exchange-2013-help.md
+  - name: Opções de transporte em implantações híbridas do Exchange
+    href: transport-options-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Roteamento de transporte em implantações híbridas do Exchange
+    href: transport-routing-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Gerenciamento híbrido em implantações híbridas do Exchange
+    href: hybrid-management-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Disponibilidade compartilhada em implantações híbridas do Exchange
+    href: shared-free-busy-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Funções de servidor em implantações híbridas do Exchange
+    href: server-roles-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: IRM em implantações híbridas do Exchange
+    href: irm-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Permissões em implantações híbridas do Exchange
+    href: permissions-in-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Servidores de transporte de borda com implantações híbridas
+    href: edge-transport-servers-with-hybrid-deployments-exchange-2013-help.md
+  - name: Logon único com implantações híbridas
+    href: single-sign-on-with-hybrid-deployments-exchange-2013-help.md
+  - name: Configurações de dispositivo do Exchange ActiveSync com implantações híbridas do Exchange
+    href: exchange-activesync-device-settings-with-exchange-hybrid-deployments-exchange-2013-help.md
+  - name: Fatores de desempenho e práticas recomendadas para migrações híbridas
+    href: performance-factors-and-best-practices-for-hybrid-migrations-exchange-2013-help.md
+  - name: Como e quando encerrar seus servidores do Exchange locais em uma implantação híbrida
+    href: how-and-when-to-decommission-your-on-premises-exchange-servers-in-a-hybrid-deployment-exchange-2013-help.md
+  - name: Procedimentos de Implantação Híbrida
+    href: hybrid-deployment-procedures-exchange-2013-help.md
+    items:
+    - name: Criar uma implantação híbrida com o Assistente de Configuração Híbrida
+      href: create-a-hybrid-deployment-with-the-hybrid-configuration-wizard-exchange-2013-help.md
+    - name: Movimentação de caixas de correio entre organizações locais e do Exchange Online em implantações híbridas
+      href: move-mailboxes-between-on-premises-and-exchange-online-organizations-in-hybrid-deployments-exchange-2013-help.md
+    - name: Configurar pastas públicas locais herdadas para uma implantação híbrida
+      href: configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configurar pastas públicas do Exchange 2013 para uma implantação híbrida
+      href: configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configurar pastas públicas do Exchange Online para uma implantação híbrida
+      href: configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configurar o Exchange para oferecer suporte à caixa de correio delegada permissões em uma implantação híbrida
+      href: configure-exchange-to-support-delegated-mailbox-permissions-in-a-hybrid-deployment-exchange-2013-help.md
+    - name: Configurar anexos modernos com o OneDrive for Business e o Exchange 2016 local
+      href: configure-document-collaboration-with-onedrive-for-business-and-exchange-2016-on-premises-exchange-2013-help.md
+    - name: Configurar o recurso Grupos do Office 365 com uma implantação híbrida do Exchange local
+      href: configure-office-365-groups-with-on-premises-exchange-hybrid-exchange-2013-help.md
+    - name: Criar uma caixa de correio de arquivo morto baseado na nuvem para uma caixa de correio principal no local em uma implantação híbrida
+      href: create-a-cloud-based-archive-for-an-on-premises-primary-mailbox-in-an-exchange-hybrid-deployment-exchange-online-help.md
+    - name: Simplificar a URL do Outlook Web App para configuração híbrida do Office 365
+      href: simplify-the-outlook-web-app-url-for-office-365-hybrid-exchange-2013-help.md
+    - name: Solucionar problemas em uma implantação híbrida
+      href: troubleshoot-a-hybrid-deployment-exchange-2013-help.md
+  - name: Implantações híbridas com o Exchange 2013 e o Exchange 2007
+    href: hybrid-deployments-with-exchange-2013-and-exchange-2007-exchange-2013-help.md
+    items:
+    - name: Funções de servidor em implantações híbridas do Exchange 2013/Exchange 2007
+      href: server-roles-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Gerenciamento híbrido nas implantações híbridas do Exchange 2013/Exchange 2007
+      href: hybrid-management-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Servidores de Transporte de Borda nas implantações híbridas do Exchange 2013/Exchange 2007
+      href: edge-transport-servers-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Opções de transporte em implantações híbridas do Exchange 2013/Exchange 2007
+      href: transport-options-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+    - name: Roteamento de transporte em implantações híbridas do Exchange 2013/Exchange 2007
+      href: transport-routing-in-exchange-2013-exchange-2007-hybrid-deployments-exchange-2013-help.md
+  - name: Implantações híbridas com o Exchange 2013 e o Exchange 2010
+    href: hybrid-deployments-with-exchange-2013-and-exchange-2010-exchange-2013-help.md
+    items:
+    - name: Funções de servidor em implantações híbridas do Exchange 2013/Exchange 2010
+      href: server-roles-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Gerenciamento híbrido nas implantações híbridas do Exchange 2013/Exchange 2010
+      href: hybrid-management-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Servidores de Transporte de Borda nas implantações híbridas do Exchange 2013/Exchange 2010
+      href: edge-transport-servers-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Opções de transporte nas implantações híbridas do Exchange 2013/Exchange 2010
+      href: transport-options-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+    - name: Roteamento de transporte em implantações híbridas do Exchange 2013/Exchange 2010
+      href: transport-routing-in-exchange-2013-exchange-2010-hybrid-deployments-exchange-2013-help.md
+  - name: Sobre a documentação do Exchange
+    href: about-exchange-documentation-exchange-2013-help.md
+    items:
+    - name: Acessibilidade para pessoas com deficiência
+      href: accessibility-for-people-with-disabilities-exchange-2013-help.md
+    - name: Aviso de direitos autorais de terceiros
+      href: third-party-copyright-notices-exchange-2013-help.md
