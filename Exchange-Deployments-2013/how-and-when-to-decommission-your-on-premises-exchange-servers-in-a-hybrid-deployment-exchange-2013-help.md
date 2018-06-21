@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-07-27_
+_<strong>Tópico modificado em:</strong>2017-07-27_
 
 Leia este artigo se você estiver pronto para mover de uma implantação híbrida do Exchange para uma implementação de nuvem completa.
 

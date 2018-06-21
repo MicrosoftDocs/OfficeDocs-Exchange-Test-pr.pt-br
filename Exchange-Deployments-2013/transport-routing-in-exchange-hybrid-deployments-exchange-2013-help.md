@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-07-29_
+_<strong>Tópico modificado em:</strong>2016-07-29_
 
 Este tópico discute suas opções de roteamento para mensagens de entrada da Internet e mensagens de saída para a Internet.
 

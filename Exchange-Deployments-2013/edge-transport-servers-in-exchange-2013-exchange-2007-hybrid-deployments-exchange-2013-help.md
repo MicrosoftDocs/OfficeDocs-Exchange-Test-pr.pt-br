@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tópico está em andamento.  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Os servidores Transporte de Borda no Microsoft Exchange são implantados na rede de perímetro local da organização. Eles são computadores que não ingressaram em domínios e que lidam com o fluxo de email voltado para a Internet, agindo como retransmissores SMTP e host inteligente para servidores Exchange na sua rede interna.
 

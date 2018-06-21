@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:**2016-11-11_
+_<strong>Tópico modificado em:</strong>2016-11-11_
 
 Saiba como configurar a URL do Outlook na Web (Outlook Web App) para usuários de caixa de correio baseada em nuvem em um ambiente híbrido.
 

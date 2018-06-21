@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-05-02_
+_<strong>Tópico modificado em:</strong>2018-05-02_
 
 A organização do Exchange Online no Office 365 é baseada no Exchange Server e também usa o RBAC (controle de acesso baseado em função) para controlar permissões, assim como as organizações locais. Os administradores recebem permissões usando grupos de funções de gerenciamento e os usuários finais recebem permissões usando políticas de atribuição de funções de gerenciamento.
 

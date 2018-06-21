@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:**2016-12-06_
+_<strong>Tópico modificado em:</strong>2016-12-06_
 
 Saiba como habilitar usuários locais do Exchange para usar o recurso Grupos do Office 365 em uma implantação híbrida.
 
@@ -103,7 +103,7 @@ O domínio SMTP primário de um Grupo do Office 365 é chamado de *domínio do g
     <td><p>MX</p></td>
     <td><p>groups-contoso-com.mail.protection.outlook.com</p>
 
-    > [!TIP]
+    > [!TIP]  
     > O formato desse valor de registro DNS será <EM>&lt;domain key&gt;</EM>.mail.protection.outlook.com. Para descobrir qual é a chave do seu domínio, confira o artigo <A href="https://support.office.com/pt-br/article/gather-the-information-you-need-to-create-office-365-dns-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67?ui=en-us%26rs=en-us%26ad=us">Coletar as informações de que você precisa para criar registros de DNS do Office 365</A>.
 
 
@@ -118,8 +118,8 @@ O domínio SMTP primário de um Grupo do Office 365 é chamado de *domínio do g
     </table>
     
 
-    > [!WARNING]
-    > Se o registro DNS MX do domínio do grupo for definido para o servidor Exchange local, o fluxo de emails não funcionará corretamente entre os usuários da organização local do Exchange e o Grupo do Office 365.
+   > [!WARNING]  
+   > Se o registro DNS MX do domínio do grupo for definido para o servidor Exchange local, o fluxo de emails não funcionará corretamente entre os usuários da organização local do Exchange e o Grupo do Office 365.
 
 
 
@@ -127,8 +127,8 @@ O domínio SMTP primário de um Grupo do Office 365 é chamado de *domínio do g
     
         Set-SendConnector -Identity "Outbound to Office 365" -AddressSpaces "contoso.mail.onmicrosoft.com","groups.contoso.com"
     
-
-    > [!TIP]
+ 
+    > [!TIP]  
     > Se o conector de Envio não estiver atualizado ou se o domínio do grupo não for adicionado como um domínio aceito na organização local do Exchange, os emails enviados de uma caixa de correio local não serão entregues para o grupo, a menos que o grupo esteja configurado para receber emails de remetentes externos.
 
 

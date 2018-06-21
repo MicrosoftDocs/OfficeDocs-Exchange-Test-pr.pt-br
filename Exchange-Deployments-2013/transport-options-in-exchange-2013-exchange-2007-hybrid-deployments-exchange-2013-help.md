@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tópico está em andamento.  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Nas implantações híbridas, você pode ter caixas de correio que residem em sua organização local e em uma organização do Exchange e também em uma organização do Exchange Online. O transporte híbrido é um componente crítico para fazer com que essas duas organizações separadas pareçam ser uma organização combinada para os usuários e para as mensagens trocadas entre elas. O transporte híbrido faz com que a mensagens que trafegam entre destinatários de qualquer das organizações sejam autenticadas, criptografadas e transferidas usando o protocolo TLS e apareçam como “internas�? para componentes do Exchange, como regras de transporte, registro no diário e políticas de antispam. O transporte híbrido é configurado automaticamente pelo assistente de Configuração Híbrida no Exchange 2013
 

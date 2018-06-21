@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tópico está em andamento.  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-07-07_
+_<strong>Tópico modificado em:</strong>2015-07-07_
 
 A configuração e o gerenciamento de implantações híbridas baseadas no Exchange 2013 com o Exchange 2010 estão mais fáceis do que nunca com as últimas melhorias no assistente de Configuração Híbrida e as alterações de arquitetura apresentadas no Microsoft Exchange Server 2013. Independentemente de você querer conectar suas organizações do Exchange 2010 local e do Exchange Online para coexistência de longo prazo ou como parte de uma estratégia de migração para a nuvem, é importante compreender os conceitos de implantação híbrida.
 

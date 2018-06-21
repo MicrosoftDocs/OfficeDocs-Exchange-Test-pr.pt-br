@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_<strong>Aplica-se a:</strong>Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-15_
+_<strong>Tópico modificado em:</strong>2016-12-15_
 
 **Resumo:** instruções para a habilitação de usuários Exchange 2013 para acessar pastas públicas no Exchange Online no local.
 

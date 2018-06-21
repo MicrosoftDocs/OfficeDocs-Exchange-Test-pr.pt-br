@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tópico está em andamento.  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Quando você configurar uma implantação híbrida em uma organização do Exchange 2007, deve instalar pelo menos um servidor do Exchange 2013 com as funções de servidor de Caixa de Correio e de Acesso para Cliente em sua organização existente do Exchange 2007. Seus servidores de Acesso para Cliente e de Caixa de Correio do Exchange 2013 coordenam as comunicações entre sua organização local existente do Exchange 2007 e a organização do Exchange Online. Essa comunicação inclui o transporte de mensagens e os recursos de mensagens entre a organização local e a organização do Exchange Online.
 

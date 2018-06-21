@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-04-29_
+_<strong>Tópico modificado em:</strong>2016-04-29_
 
 O compartilhamento de informações de disponibilidade (disponibilidade de calendário) entre usuários localizados na organização local ou na organização do Exchange Online é um dos principais benefícios de uma implantação híbrida. Usuários em ambas as organizações podem visualizar os calendários uns dos outros como se estivessem na mesma organização física. Isso torna o agendamento de reuniões e recursos fácil e eficiente.
 

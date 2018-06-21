@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Esta é uma coleção de tópicos conceituais e de procedimento organizados por assunto ou por tecnologias usadas pelo Microsoft Exchange. Você pode acessar cada tópico diretamente a partir do índice no painel esquerdo, a partir de um link em outro tópico da Ajuda, a partir dos resultados de uma pesquisa ou a partir de sua própria lista personalizada de tópicos favoritos.
 
