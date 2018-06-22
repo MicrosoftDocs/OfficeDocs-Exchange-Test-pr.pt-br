@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 **Resumo:** Como permitir que os usuários do Exchange Server 2016 no local aproveitem o uso da colaboração em documentos com o OneDrive for Business e o SharePoint Online enquanto estiverem em uma configuração híbrida.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-01-20_
+_<strong>Tópico modificado em:</strong>2017-01-20_
 
 Em uma implantação híbrida do Exchange, você pode configurar uma caixa de correio principal com uma caixa de correio de arquivo morto baseado na nuvem no Exchange Online.
 
