@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-04-16_
+_<strong>Tópico modificado em:</strong>2018-04-16_
 
 A função opcional de servidor de Transporte de Borda geralmente é implantada em um computador localizado na rede de perímetro de uma organização do Exchange e é projetada para minimizar a superfície de ataque da organização. A função de servidor de Transporte de Borda gerencia todo o fluxo de mensagens voltado para a Internet, que fornece retransmissão SMTP e serviços de host inteligente para os servidores locais internos do Exchange em sua organização.
 

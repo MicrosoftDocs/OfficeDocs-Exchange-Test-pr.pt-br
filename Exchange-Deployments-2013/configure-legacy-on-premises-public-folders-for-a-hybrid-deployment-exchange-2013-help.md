@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-05-22_
+_<strong>Tópico modificado em:</strong>2018-05-22_
 
 **Resumo:** Use as etapas deste artigo para sincronizar pastas públicas entre o Office 365 e a implantação local do Exchange 2007 ou do Exchange 2010.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-01-29_
+_<strong>Tópico modificado em:</strong>2016-01-29_
 
 O logon único (SSO) com a qual os usuários podem acessar ambas as organizações, local e do Office 365, com um único nome de usuário e senha. Ele oferece aos usuários uma experiência clássica de logon e permite aos administradores controlar facilmente as políticas de conta para caixas de correio da organização do Exchange Online usando ferramentas de gerenciamento locais do Active Directory. Embora não seja necessário, recomendamos que você configure uma implantação híbrida com o logon único habilitado. Sem o logon único, os usuários precisarão se lembrar de dois conjuntos diferentes de credenciais, um para a organização local e outro para o Office 365. Veja algumas outras vantagens do logon único:
 

@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Tópico modificado em:**2018-01-30_
+_<strong>Tópico modificado em:</strong>2018-01-30_
 
 Permissões de caixa de correio delegada permitem que alguém para gerenciar alguma parte da caixa de correio de usuários para outro. Um exemplo comum disso é um assistente administrativo que precisa gerenciar caixas de correio e calendário de um executivo. Implantações híbridas entre uma organização do Exchange no local e o Office 365 suporte o **Acesso total** e a **Enviar em nome de** delegada permissões de caixa de correio. No entanto, dependendo da versão do Exchange que você instalou em sua organização local, você pode precisar executar configurações adicionais para usar a caixa de correio delegada permissões em uma implantação híbrida. O exemplo a seguir lista as versões do Exchange que suporte delegada permissões de caixa de correio em uma implantação híbrida e se a configuração adicional será necessária para essa versão.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 A Microsoft lançou um novo assistente de Configuração Híbrida que simplifica a configuração de uma implantação híbrida, permite maior flexibilidade na configuração híbrida e garante que você sempre estará executando as versões mais recentes da experiência. Esta versão do assistente híbrido vem interna no Exchange 2016 e nos lançamentos iniciados com a Atualização Cumulativa 10 do Exchange 2013 Mas, mesmo que você esteja executando uma versão mais antiga da atualização cumulativa do Exchange 2013 ou do Exchange 2010 Service Pack 3 (SP3), ainda assim poderá baixar o novo assistente.
 

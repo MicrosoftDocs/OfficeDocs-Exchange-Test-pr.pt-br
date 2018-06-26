@@ -13,9 +13,10 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:** 2016-07-29_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
+
+_<strong>Tópico modificado em:</strong>2016-07-29_
 
 Este tópico discute suas opções de roteamento para mensagens de entrada da Internet e mensagens de saída para a Internet.
 

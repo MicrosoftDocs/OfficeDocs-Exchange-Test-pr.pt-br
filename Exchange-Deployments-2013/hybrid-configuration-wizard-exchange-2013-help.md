@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Esse tópico oferece a você uma visão geral do processo de configuração de implantação híbrida do Exchange, dos recursos de implantação híbrida e das opções disponíveis a você e o Mecanismo de Configuração Híbrida, que executa as principais ações necessárias para configurar e atualizar uma implantação híbrida.
 

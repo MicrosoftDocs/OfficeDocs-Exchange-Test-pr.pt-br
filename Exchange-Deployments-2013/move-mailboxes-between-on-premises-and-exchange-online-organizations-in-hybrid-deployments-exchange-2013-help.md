@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-10-02_
+_<strong>Tópico modificado em:</strong>2017-10-02_
 
 Com uma implantação híbrida baseada no Exchange, você pode optar por mover caixas de correio locais do Exchange para a organização do Exchange Online ou mover caixas de correio do Exchange Online para a organização do Exchange. Ao mover caixas de correio entre as organizações do Exchange Online e local, você usa lotes de migração para executar a solicitação de movimentação de caixa de correio remota. Essa abordagem permite que você mova as caixas de correio existentes, em vez de criar novas caixas de correio do usuário, e importe as informações do usuário. Essa abordagem é diferente da migração de caixas de correio do usuário de uma organização local do Exchange para o Exchange Online, como parte de uma migração completa do Exchange para a nuvem. As movimentações de caixas de correio discutidas neste tópico fazem parte do gerenciamento administrativo do Exchange em um relacionamento de coexistência de longo prazo entre organizações locais do Exchange e do Exchange Online.
 
@@ -49,7 +49,7 @@ Confira mais informações sobre a migração de organizações do Exchange loca
 
 Antes de executar a integração e a remoção de migrações de movimentação remotas em uma implantação híbrida do Exchange, recomendamos que você crie pontos de extremidade de migração remota do Exchange. O ponto de extremidade de migração contém as configurações de conexão de um servidor do Exchange local que esteja executando o serviço de proxy MRS, que é necessário para executar migrações de movimentação remota do e para o Exchange Online.
 
-Para obter procedimentos passo a passo, consulte [Criar pontos de extremidade de migração](https://technet.microsoft.com/pt-br/library/jj874458\(v=exchg.150\)).
+Para obter procedimentos passo a passo, consulte Criar pontos de extremidade de migração.
 
 ## Etapa 2: habilitar o serviço MRSProxy
 
