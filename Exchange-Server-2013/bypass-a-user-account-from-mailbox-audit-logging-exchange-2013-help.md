@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-05-21_
+_**Tópico modificado em:** 2013-05-21_
 
 Quando você habilita uma caixa de correio do log de auditoria de caixa de correio, os eventos de acesso de caixa de correio especificada (por exemplo, como acessar uma pasta ou uma mensagem ou excluir permanentemente uma mensagem) serão registrados. No entanto, o acesso por alguns autorizado contas, como contas usadas por ferramentas de terceiros ou as contas usadas para monitoramento dentro da lei, pode criar um grande número de auditoria de caixa de correio entradas de log e não podem ser de interesse para sua organização.
 

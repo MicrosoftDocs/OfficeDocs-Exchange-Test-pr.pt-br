@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Atribuições de função de gerenciamento podem atribuir uma função de gerenciamento a um usuário ou grupo de segurança universal (USG). Atribuindo uma função a um usuário ou USG, habilitar esses usuários executar tarefas dependentes de cmdlets ou scripts e seus parâmetros definidos na função de gerenciamento.
 

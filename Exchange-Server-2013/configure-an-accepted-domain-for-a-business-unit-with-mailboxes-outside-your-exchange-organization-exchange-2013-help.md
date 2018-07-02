@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-08-06_
+_**Tópico modificado em:** 2014-08-06_
 
 Em algumas instâncias, você pode configurar um domínio aceito para uma unidade de negócios em que alguns ou todos os destinatários no domínio não têm caixas de correio em sua organização do Exchange. Isso pode ocorrer, por exemplo, quando uma organização compartilha o mesmo endereço SMTP entre dois ou mais sistemas de email diferentes. Para esses cenários, você pode configurar um domínio aceito como um domínio de retransmissão interno.
 

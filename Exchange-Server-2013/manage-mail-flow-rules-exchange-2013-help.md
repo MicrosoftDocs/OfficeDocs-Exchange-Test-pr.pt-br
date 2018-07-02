@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode usar as regras de fluxo de emails, também conhecidas como regras de transporte, para procurar condições específicas em mensagens que passem pela sua organização e tomar as devidas providências. Este tópico mostra como criar, copiar, ajustar a ordem, habilitar ou desabilitar, excluir, ou importar ou exportar regras, e como monitorar o uso de regras.
 
@@ -144,9 +144,9 @@ O EAC permite que você crie regras de fluxo de emails usando um modelo, copiand
     
     3.  Para especificar exceções, clique em **Adicionar exceção** e selecione as exceções usando a lista suspensa **Exceto se...** Você pode remover todas as exceções da regra clicando em **Remover X** ao lado dela.
     
-    4.  Se quiser aplicar essa regra após uma determinada data, clique em **Ativar esta regra na seguinte data:** e especifique uma data. Observe que a regra ainda será habilitada antes dessa data, mas não será processada.
+    4.  Se quiser aplicar essa regra após uma determinada data, clique em **Ativar esta regra na seguinte data:**  e especifique uma data. Observe que a regra ainda será habilitada antes dessa data, mas não será processada.
         
-        Da mesma forma, o processamento da regra poderá ser interrompido em uma determinada data. Para isso, clique em **Desativar esta regra na seguinte data:** e especifique uma data. Observe que a regra permanecerá habilitada, mas não será processada.
+        Da mesma forma, o processamento da regra poderá ser interrompido em uma determinada data. Para isso, clique em **Desativar esta regra na seguinte data:**  e especifique uma data. Observe que a regra permanecerá habilitada, mas não será processada.
     
     5.  Você pode optar por evitar a aplicação de regras adicionais quando essa regra processar uma mensagem. Para isso, clique em **Parar de processar mais regras**. Se você selecionar esta opção e uma mensagem for processada por essa regra, nenhuma regra subsequente será processada para essa mensagem.
     

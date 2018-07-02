@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-12_
+_**Tópico modificado em:** 2012-10-12_
 
 Filtragem de remetente se baseia em MAIL FROM: cabeçalho SMTP para determinar qual ação, se houver, para receber uma mensagem de email de entrada. Filtragem de remetente é fornecido pelo agente de filtro de remetente.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-01-09_
+_**Tópico modificado em:** 2014-01-09_
 
 O agente Roteamento da Política de Catálogo de Endereços (ABP) é um agente de Transporte que executa no servidor de Caixa de Correio e controla como os destinatários são resolvidos em sua organização. Quando o agente de Roteamento ABP é instalado e configurado, os usuários atribuídos a GALs diferentes aparecem como destinatários externos e não podem exibir os cartões de contato dos destinatários externos.
 

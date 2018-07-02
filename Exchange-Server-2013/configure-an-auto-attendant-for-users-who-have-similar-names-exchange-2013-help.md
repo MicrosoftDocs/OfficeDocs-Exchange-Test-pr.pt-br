@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-16_
+_**Tópico modificado em:** 2012-12-16_
 
 Você pode configurar o método a ser usado para usuários com nomes semelhantes nas opções **Catálogo de endereços e acesso do operador** de um atendedor automático ou pode deixar a configuração padrão no atendedor automático e definir essa configuração no plano de discagem associado ao atendedor automático. Por padrão, um atendedor automático não é capaz de distinguir entre dois ou mais usuários que tenham o mesmo nome ou nomes semelhantes porque a configuração padrão do atendedor automático é **Herdar de plano de discagem**.
 

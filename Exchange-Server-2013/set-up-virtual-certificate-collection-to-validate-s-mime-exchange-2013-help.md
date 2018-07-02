@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Como um administrador de locatário, você precisará configurar uma coleção de certificados virtuais que será usada para validar certificados S/MIME. Esta coleção de certificados virtuais é configurada como um tipo de arquivo de repositório de certificados com uma extensão de nome de arquivo SST. O arquivo SST contém todos os certificados raiz e intermediários usados na validação de um certificado S/MIME.
 

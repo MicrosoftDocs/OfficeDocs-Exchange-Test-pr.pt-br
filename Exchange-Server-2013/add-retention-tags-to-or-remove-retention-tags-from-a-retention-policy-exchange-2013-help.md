@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-02_
+_**Tópico modificado em:** 2015-03-02_
 
 Você pode adicionar marcas de retenção a uma diretiva de retenção quando a diretiva é criada ou a qualquer momento depois disso. Para detalhes sobre como criar uma diretiva de retenção, incluindo como adicionar simultaneamente marcas de retenção, consulte [Criar uma política de retenção](create-a-retention-policy-exchange-2013-help.md).
 

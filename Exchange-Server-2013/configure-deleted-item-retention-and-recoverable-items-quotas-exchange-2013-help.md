@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Quando um usuário exclui os itens da pasta Itens excluídos padrão usando o Delete, Shift + Delete ou ações **Esvaziar pasta Itens excluídos**, os itens são movidos para a pasta **Items\\Deletions recuperável**. A duração que itens excluídos permaneçam nesta pasta baseia-se as configurações de retenção de item excluído definidas para o banco de dados de caixa de correio ou a caixa de correio. Por padrão, um banco de dados de caixa de correio está configurado para reter itens excluídos 14 dias, e os aviso de cota e a cota de itens recuperáveis de itens recuperáveis são definidos como 20 gigabytes (GB) e 30 GB respectivamente.
 

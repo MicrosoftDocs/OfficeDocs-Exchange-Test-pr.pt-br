@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-16_
+_**Tópico modificado em:** 2013-04-16_
 
 Um plano de discagem de Unificação de mensagens (UM) contém informações de configuração relacionadas à sua rede de telefonia. Um plano de discagem UM estabelece um vínculo do número de ramal de um usuário habilitado para caixa postal para suas caixas de correio. Quando você cria um plano de discagem de UM, você pode configurar o número de dígitos nos ramais, o tipo de identificador de recurso uniforme (URI) e a voz sobre configuração de segurança IP (VoIP) para o plano de discagem.
 

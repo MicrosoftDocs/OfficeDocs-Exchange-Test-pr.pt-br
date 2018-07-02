@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Para disponibilizar um idioma na lista de idiomas de Unificação de mensagens disponíveis em um plano de discagem ou atendedor automático, você deve instalar primeiro o pacote de idiomas de Unificação de MENSAGENS apropriado. Você pode instalar o pacote de idiomas em um servidor de caixa de correio executando o serviço de Unificação de mensagens do Microsoft Exchange, usando o arquivo executável autoextraível de idioma específico ou o comando **setup.exe /AddUmLanguagePack** . Antes de instalar um pacote de idiomas de Unificação de MENSAGENS, você deve primeiro baixá-lo para uma pasta local no servidor de caixa de correio. Você pode baixar os pacotes de idiomas de Unificação de MENSAGENS do [Exchange Server 2013 UM pacotes de idiomas](https://go.microsoft.com/fwlink/p/?linkid=266542). Há um arquivo executável separado para cada idioma.
 

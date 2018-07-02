@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Log de conectividade registra a atividade de conexão de saída que é usada para transmitir mensagens de um serviço de transporte no Exchange server. A finalidade do log de conectividade não é controlar a transmissão de mensagens de email individuais. Em vez disso, o log de conectividade rastreia a atividade de conexão da fonte para o destino, independentemente de quantas mensagens são transmitidas. Log de conectividade está disponível no serviço Front End Transport nos servidores de acesso para cliente, o serviço de transporte em servidores de caixa de correio e o serviço de transporte de caixa de correio em servidores de caixa de correio. A lista a seguir descreve o tipo de informações registradas no log de conectividade:
 

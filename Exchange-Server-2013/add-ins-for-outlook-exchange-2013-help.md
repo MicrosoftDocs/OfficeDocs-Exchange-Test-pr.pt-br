@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-03-13_
+_**Tópico modificado em:** 2017-03-13_
 
-**Resumo:** uma visão geral dos suplementos do Outlook, que funcionam com o Outlook em computadores Windows e MacIntosh, em dispositivos móveis e no Outlook Web App e Outlook na web.
+**Resumo:**  uma visão geral dos suplementos do Outlook, que funcionam com o Outlook em computadores Windows e MacIntosh, em dispositivos móveis e no Outlook Web App e Outlook na web.
 
 Suplementos para Outlook são aplicativos que estendem a utilidade dos clientes do Outlook, adicionando informações ou ferramentas que os usuários podem utilizar sem precisar sair do Outlook. Suplementos são criados pelos desenvolvedores de terceiros e podem ser instalados a partir de um arquivo ou uma URL ou do Office Store. Por padrão, todos os usuários podem instalar suplementos administradores do Exchange podem usar funções para controlar a capacidade dos usuários de instalar suplementos.
 

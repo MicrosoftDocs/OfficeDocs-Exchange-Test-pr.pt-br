@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-16_
+_**Tópico modificado em:** 2012-11-16_
 
 Você pode usar o snap-in Serviços no Microsoft Management Console (MMC) ou cmd.exe em um prompt de comando para parar MicrosoftExchange o serviço de roteador de Unificação de chamada em um servidor de acesso para cliente. Pode haver ocasiões quando você precisar parar desse serviço, por exemplo, quando você tem que colocar o servidor de acesso para cliente offline. Quando você parar MicrosoftExchange o serviço de roteador de Unificação de chamada, o servidor de acesso para cliente não conseguirá aceite e processe as chamadas recebidas.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Escopos da função de gerenciamento determinam quais objetos são disponibilizados para um usuário para que os objetos podem ser alterados usando os cmdlets e parâmetros atribuídos a eles. Adicionando um escopo de gerenciamento, você pode configurar as atribuições de função de gerenciamento para que os usuários podem administrar servidores específicos, bancos de dados, os destinatários e outros objetos em sua organização enquanto impedidos alterando a outros objetos.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Em Exchange Server 2013, é possível estabelecer uma ação para criar um relatório de incidente dentro de um conjunto de regras de política DLP. Além disso, você pode indicar a quem o relatório deve ser enviado e o que fazer com a mensagem original. O relatório de incidente pode conter qualquer uma das seguintes informações.
 

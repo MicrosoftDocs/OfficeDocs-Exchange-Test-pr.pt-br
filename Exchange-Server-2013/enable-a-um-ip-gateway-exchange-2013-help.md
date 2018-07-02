@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Por padrão, quando um gateway IP da Unificação de Mensagens (UM) é criado, seu status é definido como habilitado. Porém, pode ser necessário desabilitar o gateway IP da UM para deixá-lo offline e não permitir que ele receba chamadas de entrada ou saída. Após criar um gateway IP da UM, você pode controlar sua operação e funcionalidade definindo sua variável de status como habilitado ou desabilitado.
 

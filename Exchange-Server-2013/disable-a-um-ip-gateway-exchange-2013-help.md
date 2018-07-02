@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-13_
+_**Tópico modificado em:** 2012-11-13_
 
 Por padrão, quando você cria um gateway IP de Unificação de mensagens (UM), o status de UM gateway IP está habilitado. Depois que o gateway IP de UM é criado, você pode desabilitar a operação do gateway, definindo seu status como desabilitada. Depois de desabilitar o gateway IP de UM, o gateway IP (VoIP), VoIP IP Private Branch eXchange (PBX) ou controlador de borda de sessão (SBC) que ele tenha configurado para usar não são mais pode processar chamadas de Unificação de mensagens de entrada.
 

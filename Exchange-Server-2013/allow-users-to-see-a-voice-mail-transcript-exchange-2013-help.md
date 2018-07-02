@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Visualização da caixa postal é um recurso que está disponível para os usuários que receberem suas mensagens de voz da Unificação de mensagens (UM). Visualização da caixa postal aprimora a funcionalidade de caixa postal Unificação de MENSAGENS existente, fornecendo uma versão de texto de gravações de áudio. O texto da caixa postal é exibido em mensagens de email dentro de MicrosoftOutlook Web App, Outlook 2010 e versões posteriores e em outros programas de email com suporte. Para obter mais informações, consulte [As tecnologias de fala da Microsoft](http://go.microsoft.com/fwlink/p/?linkid=187348).
 

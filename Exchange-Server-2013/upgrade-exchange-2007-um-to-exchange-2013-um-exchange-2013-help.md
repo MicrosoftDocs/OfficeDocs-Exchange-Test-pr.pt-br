@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Quando atualiza uma organização do Microsoft Exchange 2007 com Unificação de Mensagens (UM) para a Unificação de Mensagens do Exchange 2007, este são os passos necessários e outros passos já concluídos como parte implantação da UM do Exchange 2007. Dependendo do seu ambiente de telefonia e componentes da UM que foram criados e configurados para suportar a Unificação de Mensagens no Exchange 2007, poderá ter de implantar equipamento de telefonia adicional, incluindo gateways de Voice over IP (VoIP), IP Private Branch eXchanges (PBXs) ou PBXs tradicionais ou habilitado para SIP e, em seguida, crie e configure os componentes da UM adicionais que serão necessários para a UM do Exchange 2013.
 

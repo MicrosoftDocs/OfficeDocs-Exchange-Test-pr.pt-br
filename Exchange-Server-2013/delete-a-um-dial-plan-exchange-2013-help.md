@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-11_
+_**Tópico modificado em:** 2012-11-11_
 
 Você pode excluir um plano de discagem de Unificação de mensagens (UM) existente. Quando você exclui UM plano de discagem, ela não ficarão mais disponível para gateways IP de UM, diretivas de caixa de correio de Unificação de mensagens, e grupos de busca de UM. Você não pode excluir um plano de discagem UM se ela tem referenciado pelo associados a políticas de caixa de correio de UM, atendentes automáticos, gateways IP de UM ou grupos de busca de UM.
 

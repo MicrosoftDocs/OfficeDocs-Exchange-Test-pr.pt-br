@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Todos os dias, funcionários que lidam com informações usam emails para trocar informações importantes, como relatórios e dados financeiros, contratos, informações confidenciais de produtos, relatórios e projeções de vendas, análises da concorrência, informações de pesquisas e patentes e informações sobre clientes e empregados. Como as pessoas podem acessar seus emails de praticamente qualquer lugar, as caixas de correio se transformaram em repositórios contendo grandes quantidades de informações potencialmente confidenciais. Como resultado, o vazamento de informações pode ser uma séria ameaça para as organizações. Para evitar o vazamento de informações, o Microsoft Exchange Server 2013 inclui recursos de Gerenciamento de Direitos de Informação (IRM) que oferecem proteção persistente online e offline de mensagens e anexos de email.
 

@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-01-17_
+_**Tópico modificado em:** 2013-01-17_
 
 Você pode usar o Visualizador de filas na caixa de ferramentas do Exchange para exibir as propriedades de uma mensagem que está na fila de entrega.
 

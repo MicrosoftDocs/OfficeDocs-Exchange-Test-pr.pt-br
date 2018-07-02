@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-13_
+_**Tópico modificado em:** 2012-10-13_
 
 O grupo de diretiva de nomenclatura para grupos de distribuição é aplicado somente aos grupos criados por usuários. Quando você ou outros administradores de usarem o Centro de administração do Exchange (EAC) para criar grupos de distribuição, o diretiva de nomenclatura de grupo é ignorado e não é aplicado ao nome do grupo.
 

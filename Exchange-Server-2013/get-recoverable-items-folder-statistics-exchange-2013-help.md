@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-22_
+_**Tópico modificado em:** 2015-01-22_
 
 A pasta itens recuperáveis contém itens excluídos pelo Microsoft Outlook e usuários do Microsoft OfficeOutlook Web App ou pelo Assistente de caixa de correio. A duração que itens excluídos permaneçam nesta pasta baseia-se as configurações de retenção de item excluído definidas para o banco de dados de caixa de correio ou a caixa de correio. Por padrão, um banco de dados de caixa de correio está configurado para reter itens excluídos 14 dias, e a cota de aviso de itens recuperáveis e a cota de itens recuperáveis são definidas como 20 gigabytes (GB) e 30 GB respectivamente. No entanto, se o bloqueio In-loco ou retenção de litígio estiver habilitada para a caixa de correio, os itens recuperáveis pasta pode acumular itens além do período de retenção especificado excluídos e também pode manter diferentes versões de itens de caixa de correio modificado.
 

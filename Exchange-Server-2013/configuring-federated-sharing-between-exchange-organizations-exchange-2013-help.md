@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Com o compartilhamento federado, os usuários em sua organização do Exchange no local podem compartilhar informações de calendário de disponibilidade com os destinatários em outras organizações do Exchange também configuradas para compartilhamento federado. O compartilhamento de disponibilidade pode ser habilitado entre duas organizações executando o Exchange 2013 e também entre organizações com uma implantação mista do Exchange. Para saber mais sobre compartilhamento federado, consulte [Compartilhamento](sharing-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Uma *diretiva de atribuição de função de gerenciamento* é uma coleção de uma ou mais funções de gerenciamento de usuários finais que permitem a esses usuários gerenciar suas próprias configurações de grupo de distribuição e caixa de correio do Microsoft Exchange Server 2013. As diretivas de atribuição de função, que são parte do modelo de permissões RBAC (controle de acesso baseado na função) no Exchange 2013, permitem controlar quais configurações de grupo de distribuição e caixa de correio específicas seus usuários finais poderão modificar. Grupos de usuários diferentes podem ter diretivas de atribuição de função especializadas para eles.
 

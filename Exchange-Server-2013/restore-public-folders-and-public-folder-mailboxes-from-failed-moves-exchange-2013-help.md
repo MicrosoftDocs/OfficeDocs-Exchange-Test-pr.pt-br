@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-13_
+_**Tópico modificado em:** 2013-02-13_
 
 Se uma solicitação de movimentação para uma pasta pública ou caixa de correio de pasta pública falhar, você poderá restaurar a pasta ou caixa de correio contanto que as seguintes condições se apliquem:
 

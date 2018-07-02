@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `Team Mailboxes` permite que os administradores definam um ou mais caixas de correio locais as políticas de provisionamento e gerenciar caixas de correio de site na organização. Atribuídos a esta função de administradores podem gerenciar caixas de correio de site que não possuem.
 

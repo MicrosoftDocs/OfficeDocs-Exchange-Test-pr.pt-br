@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-12_
+_**Tópico modificado em:** 2012-10-12_
 
 O Editor de modelos de detalhes não contém um botão de **Desfazer**, nem é possível usar um atalho de teclado para uma ação de desfazer. Para desfazer uma adição feitas no modelo, você deve usar a tecla DELETE. Para desfazer uma exclusão, você deve reaplicar a configuração. Você também pode reverter às configurações originais saindo do Editor de modelos de detalhes sem salvar suas alterações. Se você quiser desfazer alterações depois de ter salvado, você pode restaurar o modelo. Quando você restaura um modelo, toda a personalização é perdida e o modelo é restaurado para sua configuração original.
 

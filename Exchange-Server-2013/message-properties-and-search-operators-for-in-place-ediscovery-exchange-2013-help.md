@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico descreve as propriedades de Exchange mensagens de email que você pode pesquisar usando a descoberta eletrônica In-loco & bloqueio no Exchange Server 2013 e Exchange Online. O tópico também descreve os operadores de pesquisa booleana e outras técnicas de consulta de pesquisa que você pode usar para refinar os resultados da pesquisa de descoberta eletrônica.
 

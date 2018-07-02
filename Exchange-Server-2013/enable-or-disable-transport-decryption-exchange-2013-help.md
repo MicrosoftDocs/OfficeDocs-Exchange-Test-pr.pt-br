@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Habilitar a descriptografia de transporte permite que o agente de regras de transporte no Microsoft Exchange Server 2013 servidores de caixa de correio acessar o conteúdo em mensagens protegidas pelo gerenciamento de direitos de informação (IRM). Como resultado, outros agentes de transporte podem acessar o conteúdo da mensagem e, possivelmente, fazer alterações nele. Por exemplo, o agente de regras de transporte talvez seja necessário inspecionar o conteúdo da mensagem e aplicar regras de transporte (por exemplo, as regras que se aplicam a um aviso de isenção à mensagem). Para descriptografar com êxito mensagens protegidas por IRM, você deve adicionar a caixa de correio de entrega federados ao grupo de superusuários configurado em seu servidor do [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) .
 

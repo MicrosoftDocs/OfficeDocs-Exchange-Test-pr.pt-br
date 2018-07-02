@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico discute os componentes, os recursos ou as funcionalidades que foram removidos, descontinuados ou substituídos no Microsoft Exchange Server 2013.
 

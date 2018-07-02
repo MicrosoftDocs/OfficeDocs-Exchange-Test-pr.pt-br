@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Você pode usar a página de **entrada de navegação de menu Novo** para criar um único ou vários mapeamentos de teclas para a empresa ou o menu principal do horário não comercial solicita atendedores automáticos. Você pode definir a ação que será executada quando uma tecla no teclado do telefone é pressionada, por exemplo, transferindo a chamada para um número de ramal ou outro atendedor.
 

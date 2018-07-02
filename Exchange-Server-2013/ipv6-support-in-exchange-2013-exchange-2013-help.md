@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O IPv6 (protocolo IP versão 6) é a versão mais recente do protocolo IP. O IPv6 foi projetado para corrigir muitas das deficiências do IPv4, a versão anterior do protocolo IP.
 

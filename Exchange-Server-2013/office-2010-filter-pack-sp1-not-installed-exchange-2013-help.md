@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Instalação do Exchange Server 2013 não pode continuar porque o computador local requer uma atualização do software. Você precisará instalar essa atualização para continuar a Instalação do Exchange 2013.
 

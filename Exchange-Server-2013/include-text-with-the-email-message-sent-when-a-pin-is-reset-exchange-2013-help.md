@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode incluir texto adicional na mensagem de email enviada aos usuários quando seus Unificação de mensagens (UM) ou o PIN da caixa postal é redefinida. Você pode fazer isso inserindo texto personalizado na caixa de ferramentas **ao Outlook Voice Access PIN de um usuário é redefinido** em uma diretiva de caixa de correio de UM. O texto personalizado pode incluir, por exemplo, as informações relacionadas a segurança para usuários habilitados para UM.
 

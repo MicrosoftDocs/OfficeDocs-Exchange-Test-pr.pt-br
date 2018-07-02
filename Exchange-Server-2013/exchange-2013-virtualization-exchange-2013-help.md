@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-08-08_
+_**Tópico modificado em:** 2017-08-08_
 
 Você pode implantar o Microsoft Exchange Server 2013 em um ambiente virtualizado. Este tópico fornece uma visão geral dos cenários que são suportados para implantar o Exchange 2013 em software de virtualização de hardware.
 

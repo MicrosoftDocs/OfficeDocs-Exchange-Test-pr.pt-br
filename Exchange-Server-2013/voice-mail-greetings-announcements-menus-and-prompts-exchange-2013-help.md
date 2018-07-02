@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Quando você instala a Unificação de mensagens (UM), um conjunto comum padrão de arquivos de áudio usado para o sistema de caixa postal e para comunicados informativos, saudações e prompts de menu é instalado. Embora você possa criar um totalmente funcional auto attendant ou discagem plano UM que usa apenas os prompts de áudio padrão, esses prompts são muito genéricas para servir como uma interface pública aceitável para muitas empresas. Este tópico aborda o sistema e os prompts de menu, saudações e informativos comunicados que são usados pelos planos de discagem de Unificação de mensagens e atendedores automáticos e como elas são usadas quando os chamadores acessar o sistema de caixa postal.
 

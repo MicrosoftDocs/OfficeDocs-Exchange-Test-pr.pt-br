@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010, Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2010, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-11-16_
+_**Tópico modificado em:** 2014-11-16_
 
 Um catálogo de endereços offline (OAB) é uma cópia de uma coleção de lista de endereços que tenha sido baixada para que um usuário do Microsoft Outlook possa acessar o catálogo de endereços enquanto desconectado do servidor. Microsoft Exchange gera os novos arquivos OAB e compacta os arquivos e coloca-los em um compartilhamento de local. Você pode decidir quais listas de endereços são disponibilizadas para os usuários que trabalham offline, e você também pode configurar o método pelo qual os catálogos de endereços são distribuídos.
 

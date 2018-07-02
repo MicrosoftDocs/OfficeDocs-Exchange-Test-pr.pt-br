@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Por padrão, cada plano de discagem de Unificação de mensagens (UM) usa um arquivo. wav de padrão para a saudação de boas-vindas que tem reproduzido para chamadores, incluindo Outlook usuários de acesso de voz que discam para um número do Outlook Voice Access foi configurado. No entanto, você pode criar um arquivo. wav ou. wma para a saudação de boas-vindas e, em seguida, habilitá-lo no plano de discagem de Unificação de MENSAGENS.
 

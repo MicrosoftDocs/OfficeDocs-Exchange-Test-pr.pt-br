@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Quando você exclui um gateway IP de Unificação de Mensagens (UM), servidores do Exchange não podem mais aceitar chamadas de voz de gateway VoIP, central privada de comutação telefônica (PBX) habilitada para protocolo SIP, PBX IP ou controlador de borda de sessão (SBC) associado com o gateway IP de UM.
 

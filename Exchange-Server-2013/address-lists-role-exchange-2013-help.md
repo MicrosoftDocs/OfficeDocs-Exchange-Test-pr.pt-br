@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento `Address Lists` permite que os administradores criem, modifiquem, exibam e removam listas de endereços, listas de endereços globais (GALs), diretivas de catálogo de endereços e listas de endereços offline (OAB) em uma organização.
 

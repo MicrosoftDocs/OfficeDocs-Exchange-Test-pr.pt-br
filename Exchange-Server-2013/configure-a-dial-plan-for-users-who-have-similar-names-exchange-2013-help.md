@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Você pode configurar um plano de discagem de Unificação de Mensagens (UM) para especificar as informações fornecidas aos chamadores quando os usuários têm nomes iguais ou parecidos. A UM usa essa configuração para diferenciar entre os usuários que têm nomes iguais ou parecidos e fornece essas informações aos chamadores. Quando um chamador ou um usuário do Outlook Voice Access precisa inserir letras para localizar um determinado usuário, às vezes, mais de um nome corresponde à entrada do chamador. É possível usar uma das opções disponíveis para fornecer ao chamador mais informações a fim de ajudá-lo a localizar o usuário desejado.
 

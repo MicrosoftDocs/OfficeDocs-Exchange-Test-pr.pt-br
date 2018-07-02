@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-09_
+_**Tópico modificado em:** 2014-06-09_
 
 Uma função de gerenciamento sem escopo pode ser usada oferecer a administradores e usuários especializados acesso a scripts do Windows PowerShell e cmdlets não-Exchange. Você pode também criar uma função de nível superior sem escopo e adicionar scripts ou cmdlets não-Exchange a essa função ou criar uma função com base em uma função de nível superior sem escopo existente. Após uma função sem escopo ter sido criada e personalizada, ela poderá ser atribuída a grupos de funções de gerenciamento, usuários e grupos de segurança universal (USGs). Funções sem escopo não podem ser atribuídas a diretivas de atribuição de função de gerenciamento. Para obter mais informações sobre funções sem escopo, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Ao criar um plano de discagem, você pode configurar os métodos ou modos primários e secundários de *métodos de discagem por nome* pelos quais os chamadores podem pesquisar por nomes. Os chamadores usam métodos de discagem por nome para localizar e contatar um usuário ao ligar para um número do Outlook Voice Access ou para o atendedor automático de UM associado ao plano de discagem. Os chamadores podem usar entradas de discagem por tom para localizar um usuário habilitado para UM.
 

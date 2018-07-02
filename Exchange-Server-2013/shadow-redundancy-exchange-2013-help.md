@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Redundância de sombra foi introduzida no Microsoft Exchange Server 2010 para fornecer cópias redundantes de mensagens antes que eles estiver entregue às caixas de correio. No Exchange 2010, redundância de sombra atrasada exclusão de uma mensagem do banco de dados de transporte em um servidor de transporte até que o servidor verificado o próximo salto no caminho de entrega da mensagem concluída entrega. Se o próximo salto falhou antes de relatar uma entrega bem-sucedida volta para o servidor de transporte, o servidor de transporte reenviado a mensagem para esse próximo salto. servidores Exchange 2010 usado o verbo XSHADOW para anunciar seu suporte de redundância de sombra. Se um servidor SMTP não oferecer suporte a redundância de sombra, Exchange 2010 usado atrasada com base em um intervalo de tempo configurado no conector de recebimento de fazer uma cópia redundante da mensagem de confirmação.
 

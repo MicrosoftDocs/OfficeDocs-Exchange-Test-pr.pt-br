@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-01-18_
+_**Tópico modificado em:** 2013-01-18_
 
 É possível habilitar ou desabilitar o IMAP4 para um usuário.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013, as operações de gerenciamento de direitos de informação (IRM) são registradas nos logs IRM. Logs IRM ajudarão-lo a monitorar e solucionar problemas de interações entre o cliente do Rights Management Services (RMS) em um servidor Exchange 2013 e cluster Active Directory Rights Management Services (AD RMS) em sua organização.
 
@@ -105,11 +105,11 @@ Os arquivos de log do IRM são arquivos de texto que contêm dados no formato CS
 
   - **\#Software**   O nome do software que criou o arquivo de log do IRM. Geralmente, o valor é `Microsoft Exchange Server`.
 
-  - **\#Version:**   Número da versão do software que criou o arquivo de log do IRM.
+  - **\#Version:**    Número da versão do software que criou o arquivo de log do IRM.
 
   - **\#Log-type**   Valor do tipo de log, `Rms Client Manager Log`.
 
-  - **\#Date:**   A data e a hora UTC do momento em que o arquivo de log foi criado. A data e a hora UTC é representada no formato de data e hora ISO 8601: *aaaa*-*mm*-*dd*T*hh*:*mm*:*ss.fff*Z, em que:
+  - **\#Date:**    A data e a hora UTC do momento em que o arquivo de log foi criado. A data e a hora UTC é representada no formato de data e hora ISO 8601: *aaaa*-*mm*-*dd*T*hh*:*mm*:*ss.fff*Z, em que:
     
       - aaaa = ano
     

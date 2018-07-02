@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 *Outdialing* é o processo pelo qual os usuários ligam para um plano de discagem de Unificação de mensagens usando um número do Outlook Voice Access e o local ou transferir uma chamada para um número de telefone interno ou externo. A Unificação de mensagens usa muitas configurações outdialing para discar chamadas dos usuários. Para configurar a discagem externa, você deve configurar as regras de discagem, grupos de regras de discagem e discagem autorizações na Unificação de mensagens (UM) planos de discagem e autorizam a discagem externa em planos de discagem de Unificação de mensagens, diretivas de caixa de correio de Unificação de mensagens e atendedores automáticos. Você também pode configurar planos de discagem de Unificação de mensagens ter códigos de acesso, um prefixo de número nacional, ou de discagem e formatos de número do país/região ou internacionais que permitem que você controle a discagem externa em sua organização. Este tópico discute as regras de discagem, grupos de regras de discagem e discagem autorizações e como elas são usadas para autorizar e controle discagem externa para sua organização.
 

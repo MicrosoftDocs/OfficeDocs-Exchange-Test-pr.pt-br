@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2016-03-17_
+_**Tópico modificado em:** 2016-03-17_
 
 Em uma configuração resiliente do site, a recuperação automática como resposta a uma falha no nível do site pode ocorrer dentro de um DAG, o que permite que o sistema de mensagens permaneça em um estado funcional. Essa configuração exige pelo menos três locais, devido ao fato de exigir a implantação dos membros DAG em dois locais e do servidor testemunha do DAG em um terceiro local.
 

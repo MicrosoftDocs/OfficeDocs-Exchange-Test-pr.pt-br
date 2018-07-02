@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-25_
+_**Tópico modificado em:** 2013-04-25_
 
 Se você estiver planejando e implantando MicrosoftExchange 2013 Unificação de mensagens (UM) em sua rede, é preciso entender as redes de Unificação de mensagens e telefonia. Este tópico fornece uma visão geral de telefonia conceitos de infraestrutura e componentes que ajudarão você a planejar e implantar servidores que executam Exchange 2013 Unificação de mensagens.
 

@@ -13,32 +13,32 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-11-16_
+_**Tópico modificado em:** 2017-11-16_
 
 Você pode usar um arquivo CSV para em massa migrar um grande número de caixas de correio do usuário. Quando você usar o Centro de administração do Exchange (EAC) ou o cmdlet **New-MigrationBatch** no Shell de Gerenciamento do Exchange para criar um lote de migração, você pode especificar um arquivo CSV. Usando um CSV para especificar vários usuários para migrar um lote de migração tem suporte nos seguintes cenários de migração:
 
   - **Move em organizações do local Exchange**
     
-      - **Movimentação local:** Uma movimentação local é onde você move caixas de correio do banco de dados de uma caixa de correio para outro. Uma movimentação local ocorre em uma única floresta.
+      - **Movimentação local:**  Uma movimentação local é onde você move caixas de correio do banco de dados de uma caixa de correio para outro. Uma movimentação local ocorre em uma única floresta.
     
-      - **Enterprise entre florestas mover:** Em uma movimentação entre florestas enterprise, caixas de correio são movidas para uma floresta diferente. Movimentações entre florestas são iniciadas a partir da floresta de destino, que é a floresta que você deseja mover as caixas de correio, ou de floresta de origem, que é a floresta que atualmente hospeda as caixas de correio.
+      - **Enterprise entre florestas mover:**  Em uma movimentação entre florestas enterprise, caixas de correio são movidas para uma floresta diferente. Movimentações entre florestas são iniciadas a partir da floresta de destino, que é a floresta que você deseja mover as caixas de correio, ou de floresta de origem, que é a floresta que atualmente hospeda as caixas de correio.
 
   - **Inclusão e exclusão no Exchange Online**
     
-      - **Migração de movimentação remota de inclusão:** Em uma implantação híbrida Exchange, você pode mover caixas de correio de uma organização local do Exchange para Exchange Online. Isso também é conhecido como uma migração de movimentação remota de *inclusão* porque você onboard caixas de correio para Exchange Online.
+      - **Migração de movimentação remota de inclusão:**  Em uma implantação híbrida Exchange, você pode mover caixas de correio de uma organização local do Exchange para Exchange Online. Isso também é conhecido como uma migração de movimentação remota de *inclusão* porque você onboard caixas de correio para Exchange Online.
     
-      - **Migração de movimentação remota de exclusão:** Você também pode realizar uma migração de movimentação remota de *exclusão* , onde você migra caixas de correio de Exchange Online à sua organização de Exchange local.
+      - **Migração de movimentação remota de exclusão:**  Você também pode realizar uma migração de movimentação remota de *exclusão* , onde você migra caixas de correio de Exchange Online à sua organização de Exchange local.
         
 
         > [!TIP]
         > As migrações por movimentação com inclusão e exclusão remotas são iniciadas em sua organização do Exchange Online.
 
     
-      - **Migração do Exchange testados:** Você também pode migrar um subconjunto de caixas de correio de uma organização local do Exchange para Exchange Online. Isso é outro tipo de migração de inclusão. Você pode migrar apenas Exchange 2003 e Exchange 2007 caixas de correio usando uma migração em estágios Exchange. Migrando Exchange 2010 e Exchange 2013 caixas de correio não é suportado usando uma migração em estágios. Antes de executar uma migração em estágios, você precisa usar a sincronização de diretório ou algum outro método para provisionar usuários de email em sua organização de Exchange Online.
+      - **Migração do Exchange testados:**  Você também pode migrar um subconjunto de caixas de correio de uma organização local do Exchange para Exchange Online. Isso é outro tipo de migração de inclusão. Você pode migrar apenas Exchange 2003 e Exchange 2007 caixas de correio usando uma migração em estágios Exchange. Migrando Exchange 2010 e Exchange 2013 caixas de correio não é suportado usando uma migração em estágios. Antes de executar uma migração em estágios, você precisa usar a sincronização de diretório ou algum outro método para provisionar usuários de email em sua organização de Exchange Online.
     
-      - **Migração IMAP:** Esse tipo de inclusão de migração migra dados de caixa de correio de um servidor IMAP (incluindo Exchange ) para Exchange Online. Para uma migração de IMAP, você deve provisionar caixas de correio em Exchange Online para que possa migrar dados de caixa de correio.
+      - **Migração IMAP:**  Esse tipo de inclusão de migração migra dados de caixa de correio de um servidor IMAP (incluindo Exchange ) para Exchange Online. Para uma migração de IMAP, você deve provisionar caixas de correio em Exchange Online para que possa migrar dados de caixa de correio.
 
 
 > [!TIP]

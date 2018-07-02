@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-03-15_
+_**Tópico modificado em:** 2013-03-15_
 
 Log de protocolo registra as conversas de SMTP que ocorrem em conectores de envio e conectores de recebimento como parte da entrega da mensagem.
 

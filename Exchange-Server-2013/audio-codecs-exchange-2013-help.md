@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Na Unificação de Mensagens (UM), um codec de áudio é usado para armazenar mensagens de caixa postal. Outro codec é usado entre um gateway VoIP ou Central Privada de Comutação Telefônica (PBX) e o servidor de Caixa de Correio executando o serviço de Unificação de Mensagens do Microsoft Exchange ou o servidor de Acesso para Cliente executando o serviço de Roteador de Chamadas da Unificação de Mensagens do Microsoft Exchange. A Unificação de Mensagens pode usar qualquer dos quatro codecs a seguir para criar e armazenar mensagens de voz:
 

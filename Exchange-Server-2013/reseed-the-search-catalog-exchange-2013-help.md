@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Se o catálogo do índice de conteúdo de uma cópia de banco de dados de caixa de correio for corrompido, talvez seja necessário propagar novamente o catálogo. Os índices de conteúdo corrompidos são indicados no log de eventos do aplicativo pelo evento a seguir.
 

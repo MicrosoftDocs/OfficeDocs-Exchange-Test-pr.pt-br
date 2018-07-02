@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico explica como implantar um topologia entre florestas no Exchange 2013 usando o Microsoft Forefront Identity Manager 2010 R2 SP1. Para implantar o Exchange 2013 em uma topologia entre florestas, você deve primeiro instalar o Exchange 2013 em cada floresta, e então conectar as florestas para que os usuários possam ver os dados de disponibilidade e endereço entre as florestas.
 

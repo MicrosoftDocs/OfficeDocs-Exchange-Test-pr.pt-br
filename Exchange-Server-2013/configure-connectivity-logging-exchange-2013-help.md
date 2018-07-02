@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-18_
+_**Tópico modificado em:** 2013-02-18_
 
 O log de conectividade grava a atividade de conexão de saída que é usada para transmitir mensagens de um serviço de transporte em um servidor Exchange. O log de conectividade grava a origem, o destino, o número de mensagens e os bytes transmitidos da conexão, além de informações de falha de conexão.
 

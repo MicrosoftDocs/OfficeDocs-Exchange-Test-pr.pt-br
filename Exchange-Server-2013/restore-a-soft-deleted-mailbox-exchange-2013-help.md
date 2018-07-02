@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-29_
+_**Tópico modificado em:** 2012-11-29_
 
 Use o Shell para se conectar a uma caixa de correio excluída a uma conta de usuário do Active Directory. Uma caixa de correio se tornará *excluída* no banco de dados de caixa de correio de origem quando ele é movido para um banco de dados de caixa de correio diferente. Exchange totalmente não excluir a caixa de correio do banco de dados de caixa de correio de origem quando a movimentação está concluída. Em vez disso, a caixa de correio no banco de dados de caixa de correio de origem é transferida para um estado excluída. Isso permite que você restaure a caixa de correio de origem no caso de erros ocorrem durante a movimentação que causar uma falha ou corrupção da caixa de correio no banco de dados de destino. Se isso acontecer, você pode restaurar a caixa de correio de origem e tente a movimentação novamente.
 

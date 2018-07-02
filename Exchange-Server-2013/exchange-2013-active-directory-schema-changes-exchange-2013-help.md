@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-05-18_
+_**Tópico modificado em:** 2016-05-18_
 
 Microsoft Exchange Server 2013 adiciona novo e modifica os atributos e classes de esquema existentes Active Directory. Este tópico de referência fornece um resumo do Active Directory alterações de esquema feitas quando você instala o lançamento para manufacturing (RTM) versão de Exchange 2013 ou qualquer uma das suas atualizações cumulativas ou service packs. Consulte os arquivos. ldf para obter mais informações sobre alterações no esquema de Active Directory. Os arquivos. ldf estão localizados no diretório \\amd64\\Setup\\Data\\ em arquivos de instalação do Exchange.
 

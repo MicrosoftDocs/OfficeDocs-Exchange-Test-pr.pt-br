@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade Exchange ActiveSync monitora a integridade geral do serviço ActiveSync para clientes móveis em sua organização. O conjunto de integridade ActiveSync está relacionado aos seguintes conjuntos de integridade:
 

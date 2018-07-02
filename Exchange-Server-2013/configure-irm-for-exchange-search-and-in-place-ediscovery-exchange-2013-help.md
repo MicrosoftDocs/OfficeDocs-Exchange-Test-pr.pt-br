@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-16_
+_**Tópico modificado em:** 2012-11-16_
 
 No Microsoft Exchange Server 2013, você pode configurar o gerenciamento de direitos de informação (IRM) para que Exchange pesquisa pode indexar mensagens protegidas por IRM.
 

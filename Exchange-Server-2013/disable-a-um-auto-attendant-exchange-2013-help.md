@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Por padrão, quando um atendedor automático de Unificação de mensagens (UM) é criado, seu status é definido como desabilitado. Depois de criar UM atendedor automático, você pode alterar seu status ao controle se ele pode atender a chamadas de entrada. Por exemplo, você talvez queira desabilitar UM atendedor automático quando você estiver gravando ou regravação prompts personalizados e mensagens.
 

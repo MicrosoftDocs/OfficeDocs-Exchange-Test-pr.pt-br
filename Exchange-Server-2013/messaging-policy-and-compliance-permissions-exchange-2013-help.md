@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 As permissões exigidas para configurar as diretivas e a conformidade de mensagens variam dependendo do procedimento que está sendo executado ou do cmdlet que você deseja executar. Para obter mais informações sobre diretivas e conformidade de mensagens, consulte [Conformidade e política de sistema de mensagens](messaging-policy-and-compliance-exchange-2013-help.md).
 

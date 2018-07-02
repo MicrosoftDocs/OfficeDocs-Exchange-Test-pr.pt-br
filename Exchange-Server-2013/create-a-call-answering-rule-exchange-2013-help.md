@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode usar o Shell para criar a chamada de um ou mais regras de atendimento de um usuário. Você também pode usar o cmdlet **New-UMCallAnsweringRule** em um script do Shell de gerenciamento do Exchange para criar regras de atendimento de chamada para vários usuários.
 

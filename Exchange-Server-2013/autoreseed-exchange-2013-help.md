@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Nova propagação automática ou AutoReseed, é um recurso que é o substituto do que é normalmente controlado pelo administrador de ação em resposta a uma falha de disco, evento de corrupção do banco de dados ou outro problema que necessita de uma nova propagação de uma cópia do banco de dados. AutoReseed foi projetado para restaurar automaticamente a redundância de banco de dados após uma falha de disco usando discos sobressalentes que tenham sido configurados no sistema.
 

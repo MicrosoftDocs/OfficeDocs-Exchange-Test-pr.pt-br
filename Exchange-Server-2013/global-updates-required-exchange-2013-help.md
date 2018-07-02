@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2014-12-02_
+_**Tópico modificado em:** 2014-12-02_
 
 Microsoft Exchange Server 2013 a instalação não pode continuar porque o usuário conectado não tem as permissões de conta necessárias para atualizá-las globais do Active Directory.
 

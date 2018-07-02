@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Office 365 Enterprise_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Office 365 Enterprise_
 
-_**Tópico modificado em:**2017-06-19_
+_**Tópico modificado em:** 2017-06-19_
 
 Bloqueio in-loco, retenção de litígio e [políticas de retenção do Office 365](http://go.microsoft.com/fwlink/?linkid=827811) (criados no Centro de Conformidade e Segurança do Office 365 ) permitem que você preserve conteúdo de caixa de correio para atender aos requisitos de descoberta eletrônica e de conformidade a normas. Informações sobre destinatários endereçada diretamente em para e Cc campos de uma mensagem é incluída em todas as mensagens por padrão, mas sua organização pode exigir a capacidade de pesquisar e reproduza detalhes sobre todos os destinatários de uma mensagem. Isso inclui:
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-11_
+_**Tópico modificado em:** 2012-10-11_
 
 Obrigado por clicar no link que o trouxe a esta página. Embora não tenhamos, atualmente, orientações de solução de problemas para este conjunto de integridade, a sua tentativa de localizar o conteúdo nos ajuda a priorizar os artigos de orientação de solução de problemas do Pacote de Gerenciamento do Exchange 2013. Veja a seguir algumas ações recomendadas que podem ajudar você a resolver os problemas desse conjunto de integridade:
 

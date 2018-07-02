@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O encaminhamento de emails permite que você configure uma caixa de correio para encaminhar mensagens de email enviadas a essa caixa de correio para a caixa de correio de outro usuário dentro ou fora de sua organização.
 

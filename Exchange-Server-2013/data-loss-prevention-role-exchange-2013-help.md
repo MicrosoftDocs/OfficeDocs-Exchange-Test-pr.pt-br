@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de prevenção de perda de dados permite que os administradores criem e gerenciem políticas de (DLP) de prevenção de perda de dados e as regras delas, que podem afetar a entrega de email para uma organização inteira. Além disso, essa função fornece aos administradores a capacidade de configurar dicas de política que aparecer nos clientes de email e gerenciar relatórios de violação de política de DLP. Essa função DLP também habilita o acesso às regras de transporte Microsoft Exchange. Para obter mais informações sobre regras de transporte no Exchange, consulte os seguintes tópicos:
 

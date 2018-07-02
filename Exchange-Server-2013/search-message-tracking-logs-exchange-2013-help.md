@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-25_
+_**Tópico modificado em:** 2013-02-25_
 
 No Microsoft Exchange Server 2013, o log de controle de mensagens é um registro detalhado de todas as atividades de mensagem à medida que as mensagens são transferidas de e para o serviço de Transporte em servidores de Caixa de Correio, caixas de correio em servidores de Caixa de Correio e servidores de Transporte de Borda.
 
@@ -91,7 +91,7 @@ Este exemplo pesquisa nos logs de controle de mensagens usando os seguintes crit
 
 ## Use o Shell para procurar nos logs de controle de mensagens entradas de mensagens em vários servidores
 
-Normalmente, o valor no campo do cabeçalho **MessageID:** permanece constante enquanto a mensagem é transmitida por toda a organização do Exchange. Essa propriedade é denominada **InternetMessageId** nos utilitários de visualização de filas e **MessageId** nos utilitários de visualização de log de controle de mensagens. Depois de ter determinado o valor `MessageID:` de uma mensagem específica, você pode procurar informações sobre essa mensagem nos logs de controle de mensagens em cada servidor de Caixa de Correio na organização do Exchange.
+Normalmente, o valor no campo do cabeçalho **MessageID:**  permanece constante enquanto a mensagem é transmitida por toda a organização do Exchange. Essa propriedade é denominada **InternetMessageId** nos utilitários de visualização de filas e **MessageId** nos utilitários de visualização de log de controle de mensagens. Depois de ter determinado o valor `MessageID:` de uma mensagem específica, você pode procurar informações sobre essa mensagem nos logs de controle de mensagens em cada servidor de Caixa de Correio na organização do Exchange.
 
 Para procurar todas as entradas de log de ​​controle de mensagens para uma mensagem específica em todos os servidores de Caixa de Correio, use a seguinte sintaxe.
 
@@ -99,7 +99,7 @@ Para procurar todas as entradas de log de ​​controle de mensagens para uma m
 
 Este exemplo pesquisa nos logs de controle de mensagens em todos os servidores de caixa de correio do Exchange 2013 usando os seguintes critérios de pesquisa:
 
-  - Encontre todas as entradas relacionadas a uma mensagem que tem um valor de **MessageID:**`<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Observe que você pode omitir os colchetes angulares (`<``>`). Se você não o fizer, será preciso colocar todo o valor **MessageID:** entre aspas.
+  - Encontre todas as entradas relacionadas a uma mensagem que tem um valor de **MessageID:** `<ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com>`. Observe que você pode omitir os colchetes angulares (`<``>`). Se você não o fizer, será preciso colocar todo o valor **MessageID:**  entre aspas.
 
   - Para cada entrada, exiba os campos **date-time**, **server-hostname**, **client-hostname**, **source**, **event-id** e **recipient-address**.
 

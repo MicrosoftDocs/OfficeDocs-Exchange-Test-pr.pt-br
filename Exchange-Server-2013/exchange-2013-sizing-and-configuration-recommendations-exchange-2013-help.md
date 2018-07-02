@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-03-27_
+_**Tópico modificado em:** 2017-03-27_
 
 O Exchange 2013 exige mais recursos do sistema do que as versões anteriores do Exchange. Dimensionando corretamente sua infraestrutura do Exchange 2013 e fazendo algumas configurações recomendadas nos componentes relacionados ao Exchange dentro dessa infraestrutura, você pode preparar a base para uma implantação com desempenho ideal.
 

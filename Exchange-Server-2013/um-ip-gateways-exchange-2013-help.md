@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2014-06-24_
+_**Tópico modificado em:** 2014-06-24_
 
 Um gateway IP de Unificação de Mensagens (UM) representa um gateway VoIP físico, PBX IP ou dispositivo de hardware SBC. Antes que um gateway VoIP, PBX IP ou SBC possa ser usado para responder chamadas de entrada e enviar chamadas de saída para usuários de caixa postal, um gateway IP de UM deve ser criado no serviço de diretório.
 

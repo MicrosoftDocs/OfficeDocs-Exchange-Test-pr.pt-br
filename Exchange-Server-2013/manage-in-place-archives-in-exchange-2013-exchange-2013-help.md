@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-02-01_
+_**Tópico modificado em:** 2016-02-01_
 
 Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da sua organização, eliminando a necessidade de arquivos de armazenamento pessoal (. pst) e permitindo que você atenda aos requisitos de retenção e descoberta eletrônica de mensagem da sua organização. Com o arquivamento habilitado, os usuários podem armazenar mensagens em uma caixa de correio de arquivo morto, que pode ser acessada por meio de MicrosoftOutlook e Outlook Web App.
 

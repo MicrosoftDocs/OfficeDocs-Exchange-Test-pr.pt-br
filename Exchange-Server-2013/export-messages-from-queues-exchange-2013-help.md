@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-05-05_
+_**Tópico modificado em:** 2014-05-05_
 
 Quando você exporta uma mensagem de uma fila para um arquivo, a mensagem não é removida da fila. Uma cópia da mensagem é feita como arquivo de texto simples no local especificado. O arquivo resultante pode ser exibido em uma aplicativo, como um editor de texto ou um cliente de email, ou o arquivo de mensagem pode ser reenviado usando o diretório de Repetição ou qualquer outro servidor de Caixa de Correio ou servidor de Transporte de Borda dentro ou fora da organização do Exchange.
 

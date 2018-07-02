@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2018-04-16_
+_**Tópico modificado em:** 2018-04-16_
 
 Bem-vindo ao Microsoft Exchange Server 2013 \! Este tópico contém informações importantes que você precisa saber para implantar o Exchange 2013 com êxito. Leia este tópico completamente antes de iniciar sua implantação.
 

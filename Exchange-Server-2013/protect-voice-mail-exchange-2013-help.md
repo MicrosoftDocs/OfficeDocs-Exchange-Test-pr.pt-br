@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Alguns herdado Private Branch eXchange (PBX) e os sistemas de telefonia IP PBX permitir que o chamador marcar uma mensagem de email de voz como particular, bloquear o destinatário pretendido da mensagem encaminhem a outras pessoas. Em sistemas de correio de voz integrados, uma mensagem de voz pode ser acessada de várias maneiras, que permite que mais de um desafio para evitar mensagens de voz marcado como particulares sejam expostas aos ouvintes indesejadas.
 

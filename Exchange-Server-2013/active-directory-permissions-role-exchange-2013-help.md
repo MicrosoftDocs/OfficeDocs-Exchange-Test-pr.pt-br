@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento `Active Directory Permissions` permite aos administradores configurar permissões do Active Directory em uma organização. Alguns recursos que usam permissões do Active Directory ou uma ACL (lista de controle de acesso) incluem conectores de Envio e Recebimento, e Enviam Como e Enviam em nome das permissões das caixas de correio.
 

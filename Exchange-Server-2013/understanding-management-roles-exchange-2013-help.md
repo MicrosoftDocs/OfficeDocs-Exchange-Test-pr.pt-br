@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Funções de gerenciamento são parte do modelo de permissões RBAC (controle de acesso baseado na função) usado no Microsoft Exchange Server 2013. As funções atuam como um agrupamento lógico de cmdlets que são combinados para fornecer acesso à exibição ou modificação da configuração de componentes do Exchange 2013, como caixas de correio, regras de transporte e destinatários. As funções de gerenciamento podem ser combinadas em agrupamentos maiores denominados grupos de funções de gerenciamento e políticas de atribuição de funções de gerenciamento, que permitem o gerenciamento de áreas de recursos e configuração de destinatários. Os grupos de funções e as diretivas de atribuição de funções atribuem permissões a administradores e usuários finais, respectivamente. Para mais informações sobre o grupos de funções de gerenciamento e diretivas de atribuição de funções, consulte [Controle de acesso baseado em função de compreensão](understanding-role-based-access-control-exchange-2013-help.md).
 

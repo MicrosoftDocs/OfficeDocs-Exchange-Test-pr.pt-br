@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Quando você mover uma caixa de correio, você está movê-lo de um *banco de dados de caixa de correio de origem* para um *banco de dados de caixa de correio de destino*. O banco de dados de caixa de correio de destino pode ser no mesmo servidor, em um servidor diferente, em um domínio diferente, em um site diferente Active Directory ou em outra floresta.
 

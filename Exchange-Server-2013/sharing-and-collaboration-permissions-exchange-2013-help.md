@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 As permissões necessárias para configurar os recursos de compartilhamento e colaboração variam dependendo o procedimento que está sendo executado ou o cmdlet que você deseja executar. Para obter mais informações sobre o compartilhamento e colaboração, consulte [Colaboração](collaboration-exchange-2013-help.md) e [Compartilhamento](sharing-exchange-2013-help.md).
 

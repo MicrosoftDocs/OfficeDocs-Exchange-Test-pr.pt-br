@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Mensagens de email e anexos cada vez mais contenham informações essenciais aos negócios como dados financeiros, documentos de estratégia de negócios e as especificações do produto ou informações de identificação pessoal (PII) como registros de funcionários, números de cartão de crédito, números do seguro social e detalhes do contato. Há um número de normas específicas do setor e o locais em várias partes do mundo que governam o conjunto, armazenamento e a divulgação de informações de identificação Pessoal.
 

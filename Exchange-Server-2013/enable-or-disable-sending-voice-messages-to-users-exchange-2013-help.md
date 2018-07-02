@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-13_
+_**Tópico modificado em:** 2012-12-13_
 
 Você pode permitir que os chamadores enviar mensagens de voz aos usuários de um atendedor automático de Unificação de mensagens (UM) ou impedir isso. Por padrão, essa opção está habilitada e permite que os chamadores enviar mensagens de voz aos usuários em UM plano de discagem associado do atendedor automático. Se você desabilitar essa opção, o atendedor automático não convida os chamadores para enviar uma mensagem de voz durante um prompt do sistema.
 

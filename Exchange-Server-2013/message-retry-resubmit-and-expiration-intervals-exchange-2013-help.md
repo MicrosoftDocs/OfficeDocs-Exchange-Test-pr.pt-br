@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013, as mensagens que não podem ser entregue com êxito estão sujeitos vários prazos de repetição, reenvio e expiração com base na origem e de destino da mensagem. *Repetir* é uma tentativa de conexão renovado com o destino. *Reenviar* é o ato de enviar mensagens de volta para a fila de envio para o categorizador reprocessar. A mensagem *expira* após todos os esforços de entrega falharam por um período de tempo especificado. Depois que uma mensagem expira, o remetente é notificado de que a falha de entrega. Em seguida, a mensagem é excluída da fila.
 

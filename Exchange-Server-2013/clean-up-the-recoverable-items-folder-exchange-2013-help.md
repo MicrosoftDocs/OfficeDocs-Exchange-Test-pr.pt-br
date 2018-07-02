@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-09-30_
+_**Tópico modificado em:** 2015-09-30_
 
 (Este tópico foi projetado para administradores de Exchange.)
 

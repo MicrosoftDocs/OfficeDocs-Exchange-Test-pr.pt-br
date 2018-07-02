@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade de Unificação de mensagens (UM) monitora a integridade geral do serviço de Unificação de mensagens em sua organização.
 
@@ -158,7 +158,7 @@ Examine os logs de eventos para investigar qual pool do Lync está selecionado e
 
 Renove o certificado do serviço de Unificação de mensagens no servidor de caixa de correio.
 
-**Etapas de solução de problemas adicionais:**
+**Etapas de solução de problemas adicionais:** 
 
 1.  Inicie o Gerenciador do IIS e conecte-se ao servidor que está relatando o problema para determinar se o pool de aplicativos **MSExchangeServicesAppPool** está sendo executado.
 

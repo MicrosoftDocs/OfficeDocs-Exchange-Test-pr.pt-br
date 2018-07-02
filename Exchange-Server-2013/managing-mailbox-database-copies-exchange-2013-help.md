@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-08-26_
+_**Tópico modificado em:** 2016-08-26_
 
 Depois que o grupo de disponibilidade de banco de dados (DAG) tiver sido criado, configurado e preenchido com os membros do servidor de Caixa de Correio, você pode usar o Centro de Administração do Exchange (EAC) ou o Shell de gerenciamento do Exchange para adicionar cópias de bancos de dados de caixa de correio de maneira flexível e granular.
 

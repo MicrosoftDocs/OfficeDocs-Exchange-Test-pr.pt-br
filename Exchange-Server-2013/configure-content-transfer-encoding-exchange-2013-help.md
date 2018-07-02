@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 *Codificação de transferência de conteúdo* define os métodos de codificação para transformar dados de mensagem de email binário em formato de texto sem formatação a US-ASCII. Essa transformação permite a mensagem se desloque em servidores mais antigos da mensagens SMTP que suportam somente as mensagens em texto US-ASCII. Codificação de transferência de conteúdo é definida no RFC 2045. A método de codificação de transferência é armazenada no campo de cabeçalho **Codificação de transferência de conteúdo** da mensagem. No Microsoft Exchange Server 2013, os seguintes métodos de codificação de transferência de conteúdo estão disponíveis:
 

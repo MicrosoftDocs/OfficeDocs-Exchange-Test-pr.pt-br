@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 A filtragem de anexo é fornecida pelo agente de Filtro de Anexo disponível somente em servidores Transporte de Borda. A filtragem de anexo pode ajudar a impedir que arquivos anexados a mensagens de email entrem em sua organização. É possível configurar uma ou mais entradas de filtro de anexo para filtrar anexos por tipo de conteúdo ou nome de arquivo.
 

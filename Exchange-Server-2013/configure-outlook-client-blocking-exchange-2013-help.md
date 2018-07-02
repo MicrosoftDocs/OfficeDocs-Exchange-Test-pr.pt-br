@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Exchange Server 2013, você pode usar as políticas de retenção ou pastas gerenciadas para mensagens (MRM) de gerenciamento de registros. Somente os usuários executando o Microsoft Outlook 2010 e versões posteriores possuem acesso a todos os recursos de cliente para políticas de retenção. No entanto, as políticas de retenção são aplicadas no servidor de caixa de correio pelo Assistente de pasta gerenciada, independentemente da versão do cliente Outlook usada pelo usuário. Clientes mais antigos do Outlook não exponham a funcionalidade de MRM desses recursos. Por exemplo, porque o Outlook 2007 não oferece suporte a políticas de retenção, os usuários não podem aplicar marcas pessoais a itens ou pastas.
 

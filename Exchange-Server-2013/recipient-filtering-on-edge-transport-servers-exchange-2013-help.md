@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-05-07_
+_**Tópico modificado em:** 2014-05-07_
 
 Filtragem de destinatário é um recurso antispam no Microsoft Exchange Server 2013 que se baseia no cabeçalho RCPT TO SMTP para determinar que ação, se houver, deve ser tomada em uma mensagem de entrada. A Filtragem de destinatário é executada pelo agente de Filtro de Destinatários.
 

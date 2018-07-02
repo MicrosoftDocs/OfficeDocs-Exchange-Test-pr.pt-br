@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-05-04_
+_**Tópico modificado em:** 2016-05-04_
 
 Você pode usar o Shell de Gerenciamento do Exchange para excluir a caixa de correio de descoberta padrão, recriá-la e atribuir permissões a ela.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-14_
+_**Tópico modificado em:** 2012-10-14_
 
 Este tópico explica como remover uma lista de endereços. Você não pode remover a lista de endereços global padrão (GAL).
 

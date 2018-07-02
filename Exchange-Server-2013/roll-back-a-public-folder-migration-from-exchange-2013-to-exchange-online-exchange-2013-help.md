@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Tópico modificado em:**2017-03-20_
+_**Tópico modificado em:** 2017-03-20_
 
-**Resumo:** siga estas etapas para retornar sua infraestrutura de pasta pública ao seu estado de pré-migração em sua organização do Exchange 2013 local.
+**Resumo:**  siga estas etapas para retornar sua infraestrutura de pasta pública ao seu estado de pré-migração em sua organização do Exchange 2013 local.
 
 Se você encontrar problemas com sua migração de pastas públicas para o Exchange Online, ou por outra necessidade motivo reativar suas pastas públicas do Exchange 2013, siga as etapas abaixo.
 

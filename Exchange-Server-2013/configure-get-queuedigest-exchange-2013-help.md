@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 O cmdlet **Get-QueueDigest** permite que você exiba as informações sobre algumas ou todas as filas na sua organização do Exchange usando somente um comando.
 

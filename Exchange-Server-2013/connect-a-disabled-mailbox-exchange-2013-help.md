@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-13_
+_**Tópico modificado em:** 2012-11-13_
 
 Use o EAC ou o Shell para conectar uma caixa de correio desabilitada a uma conta de usuário do Active Directory. Ao desabilitar uma caixa de correio, o Exchange a mantém no banco de dados de caixa de correio e altera seu estado para desabilitado. Os atributos do Exchange também são removidos da conta de usuário do Active Directory correspondente, mas a conta é mantida. A caixa de correio é mantida até que o período de retenção da caixa de correio excluída expire, que é de 30 dias por padrão e, então, ela é permanentemente excluída (ou *eliminada*) do banco de dados de caixa de correio.
 

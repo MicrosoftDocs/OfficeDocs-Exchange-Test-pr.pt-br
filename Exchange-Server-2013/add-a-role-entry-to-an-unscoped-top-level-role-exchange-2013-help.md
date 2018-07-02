@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Você poderá adicionar scripts e cmdlets não-Exchange a funções de gerenciamento de nível superior sem escopo se quiser disponibilizar novos scripts ou cmdlets não-Exchange a funções sem escopo existentes. Esses scripts e cmdlets não-Exchange são adicionados como entradas de função de gerenciamento a funções de gerenciamento de nível superior sem escopo. Eles podem ser usados por essas entradas de função de nível superior sem escopo ou qualquer função sem escopo derivada de funções de nível superior. Para obter mais informações sobre entradas de função sem escopo, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

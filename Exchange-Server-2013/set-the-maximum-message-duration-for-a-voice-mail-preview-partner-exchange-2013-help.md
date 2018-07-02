@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-13_
+_**Tópico modificado em:** 2013-02-13_
 
 É possível definir a duração máxima das mensagens de um parceiro de Visualização da caixa postal em uma política de caixa de correio da UM (Unificação de Mensagens). Após ter definido a duração máxima da mensagem, a configuração será aplicada a todos os usuários habilitados para UM que estão vinculados àquela política de caixa de correio.
 

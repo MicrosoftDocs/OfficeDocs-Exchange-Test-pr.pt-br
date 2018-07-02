@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 *Conversão de conteúdo* é o processo de formatação corretamente uma mensagem para cada destinatário. A decisão de realizar a conversão de conteúdo em uma mensagem depende do destino e o formato da mensagem que estão sendo processada. No Microsoft Exchange Server 2013, há dois tipos diferentes de conversão de conteúdo:
 

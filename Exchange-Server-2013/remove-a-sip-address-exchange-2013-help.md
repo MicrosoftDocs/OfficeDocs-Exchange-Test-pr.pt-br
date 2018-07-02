@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-14_
+_**Tópico modificado em:** 2012-11-14_
 
 Quando você habilita um usuário para UM e o vincula a um plano de discagem URI SIP, dois endereços proxy EUM são criados. Um dos endereços contém o número do ramal do usuário e o outro contém um endereço SIP para o usuário. O número do ramal é usado quando o usuário chama para um número do Outlook Voice Access.
 

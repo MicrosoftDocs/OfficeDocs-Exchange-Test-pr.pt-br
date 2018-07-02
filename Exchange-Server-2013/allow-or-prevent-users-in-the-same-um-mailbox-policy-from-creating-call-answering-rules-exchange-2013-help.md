@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode permitir que os usuários que estão associados uma diretiva de caixa de correio de Unificação de mensagens (UM) para configurar as regras de atendimento de chamada ou impedir isso. Se a opção de configurar regras de atendimento de chamada é desabilitada em um plano de discagem de UM, o recurso de regras de atendimento de chamada não estará disponível para usuários habilitados para UM associados com a diretiva de caixa de correio de Unificação de mensagens. A configuração padrão é ativada.
 

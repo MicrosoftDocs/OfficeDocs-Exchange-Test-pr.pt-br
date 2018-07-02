@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-06-15_
+_**Tópico modificado em:** 2016-06-15_
 
 Pastas públicas são projetadas para acesso compartilhado e oferecem uma maneira fácil e eficaz de coletar, organizar e compartilhar informações com outras pessoas em seu grupo de trabalho ou organização. Habilitar email de uma pasta pública permite que os usuários postem à pasta pública, enviando uma mensagem de email para ele. Quando uma pasta pública é configurações adicionais habilitados para email se tornam disponíveis para a pasta pública no Exchange admin center (EAC), como endereços de email e cotas de email. No Shell, antes que uma pasta pública que esteja habilitado para email, você use o cmdlet **Set-PublicFolder** para gerenciar todas as respectivas configurações. Depois que a pasta pública está habilitado para email, use cmdlets **Set-MailPublicFolder** e o **Set-PublicFolder** para gerenciar as configurações.
 

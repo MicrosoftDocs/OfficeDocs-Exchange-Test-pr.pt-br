@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Use esta lista de verificação para implantar o Microsoft Exchange Server 2013. Antes de começar a trabalhar com essa lista de verificação, verifique se está familiarizado com os conceitos discutidos em:
 

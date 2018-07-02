@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Tabela de roteamento log periodicamente um instantâneo da tabela de roteamento é usado pelo Microsoft Exchange Server 2013 para rotear mensagens para seus destinos de registros.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade IMAP monitora a disponibilidade da infraestrutura proxy IMAP4 no servidor de Acesso para Cliente (CAS). O conjunto de integridade do IMAP tem uma relação bem próxima com os seguintes conjuntos de integridade:
 

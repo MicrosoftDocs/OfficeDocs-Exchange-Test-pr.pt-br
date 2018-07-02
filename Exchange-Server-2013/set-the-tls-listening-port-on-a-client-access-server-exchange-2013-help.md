@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-17_
+_**Tópico modificado em:** 2013-02-17_
 
 Você pode configurar a porta de segurança de camada de transporte (TLS) que é usada para escutar solicitações SIP em um servidor de acesso para cliente que executa o serviço Microsoft Exchange Unified Messaging roteador de chamada. Por padrão, quando você instala um servidor de acesso para cliente, o número de porta de escuta SIP TLS é definido como 5061.
 

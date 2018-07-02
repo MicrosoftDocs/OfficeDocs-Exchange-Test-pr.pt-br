@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Você pode habilitar autorizações de discagem em um atendedor automático de Unificação de mensagens (UM). Autorizações de discagem em um atendedor automático são usadas para proibir que os usuários que ligam para o atendedor automático de fazer chamadas telefônicas de país/região ou internacionais ou *discagem externa*. Discagem externa acontece quando Unified Messaging faz uma chamada de saída para um usuário depois que eles foram chamado em um número de telefone que está configurado em um automáticos attendant.
 

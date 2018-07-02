@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-15_
+_**Tópico modificado em:** 2016-12-15_
 
 No Microsoft Exchange Server 2013, você pode proteger bancos de dados de caixa de correio e seus dados configurando os bancos de dados de caixa de correio para alta disponibilidade e resiliência de site. O Exchange 2013 reduz o custo e a complexidade de implantar uma solução de mensagens resiliente e altamente disponível, enquanto fornece níveis mais altos de disponibilidade de serviço e dados e oferece suporte a grandes caixas de correio.
 

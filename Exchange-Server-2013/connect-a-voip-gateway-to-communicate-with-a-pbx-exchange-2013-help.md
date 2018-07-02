@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-15_
+_**Tópico modificado em:** 2016-12-15_
 
 Quando você configura a suas redes de telefonia e dados para Unificação de mensagens (UM) no Microsoft Exchange Server 2013, você deve configurar os gateways VoIP para que eles se comuniquem com os servidores de acesso de cliente que executa o serviço Microsoft Exchange Unified Messaging roteador de chamada e os servidores de correio executando o serviço de Unificação de mensagens do Microsoft Exchange. Você também deve configurar os gateways VoIP para se comunicar com Private Branch eXchanges (PBXs) em sua organização. Você pode usar as informações e os links neste tópico para configurar um gateway VoIP para se comunicar com um PBX.
 

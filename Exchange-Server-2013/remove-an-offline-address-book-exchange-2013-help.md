@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 Este tópico explica como remover um catálogo de endereços offline (OAB).
 

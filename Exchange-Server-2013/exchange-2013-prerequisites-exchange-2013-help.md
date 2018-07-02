@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-03-20_
+_**Tópico modificado em:** 2017-03-20_
 
 Este tópico apresenta as etapas para instalar os pré-requisitos de sistema operacional Windows Server 2012 R2, Windows Server 2012 e Windows Server 2008 R2 com Service Pack 1 (SP1) necessários para as funções de servidor de Caixa de Correio e Acesso para Cliente do Microsoft Exchange 2013. Ele também apresenta os pré-requisitos necessários para a instalação das ferramentas de gerenciamento do Exchange 2013 nos computadores cliente com Windows 8, Windows 8.1 e Windows 7.
 

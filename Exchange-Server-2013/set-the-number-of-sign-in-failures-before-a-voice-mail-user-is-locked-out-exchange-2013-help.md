@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode configurar o número de falhas de entrar permitidas antes que um usuário de acesso de voz Outlook é bloqueado suas caixas de correio. O número de falhas de entrar permitidas antes que um usuário de email de voz é bloqueado está configurado em uma diretiva de caixa de correio de Unificação de mensagens (UM) e se aplica a todos os usuários habilitados para UM associados com a diretiva de caixa de correio de Unificação de mensagens. Por padrão, ela é definida como 15.
 

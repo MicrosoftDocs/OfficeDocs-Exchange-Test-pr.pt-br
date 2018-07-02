@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Os escopos de função de gerenciamento determinam quais objetos são disponibilizados a um usuário para que os objetos possam ser alterados por meio dos cmdlets e parâmetros associados a eles. É possível exibir escopos para determinar quais escopos foram adicionados à sua organização, a configuração de um escopo específico ou quais escopos são órfãos.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-27_
+_**Tópico modificado em:** 2015-03-27_
 
 Você pode inspecionar anexos de email em sua organização configurando regras de transporte. O Exchange oferece regras de transporte que proporcionam a capacidade de examinar anexos de email como parte de suas necessidades de segurança e conformidade de mensagens. Ao inspecionar anexos, é possível realizar ações nas mensagens que foram inspecionadas com base no conteúdo ou nas características desses anexos. Aqui temos algumas tarefas relacionadas a anexos que podem ser realizadas usando as regras de transporte:
 

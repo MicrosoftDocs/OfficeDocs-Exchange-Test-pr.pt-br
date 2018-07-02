@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Quando você usa o Visualizador de Fila na Caixa de Ferramentas do Exchange em um servidor do Microsoft Exchange Server 2013 localizado dentro da organização do Exchange, você pode se conectar a outros servidores de Caixa de Correio. Por padrão, quando você abrir o Visualizador de Filas em um servidor de Caixa de Correio, o Visualizador de Filas se conecta ao banco de dados de filas no servidor local. Entretanto, você pode iniciar mais de uma instância do Visualizador de Filas, de forma que cada instância focalize um servidor diferente. É possível colocar lado a lado as janelas do Visualizador de Filas, de forma que você possa monitorar facilmente mais de um servidor de Caixa de Correio de cada vez.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A ferramenta de solução de problemas de UM do Microsoft Exchange 2010 é um cmdlet do Shell de Gerenciamento do Exchange chamado **Test-ExchangeUMCallFlow**. Use o cmdlet para diagnosticar erros de configuração específicos para os cenários de resposta de chamadas e para testar o funcionamento correto da caixa postal em implantações de UM locais ou entre locais do Microsoft Exchange Server 2010 Service Pack 1 (SP1) ou posterior. Você pode usar esse cmdlet em implantações com o Microsoft Office, o Microsoft Lync Server 2010 ou posterior, ou em implantações de UM com gateways VOIP, PBXs IP ou controladores de borda da sessão (SBCs).
 

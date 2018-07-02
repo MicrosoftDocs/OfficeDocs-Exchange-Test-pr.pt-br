@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Após ter criado uma diretiva de caixa de correio de Unificação de Mensagens (UM), é possível visualizar ou definir diversas configurações. Por exemplo, é possível configurar recursos de UM, como Visualização de Mensagens de Voz ou Tocar no Telefone e outras opções relacionadas à segurança, como Mensagem de Voz Protegida e configurações de política de PIN.
 
@@ -100,9 +100,9 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a políticas de c
             
             O texto fornecido na caixa de texto pode ser sem formatação. Ele também pode conter marcas simples de formatação HTML se você desejar enfatizar o texto ou adicionar hiperlinks para outro conteúdo.
             
-            **Exemplo 1:**   Se você tiver dúvidas ou sugestões sobre o serviço de caixa postal, ligue para o help desk no ramal 4200.
+            **Exemplo 1:**    Se você tiver dúvidas ou sugestões sobre o serviço de caixa postal, ligue para o help desk no ramal 4200.
             
-            **Exemplo 2:**   Se você tiver perguntas ou sugestões sobre o \<b\>serviço de caixa posta\</b\>, ligue para o help desk no ramal 4200 ou acesse nosso site em \<a href=”http://emp.contoso.com/itinfo/vmail”\>\</a\>.
+            **Exemplo 2:**    Se você tiver perguntas ou sugestões sobre o \<b\>serviço de caixa posta\</b\>, ligue para o help desk no ramal 4200 ou acesse nosso site em \<a href=”http://emp.contoso.com/itinfo/vmail”\>\</a\>.
         
           - **Quando um PIN do Outlook Voice Access do usuário é redefinido**   O texto inserido nessa caixa de texto é incluído na mensagem de email enviada a usuários habilitados para UM quando seu PIN de UM é redefinido.
             

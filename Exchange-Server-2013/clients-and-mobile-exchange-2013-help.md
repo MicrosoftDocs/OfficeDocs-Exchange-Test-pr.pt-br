@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Há vários clientes diferentes que podem ser usados para acessar informações em uma caixa de correio do Microsoft Exchange Server 2013. Esses clientes incluem programas desktop, como Microsoft Outlook, Outlook Web App, e clientes móveis, como celulares, tablets e outros dispositivos móveis. Cada um desses clientes oferece uma variedade de recursos.
 

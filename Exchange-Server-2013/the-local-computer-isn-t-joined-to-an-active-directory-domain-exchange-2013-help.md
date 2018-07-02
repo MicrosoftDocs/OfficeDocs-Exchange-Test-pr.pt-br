@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2013-03-22_
+_**Tópico modificado em:** 2013-03-22_
 
 Microsoft Exchange Server 2013 instalação não pode continuar porque detectou que o computador local não é um membro de um domínio do Active Directory. Você deve ingressar o computador local para um domínio do Active Directory para que você possa instalar o Exchange Server 2013. Você também poderá ver essa mensagem se você fizer logon em uma conta de usuário local no computador, em vez de uma conta de usuário de domínio com direitos administrativos suficientes para instalar o Exchange 2013.
 

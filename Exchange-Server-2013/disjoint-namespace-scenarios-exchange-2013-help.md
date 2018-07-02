@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico fornece informações sobre o conceito de espaços e os cenários com suporte para a implantação do Microsoft Exchange 2013 em um domínio que tenha um namespace separado.
 

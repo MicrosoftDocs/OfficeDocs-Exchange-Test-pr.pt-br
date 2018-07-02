@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `WorkloadManagement` permite que administradores gerenciem políticas de gerenciamento de carga de trabalho. Os administradores podem configurar definições de integridade do recurso, classificações de carga de trabalho e habilite ou desabilite o gerenciamento de carga de trabalho. Alterações devem ser feitas apenas sob a orientação do suporte e atendimento ao cliente Microsoft.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Log de agente registra as ações executadas pelos agentes de antispam específicos do Exchange. As informações gravadas no log de agente dependem do agente, o evento SMTP e a ação executada na mensagem.
 

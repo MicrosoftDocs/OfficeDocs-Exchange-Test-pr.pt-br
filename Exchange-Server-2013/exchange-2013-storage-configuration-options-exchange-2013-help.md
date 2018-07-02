@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Noções básicas sobre opções de armazenamento e requisitos para a função de servidor de Caixa de Correio do Microsoft Exchange Server 2013 é uma parte importante de sua solução de projeto de armazenamento de servidor de Caixa de Correio.
 

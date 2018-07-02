@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-04-17_
+_**Tópico modificado em:** 2018-04-17_
 
 Você pode usar o EAC ou o Exchange Online PowerShell para gerenciar o acesso de usuário aos suplementos do Outlook.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 Por padrão, quando você instalar a função de servidor Caixa de Correio, um OAB padrão baseado na Web chamado Catálogo de Endereços Offline Padrão é criado. Você pode definir um OAB um sua própria organização do Exchange como o OAB padrão. Esse novo OAB padrão é associado a todos os bancos de dados de caixa de correio recém-criados. Você pode ter apenas um OAB padrão em sua organização. Se você excluir o OAB padrão, o MicrosoftExchange não atribuirá automaticamente outro OAB como padrão. Você deverá designar manualmente outro OAB como padrão.
 

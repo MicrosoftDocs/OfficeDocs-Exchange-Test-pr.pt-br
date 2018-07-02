@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 No Microsoft Exchange Server 2013, o recurso Outlook em Qualquer Lugar, anteriormente conhecido como RPC sobre HTTP, permite que os clientes que utilizam o MicrosoftOutlook 2013, Outlook 2010 ou Outlook 2007 se conectem aos servidores do Exchange fora da rede corporativa ou pela Internet usando o RPC sobre componente de rede HTTP Windows. Este tópico descreve o recurso Outlook em Qualquer Lugar e lista os benefícios adquiridos com o uso do Outlook em Qualquer Lugar.
 

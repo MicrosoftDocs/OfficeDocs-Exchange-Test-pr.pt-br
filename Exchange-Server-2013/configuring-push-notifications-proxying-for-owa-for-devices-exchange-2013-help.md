@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Habilitar notificações por push para o OWA para dispositivos (OWA para iPhone e OWA para iPad) em uma implantação do Microsoft Exchange 2013 local permitirá que os usuários recebam atualizações no ícone do Outlook Web App no OWA para iPhone e OWA para iPad indicando a quantidade de mensagens não lidas na caixa de correio do usuário. Se as notificações por push não forem configuradas nem habilitadas, o usuário que tiver o OWA para dispositivos não saberá se há mensagens não lidas na caixa de correio a menos que ele inicie o aplicativo. Quando uma nova mensagem fica disponível, o selo do OWA para dispositivos é atualizado no dispositivo do usuário e fica com essa aparência.
 
@@ -218,7 +218,7 @@ O resultado esperado deve se parecer com a seguinte saída.
 
 Após a conclusão das etapas anteriores, as notificações por push podem ser testadas das seguintes formas:
 
-  - **Enviando uma mensagem de email de teste para a caixa de correio do usuário:**
+  - **Enviando uma mensagem de email de teste para a caixa de correio do usuário:** 
     
     1.  Configure uma conta do OWA para Dispositivos em um dispositivo móvel para se inscrever nas notificações.
     

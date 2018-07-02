@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-03-26_
+_**Tópico modificado em:** 2014-03-26_
 
 O HAB (catálogo de endereços hierárquico) permite que os usuários procurem destinatários em seu catálogo de endereços usando uma hierarquia organizacional. Normalmente, usuários são limitados à lista de endereços global (GAL) padrão e suas propriedades de destinatários e a estrutura da GAL frequentemente não refletem as relações de gestão e tempo de serviço de destinatários na sua organização. A capacidade de personalizar um HAB que mapeia a estrutura corporativa exclusiva de sua organização propicia aos usuários um método eficiente para localizar destinatários internos.
 

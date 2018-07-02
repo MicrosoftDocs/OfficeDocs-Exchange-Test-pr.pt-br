@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-30_
+_**Tópico modificado em:** 2013-04-30_
 
 Depois de criar um atendedor automático de Unificação de Mensagens (UM), é possível exibir ou definir diversas configurações. Por exemplo, você pode adicionar, remover e editar números de ramais associados ao atendedor automático. Você também pode habilitar ou desabilitar o ASR (Reconhecimento Automático de Fala) para o atendedor automático e alterar as saudações usadas no horário comercial e fora do horário comercial.
 

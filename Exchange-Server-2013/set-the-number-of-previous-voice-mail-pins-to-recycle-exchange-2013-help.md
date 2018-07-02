@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Quando os usuários do Voice Access Outlook discar para um número do Outlook Voice Access, eles serão solicitados a digitar seu PIN para que o sistema de caixa postal pode autenticá-los. Depois que eles estiver autenticados, eles podem acessar a caixa postal, email, calendário e informações de contato pessoal em suas caixas de correio de qualquer telefone.
 

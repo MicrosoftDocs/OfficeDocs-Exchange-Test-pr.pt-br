@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Em Exchange 2010, a caixa de correio do sistema é uma caixa de correio de arbitragem usada para armazenar dados de toda a organização, como logs, metadados para pesquisas de descoberta eletrônica e dados Unificação de mensagens, como menus, de auditoria do administrador do Microsoft Exchange planos de discagem e saudações personalizadas. A caixa de correio de sistema do Microsoft Exchange é denominada **SystemMailbox {e0dc1c29-89c3-4034-b678-e6c29d823ed9}**; o nome para exibição é **Microsoft Exchange**.
 

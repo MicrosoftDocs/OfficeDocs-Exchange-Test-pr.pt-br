@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Microsoft está comprometida em tornar seus produtos e serviços mais fáceis de usar para todos. As seções a seguir fornecem informações sobre os atalhos de teclado que tornam o Microsoft Exchange e outros produtos e serviços Microsoft mais acessíveis para pessoas com deficiências.
 

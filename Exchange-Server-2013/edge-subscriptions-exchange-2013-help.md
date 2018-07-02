@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Servidores de Transporte de Borda minimizam a superfície de ataque processando todo o fluxo de mensagens voltado para a Internet e fornecendo retransmissão de SMTP e serviços de host inteligente para a organização do Exchange. Camadas adicionais de proteção de mensagem e de segurança são fornecidas por vários agentes em execução no servidor de Transporte de Borda na rede de perímetro de sua organização. Esses agentes oferecem suporte a recursos que fornecem proteção contra vírus e spam e aplicam regras de transporte ao controle de fluxo de mensagens.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-08-05_
+_**Tópico modificado em:** 2014-08-05_
 
 Você pode controlar como os recursos são consumidos por usuários individuais em sua organização do Exchange, alterando as configurações de limitação padrão.
 

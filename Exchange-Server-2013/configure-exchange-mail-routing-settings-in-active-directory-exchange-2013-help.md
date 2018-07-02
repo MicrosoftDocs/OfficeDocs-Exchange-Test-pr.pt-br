@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Por padrão o Microsoft Exchange Server 2013 faz referência os objetos de link de site IP no Active Directory para ajudar a determinar o caminho de roteamento de menor custo. No entanto, se você determinar os custos do link de site IP do Active Directory e padrões do fluxo de tráfego não ideais para email de roteamento no Exchange, você poderá definir configurações no Active Directory que são usados pelo Exchange somente para ajudar a otimizar o fluxo de emails.
 

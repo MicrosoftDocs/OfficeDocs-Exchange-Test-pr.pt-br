@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-05-22_
+_**Tópico modificado em:** 2018-05-22_
 
-**Resumo:** Use as etapas deste artigo para sincronizar pastas públicas entre o Office 365 e a implantação local do Exchange 2007 ou do Exchange 2010.
+**Resumo:**  Use as etapas deste artigo para sincronizar pastas públicas entre o Office 365 e a implantação local do Exchange 2007 ou do Exchange 2010.
 
 Em uma implantação híbrida, os usuários podem estar no Exchange Online, no local ou em ambos e as pastas públicas podem estar no Exchange Online ou no local. As pastas públicas podem residir apenas em um local, por isso, você deve decidir se elas estarão no Exchange Online ou no local. Elas não podem ficar nos dois locais. As caixas de correio de pastas públicas são sincronizadas com o Exchange Online pelo Serviço de Sincronização de Diretórios. No entanto, as pastas públicas habilitadas para email não são sincronizadas nos locais.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Se o país ou a região onde sua organização ou parte de seus usuários residem alterou a política de reconhecimento do Horário de Verão (DST) ou a diferença de horário em relação ao UTC, talvez seja necessário atualizar o Microsoft Windows, o Microsoft Exchange, o Microsoft Outlook ou outros programas para acomodar essas alterações.
 

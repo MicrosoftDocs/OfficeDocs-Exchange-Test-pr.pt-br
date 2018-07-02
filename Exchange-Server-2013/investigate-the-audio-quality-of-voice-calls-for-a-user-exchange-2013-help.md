@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Se um usuário relatar problemas com a qualidade de áudio de suas chamadas de Unificação de Mensagens (UM), você pode usar o relatório de Logs de Chamadas de Usuário para ajudá-lo a entender a causa dos problemas.
 

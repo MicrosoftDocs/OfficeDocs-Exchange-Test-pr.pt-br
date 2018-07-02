@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode incluir texto em uma mensagem de notificação (DSN) de status de entrega personalizada no Microsoft Exchange Server 2013 e você pode formatar o texto em HTML.
 

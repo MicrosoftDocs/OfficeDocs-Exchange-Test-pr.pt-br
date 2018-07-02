@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 Dados de domínio seguro são um domínio inteiro (por exemplo, @contoso.com) é armazenado na lista de remetentes confiáveis do usuário. Por padrão, o agente Filtro de conteúdo não usa dados domínios seguros para identificar remetentes que são permitidos para ignorar a filtragem de conteúdo.
 

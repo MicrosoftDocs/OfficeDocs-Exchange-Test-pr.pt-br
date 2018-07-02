@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Saiba mais sobre os requisitos do Exchange 2013 que você precisa saber antes de instalar o Exchange 2013. Por exemplo, você aprenderá sobre os requisitos de hardware, rede e sistema operacional.
 

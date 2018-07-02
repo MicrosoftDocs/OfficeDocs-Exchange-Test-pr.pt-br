@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2018-03-26_
+_**Tópico modificado em:** 2018-03-26_
 
-**Resumo:** Use estes procedimentos para migrar suas pastas públicas do Exchange 2007 e do Exchange 2010 para o Office 365.
+**Resumo:**  Use estes procedimentos para migrar suas pastas públicas do Exchange 2007 e do Exchange 2010 para o Office 365.
 
 Este tópico descreve como migrar suas pastas públicas em uma migração rápida ou em estágios do Pacote Cumulativo de Atualizações 8 para Exchange Server 2010 Service Pack 3 (SP3) ou do Pacote Cumulativo de Atualizações 15 para Exchange 2007 SP3 para o Office 365 ou o Exchange Online.
 

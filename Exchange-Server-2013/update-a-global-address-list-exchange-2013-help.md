@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 Use o Shell para atualizar uma GAL (lista de endereços global). A GAL é um diretório que contém entradas para todos os grupos, usuários e contatos em uma implementação da organização do Microsoft Exchange.
 

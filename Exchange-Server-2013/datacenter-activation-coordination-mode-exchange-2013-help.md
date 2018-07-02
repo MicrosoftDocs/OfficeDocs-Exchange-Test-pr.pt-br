@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-07-14_
+_**Tópico modificado em:** 2014-07-14_
 
 Modo coordenação de ativação de Datacenter (DAC) é uma propriedade de um grupo de disponibilidade do banco de dados (DAG). Modo DAC está desabilitado por padrão, mas deve ser habilitado para todos os DAGs com dois ou mais membros que usam replicação contínua. Modo DAC não deve ser habilitado para DAGs que usam o modo de replicação de terceiros, a menos que especificado pelo fornecedor terceirizado.
 

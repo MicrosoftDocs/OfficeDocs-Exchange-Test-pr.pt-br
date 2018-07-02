@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016, Office 365_
 
-_**Tópico modificado em:**2017-05-19_
+_**Tópico modificado em:** 2017-05-19_
 
-**Resumo:** O mais recente com suporte a topologias do Exchange que permitem aos usuários acessar pastas públicas com 2016 do Outlook para Mac.
+**Resumo:**  O mais recente com suporte a topologias do Exchange que permitem aos usuários acessar pastas públicas com 2016 do Outlook para Mac.
 
 Com as versões de [atualização de abril de 2016](https://go.microsoft.com/fwlink/?linkid=829202) o para 2016 Outlook clientes Mac, [14 de atualização cumulativa (CU14)](https://go.microsoft.com/fwlink/p/?linkid=849432) for Exchange 2013 e [2 de atualização cumulativa (CU 2)](https://go.microsoft.com/fwlink/p/?linkid=849793) , para Exchange 2016, usuários de 2016 Outlook para Mac agora podem acessar pastas públicas no mais tipos de topologias do que poderiam antes.
 

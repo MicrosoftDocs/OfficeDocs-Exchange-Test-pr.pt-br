@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Este tópico fornece uma lista de perguntas freqüentes para o novo centro de administração do Exchange (EAC) no Microsoft Exchange Server 2013. Outras dúvidas sobre EAT não respondidas aqui? Envie-em um email em [Ex2013HelpFeedback@microsoft.com](mailto:ex2013helpfeedback@microsoft.com).
 

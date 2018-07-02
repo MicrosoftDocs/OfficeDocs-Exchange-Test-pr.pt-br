@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-17_
+_**Tópico modificado em:** 2014-02-17_
 
 Se um domínio pertencente à sua organização hospedar caixas de correio para todos os destinatários em um namespace SMTP, esse domínio será considerado autoritativo. Por padrão, um domínio aceito é configurado como autoritativo para a organização do Exchange. Se a sua organização tiver mais de um namespace SMTP, você poderá configurar mais de um domínio aceito como autoritativo.
 

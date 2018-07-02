@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O endereço postmaster externo é usado como o remetente para notificações e mensagens geradas pelo sistema enviadas para remetentes de mensagem existentes fora da sua organização Exchange Server 2013 da Microsoft. Um remetente externo é qualquer remetente que possui um endereço de email em um domínio que não está configurado como um domínio aceito na sua organização.
 

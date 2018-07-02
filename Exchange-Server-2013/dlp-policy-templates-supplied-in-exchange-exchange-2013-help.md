@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013 e Exchange Online, você pode usar dados modelos de política perda prevention (DLP) como ponto de partida para a criação de políticas de DLP que ajudarão-lo a atender às suas necessidades de políticas específicas de normativos e de negócios. Você pode modificar os modelos para atender às necessidades específicas da sua organização.
 

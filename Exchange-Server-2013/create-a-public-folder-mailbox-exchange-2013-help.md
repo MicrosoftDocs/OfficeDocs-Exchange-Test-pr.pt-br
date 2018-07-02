@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2014-10-23_
+_**Tópico modificado em:** 2014-10-23_
 
 Antes de criar uma pasta pública, você deve criar uma caixa de correio de pasta pública. As caixas de correio de pasta pública contém as informações de hierarquia mais o conteúdo para as pastas públics. A primeira caixa de correio de pasta pública que você cria será a caixa de correio principal da hierarquia, que contém a única cópia editável da hierarquia. Qualquer caixa de correio de pasta pública adicional que você criar será um caixa de correio secundária, que terá apenas uma cópia somente de leitura da hierarquia.
 

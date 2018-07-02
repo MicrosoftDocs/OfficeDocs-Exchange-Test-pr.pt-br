@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O Microsoft Exchange Server 2013 está disponível em duas edições de servidor: Standard Edition e Enterprise Edition. O Enterprise Edition pode ser dimensionado para 50 bancos de dados montados por servidor nas versões Release to Manufacturing (RTM) e Atualização Cumulativa 1 (CU1), e 100 bancos de dados montados por servidor na versão Atualização Cumulativa 2 (CU2) e versões posteriores; a Standard Edition está limitada a 5 bancos de dados montados por servidor. Um banco de dados montado é um banco de dados que está em uso. Um banco de dados pode ser montado um banco de dados de caixa de correio ativa que é montado para uso pelos clientes, ou um banco de dados de caixa de correio passiva que é montado na recuperação para a replicação de log e replay. Embora seja possível criar mais bancos de dados do que os limites descritos acima, você só pode montar o número máximo especificado acima. O banco de dados de recuperação não conta neste limite.
 

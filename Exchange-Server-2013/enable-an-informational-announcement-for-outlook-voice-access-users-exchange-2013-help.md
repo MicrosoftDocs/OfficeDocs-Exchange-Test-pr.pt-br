@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 É possível habilitar um informe em um plano de discagem de Unificação de mensagens (UM). Anúncios informativos são usados para comunicados gerais que alteração com mais frequência que a saudação de boas-vindas faz ou para os comunicados que são exigidos por políticas de conformidade corporativa.
 

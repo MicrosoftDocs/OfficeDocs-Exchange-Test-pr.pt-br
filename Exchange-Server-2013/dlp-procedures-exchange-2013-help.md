@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-07_
+_**Tópico modificado em:** 2015-01-07_
 
 Você pode começar usando uma solução de (DLP) de prevenção de perda de dados no seu ambiente de mensagens usando os procedimentos a seguir. Para saber sobre os conceitos e objetivos para DLP, consulte [Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode especificar se o TNEF Transport Neutral Encapsulation Format () devem ser preservadas ou removida das mensagens que saem da organização Exchange. TNEF, também conhecido como Outlook Rich Text Format ou Exchange Rich Text Format, é um Microsoft-formato específico para encapsular propriedades de mensagem MAPI. Todas as versões do MicrosoftOutlook entenda totalmente o TNEF. Outlook Web App converte TNEF em MAPI e exibe as mensagens formatadas. No entanto, outros clientes de email que não entendem TNEF normalmente exibem TNEF mensagens formatadas como texto sem formatação mensagens com anexos Winmail. dat ou Win.dat.
 

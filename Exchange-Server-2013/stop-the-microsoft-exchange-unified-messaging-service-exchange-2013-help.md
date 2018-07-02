@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-16_
+_**Tópico modificado em:** 2012-11-16_
 
 Você pode usar o snap-in Serviços no Console de Gerenciamento Microsoft (MMC) ou cmd.exe no prompt de comando para interromper o serviço Unificação de Mensagens do MicrosoftExchange em um servidor de Caixa de Correio. Em alguns momentos, pode ser preciso interromper esse serviço, por exemplo, quando for necessário deixar o servidor de Caixa de Correio offline. Quando você interromper o serviço Unificação de Mensagens do Microsoft Exchange, o servidor de Caixa de Correio não poderá aceitar e processar chamadas de entrada.
 

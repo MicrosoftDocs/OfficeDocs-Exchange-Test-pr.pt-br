@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-07-25_
+_**Tópico modificado em:** 2017-07-25_
 
 Os Controladores de Borda de Sessão habilitam você a conectar sua rede de telefonia local a um datacenter da Microsoft através de uma conexão de rede pública dedicada. Um SBC fica na borda de sua rede IP local e se conecta a um segundo SBC em um datacenter da Microsoft.
 

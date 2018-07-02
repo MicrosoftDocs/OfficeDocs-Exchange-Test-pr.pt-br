@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-06-25_
+_**Tópico modificado em:** 2013-06-25_
 
 Este tópico explica como usar o Shell para testar a operação do seu sistema de correio de voz. Ao realizar o procedimento a seguir, o servidor da Caixa de Correio que está executando o serviço de Unificação de Mensagens do Microsoft Exchange inicia uma chamada do protocolo SIP de diagnóstico e depois retorna uma variável de estado da integridade dos serviços de UM.
 

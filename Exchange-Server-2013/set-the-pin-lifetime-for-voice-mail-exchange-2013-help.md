@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode configurar a vida útil do PIN para usuários habilitados para Unificação de mensagens (UM). A vida útil do PIN é o tempo máximo que uma Outlook PIN Voice Access será válida para destinatários habilitados. A configuração de vida útil do PIN é configurada em uma diretiva de caixa de correio UM e se aplica a todos os usuários habilitados para UM associados com a diretiva de caixa de correio de Unificação de mensagens.
 

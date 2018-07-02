@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O Microsoft Outlook Voice Access permite que usuários habilitados para Unificação de Mensagens (UM) do Exchange acessem suas caixas de correio usando telefones analógicos, digitais ou celulares.
 

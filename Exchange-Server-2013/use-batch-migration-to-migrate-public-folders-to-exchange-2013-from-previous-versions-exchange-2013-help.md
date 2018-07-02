@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2018-03-26_
+_**Tópico modificado em:** 2018-03-26_
 
-**Resumo:** Este artigo explica como mover pastas públicas do Exchange 2007 ou Exchange 2010 para o Exchange 2013.
+**Resumo:**  Este artigo explica como mover pastas públicas do Exchange 2007 ou Exchange 2010 para o Exchange 2013.
 
 Este artigo descreve como migrar suas pastas públicas do Exchange Server 2010 SP3 RU8 ou RU15 do Exchange 2007 SP3 para o Microsoft Exchange Server 2013 CU7 ou posterior dentro da mesma floresta.
 

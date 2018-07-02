@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Microsoft Exchange Server 2013 a instalação não pode continuar porque detectou que o computador local que precisa ser reiniciado para concluir a instalação de outros programas ou atualizações do Windows.
 

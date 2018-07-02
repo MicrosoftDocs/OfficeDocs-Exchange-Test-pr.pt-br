@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-14_
+_**Tópico modificado em:** 2015-01-14_
 
 Você pode desenvolver modelos de política de prevenção contra perda de dados (DLP) como arquivos XML independentes do Microsoft Exchange Server 2013 e importá-los usando o Centro de Administração do Exchange ou o Shell de gerenciamento do Exchange. Esta seção descreve o processo e os detalhes de criação e ajuste de arquivos XML de DLP para uso em uma solução de DLP. Você não precisa desenvolver seus próprios arquivos XML de DLP porque o Centro de Administração do Exchange oferece uma forma de começar rapidamente com modelos de política de DLP e regras de transporte existentes para verificar mensagens.
 

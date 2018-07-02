@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 É possível usar as políticas de compartilhamento para controlar o modo como os usuários em sua organização do Exchange compartilham informações de calendário com usuários de fora da sua organização. Políticas de compartilhamento fornecem o compartilhamento entre pessoas estabelecido pelo usuário de informações de calendário com tipos diferentes de usuários externos. Elas suportam o compartilhamento de informações do calendário com organizações externas federadas (como Office 365 ou outra organização local do Exchange), organizações externas não federadas e pessoas com acesso à Internet. Para aplicar uma política de compartilhamento específica aos usuários, consulte [Aplicar uma política de compartilhamento às caixas de correio](apply-a-sharing-policy-to-mailboxes-exchange-2013-help.md).
 

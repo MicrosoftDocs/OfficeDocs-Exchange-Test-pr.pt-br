@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 A configuração de **limite de saudações pessoais (minutos)** permite que você insira o número máximo de minutos que os usuários associados a diretiva de caixa de correio de Unificação de mensagens (UM) podem usar para gravar sua saudação da caixa postal. Essa configuração se aplica a suas mensagens de voz padrão e a sua saudação da caixa postal de ausência temporária. Por padrão, a duração máxima da saudação é definida como 5 minutos. No entanto, você pode configurar a duração máxima da saudação para qualquer configuração entre 1 e 10 minutos.
 

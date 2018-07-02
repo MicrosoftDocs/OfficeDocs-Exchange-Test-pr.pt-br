@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Para executar pesquisas entre locais da Descoberta eletrônica com êxito em uma organização híbrida do Exchange 2013, será necessário configurar a autenticação OAuth (Autorização Aberta) entre suas organizações locais do Exchange e organizações do Exchange Online, de forma que você possa usar a Descoberta eletrônica local para pesquisar em caixas de correio locais e baseadas em nuvem. A autenticação OAuth oferece suporte aos seguintes cenários de Descoberta eletrônica em uma implantação híbrida do Exchange:
 

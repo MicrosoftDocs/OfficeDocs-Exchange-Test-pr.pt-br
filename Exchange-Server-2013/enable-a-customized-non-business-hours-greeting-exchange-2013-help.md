@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-30_
+_**Tópico modificado em:** 2012-11-30_
 
 É possível habilitar um personalizada não - saudação para horário comercial para um atendedor automático da Unificação de mensagens (UM). O horário não comercial saudação é os primeira coisa que os chamadores ouvem quando um atendedor automático de UM atende a chamada durante o horário não comercial. Você provavelmente desejará personalizar a saudação.
 

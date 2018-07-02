@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento `Disaster Recovery` habilita os administradores a restaurar caixas de correio e bancos de dados de caixas de correio, criar bancos de dados de caixas de correio e executar switchovers e switchbacks de datacenter para grupos de disponibilidade de banco de dados em uma organização.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-30_
+_**Tópico modificado em:** 2012-11-30_
 
 Você pode configurar um Atendedor de automático de Unificação de mensagens (UM) habilitados para fala que tenha um Atendedor de automático de fallback de DTMF (Multifreqüência) de tom dual. Um atendedor automático de fallback de DTMF é usado quando UM atendedor automático habilitado para fala não é possível entender ou reconhece as entradas de fala fornecidas por um chamador. Se um atendedor automático de fallback de DTMF tiver sido configurado, o chamador deve usar entradas de DTMF, também conhecido como entradas de toque para navegar pelo sistema de menu do atendedor automático, um nome de usuário de ortografia ou usar um prompt de menu personalizado. Se nenhum atendedor automático de fallback de DTMF foi configurada e o número máximo de entradas de fala for excedido, porque o sistema não entender o que o chamador dito, o sistema irá responder com esse prompt: "Desculpe, eu não pôde ajudar. Entre em contato novamente mais tarde."
 

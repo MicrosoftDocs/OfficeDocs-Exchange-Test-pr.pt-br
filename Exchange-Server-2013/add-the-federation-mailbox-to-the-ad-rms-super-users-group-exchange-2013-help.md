@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Para os seguintes Microsoft Exchange Server 2013 gerenciamento de direitos de informação (IRM) recursos estejam habilitados, você deve adicionar a caixa de correio de Federação (uma caixa de correio sistema criada pelo Exchange 2013 instalação) ao grupo de superusuários no cluster do [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) da sua organização:
 

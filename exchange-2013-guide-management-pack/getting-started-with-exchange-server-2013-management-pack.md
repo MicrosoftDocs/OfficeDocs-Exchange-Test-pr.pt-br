@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:** 2013-04-08_
+_**Tópico modificado em:**  2013-04-08_
 
 O Pacote de Gerenciamento do Exchange Server 2013 adiciona um contêiner na seção de **Monitoramento** do console SCOM. Ao expandir o contêiner do Exchange Server 2013, você verá que há apenas três exibições no mesmo.
 

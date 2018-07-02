@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-09-11_
+_**Tópico modificado em:** 2014-09-11_
 
 Se a sua organização usa formulários para coletar informações confidenciais, os usuários podem tentar enviar esses formulários por email para contatos externos, o que criará um risco de segurança. A Prevenção contra perda de Dados (DLP) no Exchange ajuda a proteger essas informações detectando-as com a [Impressão Digital de Documento](overview-of-document-fingerprinting-in-exchange.md). Para usar a impressão digital de documentos basta carregar um formulário em branco, como um documento de propriedade intelectual, um formulário governamental ou outro formulário padrão usado em sua organização. Em seguida, adicione a impressão digital de documento resultante a uma política de DLP ou a uma regra de transporte. Veja como.
 

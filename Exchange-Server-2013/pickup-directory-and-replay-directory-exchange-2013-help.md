@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Por padrão, os diretórios de retirada e repetição existem em cada servidor de caixa de correio do Microsoft Exchange Server 2013 ou o servidor de transporte de borda. Formatados corretamente os arquivos de mensagens de email que você copie para a retirada ou diretórios de repetição são enviados para entrega. O diretório de retirada é usado pelos administradores de teste de fluxo de email ou pelos aplicativos que devem criar e enviar suas próprias mensagens. O diretório de reprodução recebe mensagens de servidores de gateway externo e também pode ser usado para reenviar mensagens que os administradores exportam das filas dos servidores do Exchange.
 

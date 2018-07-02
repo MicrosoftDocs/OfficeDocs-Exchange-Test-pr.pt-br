@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Emails e documentos são tradicionalmente mantidos em dois repositórios de dados exclusivos e separados. A maioria das organizações colabora usando os dois meios. O desafio é que tanto email quanto documentos são acessados usando-se clientes diferentes. Isso geralmente resulta em uma redução da produtividade do usuário e em uma experiência degradada para ele.
 
@@ -87,7 +87,7 @@ Voltar ao início
 
 O ciclo de vida de uma caixa de correio de site é gerenciado através de um SharePoint. É através do SharePoint que você deve executar todas as tarefas de caixa de correio de site, como criar e remover caixas de correio de site. Além disso, você pode criar uma política de Ciclo de Vida do SharePoint, para gerenciar o ciclo de vida de uma caixa de correio de site. Por exemplo, você pode criar uma política de ciclo de vida no SharePoint que feche automaticamente todas as caixas de correio de site após 6 meses. Se o usuário ainda precisar usar a caixa de correio de site, o usuário poderá reativar a caixa de correio do site através do SharePoint. Recomendamos que você use o aplicativo de Ciclo de vida que está na fazenda. Remover manualmente as caixas de correio de site ativas do Exchange irá resultar em caixas de correio de site órfãs. .
 
-Quando o aplicativo de ciclo de vida no SharePoint fechar uma caixa de correio de site, essa caixa será retida pelo período declarado na política de ciclo de vida no estado fechado. A caixa de correio poderá ser reativada por um usuário final ou por um administrador do SharePoint. Depois do período de retenção, a caixa de correio de site do Exchange que está hospedada no banco de dados de caixa de correio terá **MDEL:** colocado à frente do seu nome, para indicar que foi marcado para exclusão. Você precisará remover manualmente essas caixas de correio de site do banco de dados de caixa de correio, para liberar espaço de armazenamento e o alias. Se você não tiver habilitado a Política de Ciclo de vida do SharePoint, você perderá a habilidade de determinar que caixas de correio de site estão marcadas para exclusão. Até que a caixa de correio de site tenha sido removida por um administrador, o conteúdo dela ainda poderá ser recuperado.
+Quando o aplicativo de ciclo de vida no SharePoint fechar uma caixa de correio de site, essa caixa será retida pelo período declarado na política de ciclo de vida no estado fechado. A caixa de correio poderá ser reativada por um usuário final ou por um administrador do SharePoint. Depois do período de retenção, a caixa de correio de site do Exchange que está hospedada no banco de dados de caixa de correio terá **MDEL:**  colocado à frente do seu nome, para indicar que foi marcado para exclusão. Você precisará remover manualmente essas caixas de correio de site do banco de dados de caixa de correio, para liberar espaço de armazenamento e o alias. Se você não tiver habilitado a Política de Ciclo de vida do SharePoint, você perderá a habilidade de determinar que caixas de correio de site estão marcadas para exclusão. Até que a caixa de correio de site tenha sido removida por um administrador, o conteúdo dela ainda poderá ser recuperado.
 
 Você pode usar este comando para procurar e remover caixas de correio de site que foram marcadas para exclusão.
 

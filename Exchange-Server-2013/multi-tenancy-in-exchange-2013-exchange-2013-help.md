@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Uma implantação de multilocatário (hospedado) Exchange 2013 é definida como where de uma organização do Exchange está configurada para hospedar vários e organizações distintas ou unidades de negócios (os locatários) que normalmente não compartilham email, dados, usuários, listas de endereços global (GALs) ou outro comumente usados objetos do Exchange. Esse compartilhamento de hardware, software e recursos (all, mantendo uma separação lógica entre locatários), permite que as organizações a aproveitar a simplicidade de uma implantação do Exchange standard fornecendo funcionalidade de multilocatário e serviços para atender suas necessidades de hospedagem.
 

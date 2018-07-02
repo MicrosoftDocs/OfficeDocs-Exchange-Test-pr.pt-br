@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-04-15_
+_**Tópico modificado em:** 2013-04-15_
 
 A nova propagação automática é um recurso para restaurar a redundância do banco de dados, após uma falha de disco. Se um disco falhar, as cópias de banco de dados armazenadas nesse disco são propagadas novamente, de maneira automática, para um disco sobressalente pré-configurado no servidor de Caixa de Correio. Você pode usar as instruções deste tópico para configurar a Nova Propagação Automática para um grupo de disponibilidade de banco de dados (DAG).
 

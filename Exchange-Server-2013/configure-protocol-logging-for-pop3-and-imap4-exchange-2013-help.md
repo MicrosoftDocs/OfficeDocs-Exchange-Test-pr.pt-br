@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-27_
+_**Tópico modificado em:** 2012-11-27_
 
 Você pode usar o Shell para habilitar, desabilitar ou modificar as configurações de log de protocolo para POP3 e IMAP4. Por padrão, esse registro em log não está habilitado.
 

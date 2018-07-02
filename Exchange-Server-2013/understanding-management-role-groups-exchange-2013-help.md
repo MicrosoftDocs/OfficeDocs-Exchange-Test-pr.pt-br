@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Um *grupo de funções de gerenciamento* é um grupo de segurança universal (USG) usado no modelo de permissões do Controle de Acesso Baseado em Função (RBAC) no Microsoft Exchange Server 2013. Um grupo de gerenciamento de funções simplifica a atribuição de funções de gerenciamento para um grupo de usuários. Todos os membros de um grupo de função recebem o mesmo conjunto de funções. Aos grupos de função são atribuídas funções de administrador e especialista que definem as principais tarefas administrativas do Exchange 2013, como gerenciamento da organização, gerenciamento de destinatário e outras tarefas. Os grupos de função permitem atribuir mais facilmente um conjunto mais amplo de permissões a um grupo de administradores ou usuários especialistas.
 

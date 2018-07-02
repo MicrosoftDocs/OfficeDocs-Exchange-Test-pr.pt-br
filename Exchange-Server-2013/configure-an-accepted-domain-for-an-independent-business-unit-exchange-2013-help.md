@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-17_
+_**Tópico modificado em:** 2014-02-17_
 
 Em algumas situações, você deverá configurar um domínio aceito para uma unidade de negócios independente com servidores de email fora da sua organização do Exchange. Em tais cenários, é possível configurar o domínio aceito como um domínio de retransmissão externo.
 

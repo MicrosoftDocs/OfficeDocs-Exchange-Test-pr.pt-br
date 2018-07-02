@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-07-02_
+_**Tópico modificado em:** 2013-07-02_
 
 O Proxy do Serviço de Replicação de Caixa de Correio (Proxy MRS) facilita as movimentações de caixa de correio entre florestas e migrações de movimentação remota entre sua organização do Exchange local e o Exchange Online. No Exchange 2013, o Proxy MRS está incluído na função de servidor de Caixa de Correio (também chamada de *servidor de Caixa de Correio*). Durante migrações entre florestas e de movimentação remota, um servidor de Acesso para Cliente atua como proxy para as solicitações de movimentação de entrada do servidor de Caixa de Correio. A capacidade de um servidor de Acesso para Cliente de aceitar essas solicitações é desabilitada por padrão. Para permitir que o servidor de Acesso para Cliente aceite solicitações de movimentação de entrada, é necessário habilitar o ponto de extremidade do Proxy MRS.
 

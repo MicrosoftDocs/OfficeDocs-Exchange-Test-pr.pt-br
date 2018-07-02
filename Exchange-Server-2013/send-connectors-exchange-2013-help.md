@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-15_
+_**Tópico modificado em:** 2012-10-15_
 
 No Microsoft Exchange Server 2013, um conector de Envio controla o fluxo de mensagens de saída para o servidor destinatário. Eles são configurados em servidores de Caixa de Correio com o serviço de Transporte. Mais comumente, você configura um conector de Envio para enviar emails de saída para um host inteligente ou diretamente para o destinatário, usando DNS.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode exibir ou definir os recursos de correio de voz e Unificação de mensagens (UM) e definições de configuração de um usuário que foi habilitado para Unificação de mensagens e caixa postal. Por exemplo, você pode fazer o seguinte:
 

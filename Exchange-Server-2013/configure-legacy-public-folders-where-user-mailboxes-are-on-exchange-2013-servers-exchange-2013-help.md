@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-03-27_
+_**Tópico modificado em:** 2017-03-27_
 
 Como permitir que os usuários do Exchange 2013 ou Exchange 2016 como acesso Exchange 2010 ou pastas públicas anteriores (também conhecido como pastas de públicas herdadas).
 

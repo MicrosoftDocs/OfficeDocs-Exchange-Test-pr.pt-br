@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-06_
+_**Tópico modificado em:** 2012-11-06_
 
 Estes procedimentos mostram como remover uma cópia de um banco de dados de caixa de correio. Você não pode usar estes procedimentos para remover da última cópia de um banco de dados de caixa de correio. Para obter instruções detalhadas sobre como remover da última cópia de um banco de dados de caixa de correio, consulte [Remove a mailbox database](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md) ou [Remove-MailboxDatabase](https://technet.microsoft.com/pt-br/library/aa997931\(v=exchg.150\)).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `User Options` permite aos administradores exibir as opções de Outlook Web App de um usuário em uma organização. Esta função pode ser usada para ajudar a diagnosticar problemas de configuração.
 

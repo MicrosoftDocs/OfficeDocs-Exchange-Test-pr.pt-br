@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-16_
+_**Tópico modificado em:** 2013-04-16_
 
 Um grupo de busca da Unificação de Mensagens (UM) é uma representação lógica de um grupo de busca existente para PBX ou PBX IP. Um grupo de busca de UM atua como uma conexão ou um link entre um gateway IP da UM e um plano de discagem da UM.
 

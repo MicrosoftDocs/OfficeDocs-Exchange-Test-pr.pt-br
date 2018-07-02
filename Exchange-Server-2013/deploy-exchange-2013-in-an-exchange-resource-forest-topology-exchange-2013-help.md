@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico explica como implantar o Microsoft Exchange 2013 em uma topologia de floresta de recurso Exchange. Uma floresta de recursos Exchange também é chamada de uma floresta dedicado Exchange. Este tópico pressupõe que você não possui uma topologia existente do Exchange 2013.
 

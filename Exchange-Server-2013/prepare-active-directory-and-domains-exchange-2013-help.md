@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Antes de instalar o Microsoft Exchange Server 2013, você precisa preparar sua floresta e domínios do Active Directory. O Exchange precisa preparar o Active Directory de modo que ele possa armazenar informações sobre as caixas de correio de seus usuários e a configuração dos servidores do Exchange na organização. Se você não estiver familiarizado com florestas ou domínios do Active Directory, confira [Visão geral do Active Directory Domain Services](https://go.microsoft.com/fwlink/p/?linkid=399226).
 

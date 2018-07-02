@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-04-12_
+_**Tópico modificado em:** 2013-04-12_
 
 As caixas de correio são o tipo de destinatário mais comum usado por trabalha com informações em uma organização do Exchange. Cada caixa de correio é associada a uma conta de usuário do Active Directory. O usuário pode usar a caixa de correio para enviar e receber mensagens, bem como para armazenar mensagens, compromissos, tarefas, anotações e documentos. Use o EAC ou o Shell para criar caixas de correio de usuário.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-01_
+_**Tópico modificado em:** 2012-11-01_
 
 Ativando uma cópia do banco de dados de caixa de correio é o processo de designar uma cópia passiva específica como a nova cópia ativa de um banco de dados de caixa de correio. Esse processo é conhecido como uma *alternância de banco de dados*. Uma alternância de banco de dados envolve desmontar o banco de dados ativo atual e montando a cópia do banco de dados no servidor especificado como a nova cópia do banco de dados de caixa de correio ativas. A cópia do banco de dados que se tornará o banco de dados de caixa de correio ativa deve estar íntegro e atual.
 

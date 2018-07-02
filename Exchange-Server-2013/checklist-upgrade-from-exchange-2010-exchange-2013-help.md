@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Use esta lista de verificação para atualizar do Microsoft Exchange 2010 para Exchange 2013. Antes de começar a trabalhar com esta lista de verificação, certifique-se de que estar familiarizado com os conceitos discutidos:
 

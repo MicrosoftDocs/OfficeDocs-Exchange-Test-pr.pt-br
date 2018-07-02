@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-23_
+_**Tópico modificado em:** 2013-02-23_
 
 Você pode especificar o local de uma empresa em um atendedor automático de Unificação de Mensagens (UM) de modo que o local seja reproduzido para os chamadores. Por padrão, nenhum local da empresa é inserido.
 

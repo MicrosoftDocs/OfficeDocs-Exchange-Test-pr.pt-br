@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Microsoft Exchange Server 2013 aproveita o conceito de mobilidade de banco de dados, que é Exchange-gerenciados failovers de nível de banco de dados. Mobilidade de banco de dados desconecta bancos de dados de servidores, adiciona suporte a até 16 cópias de um único banco de dados e oferece uma experiência nativa para adição de cópias de banco de dados para um banco de dados.
 

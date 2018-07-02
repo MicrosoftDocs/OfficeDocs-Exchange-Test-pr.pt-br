@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-02_
+_**Tópico modificado em:** 2012-10-02_
 
 Atribuições de função de gerenciamento atribuir uma função de gerenciamento a um usuário ou grupo de segurança universal (USG). Se você remover uma atribuição de função, os usuários atribuídos à função não terá mais acesso aos cmdlets disponíveis sobre essa função. Para obter mais informações sobre atribuições de função de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre as atribuições de função de gerenciamento](understanding-management-role-assignments-exchange-2013-help.md).
 

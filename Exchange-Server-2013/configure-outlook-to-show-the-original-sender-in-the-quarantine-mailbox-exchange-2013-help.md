@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A quarentena de spam é um recurso do agente de Filtro de Conteúdo que reduz o risco de perda de mensagens legítimas. A quarentena de spam fornece um local de repositório temporário para mensagens que estão identificadas como spam e que não devem ser entregues a uma caixa de correio de usuário dentro da organização.
 

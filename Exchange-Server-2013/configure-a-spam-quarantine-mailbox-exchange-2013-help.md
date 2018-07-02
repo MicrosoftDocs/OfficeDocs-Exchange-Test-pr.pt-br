@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-19_
+_**Tópico modificado em:** 2013-02-19_
 
 Mensagens consideradas como spam pelo agente de Filtro de Conteúdo podem ser direcionadas a uma caixa de correio de quarentena de spam. Se o limite de quarentena do nível de confiança de spam (SCL) estiver habilitado, todas as mensagens em quarentena serão classificadas como notificações de falha (NDR) e enviadas ao endereço SMTP especificado como a caixa de correio de quarentena de spam. Você pode examinar mensagens em quarentena e liberá-las para seus destinatários pretendidos usando o recurso Enviar Novamente no Microsoft Outlook.
 

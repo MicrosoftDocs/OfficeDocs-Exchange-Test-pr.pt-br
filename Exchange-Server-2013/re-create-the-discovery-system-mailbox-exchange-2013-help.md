@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2018-01-17_
+_**Tópico modificado em:** 2018-01-17_
 
 Descoberta eletrônica in-loco usa uma caixa de correio do sistema para armazenar metadados de pesquisa de descoberta eletrônica In-loco. Esta caixa de correio do sistema de descoberta tem o nome de exibição **SystemMailbox {e0dc1c29-89c3-4034-b678-e6c29d823ed9}**. Como caixas de correio do sistema não são visíveis no Centro de administração do Exchange (EAC) ou em listas de endereços Exchange, eles raramente são excluídos inadvertidamente.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-01-30_
+_**Tópico modificado em:** 2017-01-30_
 
 A portabilidade de banco de dados é um recurso que permite que um banco de dados de caixas de correio do Microsoft Exchange Server 2013 possa ser movido ou montado em qualquer outro servidor de Caixas de Correio na mesma organização que esteja executando o Exchange 2013 com bancos de dados de mesma versão de esquema de banco de dados. Os bancos de dados de caixas de correio de versões anteriores do Exchange não podem ser movidos para um servidor de caixas de correio que esteja executando o Exchange 2013. Usando a portabilidade de banco de dados, a confiabilidade é aprimorada pela remoção de diversas etapas manuais suscetíveis a erros dos processos de recuperação. Além disso, essa portabilidade reduz os tempos de recuperação gerais de vários cenários de falha.
 

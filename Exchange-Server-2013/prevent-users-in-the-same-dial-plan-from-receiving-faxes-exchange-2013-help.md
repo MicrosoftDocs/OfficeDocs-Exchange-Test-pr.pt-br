@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode impedir que usuários habilitados para UM (Unificação de Mensagens) vinculados a um plano de discagem de UM recebam faxes. Por padrão, os usuários que estão habilitados para Unificação de Mensagens e estão vinculados a um plano de discagem de UM podem receber mensagens de fax. No entanto, há ocasiões em que você deseja evitar que usuários que estão associados a um plano de discagem do UM específico recebam fax.
 

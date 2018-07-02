@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-11-22_
+_**Tópico modificado em:** 2017-11-22_
 
-**Resumo:** Saiba mais sobre a preparação de caixas de correio para Exchange 2013 move entre florestas.
+**Resumo:**  Saiba mais sobre a preparação de caixas de correio para Exchange 2013 move entre florestas.
 
 Microsoft Exchange 2013 suporta movimentações de caixa de correio e migrações usando o Shell de gerenciamento do Exchange, especificamente os cmdlets **New-MoveRequest** e **New-MigrationBatch** . Você também pode mover a caixa de correio por meio do Centro de administração do Exchange (EAC). Observe que você pode mover caixas de correio do Exchange 2010 e Exchange 2013 para uma floresta do Exchange 2013.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:** 2013-04-17_
+_**Tópico modificado em:**  2013-04-17_
 
 Esta seção contém os procedimentos que você pode usar como referência para o Pacote de Gerenciamento do Exchange Server 2013. Para procedimentos relacionados à operação pós-implantação, veja [Procedures related to post-deployment operation](procedures-related-to-post-deployment-operation.md)
 

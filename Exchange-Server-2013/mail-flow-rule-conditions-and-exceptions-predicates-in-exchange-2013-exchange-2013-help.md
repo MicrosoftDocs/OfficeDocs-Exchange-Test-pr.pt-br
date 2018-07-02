@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-12-20_
+_**Tópico modificado em:** 2017-12-20_
 
 Condições e exceções em regras de fluxo de email (também conhecido como regras de transporte) identificam as mensagens que a regra é aplicada a ou não é aplicada ao. Por exemplo, se a regra adiciona um aviso de isenção às mensagens, você pode configurar a regra seja aplicada apenas às mensagens que contêm palavras específicas, as mensagens enviadas por usuários específicos, ou a todas as mensagens, exceto aqueles enviadas pelos membros de um grupo específico. Coletivamente, as condições e exceções em regras de fluxo de email são também conhecido como *predicados*, porque cada condição, há uma exceção correspondente que usa as mesmas configurações exatas e a sintaxe. A única diferença é que condições especificam mensagens para incluir, enquanto exceções especificam mensagens a serem excluídas.
 
@@ -491,7 +491,7 @@ Se você adicionar uma condição de destinatário a partir desta seção, a mes
 
 Por outro lado, uma exceção destinatário desta seção *impede* a ação de regra seja aplicada a *todos os* destinatários da mensagem, não apenas para os destinatários detectados.
 
-**Observação:** Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
+**Observação:**  Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
 
 
 <table>
@@ -540,7 +540,7 @@ Voltar ao início
 
 As condições nesta seção aquela aparência para os valores dos campos **To** e **Cc** se comportam como condições na seção de qualquer destinatário (o*todos os* destinatários da mensagem são afetados pela regra, não apenas o detectou destinatários).
 
-**Observação:** Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
+**Observação:**  Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
 
 
 <table>

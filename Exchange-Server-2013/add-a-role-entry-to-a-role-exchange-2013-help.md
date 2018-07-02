@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-04_
+_**Tópico modificado em:** 2012-10-04_
 
 Para conceder acesso a um cmdlet, é preciso adicionar a entrada de função de gerenciamento associada a uma função de gerenciamento. Depois de adicionar a entrada de função a uma função, os usuários aos quais a função for atribuída poderão acessar esse cmdlet. Para mais informações sobre as entradas de função de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

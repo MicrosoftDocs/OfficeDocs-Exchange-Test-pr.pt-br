@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
-**Resumo:** instruções para habilitar os usuários do Exchange Online para acessar pastas públicas do local em seu ambiente do Exchange 2013.
+**Resumo:**  instruções para habilitar os usuários do Exchange Online para acessar pastas públicas do local em seu ambiente do Exchange 2013.
 
 Em uma implantação híbrida, os usuários podem estar em Exchange Online, local ou ambos, e suas pastas públicas são seja no Exchange Online ou local. Em alguns casos, os usuários online, talvez seja necessário acessar pastas públicas em seu ambiente do Exchange Server 2013 local. Da mesma forma, os usuários do Exchange 2013, talvez seja necessário acessar pastas públicas no Office 365 ou Exchange Online.
 

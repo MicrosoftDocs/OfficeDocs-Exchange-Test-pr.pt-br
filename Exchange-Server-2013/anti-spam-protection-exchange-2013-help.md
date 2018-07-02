@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-06_
+_**Tópico modificado em:** 2015-03-06_
 
 *Os remetentes de spam*ou Remetentes mal-intencionado, usam uma variedade de técnicas para enviar e-mails indesejados em sua organização. Nenhuma ferramenta única ou processo pode eliminar todo o spam. No entanto, o Microsoft Exchange Server 2013 fornece uma abordagem em camadas, multipronged e multifacetada à redução dessas mensagens indesejadas. O Exchange usa agentes de transporte para oferecer proteção contra spam, e os agentes internos que estão disponíveis no Exchange 2013 são relativamente inalterados desde o Microsoft Exchange Server 2010.
 

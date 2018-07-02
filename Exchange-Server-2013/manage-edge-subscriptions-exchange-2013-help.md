@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2018-04-16_
+_**Tópico modificado em:** 2018-04-16_
 
 Este tópico oferece informações detalhadas sobre várias tarefas de gerenciamento de Inscrição de Borda.
 

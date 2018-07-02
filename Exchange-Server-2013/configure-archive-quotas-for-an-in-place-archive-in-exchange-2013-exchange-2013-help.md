@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-12-04_
+_**Tópico modificado em:** 2012-12-04_
 
 Em implantações de local, arquivos mortos In-loco são criados com as cotas de armazenamento ilimitado por padrão. Como resultado, você precisará editar propriedades de caixa de correio para definir cotas de armazenamento para o arquivo morto. Você pode definir as cotas de seguintes para um arquivo morto:
 

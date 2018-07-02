@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O *Arquivo Morto In-Loco* ajuda você a recuperar o controle dos dados de mensagem da organização, eliminando a necessidade de arquivos de armazenamento pessoal (.pst) e permitindo que os usuários armazenem as mensagens em uma *caixa de correio de arquivo morto* que seja acessível pelo MicrosoftOutlook 2010 e posterior e pelo Microsoft OfficeOutlook Web App.
 

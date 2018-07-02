@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-15_
+_**Tópico modificado em:** 2016-12-15_
 
 A Instalação do Microsoft Exchange Server 2013 não pode continuar porque detectou que o Objeto de Política de Grupo (GPO) **ExecutionPolicy** define uma ou ambas das seguintes políticas:
 

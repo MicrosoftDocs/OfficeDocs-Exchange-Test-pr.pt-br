@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Com o compartilhamento federado no Exchange Server 2013, os usuários podem compartilhar informações com destinatários em organizações externas federadas. Isso inclui o compartilhamento de informações sobre sua disponibilidade (também conhecida como disponibilidade de calendário) para fins de agendamento ou, dependendo da natureza da relação comercial, compartilhamento de informações de calendário mais detalhadas. Para saber mais sobre compartilhamento federado, consulte [Compartilhamento](sharing-exchange-2013-help.md).
 
