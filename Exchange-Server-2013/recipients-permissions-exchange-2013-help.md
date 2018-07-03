@@ -28,7 +28,7 @@ Para descobrir de que permissões você precisa para executar o procedimento ou 
 3.  Agora, execute o cmdlet **Get-ManagementRoleAssignment** para examinar os grupos de funções ou funções de gerenciamento atribuídas a você, para ver se você tem as permissões necessárias para gerenciar o recurso.
     
 
-    > [!TIP]
+    > [!TIP]  
     > A função de gerenciamento Gerenciamento de Funções deve sido atribuída a você, para que você possa executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>. Se você não tiver as permissões para executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>, peça ao seu administrador do Exchange para recuperar os grupos de funções ou funções de gerenciamento atribuídas a você.
 
 
@@ -78,7 +78,7 @@ Os usuários atribuídos ao grupo de funções Gerenciamento Somente Exibição 
 <p><a href="view-only-organization-management-exchange-2013-help.md">Gerenciamento da organização somente exibição</a></p>
 <p>Função Diagnóstico de Suporte</p>
 
-> [!TIP]
+> [!TIP]  
 > A função Diagnóstico de Suporte não está atribuída a um grupo de funções. Para mais informações, consulte <A href="add-a-role-to-a-user-or-usg-exchange-2013-help.md">Adicionar uma função a um usuário ou USG</A>.
 
 
@@ -93,7 +93,7 @@ Os usuários atribuídos ao grupo de funções Gerenciamento Somente Exibição 
 <td><p>Importar e exportar</p></td>
 <td><p>Função Importar Exportar Caixa de Correio</p>
 
-> [!TIP]
+> [!TIP]  
 > A função Importar Exportar Caixa de Correio não está atribuída a um grupo de funções. Para obter mais informações, consulte <A href="mailbox-import-export-role-exchange-2013-help.md">Função Importar Exportar Caixa de Correio</A>.
 
 

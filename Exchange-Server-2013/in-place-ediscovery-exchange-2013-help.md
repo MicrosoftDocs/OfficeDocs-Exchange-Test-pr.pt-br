@@ -18,7 +18,7 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013_
 _**Tópico modificado em:** 2017-01-17_
 
 
-> [!TIP]
+> [!TIP]  
 > Adiamos o prazo de 1º de julho de 2017 para criar novas pesquisas de Descoberta eletrônica In-loco no Exchange Online (em planos autônomos do Office 365 e do Exchange Online). No entanto, mais para o fim deste ano ou no início do próximo ano, não será possível criar novas pesquisas no Exchange Online. Para criar pesquisas de Descoberta Eletrônica, use a <A href="https://go.microsoft.com/fwlink/?linkid=847843">Pesquisa de Conteúdo</A> no Centro de Conformidade e Segurança doOffice 365. Após desativarmos as novas pesquisas de Descoberta Eletrônica In-loco, você ainda conseguirá modificar as pesquisas existentes. Além disso, a criação de novas pesquisas de Descoberta Eletrônica In-loco no Exchange Server 2013 e as implantações híbridas do Exchange continuam com suporte.
 
 
@@ -166,7 +166,7 @@ Voltar ao início
 Usuários que tenham sido adicionados ao grupo de funções de Gerenciamento de Descoberta podem realizar pesquisas de Descoberta Eletrônica In-loco. Você pode realizar uma pesquisa usando a interface baseada em web do EAC. Isso facilita para os usuários sem perfil técnico, como gerentes de registros, responsáveis pela conformidade ou profissionais jurídicos ou de RH, a utilização da Descoberta Eletrônica In-loco. Você também pode usar o Shell para realizar uma pesquisa. Para obter mais informações, consulte [Criar uma pesquisa de Descoberta Eletrônica In-loco](create-an-in-place-ediscovery-search-exchange-2013-help.md)
 
 
-> [!TIP]
+> [!TIP]  
 > Nas organizações locais, você pode usar a Descoberta Eletrônica In-loco para pesquisar caixas de correio localizadas nos servidores de Caixa de Correio do Exchange 2013 . Para pesquisar caixas de correio localizadas nos servidores de Caixa de Correio do Exchange 2010, use a Pesquisa de Várias Caixas de Correio em um servidor do Exchange 2010.<BR>Em um ambiente híbrido, um ambiente onde algumas caixas de correio existem em seus servidores de Caixa de Correio no local e algumas caixas de correio existem em uma organização baseada em nuvem, você pode realizar pesquisas de Descoberta Eletrônica In-loco em suas caixas de correio baseadas em nuvem usando o EAC na sua organização local. Se você pretende copiar mensagens para uma caixa de correio descoberta, você deve selecionar uma caixa de correio descoberta local. As mensagens de caixas de correio baseadas em nuvem que são retornadas nos resultados de pesquisa são copiadas para a caixa de correio descoberta local especificada. Para saber mais sobre implantações híbridas, consulte <A href="https://technet.microsoft.com/pt-br/library/jj200581(v=exchg.150)">Implantações Híbridas do Exchange Server</A>.
 
 
@@ -192,7 +192,7 @@ Ao criar uma pesquisa de Descoberta Eletrônica In-loco, você deve especificar 
         O Exchange 2013 também oferece suporte à sintaxe Linguagem de Consulta por Palavra-Chave (KQL) para pesquisas de Descoberta Eletrônica In-loco.
         
 
-        > [!TIP]
+        > [!TIP]  
         > A Descoberta Eletrônica In-loco não oferece suporte a expressões regulares.
 
         
@@ -239,7 +239,7 @@ Voltar ao início
 Após a finalização de uma pesquisa de Descoberta Eletrônica In-Loco, você pode exibir as estimativas do resultado da pesquisa no painel de Detalhes no EAC. A estimativa inclui o número de itens retornados e o tamanho total desses itens. Você também pode visualizar estatísticas de palavras-chave que exibem detalhes sobre o número de itens retornados por cada palavra-chave utilizada na consulta de pesquisa. Esta informação é útil para determinar a eficiência da consulta. Se a consulta for abrangente demais, ela irá retornar um conjunto de dados muito maior, o que pode exigir mais recursos para revisão e aumentar os custos da Descoberta Eletrônica. Se a consulta for restrita demais, ela pode reduzir significativamente o número de registros retornados ou não retornar registro nenhum. Você pode usar as estimativas e as estatísticas de palavra-chave para aperfeiçoar a consulta e atender seus requisitos.
 
 
-> [!TIP]
+> [!TIP]  
 > No Exchange 2013, as estatísticas de palavra-chave também incluem estatísticas para propriedades que não são palavras-chave, como datas, tipos de mensagens e remetentes/destinatários especificados na consulta de pesquisa.
 
 
@@ -289,7 +289,7 @@ Há dois tipos de log disponíveis para pesquisas de Descoberta Eletrônica In-l
   - **Registro completo em log**   O registro completo em log inclui informações sobre todas as mensagens retornadas pela pesquisa. Essas informações são fornecidas em um arquivo de valores separados por vírgulas (.csv) anexado à mensagem de email que contém as informações do log básico. O nome da pesquisa é usado no nome do arquivo .csv. Essa informação pode ser necessária para fins de manutenção de registros ou conformidade. Para habilitar o log completo, você deve selecionar a opção **Habilitar log completo** ao copiar os resultados da pesquisa para uma caixa de correio de descoberta no EAC. Se você está usando o Shell, especifique a opção registro completo em log usando o parâmetro *LogLevel* .
 
 
-> [!TIP]
+> [!TIP]  
 > Ao usar o Shell para criar ou modificar uma pesquisa de Descoberta Eletrônica In-loco, você também pode desabilitar o log.
 
 
@@ -368,7 +368,7 @@ A diretiva padrão de limitação contém os seguintes parâmetros.
 <td><p>O número máximo de pesquisas de Descoberta Eletrônica In-loco que podem ser executados ao mesmo tempo em sua organização.</p></td>
 <td><p>2</p>
 
-> [!TIP]
+> [!TIP]  
 > Se uma pesquisa de Descoberta Eletrônica for iniciada enquanto duas pesquisas anteriores ainda estiverem sendo executadas, a terceira pesquisa não será enfileirada e falhará. Você precisa esperar até que uma das pesquisas anteriores termine antes de iniciar uma nova pesquisa.
 
 
@@ -385,7 +385,7 @@ A diretiva padrão de limitação contém os seguintes parâmetros.
 <td><p>O número máximo de caixas de correio que podem ser pesquisadas em uma única pesquisa de Descoberta Eletrônica In-loco que ainda permita exibir estatísticas de palavra-chave.</p></td>
 <td><p>100</p>
 
-> [!TIP]
+> [!TIP]  
 > Depois de executar uma estimativa de pesquisa de Descoberta Eletrônica, você pode exibir estatísticas de palavra-chave. Essas estatísticas também podem exibir detalhes sobre o número de itens retornados por cada palavra-chave utilizada na consulta de pesquisa. Se mais de 100 caixas de correio de origem forem incluídas na pesquisa, um erro será retornado se você tentar exibir estatísticas de palavra-chave.
 
 
@@ -411,7 +411,7 @@ A diretiva padrão de limitação contém os seguintes parâmetros.
 
 
 
-> [!TIP]
+> [!TIP]  
 > 1&nbsp;&nbsp;&nbsp;Se iniciar uma pesquisa de Descoberta Eletrônica no Centro de Descoberta Eletrônica do SharePoint Online em uma organização do Office 365, você pode pesquisar no máximo 1.500 caixas de correio em uma única pesquisa.
 
 

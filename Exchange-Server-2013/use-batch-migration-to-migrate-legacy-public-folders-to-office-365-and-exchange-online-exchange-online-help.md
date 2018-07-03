@@ -77,7 +77,7 @@ Não é possível migrar pastas públicas diretamente do Exchange 2003. Se você
 
   - No Exchange 2007, você precisa ter a função Administrador da Organização do Exchange ou a função Administrador do Exchange Server atribuída. Além disso, você deve ter a função Administrador de Pasta Pública e o grupo local Administradores atribuídos para o servidor de destino. Para obter detalhes, confira o tópico sobre [Como adicionar um usuário ou grupo a uma função de administrador](https://go.microsoft.com/fwlink/p/?linkid=81779).
 
-  - No servidor Exchange 2007, atualize para o [Windows PowerShell 2.0 e o WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - No servidor Exchange 2007, atualize para o [Windows PowerShell 2.0 e o WinRM 2.0 para Windows Server 2008 x64 Edition](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Antes da migração, se alguma pasta pública na sua organização for maior do que 2 GB, recomendamos que você exclua o conteúdo dessa pasta ou divida esse conteúdo em várias pastas públicas. Se uma dessas opções não for possível, recomendamos que não mova suas pastas públicas para o Office 365 ou o Exchange Online.
 

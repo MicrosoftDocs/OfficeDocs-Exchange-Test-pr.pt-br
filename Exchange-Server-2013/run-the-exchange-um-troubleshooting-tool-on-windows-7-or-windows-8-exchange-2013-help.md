@@ -41,7 +41,7 @@ A ferramenta de solução de problemas de UM do Microsoft Exchange 2010 é um cm
     
       - Se a ferramenta for executada em um computador de Vista ou Windows Server 2008Windows, consulte [Microsoft .NET Framework 3.5 Family Update para Windows Vista x64 e Windows Server 2008 x64](https://go.microsoft.com/fwlink/p/?linkid=178998).
     
-      - Windows Remote Management (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Consulte o artigo 968930 da Base de Conhecimento da Microsoft, [Windows Management Framework Core package (Windows PowerShell 2.0 e WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+      - Windows Remote Management (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Consulte o artigo 968930 da Base de Conhecimento da Microsoft, [Windows Management Framework Core package (Windows PowerShell 2.0 e WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
     
       - Microsoft Unified Communications Managed API 2.0 Core Runtime (Ucmaruntimewebdownloadx64). Consulte [Unified Communications Managed API 2.0, Core Runtime (64 bits)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

@@ -27,7 +27,7 @@ Para obter mais informações sobre como preparar para movimentações entre flo
 
   - Baixe o código de amostra da página [preparar para mover de caixa de correio Online](https://go.microsoft.com/fwlink/p/?linkid=177882) no Microsoft Download Center.
 
-  - Para executar o código de exemplo, você precisa ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Para baixar o feature pack, consulte o artigo da Base de Conhecimento Microsoft 977791, [que Service Pack 1 (compilação 3.3.1139.2) está disponível para Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=977791).
+  - Para executar o código de exemplo, você precisa ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Para baixar o feature pack, consulte o artigo da Base de Conhecimento Microsoft 977791, [que Service Pack 1 (compilação 3.3.1139.2) está disponível para Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=977791).
 
   - Você também precisará dos seguintes itens:
     

@@ -109,7 +109,7 @@ A tabela a seguir fornece uma lista de tipos de disco físico suportados, além 
 </ul></td>
 <td><p>Suportado:  discos de setor de 512 bytes para Windows Server 2008 e Windows Server 2008 R2. Além disso, discos 512e são suportados para Windows Server 2008 R2 com o seguinte:</p>
 <ul>
-<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
+<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
 <li><p>Windows Server 2008 R2 com Service Pack 1 (SP1) e Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>O Exchange 2013 e versões posteriores oferecem suporte aos discos de setores de 4 KB e discos 512e. O suporte requer que todas as cópias de bancos de dados residam no mesmo tipo de disco físico. Por exemplo, não há suporte para hospedar uma cópia de determinado banco de dados em um disco de setores de 512 bytes e outra cópia do mesmo banco de dados em um disco 512e ou 4 KB.</p>
@@ -126,7 +126,7 @@ A tabela a seguir fornece uma lista de tipos de disco físico suportados, além 
 </ul></td>
 <td><p>Suportado:  discos de setor de 512 bytes para Windows Server 2008 e Windows Server 2008 R2. Além disso, discos 512e são suportados para Windows Server 2008 R2 com o seguinte:</p>
 <ul>
-<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
+<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
 <li><p>Windows Server 2008 R2 com Service Pack 1 (SP1) e Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>O Exchange 2013 e versões posteriores oferecem suporte aos discos de setores de 4 KB e discos 512e. O suporte requer que todas as cópias de bancos de dados residam no mesmo tipo de disco físico. Por exemplo, não há suporte para hospedar uma cópia de determinado banco de dados em um disco de setores de 512 bytes e outra cópia do mesmo banco de dados em um disco 512e ou 4 KB.</p>
@@ -143,7 +143,7 @@ A tabela a seguir fornece uma lista de tipos de disco físico suportados, além 
 </ul></td>
 <td><p>Suportado:  discos de setor de 512 bytes para Windows Server 2008 e Windows Server 2008 R2. Além disso, discos 512e são suportados para Windows Server 2008 R2 com o seguinte:</p>
 <ul>
-<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
+<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
 <li><p>Windows Server 2008 R2 com Service Pack 1 (SP1) e Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>O Exchange 2013 e versões posteriores oferecem suporte aos discos de setores de 4 KB e discos 512e. O suporte requer que todas as cópias de bancos de dados residam no mesmo tipo de disco físico. Por exemplo, não há suporte para hospedar uma cópia de determinado banco de dados em um disco de setores de 512 bytes e outra cópia do mesmo banco de dados em um disco 512e ou 4 KB.</p>
@@ -159,7 +159,7 @@ A tabela a seguir fornece uma lista de tipos de disco físico suportados, além 
 </ul></td>
 <td><p>Suportado:  discos de setor de 512 bytes para Windows Server 2008 e Windows Server 2008 R2. Além disso, discos 512e são suportados para Windows Server 2008 R2 com o seguinte:</p>
 <ul>
-<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
+<li><p>O hotfix descrito no <a href="https://go.microsoft.com/fwlink/p/?linkid=3052&kbid=982018">artigo 982018 da Base de Dados de Conhecimento Microsoft</a>. Uma atualização que aprimora a compatibilidade do Windows 7 e do Windows Server 2008 R2 com discos de formatação avançada, está disponível.</p></li>
 <li><p>Windows Server 2008 R2 com Service Pack 1 (SP1) e Exchange Server 2010 SP1.</p></li>
 </ul>
 <p>O Exchange 2013 e versões posteriores oferecem suporte aos discos de setores de 4 KB e discos 512e. O suporte requer que todas as cópias de bancos de dados residam no mesmo tipo de disco físico. Por exemplo, não há suporte para hospedar uma cópia de determinado banco de dados em um disco de setores de 512 bytes e outra cópia do mesmo banco de dados em um disco 512e ou 4 KB.</p>
@@ -695,7 +695,7 @@ A tabela a seguir fornece orientações sobre as configurações de volume.
 <td><p>Windows BitLocker (criptografia de volume)</p></td>
 <td><p>Windows BitLocker é um recurso de proteção de dados no Windows Server 2008. O BitLocker protege contra roubo de dados ou exposição em computadores que são perdidos ou roubados e oferece exclusão de dados mais segura quando os computadores são encerrados.</p></td>
 <td><p>Com suporte: Todos os arquivos de log e banco de dados do Exchange.</p></td>
-<td><p>Com suporte: Todos os arquivos de log e banco de dados do Exchange. Os clusters de failover do Windows exigem o Windows Server 2008 R2 ou o Windows Server 2008 R2 SP1 e o seguinte hotfix: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2446607">Você não poderá habilitar o BitLocker em um volume de disco no Windows Server 2008 R2, se o computador for um nó de cluster de failover</a>. Os volumes do Exchange com o BitLocker habilitado não são suportados em clusters de failover do Windows executando versões anteriores do Windows.</p>
+<td><p>Com suporte: Todos os arquivos de log e banco de dados do Exchange. Os clusters de failover do Windows exigem o Windows Server 2008 R2 ou o Windows Server 2008 R2 SP1 e o seguinte hotfix: <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=2446607">Você não poderá habilitar o BitLocker em um volume de disco no Windows Server 2008 R2, se o computador for um nó de cluster de failover</a>. Os volumes do Exchange com o BitLocker habilitado não são suportados em clusters de failover do Windows executando versões anteriores do Windows.</p>
 <p>Para obter mais informações sobre a criptografia de disco BitLocker Windows 7, consulte <a href="https://go.microsoft.com/fwlink/p/?linkid=220898">criptografia de unidade de disco BitLocker no Windows 7: perguntas frequentes</a>.</p></td>
 </tr>
 <tr class="odd">

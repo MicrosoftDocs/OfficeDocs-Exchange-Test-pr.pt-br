@@ -60,9 +60,9 @@ Para resolver esse problema, remova todos os componentes de ADC e execute novame
 
 Para obter mais informações sobre ADC, consulte os seguintes artigos da Base de Conhecimento Microsoft:
 
-  - 325300, "WebCast de suporte: Introdução ao conector do Active Directory" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325300](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=325300)).
+  - 325300, "WebCast de suporte: Introdução ao conector do Active Directory" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325300](https://go.microsoft.com/fwlink/?linkid=3052&kbid=325300)).
 
-  - 325221, "WebCast de suporte: Microsoft Advanced conector do Active Directory" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325221](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=325221)).
+  - 325221, "WebCast de suporte: Microsoft Advanced conector do Active Directory" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=325221](https://go.microsoft.com/fwlink/?linkid=3052&kbid=325221)).
 
-  - 312632, "Como instalar e configurar o conector do Active Directory no Exchange 2000 Server" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=312632](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=312632)).
+  - 312632, "Como instalar e configurar o conector do Active Directory no Exchange 2000 Server" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=312632](https://go.microsoft.com/fwlink/?linkid=3052&kbid=312632)).
 

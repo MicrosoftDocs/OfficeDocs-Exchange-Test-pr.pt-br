@@ -24,7 +24,7 @@ Um SBC exige o uso de certificados digitais para criptografar todo o tráfego en
 Em implantações híbridas ou online, um gateway de IP de UM representa um SBC. O nome comum do assunto no certificado deve corresponder ao valor do nome de domínio totalmente qualificado (FQDN) no campo Endereço do gateway IP de UM que você criar. Por exemplo, se você especificar o endereço FQDN sbcexternal.contoso.com no seu gateway IP de UM, certifique-se de que o nome do assunto e o nome alternativo do assunto no certificado contenham o mesmo valor: sbcexternal.contoso.com. O nome que você usa faz distinção entre maiúsculas e minúsculas, então, certifique-se de que as maiúsculas e minúsculas estejam iguais no certificado e no gateway IP de UM. Se você estiver usando um SBC da Acme Packet e o nome comum não corresponder ao FQDN do gateway de IP de UM, a chamada será rejeitada com um erro 403.
 
 
-> [!TIP]
+> [!TIP]  
 > Como SBCs projetadas para ficam na borda da rede, eles também funcionam como um firewall. Se você configurar um SBC atrás do firewall da organização, ele pode causar problemas de configuração e não é suportado para conectar-se ao Office 365.
 
 
@@ -34,7 +34,7 @@ Em implantações híbridas ou online, um gateway de IP de UM representa um SBC.
 Os seguintes SBCs foram testados com êxito para interoperabilidade com implantações híbridas e online do Exchange. Observe que os recursos e as compatibilidades dos SBCs podem variar, e a configuração deles pode ser diferente, dependendo de outros equipamentos na sua rede. Entre em contato com o fabricante do SBC para ver se há observações de configuração específicas para a Unificação de Mensagens em uma implantação híbrida ou online.
 
 
-> [!TIP]
+> [!TIP]  
 > Exchange Online UM suporte para sistemas de PBX de terceiros por meio de conexões diretas do cliente operado SBCs será finalizado no de 2018 julho. Consulte o blog da equipe <A href="https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/">suporte para controladores de borda de sessão no Exchange Online Descontinuado Unificação de mensagens</A> Exchange para obter mais informações.
 
 
@@ -76,7 +76,7 @@ Os seguintes SBCs foram testados com êxito para interoperabilidade com implanta
 <td><p><a href="https://www.cisco.com/c/dam/en/us/solutions/collateral/enterprise-networks/unified-access/cube-asr-release-10-0.pdf">Cisco</a></p></td>
 <td><p>ASR 1000</p>
 
-> [!TIP]
+> [!TIP]  
 > Deve ter o S3 IOS 15.4 (3) ou posterior instalado.
 
 

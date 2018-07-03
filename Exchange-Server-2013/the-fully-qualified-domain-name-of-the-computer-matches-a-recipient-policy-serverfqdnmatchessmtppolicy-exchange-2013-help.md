@@ -55,5 +55,5 @@ Para modificar a política de destinatário endereço SMTP
 
 4.  Clique na guia **Endereços de email** e altere o endereço SMTP apropriado
 
-Para obter mais informações sobre problemas de nomenclatura de política de destinatário, consulte o artigo da Base de Conhecimento Microsoft 288175, "XCON: política de destinatário não pode corresponder ao FQDN de qualquer servidor na organização, 5.4.8 NDRs" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=288175)).
+Para obter mais informações sobre problemas de nomenclatura de política de destinatário, consulte o artigo da Base de Conhecimento Microsoft 288175, "XCON: política de destinatário não pode corresponder ao FQDN de qualquer servidor na organização, 5.4.8 NDRs" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052&kbid=288175)).
 

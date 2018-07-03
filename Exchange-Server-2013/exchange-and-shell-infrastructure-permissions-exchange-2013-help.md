@@ -28,7 +28,7 @@ Para descobrir de que permissões você precisa para executar o procedimento ou 
 3.  Agora, execute o cmdlet **Get-ManagementRoleAssignment** para examinar os grupos de funções ou funções de gerenciamento atribuídas a você, para ver se você tem as permissões necessárias para gerenciar o recurso.
     
 
-    > [!TIP]
+    > [!TIP]  
     > A função de gerenciamento Gerenciamento de Funções deve sido atribuída a você, para que você possa executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>. Se você não tiver as permissões para executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>, peça ao seu administrador do Exchange para recuperar os grupos de funções ou funções de gerenciamento atribuídas a você.
 
 
@@ -36,7 +36,7 @@ Para descobrir de que permissões você precisa para executar o procedimento ou 
 Se você quiser delegar, a outro usuário, a habilidade para gerenciar um recurso, confira [Atribuições de função de representante](delegate-role-assignments-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Alguns recursos podem exigir que você tenha permissões de administrador local no servidor que você quer gerenciar. Para gerenciar esses recursos, você deve ser membro do grupo Administradores Locais no servidor.
 
 
@@ -104,7 +104,7 @@ Os usuários atribuídos ao grupo de funções Gerenciamento Somente Exibição 
 <td><p><a href="organization-management-exchange-2013-help.md">Gerenciamento da Organização</a></p>
 <p><a href="records-management-exchange-2013-help.md">Gerenciamento de Registros</a></p>
 
-> [!TIP]
+> [!TIP]  
 > Você pode também atribuir manualmente a função de gerenciamento de logs de auditoria somente leitura a um grupo de funções de gerenciamento. Para mais informações, consulte <A href="view-only-audit-logs-role-exchange-2013-help.md">Função de Logs de auditoria somente para exibição</A>.
 
 

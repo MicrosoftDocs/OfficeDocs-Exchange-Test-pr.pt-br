@@ -104,7 +104,7 @@ Uma configuração híbrida com pastas públicas do Exchange 2003 não é suport
 
 7.  No Exchange 2007, você deve ter a função Administrador da Organização do Exchange ou Administrador do Exchange Server atribuída. Além disso, você deve ter a função Administrador de Pasta Pública e o grupo local Administradores atribuídos para o servidor de destino. Confira os detalhes em [Como adicionar um usuário ou um grupo a uma função de administrador](https://go.microsoft.com/fwlink/p/?linkid=81779)
 
-8.  Se estiver usando o Exchange Server 2007 no Windows Server 2008 x64, você deverá atualizar para o [Windows PowerShell 2.0 e WinRM 2.0 para Windows Server 2008 x64 Edition (KB968930)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930). Se estiver usando o Exchange Server 2007 no Windows Server 2003 x64, você deverá atualizar para o Windows PowerShell 2.0. Para saber mais, confira [Atualização do Windows Server 2003 x64 Edition (KB968930)](https://www.microsoft.com/pt-br/download/details.aspx?id=10512).
+8.  Se estiver usando o Exchange Server 2007 no Windows Server 2008 x64, você deverá atualizar para o [Windows PowerShell 2.0 e WinRM 2.0 para Windows Server 2008 x64 Edition (KB968930)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930). Se estiver usando o Exchange Server 2007 no Windows Server 2003 x64, você deverá atualizar para o Windows PowerShell 2.0. Para saber mais, confira [Atualização do Windows Server 2003 x64 Edition (KB968930)](https://www.microsoft.com/pt-br/download/details.aspx?id=10512).
 
 9.  Para acessar as pastas públicas entre locais, os usuários devem atualizar seus clientes do Outlook para a atualização pública de novembro de 2012 do Outlook ou posterior.
     

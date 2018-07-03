@@ -323,7 +323,7 @@ Para implementar o IRM na sua organização do Exchange 2013, sua implantação 
 <tr class="odd">
 <td><p>Cluster do AD RMS</p></td>
 <td><ul>
-<li><p><strong>Sistema operacional</strong>   Windows Server 2012, Windows Server 2008 R2 ou Windows Server 2008 SP2 com o hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973247">Um hotfix está disponível para a função do Active Directory Rights Management Services no Windows Server 2008: 26 de agosto de 2009</a> é necessário.</p></li>
+<li><p><strong>Sistema operacional</strong>   Windows Server 2012, Windows Server 2008 R2 ou Windows Server 2008 SP2 com o hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973247">Um hotfix está disponível para a função do Active Directory Rights Management Services no Windows Server 2008: 26 de agosto de 2009</a> é necessário.</p></li>
 <li><p><strong>Ponto de conexão de serviço</strong> Exchange 2010 e aplicativos com reconhecimento de AD RMS usam o ponto de conexão de serviço registrado no Active Directory para descobrir um cluster AD RMS e URLs. AD RMS permite que você registre o ponto de conexão de serviço de dentro da configuração do AD RMS. Se a conta usada para configurar o AD RMS não for um membro do grupo de segurança Administradores de empresa, o registro de ponto de conexão de serviço pode ser realizado quando a instalação for concluída. Há somente um serviço ponto de conexão para o AD RMS em uma floresta Active Directory.   </p></li>
 <li><p><strong>Permissões</strong>   As permissões de Leitura e Execução para o pipeline de certificação de servidor AD RMS (arquivo <code>ServerCertification.asmx</code> nos servidores AD RMS) devem se atribuídas ao seguinte:</p>
 <ul>
@@ -338,7 +338,7 @@ Para implementar o IRM na sua organização do Exchange 2013, sua implantação 
 <td><p>Exchange</p></td>
 <td><ul>
 <li><p>Exchange 2010 ou posterior é necessário.</p></li>
-<li><p>O hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=973136">CORREÇÃO: ArgumentNullException mensagem de erro de exceção quando um aplicativo baseado no .NET Framework 2.0 SP2 tenta processar uma resposta com comprimento zero de conteúdo a uma solicitação de serviço da Web ASP.NET assíncrona: &quot;O valor não pode ser nulo&quot;</a> é recomendado para o Microsoft .NET Framework 2.0 SP2.</p></li>
+<li><p>O hotfix <a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=973136">CORREÇÃO: ArgumentNullException mensagem de erro de exceção quando um aplicativo baseado no .NET Framework 2.0 SP2 tenta processar uma resposta com comprimento zero de conteúdo a uma solicitação de serviço da Web ASP.NET assíncrona: &quot;O valor não pode ser nulo&quot;</a> é recomendado para o Microsoft .NET Framework 2.0 SP2.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

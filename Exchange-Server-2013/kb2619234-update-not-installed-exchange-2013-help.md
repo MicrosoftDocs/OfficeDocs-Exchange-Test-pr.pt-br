@@ -29,7 +29,7 @@ Baixe e instale a atualização de 64 bits na URL a seguir e clique em **tentar 
 
 
 
-Artigo da Base de Conhecimento Microsoft KB2619234, [um hotfix está disponível para habilitar o Cookie/GUID de associação que é usado pelo RPC sobre HTTP também seja usado na camada de RPC no Windows 7 e no Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+Artigo da Base de Conhecimento Microsoft KB2619234, [um hotfix está disponível para habilitar o Cookie/GUID de associação que é usado pelo RPC sobre HTTP também seja usado na camada de RPC no Windows 7 e no Windows Server 2008 R2)](https://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
 Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542), ou [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=285351).
 

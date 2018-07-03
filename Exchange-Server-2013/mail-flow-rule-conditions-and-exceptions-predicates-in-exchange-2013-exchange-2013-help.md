@@ -305,7 +305,7 @@ Voltar ao início
 ## Assunto da mensagem ou no corpo
 
 
-> [!TIP]
+> [!TIP]  
 > A pesquisa de palavras ou padrões de texto nos campos de cabeçalho assunto ou outros na mensagem ocorre <EM>após</EM> a mensagem ter sido decodificada do método de codificação de transferência de conteúdo MIME, usado para transmitir a mensagem binária entre os servidores SMTP em texto ASCII. Não é possível usar condições ou exceções para buscar os valores codificados brutos (tipicamente com base64) dos campos de cabeçalho assunto ou outros nas mensagens.
 
 
@@ -745,7 +745,7 @@ Voltar ao início
 <td><p><code>MessageType</code></p></td>
 <td><p>Mensagens do tipo especificado.</p>
 
-> [!TIP]
+> [!TIP]  
 > Quando Outlook ou Outlook Web App estiver configurada para encaminhar uma mensagem, a propriedade <STRONG>ForwardingSmtpAddress</STRONG> é adicionada à mensagem. O tipo de mensagem não é alterado para <CODE>AutoForward</CODE>.
 
 
@@ -797,7 +797,7 @@ Voltar ao início
 ## Cabeçalhos de mensagem
 
 
-> [!TIP]
+> [!TIP]  
 > A pesquisa de palavras ou padrões de texto nos campos de cabeçalho assunto ou outros na mensagem ocorre <EM>após</EM> a mensagem ter sido decodificada do método de codificação de transferência de conteúdo MIME, usado para transmitir a mensagem binária entre os servidores SMTP em texto ASCII. Não é possível usar condições ou exceções para buscar os valores codificados brutos (tipicamente com base64) dos campos de cabeçalho assunto ou outros nas mensagens.
 
 
@@ -985,7 +985,7 @@ Voltar ao início
 Os tipos de propriedade são usados em condições e exceções são descritos na tabela a seguir.
 
 
-> [!TIP]
+> [!TIP]  
 > Se a propriedade for uma cadeia de caracteres, os espaços à direita não serão permitidos.
 
 
@@ -1115,7 +1115,7 @@ Os tipos de propriedade são usados em condições e exceções são descritos n
 <li><p><strong>Confirmação de leitura</strong> (<code>ReadReceipt</code>)</p></li>
 </ul>
 
-> [!TIP]
+> [!TIP]  
 > Quando Outlook ou Outlook Web App estiver configurada para encaminhar uma mensagem, a propriedade <STRONG>ForwardingSmtpAddress</STRONG> é adicionada à mensagem. O tipo de mensagem não é alterado para <CODE>AutoForward</CODE>.
 
 
@@ -1171,7 +1171,7 @@ Os tipos de propriedade são usados em condições e exceções são descritos n
 <li><p>Endereço de email do remetente está em um domínio aceito que esteja configurado como um domínio de retransmissão externo.</p></li>
 </ul>
 
-> [!TIP]
+> [!TIP]  
 > Para determinar se os contatos de email são considerados como estando dentro ou fora da organização, o endereço do remetente é comparado com os domínios aceitos da organização.
 
 

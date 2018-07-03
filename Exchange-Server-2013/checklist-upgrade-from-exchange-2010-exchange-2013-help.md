@@ -26,7 +26,7 @@ Use esta lista de verificação para atualizar do Microsoft Exchange 2010 para E
 Esta lista de verificação é genérica, pois fornece orientações para um cenário de atualização típico.
 
 
-> [!TIP]
+> [!TIP]  
 > O Assistente de Implantação do Exchange Server oferece orientação personalizada passo a passo sobre como implantar o Exchange Server. O Assistente de Implantação pode ajudar a implantar uma nova instalação do Exchange Server 2013, atualizar uma versão anterior para o Exchange 2013 ou configurar uma implantação híbrida do Exchange 2013 e do Exchange Online. Para saber mais, confira <A href="exchange-server-deployment-assistant-exchange-2013-help.md">Assistente de implantação do Exchange Server</A>.
 
 
@@ -66,7 +66,7 @@ Esta lista de verificação é genérica, pois fornece orientações para um cen
 <td><p></p></td>
 <td><p>4. Configurar o namespace separado</p>
 
-> [!TIP]
+> [!TIP]  
 > Esta etapa é opcional. É necessária apenas se a sua organização estiver executando um namespace separado.
 
 
@@ -94,7 +94,7 @@ Esta lista de verificação é genérica, pois fornece orientações para um cen
 <td><p></p></td>
 <td><p>8. Configurar diretórios virtuais relacionados ao Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Essa etapa será necessária se você quiser usar Serviços Web do Exchange, o Outlook em Qualquer Lugar ou o catálogo de endereços offline. Ela também poderá ser necessária se você precisar alterar qualquer uma das configurações padrão para Painel de Controle do Exchange, Microsoft Office&nbsp;Outlook Web App ou Exchange ActiveSync.<BR>
 
 
@@ -116,7 +116,7 @@ Esta lista de verificação é genérica, pois fornece orientações para um cen
 <td><p></p></td>
 <td><p>11. Configurar a Unificação de Mensagens</p>
 
-> [!TIP]
+> [!TIP]  
 > Esta etapa é opcional. É necessária apenas se você quiser usar a Unificação de Mensagens na sua organização.
 
 
@@ -128,7 +128,7 @@ Esta lista de verificação é genérica, pois fornece orientações para um cen
 <td><p></p></td>
 <td><p>12. Configurar o servidor de Transporte de Borda</p>
 
-> [!TIP]
+> [!TIP]  
 > Esta etapa é opcional. Só será necessária se sua organização utilizar um servidor de Transporte de Borda.
 
 

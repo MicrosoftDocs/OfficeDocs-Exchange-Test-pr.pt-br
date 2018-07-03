@@ -132,7 +132,7 @@ Marcas pessoais estão disponíveis para usuários do Outlook 2010 e o Outlook W
 Os usuários podem aplicar marcas pessoais a pastas que eles criaram ou a itens individuais. As mensagens que têm uma marca pessoal aplicada sempre são processadas com base nas configurações da marca pessoal. Os usuários podem aplicar uma marca pessoal a uma mensagem para que ela seja movida ou excluída mais cedo ou mais tarde do que as configurações especificadas na DPT ou nas RPTs aplicadas à caixa de correio desse usuário. Também é possível criar marcas pessoais com a retenção desabilitada. Isso permite aos usuários marcar itens para que eles nunca sejam movidos para um arquivo morto ou nunca expirem.
 
 
-> [!TIP]
+> [!TIP]  
 > Os usuários podem aplicar políticas de arquivo morto a pastas padrão, pastas ou subpastas criadas pelos usuários e a itens individuais. Os usuários podem aplicar uma política de retenção a pastas ou subpastas criadas pelos usuários e a itens individuais (incluindo subpastas e itens em uma pasta padrão), mas não a pastas padrão.
 
 
@@ -140,7 +140,7 @@ Os usuários podem aplicar marcas pessoais a pastas que eles criaram ou a itens 
 Os usuários podem utilizar o Centro de Administração do Exchange (EAC) para selecionar marcas pessoais adicionais que não estejam vinculadas à sua política de retenção. As marcas selecionadas ficam disponíveis no Outlook 2010 e no Outlook Web App. Para permitir que os usuários selecionem marcas adicionais pelo EAC, adicione [Função MyRetentionPolicies](myretentionpolicies-role-exchange-2013-help.md) à política de atribuição de função do usuário. Para saber mais sobre as políticas de atribuição de funções para usuários, consulte [Noções básicas sobre diretivas de atribuição de função de gerenciamento](understanding-management-role-assignment-policies-exchange-2013-help.md). Se você permitir que os usuários selecionem marcas pessoais adicionais, todas as marcas pessoais em sua organização do Exchange ficam à disposição deles.
 
 
-> [!TIP]
+> [!TIP]  
 > As marcas pessoais são um recurso premium. As caixas de correio com políticas que incluam essas marcas (ou resultantes da adição dessas marcas às caixas de correio por parte dos usuários) exigem uma CAL (licença de acesso para cliente) do Exchange Enterprise.
 
 
@@ -223,7 +223,7 @@ Ao criar ou configurar uma marca de retenção, você pode selecionar uma das se
 
 
 
-> [!TIP]
+> [!TIP]  
 > 1&nbsp;&nbsp;&nbsp;Em uma implantação híbrida do Exchange, você pode habilitar uma caixa de correio de arquivo morto baseada em nuvem para uma caixa de correio principal local. Se você atribuir uma política de arquivo morto a uma caixa de correio local, os itens serão transferidos para o arquivo morto baseado em nuvem. Se um item for transferido para a caixa de correio de arquivo morto, nenhuma cópia será mantida na caixa de correio local. Se a caixa de correio local for colocada em espera, uma política de arquivo morto ainda moverá os itens para a caixa de correio de arquivo morto baseada em nuvem, na qual serão preservados durante o período especificado pela retenção.
 
 
@@ -264,7 +264,7 @@ Uma diretiva de retenção pode ter as seguintes marcas de retenção:
 <td><ul>
 <li><p>Um RPT para cada pasta padrão com suporte</p>
 
-> [!TIP]
+> [!TIP]  
 > Não é possível vincular mais de uma RPT para uma pasta padrão particular (como <STRONG>Itens Excluídos</STRONG>) à mesma política de retenção.
 
 
@@ -277,7 +277,7 @@ Uma diretiva de retenção pode ter as seguintes marcas de retenção:
 <li><p>Qualquer número de marcas pessoais</p></li>
 </ul>
 
-> [!TIP]
+> [!TIP]  
 > Muitas marcas pessoais de uma política podem confundir os usuários. Recomendamos adicionar no máximo 10 marcas pessoais a uma diretiva de retenção.
 
 
@@ -288,7 +288,7 @@ Uma diretiva de retenção pode ter as seguintes marcas de retenção:
 
 
 
-> [!TIP]
+> [!TIP]  
 > Embora uma diretiva de retenção não precise ter nenhuma marca de retenção vinculada a ela, não recomendamos usar esse cenário. Se as caixas de correio com políticas de retenção não tiverem marcas de retenção vinculadas a elas, isso poderá fazer com que os itens de caixa de correio nunca expirem.
 
 
@@ -320,7 +320,7 @@ O Assistente de Pasta Gerenciada é um assistente baseado em limitação. Esses 
 Você pode também usar o cmdlet [Start-ManagedFolderAssistant](https://technet.microsoft.com/pt-br/library/aa998864\(v=exchg.150\)) para disparar manualmente o assistente para que processe uma caixa de correio especificada. Para obter mais informações, consulte [Configurar o Assistente de pasta gerenciada](configure-the-managed-folder-assistant-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > O Assistente de Pasta Gerenciada não executa nenhuma ação nas mensagens não sujeitas à retenção, o que é especificado desabilitando a marca de retenção. Você pode também desabilitar uma marca de retenção para impedir temporariamente que itens com essa marca sejam processados.
 
 
@@ -342,7 +342,7 @@ Os itens existentes que receberam essa marca continuam sendo processados pelo As
 Entretanto, se você excluir a marca, a definição de marca armazenada no Active Directory será removida. Isso faz com que o Assistente de Pasta Gerenciada processe todos os itens de uma caixa de correio e marque novamente os que têm a marca removida aplicada. Dependendo do número de caixas de correio e mensagens, esse processo poderá resultar em um consumo significativo de recursos em todos os servidores de Caixa de Correio que contêm caixas de correio com diretivas de retenção que incluem a marca removida.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Se uma marca de retenção for removida de uma diretiva de retenção, qualquer item de caixa de correio existente com a marca aplicada continuará a expirar com base nas configurações da marca. Para impedir que as configurações da marca sejam aplicadas a algum item, essa marca deverá ser excluída. A exclusão de uma marca a remove de quaisquer diretivas de retenção em que está presente.
 
 
@@ -352,7 +352,7 @@ Entretanto, se você excluir a marca, a definição de marca armazenada no Activ
 Se você desabilitar a marca de retenção, o Assistente de Pasta Gerenciada ignorará os itens que tenham essa marca aplicada. Os itens que tenham uma marca de retenção para a qual a retenção está desabilitada não são nunca movidos ou excluídos, dependendo da ação de retenção especificada. Como esses itens ainda são considerados itens com marca, a DPT não é aplicada a eles. Por exemplo, se quiser solucionar problemas das configurações de marca de retenção, você poderá desabilitar temporariamente uma marca de retenção para impedir que o Assistente de Pasta Gerenciada processe mensagens com essa marca.
 
 
-> [!TIP]
+> [!TIP]  
 > O período de retenção de uma marca de retenção desabilitada é exibido ao usuário como <STRONG>Nunca</STRONG>. Se o usuário marcar um item acreditando que ele nunca será excluído, habilitar a marca posteriormente poderá resultar em exclusão não intencional de itens que o usuário não queria excluir. O mesmo é verdadeiro para marcas com a ação <STRONG>Mover para Arquivo Morto</STRONG>.
 
 
@@ -364,7 +364,7 @@ Voltar ao início
 Quando os usuários ficam temporariamente afastados do trabalho e não têm acesso ao seu email, as configurações de retenção poderão ser aplicadas a novas mensagens antes de eles retornarem ao trabalho. Dependendo da diretiva de retenção, as mensagens podem ser excluídas ou movidas para o arquivo morto pessoal do usuário. Você pode impedir temporariamente que as diretivas de retenção processem uma caixa de correio por um determinado período colocando a caixa de correio em retenção. Ao colocar uma caixa de correio em retenção, você poderá também especificar um comentário de retenção informando o usuário de caixa de correio (ou outro usuário autorizado a acessar a caixa de correio) sobre a retenção, incluindo quando a retenção está programada para iniciar e terminar. Comentários de retenção são exibidos em clientes com suporte do Outlook. Você pode também localizar o comentário de retenção no idioma preferido do usuário.
 
 
-> [!TIP]
+> [!TIP]  
 > Colocar uma caixa de correio em retenção não afeta o modo como as cotas de armazenamento de caixa de correio são processadas. Dependendo do uso da caixa de correio e das cotas de caixa de correio aplicáveis, considere aumentar temporariamente a cota de armazenamento da caixa de correio para os usuários quando eles estiverem em férias ou não tiverem acesso ao email por um longo período. Para obter mais informações sobre as cotas de armazenamento de caixa de correio, consulte <A href="configure-storage-quotas-for-a-mailbox-exchange-2013-help.md">Configurar cotas de armazenamento para uma caixa de correio</A>.
 
 

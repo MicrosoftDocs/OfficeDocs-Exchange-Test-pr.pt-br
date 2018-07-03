@@ -148,7 +148,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Nos servidores de transporte de Hub somente
 
 
@@ -176,7 +176,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Apenas servidores de transporte de Hub
 
 
@@ -254,7 +254,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Nos servidores de transporte de Hub somente
 
 
@@ -271,7 +271,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Nos servidores de transporte de Hub somente
 
 

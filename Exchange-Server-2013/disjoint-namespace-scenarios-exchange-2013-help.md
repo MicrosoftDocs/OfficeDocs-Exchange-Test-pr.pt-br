@@ -101,7 +101,7 @@ Além disso, para garantir que a lista de pesquisa de sufixo DNS contém todos o
 
   - [Perguntas frequentes (FAQ) de diretiva de grupo](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Novas diretivas de grupo para DNS no Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Novas diretivas de grupo para DNS no Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Diretiva de grupo](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

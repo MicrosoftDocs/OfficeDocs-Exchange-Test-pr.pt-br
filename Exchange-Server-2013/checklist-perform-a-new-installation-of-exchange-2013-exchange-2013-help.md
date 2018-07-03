@@ -26,7 +26,7 @@ Use esta lista de verificação para implantar o Microsoft Exchange Server 2013.
 Essa lista de verificação é genérica por fornecer orientação para um cenário comum.
 
 
-> [!TIP]
+> [!TIP]  
 > O Assistente de Implantação do Exchange Server oferece orientação personalizada passo a passo sobre como implantar o Exchange Server. O Assistente de Implantação pode ajudar a implantar uma nova instalação do Exchange Server 2013, atualizar uma versão anterior para o Exchange 2013 ou configurar uma implantação híbrida do Exchange 2013 e do Exchange Online. Para saber mais, confira <A href="exchange-server-deployment-assistant-exchange-2013-help.md">Assistente de implantação do Exchange Server</A>.
 
 
@@ -65,7 +65,7 @@ Essa lista de verificação é genérica por fornecer orientação para um cená
 <td> </td>
 <td><p>4. Configure o namespace não contíguo.</p>
 
-> [!TIP]
+> [!TIP]  
 > Esta etapa é opcional. É necessária apenas se sua organização estiver executando um namespace separado.
 
 
@@ -86,7 +86,7 @@ Essa lista de verificação é genérica por fornecer orientação para um cená
 <td><p></p></td>
 <td><p>7. Instale a função de servidor Transporte de Borda.</p>
 
-> [!TIP]
+> [!TIP]  
 > Esta etapa é opcional. Será necessária apenas se você quiser instalar um servidor de Transporte de Borda. Para obter mais informações, consulte <A href="edge-transport-servers-exchange-2013-help.md">Servidores de Transporte de Borda</A>.
 
 
@@ -118,7 +118,7 @@ Essa lista de verificação é genérica por fornecer orientação para um cená
 <td> </td>
 <td><p>12. Configure definições em diretórios virtuais, incluindo o catálogo de endereços offline, os Serviços da Web do Exchange, o Centro de Administração do Exchange (EAC), o Outlook Web App e diretórios virtuais do Exchange ActiveSync.</p>
 
-> [!TIP]
+> [!TIP]  
 > Essa etapa será necessária se você quiser usar Serviços Web do Exchange, o Outlook em Qualquer Lugar ou o catálogo de endereços offline. Isso também pode ser necessário caso seja preciso alterar qualquer uma das configurações padrão para EAC, Outlook Web App ou Exchange ActiveSync.
 
 
@@ -135,7 +135,7 @@ Essa lista de verificação é genérica por fornecer orientação para um cená
 <td> </td>
 <td><p>14. Configure a Unificação de Mensagens.</p>
 
-> [!TIP]
+> [!TIP]  
 > Esta etapa é opcional. É necessária apenas se desejar usar Unificação de Mensagens em sua organização.
 
 
@@ -146,7 +146,7 @@ Essa lista de verificação é genérica por fornecer orientação para um cená
 <td><p></p></td>
 <td><p>15. Configure as opções adicionais da Unificação de Mensagens e do Lync Server.</p>
 
-> [!TIP]
+> [!TIP]  
 > Esta etapa é opcional. Só é necessário se você tiver configurado a Unificação de Mensagens em sua organização e quiser integrá-la ao Lync Server.
 
 

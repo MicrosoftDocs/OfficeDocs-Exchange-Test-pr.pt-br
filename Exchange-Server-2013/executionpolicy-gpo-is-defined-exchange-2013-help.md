@@ -29,7 +29,7 @@ Quando você executa a Instalação do Exchange 2013, o Exchange para e desabili
 
 Para permitir que a Instalação continue, você precisa remover temporariamente qualquer definição de **MachinePolicy** ou de **UserPolicy** do GPO **ExecutionPolicy**.
 
-Para obter informações sobre como remover qualquer definição de **MachinePolicy** ou de **UserPolicy** no **ExecutionPolicy** GPO, consulte o [artigo da Base de dados de Conhecimento KB981474](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=981474).
+Para obter informações sobre como remover qualquer definição de **MachinePolicy** ou de **UserPolicy** no **ExecutionPolicy** GPO, consulte o [artigo da Base de dados de Conhecimento KB981474](https://go.microsoft.com/fwlink/?linkid=3052&kbid=981474).
 
 
 > [!TIP]

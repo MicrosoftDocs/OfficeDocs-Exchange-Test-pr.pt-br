@@ -111,7 +111,7 @@ A tabela a seguir mostra um exemplo com valores, indicando quando a consulta com
 <td><p>IT Manager (True)</p></td>
 <td><p>True porque <strong>Title</strong> foi avaliado como True. Os resultados da comparação entre <strong>City</strong> e <strong>Department</strong> são descartados porque <strong>Title</strong> foi avaliado como True, o que satisfez as condições da consulta de filtro.</p>
 
-> [!TIP]
+> [!TIP]  
 > "IT Manager" corresponde à consulta de filtro porque o operador de comparação <STRONG>Like</STRONG> foi usado, o que corresponde às cadeias de caracteres parciais, quando caracteres-curinga (*) são usados na consulta de filtro.
 
 

@@ -221,7 +221,7 @@ Se você estiver usando a Ferramenta de Solução de Problemas de UM em uma vers
 
 
 
-  - Windows Remote Management (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu)   Consulte o artigo 968930 da Base de Conhecimento da Microsoft, [Windows Management Framework Core package (Windows PowerShell 2.0 and WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Windows Remote Management (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu)   Consulte o artigo 968930 da Base de Conhecimento da Microsoft, [Windows Management Framework Core package (Windows PowerShell 2.0 and WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Microsoft Unified Communications Managed API 2.0 Core Runtime (Ucmaruntimewebdownloadx64) consulte [Unified Communications Managed API 2.0, Core Runtime (64 bits)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

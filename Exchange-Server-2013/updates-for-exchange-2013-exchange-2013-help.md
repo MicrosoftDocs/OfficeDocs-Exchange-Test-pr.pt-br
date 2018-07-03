@@ -52,7 +52,7 @@ A tabela a seguir contém links para postagens no blog do Exchange Team (informa
 </tr>
 <tr class="even">
 <td><p>Exchange 2013 CU18</p></td>
-<td><p><a href="https://go.microsoft.com/fwlink/p/?linkid=858936%0d%0a">Lançamento: atualizações trimestrais do Exchange de setembro de 2017</a></p></td>
+<td><p><a href="https://go.microsoft.com/fwlink/p/?linkid=858936">Lançamento: atualizações trimestrais do Exchange de setembro de 2017</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange 2013 CU17</p></td>
