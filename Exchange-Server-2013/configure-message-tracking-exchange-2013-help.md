@@ -61,17 +61,13 @@ Para configurar o acompanhamento de mensagens, execute o seguinte comando:
 
 Este exemplo define as seguintes configurações do log de acompanhamento de mensagens no servidor de Caixa de Correio chamado Mailbox01:
 
-  -  
-    Define o local dos arquivos de log de acompanhamento de mensagens em D:\\Log de Acompanhamento de Mensagens. Observe que, se a pasta não existir, ela será criada para você.
+  -  Define o local dos arquivos de log de acompanhamento de mensagens em D:\\Log de Acompanhamento de Mensagens. Observe que, se a pasta não existir, ela será criada para você.
 
-  -  
-    Define o tamanho máximo de um arquivo de log de acompanhamento de mensagens para 20 MB.
+  -  Define o tamanho máximo de um arquivo de log de acompanhamento de mensagens para 20 MB.
 
-  -  
-    Define o tamanho máximo do diretório de log de acompanhamento de mensagens para 1.5 GB.
+  -  Define o tamanho máximo do diretório de log de acompanhamento de mensagens para 1.5 GB.
 
-  -  
-    Define a duração máxima de um arquivo de log de acompanhamento de mensagens para 45 dias.
+  -  Define a duração máxima de um arquivo de log de acompanhamento de mensagens para 45 dias.
 
 <!-- end list -->
 

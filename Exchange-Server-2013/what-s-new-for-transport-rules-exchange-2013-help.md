@@ -35,40 +35,29 @@ Para informações detalhadas sobre como usar esses novos predicados e ações, 
 
 ## Novos predicados
 
-  -  
-    **AttachmentExtensionMatchesWords**   Usado para detectar mensagens que contêm anexos com extensões específicas.
+  -  **AttachmentExtensionMatchesWords**   Usado para detectar mensagens que contêm anexos com extensões específicas.
 
-  -  
-    **AttachmentHasExecutableContent**   Usado para detectar mensagens que contêm anexos com conteúdo executável.
+  -  **AttachmentHasExecutableContent**   Usado para detectar mensagens que contêm anexos com conteúdo executável.
 
-  -  
-    **HasSenderOverride** Usado para detectar mensagens cujo remetente tenha escolhido substituir uma restrição de política de DLP.
+  -  **HasSenderOverride** Usado para detectar mensagens cujo remetente tenha escolhido substituir uma restrição de política de DLP.
 
-  -  
-    **MessageContainsDataClassifications**   Usado para detectar informações confidenciais no corpo da mensagem e em qualquer dos anexos. Para obter uma lista das classificações de dados disponíveis, consulte [O que os tipos de informações confidenciais no Exchange procurar](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md).
+  -  **MessageContainsDataClassifications**   Usado para detectar informações confidenciais no corpo da mensagem e em qualquer dos anexos. Para obter uma lista das classificações de dados disponíveis, consulte [O que os tipos de informações confidenciais no Exchange procurar](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md).
 
-  -  
-    **MessageSizeOver**   Usado para detectar mensagens cujo tamanho geral seja maior ou igual ao limite especificado.
+  -  **MessageSizeOver**   Usado para detectar mensagens cujo tamanho geral seja maior ou igual ao limite especificado.
 
-  -  
-    **SenderIPRanges**   Usado para detectar mensagens enviadas de um conjunto específico de intervalos de endereços IP.
+  -  **SenderIPRanges**   Usado para detectar mensagens enviadas de um conjunto específico de intervalos de endereços IP.
 
 ## Novas ações
 
-  -  
-    **GenerateIncidentReport**   Gera um relatório de incidentes que é enviado para um endereço SMTP específico. A ação também tem um parâmetro chamado *IncidentReportOriginalMail* que aceita um de dois valores: IncludeOriginalMail ou DoNotIncludeOriginalMail.
+  -  **GenerateIncidentReport**   Gera um relatório de incidentes que é enviado para um endereço SMTP específico. A ação também tem um parâmetro chamado *IncidentReportOriginalMail* que aceita um de dois valores: IncludeOriginalMail ou DoNotIncludeOriginalMail.
 
-  -  
-    **NotifySender**   Controla como o remetente de uma mensagem que não está de acordo com uma política DLP é notificado. Você pode optar por simplesmente informar o remetente e rotear a mensagem normalmente ou rejeitar a mensagem e notificar o remetente.
+  -  **NotifySender**   Controla como o remetente de uma mensagem que não está de acordo com uma política DLP é notificado. Você pode optar por simplesmente informar o remetente e rotear a mensagem normalmente ou rejeitar a mensagem e notificar o remetente.
 
-  -  
-    **StopRuleProcessing**   Interrompe o processamento de todas as regras subsequentes na mensagem.
+  -  **StopRuleProcessing**   Interrompe o processamento de todas as regras subsequentes na mensagem.
 
-  -  
-    **ReportSeverityLevel**   Define o nível de severidade especificado no relatório de incidentes. Os valores da ação são: Informacional, Baixo, Médio, Alto e Desativado.
+  -  **ReportSeverityLevel**   Define o nível de severidade especificado no relatório de incidentes. Os valores da ação são: Informacional, Baixo, Médio, Alto e Desativado.
 
-  -  
-    **RouteMessageOutboundRequireTLS**   Requer uma criptografia de Segurança de Camada de Transporte (TLS) ao se rotear essa mensagem fora da sua organização. Se não houver suporte para a criptografia TLS, a mensagem será rejeitada e não entregue.
+  -  **RouteMessageOutboundRequireTLS**   Requer uma criptografia de Segurança de Camada de Transporte (TLS) ao se rotear essa mensagem fora da sua organização. Se não houver suporte para a criptografia TLS, a mensagem será rejeitada e não entregue.
 
 ## Outras mudanças em regras de Transporte
 

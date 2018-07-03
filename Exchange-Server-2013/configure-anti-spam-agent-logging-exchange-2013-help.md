@@ -45,17 +45,13 @@ Execute o seguinte comando:
 
 Este exemplo define o agente de seguir as configurações de log no servidor de caixa de correio chamado Mailbox01:
 
-  -  
-    Define o local do agente de arquivos de log D:\\Anti-Spam log de agente. Observe que se a pasta não existir, ele será criado para você.
+  -  Define o local do agente de arquivos de log D:\\Anti-Spam log de agente. Observe que se a pasta não existir, ele será criado para você.
 
-  -  
-    Define o tamanho máximo de um agente do arquivo de log a 20 MB.
+  -  Define o tamanho máximo de um agente do arquivo de log a 20 MB.
 
-  -  
-    Define o tamanho máximo do agente do diretório de log para 400 MB.
+  -  Define o tamanho máximo do agente do diretório de log para 400 MB.
 
-  -  
-    Define a idade máxima de um agente do arquivo de log para 14 dias.
+  -  Define a idade máxima de um agente do arquivo de log para 14 dias.
 
 <!-- end list -->
 
