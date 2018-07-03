@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-10-01_
+_**Tópico modificado em:** 2014-10-01_
 
 Um banco de dados de recuperação (RDB) é um tipo especial de banco de dados de caixa de correio que permite que você monte e extraia dados de um banco de dados restaurado como parte de uma operação de recuperação. RDBs permitem a recuperação de dados de um backup ou da cópia de um banco de dados, sem afetar o acesso do usuário a dados atuais.
 

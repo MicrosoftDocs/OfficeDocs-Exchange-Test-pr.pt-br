@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 O Outlook Voice Access contém duas interfaces: a TUI (interface do usuário de telefone) e a VUI (interface do usuário de voz). Por padrão, quando os usuários discam para o Outlook Voice Access, eles podem acessar seu calendário, email e contatos pessoais, além de pesquisar no diretório. O Shell pode ser usado para impedir que os usuários acessem um ou mais desses recursos quando usarem o Outlook Voice Access para acessar suas caixas de correio. Ao modificar recursos do Outlook Voice Access em uma diretiva de caixa de correio de UM (Unificação de Mensagens), as alterações afetam a todos os usuários que estejam associados à diretiva de caixa de correio de UM.
 

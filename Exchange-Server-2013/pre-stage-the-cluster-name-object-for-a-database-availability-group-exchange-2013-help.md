@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-08-14_
+_**Tópico modificado em:** 2014-08-14_
 
 Em ambientes onde a criação da conta de computador é restrita ou onde as contas de computador são criadas em um contêiner que não seja o contêiner de computadores padrão, você pode preparar o cluster nomear o objeto (CNO) e, em seguida, fornecer o CNO atribuindo permissões a ele. Pré-preparo o CNO também é necessária para o Windows Server 2012 e Windows Server 2012 R2 DAG membros devido às alterações de permissões no Windows para objetos de computador. Ao implantar um grupo de disponibilidade de banco de dados (DAG) usando os servidores de caixa de correio que estão executando o Windows Server 2012 ou Windows Server 2012 R2, você deve preparar e fornecer o CNO, a menos que você estiver implantando um DAG sem um ponto de acesso administrativo do cluster. DAGs sem pontos de acesso administrativo do cluster não use CNOs; pré-preparo, portanto, não é necessário para essas DAGs.
 

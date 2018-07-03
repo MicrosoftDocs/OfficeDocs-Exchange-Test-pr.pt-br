@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode usar o EAC ou o Shell para desabilitar ou excluir uma caixa de correio no Exchange 2013. Quando uma caixa de correio é desabilitada ou excluída, o Exchange mantém o banco de dados da caixa de correio e alterna a caixa de correio para um estado de desabilitada. As caixas de correio desabilitadas e excluídas são retidas no banco de dados de caixa de correio até que o período de retenção da caixa de correio excluída expire, que é de 30 dias por padrão. Depois que o período de retenção expirar, a caixa de correio será permanentemente excluída ou *limpa*.
 

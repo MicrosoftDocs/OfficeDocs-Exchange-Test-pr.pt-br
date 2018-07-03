@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode usar regras de proteção de transporte para aplicar proteção de direitos persistente a mensagens com base em propriedades, como remetente, destinatário, assunto da mensagem e conteúdo.
 

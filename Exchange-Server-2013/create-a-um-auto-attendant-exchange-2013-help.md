@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-03-08_
+_**Tópico modificado em:** 2013-03-08_
 
 Depois de criar um atendedor automático de Unificação de mensagens (UM), as chamadas de entrada para um número de telefone externo que um operador humano atendidas normalmente são respondidas pelo atendedor automático. Ao contrário com outros componentes de Unificação de mensagens, como UM planos de discagem e gateways IP de UM, você não é necessários para criar atendedores automáticos. No entanto, atendedores automáticos ajuda interna e chamadores externos localizar usuários ou departamentos que existem em uma organização e transferir chamadas para eles.
 

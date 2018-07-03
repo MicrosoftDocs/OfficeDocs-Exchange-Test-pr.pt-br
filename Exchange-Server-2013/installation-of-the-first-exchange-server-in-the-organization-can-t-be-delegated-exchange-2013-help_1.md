@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2014-11-05_
+_**Tópico modificado em:** 2014-11-05_
 
 A Instalação do Microsoft Exchange Server 2013 não pode continuar, pois o usuário conectado não possui as permissões de conta necessárias para instalar o primeiro servidor Exchange 2013 na organização.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Você pode habilitar ou desabilitar chamadas de usuários que não estejam habilitados para UM (Unificação de Mensagens). Por padrão, a Unificação de Mensagens permite que as chamadas de entrada de chamadores não autenticados através de um atendedor automático sejam transferidas para usuários habilitados para UM. Com esta opção habilitada, os usuários de fora da organização podem transferir chamadas para usuários habilitados para UM.
 

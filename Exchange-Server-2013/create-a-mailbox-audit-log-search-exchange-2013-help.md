@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-11_
+_**Tópico modificado em:** 2012-10-11_
 
 Você pode criar uma pesquisa de log de auditoria de caixa de correio para pesquisar uma ou mais caixas de correio de forma assíncrona e enviar os resultados da busca por email como um arquivo XML para endereços especificados.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-23_
+_**Tópico modificado em:** 2013-02-23_
 
 Você pode permitir ou impedir notificações de caixa postal aos usuários para chamadas recebidas por um gateway IP de Unificação de Mensagens (UM). Se essa configuração for habilitada, o gateway IP de UM poderá receber e enviar mensagens SIP NOTIFY aos usuários. O indicador de mensagem em espera é habilitado por padrão e permite que notificações de mensagens em espera sejam enviadas aos usuários, mas você pode desativá-lo conforme suas necessidades.
 

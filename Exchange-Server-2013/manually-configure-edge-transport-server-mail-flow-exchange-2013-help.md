@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-21_
+_**Tópico modificado em:** 2014-02-21_
 
 Este tópico descreve os procedimentos para alterar manualmente a configuração do modo de gerenciamento de fluxo de emails pelo Servidor de Transporte de Borda. Esses procedimentos abrangem cenários específicos; a menos que sua organização tenha necessidades específicas para alterar manualmente a configuração, o uso da configuração padrão ao inscrever-se nos servidores de Transporte de Borda é preferido.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-07-25_
+_**Tópico modificado em:** 2017-07-25_
 
 Após instalar o servidor de Acesso para Cliente Exchange 2013, há diversas tarefas de configuração que podem ser realizadas. Embora o servidor de Acesso para Cliente Exchange 2013 não lide com processamento para os protocolos de cliente, várias configurações precisam ser aplicadas ao servidor de Acesso para Cliente, incluindo configurações de diretório e certificado.
 

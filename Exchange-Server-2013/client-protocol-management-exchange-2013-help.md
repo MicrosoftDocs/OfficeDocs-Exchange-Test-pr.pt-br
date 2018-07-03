@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O gerenciamento dos protocolos de cliente do Exchange ActiveSync, Outlook Web App, POP3, IMAP4, o serviço Descoberta automática, serviços Web do Exchange e o serviço de disponibilidade ocorre em três áreas diferentes: Centro de administração do Exchange (EAC), o Shell de gerenciamento do Exchange e o Gerenciador de serviços de informações da Internet (IIS). As configurações que são gerenciadas em cada local variam por protocolo de cliente.
 

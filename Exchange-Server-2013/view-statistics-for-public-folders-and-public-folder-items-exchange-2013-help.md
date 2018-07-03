@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-14_
+_**Tópico modificado em:** 2013-02-14_
 
 Este tópico explica como obter estatísticas de uma pasta pública, como nome para exibição, hora de criação, horário da última modificação, último acesso do usuário e tamanho do item. Você pode usar essas informações para tomar decisões sobre a exclusão ou não de pastas públicas.
 

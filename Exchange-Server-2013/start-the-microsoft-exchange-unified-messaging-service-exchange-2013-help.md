@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-16_
+_**Tópico modificado em:** 2012-11-16_
 
 Você pode usar o snap-in Serviços no Microsoft Management Console (MMC) ou cmd.exe em um prompt de comando para iniciar o MicrosoftExchange o serviço de Unificação de mensagens em um servidor de caixa de correio. Por padrão, o MicrosoftExchange o serviço de Unificação de mensagens é iniciado depois que um servidor de caixa de correio está instalado. No entanto, pode haver vezes quando você precisar reiniciar MicrosoftExchange o serviço de Unificação de mensagens manualmente, por exemplo, quando você tiver obtido o servidor de caixa de correio offline e precisa ativá-la novamente.
 

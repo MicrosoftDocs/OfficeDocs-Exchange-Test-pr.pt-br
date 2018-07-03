@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-02_
+_**Tópico modificado em:** 2012-11-02_
 
 *Ativação* é o processo de alterar uma cópia de banco de dados de caixa de correio de uma cópia passiva para uma cópia ativa. A ativação ocorre automaticamente no sistema como parte de uma operação de failover de banco de dados ou servidor e pode ser executada manualmente por um administrador como parte de uma operação de alternância de banco de dados ou servidor. O bloqueio de um banco de dados para ativação impede que ele se torne a cópia ativa durante um failover de banco de dados ou servidor.
 

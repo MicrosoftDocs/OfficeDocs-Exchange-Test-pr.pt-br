@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-05-27_
+_**Tópico modificado em:** 2014-05-27_
 
 Após criar uma caixa de correio de usuário, você pode fazer alterações e definir propriedades adicionais usando o EAC ou o Shell.
 
@@ -335,7 +335,7 @@ Use a seção **Delegação da Caixa de Correio**, para atribuir permissões par
 
   - **Enviar como**   Essa permissão permite que usuários que não o proprietário da caixa de correio usem a caixa de correio para enviar mensagens. Depois de essa permissão ser atribuída a um representante, qualquer mensagem que um representante enviar desta caixa de correio irá parecer ter sido enviada pelo proprietário da caixa de correio. Entretanto, essa permissão não permite que um representante entre na caixa de correio do usuário.
 
-  - **Enviar em nome de**   Essa permissão também permite que o representante use essa caixa de correio para enviar mensagens. No entanto, após essa permissão ser atribuída a um representante, o endereço **De:** , em qualquer mensagem enviada pelo representante, indicará que a mensagem foi enviada pelo representante em nome do proprietário da caixa de correio.
+  - **Enviar em nome de**   Essa permissão também permite que o representante use essa caixa de correio para enviar mensagens. No entanto, após essa permissão ser atribuída a um representante, o endereço **De:**  , em qualquer mensagem enviada pelo representante, indicará que a mensagem foi enviada pelo representante em nome do proprietário da caixa de correio.
 
   - **Acesso total**   Essa permissão permite que um representante entre na caixa de correio de um usuário e veja o conteúdo da caixa de correio. Entretanto, depois de essa permissão ter sido atribuída a um representante, ele não poderá enviar mensagens da caixa de correio. Para permitir que o representante envie emails da caixa de correio do usuário, você ainda terá que atribuir a ele a permissão Enviar como ou Enviar em Nome de.
 

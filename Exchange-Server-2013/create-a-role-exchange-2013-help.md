@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-17_
+_**Tópico modificado em:** 2012-10-17_
 
 Você pode criar uma função de gerenciamento, altere as entradas de função de gerenciamento, adicione um escopo, se necessário e, em seguida, atribuir a função a um destinatário de função. Você deve raramente precisa executar esse procedimento. Recomendamos que você verifique se uma função de gerenciamento internas pode ser usada ao invés de criar uma função de gerenciamento. Para obter uma lista das funções de gerenciamento internas, consulte [Funções de gerenciamento internas](built-in-management-roles-exchange-2013-help.md).
 

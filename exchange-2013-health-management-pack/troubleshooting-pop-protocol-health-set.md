@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2013-02-11_
+_**Tópico modificado em:** 2013-02-11_
 
 O conjunto de integridade POP.Protocol monitora o protocolo POP3 do Microsoft Exchange no servidor de Caixas de Correio. Se você receber um alerta que especifique que o conjunto de integridade POP.Protocol não esteja íntegro, isso indicará um problema que afeta o protocolo POP3 no servidor de Caixa de Correio indicado no alerta.
 

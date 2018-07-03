@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode usar o Shell de gerenciamento do Exchange para configurar o modo como os emails são enviados e recebidos por meio de domínios remotos. A seguir demonstra como usar o Shell de gerenciamento do Exchange configure a maneira Exchange alças entrega e relatórios de falha na entrega.
 

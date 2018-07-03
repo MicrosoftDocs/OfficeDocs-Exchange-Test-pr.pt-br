@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-06_
+_**Tópico modificado em:** 2013-02-06_
 
 Os seus usuários carregam informações corporativas confidenciais no bolso todos os dias. Se um deles perder o celular, os seus dados podem acabar nas mãos de outra pessoa. Se um dos seus usuários perder o celular, você pode usar o Centro de Adminstração do Exchange (EAC) ou o Shell de Gerenciamento do Exchange para limpar todos os dados corporativos e informações de usuário do telefone deles.
 

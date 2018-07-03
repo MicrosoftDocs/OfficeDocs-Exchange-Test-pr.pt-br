@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A ferramenta de solução de problemas de UM do Microsoft Exchange 2010 é um cmdlet do Shell de Gerenciamento do Exchange chamado **Test-ExchangeUMCallFlow**. Use o cmdlet para diagnosticar erros de configuração específicos para os cenários de resposta de chamadas e para testar o funcionamento correto da caixa postal em implantações de UM locais ou entre locais do Microsoft Exchange Server 2010 Service Pack 1 (SP1) ou posterior. Você pode usar esse cmdlet em implantações com o Microsoft Office, o Microsoft Lync Server 2010 ou posterior, ou em implantações de UM com gateways VOIP, PBXs IP ou controladores de borda da sessão (SBCs).
 
@@ -47,7 +47,7 @@ O cmdlet **Test-ExchangeUMCallFlow** exije os seguintes componentes para ser ins
 
   - Microsoft .NET Framework 3.5 Family Update para Windows Vista x64 e Windows Server 2008 x64 atualiza se a ferramenta for executada em um computador Windows Vista ou Windows Server 2008. Para baixar a atualização, consulte [Microsoft .NET Framework 3.5 Family Update para Windows Vista x64 e Windows Server 2008 x64](https://go.microsoft.com/fwlink/p/?linkid=178998).
 
-  - Windows Gerenciamento Remoto (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Para mais informações, consulte o artigo 968930 da Base de Conhecimento da Microsoft, [Pacote principal do Windows Management Framework (Windows PowerShell 2.0 e WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Windows Gerenciamento Remoto (WinRM) 2.0 e Windows PowerShell V2 (Windows6.0-KB968930.msu). Para mais informações, consulte o artigo 968930 da Base de Conhecimento da Microsoft, [Pacote principal do Windows Management Framework (Windows PowerShell 2.0 e WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Comunicações unificadas gerenciadas AP1 2.0, Core Runtime (64 bits). Para baixar o arquivo de programa Ucmaruntimewebdownloadx64, consulte [Unified Communications Managed API 2.0, Core Runtime (64 bits)](https://go.microsoft.com/fwlink/p/?linkid=198175).
 

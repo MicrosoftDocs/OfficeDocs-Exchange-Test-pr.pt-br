@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Este tópico explica como o processo de Inscrição de Borda provisiona as credenciais que são usadas para ajudar a proteger o processo de sincronização do EdgeSync e como o EdgeSync usa essas credenciais para estabelecer uma conexão LDAP segura entre um servidor de Caixa de Correio do Exchange 2013 e um servidor de Transporte de Borda. Para saber mais sobre Inscrições de Borda, consulte [Inscrições de Borda](edge-subscriptions-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode importar os arquivos de áudio que contém as saudações, informes, menus e prompts personalizados da Unificação de Mensagens (UM) do Exchange 2007 para a Unificação de Mensagens do Exchange 2013. Usando um script de Shell, os prompts são importados para uma caixa de correio do sistema do Exchange chamada {e0dc1c29-89c3-4034-b678-e6c29d823ed9}, que é criada quado você instala o Microsoft Exchange 2013. A caixa de correio do sistema é usada na Unificação de Mensagens para armazenar o plano de discagem de armazenamento e as saudações, informes, menus e prompts personalizados do atendedor automático e os relatórios de UM.
 

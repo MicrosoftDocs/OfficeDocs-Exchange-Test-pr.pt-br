@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2018-04-20_
+_**Tópico modificado em:** 2018-04-20_
 
 Você pode usar o EAC ou o Shell para atribuir permissões aos usuários ou grupos (chamados *representantes*) que permitem que eles abram ou enviem mensagens a partir de outras caixas de correio. As permissões podem ser atribuídas às caixas de correio do usuário, caixas de correio vinculadas, caixas de correio de recurso e caixas de correio compartilhadas. Você também pode atribuir permissões a grupos de distribuição, grupos de distribuição dinâmica e grupos de segurança habilitados para email para permitir que os representantes enviem mensagens em nome do grupo. Você pode atribuir aos representantes as seguintes permissões para acessar caixas de correio ou enviar mensagens em nome das caixas de correio ou grupos:
 

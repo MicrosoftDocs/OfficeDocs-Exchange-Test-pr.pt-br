@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-03-17_
+_**Tópico modificado em:** 2016-03-17_
 
 *Resolução de destinatário* é o processo de expansão e resolver todos os destinatários de uma mensagem. O ato de resolver os destinatários corresponde a um destinatário para o objeto do Active Directory correspondente na organização do Microsoft Exchange. O ato de expandir os destinatários expande todos os grupos de distribuição em uma lista de destinatários individuais. Resolução de destinatário permite que os limites de mensagem e destinatários alternativos a serem aplicadas corretamente para cada destinatário.
 
@@ -37,7 +37,7 @@ Diagnósticos de resolução de destinatário
 
 ## Endereços de email do destinatário
 
-Resolução de nível superior começa com uma mensagem e a lista inicial, não expandida de destinatários para o *envelope da mensagem*. Envelope da mensagem contém os comandos que são usados para transmitir mensagens entre os servidores de mensagens SMTP. Endereço de email do remetente está contido no comando **MAIL FROM:** . Endereço de email de cada destinatário está contido em um comando separado **RCPT TO:** . O remetente do envelope e o destinatários de envelope geralmente criados a partir do remetente e destinatários dos campos de cabeçalho `To:`, `From:`, `Cc:`e `Bcc:` no cabeçalho da mensagem. No entanto, isso não é sempre true. Os campos de cabeçalho `To:`, `From:`, `Cc:`e `Bcc:` em uma mensagem são facilmente falsificados e podem não corresponder ao remetente real ou endereços de email do destinatário que foram usados para transmitir a mensagem.
+Resolução de nível superior começa com uma mensagem e a lista inicial, não expandida de destinatários para o *envelope da mensagem*. Envelope da mensagem contém os comandos que são usados para transmitir mensagens entre os servidores de mensagens SMTP. Endereço de email do remetente está contido no comando **MAIL FROM:**  . Endereço de email de cada destinatário está contido em um comando separado **RCPT TO:**  . O remetente do envelope e o destinatários de envelope geralmente criados a partir do remetente e destinatários dos campos de cabeçalho `To:`, `From:`, `Cc:`e `Bcc:` no cabeçalho da mensagem. No entanto, isso não é sempre true. Os campos de cabeçalho `To:`, `From:`, `Cc:`e `Bcc:` em uma mensagem são facilmente falsificados e podem não corresponder ao remetente real ou endereços de email do destinatário que foram usados para transmitir a mensagem.
 
 ## Endereços de email encapsulado
 
@@ -148,11 +148,11 @@ O filtro LDAP que será usado para resolução de endereço está descrito a seg
 
   - Para todos os outros tipos de endereços do email, o atributo do Active Directory de destinatário **proxyAddresses** é usado como o filtro LDAP.
 
-Se o endereço de email que é usado na mensagem não coincidir com o endereço SMTP principal do objeto do Active Directory correspondente, categorizador reconfigure o endereço de email na mensagem para coincidir com o endereço SMTP principal. O endereço de email original será salva na entrada `ORCPT=` no comando **RCPT TO:** no envelope da mensagem.
+Se o endereço de email que é usado na mensagem não coincidir com o endereço SMTP principal do objeto do Active Directory correspondente, categorizador reconfigure o endereço de email na mensagem para coincidir com o endereço SMTP principal. O endereço de email original será salva na entrada `ORCPT=` no comando **RCPT TO:**  no envelope da mensagem.
 
 ## Restrições de remetente da mensagem
 
-O tamanho que é usado para a restrição de tamanho de mensagem do remetente é o valor do **X-MS-Exchange-organização-OriginalSize:** campo de cabeçalho no cabeçalho da mensagem. Exchange usa esse campo de cabeçalho para registrar o tamanho da mensagem original da mensagem quando ele inserido a organização do Exchange. Sempre que a mensagem será comparada os limites de tamanho de mensagem especificado, o valor mais baixo do tamanho da mensagem atual ou o cabeçalho de tamanho da mensagem original é usado. O tamanho da mensagem pode alterar devido à conversão de conteúdo, codificação e processamento de agente. Se esse campo de cabeçalho não existir, ele é criado usando-se o valor de tamanho de mensagem atual. Se a mensagem for muito grande, uma NDR é gerado e processamento de mensagens adicionais é interrompido.
+O tamanho que é usado para a restrição de tamanho de mensagem do remetente é o valor do **X-MS-Exchange-organização-OriginalSize:**  campo de cabeçalho no cabeçalho da mensagem. Exchange usa esse campo de cabeçalho para registrar o tamanho da mensagem original da mensagem quando ele inserido a organização do Exchange. Sempre que a mensagem será comparada os limites de tamanho de mensagem especificado, o valor mais baixo do tamanho da mensagem atual ou o cabeçalho de tamanho da mensagem original é usado. O tamanho da mensagem pode alterar devido à conversão de conteúdo, codificação e processamento de agente. Se esse campo de cabeçalho não existir, ele é criado usando-se o valor de tamanho de mensagem atual. Se a mensagem for muito grande, uma NDR é gerado e processamento de mensagens adicionais é interrompido.
 
 O limite de destinatário do remetente só é imposto no serviço de transporte no primeiro servidor de caixa de correio que processa a mensagem. A contagem de destinatários de envelope de mensagem original, não-expandida é comparada com o limite de destinatário do remetente. A contagem de destinatários de envelope de mensagem original, não-expandida é usada para evitar os problemas de entrega de mensagem parcial ocorreram no Microsoft Exchange Server 2003 quando as listas de distribuição aninhados usado servidores expansão remoto.
 
@@ -220,7 +220,7 @@ A lista a seguir descreve as mensagens de relatório de entrega disponíveis:
 
   - **Notificação de status de entrega (DSN)**   Este relatório descreve o resultado de uma tentativa de enviar uma mensagem. Para obter mais informações sobre mensagens DSN, consulte [DSNs e notificações de falha na entrega no Exchange 2013](dsns-and-ndrs-in-exchange-2013-exchange-2013-help.md).
 
-  - **Notificação de disposição de mensagem (MDN)**   Este relatório descreve o status de uma mensagem após ter sido entregue com êxito para um destinatário. Uma notificação de leitura (RN) e uma notificação de leitura não (NRN) são exemplos de uma mensagem de MDN. Mensagens MDN são definidas na RFC 2298 e são controladas pelo campo de cabeçalho **Disposition-Notification-To:** no cabeçalho da mensagem. Configurações de MDN que usam o campo de cabeçalho `Disposition-Notification-To:` são compatíveis com muitos servidores de mensagem diferente. Configurações de MDN também podem ser definidas usando propriedades MAPI no Microsoft Outlook e Exchange.
+  - **Notificação de disposição de mensagem (MDN)**   Este relatório descreve o status de uma mensagem após ter sido entregue com êxito para um destinatário. Uma notificação de leitura (RN) e uma notificação de leitura não (NRN) são exemplos de uma mensagem de MDN. Mensagens MDN são definidas na RFC 2298 e são controladas pelo campo de cabeçalho **Disposition-Notification-To:**  no cabeçalho da mensagem. Configurações de MDN que usam o campo de cabeçalho `Disposition-Notification-To:` são compatíveis com muitos servidores de mensagem diferente. Configurações de MDN também podem ser definidas usando propriedades MAPI no Microsoft Outlook e Exchange.
 
   - **Relatório de não-entrega (NDR)**   Este relatório indica o remetente da mensagem que a mensagem não pôde ser entregue aos destinatários especificados.
 
@@ -244,7 +244,7 @@ Quando uma mensagem que não é uma mensagem de relatório de entrega é enviada
 
   - Se o redirecionamento do relatório estiver definido como o remetente da mensagem, as configurações de solicitação de relatório não são modificadas.
 
-  - Se o redirecionamento de relatório não estiver definido, todas as configurações de solicitação de relatório são suprimidas. A entrada `NOTIFY=NEVER` é adicionada à **RCPT TO:** para cada destinatário no envelope da mensagem.
+  - Se o redirecionamento de relatório não estiver definido, todas as configurações de solicitação de relatório são suprimidas. A entrada `NOTIFY=NEVER` é adicionada à **RCPT TO:**  para cada destinatário no envelope da mensagem.
 
   - Se o redirecionamento de relatório é definido como o gerente do grupo de distribuição, todas as configurações de solicitação de relatório são suprimidas exceto mensagens NDR que são enviadas para o gerente do grupo de distribuição.
 
@@ -340,13 +340,13 @@ Porque a lista completa dos destinatários da mensagem for expandida e resolvida
 
 Resolução de destinatário bifurca uma mensagem se as seguintes condições forem verdadeiras:
 
-  - Quando o remetente da mensagem em **MAIL FROM:**, no envelope da mensagem, é atualizado. Um exemplo é quando o parâmetro *ReportToManagerEnabled* em um grupo de distribuição tem um valor de `$true`.
+  - Quando o remetente da mensagem em **MAIL FROM:** , no envelope da mensagem, é atualizado. Um exemplo é quando o parâmetro *ReportToManagerEnabled* em um grupo de distribuição tem um valor de `$true`.
 
   - Quando as mensagens de resposta automática, como DSNs, OOF mensagens e relatórios de cancelamento devem ser suprimidos.
 
   - Quando os destinatários alternativos são expandidos.
 
-  - Quando um campo de cabeçalho de **Resent-From:** deve ser adicionado ao cabeçalho da mensagem. Reenviadas cabeçalho campos são campos de cabeçalho informativos que podem ser usados para determinar se uma mensagem foi encaminhada por um usuário. Reenviadas cabeçalho campos são usados para que a mensagem é exibida para o destinatário como se ele foi enviado diretamente pelo remetente original. O destinatário pode exibir o cabeçalho da mensagem para descobrir quem encaminhou a mensagem. Reenviadas cabeçalho campos são definidos na seção 3.6.6 da RFC 2822.
+  - Quando um campo de cabeçalho de **Resent-From:**  deve ser adicionado ao cabeçalho da mensagem. Reenviadas cabeçalho campos são campos de cabeçalho informativos que podem ser usados para determinar se uma mensagem foi encaminhada por um usuário. Reenviadas cabeçalho campos são usados para que a mensagem é exibida para o destinatário como se ele foi enviado diretamente pelo remetente original. O destinatário pode exibir o cabeçalho da mensagem para descobrir quem encaminhou a mensagem. Reenviadas cabeçalho campos são definidos na seção 3.6.6 da RFC 2822.
 
   - Quando o histórico da expansão do grupo de distribuição deve ser transmitido.
 

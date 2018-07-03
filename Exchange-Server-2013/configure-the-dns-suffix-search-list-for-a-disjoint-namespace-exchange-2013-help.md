@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico explica como usar o console de gerenciamento de diretiva de grupo (GPMC) para configurar a lista de pesquisa de sufixo do sistema de nome de domínio (DNS). Em alguns cenários de Exchange 2013 da Microsoft, se você tiver um namespace separado, você deve configurar a lista de pesquisa de sufixo DNS para incluir vários sufixos DNS.
 

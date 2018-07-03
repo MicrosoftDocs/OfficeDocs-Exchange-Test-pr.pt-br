@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 O recurso de Regras de Atendimento de Chamadas foi apresentado pela primeira vez no Exchange 2010. Ao usar esse recurso, os usuários que estão habilitados para caixa postal podem controlar como suas chamadas de entrada devem ser tratadas. As regras de atendimento de chamadas são aplicadas a chamadas de entrada de modo semelhante àquele com o qual as regras da Caixa de Entrada são aplicadas a mensagens de email de entrada.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Dicas de política são informativos avisos que são exibidos para remetentes de email enquanto eles compõem uma mensagem. A finalidade da dica de política é instruir os usuários que podem ser violam as práticas de negócios ou políticas que você estiver aplicando com as políticas de prevention (DLP) de perda de dados que você tiver estabelecido. Os procedimentos a seguir ajudarão você a começar a usar as dicas de política. Assista a este vídeo para saber mais.
 

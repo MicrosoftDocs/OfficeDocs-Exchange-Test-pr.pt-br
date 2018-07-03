@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2014-12-02_
+_**Tópico modificado em:** 2014-12-02_
 
 Microsoft Exchange Server 2013 instalação não pode continuar porque a conta de usuário que executará esquema do Active Directory Atualizar processo não é um membro dos grupos de administradores de esquemas e administradores de empresa.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-06-16_
+_**Tópico modificado em:** 2016-06-16_
 
 No MicrosoftExchange Server 2013, você pode criar políticas de caixa de correio para dispositivos móveis para aplicar um conjunto comum de políticas ou configurações de segurança a um conjunto de usuários. Depois de implantar o Exchange ActiveSync em sua organização do Exchange 2013, você pode criar novas políticas de caixa de correio para dispositivos móveis ou modificar as políticas existentes. Quando você instala o Exchange 2013, uma política padrão de caixa de correio para dispositivos móveis é criada. Essa política padrão de caixa de correio para dispositivos móveis é atribuída automaticamente a todos os usuários.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Cada entrada da função de gerenciamento em uma função de gerenciamento representa um único cmdlet. Ao adicionar parâmetros para ou remoção de parâmetros de uma entrada de função, que é adicionado a uma função de gerenciamento, você controla se esses parâmetros estão disponíveis nesse cmdlet. Para obter mais informações sobre entradas de função de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

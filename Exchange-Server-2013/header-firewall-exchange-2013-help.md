@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013, *firewall de cabeçalho* é um mecanismo que remove os campos de cabeçalho específico de mensagens de entrada e saídas. Existem dois tipos diferentes de campos de cabeçalho que são afetados pelo firewall de cabeçalho:
 
@@ -49,9 +49,9 @@ Os seguintes tipos de cabeçalhos X e cabeçalhos de roteamento são afetados pe
     
     Para obter exemplos de organização cabeçalhos X e X cabeçalhos de floresta, consulte a seção X-cabeçalhos da organização e da floresta cabeçalhos X no Exchange no final deste tópico.
 
-  - **Received: cabeçalhos de roteamento**   Uma instância diferente do campo cabeçalho é adicionada ao cabeçalho da mensagem por cada servidor de mensagens que são aceitos e encaminhadas a mensagem ao destinatário. O cabeçalho **Received:** normalmente inclui o nome do servidor de mensagens e um carimbo de data-hora.
+  - **Received: cabeçalhos de roteamento**   Uma instância diferente do campo cabeçalho é adicionada ao cabeçalho da mensagem por cada servidor de mensagens que são aceitos e encaminhadas a mensagem ao destinatário. O cabeçalho **Received:**  normalmente inclui o nome do servidor de mensagens e um carimbo de data-hora.
 
-  - **Reenviadas-\*: cabeçalhos de roteamento**   Reenviadas cabeçalho campos são campos de cabeçalho informativos que podem ser usados para determinar se uma mensagem foi encaminhada por um usuário. Os campos de cabeçalho resent a seguir estão disponíveis: **Resent-Date:**, **Resent-From:**, **Resent-Sender:**, **Resent-To:**, **Resent-Cc:**, **Resent-Bcc:**e **Resent-Message-ID:**. Os campos **Resent-** são usados para que a mensagem é exibida para o destinatário como se ele foi enviado diretamente pelo remetente original. O destinatário pode exibir o cabeçalho da mensagem para descobrir quem encaminhou a mensagem.
+  - **Reenviadas-\*: cabeçalhos de roteamento**   Reenviadas cabeçalho campos são campos de cabeçalho informativos que podem ser usados para determinar se uma mensagem foi encaminhada por um usuário. Os campos de cabeçalho resent a seguir estão disponíveis: **Resent-Date:** , **Resent-From:** , **Resent-Sender:** , **Resent-To:** , **Resent-Cc:** , **Resent-Bcc:** e **Resent-Message-ID:** . Os campos **Resent-** são usados para que a mensagem é exibida para o destinatário como se ele foi enviado diretamente pelo remetente original. O destinatário pode exibir o cabeçalho da mensagem para descobrir quem encaminhou a mensagem.
 
 O Exchange usa duas maneiras diferentes para aplicar o firewall de cabeçalho a organização cabeçalhos X, cabeçalhos X e roteamento cabeçalhos que existem em mensagens de floresta:
 
@@ -148,7 +148,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Nos servidores de transporte de Hub somente
 
 
@@ -176,7 +176,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Apenas servidores de transporte de Hub
 
 
@@ -254,7 +254,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Nos servidores de transporte de Hub somente
 
 
@@ -271,7 +271,7 @@ A tabela a seguir descreve o aplicativo padrão das permissões de firewall de c
 <li><p>Servidores de Transporte de Borda</p></li>
 <li><p>Servidores do Exchange</p>
 
-> [!TIP]
+> [!TIP]  
 > Nos servidores de transporte de Hub somente
 
 
@@ -333,13 +333,13 @@ As mensagens podem inserir o pipeline de transporte em um servidor de caixa de c
     
     Cabeçalhos de roteamento são preservados nas mensagens enviadas pelo diretório de repetição.
     
-    Se ou não cabeçalhos X da organização e da floresta cabeçalhos X são preservadas ou removidas das mensagens no diretório de repetição são controladas pelo campo de cabeçalho **X-CreatedBy:** no arquivo de mensagem:
+    Se ou não cabeçalhos X da organização e da floresta cabeçalhos X são preservadas ou removidas das mensagens no diretório de repetição são controladas pelo campo de cabeçalho **X-CreatedBy:**  no arquivo de mensagem:
     
-      - Se o valor de **X-CreatedBy:** é `MSExchange15`, cabeçalhos X da organização e da floresta cabeçalhos X serão preservadas nas mensagens.
+      - Se o valor de **X-CreatedBy:**  é `MSExchange15`, cabeçalhos X da organização e da floresta cabeçalhos X serão preservadas nas mensagens.
     
-      - Se o valor da **X-CreatedBy:** não `MSExchange15`, organização cabeçalhos X e floresta cabeçalhos X são removidos do mensagens.
+      - Se o valor da **X-CreatedBy:**  não `MSExchange15`, organização cabeçalhos X e floresta cabeçalhos X são removidos do mensagens.
     
-      - Se o campo de cabeçalho **X-CreatedBy:** não existir no arquivo de mensagem, cabeçalhos X da organização e floresta cabeçalhos X são removidos do mensagens.
+      - Se o campo de cabeçalho **X-CreatedBy:**  não existir no arquivo de mensagem, cabeçalhos X da organização e floresta cabeçalhos X são removidos do mensagens.
 
   - **Diretório de recebimento**   O diretório de recebimento é usado pelo conectores externos nos servidores de caixa de correio para enviar mensagens para os servidores de mensagens que não usam o SMTP para transferir mensagens. Para obter mais informações sobre conectores externos, consulte [Conectores externos](foreign-connectors-exchange-2013-help.md).
     

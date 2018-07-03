@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O agente de ID de Remetente é um agente antispam disponível no Microsoft Exchange Server 2013. O agente de ID do Remetente se baseia no cabeçalho SMTP (Simple Mail Transfer Protocol) RECEIVED e em uma consulta ao serviço DNS (Sistema de Nome de Domínio) do sistema de envio para determinar qual ação, se houver alguma, executar em uma mensagem de entrada.
 

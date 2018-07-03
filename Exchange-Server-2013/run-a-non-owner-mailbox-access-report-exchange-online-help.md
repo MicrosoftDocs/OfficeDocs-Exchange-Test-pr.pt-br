@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online_
+_**Aplica-se a:** Exchange Online_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O relatório de acesso não proprietário da caixa de correio no Centro de administração do Exchange (EAC) lista as caixas de correio que foram acessadas por alguém que não seja o proprietário da caixa de correio. Quando uma caixa de correio é acessada por um não proprietário, o Microsoft Exchange registra informações sobre essa ação em um log de auditoria de caixa de correio é armazenado como uma mensagem de email em uma pasta oculta na caixa de correio estão sendo auditada. Entradas a partir desse log são exibidas como resultados da pesquisa e incluir uma lista de caixas de correio acessadas por um não proprietário, quem acessou a caixa de correio e quando, as ações realizadas pelo não proprietário, e se a ação foi bem-sucedida. Por padrão, as entradas no log de auditoria de caixa de correio são mantidas por 90 dias.
 

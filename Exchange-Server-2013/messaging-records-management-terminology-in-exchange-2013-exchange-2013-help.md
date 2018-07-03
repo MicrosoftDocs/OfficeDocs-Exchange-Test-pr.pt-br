@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-30_
+_**Tópico modificado em:** 2012-10-30_
 
 Este tópico define os principais componentes associados com mensagens (MRM) de gerenciamento de registros no Microsoft Exchange Server 2013. MRM é uma tecnologia de gerenciamento de registros no Exchange 2013 que ajuda as organizações a reduzirem os riscos associados a emails e outras comunicações. MRM torna facilitam manter as mensagens necessárias para cumprir as necessidades legais, regulamentos do governo ou diretiva da empresa e para remover o conteúdo que tenha não legais ou valor ao negócio.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 O Exchange 2013 usa DAGs e cópias de banco de dados de caixa de correio, além de outros recursos, como recuperação de itens únicos, políticas de retenção e cópias de banco de dados com atraso, para fornecer alta disponibilidade, resiliência de site e proteção de dados nativos do Exchange. A plataforma de alta disponibilidade, o Repositório de Informações do Exchange e o Mecanismo de Armazenamento Extensível (ESE) foram aprimorados para oferecer maior disponibilidade, gerenciamento mais fácil e reduzir custos. Esses aprimoramentos incluem:
 

@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-04-26_
+_**Tópico modificado em:** 2018-04-26_
 
 Depois de criar um plano de discagem de Unificação de mensagens (UM), você pode exibir e configurar uma variedade de configurações. Por exemplo, você pode configurar o nível de voz sobre IP (VoIP) de segurança, o codec de áudio e restrições de discagem. As configurações que você configurar em UM discagem plano afetam todos os usuários que estão vinculados ao plano de discagem através de uma diretiva de caixa de correio de Unificação de mensagens.
 

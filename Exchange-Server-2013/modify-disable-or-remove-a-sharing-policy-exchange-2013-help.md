@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-15_
+_**Tópico modificado em:** 2014-02-15_
 
 As políticas de compartilhamento permitem que usuários individuais em sua organização do Exchange compartilhem informações de disponibilidade do calendário com outras organizações federadas do Exchange, organizações não federadas do Exchange e usuários individuais da Internet. Durante o curso normal das operações, você pode querer alterar algumas propriedades de políticas de compartilhamento, como modificar regras de compartilhamento, alterar o nível de acesso de disponibilidade, desabilitar temporariamente uma política de compartilhamento ou remover completamente uma política de compartilhamento.
 

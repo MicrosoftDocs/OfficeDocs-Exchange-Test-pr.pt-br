@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-16_
+_**Tópico modificado em:** 2012-10-16_
 
 Uma política de caixa de correio de dispositivo móvel permite que você aplique um conjunto comum de segurança e configurações de dispositivo móvel para um grupo de usuários. Você pode criar políticas de caixa de correio de vários dispositivos móveis. Cada destinatário em sua organização deve ter uma diretiva de caixa de correio de dispositivo móvel atribuída a eles. Quando você instala o Microsoft Exchange Server 2013, uma política de caixa de correio de dispositivo móvel padrão é criada e novos usuários recebem automaticamente essa política. Para atribuir a usuários específicos para uma diretiva de caixa de correio de dispositivo móvel, consulte [Adicionar ou remover usuários de uma política de caixa de correio móvel](add-or-remove-users-from-a-mobile-mailbox-policy-exchange-2013-help.md).
 

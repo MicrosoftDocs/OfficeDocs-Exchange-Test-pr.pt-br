@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Permissões de divisão permitem que dois grupos separados, como os administradores Active Directory e administradores de Exchange Server 2013 da Microsoft, para gerenciar seus respectivos serviços, objetos e atributos. Active Directory administradores gerenciam as entidades de segurança, como usuários, que fornecem permissões para acessar uma floresta Active Directory. Exchange administradores gerenciam as Exchange-relacionados atributos nos objetos Active Directory e Exchange-objeto específico de criação e gerenciamento.
 

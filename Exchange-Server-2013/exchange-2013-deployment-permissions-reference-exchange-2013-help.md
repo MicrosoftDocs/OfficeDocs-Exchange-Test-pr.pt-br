@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico descreve as permissões necessárias para configurar uma organização do Microsoft Exchange Server 2013. Os grupos de segurança universal (USGs) associados aos grupos de funções de gerenciamento e outros grupos e entidades de segurança do Windows estão incluídos nas listas de controle de acesso (ACLs) de vários objetos do Active Directory. As ACLs controlam as operações que podem ser executadas em cada objeto. Ao compreender quais permissões são concedidas a cada grupo de função, grupo de segurança ou entidade de segurança, é possível determinar as permissões mínimas necessárias para instalar o Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-07-12_
+_**Tópico modificado em:** 2016-07-12_
 
 Embora existam muitas vantagens em usar pastas públicas do Exchange 2013, há algumas coisas a considerar antes de implementá-las em sua organização.
 

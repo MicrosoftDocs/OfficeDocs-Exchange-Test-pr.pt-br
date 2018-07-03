@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-15_
+_**Tópico modificado em:** 2016-12-15_
 
 O conteúdo neste tópico não foi atualizado para o Microsoft Exchange Server 2013. Mesmo assim, ele ainda pode se aplicar ao Exchange 2013. Se você ainda precisar de ajuda, verifique os recursos da comunidade, abaixo.
 
@@ -41,5 +41,5 @@ Para eliminar esse erro, edite. ini e remova o **parâmetro/depuração** .
 
 5.  Salve e feche o arquivo e reinicie o computador do Exchange Server para que a alteração entre em vigor.
 
-Para obter mais informações sobre os parâmetros que podem ser usados no arquivo Boot. ini, consulte o artigo da Base de Conhecimento Microsoft 833721, "opções de switch disponíveis para o Windows XP e os arquivos de Boot. ini do Windows Server 2003" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=833721)).
+Para obter mais informações sobre os parâmetros que podem ser usados no arquivo Boot. ini, consulte o artigo da Base de Conhecimento Microsoft 833721, "opções de switch disponíveis para o Windows XP e os arquivos de Boot. ini do Windows Server 2003" ([https://go.microsoft.com/fwlink/?linkid=3052\&kbid=833721](https://go.microsoft.com/fwlink/?linkid=3052&kbid=833721)).
 

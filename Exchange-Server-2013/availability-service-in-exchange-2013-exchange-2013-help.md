@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O serviço de Disponibilidade do Exchange 2013 torna as informações de disponibilidade acessíveis aos clientes do Microsoft Outlook e do Outlook Web App. O serviço de Disponibilidade melhora o agendamento dos operadores de informações e a experiência de agendamento de reuniões, oferecendo informações de disponibilidade seguras, consistentes e atualizadas.
 

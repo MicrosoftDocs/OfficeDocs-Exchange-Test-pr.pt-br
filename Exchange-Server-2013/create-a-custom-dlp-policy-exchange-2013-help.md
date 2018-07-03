@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-03-18_
+_**Tópico modificado em:** 2016-03-18_
 
 Uma política de prevenção (DLP) de perda de dados personalizados permite estabelecer condições, regras e ações que pode ajudar a atender às necessidades específicas da sua organização e que não podem ser cobertos em um dos modelos de DLP pré-existente.
 

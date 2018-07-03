@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode impor que usuários que recebam mensagens de caixa postal protegidas usem o recurso Tocar no Telefone para ouvir as mensagens. Se o software cliente não oferecer suporte para gerenciamento de direitos, os usuários deverão usar o Outlook Voice Access para ouvir as mensagens.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-13_
+_**Tópico modificado em:** 2012-10-13_
 
 Por padrão, Exchange contém uma política de endereço de email que especifica o alias do destinatário como parte local do endereço de email e usa o domínio aceito padrão. A parte local de um endereço de email é o nome que aparece antes do sinal "no" (@). Esta diretiva de endereço de email se aplica a todos os usuários na organização. Não é possível remover esta diretiva de endereço de email.
 

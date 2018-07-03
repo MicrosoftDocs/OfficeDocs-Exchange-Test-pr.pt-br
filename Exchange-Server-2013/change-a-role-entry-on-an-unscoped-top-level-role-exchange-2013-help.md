@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 As entradas de função de gerenciamento em funções de gerenciamento de nível superior sem escopo se referem aos scripts e cmdlets não-Exchange e seus parâmetros que você pretende disponibilizar aos atribuídos à função. Ao alterar os parâmetros disponíveis em uma entrada de função, você controla qual dos atribuídos à função podem ser disponibilizados com o script ou o cmdlet não-Exchange. Para obter mais informações sobre entradas de função sem escopo, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

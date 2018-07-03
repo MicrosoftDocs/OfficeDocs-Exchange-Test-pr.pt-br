@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-06-25_
+_**Tópico modificado em:** 2013-06-25_
 
 Após instalar os servidores da Caixa de Correio e de Acesso do Cliente e configurar a Unificação de Mensagens, você pode usar vários testes de diagnóstico e um aplicativo de telefone baseado em software para testar a conectividade da telefonia e a operação dos serviços de Unificação de Mensagens.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-21_
+_**Tópico modificado em:** 2015-01-21_
 
 Você pode usar um escopo de gerenciamento personalizado para permitir que pessoas ou grupos específicos usem a Descoberta Eletrônica In-loco para pesquisar um subconjunto de caixas de correio em sua organização do Exchange 2013 ou do Exchange Online. Por exemplo, convém permitir que um gerente de descoberta pesquise apenas as caixas de correio de usuários em um local ou departamento específico. Você pode fazer criando um escopo de gerenciamento personalizado. Esse escopo de gerenciamento personalizado usa um filtro de destinatário para controlar quais caixas de correio podem ser pesquisadas. Escopos de filtro de destinatário usam filtros para direcionar a destinatários específicos com base no tipo de destinatário ou em outras propriedades de destinatário.
 

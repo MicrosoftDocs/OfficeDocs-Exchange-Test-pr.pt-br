@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-03-20_
+_**Tópico modificado em:** 2017-03-20_
 
 Este tópico apresenta as etapas para instalar os pré-requisitos de sistema operacional Windows Server 2012 R2, Windows Server 2012 e Windows Server 2008 R2 com Service Pack 1 (SP1) necessários para as funções de servidor de Caixa de Correio e Acesso para Cliente do Microsoft Exchange 2013. Ele também apresenta os pré-requisitos necessários para a instalação das ferramentas de gerenciamento do Exchange 2013 nos computadores cliente com Windows 8, Windows 8.1 e Windows 7.
 
@@ -191,11 +191,11 @@ Após ter instalado as funções e os recursos de sistema operacional, instale o
 
 3.  [Microsoft Unified Communications Managed API 4.0, Core Runtime 64 bits](https://go.microsoft.com/fwlink/p/?linkid=258269)
 
-4.  [Artigo KB974405 da Base de Dados de Conhecimento Microsoft (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+4.  [Artigo KB974405 da Base de Dados de Conhecimento Microsoft (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
-5.  [Artigo KB2619234 da Base de Dados de Conhecimento Microsoft (Um hotfix está disponível para permitir que o Cookie/GUID da associação que é usado por RPC sobre HTTP para ser usado na camada de RPC no Windows 7 e no Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2619234)
+5.  [Artigo KB2619234 da Base de Dados de Conhecimento Microsoft (Um hotfix está disponível para permitir que o Cookie/GUID da associação que é usado por RPC sobre HTTP para ser usado na camada de RPC no Windows 7 e no Windows Server 2008 R2)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2619234)
 
-6.  [Artigo KB2533623 da Base de Dados de Conhecimento Microsoft (Comunicado de Segurança da Microsoft: Carregamento da biblioteca insegura pode permitir a execução de código remoto)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=2533623)
+6.  [Artigo KB2533623 da Base de Dados de Conhecimento Microsoft (Comunicado de Segurança da Microsoft: Carregamento da biblioteca insegura pode permitir a execução de código remoto)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2533623)
     
 
     > [!TIP]
@@ -251,7 +251,7 @@ Após ter instalado os recursos de sistema operacional, instale os seguintes sof
 
 2.  [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?linkid=390234)
 
-3.  [Artigo KB974405 da Base de Dados de Conhecimento Microsoft (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=974405)
+3.  [Artigo KB974405 da Base de Dados de Conhecimento Microsoft (Windows Identity Foundation)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=974405)
 
 ## Pré-requisitos do Windows 8 e Windows 8.1 (somente as ferramentas de administração)
 

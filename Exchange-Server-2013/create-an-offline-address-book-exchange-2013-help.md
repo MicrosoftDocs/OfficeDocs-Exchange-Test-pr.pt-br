@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-24_
+_**Tópico modificado em:** 2015-04-24_
 
 Um catálogo de endereços offline (OAB) no Exchange Server 2013 é uma cópia baixada de um catálogo de endereços que permite que um usuário do Outlook acessar as informações enquanto desconectado do servidor. Os administradores do Exchange podem decidir qual endereço manuais são disponibilizados aos usuários que trabalhar offline e elas também podem configurar o método pelo qual os catálogos de endereços são distribuídos (distribuição baseada na web ou distribuição de pasta pública).
 

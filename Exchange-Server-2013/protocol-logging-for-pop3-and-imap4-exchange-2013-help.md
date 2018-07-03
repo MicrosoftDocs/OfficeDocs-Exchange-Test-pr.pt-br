@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode usar o log de protocolo para analisar as conexões POP3 e IMAP4 em seu ambiente do Exchange. Isso pode ser útil se você estiver solucionando problemas relacionados ao desempenho de POP3 ou IMAP4.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-13_
+_**Tópico modificado em:** 2012-10-13_
 
 Se sua organização estiver envolvida em uma ação judicial, você talvez precise executar etapas para preservar dados relevantes, como mensagens de email, que podem ser usadas como evidência. Em situações como essa, você pode usar o litígio para reter todos os emails enviados e recebidos por específicos de pessoas ou reter todos os emails enviados e recebidos na sua organização por um período de tempo específico. Para obter mais informações sobre o que acontece quando uma caixa de correio está em retenção de litígio e como habilitar e desabilitá-lo, consulte a seção "Recursos de caixa de correio" no [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
 

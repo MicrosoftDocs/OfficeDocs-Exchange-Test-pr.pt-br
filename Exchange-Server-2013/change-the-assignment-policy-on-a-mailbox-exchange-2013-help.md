@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-08_
+_**Tópico modificado em:** 2012-10-08_
 
 Você pode alterar a política de atribuição de função de gerenciamento atribuída a uma caixa de correio. Quando você alterar a política de atribuição de uma caixa de correio, a alteração entrará em vigor assim que o usuário atualiza a conexão, como na próxima vez que ele acesse suas caixas de correio ou abra a página de opções da caixa de correio. Para obter mais informações sobre políticas de atribuição no Microsoft Exchange Server 2013, consulte [Noções básicas sobre diretivas de atribuição de função de gerenciamento](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Você pode definir opções no Visualizador de Filas para ajustar o número de itens que são exibidos na página e o intervalo de atualização automática. O intervalo de atualização automática determina a frequência da atualização dos resultados no Visualizador de Filas.
 

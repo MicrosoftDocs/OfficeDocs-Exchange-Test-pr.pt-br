@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Possui uma caixa de correio de descoberta que excedeu o limite de 50 GB? Você pode corrigir esse problema criando novas caixas de correio de descoberta e copiando os resultados da pesquisa da caixa de correio de descoberta grande para as novas.
 
@@ -100,23 +100,23 @@ A próxima etapa é usar o cmdlet **New-MailboxSearch** para copiar os resultado
 
 2.  Após a criação da pesquisa, comece-a usando o Shell ou o Centro de administração do Exchange (EAC).
     
-      - **Usando o Shell:** Execute o seguinte comando para iniciar a pesquisa criada na etapa anterior. Como a opção *EstimateOnly* foi incluída quando a pesquisa foi criada, os resultados da pesquisa não serão copiados na caixa de correio de descoberta de destino.
+      - **Usando o Shell:**  Execute o seguinte comando para iniciar a pesquisa criada na etapa anterior. Como a opção *EstimateOnly* foi incluída quando a pesquisa foi criada, os resultados da pesquisa não serão copiados na caixa de correio de descoberta de destino.
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Usando o EAC:** Vá em **Gerenciamento de conformidade** \> **Bloqueio & Descoberta Eletrônica In-loco**. Selecione a pesquisa criada na etapa anterior, clique em **Pesquisar**![Ícone Pesquisar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Ícone Pesquisar") e clique em **Estimar resultados da pesquisa**.
+      - **Usando o EAC:**  Vá em **Gerenciamento de conformidade** \> **Bloqueio & Descoberta Eletrônica In-loco**. Selecione a pesquisa criada na etapa anterior, clique em **Pesquisar**![Ícone Pesquisar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Ícone Pesquisar") e clique em **Estimar resultados da pesquisa**.
 
 3.  Se for necessário, ajuste o intervalo de datas a fim de aumentar ou diminuir a quantidade de resultados de pesquisa retornados. Se você alterar o intervalo de datas, execute a pesquisa novamente para obter uma nova estimativa dos resultados. Considere a possibilidade de alterar o nome da pesquisa para refletir o novo intervalo de datas.
 
 4.  Quando você concluir os testes da pesquisa, use o Shell ou o EAC para copiar os resultados de pesquisa para a caixa de correio de descoberta de destino.
     
-      - **Usando o Shell:** Execute o seguinte comando para copiar os resultados de pesquisa. É necessário remover a opção *EstimateOnly* antes de poder copiar os resultados da pesquisa.
+      - **Usando o Shell:**  Execute o seguinte comando para copiar os resultados de pesquisa. É necessário remover a opção *EstimateOnly* antes de poder copiar os resultados da pesquisa.
         
             Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
         
             Start-MailboxSearch "Search results from 2010"
     
-      - **Usando o EAC:** Vá em **Gerenciamento de conformidade** \> **Bloqueio & Descoberta Eletrônica In-loco**. Selecione a pesquisa, clique em **Pesquisar**![Ícone Pesquisar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Ícone Pesquisar") e clique em **Copiar resultados da pesquisa**.
+      - **Usando o EAC:**  Vá em **Gerenciamento de conformidade** \> **Bloqueio & Descoberta Eletrônica In-loco**. Selecione a pesquisa, clique em **Pesquisar**![Ícone Pesquisar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Ícone Pesquisar") e clique em **Copiar resultados da pesquisa**.
     
     Para obter mais informações, consulte [Copiar os resultados de pesquisa de descoberta eletrônica para uma caixa de correio de descoberta](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md).
 
@@ -132,11 +132,11 @@ Antes de excluir uma pesquisa, você pode executar o seguinte comando para ident
 
 Você pode usar o Shell ou o EAC para excluir uma pesquisa de Descoberta Eletrônica.
 
-  - **Usando o Shell:** Execute o seguinte comando.
+  - **Usando o Shell:**  Execute o seguinte comando.
     
         Remove-MailboxSearch -Identity <name of search>
 
-  - **Usando o EAC:** Vá em **Gerenciamento de conformidade** \> **Bloqueio & Descoberta Eletrônica In-loco**. Selecione a pesquisa que você deseja excluir e clique em **Excluir**![Excluir ícone](images/JJ673559.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Excluir ícone").
+  - **Usando o EAC:**  Vá em **Gerenciamento de conformidade** \> **Bloqueio & Descoberta Eletrônica In-loco**. Selecione a pesquisa que você deseja excluir e clique em **Excluir**![Excluir ícone](images/JJ673559.14f639f6-61e8-4418-bbfb-0db14de9d2f5(EXCHG.150).gif "Excluir ícone").
 
 ## Como saber se funcionou?
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-14_
+_**Tópico modificado em:** 2015-01-14_
 
 Você pode exibir, alterar ou remover políticas de (DLP) de prevenção de perda de dados existente no Microsoft Exchange, usando o Centro de administração do Exchange (EAC) ou o Shell de gerenciamento do Exchange.
 

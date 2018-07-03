@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-02_
+_**Tópico modificado em:** 2012-11-02_
 
 Você pode precisar suspender ou retomar uma cópia do banco de dados para uma variedade de motivos, como manutenção no disco que contém uma cópia do banco de dados, ou suspender uma cópia do banco de dados individual de ativação para fins de recuperação de desastres.
 

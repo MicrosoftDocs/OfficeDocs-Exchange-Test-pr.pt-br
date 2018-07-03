@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 As organizações que separam o gerenciamento de objetos do Microsoft Exchange Server 2013 e Active Directory usam o que é chamado um modelo de *permissões de divisão* . Permissões de divisão permitem que as organizações atribuir permissões específicas e tarefas relacionadas a grupos específicos dentro da organização. Essa separação de trabalho ajuda a manter os padrões e fluxos de trabalho, e ajuda a controlar alterar na organização.
 

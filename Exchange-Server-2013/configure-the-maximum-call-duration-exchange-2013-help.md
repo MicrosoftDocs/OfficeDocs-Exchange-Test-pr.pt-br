@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-09_
+_**Tópico modificado em:** 2012-11-09_
 
 Você pode especificar o número máximo de minutos que uma chamada de entrada pode permanecer conectada ao sistema sem ser transferida para um número de ramal válido antes de a chamada ser encerrada. Para a maioria das organizações, esse valor deve ser definido como o padrão: 30 minutos. Essa configuração se aplica a todas as chamadas, incluindo chamadas de entrada do Outlook Voice Access, chamadas de voz internas para sua organização, chamadas de voz para os atendedores de voz de Unificação de Mensagens (UM) e chamadas de voz e fax originadas fora da sua organização.
 

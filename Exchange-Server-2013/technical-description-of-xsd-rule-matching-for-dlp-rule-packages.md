@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-07-28_
+_**Tópico modificado em:** 2016-07-28_
 
 Este tópico descreve técnicas para correspondência de padrões e elementos de evidência dentro de um arquivo XML de prevenção de perda de dados (DLP) que foi feito para conter seu próprio pacote de regra de tipo de informação confidencial. Depois de ter criado um arquivo XML no formato correto, você poderá importar o arquivo, usando o Centro de administração do Exchange (EAC) ou o Shell de Gerenciamento do Exchange, para ajudar a criar sua solução DLP do Microsoft Exchange Server 2013. Antes de você poder fazer uso dos métodos de correspondência descritos aqui, você já deve ter um arquivo XML de DLP iniciado. Para mais informações sobre definir seus próprios modelos DLP e arquivos XML, consulte [Definir seus próprios modelos de DLP e tipos de informações](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 

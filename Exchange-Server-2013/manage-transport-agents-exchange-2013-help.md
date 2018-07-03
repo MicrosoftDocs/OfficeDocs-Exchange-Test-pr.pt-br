@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Agentes de transporte utilize os eventos de SMTP para operar em mensagens à medida que as mensagens move através do pipeline de transporte. A maioria dos agentes de transporte interno que estão incluídos no Microsoft Exchange Server 2013 são invisíveis e difíceis de gerenciar. No entanto, você pode instalar e configurar os agentes de transporte de terceiros em servidores do Exchange em sua organização. Para obter mais informações sobre agentes de transporte, consulte [Agentes de transporte](transport-agents-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Microsoft Exchange Server 2013 inclui um amplo conjunto de permissões predefinidas, baseada no modelo de permissões do controle de acesso com base da função (RBAC), que você pode usar imediatamente facilmente conceder permissões a administradores e usuários. Você pode usar os recursos de permissões no Exchange 2013 para que você possa obter sua nova organização para cima e funcionando com rapidez.
 

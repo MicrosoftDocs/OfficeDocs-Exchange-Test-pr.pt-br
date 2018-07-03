@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Os filtros de escopo de função de gerenciamento podem ser usados para definir os escopos de gerenciamento que são altamente personalizáveis. Usando filtros de escopo, você pode criar um escopo que corresponda a como você segmenta seus destinatários, bancos de dados e servidores, de modo que os administradores possam gerenciar somente os objetos a que eles devem ter acesso. Os filtros de escopo podem usar praticamente qualquer propriedade de objeto de destinatário, banco de dados ou servidor.
 
@@ -111,7 +111,7 @@ A tabela a seguir mostra um exemplo com valores, indicando quando a consulta com
 <td><p>IT Manager (True)</p></td>
 <td><p>True porque <strong>Title</strong> foi avaliado como True. Os resultados da comparação entre <strong>City</strong> e <strong>Department</strong> são descartados porque <strong>Title</strong> foi avaliado como True, o que satisfez as condições da consulta de filtro.</p>
 
-> [!TIP]
+> [!TIP]  
 > "IT Manager" corresponde à consulta de filtro porque o operador de comparação <STRONG>Like</STRONG> foi usado, o que corresponde às cadeias de caracteres parciais, quando caracteres-curinga (*) são usados na consulta de filtro.
 
 

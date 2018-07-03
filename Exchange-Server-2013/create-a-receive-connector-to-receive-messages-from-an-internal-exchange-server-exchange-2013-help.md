@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Crie um conector de recebimento do tipo **Interno** quando quiser receber email de um servidor do Exchange. Use este tipo de conector para controlar o roteamento de email em sua organização: por exemplo, quando quiser rotear email do serviço Transporte em um servidor de Caixa de Correio para um servidor de Transporte de Borda específico, ou de um servidor de Caixa de Correio para outro.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Saiba mais sobre o serviço de Descoberta Automática do Exchange para o Microsoft Exchange 2013. Você verá o que o serviço de Descoberta Automática do Exchange faz e como ele funciona, bem como quais são as opções de implantação.
 

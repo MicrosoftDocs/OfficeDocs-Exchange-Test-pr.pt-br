@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-14_
+_**Tópico modificado em:** 2013-02-14_
 
 Você pode usar o EAC ou o Shell para gerenciar os idiomas de Unificação de mensagens (UM) em servidores de caixa de correio executando o serviço de Unificação de mensagens do Microsoft Exchange. No entanto, para remover um idioma da lista em um plano de discagem de UM, você deve remover o pacote de idiomas de Unificação de mensagens apropriado do servidor de caixa de correio usando o comando **Setup.exe /RemoveUmLanguagePack** . Depois de remover o pacote de idiomas de Unificação de mensagens do servidor de caixa de correio, o idioma não estará disponível quando você configura um plano de discagem ou um atendedor automático. Você pode exibir os pacotes de idiomas de Unificação de mensagens que estão instalados, exibindo as propriedades do servidor de caixa de correio ou usando o cmdlet **Get-UMService** .
 

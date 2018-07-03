@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Por padrão, os usuários não são capazes de fazer chamadas de saída. Para especificar que os tipos de chamadas os usuários podem fazer, primeiro crie regras de discagem, e autorize os grupos destas regras de discagem nos planos de discagem, nas políticas de caixa de correio ou nos atendedores automáticos de UM. Para poder autorizar grupos de regras de discagem, é preciso definir as regras de discagem em um plano de discagem de UM. Para obter detalhes, consulte [Criar regras de discagem para usuários](create-dialing-rules-for-users-exchange-2013-help.md).
 

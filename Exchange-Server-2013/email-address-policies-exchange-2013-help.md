@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-07-21_
+_**Tópico modificado em:** 2016-07-21_
 
 Destinatários (que incluem usuários, recursos, contatos e grupos) são qualquer objeto habilitado para email no Active Directory para o qual a Microsoft Exchange pode entregar ou encaminhar mensagens. Para um destinatário enviar ou receber mensagens de email, o destinatário deve ter um endereço de email. Políticas de endereço de email geram os endereços de email primários e secundários para seus destinatários para que possam receber e enviar email.
 

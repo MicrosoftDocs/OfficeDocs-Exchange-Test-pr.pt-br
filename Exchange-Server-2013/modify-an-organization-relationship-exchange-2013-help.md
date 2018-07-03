@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-01_
+_**Tópico modificado em:** 2015-01-01_
 
 Um relacionamento de organização permite que os usuários em sua organização do Exchange compartilhem informações de disponibilidade de calendário com uma organização do Office 365 ou outra organização local do Exchange. Talvez você queira alterar as configurações de um relacionamento de organização, como o nome, desabilitar temporariamente o compartilhamento de calendário, alterar o nível de acesso ou alterar quais grupos de segurança compartilharão calendários.
 

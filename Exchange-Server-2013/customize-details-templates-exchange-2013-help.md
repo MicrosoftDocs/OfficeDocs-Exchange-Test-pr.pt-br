@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-25_
+_**Tópico modificado em:** 2012-09-25_
 
 Use o Editor de modelos de detalhes para personalizar a apresentação de GUI (interface) gráfica do usuário do cliente de propriedades de objeto que são acessados usando listas de endereços em MicrosoftOutlook. Por exemplo, quando um usuário abre uma lista de endereços no Outlook, as propriedades de um determinado objeto são apresentadas conforme definido pelo modelo de detalhes da organização Exchange. Os objetos que podem ser personalizados, alterando os tamanhos de campo, adicionar ou remover campos, adicionando ou removendo guias e reorganizando campos. O layout desses modelos pode variar por idioma.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-09_
+_**Tópico modificado em:** 2012-12-09_
 
 Você pode especificar o grupo de usuários que os chamadores podem contatar ao chamarem um atendedor automático da UM (Unificação de Mensagens). Por padrão, os chamadores podem entrar em contato com usuários no mesmo plano de discagem associado ao atendedor automático da UM. Entretanto, é possível alterar o grupo de usuários para permitir que chamadores transfiram chamadas ou enviem mensagens de voz para usuários localizados no catálogo de endereços da organização ou para um conjunto de usuários específico.
 

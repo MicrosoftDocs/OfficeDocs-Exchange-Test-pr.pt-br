@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Outlook Voice Access permite acesso de usuários habilitados para UNIFICAÇÃO de mensagens em suas caixas de correio usando analógico, digital ou celulares. Usando o sistema de menus encontrado em Outlook Voice Access, usuários habilitados para Unificação de mensagens podem ler email, ouvir mensagens de voz, interagir com o seu calendário Outlook, acessar seus contatos pessoais e gerenciar opções pessoais, como configurar suas Outlook PIN Voice Access ou gravação suas mensagens de caixa postal. Este tópico contém uma lista dos comandos Outlook Voice Access e como os usuários podem usá-los quando acessarem suas caixas de correio chamando um número do Outlook Voice Access.
 

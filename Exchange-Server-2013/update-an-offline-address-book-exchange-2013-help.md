@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-11-15_
+_**Tópico modificado em:** 2013-11-15_
 
 Depois de criar um OAB ou modificar as configurações de OAB, as alterações não estarão disponíveis para usuários até que o processo de geração de OAB (OABGen) tenha sido concluído.
 

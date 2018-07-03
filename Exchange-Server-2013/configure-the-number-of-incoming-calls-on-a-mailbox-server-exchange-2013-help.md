@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-23_
+_**Tópico modificado em:** 2013-02-23_
 
 Você pode configurar o número de conexões consecutivas de entrada que um servidor de Caixa de Correio que executa o serviço de Unificação de Mensagens do Microsoft Exchange aceitará. Isso inclui todas as chamadas de entrada, incluindo o Outlook Voice Access, atendimento de chamada, atendedores automáticos e chamadas de fax. Quando o número de conexões simultâneas em um servidor de Caixa de Correio aumenta, são necessários mais recursos de sistema do que quando o número de chamadas simultâneas é reduzido. A redução do número de chamadas simultâneas é especialmente importante em computadores mais lentos em que os serviços de Unificação de Mensagens estejam instalados. O intervalo do número de chamadas de voz simultâneas é de 0 a 200. O padrão é 100.
 

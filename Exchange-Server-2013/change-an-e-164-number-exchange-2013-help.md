@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-14_
+_**Tópico modificado em:** 2012-11-14_
 
 Quando você habilita um usuário para UM e o vincula a um plano de discagem E.164, dois endereços proxy EUM são criados. Um contém o número do ramal do usuário e o outro contém o número E.164 para o usuário. O número do ramal é usado quando o usuário chama para um número do Outlook Voice Access.
 

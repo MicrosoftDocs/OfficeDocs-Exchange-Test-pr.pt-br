@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento `POP3 and IMAP4 Protocols` permite que administradores gerenciem a configuração de POP3 e IMAP4, como definições de autenticação e conexão, em servidores individuais.
 

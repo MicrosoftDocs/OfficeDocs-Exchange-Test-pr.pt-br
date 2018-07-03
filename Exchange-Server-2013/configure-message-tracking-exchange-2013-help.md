@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-18_
+_**Tópico modificado em:** 2013-02-18_
 
 O acompanhamento de mensagens registra a atividade de transporte de SMTP de todas as mensagens transferidas para e a partir do serviço de Transporte ou caixas de correio em um servidor de Caixa de Correio do Microsoft Exchange Server 2013. É possível usar logs de controle de mensagens para análise forense de mensagens, análise de fluxo de mensagens, criação de relatórios e solução de problemas.
 

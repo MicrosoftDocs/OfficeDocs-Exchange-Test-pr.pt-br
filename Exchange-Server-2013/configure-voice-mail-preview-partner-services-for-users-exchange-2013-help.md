@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode configurar um parceiro de visualização da caixa postal em uma diretiva de caixa de correio de Unificação de mensagens (UM). Depois que você configurou a visualização da caixa postal parceiro configurações, como a visualização da caixa postal parceiro ID e a visualização da caixa postal parceiro endereço, em uma diretiva de caixa de correio UM, as configurações que você definir se aplicará a todos os usuários habilitados para Unificação de MENSAGENS que são vinculados com essa política de caixa de correio.
 

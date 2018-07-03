@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-19_
+_**Tópico modificado em:** 2014-06-19_
 
 Este tópico explica como usar o assistente de instalação do Microsoft Exchange Server 2013 para instalar a função de servidor de Transporte de Borda do Exchange 2013 em um computador. A função de Transporte de Borda está disponível com o Exchange 2013 Service Pack 1 (SP1) ou posterior. Para obter mais informações sobre o planejamento e a implantação do Exchange 2013, consulte [Planejamento e implantação](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

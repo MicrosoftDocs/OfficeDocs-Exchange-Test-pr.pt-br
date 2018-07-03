@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade **HubTransport** monitora a integridade geral do pipeline de transporte nos servidores de caixa de correio que é responsável pelo roteamento de mensagens em sua organização. Para obter mais informações, consulte [Fluxo de mensagens](https://technet.microsoft.com/pt-br/library/aa996349\(v=exchg.150\)).
 

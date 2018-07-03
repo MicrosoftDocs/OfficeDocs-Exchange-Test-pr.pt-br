@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Exchange Pesquisa indexa caixas de correio e suportado anexos em caixas de correio Exchange. Com o aumento de volumes de email, aumentando tamanhos e cotas de armazenamento, provisionamento de caixas de correio de arquivamento para usuários e In-Place eDiscovery para a realização de pesquisas de descoberta, Exchange pesquisa é um componente essencial dos servidores de caixa de correio em sua organização do Microsoft Exchange Server 2013. Problemas com Exchange pesquisa podem afetar a produtividade do usuário e afetar a funcionalidade de descoberta eletrônica In-loco.
 

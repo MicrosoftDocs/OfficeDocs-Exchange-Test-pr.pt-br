@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Como nas versões anteriores do Exchange, você pode usar o Shell de Gerenciamento do Exchange no Microsoft Exchange Server 2013 para exibir informações sobre as filas e as mensagens nessas filas e para executar ações de gerenciamento em filas e mensagens. No Exchange 2013, filas existem em servidores de transporte de borda e servidores de caixa de correio. Este tópico refere-se a esses servidores como *servidores de transporte*.
 

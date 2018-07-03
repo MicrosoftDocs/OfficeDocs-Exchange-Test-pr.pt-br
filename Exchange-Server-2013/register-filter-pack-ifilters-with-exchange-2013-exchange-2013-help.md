@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Regras de transporte com condições de verificação de anexo executam extração de texto ao analisar o conteúdo de anexos. O Exchange 2013 pode verificar tipos de anexo mais comumente usados de maneira nativa. Tipos adicionais de anexo podem ser incluídos registrando IFilters no Exchange 2013. Este tópico mostra como registrar IFilters liberados pela Microsoft e por provedores de terceiros.
 

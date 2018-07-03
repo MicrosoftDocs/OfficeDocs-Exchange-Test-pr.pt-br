@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Indicador de Espera da Mensagem (MWI) é um recurso encontrado na maioria dos sistemas de caixa postal herdados. Ele permite que os usuários saibam que têm mensagens de voz novas ou não ouvidas. Na sua forma mais comum, este recurso acende uma lâmpada no telefone de um usuário para indicar a presença de uma mensagem de voz nova ou não ouvida.
 

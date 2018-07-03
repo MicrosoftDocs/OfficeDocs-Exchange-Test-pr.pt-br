@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-16_
+_**Tópico modificado em:** 2013-04-16_
 
 Você pode remover servidores de Acesso para Cliente e Caixa de Correio a todos os planos de discagem URI SIP. Quando você estiver implantando o Microsoft Lync Server, para permitir que a chamada de saída funcione corretamente, será preciso adicionar manualmente todos os servidores Acesso para Cliente e Caixa de Correio aos planos de discagem URI SIP criados para o Lync Server. Entretanto, talvez seja necessário remover um servidor Acesso para Cliente ou Caixa de Correio da sua implantação do Lync, por exemplo, se você estiver realizando manutenção ou colocando o servidor offline.
 

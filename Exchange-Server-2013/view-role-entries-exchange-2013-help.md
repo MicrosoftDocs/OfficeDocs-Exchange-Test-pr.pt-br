@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Cada entrada da função de gerenciamento representa um único cmdlet ou script. Os parâmetros incluídos em uma entrada de função determinam quais parâmetros do cmdlet ou um script que um usuário pode acessar.
 

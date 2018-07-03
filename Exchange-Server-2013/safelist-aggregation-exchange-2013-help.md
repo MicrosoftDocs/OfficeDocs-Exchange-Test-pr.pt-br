@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-09-30_
+_**Tópico modificado em:** 2013-09-30_
 
 No Microsoft Exchange Server 2013, a *agregação de lista segura* se refere à funcionalidade antispam compartilhada no Microsoft Outlook e no Exchange. Essa funcionalidade coleta dados das Listas de Destinatários Confiáveis, Listas de Remetentes Confiáveis, Listas de Remetentes Bloqueados e os dados de contatos configurados pelos usuários do Outlook, e disponibiliza esses dados para os agentes antispam do Exchange.
 

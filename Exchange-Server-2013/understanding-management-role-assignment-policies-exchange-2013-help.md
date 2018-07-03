@@ -13,14 +13,14 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Uma *diretiva de atribuição de função de gerenciamento* é uma coleção de uma ou mais funções de gerenciamento de usuários finais que permitem a esses usuários gerenciar suas próprias configurações de grupo de distribuição e caixa de correio do Microsoft Exchange Server 2013. As diretivas de atribuição de função, que são parte do modelo de permissões RBAC (controle de acesso baseado na função) no Exchange 2013, permitem controlar quais configurações de grupo de distribuição e caixa de correio específicas seus usuários finais poderão modificar. Grupos de usuários diferentes podem ter diretivas de atribuição de função especializadas para eles.
 
 
-> [!TIP]
+> [!TIP]  
 > Este tópico concentra-se na funcionalidade avançada de RBAC. Se você quiser gerenciar permissões básicas do Exchange 2013, como usar o Centro de Administração do Exchange (EAC) para adicionar e remover membros de grupos de funções, criar e modificar grupos de funções ou criar e modificar políticas de atribuição de função, consulte <A href="permissions-exchange-2013-help.md">Permissões</A>.
 
 
@@ -126,7 +126,7 @@ A tabela a seguir lista a camada de diretiva de atribuição de função e os t�
 <p><a href="change-a-role-entry-exchange-2013-help.md">Alterar uma entrada de função</a></p>
 <p><a href="remove-a-role-entry-from-a-role-exchange-2013-help.md">Remover uma entrada de função de uma função</a></p>
 
-> [!TIP]
+> [!TIP]  
 > Alterar as entradas de função de gerenciamento nas funções de gerenciamento em uma diretiva de atribuição de função é uma tarefa avançada e na maioria dos caso não é exigida. Você pode, em vez disso, ser capaz de usar uma função de gerenciamento pré-existente adequada às suas necessidades. Para mais informações, consulte <A href="built-in-role-groups-exchange-2013-help.md">Grupos de funções internos</A>.
 
 

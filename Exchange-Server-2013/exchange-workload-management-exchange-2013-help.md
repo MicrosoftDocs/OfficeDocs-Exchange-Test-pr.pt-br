@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-11-16_
+_**Tópico modificado em:** 2014-11-16_
 
 Uma carga de trabalho do Exchange é um recurso, protocolo ou serviço que foi explicitamente definido para as finalidades de gerenciamento de recursos do sistema do Exchange. Cada carga de trabalho do Exchange consome recursos do sistema, como CPU, operações de banco de dados de caixa de correio ou solicitações do Active Directory para executar solicitações de usuário ou trabalho em segundo plano. Os exemplos de cargas de trabalho do Exchange incluem Outlook Web App, Exchange ActiveSync, migração de caixa de correio e assistentes de caixa de correio.
 

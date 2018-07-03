@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2010, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2010, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-09-25_
+_**Tópico modificado em:** 2017-09-25_
 
-**Resumo:** por que você deve ou não deve migrar suas pastas públicas do Exchange para o Office 365 grupos.
+**Resumo:**  por que você deve ou não deve migrar suas pastas públicas do Exchange para o Office 365 grupos.
 
 Este artigo fornece uma comparação de pastas públicas e grupos do Office 365 e como um ou outro pode ser a melhor solução para sua organização. Pastas públicas têm sido cerca desde que o Exchange, enquanto os grupos introduzidos mais recentemente. Se você deseja migrar algumas ou todas as pastas públicas para grupos, este artigo descreve como funciona o processo e fornece links para os artigos que orientam você pelo processo, passo a passo.
 
@@ -89,15 +89,15 @@ Principais benefícios de migrações de lote são:
 
 As seguintes etapas descrevem o processo geral de migração seu conteúdo de pasta pública para o Office 365 grupos em uma migração em lotes. Os detalhes específicos estão contidos nos artigos listados abaixo.
 
-1.  **Selecione fonte:** escolher as pastas públicas que você deseja migrar. Você pode escolher qualquer email que contêm da pasta ou o conteúdo de calendário.
+1.  **Selecione fonte:**  escolher as pastas públicas que você deseja migrar. Você pode escolher qualquer email que contêm da pasta ou o conteúdo de calendário.
 
-2.  **Criar destino:** criar grupos correspondentes para suas pastas, com as configurações de desejada, como membros, configurações de privacidade e classificação de dados.
+2.  **Criar destino:**  criar grupos correspondentes para suas pastas, com as configurações de desejada, como membros, configurações de privacidade e classificação de dados.
 
-3.  **Copiar dados:** usar os cmdlets do lote de migração para copiar dados de pastas públicas para grupos.
+3.  **Copiar dados:**  usar os cmdlets do lote de migração para copiar dados de pastas públicas para grupos.
 
-4.  **Origem do bloqueio:** bloquear as pastas públicas, depois de verificar os dados em grupos.
+4.  **Origem do bloqueio:**  bloquear as pastas públicas, depois de verificar os dados em grupos.
 
-5.  **Cutover:** copiar os novos dados que foi criados entre as etapas 3 e 4.
+5.  **Cutover:**  copiar os novos dados que foi criados entre as etapas 3 e 4.
 
 Observe que suas pastas públicas e seus grupos correspondentes permanecerão on-line para seus usuários durante as etapas 1 a 3 acima. Após a etapa 3, você pode avaliar se ou não prosseguir com o restante da migração, com base na experiência grupos e ou não-lo adequada para seus usuários e a sua organização. Você pode reverter a migração e continuar a usar pastas públicas nesse momento. Se você continuar com a migração, após a conclusão da etapa 5, você pode excluir as pastas públicas originais. É possível fazer a reversão para pastas públicas, pós-migração par fornecidas você salvou os arquivos de backup do processo de migração e suas pastas públicas originais não foram excluídos.
 

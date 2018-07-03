@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode configurar as regras de informações confidenciais em suas políticas de prevenção de perda de dados (DLP) do Microsoft Exchange para detectar dados muito específicos em mensagens de email. Esse tópico ajudará você a entender como essas regras são aplicadas e como as mensagens são avaliadas. Você pode evitar interrupções do fluxo de trabalho para seus usuários de email e conseguir um elevado grau de precisão com suas detecções de DLP se souber como as regras são impostas. Vamos usar a regra de informações do cartão de crédito fornecido pela Microsoft como exemplo. Quando você ativa uma regra de transporte ou política de DLP, o agente de regras de transporte do Exchange compara todas as mensagens que seus usuários enviam com os conjuntos de regras que você criar.
 

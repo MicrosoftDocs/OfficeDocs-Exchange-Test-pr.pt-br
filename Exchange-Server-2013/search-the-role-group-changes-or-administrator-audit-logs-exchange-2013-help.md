@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-12-02_
+_**Tópico modificado em:** 2013-12-02_
 
 Você pode pesquisar os logs de auditoria do administrador para descobrir quem efetuou alterações na organização, no servidor e na configuração de destinatário. Isso pode ser útil quando se tenta acompanhar a causa do comportamento inesperado, para identificar um administrador malicioso ou verificar se os requisitos de conformidade estão sendo atendidos. Para obter mais informações sobre o registro em log de auditoria do administrador, consulte [Log de auditoria de administrador](administrator-audit-logging-exchange-2013-help.md).
 

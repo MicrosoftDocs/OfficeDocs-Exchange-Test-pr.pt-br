@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 É possível habilitar o horário não comercial mapeamentos de teclas para um atendedor automático da Unificação de mensagens (UM). Depois de criar um atendedor automático de UM, um prompt de sistema padrão será usado para o horário não comercial prompt do menu principal saudação que os chamadores ouvem após o horário não comercial saudação de boas-vindas é reproduzido. O padrão horário não comercial prompt do menu principal diz: "Bem-vindo à impressora MicrosoftExchange depois que o atendedor automático de horas." Como nenhum mapeamentos de teclas são definidos por padrão, nenhuma opção de menu está disponível para os chamadores e ouvirão apenas o menu principal do horário não comercial de padrão solicitar.
 

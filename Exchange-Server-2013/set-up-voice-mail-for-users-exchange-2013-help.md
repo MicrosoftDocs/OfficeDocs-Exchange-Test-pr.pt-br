@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-10-13_
+_**Tópico modificado em:** 2012-10-13_
 
 Após você ter conectado sua rede de telefonia ou integrado o Microsoft Lync Server à Unificação de Mensagens (UM) do Exchange e criado e configurado os componentes de UM necessários, você precisará configurar a caixa postal de seus usuários.
 

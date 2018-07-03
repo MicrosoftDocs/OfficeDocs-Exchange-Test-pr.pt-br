@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-15_
+_**Tópico modificado em:** 2012-11-15_
 
 Políticas de caixa de correio Unificação de mensagens (UM) são necessárias quando você habilita usuários para Unificação de mensagens. Criar políticas de caixa de correio de Unificação de mensagens para aplicar um conjunto comum de políticas ou configurações de segurança para um conjunto de caixas de correio dos usuários do correio de voz. UM políticas de caixa de correio são usadas para especificar configurações de Unificação de mensagens, como o seguinte:
 

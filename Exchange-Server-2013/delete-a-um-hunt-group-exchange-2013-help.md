@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Depois de excluir um grupo de busca de UM, o gateway IP da UM associado ao grupo de busca de UM não servirá ou atenderá as chamadas de entrada. Se ao excluir o grupo de busca de UM, não deixar nenhum grupo de busca de UM configurados no gateway IP da UM, o gateway IP da UM não poderá gerenciar ou processar as chamadas da UM.
 

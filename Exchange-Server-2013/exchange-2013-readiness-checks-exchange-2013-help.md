@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-10_
+_**Tópico modificado em:** 2012-09-10_
 
 Os tópicos nesta seção oferecem detalhes sobre as verificações de prontidão que o Microsoft Exchange Server 2013 executa quando o Exchange é instalado. As verificações de prontidão garantem que a sua floresta do Active Directory e os servidores Exchange estejam prontos para o Exchange 2013. Cada tópico de verificação de prontidão descreve as ações que você pode tomar para resolver os problemas encontrados quando as verificações de prontidão forem executadas. Você só deve executar as instruções descritas em um tópico de verificação de prontidão, se essa verificação tiver sido exibida durante a configuração.
 

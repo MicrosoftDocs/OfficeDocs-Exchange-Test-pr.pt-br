@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode permitir que os chamadores transferir chamadas para usuários por meio de um atendedor automático ou impedir isso. Por padrão essa opção está habilitada e permite que os chamadores transferir chamadas para usuários habilitados para UM no plano de discagem de Unificação de mensagens (UM) que está associado a UM atendedor automático.
 

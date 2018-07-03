@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Tópico modificado em:**2017-02-08_
+_**Tópico modificado em:** 2017-02-08_
 
 Função de Apps de ReadWriteMailbox meu habilita usuários individuais adicionar os suplementos que solicitar a permissão ReadWriteMailbox em seu manifesto.
 

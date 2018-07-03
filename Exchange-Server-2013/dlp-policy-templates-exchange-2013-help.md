@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-14_
+_**Tópico modificado em:** 2015-01-14_
 
 Você pode usar os modelos de política de prevenção (DLP) de perda de dados para começar a sua solução DLP no Microsoft Exchange 2013. Um modelo de política DLP é um modelo para uma diretiva. Você pode selecionar um modelo para começar o processo de criação de sua própria política de DLP personalizada. Dentro de sua política DLP, você pode personalizar as regras para garantir que ele atenda às suas necessidades de negócios para prevenção de perda de dados. Vários modelos de política são fornecidos pela Microsoft, mas não são a única maneira de implementar uma solução de prevenção de perda de dados em Exchange.
 

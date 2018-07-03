@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 *Filas com prioridade* é um recurso do Microsoft Exchange Server 2013 que permite que a prioridade definida pelo remetente de uma mensagem influencie no processamento da mensagem pelo serviço de Transporte no servidor da Caixa de Correio.
 

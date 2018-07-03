@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode configurar a Unificação de Mensagens para que os usuários possam entrar no seu correio de voz sem usar um PIN. Por padrão, os usuários do Outlook Voice Access são solicitados a inserir um PIN para entrar em suas caixas de correio e acessar suas caixas postais, emails, calendários, contatos pessoais, diretórios e opções pessoais.
 

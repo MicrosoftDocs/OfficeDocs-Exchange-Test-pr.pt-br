@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2018-04-30_
+_**Tópico modificado em:** 2018-04-30_
 
-**Resumo:** como usuários em sua organização do Exchange 2013 podem configurar rapidamente seu Outlook para iOS e Android contas usando a autenticação básica.
+**Resumo:**  como usuários em sua organização do Exchange 2013 podem configurar rapidamente seu Outlook para iOS e Android contas usando a autenticação básica.
 
 Outlook para iOS e Android oferece a capacidade de "push" configurações de conta para seus usuários locais que usam a autenticação básica por meio do protocolo ActiveSync de administradores do Exchange. Esse recurso funciona com qualquer provedor de gerenciamento de dispositivo móvel (MDM) que usa o canal de [Configuração de aplicativos gerenciados](https://developer.apple.com/library/content/samplecode/sc2279/introduction/intro.html) para iOS ou o canal [Android na empresa](https://developer.android.com/samples/apprestrictions/index.html) para Android.
 

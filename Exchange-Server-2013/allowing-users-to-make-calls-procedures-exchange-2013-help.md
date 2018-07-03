@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-05-03_
+_**Tópico modificado em:** 2013-05-03_
 
 [Permitir que as chamadas de saída nos gateways IP de UM](enable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md)
 

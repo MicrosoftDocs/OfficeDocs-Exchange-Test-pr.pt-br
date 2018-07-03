@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-09-29_
+_**Tópico modificado em:** 2014-09-29_
 
 Sua organização pode exigir a determinados tipos de mensagens ser aprovado, de forma que atenda aos requisitos legais ou normativos ou para implementar um fluxo de trabalho de negócios específicos. Aqui estão alguns exemplos de cenários comuns que você pode configurar usando Exchange:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Unificação de Mensagens do Exchange Microsoft inclui um recurso chamado Visualização da caixa postal. Esse recurso usa o ASR (Reconhecimento Automático de Fala) para adicionar uma versão em texto do arquivo de áudio da caixa postal em mensagens na caixa postal. O ASR não é totalmente preciso, especialmente quando é usado para gravar áudio em um telefonema com vozes desconhecidas e ruídos. Algumas organizações exigem transcrições de mensagens de voz sem erros (ou quase sem erros). O Programa de parceiros de Visualização da caixa postal ajudará tais organizações a atenderem a essas exigências.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Quando a auditoria de caixas de correio é habilitada para uma caixa de correio, o Microsoft Exchange registra informações no *log de auditoria de caixas de correio* sempre que um usuário, que não for o proprietário, acessar a caixa de correio. Cada entrada de log inclui informações sobre quem acessou a caixa de correio e quando ela foi acessada, as ações executadas pelo não proprietário e se a ação foi bem-sucedida. Entradas no log de auditoria de caixa de correio são mantidas por 90 dias, por padrão. Você poderá usar o log de auditoria de caixas de correio quando um usuário, que não for o proprietário, tiver acessado uma caixa de correio.
 

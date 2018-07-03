@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Para exibir informações detalhadas sobre chamadas manipuladas pelos servidores Exchange em um dia específico, exporte os dados de chamada desse dia de um relatório de Estatísticas de Chamada. Os dados de chamada diária, que estão disponíveis para os últimos 90 dias, podem ajudar você a diagnosticar problemas com a qualidade de áudio ou chamadas rejeitadas e fornecer informações para auditorias ou relatórios sobre seus servidores Exchange em sua organização.
 
@@ -67,7 +67,7 @@ Os dados de chamada de UM que você exporta inclui as informações detalhadas a
     
       - **Fax**  Foi recebida uma chamada em que foi detectado um tom de fax. Se você configurou parceiros de fax, essa chamada foi enviada ao parceiro.
     
-      - **PlayOnPhone:** Uma chamada feita pela UM porque o usuário clicou no botão Tocar no Telefone em uma mensagem de voz no Microsoft Outlook Web App ou Outlook.
+      - **PlayOnPhone:**  Uma chamada feita pela UM porque o usuário clicou no botão Tocar no Telefone em uma mensagem de voz no Microsoft Outlook Web App ou Outlook.
     
       - **Localize-me**   Uma chamada de saída foi feita pela UM como resultado de uma regra Localize-me em uma regra de atendimento de chamada.
     

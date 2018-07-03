@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O email se tornou um meio de comunicação confiável e onipresente para operadores de informações em organizações de todos os portes. As caixas de correio e os armazenamentos de mensagens se tornaram repositórios de dados valiosos. É importante que as organizações formulem políticas de mensagens que ditem o uso justo de seus sistemas de mensagens, ofereçam diretrizes aos usuários sobre como agir dentro das políticas e, onde necessário, forneçam detalhes sobre os tipos de comunicações que não devem ser permitidos.
 

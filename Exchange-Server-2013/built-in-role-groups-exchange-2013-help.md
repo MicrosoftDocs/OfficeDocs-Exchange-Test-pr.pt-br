@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-08-21_
+_**Tópico modificado em:** 2012-08-21_
 
 Por padrão, o Microsoft Exchange Server 2013 inclui vários grupos de função de gerenciamento. Os seguintes grupos de função internos fornecem um conjunto predefinido de funções que você pode atribuir a várias administrador e usuários especialistas em sua organização.
 

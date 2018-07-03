@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Caixas de correio podem conter informações confidenciais, informações HBI (de alto impacto nos negócios) e PII (informações de identificação pessoal). Por isso, é importante acompanhar quem faz logon nas caixas de correio da sua organização e rastrear as ações executadas. É especialmente importante monitorar o acesso de usuários que não sejam donos das caixas de correio em questão. Esses usuários são chamados de *usuários representantes*.
 

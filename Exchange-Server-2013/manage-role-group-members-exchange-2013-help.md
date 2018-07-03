@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-08_
+_**Tópico modificado em:** 2012-10-08_
 
 Este tópico mostra como adicionar, remover e exibir os membros de um grupo de função de gerenciamento Microsoft Exchange Server 2013. Para obter mais informações sobre grupos de função no Exchange 2013, consulte [Noções básicas sobre grupos de funções de gerenciamento](understanding-management-role-groups-exchange-2013-help.md).
 

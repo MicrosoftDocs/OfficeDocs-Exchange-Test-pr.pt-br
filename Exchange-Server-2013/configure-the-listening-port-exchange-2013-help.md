@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode configurar a porta TCP que é usada para escutar as solicitações de protocolo SIP em um gateway IP da Unificação de Mensagens (UM). Por padrão, quando você cria um gateway IP da UM, o número da porta de escuta TCP do SIP é definido como 5060. A porta de escuta TCP do SIP não pode ser configurada ou alterada usando o EAC. Você deve configurar a porta de escuta de protocolo SIP TCP usando o cmdlet **Set-UMIPGateway**.
 

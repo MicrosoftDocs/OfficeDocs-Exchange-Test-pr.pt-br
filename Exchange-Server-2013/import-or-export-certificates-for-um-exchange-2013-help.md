@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-12-18_
+_**Tópico modificado em:** 2013-12-18_
 
 Você pode usar o EAC ou o Shell para importar ou exportar PKI (infraestrutura de chave pública) interna e autoassinada ou certificados comerciais de terceiros. Para UM (Unificação de Mensagens), você pode usar um desses certificados para o serviço Unificação de Mensagens do Microsoft Exchange e para o serviço Roteador de Chamadas da Unificação de Mensagens do Microsoft Exchange. O mesmo certificado pode ser usado para os dois serviços ou um certificado diferente pode ser usado para cada serviço.
 

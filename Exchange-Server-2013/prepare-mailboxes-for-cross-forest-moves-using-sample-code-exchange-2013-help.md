@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Microsoft Exchange 2013 oferece suporte a movimentações de caixa de correio e migrações usando os cmdlets **New-MoveRequest** e **New-MigrationBatch** . Você também pode mover a caixa de correio por meio do Centro de administração do Exchange (EAC). Você pode mover uma caixa de correio de uma floresta de Exchange de fonte para uma floresta de Exchange 2010 de destino.
 
@@ -27,7 +27,7 @@ Para obter mais informações sobre como preparar para movimentações entre flo
 
   - Baixe o código de amostra da página [preparar para mover de caixa de correio Online](https://go.microsoft.com/fwlink/p/?linkid=177882) no Microsoft Download Center.
 
-  - Para executar o código de exemplo, você precisa ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Para baixar o feature pack, consulte o artigo da Base de Conhecimento Microsoft 977791, [que Service Pack 1 (compilação 3.3.1139.2) está disponível para Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=977791).
+  - Para executar o código de exemplo, você precisa ILM 2007 Feature Pack 1 Service Pack 1 (SP1). Para baixar o feature pack, consulte o artigo da Base de Conhecimento Microsoft 977791, [que Service Pack 1 (compilação 3.3.1139.2) está disponível para Identity Lifecycle Manager 2007 Feature Pack 1](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=977791).
 
   - Você também precisará dos seguintes itens:
     

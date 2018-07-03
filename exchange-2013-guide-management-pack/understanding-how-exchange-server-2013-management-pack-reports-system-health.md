@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:** 2013-04-17_
+_**Tópico modificado em:**  2013-04-17_
 
 Este tópico fornece informações sobre como o Pacote de Gerenciamento do Exchange Server 2013 monitora e relata a integridade do sistema do Exchange. No Pacote de Gerenciamento do Exchange 2013, as informações do estado de integridade são acumuladas de maneira simples. Sempre que uma configuração de integridade não estiver íntegra e o respondente escalonado for acionado, o evento a seguir é registrado no log de eventos do Windows:
 

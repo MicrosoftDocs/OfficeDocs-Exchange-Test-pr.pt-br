@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Saiba mais sobre políticas DLP no Exchange Server 2013 e o Exchange Online, incluindo o que elas contêm e como testá-las. Você também saberá mais sobre um novo recurso no Exchange DLP.
 

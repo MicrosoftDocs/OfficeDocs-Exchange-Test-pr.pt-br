@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-08-22_
+_**Tópico modificado em:** 2016-08-22_
 
 As informações a seguir ajudam você a configurar descarregamento SSL para os protocolos e serviços relacionados em servidores de Acesso para Cliente do Exchange 2013 com Service Pack 1 (SP1) instalado. Se você tiver múltiplos servidores de Acesso para Cliente, deverá executar as etapas exigidas para cada protocolo ou serviço em cada servidor de Acesso para Cliente com SP1 instalado em sua organização local. Isso sem mencionar que cada servidor de Acesso para Cliente em sua organização deve ser configurado de modo idêntico. Se você estiver atualizando para as Atualizações Cumulativas (CUs) ou service packs mais recentes e deseja continuar usando o descarregamento SSL, execute as etapas a seguir novamente após ter atualizado ou aplicado essas atualizações em seus servidores de Acesso para Cliente do Exchange 2013.
 

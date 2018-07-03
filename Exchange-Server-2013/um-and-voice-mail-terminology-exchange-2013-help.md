@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-22_
+_**Tópico modificado em:** 2013-04-22_
 
 Este tópico contém os termos e as definições usados com a Unificação de Mensagens.
 

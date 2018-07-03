@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-09_
+_**Tópico modificado em:** 2012-11-09_
 
 É possível especificar o número máximo de minutos permitido para cada gravação de voz quando um chamador deixar uma mensagem na caixa postal. Esse valor pode ser definido como um número de 1 a 100. Para a maioria das organizações, esse valor deve ser definido como o padrão de 20 minutos. A configuração desse valor muito baixo pode causar a desconexão das mensagens de voz antes de serem completadas. A configuração de um valor muito alto permite que os usuários salvem mensagens de voz longas em suas Caixas de entrada.
 

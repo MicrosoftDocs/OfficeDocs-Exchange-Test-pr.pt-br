@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Você pode desabilitar a Unificação de mensagens (UM) para um usuário habilitado para UM. Quando você fizer isso, o usuário não pode usar os recursos de caixa postal encontrados na Unificação de mensagens. Se você preferir, quando você desabilitar a Unificação de mensagens para um usuário, você pode manter as configurações de Unificação de mensagens para o usuário.
 

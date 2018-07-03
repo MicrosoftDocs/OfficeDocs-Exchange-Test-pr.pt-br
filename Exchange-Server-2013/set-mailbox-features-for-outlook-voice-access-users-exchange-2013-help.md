@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 O Outlook Voice Access contém duas interfaces: uma TUI (interface do usuário de telefone) e uma VUI (interface do usuário de voz). É possível definir as configurações de TUI de um usuário habilitado para UM quando o usuário acessa uma caixa de correio usando o sistema da UM (Unificação de Mensagens) no Exchange 2013. Ao modificar as configurações de TUI de um usuário habilitado para UM em uma diretiva de caixa de correio da UM, as alterações afetam a todos os usuários que estejam associados à diretiva de caixa de correio da UM. Você pode modificar as configurações de TUI a seguir em uma política de caixa de correio da UM:
 

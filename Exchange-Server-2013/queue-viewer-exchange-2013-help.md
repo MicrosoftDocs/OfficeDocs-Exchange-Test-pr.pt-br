@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-25_
+_**Tópico modificado em:** 2012-09-25_
 
 Visualizador de Filas é um snap-in do Console de Gerenciamento da Microsoft instalado em um servidor de Caixa de Correio ou servidor de Transporte de Borda. O Visualizador de Filas está localizado na seção **Ferramentas de fluxo de email** do console de Caixa de Ferramentas do Exchange. Você pode usar essa ferramenta para visualizar informações sobre filas em um servidor de transporte e as mensagens apresentadas nessas filas e para executar ações de gerenciamento das filas e itens de email. O Visualizador de Filas é útil para solucionar problemas de fluxo de mensagens e identificar spam.
 

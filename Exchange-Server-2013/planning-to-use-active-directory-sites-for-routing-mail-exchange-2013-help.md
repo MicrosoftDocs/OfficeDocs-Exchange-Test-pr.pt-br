@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-05-21_
+_**Tópico modificado em:** 2013-05-21_
 
 O Microsoft Exchange Server 2013 reconhece os sites do Active Directory e os grupos de disponibilidade de banco de dados (DAGs) como limites de roteamento. No entanto, o Exchange 2013 ainda usa a topologia de sites do Active Directory para determinar como as mensagens são transportadas entre os servidores do Exchange em DAGs diferentes ou em sites dentro da organização. Para obter mais informações, consulte [Roteamento de mensagens](mail-routing-exchange-2013-help.md).
 

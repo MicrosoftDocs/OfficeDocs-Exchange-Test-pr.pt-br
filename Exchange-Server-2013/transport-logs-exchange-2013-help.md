@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-01-28_
+_**Tópico modificado em:** 2013-01-28_
 
 Logs de transporte fornecem informações sobre o que está acontecendo no pipeline de transporte. Os logs de transporte a seguir estão disponíveis no Microsoft Exchange Server 2013:
 

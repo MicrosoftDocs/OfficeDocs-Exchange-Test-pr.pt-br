@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Você pode usar o Microsoft Outlook para exibir os carimbos antispam que o Microsoft Exchange aplicada a uma mensagem de email. Carimbos antispam ajudarão-lo a diagnosticar problemas relacionados a spam aplicando metadados diagnóstico ou carimbos, como informações específicas do remetente, resultados da validação de quebra-cabeça e conteúdo filtrando os resultados às mensagens conforme as mensagens que passam pelos agentes antispam que filtrar mensagens de entrada da Internet.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-02-23_
+_**Tópico modificado em:** 2017-02-23_
 
 Sua organização pode exigir que determinados tipos de mensagens seja bloqueados ou rejeitados de forma que atenda aos requisitos legais ou normativos ou para implementar as necessidades de negócios específicos. Aqui estão alguns exemplos de cenários comuns para bloquear todos os anexos que você pode configurar usando regras de transporte no Exchange:
 
@@ -47,7 +47,7 @@ Para começar a implementar qualquer um desses cenários para bloquear certos ti
 
 5.  Selecione as condições e ações que você deseja.
 
-**Observação:** no EAC do, o menor tamanho de anexo que você pode inserir é 1 quilobyte, que deve detectar a maioria dos anexos. No entanto, se você deseja detectar cada anexo possível de qualquer tamanho, você precisará usar o PowerShell para ajustar o tamanho de anexo para 1 byte depois de criar a regra no EAC. Para saber como abrir o Shell de Gerenciamento do Exchange em sua organização Exchange local, confira [Abra o shell.](https://technet.microsoft.com/pt-br/library/dd638134\(v=exchg.150\)).Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).Para saber como usar o Windows PowerShell para se conectar ao Proteção do Exchange Online, confira o artigo [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290).
+**Observação:**  no EAC do, o menor tamanho de anexo que você pode inserir é 1 quilobyte, que deve detectar a maioria dos anexos. No entanto, se você deseja detectar cada anexo possível de qualquer tamanho, você precisará usar o PowerShell para ajustar o tamanho de anexo para 1 byte depois de criar a regra no EAC. Para saber como abrir o Shell de Gerenciamento do Exchange em sua organização Exchange local, confira [Abra o shell.](https://technet.microsoft.com/pt-br/library/dd638134\(v=exchg.150\)).Para saber como usar o Windows PowerShell para se conectar ao Exchange Online, confira o artigo [Conectar-se ao Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).Para saber como usar o Windows PowerShell para se conectar ao Proteção do Exchange Online, confira o artigo [Conectar-se ao PowerShell do Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkid=627290).
 
 Substitua *\<Rule Name\>* pelo nome da regra existente e execute o seguinte comando para definir o tamanho de anexo como 1 byte:
 

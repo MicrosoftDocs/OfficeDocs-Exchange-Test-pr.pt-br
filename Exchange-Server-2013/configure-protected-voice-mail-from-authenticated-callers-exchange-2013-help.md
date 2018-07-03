@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode configurar a Unificação de mensagens para atender uma chamada de entrada e, em seguida, determine se ele se aplica proteção mensagens de caixa postal usando criptografia. Quando uma mensagem de voz estiver protegida:
 

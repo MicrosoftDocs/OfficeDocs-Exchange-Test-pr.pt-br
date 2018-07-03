@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Exchange cria a política MRM padrão da política de retenção no seu Exchange Online e Exchange organização local. A política será automaticamente aplicada a novos usuários no Exchange Online. Em organizações do local, a política é aplicada quando você cria um arquivo morto da caixa de correio. Você pode alterar a política de retenção aplicada a um usuário a qualquer momento.
 

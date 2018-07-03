@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-12_
+_**Tópico modificado em:** 2012-12-12_
 
 Você pode ativar o atendedor automático de Unificação de mensagens (UM) para o reconhecimento automático de fala (ASR). Depois que você fala habilita um atendedor automático de UM, os chamadores podem verbalmente responder a prompts de atendedor automático e mover o sistema de menus do atendedor automático. Por padrão, um atendedor automático não está habilitado para fala quando você criá-lo. Depois que você fala habilita o atendedor automático, os chamadores podem usar apenas os comandos de voz para navegar pelo sistema de menu do atendedor automático e entradas de toque não podem ser usadas.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Você pode pesquisar em sincronia as entradas de log de auditoria de caixa de correio para uma caixa de correio e visualizar os resultados da pesquisa no Shell.
 

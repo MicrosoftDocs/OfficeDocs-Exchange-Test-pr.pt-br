@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-02_
+_**Tópico modificado em:** 2012-11-02_
 
 Um banco de dados de recuperação (RDB) é um tipo especial de banco de dados de caixa de correio que permite que você monte um banco de dados de caixa de correio restaurado e extrair dados de banco de dados restaurado como parte de uma operação de recuperação. Você pode usar o cmdlet [New-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829875\(v=exchg.150\)) para extrair dados de um RDB. Após a extração, os dados podem ser exportados para uma pasta ou mesclados em uma caixa de correio existente. RDBs permitem que você recuperar dados de um backup ou a cópia de um banco de dados sem prejudicar o acesso de usuário aos dados atuais.
 

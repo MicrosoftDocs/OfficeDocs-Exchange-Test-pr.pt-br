@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode permitir que os usuários do Outlook Voice Access transferir chamadas para um usuário que está associada a um plano de discagem de Unificação de mensagens (UM) ou impedir isso. Por padrão, ambos os essa opção e a opção **deixar mensagens de voz, sem precisar ligar o telefone de um usuário** estão habilitados, para que os usuários do Outlook Voice Access podem transferir chamadas para os usuários a UM mesmo plano de discagem e deixar mensagens de voz para eles. Essa configuração se aplica apenas aos usuários do Outlook Voice Access que tenham inserido seu PIN e são autenticados.
 

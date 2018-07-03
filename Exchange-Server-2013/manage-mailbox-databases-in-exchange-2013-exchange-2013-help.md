@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-04-29_
+_**Tópico modificado em:** 2013-04-29_
 
 Um banco de dados de caixa de correio é uma unidade de granularidade em que as caixas de correio são criadas e armazenadas. Um banco de dados de caixa de correio é armazenado como um Exchange arquivo de banco de dados (.edb). No Microsoft Exchange Server 2013, cada banco de dados de caixa de correio possui propriedades exclusivas que podem ser configuradas.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-28_
+_**Tópico modificado em:** 2012-11-28_
 
 Você pode usar o EAC e o Shell para configurar o Microsoft Exchange POP3 e IMAP4 serviços usar endereços IP e portas diferentes das configurações padrão.
 

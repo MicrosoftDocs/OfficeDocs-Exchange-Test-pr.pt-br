@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Quando você exibe as propriedades de um grupo de busca de Unificação de mensagens (UM), você pode exibir as propriedades associadas com um único grupo de busca UM ou todos os grupos de busca UM associado a um único gateway IP de UM. Se nenhum dos parâmetros for especificado, todos os grupos de busca de Unificação de mensagens serão retornados. Você não pode usar o EAC para exibir UM propriedades do grupo de busca; Você deve usar o Shell.
 

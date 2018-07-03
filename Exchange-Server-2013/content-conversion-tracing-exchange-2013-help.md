@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-25_
+_**Tópico modificado em:** 2012-09-25_
 
 Rastreamento de conversão de conteúdo captura falhas na conversão de conteúdo de MAPI que é executada pelo serviço de transporte de caixa de correio em mensagens de entrada e saídas em um servidor de caixa de correio do Microsoft Exchange Server 2013.
 

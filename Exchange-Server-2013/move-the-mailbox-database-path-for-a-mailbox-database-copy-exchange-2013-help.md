@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-05-07_
+_**Tópico modificado em:** 2014-05-07_
 
 Após a criação de um banco de dados de caixa de correio, você pode movê-lo para outro volume, pasta, local ou caminho usando o EAC ou o Shell. Para obter instruções passo a passo sobre como mover o caminho do banco de dados para um banco de dados de caixa de correio não replicado, consulte [Move a mailbox database path](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 

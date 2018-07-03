@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-03-27_
+_**Tópico modificado em:** 2017-03-27_
 
 As pastas públicas são feitas para acesso compartilhado e oferecem um jeito fácil e eficaz de coletar, organizar e compartilhar informações com outros pessoas no seu grupo de trabalho ou organização. Pastas públicas ajudam a organizar o conteúdo em uma hierarquia profunda fácil de navegar. Os usuários verão a hierarquia completa no Outlook, o que facilita a busca do conteúdo no qual eles estão interessados.
 

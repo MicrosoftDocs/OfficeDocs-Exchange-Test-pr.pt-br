@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-10_
+_**Tópico modificado em:** 2014-02-10_
 
 No Microsoft Exchange Server 2013, é possível usar a filtragem de anexos nos servidores de Transporte de Borda para controlar os anexos que os usuários recebem nas mensagens de email. A filtragem de anexos é realizada pelo agente de Filtragem de anexos, que só está disponível em servidores de Transporte de Borda.
 

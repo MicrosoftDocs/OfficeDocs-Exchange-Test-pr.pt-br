@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-13_
+_**Tópico modificado em:** 2015-03-13_
 
 Você pode usar o Shell para habilitar ou desabilitar a recuperação de item único em uma caixa de correio. No Exchange Online, a recuperação de item único é habilitada por padrão quando uma nova caixa de correio é criada. No Exchange 2013, a recuperação de item único é desabilitada quando uma caixa de correio é criada. Se a recuperação de item único está habilitada, as mensagens que são permanentemente excluídas (purgadas) pelo usuário são mantidas na pasta itens recuperáveis da caixa de correio até que o período de retenção de item excluído expire. Isso permite que um administrador recuperar mensagens limpas pelo usuário antes que o período de retenção de item excluído expire. Além disso, se uma mensagem for alterada por um usuário ou um processo, cópias do item original também são mantidas quando a recuperação de item único está habilitada.
 

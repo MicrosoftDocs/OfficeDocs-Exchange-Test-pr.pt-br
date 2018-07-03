@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-07-14_
+_**Tópico modificado em:** 2014-07-14_
 
 Todas as versões anteriores do Exchange Server, do Exchange Server 4.0 para o Exchange Server 2010, oferecem suporte a execução de uma única instância do processo de armazenamento de informações (Store.exe) na função de servidor de caixa de correio. Essa única instância do repositório hospeda todos os bancos de dados no servidor: ativa, passivo com atraso e a recuperação. As arquiteturas anteriores do Exchange, não há pouca ou nenhuma, isolamento entre os diferentes bancos de dados hospedados em um servidor de caixa de correio. Um problema com um banco de dados de caixa de correio única tem o potencial de afetar negativamente todos os outros bancos de dados e falhas resultantes de uma corrupção de caixa de correio podem afetar o serviço para todos os usuários cujos bancos de dados são hospedados no servidor.
 

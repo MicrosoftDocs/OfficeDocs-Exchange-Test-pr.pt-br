@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-13_
+_**Tópico modificado em:** 2013-02-13_
 
 Você pode definir o atraso máximo de entrega de um parceiro de visualização da caixa postal em uma diretiva de caixa de correio de Unificação de mensagens (UM). Depois de configurar o atraso máximo de entrega, a configuração se aplicará a todos os usuários habilitados para Unificação de mensagens que são vinculados com essa política de caixa de correio de Unificação de mensagens.
 

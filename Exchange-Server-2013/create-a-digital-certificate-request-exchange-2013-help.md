@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Em Exchange Server 2013, é possível gerenciar certificados usando o EAC ou o Shell. A EAT inclui uma nova interface de usuário de gerenciamento de certificado. Por meio dessa nova interface do usuário, você pode criar um novo certificado, editar um certificado existente ou remover um certificado.
 

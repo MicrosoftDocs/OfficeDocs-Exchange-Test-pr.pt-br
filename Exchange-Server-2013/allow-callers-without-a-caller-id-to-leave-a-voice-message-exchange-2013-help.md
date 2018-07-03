@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode permitir que usuários habilitados para UM recebam mensagens de voz de chamadores anônimos ou impedi-los de fazer isso. Por padrão, quando os usuários estão habilitados para Unificação de Mensagens (UM) e mensagens de voz, eles podem receber chamadas anônimas que não contenham informações de identificação de chamadas.
 

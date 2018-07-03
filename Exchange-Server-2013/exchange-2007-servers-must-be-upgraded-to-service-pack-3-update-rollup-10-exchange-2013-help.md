@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Microsoft Exchange Server 2013 a instalação não pode continuar porque detectou um ou mais servidores de Exchange Server 2007 ainda não foi atualizados para Exchange Server 2007 Service Pack 3 (SP3) Roll Up 10 (RU10). Antes de instalar o Exchange 2013, todos os servidores de Exchange 2007 em sua organização devem ser atualizados para Exchange 2007 SP3 RU10. Esse requisito inclui Exchange 2007 servidores de transporte de borda. Para obter mais informações, consulte [Atualização do Exchange 2007 para o Exchange 2013](upgrade-from-exchange-2007-to-exchange-2013-exchange-2013-help.md).
 

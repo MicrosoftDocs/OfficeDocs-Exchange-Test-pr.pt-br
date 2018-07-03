@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-30_
+_**Tópico modificado em:** 2012-11-30_
 
 Depois que você excluir um atendedor automático de Unificação de mensagens (UM), as chamadas de entrada que foram atendidas por UM atendedor automático devem ser atendidas por um operador humano. Não é possível excluir um atendedor automático de UM se ela está associada a um plano de discagem de Unificação de mensagens como o atendedor automático de UM padrão.
 

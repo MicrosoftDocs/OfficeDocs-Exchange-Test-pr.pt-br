@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 As atribuições de função de gerenciamento atribuem uma função de gerenciamento a um destinatário de função. Alterando a atribuição de função, é possível controlar quais objetos os destinatários de função com uma função atribuída podem alterar. Os escopos de função de gerenciamento aplicados a atribuições de função substituem o escopo de gravação implícito da função. Entretanto, o escopo de leitura implícito da função ainda se aplica. Os escopos que você aplica não podem retornar objetos externos ao escopo de leitura implícito da função.
 

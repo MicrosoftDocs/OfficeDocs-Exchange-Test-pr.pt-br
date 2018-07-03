@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-30_
+_**Tópico modificado em:** 2013-04-30_
 
 Depois de criar um atendedor automático de Unificação de Mensagens (UM), é possível exibir ou definir diversas configurações. Por exemplo, você pode adicionar, remover e editar números de ramais associados ao atendedor automático. Você também pode habilitar ou desabilitar o ASR (Reconhecimento Automático de Fala) para o atendedor automático e alterar as saudações usadas no horário comercial e fora do horário comercial.
 
@@ -49,9 +49,7 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores aut
 
 2.  Na página **Plano de Discagem de UM**, em **Atendedores Automáticos de UM**, selecione o atendedor automático de UM que deseja exibir ou configurar e, na barra de ferramentas, clique em **Editar**![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição").
 
-3.  
-    
-    Na página **Atendedor Automático de UM**, clique em **Geral** para exibir informações somente para exibição sobre o atendedor automático de UM e para executar tarefas de gerenciamento no atendedor automático de UM da seguinte maneira:
+3.  Na página **Atendedor Automático de UM**, clique em **Geral** para exibir informações somente para exibição sobre o atendedor automático de UM e para executar tarefas de gerenciamento no atendedor automático de UM da seguinte maneira:
     
       - **Plano de discagem de UM**   Esta caixa exibe o plano de discagem de UM associado ao atendedor automático. Depois de criar um atendedor automático, o plano de discagem associado ao atendedor automático não poderá ser alterado. Se for necessário associar um atendedor automático a um plano de discagem diferente, você deve excluir o plano de discagem e, depois, associar o atendedor automático ao plano de discagem correto depois de recriá-lo.
     
@@ -59,7 +57,7 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores aut
     
       - **Status**   Esta caixa mostra se o atendedor automático da UM está habilitado ou desabilitado. Para habilitar ou desabilitar o atendedor automática, feche a página **Atendedor Automático de UM** e use a barra de ferramentas em **Atendedores Automáticos de UM** na página **Plano de Discagem de UM**.
     
-      - **Números de acesso   **Use esta caixa para digitar um número de ramal ou de acesso que direcione os chamadores para o atendedor automático. Por padrão, nenhum número de ramal ou de acesso é configurado quando você cria um atendedor automático.
+      - **Números de acesso**   Use esta caixa para digitar um número de ramal ou de acesso que direcione os chamadores para o atendedor automático. Por padrão, nenhum número de ramal ou de acesso é configurado quando você cria um atendedor automático.
         
         O número de dígitos nos números de ramal ou de acesso que você fornecer deve corresponder ao número de dígitos de um número de ramal configurado no plano de discagem da UM associado ao atendedor automático de UM. Você pode também adicionar um endereço SIP (Protocolo de Início de Sessão) a essa caixa. Um endereço SIP é usado por alguns PBXs (Private Branch eXchanges) IP, PBXs habilitados para SIP e o Microsoft Office Communications Server 2007 R2 ou Microsoft Lync Server.
         
@@ -81,13 +79,11 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores aut
         
         Embora você possa selecionar um idioma diferente daquele selecionado no plano de discagem da UM associado ao atendedor automático, é recomendável que as configurações de idioma do plano de discagem correspondam às configurações do atendedor automático. Se as configurações de idioma não corresponderem, quando os chamadores ligarem para um número de ramal definido no plano de discagem, serão apresentados prompts em um idioma, e quando discarem um número do ramal associado a um atendedor automático, serão apresentados prompts em um idioma diferente.
     
-      - **Nome da empresa   **Utilize esta caixa para inserir o nome da empresa. Por padrão, nenhum nome está configurado. Se você inserir o nome da empresa nesta caixa, uma mensagem com o nome da empresa será executada para os chamadores em vez da saudação padrão.
+      - **Nome da empresa**   Utilize esta caixa para inserir o nome da empresa. Por padrão, nenhum nome está configurado. Se você inserir o nome da empresa nesta caixa, uma mensagem com o nome da empresa será executada para os chamadores em vez da saudação padrão.
     
-      - **Localização da empresa   **Utilize esta caixa para inserir a localização da empresa. Por padrão, nenhum local da empresa é inserido. Se você inserir a localização da empresa na caixa, ela será tocada para os chamadores.
+      - **Localização da empresa**   Utilize esta caixa para inserir a localização da empresa. Por padrão, nenhum local da empresa é inserido. Se você inserir a localização da empresa na caixa, ela será tocada para os chamadores.
 
-4.  
-    
-    Use **Saudações** no atendedor automático para gerenciar saudações gravadas. Você pode selecionar saudações padrão ou saudações personalizadas gravadas anteriormente para o horário comercial e o horário não comercial. Você pode configurar o seguinte:
+4.  Use **Saudações** no atendedor automático para gerenciar saudações gravadas. Você pode selecionar saudações padrão ou saudações personalizadas gravadas anteriormente para o horário comercial e o horário não comercial. Você pode configurar o seguinte:
     
       - **Saudação em horário comercial**   Essa é a saudação inicial reproduzida quando um chamador liga para o atendedor automático durante o horário comercial da organização. Por padrão, o horário comercial é das 12:00 às 12:00 da manhã e nenhum horário não comercial está definido. Se você não especificar uma saudação personalizada, um prompt de sistema que diz "Bem-vindo ao atendedor automático do Exchange" é reproduzido para os chamadores. O horário comercial e o horário não comercial são configurados na guia **Horário comercial** do atendedor automático.
         
@@ -250,9 +246,7 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores aut
         
         É útil habilitar esta opção para que, quando um chamador não tiver êxito ao usar os prompts de menu ou na pesquisa de diretório para localizar a pessoa desejada após o horário comercial, ele possa deixar uma mensagem de voz ou conectar-se a um operador humano. Após habilitar essa opção, é possível configurar o ramal de um operador configurado em uma caixa de correio habilitada para UM que está sendo monitorada. O chamador pode deixar uma mensagem de voz, ou um operador humano que tenha o ramal pode ajudar o chamador.
 
-9.  
-    
-    Use a **Autorização de discagem** para configurar regras de discagem para chamadores que ligarem para um atendedor automático de UM. Você pode usar essas configurações para controlar o número de ramais que podem ser alcançados de um atendedor automático ou controlar os números de telefone que podem ser discados por chamadores que discaram para o atendedor automático. Você pode configurar o seguinte:
+9.  Use a **Autorização de discagem** para configurar regras de discagem para chamadores que ligarem para um atendedor automático de UM. Você pode usar essas configurações para controlar o número de ramais que podem ser alcançados de um atendedor automático ou controlar os números de telefone que podem ser discados por chamadores que discaram para o atendedor automático. Você pode configurar o seguinte:
     
       - **Chamadas no mesmo plano de discagem da UM**   Marque essa caixa de seleção para permitir que usuários que ligarem para um atendedor automático façam ou transfiram chamadas para um número de ramal associado a um usuário habilitado para UM que esteja associado ao mesmo plano de discagem que o atendedor automático. Por padrão, essa configuração está habilitada.
         

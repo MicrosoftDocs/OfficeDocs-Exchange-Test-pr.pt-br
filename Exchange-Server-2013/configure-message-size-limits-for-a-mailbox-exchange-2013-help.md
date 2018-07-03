@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-12_
+_**Tópico modificado em:** 2012-11-12_
 
 Você pode usar o EAC e o Shell para configurar os limites de tamanho de mensagens da caixa de correio de um usuário. Esses limites controlam o tamanho das mensagens que um usuário pode enviar e receber. Por padrão, quando uma caixa de correio é criada, não há um limite de tamanho para as mensagens enviadas e recebidas.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Quando você habilita um usuário para Unificação de mensagens (UM), é necessário que você atribua um número de ramal e o plano de discagem de uma política de caixa de correio de Unificação de mensagens que irá vincular o usuário a uma Unificação de mensagens. Depois que o usuário está habilitado para Unificação de mensagens, você pode atribuir números de ramal adicionais para o usuário no mesmo plano de discagem, mas os números de ramal no plano de discagem que devem ser exclusivos. Em alguns casos, talvez seja necessário ter o mesmo número de ramal nos dois planos de discagem separados um usuário. Se este for o caso, você pode vincular o usuário a um plano de discagem de UM secundário. Isso pode ser útil, por exemplo, se o usuário tem dois telefones físicos ou percorrem entre locais.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-16_
+_**Tópico modificado em:** 2012-10-16_
 
 Você pode usar o Shell para criar uma política de endereço de email usando filtros de destinatários. Para saber mais sobre as políticas de endereço de email, consulte [Políticas de endereço de email](email-address-policies-exchange-2013-help.md).
 

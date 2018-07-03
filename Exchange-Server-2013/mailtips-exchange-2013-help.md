@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-04-28_
+_**Tópico modificado em:** 2017-04-28_
 
 Dicas de Email são mensagens informativas exibidas aos usuários enquanto eles compõem uma mensagem. O Microsoft Exchange Server 2013 analisa a mensagem, incluindo a lista de destinatários a que ela é endereçada. Se um problema potencial for detectado, o usuário será notificado com Dicas de Email antes do envio da mensagem. Com a ajuda das informações fornecidas pelas Dicas de Email, os remetentes podem ajustar a mensagem que estão escrevendo para evitar situações indesejáveis ou notificações de falha na entrega.
 

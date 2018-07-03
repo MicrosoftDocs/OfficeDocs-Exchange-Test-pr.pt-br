@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2015-11-30_
+_**Tópico modificado em:** 2015-11-30_
 
 A disponibilidade gerenciada executa investigação contínua para detectar possíveis problemas com os componentes do Exchange ou suas respectivas dependências, e isso realiza ações de recuperação para garantir que a experiência do usuário final não seja impactada devido a algum problema com qualquer desses componentes. Entretanto, pode haver cenários em que as configurações predefinidas não sejam adequadas ao ambiente. Sondas, monitores e respondentes da disponibilidade gerenciada podem ser personalizados com a criação de uma substituição.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-12_
+_**Tópico modificado em:** 2012-12-12_
 
 Você pode habilitar ou desabilitar tocar no recurso de telefone para os usuários associados a uma diretiva de caixa de correio de Unificação de mensagens (UM). Essa opção é habilitada por padrão e permite que os usuários participar sua voz mensagens de email de qualquer telefone. Essa opção não está disponível para usuários habilitados para Unificação de mensagens que têm uma caixa de correio em um servidor deExchange Server 2007Microsoft.
 

@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:** 2013-03-30_
+_**Tópico modificado em:**  2013-03-30_
 
 Comecemos com a importação do pacote de gerenciamento para a implantação do SCOM.
 

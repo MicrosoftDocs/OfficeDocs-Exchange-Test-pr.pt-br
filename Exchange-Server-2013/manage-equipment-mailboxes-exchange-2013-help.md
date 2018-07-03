@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-10-09_
+_**Tópico modificado em:** 2014-10-09_
 
 Uma *caixa de correio de equipamento* é uma caixa de correio de recurso atribuída a um recurso que não tem um local específico, como um computador portátil, um projetor, um microfone ou um carro da empresa. Após um administrador criar uma caixa de correio de equipamento, os usuários poderão facilmente reservar o equipamento incluindo a caixa de correio de equipamento correspondente em uma solicitação de reunião. Você pode usar o EAC e o Shell para criar uma caixa de correio de equipamento ou alterar as propriedades da caixa de correio de equipamento. Para mais informações, consulte [Destinatários](recipients-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade dos Serviços Web do Exchange (EWS) monitora a integridade geral do serviço do EWS. O conjunto de integridade do EWS está profundamente relacionado aos seguintes conjuntos de integridade:
 

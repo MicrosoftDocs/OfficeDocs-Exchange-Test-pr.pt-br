@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `Mail Recipient Creation` permite aos administradores criar caixas de correio, usuários de email, contatos de email, grupos de distribuição e grupos dinâmicos de distribuição em uma organização. Essa função pode ser combinada com a função `Mail Recipients` para habilitar a criação e gerenciamento de destinatários. Para obter mais informações, consulte [Função de destinatários de email](mail-recipients-role-exchange-2013-help.md).
 

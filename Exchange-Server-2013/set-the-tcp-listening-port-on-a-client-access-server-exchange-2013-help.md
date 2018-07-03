@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-09_
+_**Tópico modificado em:** 2013-04-09_
 
 Você pode configurar a porta TCP usada para escutar as solicitações de SIP em um servidor de Acesso para Cliente com o serviço Roteador de Chamadas de Unificação de Mensagens do Microsoft Exchange. Por padrão, quando você instala um servidor de Acesso para Cliente, o número da porta de escuta TCP SIP é definido como 5060, e o servidor de Acesso para Cliente inicia no modo TCP. A porta de escuta TCP SIP não pode ser configurada usando o EAC. É preciso configurar o número da porta de escuta TCP SIP usando o cmdlet **Set-UMCallRouterSettings**.
 

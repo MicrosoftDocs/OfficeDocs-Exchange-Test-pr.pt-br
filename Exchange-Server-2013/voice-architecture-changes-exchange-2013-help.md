@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A arquitetura do Microsoft Exchange Server 2013 é diferente da arquitetura do Exchange Server 2007 e Exchange Server 2010. No Exchange 2007 e no Exchange 2010, os tipos de servidores foram separados em várias funções de servidor: Transporte de Hub, Acesso para Cliente, Caixa de Correio e Unificação de Mensagens. No Exchange 2013, as funções de servidor são combinadas em dois tipos de servidores, e todos os componentes ou serviços dessas funções de servidor são executadas no mesmo servidor físico ou em dois servidores separados chamados Acesso para Cliente e Caixa de Correio. No novo modelo, o servidor de Acesso para Cliente executando o serviço Roteador de Chamadas de Unificação de Mensagens do Microsoft Exchange redireciona o tráfego do protocolo SIP que é gerado por uma chamada de entrada para um servidor de Caixa de Correio. Então, um canal de mídia (protocolo RTP ou RTP seguro (SRTP)) é estabelecido do gateway VoIP ou da central privada de comutação telefônica (PBX) por IP para o servidor de Caixa de Correio que hospeda a caixa de correio do usuário. No Exchange 2013, o servidor de Caixa de Correio tem os mesmos processos que a função de servidor Unificação de Mensagens no Exchange 2007 e no Exchange 2010. O servidor de Caixa de Correio executa tanto o serviço Unificação de Mensagens do Microsoft Exchange quanto processos de trabalho de UM. O servidor de Acesso para Cliente executa o serviço Roteador de Chamadas de Unificação de Mensagens do Microsoft Exchange, que recebe uma chamada de entrada e a encaminha ao servidor de Caixa de Correio.
 

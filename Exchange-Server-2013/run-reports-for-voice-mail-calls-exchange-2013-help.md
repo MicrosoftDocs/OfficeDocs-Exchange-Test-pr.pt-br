@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Relatórios de chamadas de Unificação de Mensagens (UM) fornecem informações sobre as chamadas encaminhadas ou efetuadas por UM. Use esses relatórios para monitorar, solucionar problemas e reportar UM para sua organização. Você pode acessar os relatórios de estatística de chamada da Unificação de Mensagens usando a ferramenta Estatísticas de Chamada e acessar logs de chamadas para usuários habilitados para UM usando a ferramenta Logs de Chamadas do Usuário.
 

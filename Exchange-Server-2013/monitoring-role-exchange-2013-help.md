@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de monitoramento permite que os administradores monitorem Exchange serviços e a disponibilidade de componente em uma organização. Essa função também pode ser usada com contas de serviço usadas pelo monitoramento de aplicativos para coletar informações sobre o estado dos servidores que executam o Exchange.
 

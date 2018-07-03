@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-01-30_
+_**Tópico modificado em:** 2013-01-30_
 
 [Configurar um atendedor automático](set-up-a-um-auto-attendant-exchange-2013-help.md)
 

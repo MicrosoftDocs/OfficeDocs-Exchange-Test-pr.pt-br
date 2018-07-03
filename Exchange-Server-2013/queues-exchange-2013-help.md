@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Uma *fila* é um local de armazenamento temporário para mensagens que estão aguardando entrar no próximo estágio de processamento ou entrega para um destino. Cada fila representa um conjunto lógico de mensagens que o servidor do Exchange processa em uma determinada ordem. No Microsoft Exchange Server 2013, as filas armazenam mensagens antes, durante e depois da entrega. Há filas nos servidores de Caixa de Correio e nos servidores de Transporte de Borda. Os servidores de Caixa de Correio e os servidores de Transporte de Borda são chamados de *servidores de transporte* neste tópico.
 

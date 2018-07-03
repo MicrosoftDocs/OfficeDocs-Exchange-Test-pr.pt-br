@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-16_
+_**Tópico modificado em:** 2012-10-16_
 
 Reputação do remetente é parte da funcionalidade de antispam do Exchange que bloqueia as mensagens de acordo com muitas características do remetente. Reputação do remetente depende de dados persistentes sobre o remetente para determinar qual ação, se houver, para receber uma mensagem de entrada. O agente de análise de protocolo é o subjacentes para a funcionalidade de reputação do remetente.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Cada caixa de correio do Microsoft Exchange é constituída de uma conta de usuário do Active Directory e dos dados da caixa de correio armazenados no banco de dados de caixa de correio do Exchange. Todos os dados de configuração da caixa de correio são armazenados nos atributos do Exchange do objeto de usuário do Active Directory. O banco de dados de caixa de correio contém os dados de email que estão na caixa de correio associada à conta de usuário. A figura a seguir mostra os componentes de uma caixa de correio.
 

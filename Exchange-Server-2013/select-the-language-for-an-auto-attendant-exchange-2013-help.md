@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode configurar a definição de idioma de prompt padrão em um atendedor automático de UM (Unificação de Mensagens). A definição de idioma disponível em um atendedor automático da UM permite configurar o idioma de prompt padrão no atendedor automático. Ao usar os prompts padrão do sistema para o atendedor automático, esse é o idioma que o chamador ouvirá sempre que o atendedor automático responder à chamada de entrada. Essa definição de idioma afeta apenas os prompts do sistema padrão que são fornecidos depois que você instalou o servidor de Caixa de Correio que executa o serviço de Unificação de Mensagens do Microsoft Exchange. Essa configuração não terá efeito sobre os prompts personalizados configurados em um atendedor automático. Os idiomas disponíveis baseiam-se nos pacotes de idiomas da Unificação de Mensagens instalados no servidor de Caixa de Correio.
 

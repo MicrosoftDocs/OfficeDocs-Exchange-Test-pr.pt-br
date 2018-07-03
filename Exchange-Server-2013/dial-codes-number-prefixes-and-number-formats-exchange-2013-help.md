@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-05-04_
+_**Tópico modificado em:** 2016-05-04_
 
 Você pode configurar vários códigos de discagem usados pela UM (Unificação de Mensagens) para fazer chamadas internas e externas para usuários habilitados para UM. Com frequência, você desejará configurar um plano de discagem junto com os códigos de discagem ou de acesso, um prefixo de número nacional/regional ou os formatos de número internacionais ou de país/região para que possa controlar a discagem externa para usuários em sua organização. Este tópico discute códigos de discagem, prefixos de número e formatos de número e como é possível usá-los para controlar a discagem externa em sua organização.
 

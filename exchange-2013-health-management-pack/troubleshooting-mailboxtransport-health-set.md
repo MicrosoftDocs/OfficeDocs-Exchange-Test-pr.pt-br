@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade **MailboxTransport** monitora a integridade geral dos serviços do envio de transporte de caixa de correio e o fornecimento de transporte de caixa de correio em servidores de caixa de correio. Esses serviços são responsáveis por enviar email de e para bancos de dados de caixa de correio. Para obter mais informações, consulte [Fluxo de mensagens](https://technet.microsoft.com/pt-br/library/aa996349\(v=exchg.150\)).
 

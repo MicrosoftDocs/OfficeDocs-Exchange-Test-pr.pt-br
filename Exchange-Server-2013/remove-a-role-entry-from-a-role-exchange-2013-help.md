@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 As entradas de função de gerenciamento determinam os cmdlets e os parâmetros disponíveis em uma função de gerenciamento. Ao remover entradas ou parâmetros de função em uma entrada de função, você pode restringir o que os usuários com atribuição da função de gerenciamento podem executar. Para mais informações sobre as entradas de função de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

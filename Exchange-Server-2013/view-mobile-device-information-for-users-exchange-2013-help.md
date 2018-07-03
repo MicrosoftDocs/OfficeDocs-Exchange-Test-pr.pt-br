@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-29_
+_**Tópico modificado em:** 2012-11-29_
 
 Os usuários podem configurar vários dispositivos móveis para sincronização com o MicrosoftExchange Server 2013. Você pode usar o EAC ou o Shell para exibir uma lista de dispositivos móveis associados a um usuário específico.
 

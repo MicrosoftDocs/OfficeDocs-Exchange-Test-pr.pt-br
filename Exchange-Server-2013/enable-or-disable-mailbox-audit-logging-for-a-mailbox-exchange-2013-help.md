@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-09-30_
+_**Tópico modificado em:** 2015-09-30_
 
 Log de auditoria com caixa de correio, você pode rastrear logons de uma caixa de correio, bem como quais ações são executadas enquanto o usuário está conectado. Quando você habilita a auditoria de caixa de correio de registro em log para uma caixa de correio, algumas ações executadas pelos administradores e representantes são registrados por padrão. Nenhuma das ações executadas pelo proprietário da caixa de correio são registradas. Para saber que mais sobre a caixa de correio do log de auditoria, consulte [Registro em log de auditoria da caixa de correio](mailbox-audit-logging-exchange-2013-help.md).
 

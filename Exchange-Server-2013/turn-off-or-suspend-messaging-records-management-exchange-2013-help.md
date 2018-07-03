@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-14_
+_**Tópico modificado em:** 2013-02-14_
 
 Para atender aos requisitos de indivíduos, de TI e de empresas, você pode ter que desativar ou suspender temporariamente o MRM (gerenciamento de registros de mensagens) de um usuário individual ou de um servidor de caixa de correio. Alguns motivos pelos quais você pode ter que desativar ou suspender o MRM incluem:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-13_
+_**Tópico modificado em:** 2012-10-13_
 
 Notificações de Entrega é uma ferramenta de acompanhamento de mensagens no Centro de Administração do Exchange (EAC) que pode ser usada para pesquisar o status de entrega de emails enviados ou recebidos dos usuários do catálogo de endereços compartilhado da organização, com um determinado assunto. É possível acompanhar informações de entrega sobre mensagens enviadas ou recebidas em qualquer caixa de correio específica da organização. O conteúdo do corpo da mensagem não é retornado em uma notificação de entrega, mas a linha de assunto é exibida nos resultados. Você pode acompanhar mensagens por até 14 dias após elas serem enviadas ou recebidas.
 
@@ -47,7 +47,7 @@ Use the EAC to review a delivery report
 
 2.  Insira as seguintes informações:
     
-      - **\*Caixa de correio a ser pesquisada:** Clique em **Procurar** para selecionar a caixa de correio no catálogo de endereços e clique em **OK**. É necessário selecionar a caixa de correio a ser pesquisada.
+      - **\*Caixa de correio a ser pesquisada:**  Clique em **Procurar** para selecionar a caixa de correio no catálogo de endereços e clique em **OK**. É necessário selecionar a caixa de correio a ser pesquisada.
     
       - Selecione uma destas opções:
         

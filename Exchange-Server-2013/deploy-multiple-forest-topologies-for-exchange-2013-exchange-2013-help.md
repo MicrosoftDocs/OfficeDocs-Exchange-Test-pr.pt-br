@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico fornece uma visão geral da implantação do Microsoft Exchange Server 2013 em várias topologias de floresta. Você encontrará informações sobre os seguintes assuntos:
 

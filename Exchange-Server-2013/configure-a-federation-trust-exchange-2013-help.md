@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-07-26_
+_**Tópico modificado em:** 2017-07-26_
 
 Uma relação de confiança de Federação estabelece uma relação de confiança entre uma organização do Microsoft Exchange 2013 e o sistema de autenticação Azure Active Directory. Configurando uma relação de confiança de federação, você pode configurar o compartilhamento federado com outras organizações federadas do Exchange para compartilhar informações de disponibilidade de calendário entre destinatários. Compartilhamento federado pode ser configurado entre duas organizações federadas Exchange 2013 ou entre uma organização federada Exchange 2013 e organizações federadas Exchange 2010. Você também pode definir o compartilhamento com uma organização do Office 365.
 

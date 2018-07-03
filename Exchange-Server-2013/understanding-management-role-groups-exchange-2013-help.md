@@ -13,14 +13,14 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Um *grupo de funções de gerenciamento* é um grupo de segurança universal (USG) usado no modelo de permissões do Controle de Acesso Baseado em Função (RBAC) no Microsoft Exchange Server 2013. Um grupo de gerenciamento de funções simplifica a atribuição de funções de gerenciamento para um grupo de usuários. Todos os membros de um grupo de função recebem o mesmo conjunto de funções. Aos grupos de função são atribuídas funções de administrador e especialista que definem as principais tarefas administrativas do Exchange 2013, como gerenciamento da organização, gerenciamento de destinatário e outras tarefas. Os grupos de função permitem atribuir mais facilmente um conjunto mais amplo de permissões a um grupo de administradores ou usuários especialistas.
 
 
-> [!TIP]
+> [!TIP]  
 > Este tópico concentra-se na funcionalidade avançada de RBAC. Se você quiser gerenciar permissões básicas do Exchange 2013, como usar o Centro de Administração do Exchange (EAC) para adicionar e remover membros de grupos de funções, criar e modificar grupos de funções ou criar e modificar políticas de atribuição de função, consulte <A href="permissions-exchange-2013-help.md">Permissões</A>.
 
 
@@ -42,7 +42,7 @@ Role group membership
 Role group creation workflow
 
 
-> [!TIP]
+> [!TIP]  
 > Se quiser atribuir permissões a usuários para que gerenciem suas próprias caixas de correio ou grupos de distribuição, consulte <A href="understanding-management-role-assignment-policies-exchange-2013-help.md">Noções básicas sobre diretivas de atribuição de função de gerenciamento</A>.
 
 
@@ -115,7 +115,7 @@ A tabela a seguir lista a camada de grupo de função e os tópicos procedurais 
 <p><a href="change-a-role-entry-exchange-2013-help.md">Alterar uma entrada de função</a></p>
 <p><a href="remove-a-role-entry-from-a-role-exchange-2013-help.md">Remover uma entrada de função de uma função</a></p>
 
-> [!TIP]
+> [!TIP]  
 > Alterar as entradas de função de gerenciamento nas funções de gerenciamento em um grupo de função é uma tarefa avançada e na maioria dos casos não é exigida. Você pode, em vez disso, ser capaz de usar uma função de gerenciamento pré-existente adequada às suas necessidades. Para obter mais informações, consulte <A href="built-in-role-groups-exchange-2013-help.md">Grupos de funções internos</A>.
 
 
@@ -236,7 +236,7 @@ Se a propriedade **ManagedBy** for definida em um grupo de função, apenas os u
 Se a propriedade **ManagedBy** não estiver definida em um grupo de função, apenas os usuários que forem membros da função Gerenciamento da Organização ou que estejam atribuídos, direta ou indiretamente, à função de gerenciamento Gerenciamento de Função poderão modificar um grupo de função ou uma associação de grupo de função.
 
 
-> [!TIP]
+> [!TIP]  
 > As funções atribuídas a um grupo de função podem ser atribuídas usando atribuições de função de delegação. Com as atribuições de função de delegação, os membros de um grupo de função atribuído a uma função delegada podem atribuir essa função a outro grupo de função, diretiva de atribuição, usuário ou USG. Os membros do grupo de função podem atribuir apenas essa função e não podem delegar o grupo de função, a não ser que também tenham sido adicionados à propriedade <STRONG>ManagedBy</STRONG>. Para obter mais informações sobre as atribuições de função delegadas, consulte <A href="understanding-management-role-assignments-exchange-2013-help.md">Noções básicas sobre as atribuições de função de gerenciamento</A>.
 
 

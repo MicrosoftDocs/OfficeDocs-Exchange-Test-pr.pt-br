@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode recuperar um servidor perdido usando a opção **Setup /m:RecoverServer** no Microsoft Exchange Server 2013. A maioria das configurações de um computador executando o Exchange 2013 são armazenadas no Active Directory. A opção */m:RecoverServer* reconstrói um servidor do Exchange com o mesmo nome usando as mesmas configurações e outras informações armazenadas no Active Directory.
 

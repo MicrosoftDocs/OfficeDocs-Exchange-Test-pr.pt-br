@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-22_
+_**Tópico modificado em:** 2012-09-22_
 
 [Criar uma política de caixa de correio do Outlook Web App](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md)
 

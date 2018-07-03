@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-04-28_
+_**Tópico modificado em:** 2017-04-28_
 
 Você pode usar regras de fluxo de emails (também conhecidas como regras de transporte) para identificar e agir com base nas mensagens que fluem pela organização do Exchange 2013. As regras de fluxo de emails são semelhantes às regras de Caixas de Entrada disponíveis no Outlook e no Outlook Web App. A principal diferença das regras de fluxo de emails é que elas atuam em mensagens que estão em trânsito, não depois que a mensagem foi entregue à caixa de correio. As regras de fluxo de emails contêm conjuntos mais amplos de condições, exceções e ações com os quais é possível desfrutar da flexibilidade necessária para implementar muitos tipos de políticas de mensagem.
 

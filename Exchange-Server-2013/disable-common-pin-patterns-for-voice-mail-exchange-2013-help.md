@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode habilitar ou desabilitar os padrões comuns de PIN de Unificação de mensagens (UM) para usuários do Outlook Voice Access. Se você habilitar ou desabilitar os padrões comuns de PIN configuração em uma diretiva de caixa de correio UM, a configuração se aplicará a todos os usuários habilitados para UM associados com a diretiva de caixa de correio de Unificação de mensagens. Por padrão, os usuários habilitados para Unificação de mensagens não podem usar padrões comuns quando eles criam um PIN.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-07-27_
+_**Tópico modificado em:** 2016-07-27_
 
 O Assistente de Pasta Gerenciada (MFA) é um dos vários processos de *assistência de caixa de correio* executado em servidores de caixa de correio. Seu trabalho é processar caixas de correio que possuam uma Política de Retenção aplicada, adicionar as Marcas de Retenção incluídas na política à caixa de correio e processar itens na caixa de correio. Se os itens tiverem uma marca de retenção, o assistente testará a idade desses itens. Se um item tiver excedido sua *idade de retenção*, executará a *ação de retenção* especificada. As ações de retenção incluem mover um item para o arquivo do usuário, excluir o item e permitir a recuperação ou excluir o item permanentemente.
 

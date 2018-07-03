@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Para implantar com êxito a Unificação de mensagens (UM), você deve ter uma boa compreensão dos conceitos de telefonia básica e componentes de telefonia. Depois que você compreender as Noções básicas de telefonia, é possível integrar a Unificação de MENSAGENS em uma organização do Exchange. Componentes e conceitos básicos incluem o seguinte:
 

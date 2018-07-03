@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2013-12-02_
+_**Tópico modificado em:** 2013-12-02_
 
 Você pode usar os cmdlets internos de relatório de integridade para executar várias tarefas relacionadas à disponibilidade gerenciada; por exemplo:
 

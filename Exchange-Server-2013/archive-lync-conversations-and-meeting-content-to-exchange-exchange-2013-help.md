@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode arquivar conteúdo de Lync Online, como conversas de mensagens Instantâneas, caixa de correio do usuário em Exchange Online. Em implantações de local, você pode arquivar conteúdo Lync 2013 às caixas de correio Exchange 2013. Em ambos online e ambientes locais, isso requer a colocação de um litígio ou um bloqueio In-loco na caixa de correio do usuário. Quando o conteúdo do Lync é permanentemente excluído por um usuário cuja caixa de correio está em espera, o Lync arquivado conteúdo é preservado na pasta itens recuperáveis na caixa de correio do usuário. Não é visível para os usuários, mas ele está incluído nas pesquisas de descoberta eletrônica.
 

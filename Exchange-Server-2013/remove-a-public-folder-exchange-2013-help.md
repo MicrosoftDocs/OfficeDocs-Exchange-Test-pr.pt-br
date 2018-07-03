@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-11-16_
+_**Tópico modificado em:** 2016-11-16_
 
 Você pode ter que remover pastas públicas que não estão mais sendo usadas em sua organização. Para ajudar a determinar quais pastas públicas devem ser removidas, consulte [Exibir estatísticas de pastas públicas e itens de pasta pública](view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md).
 

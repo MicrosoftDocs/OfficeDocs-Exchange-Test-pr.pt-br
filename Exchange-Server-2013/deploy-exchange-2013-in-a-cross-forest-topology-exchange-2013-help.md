@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico explica como implantar um topologia entre florestas no Exchange 2013 usando o Microsoft Forefront Identity Manager 2010 R2 SP1. Para implantar o Exchange 2013 em uma topologia entre florestas, você deve primeiro instalar o Exchange 2013 em cada floresta, e então conectar as florestas para que os usuários possam ver os dados de disponibilidade e endereço entre as florestas.
 
@@ -37,7 +37,7 @@ Para realizar o procedimento a seguir no Exchange 2013, confirme o seguinte:
 
   - Certifique-se de que o Gerenciamento Remoto do Windows não tenha sido instalado pelo Windows Update.
 
-  - Instale o Windows PowerShell e o Gerenciamento Remoto do Windows. Para detalhes, veja o artigo 968930 da Base de Conhecimento da Microsoft, [Pacote Windows Management Framework Core (Windows PowerShell 2.0 e WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930).
+  - Instale o Windows PowerShell e o Gerenciamento Remoto do Windows. Para detalhes, veja o artigo 968930 da Base de Conhecimento da Microsoft, [Pacote Windows Management Framework Core (Windows PowerShell 2.0 e WinRM 2.0)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930).
 
   - Baixe o Forefront Identity Manager 2010 R2 SP1. Consulte o [Download do Microsoft Forefront Identity Manager 2010 R2 SP1](https://go.microsoft.com/fwlink/p/?linkid=279868).
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-19_
+_**Tópico modificado em:** 2013-02-19_
 
 No Microsoft Exchange Server 2010, a função de servidor Caixa de Correio hospedava os bancos de dados de caixa de correio e de bancos de dados de pasta pública e também fornecia o armazenamento de emails. Agora, no Exchange Server 2013, a função de servidor Caixa de Correio também inclui os protocolos de Acesso para Cliente, serviço de Transporte, bancos de dados de caixa de correio e componentes de Unificação de Mensagem.
 

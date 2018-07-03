@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode adicionar um aviso de isenção de responsabilidade, aviso de isenção legal, declaração, assinatura ou outras informações à parte superior ou inferior das mensagens de email que entram ou saem de sua organização. Isso pode ser necessária por motivos jurídicos, comerciais ou regulamentares, a fim de identificar mensagens de email possivelmente inseguras, ou por outros motivos exclusivos de sua organização.
 

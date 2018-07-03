@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O OAB. Conjunto de integridade do proxy monitora a disponibilidade da infraestrutura de proxy de endereços offline OAB (catálogo) no servidor de acesso para cliente (CAS).
 

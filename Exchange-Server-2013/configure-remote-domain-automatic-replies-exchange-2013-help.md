@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode usar o Shell de Gerenciamento do Exchange, para configurar o jeito como os emails são enviados e recebidos através dos domínios remotos. O exemplo a seguir demonstra como usar o Shell de Gerenciamento do Exchange para configurar o jeito como o Exchange trata as respostas automáticas.
 

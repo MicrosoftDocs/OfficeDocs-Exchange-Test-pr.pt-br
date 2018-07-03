@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Carimbos antispam ajudam a diagnosticar problemas relacionados a spam através da aplicação de metadados de diagnóstico, ou carimbos, como informações específicas do remetente, resultados de validação do quebra-cabeça e resultados da filtragem de conteúdo, a mensagens na medida em que elas passam pelos recursos antispam que filtram mensagens de entrada provenientes da Internet. Existem três carimbos antispam: o carimbo de nível de confiança de phishing, o carimbo de nível de confiança de spam e o carimbo ID de Remetente.
 

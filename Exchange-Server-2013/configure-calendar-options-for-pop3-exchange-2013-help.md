@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-27_
+_**Tópico modificado em:** 2012-11-27_
 
 Você pode usar o Shell para definir configurações de acesso de calendário para os usuários que se conectam a suas caixas de correio usando POP3 conexões. As configurações especificadas determinam como os seus usuários POP3 podem acessar suas informações de calendário de calendário e do exchange (por exemplo, enviar ou responder a uma solicitação de reunião) com outros usuários.
 
