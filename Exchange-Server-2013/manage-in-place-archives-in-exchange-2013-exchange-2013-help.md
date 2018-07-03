@@ -53,9 +53,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
 
 
 
-4.  
-    
-    Selecione uma das seguintes opções:
+4.  Selecione uma das seguintes opções:
     
       - **Usuário existente**   Clique nesse botão e então clique em **Procurar** para abrir a caixa de diálogo **Selecionar Usuário – Floresta Inteira** dialog box. Essa caixa de diálogo exibe uma lista de contas de usuário do Active Directory existentes na floresta que não são habilitadas para email nem possuem caixas de correio do Exchange. Selecione a conta de usuário que você deseja habilitar para email e clique em **OK** para retornar ao assistente. Se você selecionar essa opção, não terá que fornecer informações de conta de usuário, porque essas informações já existirão no Active Directory.
     
@@ -67,9 +65,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
 
 
 
-5.  
-    
-    Clique em **Mais opções**, para definir as configurações a seguir.
+5.  Clique em **Mais opções**, para definir as configurações a seguir.
     
       - **Banco de dados de caixa de correio**   Clique em **Procurar** para selecionar um banco de dados de caixa de correio para armazenar a caixa de correio. Se você não selecionar um banco de dados, o Exchange atribuirá um automaticamente.
     
@@ -81,9 +77,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
     
       - **Política do catálogo de endereços**   Use essa lista para selecionar uma política de catálogo de endereços (ABP) para a caixa de correio. As ABPs contêm um catálogo de endereços global (GAL), um catálogo de endereços offline (OAB), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
 
-6.  
-    
-    Após concluir, clique em **Salvar** para criar a caixa de correio.
+6.  Após concluir, clique em **Salvar** para criar a caixa de correio.
 
 ## Usar o Shell
 
