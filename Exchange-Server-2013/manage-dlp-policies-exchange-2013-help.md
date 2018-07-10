@@ -31,14 +31,11 @@ Para obter mais informações sobre o Shell de gerenciamento do Exchange, consul
 
   - Para qualquer política DLP, você pode selecionar um dos três modos:
     
-      -  
-        **Impor**   Regras dentro da política são avaliadas por todas as mensagens e tipos de arquivo suportados. O fluxo de emails poderá ser interrompido, se forem detectados dados que atenderem às condições da política. Todas as ações descritas no âmbito da política são tomadas.
+      -    **Impor**   Regras dentro da política são avaliadas por todas as mensagens e tipos de arquivo suportados. O fluxo de emails poderá ser interrompido, se forem detectados dados que atenderem às condições da política. Todas as ações descritas no âmbito da política são tomadas.
     
-      -  
-        **Testar política DLP com Dicas de Política**   Regras dentro da política são avaliadas por todas as mensagens e tipos de arquivo suportados. O fluxo de emails não será interrompido, se forem detectados dados que atenderem às condições da política. Ou seja, as mensagens não serão bloqueadas. Se as Dicas de Política estiverem configuradas, elas serão mostradas para os usuários.
+      -    **Testar política DLP com Dicas de Política**   Regras dentro da política são avaliadas por todas as mensagens e tipos de arquivo suportados. O fluxo de emails não será interrompido, se forem detectados dados que atenderem às condições da política. Ou seja, as mensagens não serão bloqueadas. Se as Dicas de Política estiverem configuradas, elas serão mostradas para os usuários.
     
-      -  
-        **Testar política DLP sem Dicas de Política**   Regras dentro da política são avaliadas por todas as mensagens e tipos de arquivo suportados. O fluxo de emails não será interrompido, se forem detectados dados que atenderem às condições da política. Ou seja, as mensagens não serão bloqueadas. Se as Dicas de Política estiverem configuradas, elas não serão mostradas para os usuários.
+      -    **Testar política DLP sem Dicas de Política**   Regras dentro da política são avaliadas por todas as mensagens e tipos de arquivo suportados. O fluxo de emails não será interrompido, se forem detectados dados que atenderem às condições da política. Ou seja, as mensagens não serão bloqueadas. Se as Dicas de Política estiverem configuradas, elas não serão mostradas para os usuários.
 
   - Uma regra individual em uma política de DLP pode ter suas próprias configurações de modo. Quando o modo de uma política for diferente do que o modo de uma regra dentro dessa política, a configuração da regra tem prioridade e será avaliada de acordo com o seu modo.
 

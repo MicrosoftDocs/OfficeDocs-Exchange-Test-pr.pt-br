@@ -19,17 +19,13 @@ _**Tópico modificado em:** 2017-02-23_
 
 Sua organização pode exigir que determinados tipos de mensagens seja bloqueados ou rejeitados de forma que atenda aos requisitos legais ou normativos ou para implementar as necessidades de negócios específicos. Aqui estão alguns exemplos de cenários comuns para bloquear todos os anexos que você pode configurar usando regras de transporte no Exchange:
 
-  -  
-    O exemplo 1: Bloquear mensagens com anexos e notificar o remetente
+  -  O exemplo 1: Bloquear mensagens com anexos e notificar o remetente
 
-  -  
-    Exemplo 2: Notificar se destina a destinatários quando uma mensagem de entrada for bloqueada
+  -  Exemplo 2: Notificar se destina a destinatários quando uma mensagem de entrada for bloqueada
 
-  -  
-    Exemplo 3: Modificar a linha de assunto para notificações
+  -  Exemplo 3: Modificar a linha de assunto para notificações
 
-  -  
-    O exemplo 4: Aplicar uma regra com um limite de tempo
+  -  O exemplo 4: Aplicar uma regra com um limite de tempo
 
 Para exemplos adicionais, mostrando como bloquear anexos específicos, consulte:
 

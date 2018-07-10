@@ -47,24 +47,19 @@ Você pode incorporar definições sensíveis ao conteúdo e modelos de polític
 
 Você pode criar um arquivo de modelo de política de DLP independente do Exchange que atenda à definição de esquema XML específica fornecida pela Microsoft e, em seguida, importar esse arquivo no seu sistema para poder criar políticas de DLP a partir dele. Criando seus próprios arquivos de modelo, você pode definir seu próprio modelo para as políticas de DLP que a Microsoft ainda não tenha fornecido. Isso é diferente de criar uma política de DLP usando o Centro de Administração do Exchange, o que normalmente acontece depois que os modelos de política ficam disponíveis. Se você criar um modelo de política independente do Exchange, você terá que importá-lo antes que possa usá-lo para verificar mensagens. Você também pode criar suas próprias definições de informações sensíveis além das definidas pela Microsoft em Exchange. Há uma definição de esquema XML separada para arquivos de modelo de política de DLP e pacotes de regras de classificação. Para começar, consulte as informações a seguir:
 
-  -  
-    [Definir seus próprios modelos de DLP e tipos de informações](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
+  -  [Definir seus próprios modelos de DLP e tipos de informações](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 
-  -  
-    [Importar um modelo de política DLP personalizado de um arquivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
+  -  [Importar um modelo de política DLP personalizado de um arquivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)
 
 ## Incluem a funcionalidade de DLP com regras de transporte existentes
 
 Você pode incorporar recursos de detecção de DLP com regras de transporte tradicionais sem criar uma política de DLP nova. Se você criou um conjunto complexo de regras em uma versão anterior do Exchange, e quer duplicá-los ou adicionar detecção de informações sensíveis em Exchange 2013, então você pode usar o editor de regras de transporte no Exchange Administration Center o Shell de Gerenciamento do Exchange para incorporar esses dois recursos. Para começar, consulte as informações a seguir:
 
-  -  
-    [Regras de fluxo de emails ou de transporte](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
+  -  [Regras de fluxo de emails ou de transporte](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) (Exchange Server 2013)
 
-  -  
-    [Regras de fluxo de emails (regras de transporte) no Exchange Online](https://technet.microsoft.com/pt-br/library/jj919238\(v=exchg.150\)) (Exchange Online)
+  -  [Regras de fluxo de emails (regras de transporte) no Exchange Online](https://technet.microsoft.com/pt-br/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  
-    [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md)
     
     [Cmdlets de política e conformidade](https://technet.microsoft.com/pt-br/library/dd298082\(v=exchg.150\))
 

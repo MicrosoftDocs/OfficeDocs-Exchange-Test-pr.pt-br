@@ -61,17 +61,13 @@ Para configurar o log de conectividade, execute o seguinte comando:
 
 Este exemplo define estas configurações de log de conectividade no serviço de Transporte no servidor de Caixa de Correio chamado Mailbox01:
 
-  -  
-    Define o local dos arquivos de log de conectividade para o Log de Conectividade D:\\Hub. Observe que, se a pasta não existir, ela será criada para você.
+  -  Define o local dos arquivos de log de conectividade para o Log de Conectividade D:\\Hub. Observe que, se a pasta não existir, ela será criada para você.
 
-  -  
-    Define o tamanho máximo de um arquivo de log de conectividade para 20 MB.
+  -  Define o tamanho máximo de um arquivo de log de conectividade para 20 MB.
 
-  -  
-    Define o tamanho máximo do diretório do log de conectividade para 1,5 GB.
+  -  Define o tamanho máximo do diretório do log de conectividade para 1,5 GB.
 
-  -  
-    Define a duração máxima de um arquivo de log de conectividade para 45 dias.
+  -  Define a duração máxima de um arquivo de log de conectividade para 45 dias.
 
 <!-- end list -->
 

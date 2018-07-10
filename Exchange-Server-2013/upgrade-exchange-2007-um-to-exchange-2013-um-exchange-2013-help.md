@@ -520,14 +520,11 @@ Ao atualizar para a UM do Exchange 2013, já deve ter instalado e configurado um
 
 A última etapa neste processo de atualizar a UM do Exchange 2013 é configurar os gateways VoIP, PBXs IP ou PBXs habilitados para SIP para enviar as chamadas de entrada (incluindo chamadores que desejam deixar uma mensagem de caixa postal para o usuário, chamadas de usuários habilitados para UM que usam o Outlook Voice Access e chamadas de chamadores que discam para um atendedor automático de UM) para seus servidores de Acesso para Cliente do Exchange 2013. Todas as chamadas são recebidas primeiro pelo gateway VoIP, PBX IP ou PBX habilitado para SIP e será encaminhada para os servidores de Acesso para Cliente do Exchange 2013 na sua organização do Exchange 2013. Para obter mais informações, consulte os seguintes recursos:
 
-  -  
-    [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
+  -  [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
 
-  -  
-    [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Etapa 14: Desabilitar o atendimento de chamadas num servidor de Unificação de Mensagens no Exchange 2007
 
