@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-18_
+_**Tópico modificado em:** 2014-06-18_
 
 O Microsoft Exchange Server 2013 fornece funcionalidade administrativa e outros aprimoramentos que melhoram o gerenciamento geral de TLS (Transport Layer Security). Ao trabalhar com essa funcionalidade, você precisa aprender sobre recursos e funcionalidades relacionadas a TLS. Alguns termos e conceitos se aplicam a mais de um recurso relacionado a TLS. Neste tópico, uma breve explicação sobre cada recurso é fornecida e deve ajudá-lo a compreender algumas diferenças e terminologia geral relacionadas a TLS e ao conjunto de recursos de Segurança de Domínio.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-13_
+_**Tópico modificado em:** 2012-11-13_
 
 Você pode habilitar ou desabilitar as chamadas de saída para um gateway IP de Unificação de mensagens (UM). Quando você desmarcar a opção **Permitir chamadas de saída por meio deste gateway IP de UM** nas propriedades para gateway IP de UM, você pode configurar o gateway IP de UM para não aceitar e enviar chamadas de saída para uma voz sobre IP (VoIP) gateway, IP PBX ou sessão controlador de borda (SBC). Embora as **Permitir chamadas de saída por meio deste gateway IP de UM** determina se o gateway IP de UM é capaz de iniciar chamadas de saída para os usuários, ela não afeta as chamadas de entrada de um gateway VoIP, IP PBX ou SBC ou transferências de chamada.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade Roteador de Chamadas da Unificação de Mensagens (UM) do Microsoft Exchange monitora a integridade geral do serviço Roteador de Chamadas da UM.
 
@@ -122,7 +122,7 @@ Se os logs de eventos não contiverem informações suficientes, talvez seja nec
 
 Renove o certificado de serviço do Roteador de Chamadas da UM no CAS.
 
-**Etapas de solução de problemas adicionais:**
+**Etapas de solução de problemas adicionais:** 
 
 1.  Inicie o Gerenciador do IIS e então conecte-se ao servidor que está relatando o problema para determinar se o pool de aplicativos **MSExchangeServicesAppPool** está em execução.
 

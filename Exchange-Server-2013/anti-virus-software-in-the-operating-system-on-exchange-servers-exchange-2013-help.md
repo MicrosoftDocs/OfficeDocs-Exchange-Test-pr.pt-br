@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-07-22_
+_**Tópico modificado em:** 2016-07-22_
 
 Este tópico descreve os efeitos de programas antivírus em nível de arquivo, em computadores que executam o Microsoft Exchange Server 2013. Se você implantou as recomendações descritas neste tópico, você poderá ajudar a aprimorar a segurança e a integridade de sua organização do Exchange.
 

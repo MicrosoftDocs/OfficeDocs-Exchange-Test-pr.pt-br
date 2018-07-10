@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Além de permitir que os usuários acessem a caixa postal, a Unificação de Mensagens (UM) permite que você crie um ou mais atendedores automáticos de UM, dependendo das necessidades da sua organização. Os atendedores automáticos de UM podem ser usados para criar um sistema de menus de voz para um organização que permita, aos chamadores externos e internos, localizar, fazer ou transferir chamadas para usuários da companhia ou departamentos em uma organização.
 

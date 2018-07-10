@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você usa o Shell de Gerenciamento do Exchange em um servidor Transporte de Borda para todas as tarefas de gerenciamento relacionadas à reconfiguração de endereço e dos agentes de reconfiguração de endereço. Para obter mais informações sobre a reconfiguração de endereço, consulte [Reconfiguração nos servidores de transporte de borda de endereço](address-rewriting-on-edge-transport-servers-exchange-2013-help.md).
 

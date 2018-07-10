@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Os contadores de desempenho neste tópico monitoram Assistente de pasta gerenciada conforme ele implementa o gerenciamento de registros mensagens (MRM) para o Microsoft Exchange Server 2010. Como executar o Assistente de pasta gerenciada é um processo de uso intenso de recursos, ele deverá ser executado somente quando seu servidor puder tolerar a carga adicional. Você também deve monitorar o desempenho do servidor quando o Assistente de pasta gerenciada está sendo executado. Além de contadores de desempenho listados neste tópico, convém também monitorar os contadores de desempenho adicional que monitorar itens como o desempenho do disco e o uso da CPU.
 

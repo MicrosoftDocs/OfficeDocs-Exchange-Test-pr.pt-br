@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Você pode ter uma situação em que você deseja receber mensagens de um sistema não executa o Exchange. Por exemplo, se você tiver um aparelho de rede que realiza política verifica e, em seguida, encaminha mensagens para seu servidor Exchange. Nesse caso, vamos pressupor que o aparelho usa SMTP. Caso contrário, você deve usar um conector estrangeiro ou um conector de agente de entrega.
 

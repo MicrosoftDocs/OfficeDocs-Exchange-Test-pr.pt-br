@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A quarentena de spam é um recurso do agente de Filtro de Conteúdo que reduz o risco de perda de mensagens legítimas. A quarentena de spam fornece um local de repositório temporário para mensagens que estão identificadas como spam e que não devem ser entregues a uma caixa de correio de usuário dentro da organização.
 
@@ -126,7 +126,7 @@ Por padrão, você não poderá selecionar esses campos no Microsoft Outlook. Pa
         
           - *\<OfficeVersion\>*   Para o Outlook 2007, o valor é `Office12`. Para o Outlook 2010, o valor é `Office14`. Para o Outlook 2013, o valor é `Office15`.
         
-          - *\<LCID\>*   Este é o valor de sua identificação de localidade (LCID). Por exemplo, a LCID para inglês dos EUA é 1033. Para obter mais informações, consulte [KB221435: Lista de identificadores de localidade com suporte no Word](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=221435).
+          - *\<LCID\>*   Este é o valor de sua identificação de localidade (LCID). Por exemplo, a LCID para inglês dos EUA é 1033. Para obter mais informações, consulte [KB221435: Lista de identificadores de localidade com suporte no Word](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=221435).
     
       - **Nome**   Para o restante desse procedimento, consideremos que o arquivo tenha o nome `QTNE.cfg`. O nome do arquivo não é importante, mas certifique-se de colocar o valor entre aspas para que o arquivo seja salvo como QTNE.cfg e não como QTNE.cfg.txt.
     

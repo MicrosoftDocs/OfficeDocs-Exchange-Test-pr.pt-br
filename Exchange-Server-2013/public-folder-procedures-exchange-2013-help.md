@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-08-02_
+_**Tópico modificado em:** 2017-08-02_
 
-**Resumo:** criar e gerenciar pastas públicas com um ou mais destes artigos.
+**Resumo:**  criar e gerenciar pastas públicas com um ou mais destes artigos.
 
 Use um ou mais dos procedimentos listados abaixo para obter sua infraestrutura de pasta pública para cima e execução e realizar outras tarefas necessárias para o gerenciamento de pastas públicas.
 

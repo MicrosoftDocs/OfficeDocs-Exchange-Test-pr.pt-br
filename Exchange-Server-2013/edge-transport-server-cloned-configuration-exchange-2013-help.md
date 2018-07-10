@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Os servidores de Transporte de Borda armazenam suas informações de configuração no Lightweight Directory Services (AD LDS) do Active Directory. Você pode instalar mais de um servidor de Transporte de Borda na rede de perímetro e usar um round robin de DNS para ajudar a balancear o tráfego de rede entre os servidores de Transporte de Borda. Round robin é um mecanismo simples usado por servidores de DNS para compartilhar e distribuir cargas de recursos de rede.
 

@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-16_
+_**Tópico modificado em:** 2013-04-16_
 
 Ao criar um gateway IP de UM (Unificação de Mensagens), você permite que servidores do Exchange se conectem a um novo gateway VoIP, a um PBX habilitado para o protocolo SIP e a um PBX IP ou a um SBC (Controlador de Borda de Sessão). Imediatamente após criar um gateway IP do UM, você deve criar um novo grupo de busca do UM e depois associar o grupo de busca do UM com o gateway IP do UM. Você pode associar o gateway IP do UM a um ou mais planos de discagem do UM criando um ou mais grupos de busca do UM.
 

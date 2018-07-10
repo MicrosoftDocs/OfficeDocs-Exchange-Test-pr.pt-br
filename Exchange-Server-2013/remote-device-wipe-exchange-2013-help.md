@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-19_
+_**Tópico modificado em:** 2012-09-19_
 
 Telefones celulares, tablets e outros dispositivos podem armazenar dados corporativos confidenciais e fornecer acesso a muitos recursos corporativos. Se um dispositivo móvel é perdido ou roubado, esses dados podem ser comprometidos. Por meio de políticas de caixa de correio do dispositivo móvel do Exchange Microsoft, você pode adicionar um requisito de senha nos seus dispositivos móveis. Isso requer que os usuários insiram uma senha para acessar seus dispositivos móveis. Recomendamos que, além de exigir uma senha de dispositivo, você configurar seus dispositivos móveis para solicitar uma senha automaticamente após um período de inatividade. A combinação de uma senha de dispositivo e o bloqueio de inatividade fornece segurança reforçada para seus dados corporativos.
 

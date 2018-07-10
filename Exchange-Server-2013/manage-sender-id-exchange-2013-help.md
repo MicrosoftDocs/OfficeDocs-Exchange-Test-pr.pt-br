@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 A funcionalidade de ID de remetente é fornecida pelo agente ID do Remetente. A ID de Remetente valida a origem do email, verificando o endereço IP do remetente em relação ao proprietário alegado do domínio de remetente. A filtragem da ID de remetente é executada nas mensagens de entrada que vêm da Internet, mas não são autenticadas. Essas mensagens são manipuladas como mensagens externas.
 

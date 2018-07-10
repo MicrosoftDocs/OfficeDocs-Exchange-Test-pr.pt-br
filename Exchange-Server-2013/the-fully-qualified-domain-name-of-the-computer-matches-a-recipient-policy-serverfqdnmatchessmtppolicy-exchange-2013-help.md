@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O conteúdo neste tópico não foi atualizado para o Microsoft Exchange Server 2013. Mesmo assim, ele ainda pode se aplicar ao Exchange 2013. Se você ainda precisar de ajuda, verifique os recursos da comunidade, abaixo.
 
@@ -55,5 +55,5 @@ Para modificar a política de destinatário endereço SMTP
 
 4.  Clique na guia **Endereços de email** e altere o endereço SMTP apropriado
 
-Para obter mais informações sobre problemas de nomenclatura de política de destinatário, consulte o artigo da Base de Conhecimento Microsoft 288175, "XCON: política de destinatário não pode corresponder ao FQDN de qualquer servidor na organização, 5.4.8 NDRs" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052%26kbid=288175)).
+Para obter mais informações sobre problemas de nomenclatura de política de destinatário, consulte o artigo da Base de Conhecimento Microsoft 288175, "XCON: política de destinatário não pode corresponder ao FQDN de qualquer servidor na organização, 5.4.8 NDRs" ([http://go.microsoft.com/fwlink/?linkid=3052\&kbid=288175](http://go.microsoft.com/fwlink/?linkid=3052&kbid=288175)).
 

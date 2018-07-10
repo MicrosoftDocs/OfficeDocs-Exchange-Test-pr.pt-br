@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-15_
+_**Tópico modificado em:** 2013-02-15_
 
 Se você usar vários catálogos de endereços offline (OABs) em sua organização, haverá diversas formas de especificar quais destinatários baixam quais OABs:
 

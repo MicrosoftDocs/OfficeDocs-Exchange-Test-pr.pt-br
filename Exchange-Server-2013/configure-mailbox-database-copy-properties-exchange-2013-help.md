@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-01_
+_**Tópico modificado em:** 2012-11-01_
 
 Cada cópia do banco de dados de caixa de correio tem suas próprias propriedades que podem ser definidas. Incluem a quantidade de tempo, se houver, para o número de preferência de ativação e de retardo de truncamento e de retardo de repetição. Para obter mais informações sobre o número de preferência de ativação, de retardo de truncamento e de retardo de repetição, consulte [Gerenciando cópias de banco de dados de caixa de correio](managing-mailbox-database-copies-exchange-2013-help.md).
 

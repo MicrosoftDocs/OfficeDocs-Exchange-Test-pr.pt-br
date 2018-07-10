@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-16_
+_**Tópico modificado em:** 2012-10-16_
 
 Métricas de grupo é uma coleção dos seguintes dados sobre grupos de distribuição e grupos dinâmicos de distribuição em sua organização:
 

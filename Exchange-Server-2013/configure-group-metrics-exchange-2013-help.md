@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Dicas de email que fornecem informações sobre o tamanho de grupos de distribuição e grupos dinâmicos de distribuição se baseiam em dados de métricas de grupo. Dados de métricas de grupo são gerados em servidores de caixa de correio designadas. Para obter mais informações sobre as métricas de grupo, consulte [Métricas de grupo e as dicas de email](group-metrics-and-mailtips-exchange-2013-help.md).
 

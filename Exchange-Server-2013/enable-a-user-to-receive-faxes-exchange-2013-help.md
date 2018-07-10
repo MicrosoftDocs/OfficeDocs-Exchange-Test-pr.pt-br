@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 É possível habilitar um usuário de Unificação de mensagens (UM) receber fax. Por padrão, quando você habilita um usuário para Unificação de mensagens, eles poderão receber faxes se você habilitar o envio de fax e configurar URI de um parceiro de fax na diretiva de caixa de correio de Unificação de MENSAGENS que está vinculada ao usuário. Envio de fax pode ser habilitado ou desabilitado na Unificação de MENSAGENS discagem planos, políticas de caixa de correio de Unificação de MENSAGENS ou caixa de correio do usuário habilitado para UM.
 

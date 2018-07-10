@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:**2014-04-04_
+_**Tópico modificado em:** 2014-04-04_
 
 ## Getting help
 

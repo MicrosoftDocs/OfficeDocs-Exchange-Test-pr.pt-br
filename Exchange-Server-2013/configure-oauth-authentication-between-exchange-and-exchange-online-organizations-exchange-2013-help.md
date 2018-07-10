@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Implantações híbridas exclusivas do Exchange 2013 configuram a autenticação OAuth ao usar o Assistente de Configuração Híbrida. Para implantações híbridas combinadas do Exchange 2013/2010 e do Exchange 2013/2007, a conexão de autenticação com base em OAuth da nova implantação híbrida entre o Office 365 e as organizações do Exchange local não é configurada pelo Assistente de Configuração Híbrida. Essas implantações continuam a usar o processo de relação de confiança de federação por padrão. No entanto, certos recursos do Exchange 2013 ficam totalmente disponíveis em sua organização apenas por meio do uso do novo protocolo de autenticação OAuth do Exchange.
 

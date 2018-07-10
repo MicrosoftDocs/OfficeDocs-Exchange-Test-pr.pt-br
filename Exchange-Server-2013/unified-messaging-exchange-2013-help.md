@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Unificação de Mensagens (UM) habilita os usuários a usar a caixa postal e outros recursos, incluindo o Outlook Voice Access e as Regras de Atendimento de Chamadas. A UM combina mensagens de voz e emails em uma caixa de correio que pode ser acessada por muitos dispositivos diferentes. Os usuários podem ouvir suas mensagens em sua Caixa de Entrada de email ou usando o Outlook Voice Access em qualquer telefone. Você tem controle sobre como os usuários efetuam chamadas de saída de UM e a experiência que as pessoas têm quando ligam para sua organização.
 

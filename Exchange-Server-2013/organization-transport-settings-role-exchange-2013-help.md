@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `Organization Transport Settings` permite que administradores gerenciem configurações de transporte de toda a organização, como mensagens do sistema, a configuração de site do Active Directory e definições de configuração de transporte de toda a organização do Exchange.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Para proteger contra exclusões intencionais ou acidentais e facilitar os esforços de descoberta geralmente empreendidos antes ou durante litígios ou investigações, o Microsoft Exchange Server 2013 e o Exchange Online usam a pasta Itens Recuperáveis. A pasta Itens Recuperáveis substitui o recurso conhecido como *dumpster* nas versões mais recentes do Exchange. A pasta Itens Recuperáveis é usada pelos seguintes recursos do Exchange:
 

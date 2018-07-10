@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Pressão de retorno é um recurso de monitoramento dos recursos do sistema do serviço de Transporte do Microsoft Exchange que existe nos servidores de Caixa de Correio e de Transporte de Borda no Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 As permissões necessárias para executar tarefas relacionadas a fluxo de email variam dependendo do procedimento que está sendo executado ou o cmdlet que você deseja executar. Para mais informações sobre os recursos de transporte, consulte [Fluxo de mensagens](mail-flow-exchange-2013-help.md).
 

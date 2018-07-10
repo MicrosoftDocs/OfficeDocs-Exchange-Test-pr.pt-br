@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-05-07_
+_**Tópico modificado em:** 2014-05-07_
 
 Por padrão, a Pesquisa do Exchange é habilitada para todos os novos bancos de dados de caixa de correio e não exige configuração adicional. Entretanto, se você quiser que a Pesquisa do Exchange pare de indexar o conteúdo da caixa de correio, você pode desabilitar a pesquisa para bancos de dados de caixas de correio individuais ou para todo um servidor de Caixa de Correio.
 

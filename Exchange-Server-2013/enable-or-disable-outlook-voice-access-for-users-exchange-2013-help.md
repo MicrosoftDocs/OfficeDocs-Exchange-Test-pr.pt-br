@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-12_
+_**Tópico modificado em:** 2012-12-12_
 
 É possível habilitar ou desabilitar o acesso aos Outlook Voice Access para usuários habilitados para Unificação de mensagens que estão associados uma diretiva de caixa de correio de Unificação de mensagens (UM). Outlook Acesso de voz é um recurso usado pelos usuários habilitados para acessar suas caixas de correio através de um telefone. Por padrão, essa configuração estiver habilitada.
 

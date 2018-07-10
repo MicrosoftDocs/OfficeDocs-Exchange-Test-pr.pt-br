@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2012-11-12_
+_**Tópico modificado em:** 2012-11-12_
 
 Microsoft Exchange Server 2013 instalação detectou que você está tentando executar a instalação em um controlador de domínio do Active Directory e uma das opções a seguir for verdadeira:
 

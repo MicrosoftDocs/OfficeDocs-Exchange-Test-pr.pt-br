@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Depois de criar, validar e implantar uma alta disponibilidade do Microsoft Exchange Server 2013 ou uma solução de resiliência do site, as transições de solução da fase de implantação para a fase operacional do ciclo de vida de solução geral. A fase operacional consiste em várias tarefas, e todas as tarefas relacionadas a uma das seguintes áreas: grupos de disponibilidade (DAGs), cópias de banco de dados de caixa de correio, executando o monitoramento proativo e gerenciando alternâncias e failovers de banco de dados.
 

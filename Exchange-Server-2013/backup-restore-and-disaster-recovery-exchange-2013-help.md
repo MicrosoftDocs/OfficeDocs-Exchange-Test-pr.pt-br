@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Como parte do planejamento para proteção de dados, é importante compreender as formas nas quais os dados podem ser protegidos e determinar qual o método que melhor atende às necessidades da organização. O planejamento para proteção de dados é um processo complexo que depende de várias decisões tomadas durante a fase de planejamento da implantação.
 

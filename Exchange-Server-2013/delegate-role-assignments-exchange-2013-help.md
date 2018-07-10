@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-02_
+_**Tópico modificado em:** 2012-10-02_
 
 Delegação de função de gerenciamento permite que os destinatários de função atribuir uma função de gerenciamento especificada a outros grupos de funções de gerenciamento, diretivas de atribuição de função de gerenciamento, usuários ou grupos de segurança universal (USG). Por padrão, somente os membros do grupo de função de gerenciamento de gerenciamento da organização podem delegar atribuições de função. Quando uma nova instalação do Microsoft Exchange Server 2013 for implantada, apenas a conta de usuário que instalou o Exchange 2013 é um membro do grupo de funções de gerenciamento da organização.
 

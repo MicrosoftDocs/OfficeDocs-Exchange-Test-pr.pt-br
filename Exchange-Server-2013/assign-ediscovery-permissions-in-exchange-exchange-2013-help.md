@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-10-02_
+_**Tópico modificado em:** 2014-10-02_
 
 Se desejar que os usuários sejam capazes de usar o Microsoft Exchange Server 2013 In-Place eDiscovery, você deve primeiro autorizá-los adicionando-os ao grupo de funções de gerenciamento de descoberta. Membros do grupo de função Gerenciamento de Descobertas tem permissões de caixa de correio de acesso total para a caixa de correio de descoberta criada por Exchange instalação.
 

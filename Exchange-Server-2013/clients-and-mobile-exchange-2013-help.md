@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Há vários clientes diferentes que podem ser usados para acessar informações em uma caixa de correio do Microsoft Exchange Server 2013. Esses clientes incluem programas desktop, como Microsoft Outlook, Outlook Web App, e clientes móveis, como celulares, tablets e outros dispositivos móveis. Cada um desses clientes oferece uma variedade de recursos.
 
@@ -51,7 +51,7 @@ A tabela a seguir contém links para tópicos que irão ajudar você a aprender 
 <td><p>Saiba como os usuários podem acessar seus emails do Exchange 2013 usando programas de email que utilizam POP3 ou IMAP4.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://technet.microsoft.com/pt-br/library/jj150495(v=exchg.150)">Integração com o Office Web Apps Server</a></p></td>
+<td><p>Integração com o Office Web Apps Server</p></td>
 <td><p>Saiba como a integração do Microsoft Office Web Apps Server ajuda a fornecer uma funcionalidade de visualização de anexo completa no Outlook Web App.</p></td>
 </tr>
 <tr class="odd">

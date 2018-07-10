@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-20_
+_**Tópico modificado em:** 2013-02-20_
 
 Este tópico descreve os recursos do cliente que permitem que usuários habilitados para a Unificação de Mensagens (UM) do Exchange acessem o email e as mensagens de caixa postal em sua caixa de correio. Esses recursos permitem oferecer aos usuários acesso simplificado a email e caixa postal em uma experiência geral aprimorada para os usuários.
 

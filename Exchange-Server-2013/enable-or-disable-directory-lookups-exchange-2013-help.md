@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-05-10_
+_**Tópico modificado em:** 2016-05-10_
 
 Você pode habilitar pesquisas de diretório para que os chamadores que ligam para um atendedor automático de Unificação de mensagens (UM) podem pesquisar nomes no diretório usando o teclado de seus telefones, mas não conseguir pesquisar o diretório usando entradas de voz. Essa configuração estiver habilitada por padrão. Se essa configuração estiver desativada, os chamadores não será capazes de pesquisar o diretório para uma pessoa específica usando discagem por tom ou comandos de voz.
 

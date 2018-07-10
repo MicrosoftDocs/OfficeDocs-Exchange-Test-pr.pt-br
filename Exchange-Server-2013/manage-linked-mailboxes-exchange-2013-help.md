@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-27_
+_**Tópico modificado em:** 2012-11-27_
 
 Caixas de correio vinculadas são caixas de correio que são acessadas por usuários em uma floresta confiável separada. Caixas de correio vinculadas podem ser necessárias para organizações que implantam Exchange em uma floresta de recursos. O cenário de floresta de recurso permite que uma organização centralizar Exchange em uma única floresta, permitindo o acesso à organização Exchange com contas de usuário que estão localizados em um ou mais florestas confiáveis (chamadas de *florestas de conta*). A conta de usuário que acessa a caixa de correio vinculada não existe na floresta onde o Exchange está implantado. Portanto, uma conta de usuário desabilitadas que existe na mesma floresta que Exchange é criada e associada a caixa de correio vinculada correspondente.
 
@@ -358,7 +358,7 @@ Use a seção **Delegação da Caixa de Correio**, para atribuir permissões par
 
   - **Enviar como**   Essa permissão permite que usuários que não o proprietário da caixa de correio usem a caixa de correio para enviar mensagens. Depois de essa permissão ser atribuída a um representante, qualquer mensagem que um representante enviar desta caixa de correio irá parecer ter sido enviada pelo proprietário da caixa de correio. Entretanto, essa permissão não permite que um representante entre na caixa de correio do usuário.
 
-  - **Enviar em nome de**   Essa permissão também permite que o representante use essa caixa de correio para enviar mensagens. No entanto, após essa permissão ser atribuída a um representante, o endereço **De:** , em qualquer mensagem enviada pelo representante, indicará que a mensagem foi enviada pelo representante em nome do proprietário da caixa de correio.
+  - **Enviar em nome de**   Essa permissão também permite que o representante use essa caixa de correio para enviar mensagens. No entanto, após essa permissão ser atribuída a um representante, o endereço **De:**  , em qualquer mensagem enviada pelo representante, indicará que a mensagem foi enviada pelo representante em nome do proprietário da caixa de correio.
 
   - **Acesso total**   Essa permissão permite que um representante entre na caixa de correio de um usuário e veja o conteúdo da caixa de correio. Entretanto, depois de essa permissão ter sido atribuída a um representante, ele não poderá enviar mensagens da caixa de correio. Para permitir que o representante envie emails da caixa de correio do usuário, você ainda terá que atribuir a ele a permissão Enviar como ou Enviar em Nome de.
 

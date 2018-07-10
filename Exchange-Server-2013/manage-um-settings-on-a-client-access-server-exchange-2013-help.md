@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-09_
+_**Tópico modificado em:** 2013-04-09_
 
 Depois de instalar um servidor de Acesso para Cliente que esteja executando o serviço de Roteamento de Chamada de Unificação de Mensagens do Microsoft Exchange, você poderá configurar diversas opções, incluindo o número de chamadas consecutivas, as portas de escuta de protocolo TCP e TLS, o status e o modo de inicialização.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-07-14_
+_**Tópico modificado em:** 2014-07-14_
 
 No Microsoft Exchange Server 2013, você pode usar In-Place eDiscovery para pesquisar o conteúdo de caixa de correio. Você pode remover uma pesquisa de descoberta eletrônica In-loco a qualquer momento. Quando você remove uma pesquisa de descoberta eletrônica In-loco, os resultados da pesquisa serão removidos da caixa de correio de descoberta.
 

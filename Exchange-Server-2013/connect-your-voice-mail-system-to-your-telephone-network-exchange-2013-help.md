@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-20_
+_**Tópico modificado em:** 2013-04-20_
 
 Depois que você implantou o equipamento de telefonia necessários para sua organização, incluindo sua VoIP gateways, IP PBXs e PBXs habilitados para SIP ou Microsoft Lync Server, você precisará criar todos os componentes de Unificação de mensagens (UM) que permitem que os dispositivos de telefonia para se comunicar com os servidores em sua organização.
 

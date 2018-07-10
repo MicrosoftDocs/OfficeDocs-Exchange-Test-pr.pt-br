@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Se desejar Certifique-se que você receber mensagens específicas, você pode criar uma regra de transporte do Exchange que garante que essas mensagens ignoram sua pasta confusão. Confira [Desorganização usar para classificar as mensagens de baixa prioridade no Outlook Web App](https://go.microsoft.com/fwlink/p/?linkid=528411) para obter mais informações sobre desorganização.
 

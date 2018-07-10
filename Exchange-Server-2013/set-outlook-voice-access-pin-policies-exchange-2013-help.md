@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode definir diretivas de PIN em uma diretiva de caixa de correio de UM (Unificação de Mensagens). As políticas de caixa de correio da UM podem ser configuradas para aumentar o nível de segurança dos usuários habilitados pela UM que usam o Outlook Voice Access ao solicitar que os usuários atuem de acordo com as políticas de PIN predefinidas da sua organização.
 

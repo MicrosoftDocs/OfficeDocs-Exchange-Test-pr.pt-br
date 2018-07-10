@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 As funções de gerenciamento que não forem mais necessárias podem ser removidas da sua organização. Você pode remover apenas as funções de gerenciamento que você criou. Funções de gerenciamento internas não podem ser removidas. Para mais informações sobre as funções de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

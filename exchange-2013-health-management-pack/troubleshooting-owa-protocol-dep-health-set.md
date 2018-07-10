@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O conjunto de integridade **OWA.Protocol.DEP** monitora a integridade geral dos serviços de mensagens instantâneas (IM) de mensagens no Outlook Web App integradas entre Lync 2013 e Exchange 2013. Para obter mais informações sobre como habilitar o recurso de mensagens instantâneas no Outlook Web App, consulte [integrando Microsoft Lync Server 2013 e o Microsoft Outlook Web App 2013](https://go.microsoft.com/fwlink/p/?linkid=280418).
 

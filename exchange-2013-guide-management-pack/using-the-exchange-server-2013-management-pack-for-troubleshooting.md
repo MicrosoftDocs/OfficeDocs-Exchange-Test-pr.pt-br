@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:** 2013-04-09_
+_**Tópico modificado em:**  2013-04-09_
 
 O [Introdução ao Pacote de Gerenciamento do Exchange Server 2013](getting-started-with-exchange-server-2013-management-pack.md) fornece uma visão geral do painel do pacote de gerenciamento. Este tópico fornece as orientações sobre como ele pode te ajudar a solucionar um problema. Ilustra-se o processo melhor por meio de um exemplo. Considere o seguinte cenário:
 

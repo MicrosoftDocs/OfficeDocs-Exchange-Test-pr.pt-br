@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-07-31_
+_**Tópico modificado em:** 2015-07-31_
 
 Você pode usar o MicrosoftOfficeOutlook Web App Web Parts, abra a caixa de correio de especificar a pasta dentro abrir essa caixa de correio e o modo de exibição de conteúdo para usar.
 
@@ -169,13 +169,13 @@ Outlook Web App Web Parts ser também podem ser inseridos manualmente em um nave
 
 Os exemplos a seguir mostram como acessem diretamente os modos de exibição comuns do Outlook Web App:
 
-  - **Caixa de entrada:** https://*\<server name\>*/owa/?cmd = conteúdo & módulo = a caixa de entrada
+  - **Caixa de entrada:**  https://*\<server name\>*/owa/?cmd = conteúdo & módulo = a caixa de entrada
 
-  - **(Hoje) de calendário:**https://*\<server name\>*/owa/?cmd = conteúdo & módulo = calendário & exsvurl = 1
+  - **(Hoje) de calendário:** https://*\<server name\>*/owa/?cmd = conteúdo & módulo = calendário & exsvurl = 1
 
-  - **(Semanalmente) de calendário:** https://*\<server name\>*/owa/?cmd = conteúdo & módulo = calendário & view = weekly & exsvurl = 1
+  - **(Semanalmente) de calendário:**  https://*\<server name\>*/owa/?cmd = conteúdo & módulo = calendário & view = weekly & exsvurl = 1
 
-  - **(Mensalmente) de calendário:** https://*\<server name\>*/owa/?cmd = conteúdo & módulo = calendário & view = mensal & exsvurl = 1
+  - **(Mensalmente) de calendário:**  https://*\<server name\>*/owa/?cmd = conteúdo & módulo = calendário & view = mensal & exsvurl = 1
 
 ## Para Obter Mais Informações
 

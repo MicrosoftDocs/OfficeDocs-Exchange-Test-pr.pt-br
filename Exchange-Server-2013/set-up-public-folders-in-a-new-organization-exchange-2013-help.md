@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-11-09_
+_**Tópico modificado em:** 2015-11-09_
 
-**Resumo:** como configurar pastas públicas, inclusive na atribuição de permissões para acessá-los no EAC.
+**Resumo:**  como configurar pastas públicas, inclusive na atribuição de permissões para acessá-los no EAC.
 
 Este tópico mostra como configurar e executar pastas públicas em uma nova organização ou em uma organização que nunca teve pastas públicas antes.
 

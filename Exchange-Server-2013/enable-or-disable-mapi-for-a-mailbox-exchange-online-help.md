@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-12-31_
+_**Tópico modificado em:** 2017-12-31_
 
 Você pode usar o Centro de administração do Exchange ou o Shell de Gerenciamento do Exchange para habilitar ou desabilitar o MAPI para uma caixa de correio do usuário. Quando o MAPI estiver habilitado, caixa de correio de um usuário pode ser acessada por Outlook ou outros clientes de email MAPI. Se o MAPI estiver desabilitado, ele não pode ser acessado por Outlook ou outros clientes MAPI. No entanto, a caixa de correio continuarão a receber mensagens de email e, supondo que a caixa de correio está habilitada para suportar o acesso por esses clientes, um usuário pode acessar a caixa de correio para enviar e receber emails usando um cliente IMAP, um cliente de email POP ou Outlook Web App.
 

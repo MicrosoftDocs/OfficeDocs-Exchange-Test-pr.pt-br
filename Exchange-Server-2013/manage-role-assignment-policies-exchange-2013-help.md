@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-09_
+_**Tópico modificado em:** 2012-10-09_
 
 Se você quiser personalizar as permissões que você atribuir a um grupo de usuários finais, crie uma nova política de atribuição de função de gerenciamento personalizado. A política de atribuição que você criar pode ser personalizada para atender a requisitos específicos do seu usuário final. Para obter mais informações sobre políticas de atribuição no Microsoft Exchange Server 2013, consulte [Noções básicas sobre diretivas de atribuição de função de gerenciamento](understanding-management-role-assignment-policies-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Se sua organização está tendo problemas com a qualidade de áudio de chamadas de Unificação de mensagens (UM) e mensagens de caixa postal, use o relatório de estatísticas de chamada para ajudá-lo a entender o que está causando os problemas.
 

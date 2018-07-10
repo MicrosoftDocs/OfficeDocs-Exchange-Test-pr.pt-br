@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Unificação de Mensagens (UM) do Exchange permite que você forneça serviços de caixa postal a usuários em sua organização. Ao implantar a Unificação de Mensagens, você deve integrar sua implantação do Exchange Server com o sistema de telefonia existente para sua organização ou integrá-la ao Microsoft Lync Server. Uma implantação bem-sucedida exige uma análise cuidadosa da infraestrutura de telefonia existente para que você execute as etapas corretas de planejamento a fim de implantar e gerenciar a caixa postal na Unificação de Mensagens. Se você estiver integrando o Exchange ao Lync Server, você também deve se familiarizar com o produto.
 

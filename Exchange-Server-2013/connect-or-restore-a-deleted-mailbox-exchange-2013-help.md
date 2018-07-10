@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-05-04_
+_**Tópico modificado em:** 2015-05-04_
 
 É possível utilizar o EAC ou o Shell para conectar uma caixa de correio excluída a uma conta de usuário do Active Directory. Ao excluir uma caixa de correio, o Exchange mantém a caixa de correio no banco de dados de caixa de correio e alterna a caixa de correio para um estado desabilitado. A conta de usuário do Active Directory associada também é excluída. A caixa de correio fica retida até o período de retenção da caixa de correio excluída expirar, que é de 30 dias por padrão. Depois disso, ela será excluída (ou *eliminada*) permanentemente do banco de dados de caixa de correio.
 

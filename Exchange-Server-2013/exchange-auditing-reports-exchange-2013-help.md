@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Use o log de auditoria para solucionar problemas de configuração controlando alterações específicas feitas pelos administradores e para ajudar você a atender aos requisitos normativos, de conformidade e de litígio. O Microsoft Exchange fornece dois tipos de log de auditoria:
 
@@ -61,9 +61,9 @@ Quando você executa qualquer um dos relatórios a seguir na página **Auditoria
 
   - **Executar um relatório de acesso à caixa de correio de não proprietário**   Utilize este relatório para encontrar caixas de correio que foram acessadas por alguém que não era o proprietário da caixa de correio. Para saber mais, confira [Executar um relatório de acesso não proprietário da caixa de correio](run-a-non-owner-mailbox-access-report-exchange-online-help.md).
 
-  - **Executar um relatório do grupo de funções do administrador:** Utilize esse relatório para procurar alterações feitas nos grupos de funções do administrador. Para mais informações, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+  - **Executar um relatório do grupo de funções do administrador:**  Utilize esse relatório para procurar alterações feitas nos grupos de funções do administrador. Para mais informações, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
 
-  - **Executar uma descoberta in-loco e relatório de suspensão:** Utilize este relatório para encontrar caixas de correio que tenham sido colocadas em, ou removidas de, Suspensão no Local. Para mais informações, consulte:
+  - **Executar uma descoberta in-loco e relatório de suspensão:**  Utilize este relatório para encontrar caixas de correio que tenham sido colocadas em, ou removidas de, Suspensão no Local. Para mais informações, consulte:
     
       - [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
     

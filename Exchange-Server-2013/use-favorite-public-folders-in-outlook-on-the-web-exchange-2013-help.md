@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-06-24_
+_**Tópico modificado em:** 2016-06-24_
 
 No cliente do Outlook, os usuários em sua organização podem adicionar pastas públicas para suas pastas **Favoritos** . Em seguida, dependendo das políticas da sua organização, eles podem usar a Outlook na Web para adicionar as mesmas pastas públicas para seus favoritos e realizar determinadas funções no Outlook na Web empregados no cliente do Outlook.
 

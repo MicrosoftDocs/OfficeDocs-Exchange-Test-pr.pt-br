@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Você pode habilitar ou desabilitar o Indicador de Mensagens em Espera para usuários associados a uma política de caixa de correio de UM (Unificação de Mensagens). Indicador de Espera da Mensagem é um recurso encontrado na maioria dos sistemas de caixa postal legados. Em sua forma mais comum, uma luz no telefone do assinante de mensagens de voz acende para indicar a presença de uma nova mensagem de caixa postal. O Indicador de Mensagens em Espera também pode enviar uma mensagem de texto para o telefone celular de um usuário habilitado para UM. A configuração padrão é Habilitado.
 

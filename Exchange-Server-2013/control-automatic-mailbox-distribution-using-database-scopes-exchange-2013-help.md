@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 A distribuição de caixa de correio automática é um recurso do Microsoft Exchange Server 2013 que aleatoriamente seleciona um banco de dados de caixa de correio para armazenar uma caixa de correio nova ou movia quando você não especifica um banco de dados explicitamente. Esse recurso pode ser útil quando você quer permitir que administradores juniores ou a equipe de suporte técnico para criar caixas de correio sem precisar saber quais bancos de dados de caixa de correio devem ser criados.
 

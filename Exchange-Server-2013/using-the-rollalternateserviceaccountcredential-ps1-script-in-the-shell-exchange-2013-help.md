@@ -13,20 +13,20 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode usar o script RollAlternateServiceAccountPassword.ps1 Exchange Server 2013 fto atualização uma credencial de conta de serviço alternativa (credencial ASA) e distribuir a atualização para os servidores de acesso para cliente especificados.
 
 
-> [!TIP]
-> Exchange Shell de gerenciamento não carrega automaticamente scripts. Você precisa preceder todos os scripts com "<STRONG>. \</STRONG> " por exemplo, para executar o script RollAlternateServiceAccountPassword.ps1, digite <CODE>.\RollAlternateServiceAccountPassword.ps1</CODE>.
+> [!TIP]  
+> Exchange Shell de gerenciamento não carrega automaticamente scripts. Você precisa preceder todos os scripts com "./\" por exemplo, para executar o script RollAlternateServiceAccountPassword.ps1, digite <code>.\RollAlternateServiceAccountPassword.ps1</code>.
 
 
 
 
-> [!TIP]
+> [!TIP]  
 > Esse script é fornecido apenas em inglês.
 
 
@@ -72,7 +72,7 @@ Se as senhas não são alteradas com sucesso para todos os servidores de acesso 
 Se desejar que o script para criar uma tarefa agendada para manter a senha constantemente, use o parâmetro *CreateScheduledTask* . Este parâmetro requer uma cadeia de caracteres para o nome da tarefa à qual que você deseja criar.
 
 
-> [!TIP]
+> [!TIP]  
 > Execute o script e verificar se ela funciona corretamente no modo assistido antes de criar a tarefa agendada autônoma.
 
 
@@ -161,7 +161,7 @@ Você pode usar o log para confirmar que a tarefa foi executada com êxito.
 <td><p>Opcional</p></td>
 <td><p>O parâmetro <em>ToArrayMembers</em> refere-se o script para todos os membros de uma matriz de servidores de acesso para cliente específico.</p>
 
-> [!TIP]
+> [!TIP]  
 > Se você estiver usando o parâmetro <EM>ToArrayMembers</EM> ou <EM>ToSpecificServers</EM> , você precisará especificar os nomes do servidor ou os nomes de matriz de servidores usando o parâmetro <EM>Identity</EM> .
 
 
@@ -172,7 +172,7 @@ Você pode usar o log para confirmar que a tarefa foi executada com êxito.
 <td><p>Opcional</p></td>
 <td><p>O parâmetro <em>ToSpecificServers</em> refere-se o script para servidores específicos.</p>
 
-> [!TIP]
+> [!TIP]  
 > Se você estiver usando o parâmetro <EM>ToArrayMembers</EM> ou <EM>ToSpecificServers</EM> , você precisará especificar os nomes do servidor ou os nomes de matriz de servidores usando o parâmetro <EM>Identity</EM> .
 
 
@@ -203,7 +203,7 @@ Você pode usar o log para confirmar que a tarefa foi executada com êxito.
 <td><p>Opcional</p></td>
 <td><p>O parâmetro <em>CreateScheduledTask</em> informa ao script para criar uma tarefa agendada para executar a atualização de credencial ASA. O valor de cadeia de caracteres é o nome da tarefa agendada que será criado.</p>
 
-> [!TIP]
+> [!TIP]  
 > Esse script cria um arquivo. cmd na pasta onde o script está localizado. A tarefa agendada será executado o arquivo. cmd uma vez a cada três semanas. Você pode editar a tarefa diretamente no Windows Agendador de tarefas para alterar a frequência da tarefa.
 
 

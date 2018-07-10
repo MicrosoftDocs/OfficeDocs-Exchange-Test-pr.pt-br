@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-14_
+_**Tópico modificado em:** 2012-11-14_
 
 Quando você habilita um usuário para UM e o vincula a um plano de discagem de ramal telefônico, um endereço proxy EUM é criado para o usuário que possui o número de ramal de usuário. Você deve definir pelo menos um número de ramal para a UM usar para que as mensagens de caixa postal sejam enviadas à caixa de correio do usuário. O número do ramal também é usado quando o usuário faz uma chamada telefônica para um número do Outlook Voice Access.
 

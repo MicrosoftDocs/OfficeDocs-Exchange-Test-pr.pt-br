@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-17_
+_**Tópico modificado em:** 2013-04-17_
 
 [Instalar um pacote de idiomas para UM](install-a-um-language-pack-exchange-2013-help.md)
 

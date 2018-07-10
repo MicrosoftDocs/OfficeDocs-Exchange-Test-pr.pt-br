@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-11-17_
+_**Tópico modificado em:** 2016-11-17_
 
 Você pode definir configurações antispam específicas em caixas de correio individuais que sejam diferentes das configurações antispam aplicadas ao resto das caixas de correio na sua organização Exchange. Ao definir uma configuração antispam em uma caixa de correio, essa configuração substitui a filtragem de conteúdo correspondente na organização ou a configuração antispam padrão da organização.
 

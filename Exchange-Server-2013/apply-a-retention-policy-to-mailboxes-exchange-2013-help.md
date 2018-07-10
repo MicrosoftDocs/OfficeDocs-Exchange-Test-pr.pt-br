@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-10-01_
+_**Tópico modificado em:** 2014-10-01_
 
 É possível usar as diretivas de retenção para agrupar uma ou mais marcas de retenção e aplicá-las a caixas de correio para impor configurações de retenção de mensagem. Uma caixa de correio não pode ter mais de uma diretiva de retenção.
 

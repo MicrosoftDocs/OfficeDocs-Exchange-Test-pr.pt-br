@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-03-15_
+_**Tópico modificado em:** 2013-03-15_
 
 Você pode remover uma política de caixa de correio MicrosoftOutlook Web App de uma organização Exchange usando o EAC ou o Shell.
 

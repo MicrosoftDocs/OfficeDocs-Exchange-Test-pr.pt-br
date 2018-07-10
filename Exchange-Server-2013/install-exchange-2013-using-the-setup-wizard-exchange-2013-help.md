@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-19_
+_**Tópico modificado em:** 2014-06-19_
 
 Este tópico explica como usar o assistente de instalação do Microsoft Exchange Server 2013 para instalar as funções de Caixa de Correio e Acesso para Cliente do Exchange 2013 em um computador. Para obter mais informações sobre o planejamento e a implantação do Exchange 2013, consulte [Planejamento e implantação](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

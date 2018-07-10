@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Unificação de Mensagens (UM) do Exchange do Microsoft conta com soluções de fax de parceiros certificadas para recursos de fax aprimorados, como encaminhamento de fax ou fax de saída. Por padrão, servidores Exchange não estão configurados para permitir que os faxes de entrada sejam entregues a um usuário habilitado para UM. Em vez disso, o servidor do Exchange redireciona as chamadas de fax de entrada para uma solução de parceiro de fax certificada. O servidor de fax do parceiro recebe os dados do fax e os envia à caixa de correio do usuário em uma mensagem de email com o fax incluído como anexo .tif.
 

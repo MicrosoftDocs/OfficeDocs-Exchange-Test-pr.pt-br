@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-05-03_
+_**Tópico modificado em:** 2017-05-03_
 
 Ações de regras de fluxo de correio (também conhecido como regras de transporte) especificam o que você deseja fazer a mensagens que correspondam às condições da regra. Por exemplo, você pode criar uma regra que encaminha as mensagens de remetentes específicos para um moderador ou adiciona um aviso de isenção ou personalizadas de assinatura a todas as mensagens de saída.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode importar e exportar os arquivos de áudio gravados para usar em planos de discagem de Unificação de mensagens (UM) e atendedores automáticos. Por exemplo, talvez você queira exportar e salvar uma cópia de um arquivo de áudio, se você estiver atualizando de uma versão anterior do Exchange. Ou, talvez seja necessário importar uma cópia de um prompt de áudio gravado antes de configurar um plano de discagem ou auto attendant.
 

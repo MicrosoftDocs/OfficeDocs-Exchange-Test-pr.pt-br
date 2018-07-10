@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 No Microsoft Exchange Server 2013, o log de controle de mensagens é um registro detalhado de toda a atividade de mensagens à medida que as mensagens são transferidas para e do serviço de Transporte em Servidores de Caixa de Correio, caixas de correio em Servidores de Caixa de Correio, e servidores de Transporte de Borda. Você pode usar os logs de controle de mensagens para perícia de mensagens, análise de fluxo de mensagens, relatórios e solução de problemas.
 
@@ -103,15 +103,15 @@ As informações são gravadas em cada arquivo de log até que o tamanho do arqu
 
 Os arquivos de log de controle de mensagens são arquivos de texto que contêm dados no formato de arquivo de CSV (valores separados por vírgula). Cada arquivo de log de controle de mensagens possui um cabeçalho com as seguintes informações:
 
-  - **\#Software:** o nome do software que criou o arquivo de log de controle de mensagens Geralmente, o valor é Microsoft Exchange Server.
+  - **\#Software:**  o nome do software que criou o arquivo de log de controle de mensagens Geralmente, o valor é Microsoft Exchange Server.
 
-  - **\#Version:** o número da versão do software que criou o arquivo de log de controle de mensagens. Atualmente, o valor é 15.0.0.0.
+  - **\#Version:**  o número da versão do software que criou o arquivo de log de controle de mensagens. Atualmente, o valor é 15.0.0.0.
 
-  - **\#Log-Type:**   valor do tipo de log, que é o Log de Controle de Mensagens.
+  - **\#Log-Type:**    valor do tipo de log, que é o Log de Controle de Mensagens.
 
-  - **\#Date:**a data e a hora UTC em que o arquivo de log foi criado. A data e a hora UTC é representada no formato de data e hora ISO 8601: aaaa-mm-dd*yyyy-mm-dd*Thh:mm:ss.fff*hh:mm:ss.fff*Z, em que aaaa*yyyy* = ano, mm*mm* = mês, dd*dd* = dia, T indica o início de componente de hora, hh*hh* = hora, mm*mm* = minuto, ss*ss* = segundo, fff*fff* = frações de um segundo e Z significa Zulu, que é outra maneira de indicar UTC.
+  - **\#Date:** a data e a hora UTC em que o arquivo de log foi criado. A data e a hora UTC é representada no formato de data e hora ISO 8601: aaaa-mm-dd*yyyy-mm-dd*Thh:mm:ss.fff*hh:mm:ss.fff*Z, em que aaaa*yyyy* = ano, mm*mm* = mês, dd*dd* = dia, T indica o início de componente de hora, hh*hh* = hora, mm*mm* = minuto, ss*ss* = segundo, fff*fff* = frações de um segundo e Z significa Zulu, que é outra maneira de indicar UTC.
 
-  - **\#Fields:**   os nomes de campos delimitados por vírgulas usados nos arquivos de log de controle de mensagens.
+  - **\#Fields:**    os nomes de campos delimitados por vírgulas usados nos arquivos de log de controle de mensagens.
 
 Voltar ao início
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-07_
+_**Tópico modificado em:** 2013-02-07_
 
 O IMAP. O conjunto de integridade de protocolo monitores o IMAP4 protocolo no servidor de caixa de correio. Se você receber um alerta que especifica que o IMAP. Conjunto de integridade do protocolo não está íntegro, que isso indica um problema que afeta o protocolo IMAP4 no servidor de caixa de correio que é indicado no alerta.
 

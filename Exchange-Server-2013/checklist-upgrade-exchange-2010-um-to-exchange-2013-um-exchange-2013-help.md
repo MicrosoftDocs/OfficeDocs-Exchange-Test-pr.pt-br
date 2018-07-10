@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Use esta lista de verificação para ajudar você a atualizar da Unificação de Mensagens (UM) do Exchange 2010 para a UM do Exchange 2013. Consulte estas informações quando estiver atualizando sua organização do Exchange 2010 e sua implantação de UM para o Exchange 2013. Para ver instruções passo a passo de atualização para a UM do Exchange 2013, consulte [Atualizar UM do Exchange 2010 para UM do Exchange 2013](upgrade-exchange-2010-um-to-exchange-2013-um-exchange-2013-help.md).
 

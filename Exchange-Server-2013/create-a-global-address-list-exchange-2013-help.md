@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 A GAL (lista de endereços global) é um diretório que contém entradas para todos os grupos, usuários e contatos na implementação do Microsoft Exchange de uma organização. Se sua organização utiliza políticas de catálogo de endereços, você pode desejar criar listas de endereços globais (GALs) adicionais. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
 

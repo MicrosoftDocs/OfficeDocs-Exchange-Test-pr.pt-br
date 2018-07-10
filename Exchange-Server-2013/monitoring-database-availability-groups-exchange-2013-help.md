@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode usar os detalhes neste tópico para monitorar a integridade e o status de cópias de banco de dados de caixa de correio para grupos de disponibilidade de banco de dados (DAGs), para reunir informações de diagnósticos e para configurar o espaço em disco insuficiente limite de monitoramento.
 

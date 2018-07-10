@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 *Fila de prioridades* é um recurso do Microsoft Exchange Server 2013 que habilita a prioridade de mensagens configurada pelo remetente no Microsoft Outlook ou no Outlook Web Access a fim de influenciar o processamento da mensagem pelo serviço de Transporte no servidor de Caixa de Correio. Quando a fila de prioridades é habilitada, mensagens com Alta prioridade são transmitidas aos seus destinos antes das mensagens com Prioridade normal, e estas são transmitidas antes das que têm Baixa prioridade. Para obter mais informações, consulte [Enfileiramento prioritário](priority-queuing-exchange-2013-help.md).
 

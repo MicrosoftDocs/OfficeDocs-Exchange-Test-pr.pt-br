@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-25_
+_**Tópico modificado em:** 2012-09-25_
 
 Um conector Estrangeiro entrega mensagens para um servidor ou sistema estrangeiro que não usa SMTP como seu mecanismo de transporte principal. Um exemplo disso pode ser um servidor de gateway de fax. Um conector Estrangeiro usa um diretório de Recebimento, para enviar mensagens de saída, através de uma transferência de arquivos, para o sistema estrangeiro. Os conectores estrangeiros são criados no serviço de Transporte de um servidor de Caixa de Correio do Microsoft Exchange Server 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-15_
+_**Tópico modificado em:** 2014-02-15_
 
 As políticas de compartilhamento são uma parte do compartilhamento federado e permitem o compartilhamento estabelecido pelo usuário, de pessoa para pessoa, das informações de calendário com tipos diferentes de usuários externos. A política de compartilhamento que o administrador aplica à caixa de correio do usuário determina até qual nível de compartilhamento o usuário tem acesso e com quem ele pode compartilhar. Se você não alterar algo, a política de compartilhamento padrão será aplicada a todos os usuários. Se você criar uma nova política de compartilhamento, terá que aplicá-la às caixas de correio antes que ela entre em vigor. Uma política de compartilhamento pode ser aplicada a uma caixa de correio de usuário única ou a várias caixas de correio de usuário simultaneamente. O administrador também pode desabilitar políticas de compartilhamento de usuários para evitar o acesso externo aos calendários.
 

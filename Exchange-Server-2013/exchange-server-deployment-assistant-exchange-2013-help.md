@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Exchange Server Deployment Assistant é uma ferramenta baseada na Web que pode ajudá-lo com sua implantação do Microsoft Exchange Server 2016 e Exchange Server 2013. O Assistente de implantação faz algumas perguntas sobre seu ambiente atual e, em seguida, gera uma lista de verificação personalizada e procedimentos que ajudam a simplificar a implantação. Para acessar o Assistente de implantação, consulte [Exchange Server Deployment Assistant](https://go.microsoft.com/fwlink/p/?linkid=277105).
 

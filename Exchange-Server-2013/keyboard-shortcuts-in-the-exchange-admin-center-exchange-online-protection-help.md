@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Microsoft está comprometida em tornar seus produtos e serviços mais fáceis de usar para todos. As seções a seguir fornecem informações sobre os atalhos de teclado que tornam o Microsoft Exchange e outros produtos e serviços Microsoft mais acessíveis para pessoas com deficiências.
 
@@ -45,7 +45,7 @@ Usando atalhos de teclado no EAC (Centro de Administração do Exchange), você 
 <td><p>Mover-se entre itens em menus suspensos no EAC</p></td>
 <td><p>Setas para cima e para baixo.</p>
 
-> [!TIP]
+> [!TIP]  
 > Não há suporte a Tab e Shift+Tab para a movimentação entre itens de menu nesse caso.
 
 
@@ -55,7 +55,7 @@ Usando atalhos de teclado no EAC (Centro de Administração do Exchange), você 
 <td><p>Mover-se nas listas de um item para outro</p></td>
 <td><p>Teclas de seta para cima, baixo, Home, End, Page Up, Page Down.</p>
 
-> [!TIP]
+> [!TIP]  
 > Você também pode usar as teclas de setas para cima, baixo, esquerda e direita para se movimentar entre os botões de opções ou em um grupo de caixas de seleção associadas.
 
 

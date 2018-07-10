@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-13_
+_**Tópico modificado em:** 2012-11-13_
 
 Você pode usar o EAC ou o Shell para habilitar ou desabilitar o Microsoft Exchange ActiveSync para uma caixa de correio de usuário. O Exchange ActiveSync é um protocolo cliente que permite aos usuários sincronizar um dispositivo móvel com a caixa de correio do Exchange. O Exchange ActiveSync é ativado por padrão quando uma caixa de correio de usuário é criada. Para saber mais, confira [Exchange ActiveSync](exchange-activesync-exchange-2013-help.md).
 

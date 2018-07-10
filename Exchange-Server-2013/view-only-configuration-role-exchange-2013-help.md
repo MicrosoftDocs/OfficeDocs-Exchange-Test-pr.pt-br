@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `View-Only Configuration` permite aos administradores exibir todas as definições de configuração de destinatário não Exchange em uma organização. Exemplos de configuração que podem ser exibidos são a configuração do servidor, configuração de transporte, configuração do banco de dados e configuração de toda a organização.
 

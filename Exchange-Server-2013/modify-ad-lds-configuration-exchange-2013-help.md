@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode usar o script **ConfigureAdam.ps1** (localizado em $env:CaminhoInstalaçãoExchange\\Scripts) para modificar a configuração padrão do Active Directory Lightweight Directory Services (AD LDS) em servidores de Transporte de Borda antes de inscrever o servidor de Transporte de Borda em sua organização do Exchange.
 

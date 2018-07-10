@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A tarefa principal do serviço de Transporte que existe em todos os servidores de Caixa de Correio na sua organização do Microsoft Exchange Server 2013 é rotear mensagens recebidas de usuários e fontes externas para seus destinos. As decisões de roteamento são feitas durante a categorização de mensagens. O categorizador é um componente do serviço de Transporte em um servidor de Caixa de Correio que processa todas as mensagens de entrada e determina o que fazer com as mensagens com base nas informações sobre seus destinos.
 

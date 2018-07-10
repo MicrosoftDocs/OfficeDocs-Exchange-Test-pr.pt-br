@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Os diretórios de Retirada e Reprodução são utilizados pelo serviço de Transporte em servidores de Caixa de Correio e servidores de Transporte de Borda para inserir arquivos de mensagens diretamente no pipeline de transporte. Os arquivos de mensagens de email formatados corretamente que você copia para o Diretório de Retirada e Reprodução são enviados para entrega. O diretório de Retirada é usado por administradores para testes de fluxo de mensagens ou por aplicativos que devem criar e enviar suas próprias mensagens. O Diretório de repetição recebe mensagens de servidores de gateway externos não SMTP e reenvia mensagens que você exportou das filas de servidores do Microsoft Exchange.
 

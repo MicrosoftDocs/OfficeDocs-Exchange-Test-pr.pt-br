@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você deve configurar a voz através de gateways IP (VoIP) e IP Private Branch troca (PBXs) corretamente quando você implantar a Unificação de mensagens (UM) para sua organização. Se você estiver implantando a Unificação de MENSAGENS em um ambiente híbrido, você também precisará configurar corretamente os controladores de borda de sessão (SBCs). Para fazer isso, você precisará configurar a ou mais interfaces do gateways VoIP, PBXs IP e SBCs se comunicar com os servidores de acesso para cliente que executa o serviço Microsoft Exchange Unified Messaging roteador de chamada e os servidores de caixa de correio executando o serviço de Unificação de mensagens do Microsoft Exchange.
 

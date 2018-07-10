@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-11_
+_**Tópico modificado em:** 2013-02-11_
 
 Após instalar o servidor de Caixa de Correio que está sendo executado no serviço de Unificação de Mensagens do Microsoft Exchange, você pode configurar várias opções, incluindo o número de chamadas simultâneas, as portas de escuta dos protocolos TCP e TLS, o status e o modo de inicialização da UM.
 

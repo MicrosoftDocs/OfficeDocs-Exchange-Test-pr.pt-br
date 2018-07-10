@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Você pode habilitar o recurso Visualização de caixa postal dos usuários associados à política de caixa de correio da UM (Unificação de Mensagens), se ele tiver sido desabilitado. Habilitar essa configuração permite que usuários recebam o texto de uma mensagem de caixa postal no corpo da mensagem de um email ou mensagem de texto. A configuração padrão é Habilitado.
 

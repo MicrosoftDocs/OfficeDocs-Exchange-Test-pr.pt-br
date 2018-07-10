@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-20_
+_**Tópico modificado em:** 2014-02-20_
 
 Configure um relacionamento de organização para compartilhar informações de calendário com um parceiro comercial externo. Os administradores do Exchange podem configurar um relacionamento de organização com uma organização do Office 365 ou com outra organização local do Exchange. Se quiser compartilhar calendários com outra organização local do Exchange, os administradores locais do Exchange terão de configurar um relacionamento de autenticação com a nuvem (também conhecido como "federação") e deverão atender aos requisitos mínimos de software.
 

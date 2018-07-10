@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-15_
+_**Tópico modificado em:** 2014-02-15_
 
 Como desabilitar a publicação de calendário de Internet depende de como você a habilitou. Se você tiver criado uma política de compartilhamento dedicada à publicação de calendário da Internet, você poderá desabilitar a política ou excluí-la totalmente. Se você tiver configurado a publicação de calendário de Internet como uma regra de compartilhamento na política de compartilhamento padrão, basta remover a regra de compartilhamento do domínio **Anônimo**.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-19_
+_**Tópico modificado em:** 2013-04-19_
 
 Você pode habilitar um informe para um atendedor automático da UM (Unificação de Mensagens). Quando um informe é habilitado, ele tocará imediatamente após a saudação de horário comercial ou não comercial. Por padrão, nenhum informe está configurado. Para habilitar um informe, crie um arquivo .wav ou .wma para ser usado como informe e, em seguida, configure o atendedor automático para usar esse arquivo de som.
 

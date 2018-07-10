@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 S/MIME (Secure/Multipurpose Internet Mail Extensions) é um método amplamente aceito, ou mais precisamente um protocolo, para o envio de mensagens assinadas e criptografadas digitalmente. S/MIME permite que você criptografe email e os assine digitalmente. Quando você usa S/MIME com uma mensagem de email, isso ajuda as pessoas que recebem essa mensagem a ter certeza de que o que veem em suas caixas de entrada é a mensagem exata que partiu do remetente. Isso também ajudará as pessoas que receberem mensagens a terem certeza de que a mensagem veio do remetente específico e não de alguém fingindo ser o remetente. Para fazer isso, S/MIME presta serviços de segurança criptográfica como autenticação, integridade da mensagem e não recusa da origem (usando assinaturas digitais). Isso também ajuda a melhorar a privacidade e a segurança dos dados (usando criptografia) para mensagens eletrônicas. Para obter informações mais completas sobre o histórico e a arquitetura de S/MIME no contexto de email, consulte [Compreendendo S/MIME](https://go.microsoft.com/fwlink/?linkid=393948).
 
@@ -59,14 +59,11 @@ A configuração do S/MIME para Exchange 2013 SP1 ou Exchange Online com o Outlo
 
 À medida que a segurança de mensagens se torna mais importante, os administradores precisam compreender os princípios e os conceitos de um sistema de mensagens seguro. Essa compreensão é especialmente importante por causa da crescente variedade de tecnologias relacionadas à proteção, como S/MIME, que se tornaram disponíveis. Para compreender mais sobre S/MIME e como ele funciona no contexto de email, consulte [Compreendendo S/MIME](https://go.microsoft.com/fwlink/?linkid=393948). Várias tecnologias de criptografia trabalham em conjunto para oferecer proteção para mensagens em repouso ou em trânsito. O S/MIME pode trabalhar simultaneamente com as seguintes tecnologias, mas não depende delas:
 
-  -  
-    O **Transport Layer Security (TLS)** criptografa o túnel ou a rota entre servidores de email para ajudar a impedir a interceptação e a escuta não autorizada.
+  -  O **Transport Layer Security (TLS)** criptografa o túnel ou a rota entre servidores de email para ajudar a impedir a interceptação e a escuta não autorizada.
 
-  -  
-    O **Secure Sockets Layer (SSL)** criptografa a conexão entre clientes de email e servidores do Office 365.
+  -  O **Secure Sockets Layer (SSL)** criptografa a conexão entre clientes de email e servidores do Office 365.
 
-  -  
-    O **BitLocker** criptografa os dados em um disco rígido de um datacenter, de forma que se alguém obtiver acesso não autorizado, não poderá lê-lo.
+  -  O **BitLocker** criptografa os dados em um disco rígido de um datacenter, de forma que se alguém obtiver acesso não autorizado, não poderá lê-lo.
 
 ## S/MIME em comparação com o Office 365 Message Encryption
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 No Microsoft Exchange Server 2013, quando você cria uma regra de diário para mensagens de e-mail de diário enviadas para ou de destinatários ou remetentes em uma organização do Exchange, notificações de correio de voz e chamadas não atendidas que são geradas pelo serviço de Unificação de Mensagens são incluídas. Use os procedimentos neste tópico para ativar ou desativar esse recurso para toda a sua organização.
 

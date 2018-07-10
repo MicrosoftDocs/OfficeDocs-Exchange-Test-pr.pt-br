@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Habilitação descriptografia do relatório de diário permite que o agente de registro no diário anexar uma cópia descriptografada de uma mensagem protegida por direitos para o relatório de diário. Antes de habilitar a descriptografia do relatório de diário, você deve adicionar a caixa de correio de entrega federada ao grupo superusuários configurado em seu servidor do [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/en-us/library/hh831364.aspx) .
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Os recursos do Microsoft Exchange Server 2013 foram projetados para ajudar a melhorar a segurança de seu ambiente de sistema de mensagens. Geralmente, para o Exchange 2013, as seguintes condições são verdadeiras:
 

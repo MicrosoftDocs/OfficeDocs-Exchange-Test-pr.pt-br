@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-08-26_
+_**Tópico modificado em:** 2013-08-26_
 
 O protocolo SSL é um método utilizado para proteger a comunicação entre um cliente e um servidor. Para o Exchange Server 2013, o SSL é utilizado para ajudar a proteger as comunicações entre o servidor e clientes. Entre os clientes estão incluídos celulares, computadores dentro da rede da organização e computadores fora da rede da organização.
 

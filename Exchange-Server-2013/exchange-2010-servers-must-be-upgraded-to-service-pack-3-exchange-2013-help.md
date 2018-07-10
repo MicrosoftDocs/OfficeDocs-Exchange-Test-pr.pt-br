@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2014-11-05_
+_**Tópico modificado em:** 2014-11-05_
 
 A Instalação do Microsoft Exchange Server 2013 não pode prosseguir porque detectou que um ou mais servidores do Microsoft Exchange Server 2010 não foi atualizado para o Service Pack 3 (SP3) para Exchange Server 2010. Antes que você possa instalar Exchange 2013, todos os servidores Exchange 2010 em sua organização devem ser atualizados para Exchange 2010 SP3. Esse requisito inclui servidores Transporte de Borda do Exchange 2010. Para saber mais, confira [Atualizar do Exchange 2010 para o Exchange 2013](upgrade-from-exchange-2010-to-exchange-2013-exchange-2013-help.md).
 

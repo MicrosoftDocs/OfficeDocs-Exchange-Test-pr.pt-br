@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Enviar ou responder a uma mensagem S/MIME-criptografadas no Microsoft Outlook é muito semelhante à experiência com uma mensagem não criptografada. Para obter mais informações sobre a leitura ou envio de mensagens criptografadas S/MIME de um programa de email como Outlook Web App, consulte [Use o Outlook para enviar e responder a S/MIME criptografadas mensagens](https://go.microsoft.com/fwlink/p/?linkid=392520).
 

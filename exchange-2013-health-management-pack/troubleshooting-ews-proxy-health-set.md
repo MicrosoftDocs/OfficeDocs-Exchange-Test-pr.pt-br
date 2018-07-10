@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade do EWS.Proxy monitora a disponibilidade da infraestrutura de proxy dos Serviços Web do Exchange (EWS) no servidor de Acesso para Cliente (CAS). O conjunto de integridade do EWS.Proxy está intimamente relacionado com o seguinte conjunto de integridade:
 

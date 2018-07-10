@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode incluir texto adicional na mensagem de email enviada quando uma mensagem de fax é recebida por um usuário habilitado para a caixa postal da UM (Unificação de Mensagens) e para fax, e quando a política de caixa de correio da UM tiver sido configurada corretamente para usar um provedor parceiro de fax. Por padrão, o texto incluído quando um usuário habilitado para UM recebe uma mensagem de fax indica somente que o usuário recebeu uma mensagem de fax. No entanto, você pode criar uma mensagem personalizada adicionando texto na caixa de texto **Quando um usuário receber uma mensagem de fax** em uma política de caixa de correio da UM. Por exemplo, o texto pode incluir informações sobre políticas de segurança do sistema e descrever a forma correta para manipular mensagens de fax em sua organização. Depois de adicionar o texto, ele será incluído em cada mensagem de email enviada quando usuários habilitados para UM que estejam associados a uma política de caixa de correio da UM receberem uma mensagem de fax.
 

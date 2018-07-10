@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-14_
+_**Tópico modificado em:** 2012-10-14_
 
 Pôr uma caixa de correio em retenção suspende o processamento de uma diretiva de retenção ou diretiva de caixa de correio de pasta gerenciada para essa caixa de correio. A retenção foi feita para situações como férias ou ausência temporária de um usuário.
 

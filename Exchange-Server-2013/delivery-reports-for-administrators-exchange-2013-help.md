@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Com os relatórios de entrega para administradores, você pode controlar as informações de entrega sobre as mensagens enviadas por ou recebidas de qualquer caixa de correio específica em sua organização. Especificamente, os relatórios de entrega para administradores usa o Centro de administração do Exchange (EAC) para executar uma pesquisa direcionada da mensagem logs de rastreamento. A pesquisa sempre destinada a uma caixa de correio específica. Você pode pesquisar mensagens enviadas pela caixa de correio ou enviada à caixa de correio, e você pode filtrar os resultados de pesquisa por assunto da mensagem.
 

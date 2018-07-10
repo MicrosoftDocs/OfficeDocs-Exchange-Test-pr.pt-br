@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-14_
+_**Tópico modificado em:** 2012-10-14_
 
 Para cada ponto de distribuição de OAB (catálogo) de endereços offline no Exchange, você pode configurar duas URLs — uma URL interna que pode ser acessada apenas a partir de sua rede corporativa interna e uma URL externa que possa ser acessada pela Internet.
 

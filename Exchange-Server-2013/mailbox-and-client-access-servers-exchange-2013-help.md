@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013, as cinco funções de servidor do Exchange 2010 foram substituídas por dois tipos principais de servidores: Servidores de Caixa de Correio e servidores de Acesso para Cliente. O servidor de Acesso para Cliente é um thin server sem estado que funciona como um proxy para conexões de cliente para o servidor de Caixa de Correio. O servidor de Caixa de Correio trata do processamento para todas as conexões de cliente para o banco de dados de caixa de correio ativa.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Usando os conjuntos de cmdlets **MailboxImportRequest** ou **MailboxExportRequest** no Shell de Gerenciamento do Exchange, é possível importar ou exportar dados de arquivos .pst. Depois de iniciada uma solicitação de importação ou exportação, o processo é concluído de forma assíncrona pelo MRS (Serviço de Replicação de Caixa de Correio) do Microsoft Exchange. O MRS reside em todos os servidores de Acesso para Cliente do Exchange 2010 e é o serviço responsável por mover caixas de correio e importar e exportar arquivos .pst.
 

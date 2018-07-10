@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Se você estiver em uma implantação híbrida do Exchange 2013 e usar o EOA (Arquivamento do Exchange Online) para Exchange Server, será necessário configurar a autenticação OAuth entre suas organizações local e do Exchange Online após a atualização para a Atualização Cumulativa 5 do Exchange 2013 (CU5). O EOA permite que você tenha um arquivamento baseado em nuvem para os usuários com caixas de correio locais. Nesse cenário, o assistente de MRM (Gerenciamento de Direitos de Mensagem) em seu servidor de caixa de correio local aplica as políticas de arquivamento e move as mensagens automaticamente da caixa de correio de um usuário para o arquivamento com base na nuvem. No Exchange 2013 CU5, ele usa a autenticação OAuth.
 

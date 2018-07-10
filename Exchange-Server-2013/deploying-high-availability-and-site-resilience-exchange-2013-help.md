@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O Microsoft Exchange Server 2013 usa o conceito conhecido como *implantação incremental* tanto para alta disponibilidade quanto para resiliência de site. Você simplesmente instala dois ou mais servidores de Caixa de Correio do Exchange 2013 como servidores independentes e os configura incrementalmente, junto com os bancos de dados de caixa de correio, para alta disponibilidade e resiliência de site, conforme a necessidade.
 

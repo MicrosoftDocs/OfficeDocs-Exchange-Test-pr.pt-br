@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-12-10_
+_**Tópico modificado em:** 2012-12-10_
 
 Políticas de endereço de email geram os endereços de email primários e secundários para seus destinatários (que incluem usuários, contatos e grupos) para que possam receber e enviar email.
 

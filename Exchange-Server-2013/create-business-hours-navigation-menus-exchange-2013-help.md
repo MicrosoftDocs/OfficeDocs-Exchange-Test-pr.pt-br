@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 É possível habilitar o horário comercial mapeamentos de teclas para um atendedor automático da Unificação de mensagens (UM). Depois de criar um atendedor automático de UM, um prompt de sistema padrão será usado para o horário comercial que os chamadores ouvem após o horário comercial saudação de boas-vindas de saudação do prompt do menu principal é reproduzido. O horário comercial padrão prompt do menu principal diz: "Bem-vindo para o atendedor automático de Microsoft Exchange." Como nenhum mapeamentos de teclas são definidos por padrão, não há opções de menu estão disponíveis para os chamadores e ouvirão somente o prompt do menu principal padrão.
 

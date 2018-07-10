@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-19_
+_**Tópico modificado em:** 2013-04-19_
 
 Ao configurar horários comerciais para um atendedor automático da Unificação de mensagens (UM), você define os horários do dia em que sua organização estiver aberta e as saudações de horário comercial e os chamadores prompts de menu ouvirá quando ele liga um número de ramal que está configurado no atendedor automático. Se um chamador atingir o atendedor automático durante o horário em que está fora do horário comercial que você define, o chamador escutará as saudações e prompts de horário não comercial.
 

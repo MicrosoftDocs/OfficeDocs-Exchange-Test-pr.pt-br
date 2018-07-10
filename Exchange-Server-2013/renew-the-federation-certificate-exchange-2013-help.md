@@ -13,7 +13,7 @@ ms.translationtype: MT
 
  
 
-_**Tópico modificado em:**2017-02-28_
+_**Tópico modificado em:** 2017-02-28_
 
 Este tópico explica como atualizar o certificado autoassinado federação que é usado em uma relação de confiança de Federação:
 
@@ -75,7 +75,7 @@ Este exemplo usa o de valor de impressão digital do certificado `6A99CED2E4F2B5
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-FederationTrust](https://technet.microsoft.com/pt-br/library/dd298034\(v=exchg.150\)).
 
-**Observação:** A saída do comando contém um aviso de que você precisa atualizar a prova de propriedade de domínio registro TXT no DNS. Você vai fazer isso na próxima etapa.
+**Observação:**  A saída do comando contém um aviso de que você precisa atualizar a prova de propriedade de domínio registro TXT no DNS. Você vai fazer isso na próxima etapa.
 
 ## Etapa 3: Atualizar a prova de federação de propriedade de domínio registro TXT no DNS externo
 
@@ -111,7 +111,7 @@ Para usar o Shell de Gerenciamento do Exchange para verificar a distribuição d
 
     $Servers = Get-ExchangeServer; $Servers | foreach {Get-ExchangeCertificate -Server $_ | Where {$_.Services -match 'Federation'}} | Format-List Identity,Thumbprint,Services,Subject
 
-**Observação:** na Exchange 2010, a saída do cmdlet **Test-FederationCertificate** contém nomes de servidor. A saída do cmdlet no Exchange 2013 ou posterior não inclui os nomes de servidor.
+**Observação:**  na Exchange 2010, a saída do cmdlet **Test-FederationCertificate** contém nomes de servidor. A saída do cmdlet no Exchange 2013 ou posterior não inclui os nomes de servidor.
 
 ## Etapa 5: Ativar o novo certificado de Federação
 
@@ -121,7 +121,7 @@ Para usar o Shell de Gerenciamento do Exchange para ativar o novo certificado de
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-FederationTrust](https://technet.microsoft.com/pt-br/library/dd298034\(v=exchg.150\)).
 
-**Observação:** A saída do comando contém um aviso de que você precisa atualizar a prova de propriedade de domínio registro TXT no DNS (que já fez na etapa 3).
+**Observação:**  A saída do comando contém um aviso de que você precisa atualizar a prova de propriedade de domínio registro TXT no DNS (que já fez na etapa 3).
 
 ## Como saber se funcionou?
 

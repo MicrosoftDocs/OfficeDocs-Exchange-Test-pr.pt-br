@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode usar o relatório de estatísticas de chamada para exibir informações sobre o tipo e o status de chamadas de entrada manipuladas pelos servidores do Exchange em sua organização. O relatório apresenta informações estatísticas sobre as chamadas encaminhadas para ou realizadas pela Unificação de mensagens (UM) para sua organização. Você pode usar essas informações para rastrear o uso de planejamento da capacidade, monitorar e solucionar problemas de disponibilidade e a qualidade de áudio da UNIFICAÇÃO de mensagens e solucionar problemas de chamadas com falha.
 

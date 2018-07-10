@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-04-20_
+_**Tópico modificado em:** 2017-04-20_
 
 Você pode usar [Marcas e políticas de retenção](retention-tags-and-retention-policies-exchange-2013-help.md) para gerenciar o ciclo de vida de email. Políticas de retenção contêm marcas de retenção, que são configurações que você pode usar para especificar quando uma mensagem deve ser movida automaticamente para o arquivo morto ou quando ele deve ser excluído.
 

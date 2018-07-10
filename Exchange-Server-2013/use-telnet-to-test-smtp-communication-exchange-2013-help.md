@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico explica como usar a Telnet para testar a comunicação SMTP entre servidores do sistema de mensagens. Por padrão, SMTP escuta na porta 25. Se você usa Telnet na porta 25, pode inserir os comandos SMTP que são usados para conectar a um servidor SMTP e enviar uma mensagem exatamente como se sua sessão Telnet fosse um servidor do sistema de mensagens SMTP. Você pode ver o sucesso ou a falha de cada etapa da conexão e do processo de envio de mensagens.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-09_
+_**Tópico modificado em:** 2012-11-09_
 
 Especifique o número de tentativas sequenciais de entrada malsucedidas permitidas antes de um chamador ser desconectado. O valor desta configuração pode ser entre 1 e 20. A configuração de um valor muito baixo pode frustrar os usuários. Para a maioria das organizações, esse valor deve ser definido como o padrão de três tentativas.
 

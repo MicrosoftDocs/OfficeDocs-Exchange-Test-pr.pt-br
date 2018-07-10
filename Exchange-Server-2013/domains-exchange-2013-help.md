@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Office 365_
+_**Aplica-se a:** Exchange Server 2013, Office 365_
 
-_**Tópico modificado em:**2012-10-11_
+_**Tópico modificado em:** 2012-10-11_
 
 Os domínios representam namespaces SMTP para os quais os diretórios de email e caixas de correio são configurados. Ao configurar os domínios que interagem com a sua organização do Microsoft Exchange Server 2013, você pode configurar como os emails enviados e recebidos por diversos domínios são processados pelo Exchange.
 

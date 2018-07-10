@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-02-03_
+_**Tópico modificado em:** 2017-02-03_
 
 Você pode instalar ou remover suplementos do Outlook para sua organização usando o EAC ou o Shell.
 

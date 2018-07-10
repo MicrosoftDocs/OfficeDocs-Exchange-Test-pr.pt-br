@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-09-17_
+_**Tópico modificado em:** 2015-09-17_
 
 Com o aumento dos tamanhos das caixas postais e da quantidade de dados sendo armazenados nelas na forma de mensagens e anexos, é crucial que os usuários possam pesquisar e localizar rapidamente as mensagens de que precisam. O [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md) ajuda a reduzir ou eliminar o uso de arquivos .pst, movendo para o arquivo morto itens antigos e acessados com pouca frequência. Isso resulta em mais dados de caixa de correio sendo armazenados por um usuário e faz com que a pesquisa nas caixas de correio principal e de arquivo morto do usuário seja uma importante ferramenta de produtividade. A [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md) permite que usuários autorizados pesquisem o conteúdo de caixas de correio em organizações do Exchange locais e na nuvem, a fim de atender às solicitações de descoberta eletrônica, auditorias regulatórias ou investigações internas. A Descoberta Eletrônica In-loco usa os índices de conteúdo criados pela Pesquisa do Exchange.
 

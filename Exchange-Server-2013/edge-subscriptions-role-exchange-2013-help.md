@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `Edge Subscriptions` permite que administradores gerenciem configuração de assinatura e sincronização de borda entre os servidores de transporte de borda do Microsoft Exchange Server 2010 e os servidores de caixa de correio do Microsoft Exchange Server 2013 em uma organização.
 

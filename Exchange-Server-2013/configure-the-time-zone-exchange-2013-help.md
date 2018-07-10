@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-17_
+_**Tópico modificado em:** 2012-11-17_
 
 Por padrão, o atendedor automático da UM (Unificação de Mensagens) usa o fuso horário do servidor de caixa de Correio no qual é criado. Porém, existem situações em que pode ser necessário alterar o fuso horário de um atendedor automático da UM para outro fuso horário. Por exemplo, se você possui dois planos de discagem de UM e cada plano de discagem representa um fuso horário diferente, você deve configurar um atendedor automático de UM para ter o mesmo fuso horário que o servidor de Caixa de Correio e o outro atendedor automático de UM para ter um fuso horário que seja diferente do servidor de Caixa de Correio.
 

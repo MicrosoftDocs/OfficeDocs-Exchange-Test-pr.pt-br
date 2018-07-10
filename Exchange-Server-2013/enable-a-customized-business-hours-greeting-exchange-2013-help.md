@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-19_
+_**Tópico modificado em:** 2013-04-19_
 
 Você pode habilitar uma saudação para um atendedor automático da Unificação de mensagens (UM) para horário comercial personalizado. Saudação para horário comercial é os primeira coisa que os chamadores ouvem quando um atendedor automático de UM atende a chamada durante o horário comercial. Você provavelmente desejará personalizar a saudação.
 

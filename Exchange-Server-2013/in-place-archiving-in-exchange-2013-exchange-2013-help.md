@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O *Arquivo Morto In-Loco* ajuda você a recuperar o controle dos dados de mensagem da organização, eliminando a necessidade de arquivos de armazenamento pessoal (.pst) e permitindo que os usuários armazenem as mensagens em uma *caixa de correio de arquivo morto* que seja acessível pelo MicrosoftOutlook 2010 e posterior e pelo Microsoft OfficeOutlook Web App.
 
@@ -80,7 +80,7 @@ A tabela a seguir lista os aplicativos cliente que podem ser usados para acessar
 <td><p>Outlook 2013, Outlook 2010, Outlook 2007 e Outlook Web App</p></td>
 <td><p>Sim. Os usuários do Outlook 2013, Outlook 2010, Outlook 2007 e do Outlook Web App podem copiar ou mover itens de suas caixas de correio principais para suas caixas de correio de arquivo morto, e também usar políticas de retenção para mover itens para o arquivo morto.</p>
 
-> [!TIP]
+> [!TIP]  
 > Outlook 2010 e posterior e os usuários do Outlook 2007 também podem copiar ou mover itens de arquivos. pst para suas caixas de correio de arquivo morto. Os usuários do Outlook 2007 exigem a atualização cumulativa do Office 2007 de fevereiro de 2011. Existem algumas diferenças no suporte de arquivamento entre o Outlook 2007 e o Outlook 2010 e posterior. Para obter mais informações, consulte o artigo de Blog da equipe do Exchange, consulte <A href="https://blogs.technet.com/b/exchange/archive/2010/12/20/3411710.aspx">Sim Virgínia, há suporte do Exchange 2010 arquivo morto no Outlook 2007</A>.
 
 
@@ -95,7 +95,7 @@ A tabela a seguir lista os aplicativos cliente que podem ser usados para acessar
 
 
 
-> [!TIP]
+> [!TIP]  
 > Arquivamento in-loco é um recurso premium e requer uma licença de acesso de cliente do Exchange Enterprise (CAL). Para obter detalhes sobre como licença Exchange, consulte <A href="https://go.microsoft.com/fwlink/?linkid=237292">Licenciamento do Exchange Server</A>. Para obter detalhes sobre as versões do Outlook necessárias para acessar uma caixa de correio de arquivo morto, consulte <A href="https://go.microsoft.com/fwlink/?linkid=237276">requisitos de licença para arquivo pessoal e políticas de retenção</A>.
 
 
@@ -125,7 +125,7 @@ Existem várias maneiras de se mover mensagens para caixas de correio de arquivo
   - **Mover mensagens usando políticas de retenção**   É possível usar políticas de retenção para mover mensagens automaticamente para o arquivo morto. Os usuários também podem aplicar uma marca pessoal para mover mensagens para o arquivo morto. Para obter detalhes sobre as políticas de arquivo morto e retenção, consulte Archive and retention policies mais adiante neste tópico.
     
 
-    > [!TIP]
+    > [!TIP]  
     > Marcas pessoais estão disponíveis somente no Outlook Web App e no Outlook 2010 e posteriores.
 
 
@@ -145,7 +145,7 @@ Para saber mais sobre políticas de retenção, marcas de retenção e a ação 
 A configuração do Exchange 2013 cria um arquivo morto padrão e uma política de retenção denominada **Política MRM Padrão**. Essa política contém marcas de retenção que contêm a ação **Mover para o arquivo morto**, como mostra a tabela a seguir.
 
 
-> [!TIP]
+> [!TIP]  
 > No Exchange 2010, a política padrão de arquivo morto e retenção criada pela instalação do Exchange é nomeada como <STRONG>Política de arquivo morto e de retenção padrão</STRONG>.
 
 
@@ -207,7 +207,7 @@ Antes de fornecer caixas de correio de arquivo morto aos seus usuários, é reco
   - Como aplicar marcas pessoais (exibidas no menu Política de arquivo morto no Outlook e no Outlook Web App).
 
 
-> [!TIP]
+> [!TIP]  
 > Se você aplicar uma política de retenção aos usuários que têm uma caixa de correio de arquivo morto, a política de retenção substituirá a política padrão de MRM. Você pode criar uma ou mais marcas de retenção com a ação <STRONG>Mover para o arquivo morto</STRONG> e, depois, vincular as marcas à diretiva de retenção. Você também pode adicionar as marcas padrão <STRONG>Mover para o arquivo morto</STRONG> (que são criadas pela Instalação e vinculadas à Política padrão de MRM) a quaisquer políticas de retenção que você criar.
 
 

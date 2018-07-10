@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Você pode precisar mover um usuário que está habilitado para Unificação de Mensagens (UM) para um plano de discagem de UM diferente ou para alterar o plano de discagem associado ao usuário. Por exemplo, você pode querer mover um usuário habilitado para Um de um plano de discagem de ‏Ramal Telefônico para um plano de discagem SIP URI.
 

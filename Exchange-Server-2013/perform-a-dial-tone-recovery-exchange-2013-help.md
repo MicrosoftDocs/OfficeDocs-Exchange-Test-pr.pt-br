@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-27_
+_**Tópico modificado em:** 2014-06-27_
 
 O uso da portabilidade de sinal de linha permite que os usuários tenham uma caixa de correio temporária para envio e recebimento de email enquanto a caixa de correio original está sendo restaurada ou reparada. A caixa de correio temporária pode estar no mesmo servidor de Caixa de Correio do Exchange 2013 ou em qualquer outro servidor de Caixa de Correio do Exchange 2013 em sua organização. O processo de uso da portabilidade de sinal de linha é chamado de recuperação de sinal de linha, que envolve a criação de um banco de dados vazio em um servidor de Caixa de Correio para substituir o banco de dados com falha. Para obter mais informações, consulte [Portabilidade de tom de discagem](dial-tone-portability-exchange-2013-help.md).
 

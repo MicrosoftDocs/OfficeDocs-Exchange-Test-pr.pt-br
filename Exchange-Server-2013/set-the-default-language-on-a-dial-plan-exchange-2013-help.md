@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode definir o idioma padrão para um plano de discagem de Unificação de mensagens (UM). Cada plano de discagem que você cria inicialmente usará inglês (en-US) como o idioma padrão. O pacote de idioma inglês (en-US) é instalado em todas as versões do MicrosoftExchange Server 2013 e não pode ser removido.
 

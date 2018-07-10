@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-09-07_
+_**Tópico modificado em:** 2017-09-07_
 
 Você pode usar a ferramenta de exportação de descoberta eletrônica no Centro de administração do Exchange (EAC) para exportar os resultados de uma pesquisa de descoberta eletrônica In-loco para um arquivo de dados do Outlook, que também é chamado de um arquivo PST. Os administradores podem distribuir os resultados da pesquisa para outras pessoas dentro da organização, como um gerente de recursos humanos ou um gerente de registros, ou opostas advogado em um caso jurídico. Depois que os resultados da pesquisa são exportados para um arquivo PST, você ou outros usuários podem abri-los no Outlook para analisar ou imprimir mensagens retornadas nos resultados da pesquisa. Arquivos PST também podem ser abertos no eDiscovery de terceiros e relatórios de aplicativos. Este tópico mostra como fazer isso, bem como solucionar quaisquer problemas que talvez seja necessário.
 

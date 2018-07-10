@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-04_
+_**Tópico modificado em:** 2012-10-04_
 
 Uma *atribuição de função de gerenciamento*, que é parte do modelo de permissões RBAC (controle de acesso baseado na função) do Microsoft Exchange Server 2013, é o vínculo entre uma função de gerenciamento e um destinatário de função. O parâmetro *destinatário de função* é um grupo de função, uma diretiva de atribuição de função, um usuário ou um USG (grupo de segurança universal). É preciso atribuir uma função a um destinatário de função para que ele tenha efeito. Para mais informações sobre o RBAC, consulte [Controle de acesso baseado em função de compreensão](understanding-role-based-access-control-exchange-2013-help.md).
 

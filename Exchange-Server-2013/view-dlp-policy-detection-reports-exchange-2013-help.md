@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-16_
+_**Tópico modificado em:** 2016-12-16_
 
 Gerenciamento de detecção política do prevention (DLP) de perda de dados amplamente define as atividades que uma organização executa a fim de identificar, investigar e resolver violações de política DLP. Para gerenciar incidentes, você precisa ter acesso às informações que identifica o que foi detectado pelo suas políticas de DLP. Essas informações de detecção são integradas com dados de Exchange Server 2013 Microsoft existentes e formatos de log para que você pode aproveitar a um sistema de rich existente de dados para gerenciar seus incidentes de fluxo de email.
 

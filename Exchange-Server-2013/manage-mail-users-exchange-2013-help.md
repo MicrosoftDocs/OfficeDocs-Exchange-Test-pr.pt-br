@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Usuários de email são semelhantes a contatos de email. Ambos têm endereços de email externos e contêm informações sobre pessoas de fora da sua organização do Exchange ou do Exchange Online que podem ser exibidas no catálogo de endereços compartilhado e em outras listas de endereços. No entanto, diferentemente de um contato de email, um usuário de email tem credenciais de logon na sua organização do Exchange ou do Office 365 e pode acessar os recursos. Para mais informações, confira [Destinatários](recipients-exchange-2013-help.md).
 

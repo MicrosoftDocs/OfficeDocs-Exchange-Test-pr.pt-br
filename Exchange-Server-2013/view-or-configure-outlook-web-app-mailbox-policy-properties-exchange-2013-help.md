@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-04-13_
+_**Tópico modificado em:** 2016-04-13_
 
 Depois de criar uma política de caixa de correio Outlook Web App, você pode configurar uma variedade de opções para controlar os recursos disponíveis aos usuários em Outlook Web App. Por exemplo, você pode habilitar ou desabilitar regras de caixa de entrada ou criar uma lista de tipos de arquivo permitidos anexos.
 

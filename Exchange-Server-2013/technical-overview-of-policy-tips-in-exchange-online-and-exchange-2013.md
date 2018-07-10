@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-07-22_
+_**Tópico modificado em:** 2015-07-22_
 
 Você pode ajudar a impedir a sua organização Microsoft Outlook, Outlook Web App (OWA) e OWA para usuários de email de dispositivos inadequadamente enviando informações confidenciais através da criação de políticas de (DLP) de prevenção de perda de dados que incluem mensagens de notificação de *Dica de política* . Assim como as dicas de email que foram introduzidas no Microsoft Exchange Server 2010, mensagens de notificação de dica de política são exibidas aos usuários em Outlook enquanto eles estão redigindo uma mensagem de email. Mensagens de notificação de dica de política só aparecerão se algo sobre a mensagem de email do remetente parece violar uma política de DLP que você tem instalada e que a diretiva inclui uma regra para notificar o remetente quando as condições que você estabelece forem atendidas. Assista a este vídeo para saber mais.
 

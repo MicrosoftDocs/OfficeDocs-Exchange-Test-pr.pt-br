@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-01-21_
+_**Tópico modificado em:** 2013-01-21_
 
 Você pode usar o Shell para criar um banco de dados de recuperação, um tipo especial de banco de dados de caixa de correio que é usado para montar e extrair dados do banco de dados restaurado como parte de uma operação de recuperação. Depois de criar um banco de dados de recuperação, é possível mover um banco de dados de caixa de correio recuperado ou restaurado para o banco de dados de recuperação e usar o cmdlet [New-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829875\(v=exchg.150\)) para extrair dados do banco de dados recuperado. Após a extração, os dados podem ser exportados para uma pasta ou mesclados em uma caixa de correio existente. Usando-se bancos de dados de recuperação, é possível recuperar dados de um backup ou cópia de um banco de dados sem interromper o acesso do usuário aos dados atuais.
 

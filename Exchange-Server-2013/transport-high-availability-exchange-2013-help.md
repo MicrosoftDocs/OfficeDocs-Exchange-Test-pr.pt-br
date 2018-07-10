@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-15_
+_**Tópico modificado em:** 2012-10-15_
 
 No Microsoft Exchange Server 2013, alta disponibilidade de transporte é responsável por manter cópias redundantes de mensagens antes e depois que as mensagens são entregues com êxito. Exchange 2013 aprimorou os recursos de alta disponibilidade de transporte introduzidos em Exchange Server 2010, por exemplo, redundância de sombra e o transporte dumpster, para ajudar a garantir que as mensagens não são perdidas em trânsito.
 

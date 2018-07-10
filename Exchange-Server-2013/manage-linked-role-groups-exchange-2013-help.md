@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-09_
+_**Tópico modificado em:** 2012-10-09_
 
 Você pode usar um grupo de funções de gerenciamento vinculados para permitir que membros de um grupo de segurança universal (USG) em uma floresta estrangeira Active Directory gerenciar uma organização do Microsoft Exchange Server 2013 em uma floresta de recursos Active Directory. Associando um USG em uma floresta externa um grupo de função vinculado, os membros que USG são concedidas as permissões fornecidas pelas funções de gerenciamento atribuídas ao grupo de função vinculado. Para obter mais informações sobre grupos de função vinculado, consulte [Noções básicas sobre grupos de funções de gerenciamento](understanding-management-role-groups-exchange-2013-help.md).
 

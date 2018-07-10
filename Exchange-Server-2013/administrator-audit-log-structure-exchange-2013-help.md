@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Logs de auditoria do administrador contém um registro de todos os cmdlets e os parâmetros que foram executados em Exchange Shell de gerenciamento e por Exchange Centro de administração (EAC). Eles são criados sob demanda quando você executa o administrador do relatório do log de auditoria no EAC, ou quando você executa o cmdlet **New-AdminAuditLogSearch** no Shell. Para obter mais informações sobre logs de auditoria, consulte [Log de auditoria de administrador](administrator-audit-logging-exchange-2013-help.md).
 

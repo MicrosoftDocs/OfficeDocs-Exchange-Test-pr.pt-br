@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 Você pode usar o Shell para adicionar ou remover uma lista de endereços do catálogo de endereços offline (OAB). Por padrão, não há um OAB chamado padrão catálogo de Endereços Offline que contém a lista de endereços global (GAL). OABs são geradas com base em listas de endereços que elas contêm. Para criar os OABs personalizados que os usuários podem baixar, é possível adicionar ou remover listas de endereços de OABs.
 

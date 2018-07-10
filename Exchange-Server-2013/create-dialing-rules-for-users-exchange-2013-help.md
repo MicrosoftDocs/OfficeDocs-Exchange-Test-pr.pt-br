@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Grupos de regras de discagem consistem entradas de regras de discagem. Regras de discagem são usadas para modificar um número de telefone antes de enviá-la a um sistema telefônico de local (PBX) ou no IP PBX para chamadas de saída. Regras de discagem têm duas finalidades:
 

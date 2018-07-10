@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-01_
+_**Tópico modificado em:** 2012-11-01_
 
 *Diretiva de nomenclatura de grupo* permite padronizar e gerenciar os nomes dos grupos de distribuição criados por usuários em sua organização. Você pode exigir um prefixo específico e o sufixo de ser adicionado ao nome do grupo de distribuição quando ele é criado e você pode bloquear palavras específicas de serem usadas. Isso ajuda a minimizar o uso de palavras inadequados em nomes de grupo.
 

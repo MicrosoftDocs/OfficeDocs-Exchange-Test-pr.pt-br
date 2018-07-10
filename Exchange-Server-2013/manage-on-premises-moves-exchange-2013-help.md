@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-25_
+_**Tópico modificado em:** 2013-02-25_
 
 Uma solicitação de movimentação é o processo de mover uma caixa de correio de um banco de dados de caixa de correio para outro. Uma solicitação de movimentação local é uma movimentação de caixa de correio que ocorre dentro de uma única floresta. No Microsoft Exchange Server 2013, as caixas de correio e as caixas de correio de arquivo morto pessoais podem residir em bancos de dados separados. Usando a funcionalidade de solicitação de movimentação, é possível mover a caixa de correio principal e o respectivo arquivo morto para o mesmo banco de dados ou para bancos de dados separados. Os procedimentos neste tópico irão ajudá-lo com movimentos de caixa de correio local.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Communications Server 2007 R2 e o Lync Server oferecem vários recursos do usuário final, incluindo mensagens instantâneas (IM), presença, mensagens Instantâneas com vários participantes e sua funcionalidade de caixa postal podem ser integrados com Exchange Unified Messaging (UM). Para implantações que integram o Lync Server 2010 ou 2013, os usuários podem ser habilitados para o Enterprise Voice, que permite que os usuários habilitados para o acesso de email de voz própria voz de email usando os componentes do Lync Server.
 

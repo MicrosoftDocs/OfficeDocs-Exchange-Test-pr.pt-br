@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-15_
+_**Tópico modificado em:** 2012-10-15_
 
 Se você quiser garantir segura, comunicação criptografada com um parceiro, você pode criar um conector de envio que esteja configurado para impor a segurança de camada de transporte (TLS) para mensagens enviadas a um domínio de parceiro. TLS oferece comunicação segura pela Internet.
 

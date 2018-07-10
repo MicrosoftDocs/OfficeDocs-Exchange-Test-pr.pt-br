@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-07-21_
+_**Tópico modificado em:** 2015-07-21_
 
 Você pode precisar mover uma caixa de correio de pasta pública para um banco de dados de uma caixa de correio diferente para balanceamento de carga ou para mover os recursos para mais perto de sua localização geográfica. Semelhante a mover uma caixa de correio normal, você usa os cmdlets **MoveRequest** para mover uma caixa de correio de pasta pública. Para mais informações sobre como mover caixas de correio, veja [Movimentações de caixa de correio no Exchange 2013](mailbox-moves-in-exchange-2013-exchange-2013-help.md).
 

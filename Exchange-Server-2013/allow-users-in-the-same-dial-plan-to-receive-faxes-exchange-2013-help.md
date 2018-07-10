@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 É possível habilitar todos os usuários que estão vinculados com um plano de discagem de Unificação de mensagens (UM) para receber mensagens de fax em suas caixas de correio. Por padrão, os usuários que estão habilitados para Unificação de mensagens e vinculados com um plano de discagem de UM podem receber mensagens de fax. Para permitir que os usuários habilitados receber mensagens de fax em suas caixas de correio, o plano de discagem deve ser configurado para aceitar chamadas de fax de entrada. Você também deve habilitar o envio de fax na diretiva de caixa de correio UM e para o usuário. Por padrão, o envio de fax está habilitado em planos de discagem, políticas de caixa de correio de Unificação de MENSAGENS e para usuários. No entanto, pode haver ocasiões nessas configurações padrão foram alteradas e usuários habilitados para Unificação de MENSAGENS não podem receber mensagens de fax.
 

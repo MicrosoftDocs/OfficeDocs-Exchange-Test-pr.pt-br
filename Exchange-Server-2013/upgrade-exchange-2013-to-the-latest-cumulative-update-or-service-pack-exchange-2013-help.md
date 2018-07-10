@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-09-04_
+_**Tópico modificado em:** 2015-09-04_
 
 Se você tiver o Exchange Server 2013 instalado, é possível atualizá-lo para a atualização cumulativa ou service pack mais recente do Exchange 2013. Você pode usar o assistente de Instalação do Exchange 2013 para atualizar sua versão atual do Exchange 2013. Para obter mais informações sobre a atualização cumulativa ou pacote de serviço do Exchange 2013 mais recente, consulte [Atualizações para o Exchange 2013](updates-for-exchange-2013-exchange-2013-help.md). Para saber mais sobre o Exchange 2013, consulte [Novidades do Exchange 2013](what-s-new-in-exchange-2013-exchange-2013-help.md).
 

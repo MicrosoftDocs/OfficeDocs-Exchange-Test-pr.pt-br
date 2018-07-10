@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2007, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-03-20_
+_**Tópico modificado em:** 2018-03-20_
 
 A Matriz de Suportabilidade do Exchange Server oferece uma fonte central para os administradores do Microsoft Exchange localizarem facilmente as informações sobre o nível de suporte disponível para qualquer configuração ou componente exigido para as versões suportadas do Microsoft Exchange.
 

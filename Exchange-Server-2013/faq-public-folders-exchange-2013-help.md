@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-03-27_
+_**Tópico modificado em:** 2017-03-27_
 
 Este tópico oferece a você uma lista de perguntas frequentes sobre pastas públicas do Exchange Server 2013. Para saber mais sobre pastas públicas, consulte [Pastas públicas](public-folders-exchange-2013-help.md).
 

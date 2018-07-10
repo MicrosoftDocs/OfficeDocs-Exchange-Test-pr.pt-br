@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 No Microsoft Exchange Server 2013, você pode configurar intervalos de repetição, reenvio e expiração de mensagem no serviço de transporte nos servidores de caixa de correio e nos servidores de transporte de borda. Para obter descrições dessas configurações, consulte [Intervalos de repetição, reenvio e expiração de mensagem](message-retry-resubmit-and-expiration-intervals-exchange-2013-help.md).
 

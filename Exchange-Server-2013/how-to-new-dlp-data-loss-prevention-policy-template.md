@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-14_
+_**Tópico modificado em:** 2015-01-14_
 
 No Microsoft Exchange Server 2013, você pode usar modelos de diretiva de prevenção de perda de dados (DLP) para ajudá-lo a cumprir as necessidades de política e conformidade das mensagens em sua organização. Esses modelos contêm conjuntos pré-configurados de regras que podem ajudá-lo a gerenciar dados de mensagens que estiverem associados a vários requisitos jurídicos e regulatórios comuns. Para ver uma lista de todos os modelos fornecidos pela Microsoft, consulte [Modelos de política DLP fornecidos no Exchange](dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md). Os modelos DLP de exemplo fornecidos podem ajudá-lo a gerenciar:
 

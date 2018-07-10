@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-01-31_
+_**Tópico modificado em:** 2013-01-31_
 
 Os recursos de prevenção de perda de dados (DLP) podem ajudar você a identificar e monitorar muitas categorias de informações confidenciais. À medida que você configura suas políticas de DLP, existe a opção de importar um arquivo de uma origem fora do Microsoft Exchange a ser usado como um modelo de política de DLP. As empresas parceiras da Microsoft podem desenvolver e distribuir esses tipos de modelos. Este tópico será atualizado com um link para ajudar você a encontrar essas empresas quando elas estiverem disponíveis.
 

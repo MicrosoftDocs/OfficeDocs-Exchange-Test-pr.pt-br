@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O servidor de Transporte de Borda está disponível no Microsoft Exchange Server 2013 Service Pack 1 (SP1). Entretanto, você pode continuar usando o atual Exchange Server 2007 ou os servidores de Transporte de Borda Exchange Server 2010 que você instalou no perímetro da sua rede. Ou, instale um novo Exchange 2007 ou um servidor de Transporte de Borda Exchange 2010 no perímetro da sua rede para uma organização do Exchange 2013 nova ou atualizada.
 

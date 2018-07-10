@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2013-02-11_
+_**Tópico modificado em:** 2013-02-11_
 
 O conjunto de integridade SiteMailbox monitora a integridade geral e a acessibilidade as caixas de correio de site em sua organização.
 

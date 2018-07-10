@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-14_
+_**Tópico modificado em:** 2012-11-14_
 
 Você pode desabilitar o email para um usuário de email existente na sua organização do Exchange. Ao desabilitar o email para um usuário de email, ele é removido do Exchange e do catálogo de endereços de sua organização. Se o usuário de email for um membro de um grupo de distribuição, o usuário não receberá mais emails enviados ao grupo. Além disso, os atributos do Exchange são removidos do objeto do usuário no Active Directory, mas o objeto de usuário e seus atributos que não pertencem ao Exchange (como informações de contato e da organização) permanecerão no Active Directory.
 

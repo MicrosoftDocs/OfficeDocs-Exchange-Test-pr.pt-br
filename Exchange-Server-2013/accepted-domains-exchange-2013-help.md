@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-06-16_
+_**Tópico modificado em:** 2016-06-16_
 
 Um domínio aceito é qualquer intervalo de nomes (namespace) SMTP para o qual o Microsoft Exchange Server 2013 envia ou recebe emails. Os domínios aceitos incluem os domínios para os quais a organização do Exchange é autoritativa. Uma organização do Exchange é autoritativa quando trata a entrega de mensagens para destinatários no domínio aceito. Domínios aceitos também incluem domínios para os quais a organização do Exchange recebe emails e, em seguida, retransmite-os para um servidor de email que está fora da organização para entregá-los ao destinatário.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 A função de servidor de Transporte de Borda foi reintroduzida no Exchange Service Pack 1. O Transporte de Borda fornece proteção aprimorada antispam para a organização do Exchange. O servidor de Transporte de Borda também aplica diretivas a mensagens em transporte entre as organizações. Essa função de servidor é implantada na rede de perímetro e fora da floresta do Active Directory. Os servidores de Transporte de Borda não têm acesso direto ao Active Directory para obter informações de configuração e destinatário tal como têm os servidores de Acesso para Cliente ou de Caixa de Correio. O servidor de Transporte de Borda usa o Active Directory Lightweight Directory Service (AD LDS) para armazenar localmente as informações de configuração e destinatário.
 

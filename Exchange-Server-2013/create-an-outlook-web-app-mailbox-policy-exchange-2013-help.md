@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-05-30_
+_**Tópico modificado em:** 2013-05-30_
 
 Você pode criar uma política de caixa de correio do Outlook Web App para aplicar um conjunto comum de configurações de política. As políticas de caixa de correio do Outlook Web App são úteis para aplicar e padronizar configurações, por exemplo, configurações de anexo, para grupos de usuários específicos.
 

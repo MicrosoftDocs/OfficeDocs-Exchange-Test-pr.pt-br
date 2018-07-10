@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-12_
+_**Tópico modificado em:** 2012-10-12_
 
 Você pode aplicar uma política de caixa de correio de Outlook Web App a uma ou mais caixas de correio ou remover um usando o EAC ou o Shell.
 
@@ -43,7 +43,7 @@ Você pode aplicar uma política de caixa de correio de Outlook Web App a uma ou
 
 2.  No painel de trabalho, clique para selecionar a caixa de correio que você deseja aplicar uma política de caixa de correio Outlook Web App para. Você também pode selecionar várias caixas de correio.
 
-3.  **Se você tiver selecionado uma caixa de correio:**
+3.  **Se você tiver selecionado uma caixa de correio:** 
     
     1.  Role para baixo, no painel de detalhes para **Conectividade de Email** e clique em **Exibir detalhes**.
     
@@ -51,7 +51,7 @@ Você pode aplicar uma política de caixa de correio de Outlook Web App a uma ou
     
     3.  Clique em **Salvar** para atribuir a política selecionada na caixa de correio selecionadas.
     
-    **Se você tiver selecionado mais de uma caixa de correio:**
+    **Se você tiver selecionado mais de uma caixa de correio:** 
     
     1.  Role para baixo, no painel de detalhes para o **Outlook Web App** e clique em **atribuir uma política**.
     

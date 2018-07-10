@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 As funções de gerenciamento podem ser listadas de várias maneiras, dependendo das informações que você desejar. Por exemplo, você pode escolher retornar apenas as funções de um tipo específico, funções que contenham apenas cmdlets e parâmetros específicos ou exibir os detalhes de uma função de gerenciamento específica. Para mais informações sobre as funções de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

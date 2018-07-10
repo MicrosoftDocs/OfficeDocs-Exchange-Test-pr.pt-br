@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Em In-Place eDiscovery para Exchange Server 2013 e Exchange Online, itens não pesquisáveis são itens de caixa de correio que não podem ser indexados pela pesquisa do Exchange ou que foram indexados apenas parcialmente. Um item não pesquisável normalmente contém um arquivo, que não pode ser indexado, anexado a uma mensagem de email. Aqui estão alguns motivos por que os arquivos não podem ser indexados para pesquisa e são retornados como um item não pesquisável quando anexado a uma mensagem de email:
 

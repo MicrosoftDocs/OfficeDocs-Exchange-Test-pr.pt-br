@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2012-11-08_
+_**Tópico modificado em:** 2012-11-08_
 
 Microsoft Exchange Server 2013 instalação exibido esse aviso, porque nenhuma função de servidor Exchange Server 2010 ou Exchange Server 2007 existe na organização.
 

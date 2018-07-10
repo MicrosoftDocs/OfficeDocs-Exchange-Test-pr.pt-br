@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Outlook 2013_
+_**Aplica-se a:** Exchange Server 2013, Outlook 2013_
 
-_**Tópico modificado em:**2015-02-27_
+_**Tópico modificado em:** 2015-02-27_
 
 Talvez seja necessário coordenar agendas com pessoas de diferentes organizações ou com amigos e membros da família, para poder trabalhar em conjunto em projetos ou planejar eventos sociais. Com o Exchange 2013, os administradores podem configurar diferentes níveis de acesso de calendário para permitir a colaboração com outras empresas e para permitir que os usuários compartilhem suas agendas com outras pessoas. O compartilhamento de calendário de empresa para empresa é configurado pela criação de *relacionamentos de organização*. O compartilhamento de calendário de usuário para usuário é configurado pela aplicação de *políticas de compartilhamento*.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Microsoft Exchange Unified Messaging (UM) permite que mensagens de caixa postal ao ser entregue à caixa de correio do usuário e também permite que os usuários receber faxes em suas caixas de correio. Em UM, um fax é enviado à caixa de correio do usuário, como uma mensagem de email que tenha um arquivo de imagem com uma extensão. tif anexada. O usuário pode abrir o arquivo anexado usando um aplicativo de software que pode abrir e exibir os arquivos de imagem que tenham uma extensão. tif. Este tópico aborda o envio de fax e como ele funciona em Unificação de mensagens.
 

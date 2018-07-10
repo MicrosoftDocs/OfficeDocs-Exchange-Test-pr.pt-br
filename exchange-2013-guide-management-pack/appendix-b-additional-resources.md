@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:** 2012-11-14_
+_**Tópico modificado em:**  2012-11-14_
 
 Os recursos a seguir oferecem informações sobre tarefas comuns associadas a pacotes de gerenciamento do System Center:
 

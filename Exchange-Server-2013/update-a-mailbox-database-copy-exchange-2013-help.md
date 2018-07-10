@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-02_
+_**Tópico modificado em:** 2012-11-02_
 
 Atualizando, também conhecido como *propagação*, é o processo no qual uma cópia de um banco de dados de caixa de correio é adicionada para outro servidor de caixa de correio em um grupo de disponibilidade do banco de dados (DAG). A cópia recém-adicionado torna-se o banco de dados de linha de base para a cópia passiva em que os arquivos de log copiados da cópia ativa são repetidos. Propagação, é necessário nas seguintes condições:
 

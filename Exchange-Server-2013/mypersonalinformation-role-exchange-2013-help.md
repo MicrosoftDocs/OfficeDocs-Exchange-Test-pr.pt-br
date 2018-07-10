@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-17_
+_**Tópico modificado em:** 2012-10-17_
 
 A função de gerenciamento de `MyPersonalInformation` permite que usuários individuais exibam e modifiquem seus website, endereço e número de telefone residencial. Isso é uma função personalizada criada da função [Função MyContactInformation](mycontactinformation-role-exchange-2013-help.md) pai.
 

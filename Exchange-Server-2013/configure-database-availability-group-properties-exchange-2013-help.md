@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-24_
+_**Tópico modificado em:** 2014-06-24_
 
 Você pode usar o EAC ou o Shell para configurar as propriedades de um grupo de disponibilidade de banco de dados (DAG), incluindo a configuração do endereço IP do DAG e o servidor e o diretório testemunhas usados pelo DAG. O Shell permite que você configure as propriedades do DAG que não estão disponíveis no EAC, como informações de servidor testemunha alternativo e de diretório testemunha alternativo, a porta TCP usada para replicação e o modo de coordenação de ativação de data center (DAC).
 

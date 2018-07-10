@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-01-23_
+_**Tópico modificado em:** 2017-01-23_
 
 Recomendamos que você use o processo de Inscrição de Borda para estabelecer o fluxo de email entre a organização do Exchange e um servidor de Transporte de Borda. Entretanto, determinadas situações podem impedir que você inscreva o servidor de Transporte de Borda em sua organização do Exchange usando o processo de Inscrição de Borda. Para estabelecer manualmente o fluxo de mensagens entre a organização do Exchange e um servidor de Transporte de Borda, crie e configure os Conectores de envio e de recebimento no servidor de Transporte de Borda e nos servidores de Caixa de Correio na organização do Exchange.
 

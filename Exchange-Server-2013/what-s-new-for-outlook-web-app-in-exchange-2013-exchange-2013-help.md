@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-12-20_
+_**Tópico modificado em:** 2017-12-20_
 
 Para o Microsoft Exchange Server 2013, adicionamos vários novos recursos para o Microsoft Outlook Web App e atualizamos o seu design.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 A filtragem de conexão é um recurso antispam fornecido pelo agente Filtragem de Conexão, que só é disponibilizado em servidores de Transporte de Borda no Microsoft Exchange 2013. A filtragem de conexão habilita os seguintes recursos:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-05-17_
+_**Tópico modificado em:** 2013-05-17_
 
 O Log de Auditoria de Administrador do Microsoft Exchange Server 2013 permite a você criar uma entrada de log sempre que um cmdlet especificado é executado. As entradas de log fornecem informações sobre qual cmdlet foi executado, quais parâmetros foram usados, quem executou o cmdlet e quais objetos foram afetados. Para obter mais informações sobre o registro em log de auditoria do administrador, consulte [Log de auditoria de administrador](administrator-audit-logging-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Quando você cria um plano de discagem da Unificação de Mensagens (UM), você pode configurar os modos principal e secundário que os chamadores podem pesquisar nomes para localizar um usuário quando eles ligam para um número do Outlook Voice Access ou para um atendedor automático de UM que está associado ao plano de discagem. Os chamadores podem usar entradas de discagem por tom para localizar um usuário habilitado para UM.
 

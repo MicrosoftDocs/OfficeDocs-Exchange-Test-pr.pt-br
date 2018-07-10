@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-15_
+_**Tópico modificado em:** 2016-12-15_
 
 A Instalação do Microsoft Exchange Server 2013 não pode continuar porque detectou que o Objeto de Política de Grupo (GPO) **ExecutionPolicy** define uma ou ambas das seguintes políticas:
 
@@ -29,7 +29,7 @@ Quando você executa a Instalação do Exchange 2013, o Exchange para e desabili
 
 Para permitir que a Instalação continue, você precisa remover temporariamente qualquer definição de **MachinePolicy** ou de **UserPolicy** do GPO **ExecutionPolicy**.
 
-Para obter informações sobre como remover qualquer definição de **MachinePolicy** ou de **UserPolicy** no **ExecutionPolicy** GPO, consulte o [artigo da Base de dados de Conhecimento KB981474](https://go.microsoft.com/fwlink/?linkid=3052%26kbid=981474).
+Para obter informações sobre como remover qualquer definição de **MachinePolicy** ou de **UserPolicy** no **ExecutionPolicy** GPO, consulte o [artigo da Base de dados de Conhecimento KB981474](https://go.microsoft.com/fwlink/?linkid=3052&kbid=981474).
 
 
 > [!TIP]

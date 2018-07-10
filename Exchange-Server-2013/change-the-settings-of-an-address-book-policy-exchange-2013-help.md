@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-03-30_
+_**Tópico modificado em:** 2016-03-30_
 
 Depois de criar uma política de catálogo de endereços (ABP), você pode exibir ou modificar o nome e a lista atribuídas de endereços global (GAL), o catálogo de endereços offline (OAB), lista de salas e listas de endereços.
 

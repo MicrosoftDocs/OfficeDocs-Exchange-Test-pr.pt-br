@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-28_
+_**Tópico modificado em:** 2012-11-28_
 
 Você pode usar o EAC ou o Shell para configurar o tempo limite de conexão para conexões IMAP4 autenticadas e não autenticadas ociosas.
 

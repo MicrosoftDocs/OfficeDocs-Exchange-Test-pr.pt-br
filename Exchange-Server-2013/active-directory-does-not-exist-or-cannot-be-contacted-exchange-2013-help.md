@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Microsoft Exchange Server 2013 instalação não pode continuar porque ele não pode contatar um site do serviço de diretório do Active Directory válido. Instalação exige que o servidor que você estiver instalando Exchange no é possível localizar o contexto de nomeação de configuração no Active Directory.
 

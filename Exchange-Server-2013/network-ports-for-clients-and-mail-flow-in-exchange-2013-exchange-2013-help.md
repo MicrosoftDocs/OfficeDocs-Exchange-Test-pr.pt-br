@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico fornece informações sobre a rede de portas que são usadas pelo MicrosoftExchange Server 2013 para a comunicação com clientes de email, servidores de email da Internet e outros serviços externos à sua organização local do Exchange. Antes de falarmos sobre isso, entenda as seguintes regras básicas:
 
@@ -41,7 +41,7 @@ Portas de rede necessárias para Unificação de Mensagens
 
 As portas de rede necessárias para que os clientes de email acessem caixas de correio e outros serviços na organização do Exchange são descritos na tabela e diagrama a seguir.
 
-**Observações:**
+**Observações:** 
 
   - O destino para esses clientes e serviços é um servidor de Acesso para Cliente. Isso poderia ser um servidor de Acesso para Cliente autônomo ou um servidor de Acesso para Cliente e servidor de Caixa de Correio instalados no mesmo computador.
 

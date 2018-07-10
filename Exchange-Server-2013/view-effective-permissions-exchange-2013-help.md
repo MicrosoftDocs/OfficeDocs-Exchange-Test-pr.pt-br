@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-09_
+_**Tópico modificado em:** 2012-10-09_
 
 Permissões no Microsoft Exchange Server 2013 são concedidas usando funções de gerenciamento que são atribuídas a grupos de funções de gerenciamento, diretivas de atribuição de função de gerenciamento, segurança universal USGs (grupos) ou diretamente aos usuários. Os usuários são concedidos as permissões se ele estiver membros dos grupos de função ou USGs, ou se estiverem atribuídos diretivas de atribuição de função.
 

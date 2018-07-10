@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 É possível configurar mais de um endereço de email para a mesma caixa de correio. Os endereços adicionais são chamados de *endereços proxy*. Um endereço proxy permite que um usuário receba email enviado a um endereço de email diferente. Qualquer mensagem de email enviada ao endereço proxy do usuário é fornecida ao seu endereço de email principal, que é também conhecido como *endereço SMTP principal* ou *endereço de resposta padrão*.
 

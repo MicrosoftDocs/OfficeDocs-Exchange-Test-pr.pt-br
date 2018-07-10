@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-30_
+_**Tópico modificado em:** 2012-10-30_
 
 Quando você adiciona uma cópia de um banco de dados de caixa de correio, a replicação contínua é ativada automaticamente entre a cópia do banco de dados e o banco de dados existente. Cópias de banco de dados são automaticamente atribuídas a uma identidade no formato de \<*DatabaseName*\> \\ \<*HostMailboxServerName*\>. Por exemplo, uma cópia do banco de dados DB1 hospedado no servidor MBX3 seria DB1\\MBX3.
 

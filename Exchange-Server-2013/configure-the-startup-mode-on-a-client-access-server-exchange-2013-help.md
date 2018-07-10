@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-15_
+_**Tópico modificado em:** 2013-02-15_
 
 Você pode especificar o modo de inicialização para o serviço Microsoft Exchange Unified Messaging roteador de chamadas em um servidor de acesso para cliente. Por padrão, o servidor de acesso para cliente iniciará no modo TCP, mas se você estiver usando a segurança de camada de transporte (TLS) para criptografar voz sobre o tráfego IP (VoIP), você deverá configurar o servidor de acesso para cliente para usar TLS ou modo Dual. É recomendável que os servidores de acesso para cliente sejam configurados para usar Dual como o modo de inicialização. Isso ocorre porque os servidores de todas as caixas de correio e acesso para cliente pode atender a chamadas recebidas para Unificação de mensagens de todos os planos de discagem e os planos de discagem podem ter configurações de segurança diferentes. Se você alterar o modo de inicialização, você deve reiniciar o serviço Microsoft Exchange Unified Messaging roteador de chamada para que a alteração entre em vigor.
 

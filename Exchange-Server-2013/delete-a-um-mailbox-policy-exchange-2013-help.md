@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Quando você exclui uma diretiva de caixa de correio de Unificação de mensagens (UM), a diretiva de caixa de correio de Unificação de mensagens ficarão mais disponível a ser associado a destinatários que estão sendo habilitados para Unificação de mensagens. Você não pode excluir uma política de caixa de correio UM se é referenciado por qualquer caixa de correio habilitado e você não pode excluir um plano de discagem de UM, se uma diretiva de caixa de correio de UM estiver associada ele.
 

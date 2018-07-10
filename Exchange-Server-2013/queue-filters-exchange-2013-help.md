@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Filtragem gera diferentes modos de exibição das filas. Você pode usar as propriedades da fila como opções de filtro. Ao especificar critérios de filtro, você pode rapidamente localizar filas e agir neles. Os cenários a seguir são exemplos de como você pode usar para gerenciar o fluxo de emails de filtragem de fila:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2014-04-03_
+_**Tópico modificado em:** 2014-04-03_
 
 Você só precisa atualizar a hierarquia de pasta pública, se quiser invocar manualmente o sincronizador de hierarquia e o assistente de caixa de correio. Ambos são invocados pelo menos uma vez a cada 24 horas para cada caixa de correio de pasta pública na organização. O sincronizador de hierarquia é invocado a cada 15 minutos, se os usuários estiverem conectados a uma caixa de correio secundária através dos clientes do Microsoft Outlook ou de Conectividade dos Serviços Web do Microsoft Exchange.
 

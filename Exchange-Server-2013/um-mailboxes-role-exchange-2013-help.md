@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento `UM Mailboxes` habilita os administradores a gerenciar a configuração de Unificação de Mensagens de caixas de correio e outros destinatários em uma organização.
 

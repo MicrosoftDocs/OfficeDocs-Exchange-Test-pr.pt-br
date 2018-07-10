@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-02_
+_**Tópico modificado em:** 2012-11-02_
 
 Se necessário, você pode criar redes adicionais para uso em um grupo de disponibilidade de banco de dados (DAG). Você pode usar o EAC ou o Shell para criar uma rede do DAG.
 

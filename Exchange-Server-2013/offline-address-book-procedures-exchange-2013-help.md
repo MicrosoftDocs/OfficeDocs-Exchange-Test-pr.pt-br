@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-04_
+_**Tópico modificado em:** 2012-10-04_
 
 [Criar um catálogo de endereços offline](create-an-offline-address-book-exchange-2013-help.md)
 

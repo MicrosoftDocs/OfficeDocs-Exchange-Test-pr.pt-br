@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-02-01_
+_**Tópico modificado em:** 2016-02-01_
 
 Os usuários enviem e recebam email todos os dias. Se permanecerá sem gerenciamento, o volume de email gerado e recebidas por dia pode inundar usuários, a produtividade do usuário do impacto e expor sua organização a riscos. Como resultado, o gerenciamento do ciclo de vida de email é um componente essencial para a maioria das organizações.
 
@@ -47,9 +47,9 @@ Você pode usar as políticas de retenção para impor a retenção de mensagem 
 
 **Mover mensagens para arquivar caixas de correio**   Essa estratégia, você implementar políticas MRM que mover itens para a caixa de correio de arquivo morto do usuário. Uma caixa de correio de arquivamento fornece armazenamento adicional para usuários manter o antigo e pouco acessados conteúdo. Marcas de retenção que mover itens também são conhecidas como *políticas de arquivamento*. Dentro da mesma política de retenção, você pode combinar um DPT e marcas pessoais para mover itens e um DPT, RPTs e marcas pessoais para excluir itens. Para saber mais sobre políticas de arquivamento, consulte:
 
-  - **Exchange Server 2013:** [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Caixas de correio de arquivo morto no Exchange Online](https://technet.microsoft.com/pt-br/library/dn922147\(v=exchg.150\))
+  - **Exchange Online:**  [Caixas de correio de arquivo morto no Exchange Online](https://technet.microsoft.com/pt-br/library/dn922147\(v=exchg.150\))
 
 
 > [!TIP]

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-01-28_
+_**Tópico modificado em:** 2013-01-28_
 
 Com as ferramentas de gerenciamento do Microsoft Exchange Server 2013, é possível configurar e gerenciar remotamente a organização do Exchange. As ferramentas de gerenciamento do Exchange 2013 incluem o Shell de Gerenciamento do Exchange e a Caixa de Ferramentas do Exchange. Este tópico explica como é possível usar tanto o Setup.exe quanto o modo de instalação autônoma para instalar as ferramentas de gerenciamento do Exchange 2013.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Tópico modificado em:**2018-01-17_
+_**Tópico modificado em:** 2018-01-17_
 
-**Resumo:** sobre caixas de correio de arbitragem em Exchange 2013 e como recriá-las.
+**Resumo:**  sobre caixas de correio de arbitragem em Exchange 2013 e como recriá-las.
 
 Exchange 2013 vem com cinco caixas de correio de sistema, conhecidas como *caixas de correio de arbitragem*. Caixas de correio de arbitragem são usadas para armazenar os diferentes tipos de dados de sistema e de gerenciamento de fluxo de trabalho aprovação de mensagens. O gráfico abaixo relaciona cada tipo de caixa de correio de arbitragem e as responsabilidades.
 

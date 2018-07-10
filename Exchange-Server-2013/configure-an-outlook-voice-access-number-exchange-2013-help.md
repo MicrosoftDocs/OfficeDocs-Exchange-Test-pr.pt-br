@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Um número do Outlook Voice Access permite que um usuário que esteja habilitado para a Unificação de Mensagens (UM) e caixa postal acesse sua caixa de correio usando o Outlook Voice Access. Quando você configura um número do Outlook Voice Access ou de acesso do assinante em um plano de discagem, usuários habilitados para UM podem ligar para o número, fazer logon em sua caixa de correio e acessar seus emails, mensagens de voz, calendário e informações de contato pessoais.
 

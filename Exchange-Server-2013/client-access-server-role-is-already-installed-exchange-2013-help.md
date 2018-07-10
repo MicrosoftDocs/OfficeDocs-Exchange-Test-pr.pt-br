@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A Configuração do Microsoft Exchange Server 2013 detectou que você está tentando instalar a função de servidor Acesso para Cliente; entretanto, essa função já está instalada no computador.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-25_
+_**Tópico modificado em:** 2013-04-25_
 
 Depois que uma mensagem de voz chega, os usuários podem optar entre ouvir essa mensagem usando os alto-falantes ou os fones de ouvido do computador e ouvi-la usando o recurso Tocar no Telefone. O recurso Tocar no Telefone é incluído no Microsoft Outlook e o Outlook Web App, e as configurações de Tocar no Telefone estão disponíveis na seção **Tocar no telefone** em opções de **Correio de voz**. Este tópico discute como um usuário habilitado para UM pode usar o recurso Tocar no Telefone.
 

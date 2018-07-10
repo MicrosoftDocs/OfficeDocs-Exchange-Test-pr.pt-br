@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Exchange Server 2013 configura automaticamente vários diretórios virtuais do Internet Information Services (IIS) durante a instalação. Este tópico contém informações sobre as configurações de autenticação do IIS padrão e configurações de Secure Sockets Layer (SSL) padrão para os servidores de caixa de correio e de acesso para cliente.
 

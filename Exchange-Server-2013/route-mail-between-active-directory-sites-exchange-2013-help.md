@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Um site do Active Directory é um componente de configuração lógica baseado nos aspectos físicos da rede. O principal objetivo para criar um site do Active Directory é definir quais sub-redes da rede estão conectadas de uma forma que otimiza o controle do tráfego de replicação do Active Directory. A Microsoft Exchange Server 2013 reconhece ambos os grupos de disponibilidade de banco de dados (DAGs) e sites do Active Directory como limite de roteamento, e Exchange 2013 servidores que tomem decisões de roteamento com base na topologia do site do Active Directory.
 

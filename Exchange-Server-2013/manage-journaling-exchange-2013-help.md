@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Registro no diário pode ajudar sua organização a atender aos requisitos de conformidade legais, normativos e organizacionais Registrando as comunicações de email de entrada e saída. Este tópico mostra como executar tarefas básicas relacionadas ao gerenciamento de registro no diário em Exchange 2013 e Exchange Online.
 

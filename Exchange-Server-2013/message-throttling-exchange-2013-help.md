@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 *Limitação de mensagem* refere-se a um grupo de limites definidos no número de conexões que podem ser processados por um computador do Microsoft Exchange Server 2013 e mensagens. Esses limites impedir o acidental ou intencional esgotamento de recursos do sistema no servidor Exchange.
 
@@ -75,13 +75,13 @@ Para suportar essa funcionalidade, Exchange 2013 usa mecanismos a seguir:
 
   - **Acelerar as conexões simultâneas com base na integridade do banco de dados de mensagens**   Esse mecanismo monitora a integridade de integridade do banco de dados (MDB) de mensagens do Exchange e restringe conexões simultâneas para servidores de transporte do Exchange com base em um valor de medida de integridade atribuído. O MDB é monitorado pela API do Monitor de integridade do recurso no serviço de transporte no servidor de caixa de correio e recebe um valor de integridade de -1 a 100. Esse valor baseia-se as estatísticas de desempenho de RPC incluídos com cada resposta RPC do processo de Store.exe no serviço de transporte de caixa de correio. A estrutura de integridade do recurso usa o contador de desempenho de taxa de **Solicitações/segundo** e o contador de desempenho da **Latência média de RPC** para calcular um valor de integridade para o banco de dados. Para ajudar a manter uma experiência interativa de usuário consistente, o Exchange reduz o número de conexões simultâneas como o valor de integridade diminui à medida. Os seguintes intervalos de valor de integridade estão disponíveis:
     
-      - **-1:** esse valor indica que o estado de integridade MDB é desconhecido. Esse valor é atribuído quando o banco de dados é iniciado. Neste cenário, o banco de dados é considerado íntegro.
+      - **-1:**  esse valor indica que o estado de integridade MDB é desconhecido. Esse valor é atribuído quando o banco de dados é iniciado. Neste cenário, o banco de dados é considerado íntegro.
     
-      - **0:** esse valor é atribuído se o banco de dados está em um estado íntegro. Nesse estado, o banco de dados não deve ser contatado.
+      - **0:**  esse valor é atribuído se o banco de dados está em um estado íntegro. Nesse estado, o banco de dados não deve ser contatado.
     
-      - **1 a 99:** esses valores representam um estado de integridade justo. Um valor mais baixo representa um banco de dados menor íntegro.
+      - **1 a 99:**  esses valores representam um estado de integridade justo. Um valor mais baixo representa um banco de dados menor íntegro.
     
-      - **100:** esse valor representa um banco de dados íntegro.
+      - **100:**  esse valor representa um banco de dados íntegro.
 
 O serviço de limitação do Microsoft Exchange fornece a estrutura de limitação de fluxo de email. O serviço de limitação do Microsoft Exchange controla as configurações para um usuário específico de limitação de fluxo de emails e armazena as informações de limitação na memória. Configurações de limitação de fluxo de email são também conhecido como um *orçamento*. Reiniciar o serviço de limitação do Microsoft Exchange também redefine a limitação orçamentos de fluxo de emails.
 
@@ -89,9 +89,9 @@ Você pode usar os cmdlets de política de limitação que estão disponíveis n
 
 Configurações de tempo para um orçamento são definidas como uma porcentagem de um minuto. Portanto, um limite de 100 por cento representa 60 segundos. Por exemplo, suponha que você deseja especificar as configurações de diretiva de Outlook Web App que limitam a quantidade de tempo durante o qual um usuário pode executar um código de Outlook Web App em um servidor de acesso para cliente e a quantidade de tempo que o usuário pode se comunicar com o servidor de acesso para cliente para 600 milissegundos por um período de um minuto. Para realizar isso, você precisará definir o valor para % 1 de um minuto (600 milissegundos) para ambos dos parâmetros a seguir:
 
-  - **OWAPercentTimeInCAS:** 1
+  - **OWAPercentTimeInCAS:**  1
 
-  - **OWAPercentTimeInMailboxRPC:** 1
+  - **OWAPercentTimeInMailboxRPC:**  1
 
 Um usuário que tem essa diretiva aplicada tem um orçamento de OWAPercentTimeInCAS de 600 milissegundos e de OWAPercentageTimeInMailboxRPC de 600 milissegundos. Neste cenário, quando o usuário está conectado ao Outlook Web App, o usuário pode executar um código de acesso para cliente por até 600 milissegundos. Após o período-milissegundo 600, a conexão é considerada acima do orçamento e o Exchange server não permite nenhuma providência Outlook Web App até um minuto após o limite de orçamento for atingido. Após o período de um minuto, o usuário pode executar o código de acesso do cliente Outlook Web App por outro milissegundos 600.
 
