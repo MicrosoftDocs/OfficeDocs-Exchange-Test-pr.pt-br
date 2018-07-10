@@ -79,9 +79,12 @@ Esse exemplo faz o seguinte:
 
 <!-- end list -->
 
+```
     $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
-
+```
+```
     Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
+```
 
 ## Usar o EAC para importar um certificado
 

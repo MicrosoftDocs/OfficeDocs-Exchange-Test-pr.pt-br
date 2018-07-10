@@ -85,7 +85,12 @@ Este exemplo define o diretório testemunha como C:\\DAG1DIR para um DAG chamado
 
 Este exemplo configura previamente o servidor testemunha alternativo CAS3 e um diretório testemunha alternativo C:\\DAGFileShareWitnesses\\DAG1.contoso.com para o DAG chamado DAG1.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
+```
+    Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory 
+```
+```
+    C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
+```
 
 Este exemplo configura um DAG chamado DAG1 para utilizar Dynamic Host Configuration Protocol (DHCP) a fim de obter um endereço IP.
 

@@ -88,9 +88,12 @@ Se a cópia do banco de dados de caixa de correio for a única, é preciso propa
 
 1.  Execute os seguintes comandos para interromper os serviços da Pesquisa do Microsoft Exchange e do Controlador de Host de Pesquisa do Microsoft Exchange.
     
+    ```
         Stop-Service MSExchangeFastSearch
-    
+    ```
+    ```    
         Stop-Service HostControllerService
+    ````
 
 2.  Excluir, mover ou renomear a pasta que contém o catálogo de índice de conteúdo do Exchange. Esta pasta é denominada `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Por exemplo, você pode renomear a pasta `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD`.
     
@@ -102,11 +105,14 @@ Se a cópia do banco de dados de caixa de correio for a única, é preciso propa
 
 3.  Execute os seguintes comandos para reiniciar os serviços da Pesquisa do Microsoft Exchange e do Controlador de Host de Pesquisa do Microsoft Exchange.
     
+```
         Start-Service MSExchangeFastSearch
-    
+```
+```
         Start-Service HostControllerService
-    
-    Após reiniciar esses serviços, a Pesquisa do Exchange recriará o catálogo de índice de conteúdo.
+ ```
+
+Após reiniciar esses serviços, a Pesquisa do Exchange recriará o catálogo de índice de conteúdo.
 
 ## Como saber se funcionou?
 

@@ -215,9 +215,12 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
         > Todas as informações contidas nas pastas públicas serão permanentemente excluídas quando você removê-los.
 
         
+        ```
             Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-        
+        ```
+        ```        
             Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 
@@ -286,9 +289,12 @@ As etapas para migrar pastas públicas do Exchange 2007 são diferentes das etap
 
 1.  Pastas públicas do sistema herdado como OWAScratchPad e a subárvore da pasta raiz de esquema no Exchange 2007 não ser reconhecido pelo Exchange 2013 e, portanto, serão tratadas como "não satisfatório" itens. Isso fará com que a falha na migração. Como parte da solicitação de migração, você deve especificar um valor para o parâmetro `BadItemLimit` . Esse valor irá variar dependendo do número de bancos de dados de pasta pública que você tem. Os comandos a seguir determinarão bancos de dados de pasta pública quantos você e calcular o `BadItemLimit` para a solicitação de migração.
     
+```
         $PublicFolderDatabasesInOrg = @(Get-PublicFolderDatabase)
-    
+```
+```    
         $BadItemLimitCount = 5 + ($PublicFolderDatabasesInOrg.Count -1)
+```
 
 2.  No servidor Exchange 2013, execute o seguinte comando:
     
@@ -454,9 +460,12 @@ Se você encontrar problemas com a migração e precisar reativar suas pastas p�
 
 2.  No servidor Exchange 2013, execute os seguintes comandos para remover as caixas de correio de pasta pública.
     
+```
         Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-        
+```
+```        
         Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+```
 
 3.  No servidor Exchange herdado, execute o seguinte comando para definir o sinalizador `PublicFolderMigrationComplete` como `$false`.
     

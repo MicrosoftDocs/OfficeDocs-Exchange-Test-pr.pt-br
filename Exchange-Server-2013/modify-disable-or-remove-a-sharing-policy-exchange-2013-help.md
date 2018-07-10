@@ -91,8 +91,18 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
 
   - Este exemplo adiciona um segundo domínio à política de compartilhamento Contoso. Ao adicionar um domínio a uma diretiva existente, inclua quaisquer domínios incluídos previamente.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'atlanta.contoso.com: CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: CalendarSharingFreeBusyReviewer'
-
+      ```
+        Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: 
+      ```
+      ```        
+        CalendarSharingFreeBusySimple', 'atlanta.contoso.com: 
+      ```
+      ```
+        CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: 
+      ```
+      ```
+        CalendarSharingFreeBusyReviewer'
+      ```
   - Este exemplo define a política de compartilhamento Contoso como a política de compartilhamento padrão.
     
         Set-SharingPolicy -Identity Contoso -Default $True
@@ -103,9 +113,12 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
 
   - O primeiro exemplo remove a política de compartilhamento Contoso. O segundo exemplo remove a política de compartilhamento Contoso e suprime a confirmação de que você deseja remover a política.
     
+      ```
         Remove-SharingPolicy -Identity Contoso
-    
+      ```
+      ```    
         Remove-SharingPolicy -Identity Contoso -Confirm
+      ```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd297931\(v=exchg.150\)) e [Remove-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd351071\(v=exchg.150\)).
 

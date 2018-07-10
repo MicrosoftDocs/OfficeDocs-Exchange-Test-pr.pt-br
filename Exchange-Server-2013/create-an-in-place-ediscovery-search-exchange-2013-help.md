@@ -168,11 +168,15 @@ Você pode usar a chave *EstimateOnly* para retornar apenas uma estimativa dos r
 
 Por exemplo, execute os seguintes comandos para criar uma nova pesquisa de Descoberta eletrônica e exibir uma estimativa dos resultados da pesquisa:
 
+```
     New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeKeywordStatistics
-
+```
+```
     Start-MailboxSearch "FY13 Q2 Financial Results"
-
+```
+```
     Get-MailboxSearch "FY13 Q2 Financial Results"
+```
 
 Para exibir informações específicas sobre os resultados de pesquisa estimados do exemplo anterior, você pode executar o seguinte comando:
 

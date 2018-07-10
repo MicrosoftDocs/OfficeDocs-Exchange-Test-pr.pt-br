@@ -139,11 +139,15 @@ Quando você executa esse comando, uma mensagem é exibida que pede para você c
 
 Aqui estão alguns exemplos de comandos para desabilitar as caixas de correio.
 
+```
     Disable-Mailbox danj
-
+```
+```
     Disable-Mailbox "Conf Room 31/1234 (12)"
-
+```
+```
     Disable-Mailbox sharedmbx@contoso.com
+```
 
 ## Como saber se funcionou?
 
@@ -197,11 +201,16 @@ Quando você executa esse comando, uma mensagem é exibida que pede para você c
 
 Aqui estão alguns exemplos de comandos para excluir caixas de correio.
 
+```
     Remove-Mailbox pilarp@contoso.com
-
+```
+```
     Remove-Mailbox "Fleet Van (16)"
+```
 
+```
     Remove-Mailbox corpprint
+```
 
 ## Como saber se funcionou?
 

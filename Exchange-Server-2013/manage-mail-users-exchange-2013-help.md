@@ -58,8 +58,7 @@ Usuários de email são semelhantes a contatos de email. Ambos têm endereços d
 
 4.  Na caixa **\* Endereço de email externo**, digite o endereço de email externo do usuário de email. O email enviado a esse usuário é encaminhado a esse endereço de email. Essa caixa é obrigatória.
 
-5.  
-    
+5.     
     Selecione uma das seguintes opções:
     
       - **Usuário existente**   Selecione para habilitar um usuário existente para email.
@@ -68,8 +67,7 @@ Usuários de email são semelhantes a contatos de email. Ambos têm endereços d
     
       - **Novo usuário**   Selecione para criar uma nova conta de usuário no Active Directory e habilitar o usuário para email. Se você selecionar essa opção, terá que fornecer as informações de conta de usuário necessárias.
 
-6.  
-    
+6.     
     Se você tiver selecionado **Novo Usuário** na Etapa 5, preencha as seguintes caixas na página **Novo usuário de email**. Caso contrário, pule para a Etapa 7.
     
       - **Nome**   Use essa caixa para digitar o nome do usuário de email.

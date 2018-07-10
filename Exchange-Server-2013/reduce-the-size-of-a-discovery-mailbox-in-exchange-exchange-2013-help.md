@@ -112,10 +112,12 @@ A próxima etapa é usar o cmdlet **New-MailboxSearch** para copiar os resultado
     
       - **Usando o Shell:**  Execute o seguinte comando para copiar os resultados de pesquisa. É necessário remover a opção *EstimateOnly* antes de poder copiar os resultados da pesquisa.
         
+      ```
             Set-MailboxSearch "Search results from 2010" -EstimateOnly $false
-        
+      ```
+      ```        
             Start-MailboxSearch "Search results from 2010"
-    
+      ``` 
       - **Usando o EAC:**  Vá em **Gerenciamento de conformidade** \> **Bloqueio & Descoberta Eletrônica In-loco**. Selecione a pesquisa, clique em **Pesquisar**![Ícone Pesquisar](images/Dn750895.773574d0-9b92-4cab-9f6b-81532c7418b9(EXCHG.150).gif "Ícone Pesquisar") e clique em **Copiar resultados da pesquisa**.
     
     Para obter mais informações, consulte [Copiar os resultados de pesquisa de descoberta eletrônica para uma caixa de correio de descoberta](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md).

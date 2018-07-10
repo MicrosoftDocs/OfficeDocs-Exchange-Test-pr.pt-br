@@ -94,12 +94,15 @@ Para verificar que você criou com êxito uma pasta pública, faça o seguinte:
 
   - No Shell, execute um destes comandos:
     
+```
         Get-PublicFolder -Identity \Marketing\2013\Reports | Format-List
-    
+```
+```    
         Get-PublicFolder -Identity \Marketing\2013 -GetChildren
-    
+```
+```    
         Get-PublicFolder -Recurse
-
+```
 
 > [!TIP]
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.

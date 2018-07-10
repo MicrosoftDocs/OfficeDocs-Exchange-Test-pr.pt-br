@@ -47,8 +47,7 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 2.  Selecione o DAG que você deseja configurar e clique em ![Adicionar rede DAG](images/Dd298051.befcdc4e-7f7a-451d-a0a8-608c79f5d186(EXCHG.150).gif "Adicionar rede DAG").
 
-3.  
-    
+3.      
     Na página **nova rede do grupo de disponibilidade de banco de dados**, forneça as seguintes informações:
     
       - **Nome de rede do grupo de disponibilidade do banco de dados**   Use esse campo para digitar um nome para a rede que seja exclusiva para o DAG.
