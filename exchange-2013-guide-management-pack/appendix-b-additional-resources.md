@@ -57,16 +57,6 @@ Os recursos a seguir oferecem informações sobre tarefas comuns associadas a pa
 
   - [Pacote de gerenciamento do Operations Manager 2007 e recursos de criação de relatórios](http://go.microsoft.com/fwlink/?linkid=246388)
 
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/Dn195905.important(EXCHG.150).gif" title="Importante" alt="Importante" />Importante:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Todas as informações e conteúdo de sites que não sejam da Microsoft são fornecidos pelo proprietário ou pelos usuários do site. A Microsoft não faz garantias expressas, implícitas ou estatutárias em relação às informações desses sites.</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Todas as informações e conteúdo de sites que não sejam da Microsoft são fornecidos pelo proprietário ou pelos usuários do site. A Microsoft não faz garantias expressas, implícitas ou estatutárias em relação às informações desses sites.
 
