@@ -53,42 +53,42 @@ Procurando tarefas de gerenciamento relacionadas aos logs de auditoria do admini
 </tr>
 <tr class="odd">
 <td><p><code>Event</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Nesta marca contém a entrada de log de auditoria para um cmdlet individual. Nesta marca contém o <code>Caller</code>, <code>Cmdlet</code>, <code>ObjectModified</code>, <code>RunDate</code>, <code>Succeeded</code>, <code>Error</code>e <code>OriginatingServer</code> atributos. As marcas de <code>CmdletParameters</code> e <code>ModifiedProperties</code> são filhos da marca.</p>
 <p>Não há uma marca de <code>Event</code> por entrada do log de auditoria.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Caller</code></p></td>
 <td><p>Este atributo contém a conta de usuário do usuário que executou o cmdlet no atributo <code>Cmdlet</code> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Cmdlet</code></p></td>
 <td><p>Este atributo contém o nome do cmdlet que foi executado pelo usuário no atributo <code>Caller</code> .</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>ObjectModified</code></p></td>
 <td><p>Este atributo contém o objeto que foi modificado pelo cmdlet especificado no atributo <code>Cmdlet</code> . A marca <code>ModifiedProperties</code> mostra quais propriedades foram modificadas neste objeto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>RunDate</code></p></td>
 <td><p>Este atributo contém a data e hora de quando o cmdlet no atributo <code>Cmdlet</code> foi executado.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Succeeded</code></p></td>
 <td><p>Este atributo especifica se o cmdlet no atributo <code>Cmdlet</code> foi executada com êxito. O valor é <code>True</code> ou <code>False</code>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Error</code></p></td>
 <td><p>Este atributo contém a mensagem de erro gerada se o cmdlet no atributo <code>Cmdlet</code> com falha para concluir com êxito. Se nenhum erro for encontrado, o valor é definido como <code>None</code>.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>OriginatingServer</code></p></td>
 <td><p>Este atributo contém o servidor no qual o cmdlet especificado no atributo <code>Cmdlet</code> foi executado.</p></td>
 </tr>
@@ -100,17 +100,17 @@ Procurando tarefas de gerenciamento relacionadas aos logs de auditoria do admini
 </tr>
 <tr class="even">
 <td><p><code>Parameter</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Nesta marca contém um parâmetro individual que foi especificado quando o cmdlet foi executado. Nesta marca contém os atributos <code>Name</code> e <code>Value</code> .</p>
 <p>Pode haver várias marcas <code>Parameter</code> por marca <code>CmdletParameters</code> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Name</code></p></td>
 <td><p>Este atributo contém o nome do parâmetro que foi especificado no cmdlet que foi executado.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Value</code></p></td>
 <td><p>Este atributo contém o valor que foi fornecido no parâmetro especificado no atributo <code>Name</code> .</p></td>
 </tr>
@@ -128,22 +128,22 @@ Procurando tarefas de gerenciamento relacionadas aos logs de auditoria do admini
 </tr>
 <tr class="even">
 <td><p><code>Property</code></p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p>Nesta marca contém uma propriedade individual que foi especificada quando o cmdlet foi executado. Nesta marca contém os atributos <code>Name</code>, <code>OldValue</code>e <code>NewValue</code> .</p>
 <p>Pode haver várias marcas <code>Property</code> por marca <code>ModifiedProperties</code> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Name</code></p></td>
 <td><p>Este atributo contém o nome da propriedade que foi modificado quando o cmdlet foi executado.</p></td>
 </tr>
 <tr class="even">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>OldValue</code></p></td>
 <td><p>Este atributo contém o valor que foi contido na propriedade especificada no atributo <code>Name</code> antes que ela foi alterada.</p></td>
 </tr>
 <tr class="odd">
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>NewValue</code></p></td>
 <td><p>Este atributo contém o valor que a propriedade no atributo <code>Name</code> foi alterada para.</p></td>
 </tr>
