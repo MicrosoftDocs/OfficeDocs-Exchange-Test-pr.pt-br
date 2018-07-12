@@ -57,9 +57,12 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
 
 3.  Crie uma caixa de correio de proxy no novo banco de dados de caixa de correio e oculte a caixa de correio do catálogo de endereços. O SMTP desta caixa de correio será devolvido pela Descoberta Automática como o SMTP *DefaultPublicFolderMailbox*, de modo que, ao resolver esse SMTP, o cliente possa acessar o servidor Exchange herdado para acesso à pasta pública.
     
+    ```
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
-    
+    ```
+    ```    
         Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```
 
 4.  Para o Exchange 2010, habilite a Descoberta Automática para retornar as caixas de correio de pasta pública de proxy. Esta etapa não é necessária para o Exchange 2007.
     

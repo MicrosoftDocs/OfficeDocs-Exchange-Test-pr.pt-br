@@ -63,8 +63,7 @@ Para tarefas de gerenciamento adicionais relacionadas a arquivos mortos, consult
 
 
 
-3.  
-    
+3.     
     Em **Marca de Retenção**, exiba ou modifica as seguintes configurações e clique em **Salvar**:
     
       - **Nome** Use essa caixa no topo da página para exibir ou alterar o nome da marca.

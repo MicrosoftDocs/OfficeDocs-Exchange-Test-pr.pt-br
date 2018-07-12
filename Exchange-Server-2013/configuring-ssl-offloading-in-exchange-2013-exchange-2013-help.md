@@ -119,8 +119,6 @@ Para habilitar o descarregamento SSL para EAC, você precisa remover a exigênci
         
             appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
         
-        ``` 
-        ```
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
     

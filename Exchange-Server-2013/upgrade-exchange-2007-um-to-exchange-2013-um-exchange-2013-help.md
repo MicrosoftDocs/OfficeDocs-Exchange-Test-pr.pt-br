@@ -574,10 +574,18 @@ Para remover um servidor de UM do Exchange 2007 de um plano de discagem usando a
 
 Para remover um servidor de UM do Exchange 2007 de um plano de discagem usando o Shell, execute o seguinte comando.
 
+```
     $dp= Get-UMDialPlan "MySIPDialPlan"
+```
+```    
     $s=Get-UMServer -id MyUMServer
+```
+```
     $s.dialplans-=$dp.identity
+```
+```    
     Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 
 Neste exemplo, existem três planos de discagem URI do SIP: SipDP1, SipDP2 e SipDP3. Este exemplo remove o servidor de UM denominado `MyUMServer` do plano de discagem SipDP3.
 

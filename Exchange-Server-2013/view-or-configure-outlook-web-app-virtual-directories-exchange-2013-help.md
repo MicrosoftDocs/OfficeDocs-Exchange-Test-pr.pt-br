@@ -61,8 +61,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
 
 2.  No painel de resultados, clique para selecionar o diretório virtual que você deseja exibir ou editar e clique em **Editar**.
 
-3.  
-    
+3.      
     Na guia **Geral**, você pode exibir as propriedades do site padrão do Outlook Web App e especificar uma URL externa e uma interna. Visualize ou selecione as seguintes opções:
     
       - **Servidor**   (Somente leitura.) **Servidor** exibe o nome do servidor que hospeda o diretório virtual do Outlook Web App.
@@ -79,8 +78,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
     
       - **URL externa**   Nesta caixa de texto, especifique a URL usada para acessar o site a partir da Internet. Por padrão, a **URL Externa** fica em branco. Para servidores de Acesso para Cliente voltados para a Internet, a **URL Externa** deve ser definida com o valor publicado no DNS referente a esse site do Active Directory. Para servidores Exchange 2013 que não têm presença na Internet, a configuração **URL externa** deve permanecer em branco.
 
-4.  
-    
+4.      
     Na guia **Autenticação**, especifique os métodos de autenticação, o formato de entrada e o domínio de entrada.
     
       - **Use um ou mais métodos de autenticação padrão**   Selecione essa opção para usar um ou mais dos seguintes métodos de autenticação padrão:
@@ -106,8 +104,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
         
         **Apenas nome de usuário** O usuário informa apenas seu nome de usuário, sem o nome de domínio, como, por exemplo, Kweku. Se você usar o prompt de entrada **Apenas nome de usuário** para autenticação baseada em formulários, deverá especificar também a propriedade **Domínio de Logon**. A propriedade **Domínio de Logon** determina o domínio padrão a ser usado quando um usuário tenta fazer logon no Outlook Web App. Por exemplo, se o domínio padrão for Contoso, e um usuário de domínio chamado Kweku fizer logon no Outlook Web App, apenas Kweku deve ser inserido como o nome de usuário. O servidor usará o domínio padrão Contoso. Se o usuário não for um membro do domínio Contoso, o domínio e o nome do usuário devem ser inseridos.
 
-5.  
-    
+5.      
     Na guia **Recursos**, especifique os recursos que você deseja habilitar ou desabilitar para usuários do Outlook Web App em um diretório virtual.
     
 
@@ -123,8 +120,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
 
 
 
-6.  
-    
+6.      
     Na guia **Acesso a arquivos**, use as caixas de seleção para configurar as opções de acesso a arquivos e exibição dos usuários. O acesso aos arquivos permite que os usuários abram ou visualizem o conteúdo de arquivos anexos a um email.
     
     O acesso aos arquivos pode ser controlado com base em se o usuário entrou no sistema em um computador público ou privado. A opção para que os usuários selecionem acesso a computadores particulares ou acesso a computadores públicos está disponível apenas quando você usa autenticação baseada em formulários. Todas as outras formas de padrão de autenticação para acesso de computador particular.

@@ -49,8 +49,7 @@ Você pode usar o Visualizador de filas na caixa de ferramentas do Exchange para
 
 4.  Clique com o botão a mensagem cujas propriedades você deseja exibir e selecione **Propriedades**.
 
-5.  
-    
+5.     
     Na guia **Geral** exibe as seguintes informações detalhadas sobre a mensagem:
     
       - **Identidade**    Esse campo mostra o número inteiro que representa uma mensagem específica. A identidade da mensagem é atribuída pelo banco de dados de fila quando a mensagem é recebida para processamento. Você pode incluir uma identidade de fila e de servidor opcional para identificar uma instância exclusiva da mensagem.
@@ -95,8 +94,7 @@ Você pode usar o Visualizador de filas na caixa de ferramentas do Exchange para
     
       - **Contagem de repetição**    Esse campo mostra o número de vezes que a entrega de uma mensagem para um destino foi tentada.
 
-6.  
-    
+6.      
     A guia **Informações do destinatário** exibe as seguintes informações sobre os destinatários da mensagem:
     
       - **Endereço**    Esse campo mostra o endereço SMTP do destinatário da mensagem. Este valor é obtido do `RCPT TO:` no envelope da mensagem.

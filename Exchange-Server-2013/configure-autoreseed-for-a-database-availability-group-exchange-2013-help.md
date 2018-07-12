@@ -87,8 +87,12 @@ A saída para *AutoDagDatabaseCopiesPerVolume* deve refletir o valor configurado
 
 Primeiro, crie os diretórios que correspondem aos diretórios raiz configurados na Etapa 1. O exemplo a seguir mostra como criar os diretórios padrão usando o prompt de comando.
 
+``` 
     md C:\ExchangeDatabases
+``` 
+``` 
     md C:\ExchangeVolumes
+``` 
 
 ## Como saber se essa etapa funcionou?
 
@@ -122,13 +126,19 @@ Os volumes montados devem aparecer na lista de saída.
 
 Em seguida, crie os diretórios de banco de dados no caminho de raiz C:\\ExchangeDatabases. Este exemplo ilustra como criar diretórios para uma configuração de armazenamento de 4 bancos de dados em cada volume.
 
+``` 
     md c:\ExchangeDatabases\db001
-
+``` 
+``` 
     md c:\ExchangeDatabases\db002
-
+``` 
+``` 
     md c:\ExchangeDatabases\db003
+``` 
 
+``` 
     md c:\ExchangeDatabases\db004
+``` 
 
 ## Como saber se essa etapa funcionou?
 
@@ -162,22 +172,30 @@ C:\\\< *NomeDaPastaDoBancoDeDados*\>\\*NomeDoBancoDeDados*\\\<*NomeDoBancoDeDado
 
 Este exemplo ilustra como criar diretórios para 4 bancos de dados que serão armazenados no Volume 1:
 
+``` 
     md c:\ExchangeDatabases\db001\db001.db
-
+``` 
+``` 
     md c:\ExchangeDatabases\db001\db001.log
-
+``` 
+``` 
     md c:\ExchangeDatabases\db002\db002.db
-
+``` 
+``` 
     md c:\ExchangeDatabases\db002\db002.log
-
+``` 
+``` 
     md c:\ExchangeDatabases\db003\db003.db
-
+``` 
+``` 
     md c:\ExchangeDatabases\db003\db003.log
-
+``` 
+``` 
     md c:\ExchangeDatabases\db004\db004.db
-
+``` 
+``` 
     md c:\ExchangeDatabases\db004\db004.log
-
+``` 
 Repita os comandos acima para bancos de dados em cada volume.
 
 ## Como saber se essa etapa funcionou?
@@ -212,7 +230,9 @@ Para verificar se você configurou a Nova Propagação Automática para um DAG, 
 
 2.  Execute o comando a seguir para verificar se a estrutura de diretório está configurada corretamente (abaixo, estão os caminhos padrão; se necessário, substitua os caminhos pelos caminhos que você está usando).
     
+``` 
         Dir c:\ExchangeDatabases /s
-    
+``` 
+```     
         Dir c:\ExchangeVolumes /s
-
+``` 

@@ -55,8 +55,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
 
 
 
-4.  
-    
+4.   
     Selecione uma das seguintes opções:
     
       - **Usuário existente**   Selecione para habilitar para email e criar uma caixa de correio para um usuário existente.
@@ -71,8 +70,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
 
 
 
-5.  
-    
+5.     
     Se você tiver selecionado **Novo usuário**, na Etapa 4, preencha as seguintes caixas na página **Nova caixa de correio de usuário**. Caso contrário, pule para a Etapa 7.
     
       - **Nome**   Use essa caixa para digitar o nome do usuário.
@@ -109,8 +107,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Se você marcar essa caixa de seleção, no primeiro logon, o novo usuário verá uma caixa de diálogo pedindo para ele alterar a senha. O usuário não terá permissão para executar nenhuma tarefa até que a senha tenha sido alterada com êxito.
 
-6.  
-    
+6.      
     Clique em **Mais opções**, para configurar as caixas a seguir. Caso contrário, pule para a etapa 7, para salvar a nova caixa de correio do usuário.
     
       - **Especificar o banco de dados da caixa de correio**   Use essa opção para especificar um banco de dados de caixa de correio, em vez de permitir que o Exchange selecione um banco de dados para você. Clique em **Procurar** para abrir a caixa de diálogo **Selecionar Banco de Dados de Caixa de Correio**. Essa caixa de diálogo lista todos os bancos de dados de caixa de correio de sua organização do Exchange. Por padrão, os bancos de dados de caixa de correio são classificados por nome. Você também pode clicar no título da coluna correspondente para classificar os bancos de dados por nome ou versão do servidor. Selecione o banco de dados de caixa de correio que você deseja usar e clique em **OK**.
@@ -125,8 +122,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 
-7.  
-    
+7.      
     Após concluir, clique em **Salvar** para criar a caixa de correio.
 
 ## Usar o Shell para criar uma caixa de correio de usuário

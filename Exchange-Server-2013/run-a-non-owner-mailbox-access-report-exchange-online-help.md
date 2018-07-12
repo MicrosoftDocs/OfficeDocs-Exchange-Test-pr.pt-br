@@ -49,9 +49,12 @@ Por exemplo, para habilitar a auditoria de caixa de correio para uma usuária ch
 
 Para habilitar a auditoria de caixas de correio para todas as caixas de correio de usuário da sua organização, execute os seguintes comandos:
 
+```
     $UserMailboxes = Get-mailbox -Filter {(RecipientTypeDetails -eq 'UserMailbox')}
-
+```
+```
     $UserMailboxes | ForEach {Set-Mailbox $_.Identity -AuditEnabled $true}
+```
 
 ## Como saber se funcionou?
 

@@ -107,9 +107,12 @@ Faça logon no EAC e execute as seguintes etapas:
 
 Este exemplo cria um lote de migração para uma movimentação local, em que as caixas de correio no arquivo .csv especificado são movidas para um banco de dados de caixa de correio diferente. Esse arquivo .csv contém uma única coluna, que inclui o endereço de e-mail de cada uma das caixas de correio que serão movidas. O cabeçalho desta coluna deve ser nomeado **EmailAddress**. O lote de migração neste exemplo deve ser iniciado manualmente usando o cmdlet **Start-MigrationBatch** ou o Centro de Administração do Exchange (EAC). De forma alternativa, você pode usar o parâmetro *AutoStart* para iniciar o lote de migração automaticamente.
 
+```
     New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
-
+```
+```
     Start-MigrationBatch -Identity LocalMove1
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-MigrationBatch](https://technet.microsoft.com/pt-br/library/jj219166\(v=exchg.150\)) e [Start-MigrationBatch](https://technet.microsoft.com/pt-br/library/jj219165\(v=exchg.150\)).
 
@@ -163,10 +166,13 @@ Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.
 
 Este exemplo configura o ponto de extremidade da migração e cria uma movimentação em lote entre florestas, da floresta de origem para a floresta de destino, usando um arquivo .csv.
 
-    New-MigrationEndpoint -Name Fabrikam -ExchangeRemote -Autodiscover -EmailAddress tonysmith@fabrikam.com -Credentials (Get-Credential fabrikam\tonysmith) 
-    
+```
+New-MigrationEndpoint -Name Fabrikam -ExchangeRemote -Autodiscover -EmailAddress tonysmith@fabrikam.com -Credentials (Get-Credential fabrikam\tonysmith) 
+```
+```    
     $csvData=[System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\batch.csv")
     New-MigrationBatch -CSVData $csvData -Timezone "Pacific Standard Time" -Name FabrikamMerger -SourceEndpoint Fabrikam -TargetDeliveryDomain "mail.contoso.com"
+```
 
 Para obter mais informações sobre como preparar a sua floresta para movimentações entre florestas, consulte os seguintes tópicos:
 

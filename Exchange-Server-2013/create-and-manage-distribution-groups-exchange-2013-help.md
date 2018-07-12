@@ -51,10 +51,7 @@ Há dois tipos de grupos que podem ser usados para distribuir mensagens:
 
 2.  Clique em **Novo**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") \> **Grupo de distribuição**.
 
-3.  
-    
-
-    > [!TIP]
+3.  > [!TIP]
     > <IMG title="Novidade Experimentar Grupos do Office 365" alt="Novidade Experimentar Grupos do Office 365" src="images/Bb124513.3ea82c95-9dda-450f-823b-cd0772249d81(EXCHG.150).png"><BR>Agora é possível criar um grupo do Office 365 em vez de um grupo de distribuição se você tiver um plano do Office 365 para empresas ou um plano do Exchange Online. Os grupos do Office 365 têm os recursos de um grupo de distribuição e muito mais. Com os grupos do Office 365, você pode enviar emails para um grupo, compartilhar um calendário comum, ter uma biblioteca para armazenar e trabalhar em pastas e arquivos do grupo. Clique em <STRONG>Novo</STRONG><IMG title="Ícone Adicionar" alt="Ícone Adicionar" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">&nbsp;&gt;&nbsp;<STRONG>Grupo do Office 365</STRONG> para começar e confira <A href="https://go.microsoft.com/fwlink/p/?linkid=800653">Grupos do Office 365 - ajuda da administração</A>.<BR>Se você tiver grupos de distribuição existentes que queira migrar para os grupos do Office 365, veja <A href="https://go.microsoft.com/fwlink/p/?linkid=824756">Migrar as listas de distribuição para grupos do Office 365 - ajuda da administração</A>.<BR>Se você ainda quiser criar um grupo de distribuição, clique ou toque no assistente <STRONG>Novo grupo de distribuição</STRONG>.
 
 
@@ -302,7 +299,12 @@ Veja a seguir alguns exemplos de como usar o Shell para alterar propriedades dos
 
 Este exemplo altera o endereço SMTP principal (também chamado de endereço de resposta) do grupo de distribuição Funcionários de Seattle, de employees@contoso.com para sea.employees@contoso.com. Da mesma forma, o endereço de resposta anterior será mantido como um endereço de proxy.
 
-    Set-DistributionGroup "Seattle Employees" -EmailAddresses SMTP:sea.employees@contoso.com,smtp:employees@contoso.com
+```
+    Set-DistributionGroup "Seattle Employees" -EmailAddresses 
+```
+```    
+    SMTP:sea.employees@contoso.com,smtp:employees@contoso.com
+```
 
 Este exemplo limita o tamanho máximo de mensagens que podem ser enviadas a todos os grupos de distribuição na organização em 10 megabytes (MB).
 

@@ -85,9 +85,12 @@ Se você usou a opção *EstimateOnly* para fazer uma estimativa dos resultados 
 
 Para copiar os resultados da pesquisa para uma caixa de correio de descoberta, você faria execute os seguintes comandos:
 
-    Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
-
+```
+Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
+```
+```
     Start-MailboxSearch "FY13 Q2 Financial Results"
+```
 
 ## Para obter mais informações sobre como copiar os resultados da pesquisa
 
