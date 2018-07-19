@@ -51,9 +51,7 @@ Você pode usar o EAC ou o Shell para configurar as propriedades de um grupo de 
 
 2.  Selecione o DAG que você deseja configurar e clique em ![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição").
 
-3.  
-    
-    Use a página **Geral** para exibir o status de associação e operação do DAG e para configurar o servidor testemunha do DAG, o diretório testemunha e a configuração automática de rede:
+3.  Use a página **Geral** para exibir o status de associação e operação do DAG e para configurar o servidor testemunha do DAG, o diretório testemunha e a configuração automática de rede:
     
       - **Servidor testemunhas**   O nome de host ou nome de domínio totalmente qualificado (FQDN) do servidor testemunha do DAG. Apesar de essa ser uma propriedade requerida por todos os DAGs, o servidor testemunha é usado quando há um número par de membros do DAG e o modelo de quórum em uso pelo cluster é Maioria dos Nós e Compartilhamentos de Arquivos.
     
@@ -63,9 +61,7 @@ Você pode usar o EAC ou o Shell para configurar as propriedades de um grupo de 
     
       - **Configurar a rede do grupo de bancos de dados manualmente**   Uma caixa de seleção que você marca quando deseja configurar todas as redes do DAG manualmente. Quando você deixa a caixa de seleção desmarcada, o sistema configura as redes do DAG automaticamente, com base na configuração da interface de rede. Se a caixa de seleção forem desmarcadas, o cmdlets **Set-DatabaseAvailabilityGroupNetwork** e **New-DatabaseAvailabilityGroupNetwork** serão desabilitados para uso administrativo com base no DAG.
 
-4.  
-    
-    Use a página **Endereço IP** para exibir e modificar os endereços IP atribuídos ao DAG:
+4.  Use a página **Endereço IP** para exibir e modificar os endereços IP atribuídos ao DAG:
     
       - Selecione um endereço IP existente e clique em ![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição") para modificá-lo.
     
@@ -73,9 +69,7 @@ Você pode usar o EAC ou o Shell para configurar as propriedades de um grupo de 
     
       - Insira um endereço IP e clique em ![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar"), para adicioná-lo ao DAG.
 
-5.  
-    
-    Clique em **Salvar** para salvar quaisquer alterações feitas.
+5.  Clique em **Salvar** para salvar quaisquer alterações feitas.
 
 ## Usar o Shell para configurar propriedades de grupos de disponibilidade de banco de dados
 
@@ -139,4 +133,3 @@ Para verificar se você configurou com êxito o DAG, faça o seguinte:
 [Get-DatabaseAvailabilityGroup](https://technet.microsoft.com/pt-br/library/dd351226\(v=exchg.150\))
 
 [Set-DatabaseAvailabilityGroup](https://technet.microsoft.com/pt-br/library/dd297934\(v=exchg.150\))
-
