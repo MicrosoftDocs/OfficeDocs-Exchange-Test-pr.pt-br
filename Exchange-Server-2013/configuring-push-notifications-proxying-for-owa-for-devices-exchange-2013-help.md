@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurando o proxy de notificações por push para o OWA para dispositivos: Exchange 2013 Help'
 TOCTitle: Configurando o proxy de notificações por push para o OWA para dispositivos
 ms:assetid: c0f4912d-8bd3-4a54-9097-03619c645c6a
@@ -54,7 +54,7 @@ O uso de um único método padronizado para a autenticação de servidor para se
 A autenticação com o OAuth geralmente envolve três partes: um servidor de autorização individual e dois realms que precisam se comunicar entre si. Os tokens de segurança são emitidos pelo servidor de autorização (também conhecido como servidor do token de segurança) para os dois realms que precisam se comunicar. Esse tokens verificam se as comunicações originadas de um realm devem ser confiadas pelo outro realm. Por exemplo, o servidor de autorização pode emitir tokens que verificam se os usuários de um realm do Lync Server 2013 específico podem acessar um realm do Exchange 2013 e vice-versa.
 
 
-> [!TIP]
+> [!TIP]  
 > Um realm é um contêiner de segurança.
 
 
@@ -66,10 +66,10 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
   -  **Etapa 1: atribuir um certificado ao emissor de token integrado do Exchange Server local.** Primeiro, um administrador local do Exchange precisa usar o seguinte script do Shell de Gerenciamento do Exchange para criar um certificado, caso ele não tenha sido previamente criado, e atribui-lo ao emissor de token integrado do Exchange Server local. Esse é um processo de ocorrência única. Após a criação do certificado, ele pode ser reutilizado em outros cenários de autenticação sem ser substituído. Certifique-se de atualizar o valor de *$tenantDomain* com o nome do seu domínio. Para fazer isso, copie e cole o seguinte código.
     
 
-        > [!WARNING]
+        > [!WARNING]  
         > Para facilitar a execução de scripts do Shell, copie e cole o código em um editor de texto como o Bloco de Notas e salve o código com a extensão .ps1.
 
-    
+        ```
         # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
         
         $tenantDomain = "Fabrikam.com"
@@ -129,21 +129,24 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
             Write-Host "AuthServer Config already exists."
         }
         Write-Host "Complete."
-    
+        ```
+
         O resultado esperado deve se parecer com a seguinte saída.
-    
+
+        ```
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
-    
+        ```
 
-        > [!WARNING]
+        > [!WARNING]  
         > Antes de continuar, os cmdlets Módulo Azure Active Directory para Windows PowerShell é necessário. Se os cmdlets Módulo Azure Active Directory para Windows PowerShell (anteriormente conhecido como o Microsoft Online Services Module for Windows PowerShell) não tiver sido instalado, você pode instalá-lo a partir <A href="http://aka.ms/aadposh">Gerenciar o Azure AD usando o Windows PowerShell</A>.
 
 
 
   -  **Etapa 2: configurar o Office 365 para se comunicar com o Exchange 2013 local.** Configure o servidor do Office 365 com o qual o Exchange Server 2013 se comunicará para que seja um aplicativo parceiro. Por exemplo, se o Exchange Server 2013 local precisa se comunicar com o Office 365, é preciso configurar o Exchange para que ele seja um aplicativo parceiro. Um aplicativo parceiro é qualquer aplicativo com o qual o Exchange 2013 pode trocar tokens de segurança diretamente, sem ter que atravessar um servidor de token de segurança terceirizado. Os administradores locais do Exchange 2013 devem usar o seguinte script do Shell de Gerenciamento do Exchange para configurar o locatário do Office 365 com o qual o Exchange 2013 se comunicará para que ele seja um aplicativo parceiro. Durante a execução, um prompt será exibido para inserir o nome de usuário e a senha de administrador do domínio do locatário do Office 365. Por exemplo, administrador@fabrikam.com. Certifique-se de atualizar o valor do *$CertFile* com a localização do certificado, caso ele não tenha sido criado a partir do script anterior. Para fazer isso, copie e cole o seguinte código.
     
+        ```
         # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
         
         $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -174,12 +177,15 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
         {
             Write-Error "Cannot find certificate."
         } 
-    
+        ```
+
         O resultado esperado deve ser o seguinte.
-    
+
+        ```
         Please enter the administrator user name and password of the Office 365 tenant domain...
         Adding a key to Service Principal...
         Complete.
+        ```
 
 ## Habilitar o uso de proxy para as notificações por push
 
