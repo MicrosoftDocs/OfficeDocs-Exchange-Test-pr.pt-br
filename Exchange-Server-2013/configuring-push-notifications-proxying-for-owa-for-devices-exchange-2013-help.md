@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Configurando o proxy de notificações por push para o OWA para dispositivos: Exchange 2013 Help'
 TOCTitle: Configurando o proxy de notificações por push para o OWA para dispositivos
 ms:assetid: c0f4912d-8bd3-4a54-9097-03619c645c6a
@@ -70,6 +70,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
         > Para facilitar a execução de scripts do Shell, copie e cole o código em um editor de texto como o Bloco de Notas e salve o código com a extensão .ps1.
 
     
+        ```
         # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
         
         $tenantDomain = "Fabrikam.com"
@@ -129,6 +130,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
             Write-Host "AuthServer Config already exists."
         }
         Write-Host "Complete."
+        ```
     
         O resultado esperado deve se parecer com a seguinte saída.
     
@@ -144,6 +146,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
   -  **Etapa 2: configurar o Office 365 para se comunicar com o Exchange 2013 local.** Configure o servidor do Office 365 com o qual o Exchange Server 2013 se comunicará para que seja um aplicativo parceiro. Por exemplo, se o Exchange Server 2013 local precisa se comunicar com o Office 365, é preciso configurar o Exchange para que ele seja um aplicativo parceiro. Um aplicativo parceiro é qualquer aplicativo com o qual o Exchange 2013 pode trocar tokens de segurança diretamente, sem ter que atravessar um servidor de token de segurança terceirizado. Os administradores locais do Exchange 2013 devem usar o seguinte script do Shell de Gerenciamento do Exchange para configurar o locatário do Office 365 com o qual o Exchange 2013 se comunicará para que ele seja um aplicativo parceiro. Durante a execução, um prompt será exibido para inserir o nome de usuário e a senha de administrador do domínio do locatário do Office 365. Por exemplo, administrador@fabrikam.com. Certifique-se de atualizar o valor do *$CertFile* com a localização do certificado, caso ele não tenha sido criado a partir do script anterior. Para fazer isso, copie e cole o seguinte código.
     
+        ```
         # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
         
         $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -173,7 +176,8 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
         Else
         {
             Write-Error "Cannot find certificate."
-        } 
+        }
+        ``` 
     
         O resultado esperado deve ser o seguinte.
     
@@ -228,31 +232,32 @@ Após a conclusão das etapas anteriores, as notificações por push podem ser t
 
   - **Habilitando o monitoramento.** Como método alternativo para testar as notificações por push, ou para investigar o motivo de falhas nas notificações, habilite o monitoramento em um servidor de caixa de correio em sua organização. Os administradores de servidor do Exchange 2013 local devem invocar o monitoramento de proxy das notificações por push usando o seguinte script. Para fazer isso, copie e cole o seguinte código.
     
-        # Send a push notification to verify connectivity.
-        
-        $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
-        If ($s.Count -gt 1)
-        {
-            $s = $s[0]
-        }
-        If ($s.Count -ne 0)
-        {
-            # Restart the monitoring service to clear the cache from when push was previously disabled.
-            Restart-Service MSExchangeHM
-        
-            # Give the monitoring service enough time to load.
-            Start-Sleep -Seconds:120
-        
-            Invoke-MonitoringProbe PushNotifications.Proxy\PushNotificationsEnterpriseConnectivityProbe -Server:$s.Fqdn | fl ResultType, Error, Exception
-        }
-        Else
-        {
-            Write-Error "Cannot find a Mailbox server in the current site."
-        }
+    ```
+    # Send a push notification to verify connectivity.
+    
+    $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
+    If ($s.Count -gt 1)
+    {
+        $s = $s[0]
+    }
+    If ($s.Count -ne 0)
+    {
+        # Restart the monitoring service to clear the cache from when push was previously disabled.
+        Restart-Service MSExchangeHM
+    
+        # Give the monitoring service enough time to load.
+        Start-Sleep -Seconds:120
+    
+        Invoke-MonitoringProbe PushNotifications.Proxy\PushNotificationsEnterpriseConnectivityProbe -Server:$s.Fqdn | fl ResultType, Error, Exception
+    }
+    Else
+    {
+        Write-Error "Cannot find a Mailbox server in the current site."
+    }
+    ```
     
     O resultado esperado deve se parecer com a seguinte saída.
     
         ResultType : Succeeded
         Error      :
         Exception  :
-
