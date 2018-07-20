@@ -57,8 +57,6 @@ A autenticação com o OAuth geralmente envolve três partes: um servidor de aut
 > [!TIP]
 > Um realm é um contêiner de segurança.
 
-
-
 No entanto, para uma autenticação local de servidor para servidor, não é preciso usar um servidor de token terceirizado. Produtos de servidor, como o Lync Server 2013 e o Exchange 2013 têm um servidor de token integrado que pode ser usado para fins de autenticação com outros servidores da Microsoft (como o SharePoint Server) que oferecem suporte à autenticação de servidor para servidor. Por exemplo, o Lync Server 2013 pode ele mesmo gerar e assinar um token de segurança e usá-lo para se comunicar com o Exchange 2013. Em um caso como esse, não há a necessidade de um servidor de token terceirizado.
 
 Para configurar uma autenticação de servidor para servidor de uma implantação local do Exchange Server 2013 para o Office 365, é preciso concluir duas etapas:
@@ -134,11 +132,11 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
     
         O resultado esperado deve se parecer com a seguinte saída.
 		
-		```
+	```
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
-		```
+	```
 
         > [!WARNING]
         > Antes de continuar, os cmdlets Módulo Azure Active Directory para Windows PowerShell é necessário. Se os cmdlets Módulo Azure Active Directory para Windows PowerShell (anteriormente conhecido como o Microsoft Online Services Module for Windows PowerShell) não tiver sido instalado, você pode instalá-lo a partir <A href="http://aka.ms/aadposh">Gerenciar o Azure AD usando o Windows PowerShell</A>.
@@ -182,11 +180,11 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 		
         O resultado esperado deve ser o seguinte.
 		
-		```
+	```
         Please enter the administrator user name and password of the Office 365 tenant domain...
         Adding a key to Service Principal...
         Complete.
-		```
+	```
 		
 ## Habilitar o uso de proxy para as notificações por push
 
