@@ -117,18 +117,9 @@ As tabelas a seguir exibem os limites de mensagens, incluindo informações sobr
 </tr>
 <tr class="odd">
 <td><p>Número máximo de destinatários por mensagem</p>
-<table>
-<thead>
-<tr class="header">
-<th><img src="images/JJ126310.note(EXCHG.150).gif" title="Observação" alt="Observação" />Observação:</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-</tr>
-</tbody>
-</table>
+
+> [!Tip]  
+> <p></p>
 
 </td>
 <td><p>5000</p></td>
