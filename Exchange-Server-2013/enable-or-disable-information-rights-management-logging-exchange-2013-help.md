@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-12_
+_**Tópico modificado em:** 2012-10-12_
 
 No Exchange Server 2013, é possível usar logs de Gerenciamento de Direitos de Informação (IRM) para monitorar e solucionar problemas em operações IRM. O registro em log do IRM está habilitado por padrão.
 

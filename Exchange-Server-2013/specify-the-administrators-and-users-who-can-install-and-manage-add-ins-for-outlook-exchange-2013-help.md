@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-02-08_
+_**Tópico modificado em:** 2017-02-08_
 
 Você pode especificar que os administradores em sua organização tem permissões para instalar e gerenciar suplementos do Outlook. Você também pode especificar quais usuários em sua organização têm permissão para instalar e gerenciar suplementos para seu próprio uso.
 

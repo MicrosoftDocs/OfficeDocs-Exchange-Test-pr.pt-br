@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Permissões compartilhadas permitem que você, como administrador do Microsoft Exchange Server 2013, criar Active Directory entidades de segurança, como usuários, e, em seguida, configurá-los como Exchange destinatários. Ao contrário de permissões de divisão, que separam as tarefas de gerenciamento entre grupos de administradores de Exchange e Active Directory administradores, há sem separação de tarefas com permissões compartilhadas.
 

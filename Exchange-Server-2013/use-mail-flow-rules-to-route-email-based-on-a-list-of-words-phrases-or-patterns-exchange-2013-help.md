@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-10-30_
+_**Tópico modificado em:** 2017-10-30_
 
 Para ajudar seus usuários a cumprir as políticas de email da sua organização, você pode usar as regras de transporte de Exchange para determinar como e-mail contendo palavras específicas ou padrões é encaminhada. Para uma pequena lista de palavras ou frases, você pode usar o Centro de administração do Exchange. Para obter uma lista mais tempo, convém usar o Exchange módulo para Windows PowerShell para ler a lista de um arquivo de texto.
 

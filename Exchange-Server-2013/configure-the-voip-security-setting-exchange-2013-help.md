@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2014-10-16_
+_**Tópico modificado em:** 2014-10-16_
 
 Você pode habilitar voz sobre segurança IP (VoIP) para um plano de discagem de Unificação de mensagens (UM). Por padrão, quando um plano de discagem UM é criado, ele usará o modo não seguro ou sem criptografia. Servidores Exchange podem atender as chamadas para um ou vários planos de discagem de Unificação de mensagens e podem atender as chamadas para os planos de discagem que tenham diferentes configurações de segurança de VoIP. No Office 365 e o Exchange Online protegido modo é necessário e não pode ser desabilitado.
 

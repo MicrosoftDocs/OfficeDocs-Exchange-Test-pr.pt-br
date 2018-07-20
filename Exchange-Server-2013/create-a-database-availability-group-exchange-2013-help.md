@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 DAG (grupo de disponibilidade do banco de dados) é um conjunto de até 16 servidores de caixa de correio do Microsoft Exchange Server 2013 que fornece recuperação automática no nível de banco de dados, diante de uma falha no banco de dados, no servidor ou na rede. Quando um servidor de caixa de correio é adicionado a um DAG, funciona com outros servidores para fornecer recuperação automática no nível do banco de dados após falhas neste, no servidor e na rede.
 
@@ -65,8 +65,7 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 2.  Clique em ![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para criar um DAG.
 
-3.  
-    
+3.     
     Na página **Novo Grupo de Disponibilidade de Banco de Dados**, forneça a seguinte informação para o DAG:
     
       - **Nome do grupo de disponibilidade de banco de dados**   Neste campo, insira um nome válido e exclusivo de até 15 caracteres para o DAG. O nome é equivalente ao nome do computador, e um CNO correspondente será criado em Active Directory com esse nome. Esse nome será o nome do DAG e o nome do cluster subjacente.

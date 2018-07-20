@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-18_
+_**Tópico modificado em:** 2012-11-18_
 
 Você pode permitir que o serviço Microsoft Exchange Unified Messaging roteador de chamadas em um servidor de acesso para cliente para atender chamadas novas ou impedir isso. Por padrão, um servidor de acesso para cliente está em um estado habilitado depois que ele é instalado. Quando você estiver definindo o servidor de acesso para cliente para aceitar entrada chamadas de voz, fax, atendedor automático e Outlook Voice Access, você pode usar o cmdlet **Set-ServerComponentState** .
 

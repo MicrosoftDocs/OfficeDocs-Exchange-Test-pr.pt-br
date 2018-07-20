@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-01_
+_**Tópico modificado em:** 2014-06-01_
 
 *Dicas de email* são mensagens informativas exibidas aos usuários na barra de informações no Outlook Web App e no Microsoft Outlook 2010 ou posterior quando um usuário realiza qualquer uma das seguintes ações ao criar uma mensagem de email:
 

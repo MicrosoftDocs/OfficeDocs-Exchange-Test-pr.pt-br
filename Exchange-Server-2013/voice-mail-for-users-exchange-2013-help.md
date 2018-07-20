@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-19_
+_**Tópico modificado em:** 2013-02-19_
 
 Com a UM (Unificação de Mensagens), os usuários em uma organização do Exchange podem receber todas as suas mensagens de email e voz em uma única caixa de correio. A funcionalidade de Unificação de Mensagens e os recursos de caixa postal aumentam a produtividade dos usuários e permite uma troca de mensagens mais flexível em toda uma organização.
 
@@ -83,7 +83,7 @@ Depois de criar uma caixa de correio do Exchange para o usuário, você poderá 
     
     Você deve fornecer um número de ramal válido para o usuário e corresponder ao número de dígitos especificado no plano de discagem. Você pode inserir somente caracteres numéricos ou dígitos de 1 a 20. Um número de ramal típico tem de 3 a 7 dígitos e é configurado no plano de discagem ao qual a política de caixa de correio de UM é vinculada e atribuída ao usuário.
 
-3.  **Configurações de PIN para o usuário:**
+3.  **Configurações de PIN para o usuário:** 
     
       - **Gerar PIN automaticamente**   Essa configuração gera automaticamente um PIN para o usuário habilitado para UM usar para acessar a caixa postal, através do Outlook Voice Access. Essa é a configuração padrão. Quando você clicar nesse botão, um PIN será gerado automaticamente com base nas políticas de PIN configuradas na política de caixa de correio da UM atribuída ao usuário. É recomendável o uso dessa configuração para ajudar a proteger o PIN do usuário. O PIN é enviado ao usuário na mensagem de boas-vindas que ele recebe após ter habilitado a UM. Por padrão, ele terá que alterar esse PIN quando entrar pela primeira vez em sua caixa de correio para verificar seu correio de voz.
     

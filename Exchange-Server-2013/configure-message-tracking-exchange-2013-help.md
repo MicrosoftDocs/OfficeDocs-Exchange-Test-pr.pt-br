@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-18_
+_**Tópico modificado em:** 2013-02-18_
 
 O acompanhamento de mensagens registra a atividade de transporte de SMTP de todas as mensagens transferidas para e a partir do serviço de Transporte ou caixas de correio em um servidor de Caixa de Correio do Microsoft Exchange Server 2013. É possível usar logs de controle de mensagens para análise forense de mensagens, análise de fluxo de mensagens, criação de relatórios e solução de problemas.
 
@@ -61,17 +61,13 @@ Para configurar o acompanhamento de mensagens, execute o seguinte comando:
 
 Este exemplo define as seguintes configurações do log de acompanhamento de mensagens no servidor de Caixa de Correio chamado Mailbox01:
 
-  -  
-    Define o local dos arquivos de log de acompanhamento de mensagens em D:\\Log de Acompanhamento de Mensagens. Observe que, se a pasta não existir, ela será criada para você.
+  -  Define o local dos arquivos de log de acompanhamento de mensagens em D:\\Log de Acompanhamento de Mensagens. Observe que, se a pasta não existir, ela será criada para você.
 
-  -  
-    Define o tamanho máximo de um arquivo de log de acompanhamento de mensagens para 20 MB.
+  -  Define o tamanho máximo de um arquivo de log de acompanhamento de mensagens para 20 MB.
 
-  -  
-    Define o tamanho máximo do diretório de log de acompanhamento de mensagens para 1.5 GB.
+  -  Define o tamanho máximo do diretório de log de acompanhamento de mensagens para 1.5 GB.
 
-  -  
-    Define a duração máxima de um arquivo de log de acompanhamento de mensagens para 45 dias.
+  -  Define a duração máxima de um arquivo de log de acompanhamento de mensagens para 45 dias.
 
 <!-- end list -->
 

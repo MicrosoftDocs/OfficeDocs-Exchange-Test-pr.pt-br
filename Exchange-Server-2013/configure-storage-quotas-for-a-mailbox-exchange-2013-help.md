@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-07-07_
+_**Tópico modificado em:** 2015-07-07_
 
-**Resumo:** Use o EAC ou Shell para definir as cotas de armazenamento de caixas de correio específicas.
+**Resumo:**  Use o EAC ou Shell para definir as cotas de armazenamento de caixas de correio específicas.
 
 As cotas de armazenamento permitem que os administradores controlem o tamanho de caixas de correio e gerenciem o crescimento de bancos de dados de caixa de correio. Quando uma caixa de correio atinge ou excede uma cota de armazenamento especificada, o Exchange envia uma notificação descritiva ao proprietário da caixa de correio.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-05-04_
+_**Tópico modificado em:** 2016-05-04_
 
 Em alguns casos, faz sentido ter um segundo conjunto de olhos em uma mensagem antes que a mensagem é entregue. Como administrador Exchange, você pode configurar isso. Esse processo é chamado de *moderação*e aprovador é chamado *moderador*. Dependendo de qual as mensagens precisam de aprovação, você pode usar uma das duas abordagens:
 

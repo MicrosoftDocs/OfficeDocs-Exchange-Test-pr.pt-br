@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-18_
+_**Tópico modificado em:** 2014-06-18_
 
 Você pode usar o Backup do Windows Server para fazer backup e restaurar os bancos de dados do Exchange. O Exchange inclui um plugin do Backup do Windows Server, que permite criar e restaurar backups dos dados do Exchange com base no VSS (Serviço de Cópias de Sombra de Volume). Para obter mais informações, consulte [Usar o Backup do Windows Server para fazer backup e restaurar dados do Exchange](using-windows-server-backup-to-back-up-and-restore-exchange-data-exchange-2013-help.md).
 

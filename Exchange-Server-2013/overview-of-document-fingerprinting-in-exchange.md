@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-09-11_
+_**Tópico modificado em:** 2014-09-11_
 
 Os funcionários de TI em sua organização lidam com vários tipos de informações confidenciais em um dia comum. A *Impressão Digital de Documento* facilita a proteção dessas informações identificando formas padrão usadas em sua organização. Este tópico descreve os conceitos por trás da Impressão Digital de Documento. Se quiser saber como criar uma impressão digital de documento, consulte [Proteger os dados de formulário com a impressão digital de documento](protect-form-data-with-document-fingerprinting-exchange-2013-help.md).
 

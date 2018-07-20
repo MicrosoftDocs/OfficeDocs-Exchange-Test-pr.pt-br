@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Durante a fase de planejamento, os arquitetos de sistema, os administradores e os outros participantes principais devem identificar os requisitos de negócios e de arquitetura da implantação, em especial os requisitos de alta disponibilidade e de resiliência do site.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-06-04_
+_**Tópico modificado em:** 2015-06-04_
 
 Saiba mais sobre a caixa de correio comp compartilhada Exchange no Microsoft Exchange Server 2013, os motivos para usá-la e como converter uma caixa de correio delegada em uma da caixa de correio compartilhada no Exchange.
 
@@ -35,9 +35,9 @@ Dispositivos móveis não dão suporte a caixas de correio compartilhadas.
 
 Uma caixa de correio compartilhada é um tipo de caixa de correio de usuário que não possui nome de usuário nem senha próprios. Como resultado, os usuários não podem entrar nelas diretamente. Para acessar uma caixa de correio compartilhada, os usuários devem primeiro receber permissões Enviar Como e de Acesso Total para a caixa de correio. Uma vez que receberem, eles poderão entrar em suas próprias caixas de correio e depois acessar a caixa de correio compartilhada adicionando-a ao seu perfil do Outlook. No Exchange 2003 e anteriores, as caixas de correio compartilhadas eram apenas uma caixa de correio regular para a qual um administrador podia conceder acesso de representante. A partir do Exchange 2007, as caixas de correio compartilhadas se tornaram seu próprio tipo de destinatário:
 
-  - **RecipientType:** UserMailbox
+  - **RecipientType:**  UserMailbox
 
-  - **RecipientTypeDetails:** SharedMailbox
+  - **RecipientTypeDetails:**  SharedMailbox
 
 Na versão anterior do Exchange, criar uma caixa de correio compartilhada era um processo em várias etapas em que você tinha que usar o Shell de Gerenciamento do Exchange para concluir algumas das tarefas. No Exchange 2013, você pode usar o Centro de administração do Exchange (EAC) para criar uma caixa de correio compartilhada em uma etapa. Para detalhes, consulte [Criar uma caixa de correio compartilhada](create-a-shared-mailbox-exchange-2013-help.md). De fato, o EAC tem uma área de recursos dedicada inteiramente a caixas de correio compartilhadas. Apenas vá para **Destinatários** \> **Caixas de correio compartilhadas** para exibir todas as tarefas de gerenciamento para as caixas de correio compartilhadas.
 

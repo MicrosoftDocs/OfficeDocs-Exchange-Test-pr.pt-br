@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode configurar o formato de recuperação de mensagens para usuários que se conectam ao seu email usando POP3 e IMAP4. As opções de recuperação de mensagens podem ser configuradas no nível de servidor usando o EAC ou o Shell e podem ser configuradas no nível de usuário usando o Shell.
 

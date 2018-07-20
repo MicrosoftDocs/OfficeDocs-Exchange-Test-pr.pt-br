@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode habilitar faxes de entrada para os usuários vinculados com uma política de caixa de correio de Unificação de mensagens (UM). Por padrão, quando você habilita usuários para Unificação de mensagens, os usuários não podem receber mensagens de fax até que você especifique o URI para o servidor de parceiro de fax, implantar um servidor de parceiro de fax para sua organização e habilite o envio de fax em uma diretiva de caixa de correio de Unificação de MENSAGENS. Se a opção para permitir que os faxes de entrada estiver desabilitada em UM plano de discagem, os usuários vinculados com a diretiva de caixa de correio de Unificação de MENSAGENS ainda não será capazes de receber faxes. Da mesma forma, se a opção de permitir faxes de entrada estiver desabilitada em um usuário individual, que o usuário não conseguirá receber fax.
 

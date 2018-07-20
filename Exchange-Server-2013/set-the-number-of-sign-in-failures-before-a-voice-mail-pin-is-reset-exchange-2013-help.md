@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode configurar o número de falhas de logon permitidas antes que um PIN seja redefinido para um usuário do Outlook Voice Acess em um valor de 1 até 998. O padrão é 5. O número de falhas de logon permitidas antes que um PIN seja redefinido é configurado em uma política de caixa de correio de Unificação de Mensagens (UM) e se aplica a todos os usuários do Outlook Voice Access associados à política de caixa de correio de UM.
 

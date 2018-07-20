@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-23_
+_**Tópico modificado em:** 2013-04-23_
 
 Outlook Acesso de voz é um recurso na Unificação de mensagens (UM) que permite aos usuários recuperar email e mensagens de caixa postal e gerenciar seu calendário e contatos pessoais usando um analógico, digital ou telefone celular. Eles podem interagir com suas caixas de correio usando seus telefone teclado ou comandos de voz, mas devem usar o teclado numérico em seu telefone para procurar um usuário no diretório para a sua organização.
 

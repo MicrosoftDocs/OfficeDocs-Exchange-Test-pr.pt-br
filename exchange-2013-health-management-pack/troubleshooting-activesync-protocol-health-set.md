@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-06_
+_**Tópico modificado em:** 2013-02-06_
 
 O conjunto de integridade ActiveSync.Protocol monitora a integridade geral do protocolo Exchange ActiveSync communications em seus servidores de caixa de correio. Se você receber um alerta que especifica que o conjunto de integridade ActiveSync.Protocol não está íntegro, que isso indica um problema que possam afetar os componentes de ActiveSync no servidor de caixa de correio indicado no alerta.
 

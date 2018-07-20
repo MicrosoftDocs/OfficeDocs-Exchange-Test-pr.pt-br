@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-27_
+_**Tópico modificado em:** 2012-11-27_
 
 Você pode usar o Shell para definir configurações de acesso a calendário para seus usuários que se conectam às suas caixas de correio usando conexões IMAP4. As configurações que você especifica determinam como seus usuários IMAP4 podem acessar suas informações de calendário e calendário do Exchange (por exemplo, envio ou resposta a uma solicitação de reunião) com outros usuários.
 

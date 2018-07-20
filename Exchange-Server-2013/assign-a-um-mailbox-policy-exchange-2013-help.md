@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-30_
+_**Tópico modificado em:** 2012-11-30_
 
 Quando você habilita um usuário para Unificação de mensagens (UM) e caixa postal, você deve selecionar a política de caixa de correio de Unificação de mensagens que será associada à caixa de correio do usuário. Você pode alterar a política de caixa de correio de Unificação de mensagens associada a caixa de correio do usuário depois que o usuário foi habilitado para Unificação de mensagens.
 

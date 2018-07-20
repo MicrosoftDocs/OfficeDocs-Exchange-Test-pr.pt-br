@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-06-25_
+_**Tópico modificado em:** 2013-06-25_
 
 Após instalar os servidores de Caixa de Correio e de Acesso do Cliente na sua organização, você pode ter que testar a funcionalidade da Unificação de Mensagens (UM). A seguir estão algumas situações nas quais você pode usar a ferramenta de diagnóstico e os cmdlets inclusos com a Exchange 2013 ou com a Ferramenta de Solução de Problemas de UM:
 

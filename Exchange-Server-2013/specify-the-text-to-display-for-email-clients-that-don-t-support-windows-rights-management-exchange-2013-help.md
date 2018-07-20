@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode especificar o texto que será enviado a um usuário quando recebem uma mensagem de voz protegida, mas seu cliente de email não tem suporte para gerenciamento de direitos de informação (IRM) ou o Windows Rights Management.
 

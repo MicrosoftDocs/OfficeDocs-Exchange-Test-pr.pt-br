@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-19_
+_**Tópico modificado em:** 2013-04-19_
 
 Você pode definir as datas e os horários em que sua organização estará fechada em feriados e outras ocasiões. Entre as datas de início e as datas de término que você especificar, os chamadores que entrarem em contato com o atendedor automático da UM (Unificação de Mensagens) ouvirão uma saudação de feriado que é especificada quando você configura a agenda de feriado. Depois que o chamador ouvir a saudação de feriado que você especificou, as saudações do horário não comercial e os prompts do menu serão tocados para o chamador.
 

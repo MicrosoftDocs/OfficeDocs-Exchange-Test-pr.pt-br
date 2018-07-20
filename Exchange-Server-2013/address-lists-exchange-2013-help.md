@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-02_
+_**Tópico modificado em:** 2014-12-02_
 
 Uma *lista de endereços* é um conjunto de destinatários e objetos do Active Directory. Cada lista de endereços pode conter um ou mais tipos de objetos (por exemplo, usuários, contatos, grupos, pastas públicas e recursos de sala e equipamentos). Você pode usar listas de endereços para organizar destinatários e recursos, facilitando a busca pelos destinatários e recursos que você deseja. Listas de endereços são atualizadas dinamicamente. Portanto, quando novos destinatários são adicionados à sua organização, eles são automaticamente incluídos nas listas de endereços adequadas.
 

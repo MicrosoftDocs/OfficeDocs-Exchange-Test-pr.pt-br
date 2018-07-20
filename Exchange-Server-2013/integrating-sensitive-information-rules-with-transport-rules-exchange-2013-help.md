@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-01-14_
+_**Tópico modificado em:** 2015-01-14_
 
 No Microsoft Exchange, você pode criar políticas de DLP que contêm regras para classificações de mensagem tradicional não apenas e regras de transporte existentes, mas também combiná-los com regras de informações confidenciais encontradas nas mensagens. A estrutura de regras de transporte existentes oferece recursos avançados para definir políticas de mensagens, que abrangem toda a gama de suave aos controles de disco rígidos. Exemplos incluem:
 

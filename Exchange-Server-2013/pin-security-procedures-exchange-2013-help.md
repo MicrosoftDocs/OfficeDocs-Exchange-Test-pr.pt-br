@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-16_
+_**Tópico modificado em:** 2013-04-16_
 
 [Definir diretivas de PIN do Outlook Voice Access](set-outlook-voice-access-pin-policies-exchange-2013-help.md)
 

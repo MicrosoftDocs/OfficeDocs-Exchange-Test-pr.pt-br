@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-16_
+_**Tópico modificado em:** 2014-06-16_
 
 É possível utilizar a portabilidade de banco de dados para mover um banco de dados de caixa de correio do Microsoft Exchange Server 2013 entre servidores de caixa de correio do Exchange 2013 na mesma organização. Isso pode ajudar a reduzir o tempo de recuperação total para vários cenários de falha. Para saber mais, consulte [Portabilidade do banco de dados](database-portability-exchange-2013-help.md).
 

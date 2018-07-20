@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-18_
+_**Tópico modificado em:** 2012-11-18_
 
 Você pode permitir que o serviço de Unificação de Mensagens do Microsoft Exchange em um servidor de Caixa de Correio atenda a novas chamadas ou evitar que isso aconteça. Por padrão, o servidor de Caixa de Correio está no estado habilitado após ser instalado. Quando estiver configurando o servidor de Caixa de Correio para aceitar chamadas de voz de entrada, fax, chamadas do atendedor automático e do Outlook Voice Access, use o cmdlet **Set-ServerComponentState**.
 

@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-14_
+_**Tópico modificado em:** 2012-11-14_
 
 Você pode usar o EAC ou o Shell para habilitar ou desabilitar o Outlook Web App para uma caixa de correio de usuário. Quando o Outlook Web App estiver habilitado, os usuários poderão usar o Outlook Web App para enviar e receber emails. Quando o Outlook Web App for desabilitado, a caixa de correio continuará recebendo mensagens de email, e o usuário poderá acessá-la para enviar e receber emails usando um cliente MAPI, como o Microsoft Outlook, ou com um cliente de email POP ou IMAP, supondo-se que a caixa de correio esteja habilitada para dar suporte ao acesso por esses clientes.
 

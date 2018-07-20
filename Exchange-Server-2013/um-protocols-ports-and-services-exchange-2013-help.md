@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Microsoft Exchange 2013 Unified Messaging (UM) requer que várias portas TCP e protocolo de datagrama de usuário (UDP) ser usado para estabelecer a comunicação entre servidores que executam o Exchange 2013 e outros dispositivos. Permitindo o acesso por essas portas IP, você habilitar a Unificação de mensagens para funcionar corretamente. Este tópico discute as portas TCP e UDP usadas em Exchange 2013 Unificação de mensagens.
 

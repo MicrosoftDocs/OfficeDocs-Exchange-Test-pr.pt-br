@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-08-26_
+_**Tópico modificado em:** 2013-08-26_
 
 A UM (Unificação de Mensagens) do Microsoft Exchange permite criar um ou vários atendedores automáticos do UM, dependendo das necessidades da organização. Ao contrário do que acontece com outros componentes da Unificação de Mensagens, como planos de discagem e gateways IP, você não precisa criar atendedores automáticos de UM. No entanto, os atendedores automáticos ajudam os chamadores internos e externos a localizar usuários ou departamentos existentes em uma organização e a transferir chamadas para eles. Este tópico aborda o recurso de atendedor automático da UM encontrado na Unificação de Mensagens.
 

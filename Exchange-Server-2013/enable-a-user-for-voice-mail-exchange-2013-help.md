@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Quando você habilita um usuário para Unificação de mensagens (UM), um conjunto padrão das propriedades são aplicadas ao usuário e o usuário será capaz de usar os recursos de caixa postal incluídos com a Unificação de mensagens. Após habilitar um usuário para caixa postal, você tem a opção de adicionar um endereço de protocolo de iniciação de sessão (SIP) para o usuário se eles estão atribuídos a uma política de caixa de correio de Unificação de mensagens que está vinculada a um plano de discagem URI do SIP. Ou então, você pode adicionar um número e. 164 para o usuário se eles estão atribuídos a uma política de caixa de correio de Unificação de mensagens que está vinculada a um plano de discagem e. 164. Em ambos os casos, o usuário ainda deve ter um número de ramal configurado.
 

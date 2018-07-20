@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 No Exchange Server 2013, nós movemos as pastas públicas de uma arquitetura de banco de dados tradicional para uma arquitetura de caixa de correio. Esta mudança permite que pastas públicas se beneficiem de coisas como a resiliência de um Grupo de Disponibilidade de Banco de Dados (DAG) e outros aprimoramentos feitos ao longo dos anos. Entretanto, existem novos limites e preocupações de desempenho que devem ser levados em consideração. Neste documento, oferecemos uma orientação de alto nível sobre opções de configuração disponíveis que poderiam afetar o desempenho e a conectividade da pasta pública.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 No Active Directory, a *floresta* representa o limite externo de seu serviço de diretório. Você pode criar conectores de envio para habilitar a comunicação entre florestas. Neste exemplo, os conectores de usam a autenticação básica.
 

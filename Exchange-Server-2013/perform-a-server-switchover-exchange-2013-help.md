@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2014-06-23_
+_**Tópico modificado em:** 2014-06-23_
 
 Uma alternância de servidor é uma tarefa que você executa para mover todas as cópias de banco de dados de caixa de correio ativas de seu servidor de caixa de correio atual para um ou mais servidores de caixa de correio em um grupo de disponibilidade de banco de dados (DAG). Essa tarefa poderia ser executada como parte da preparação para um período de inatividade agendado para o servidor de Caixa de correio selecionado.
 

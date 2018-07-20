@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-17_
+_**Tópico modificado em:** 2014-02-17_
 
 Pode haver situações nas quais você precise desabilitar temporariamente o compartilhamento federado de sua organização. Em vez de excluir a confiança de federação ou excluir os relacionamentos de organização e as políticas de compartilhamento que você pode precisar no futuro, você pode simplesmente desabilitar o identificador de organização (OrgID) para a confiança federada.
 

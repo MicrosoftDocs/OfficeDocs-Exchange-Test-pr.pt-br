@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-11-10_
+_**Tópico modificado em:** 2015-11-10_
 
 As permissões necessárias à execução de tarefas para dispositivos móveis e clientes variam de acordo com o procedimento realizado ou o cmdlet que você deseja executar. Para saber mais sobre recursos para dispositivos móveis e clientes, confira [Clientes e dispositivos móveis](clients-and-mobile-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 As atribuições de função de gerenciamento atribuem uma função de gerenciamento a um destinatário de função. Para mais informações sobre as atribuições de função de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre as atribuições de função de gerenciamento](understanding-management-role-assignments-exchange-2013-help.md).
 

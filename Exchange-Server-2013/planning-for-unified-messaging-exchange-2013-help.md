@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Ao planejar sua implantação da Unificação de mensagens (UM), há vários fatores que devem ser consideradas para poder implantar com êxito a Unificação de MENSAGENS. Você deve compreender os diferentes elementos da Unificação de mensagens e cada componente e recurso para que você possa planejar sua infraestrutura de Unificação de mensagens e implantação apropriadamente. Alocar hora para planejar e superar esses problemas ajudará a evitar problemas ao implantar a Unificação de mensagens em sua organização.
 

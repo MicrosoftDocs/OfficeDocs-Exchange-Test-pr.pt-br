@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2014-01-15_
+_**Tópico modificado em:** 2014-01-15_
 
 Microsoft Exchange Server 2013 instalação não pode continuar porque o sufixo de DNS (sistema) do nome de domínio primário para o computador que você estiver instalando o Exchange no ainda não foi configurado.
 

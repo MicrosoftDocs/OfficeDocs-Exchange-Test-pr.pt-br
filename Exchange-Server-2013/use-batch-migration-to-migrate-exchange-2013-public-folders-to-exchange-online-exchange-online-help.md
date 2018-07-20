@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Tópico modificado em:**2018-03-26_
+_**Tópico modificado em:** 2018-03-26_
 
-**Resumo:** Este artigo explica como mover modernas pastas públicas do Exchange 2013 para o Office 365.
+**Resumo:**  Este artigo explica como mover modernas pastas públicas do Exchange 2013 para o Office 365.
 
 Migrando suas pastas públicas do Exchange 2013 para Exchange Online requer o Exchange Server 2013 CU15 ou posterior esteja em execução no seu ambiente local.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Microsoft Unified Messaging (UM) depende de soluções de parceiros de fax certificados para a funcionalidade avançada de fax, como fax de saída ou roteamento de fax. Por padrão, os usuários não são configurados para permitir mensagens de fax de entrada ao ser entregue a um usuário habilitado para UM. Servidores Exchange enviam as solicitações de fax para uma solução de parceiro de fax de certificados. Servidor do parceiro de fax recebe os dados de fax e depois enviá-la à caixa de correio do destinatário em uma mensagem de email com o fax incluído como um anexo. tif. Para obter detalhes, consulte [Permitir que os usuários de email de voz receber faxes](enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md).
 

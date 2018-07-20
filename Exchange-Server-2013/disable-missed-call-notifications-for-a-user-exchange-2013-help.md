@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-09_
+_**Tópico modificado em:** 2012-12-09_
 
 É possível habilitar ou desabilitar notificações de chamada perdida para uma diretiva de caixa de correio de Unificação de mensagens (UM) usando o Shell ou o EAC. Uma notificação de chamada perdida é uma mensagem de email é enviada a um usuário quando o usuário não atende uma chamada de entrada e o chamador não deixa uma mensagem de voz. Esta é uma mensagem de email diferente daquela que contém a mensagem de voz é da esquerda para um usuário.
 

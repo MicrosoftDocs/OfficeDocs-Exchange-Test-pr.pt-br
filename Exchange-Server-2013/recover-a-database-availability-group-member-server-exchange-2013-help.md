@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Se um servidor de correio que seja membro de um grupo de disponibilidade do banco de dados (DAG) é perdido ou caso contrário, falha e é irrecuperável e precisa substituição, você pode executar uma operação de recuperação do servidor. Microsoft Exchange Server 2013 instalação inclui a opção */m:RecoverServer* que podem ser usados para executar a operação de recuperação do servidor. Executando a instalação com as causas de comutador */m:RecoverServer* Setup para ler informações de configuração do servidor de Active Directory para um servidor com o mesmo nome que o servidor do qual você está executando a instalação. Após a configuração do servidor informações forem coletadas das Active Directory, os arquivos originais de Exchange serviços então são instalados no servidor e as funções e as configurações que foram armazenadas nos Active Directory são aplicadas ao servidor.
 

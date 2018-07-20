@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-24_
+_**Tópico modificado em:** 2014-02-24_
 
 Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode usar o EAC para copiar os resultados para uma caixa de correio de descoberta. Você também pode usar o Shell para iniciar uma pesquisa de descoberta eletrônica que foi criada usando o cmdlet de **New-MailboxSearch** , que irá copiar os resultados para a caixa de correio de descoberta que foi especificada quando você criou a pesquisa.
 
@@ -85,9 +85,12 @@ Se você usou a opção *EstimateOnly* para fazer uma estimativa dos resultados 
 
 Para copiar os resultados da pesquisa para uma caixa de correio de descoberta, você faria execute os seguintes comandos:
 
-    Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
-
+```
+Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
+```
+```
     Start-MailboxSearch "FY13 Q2 Financial Results"
+```
 
 ## Para obter mais informações sobre como copiar os resultados da pesquisa
 

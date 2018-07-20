@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-13_
+_**Tópico modificado em:** 2015-04-13_
 
 Você pode começar a usar regras de transporte, usando os procedimentos a seguir. Para saber mais sobre conceitos e objetivos das regras de transporte, consulte [Regras de fluxo de emails ou de transporte](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento de `View-Only Configuration` permite aos administradores exibir todas as definições de configuração de destinatário não Exchange em uma organização. Exemplos de configuração que podem ser exibidos são a configuração do servidor, configuração de transporte, configuração do banco de dados e configuração de toda a organização.
 
@@ -139,7 +139,7 @@ Essa função tem atribuições de função para um ou mais destinatários de fu
 <tr class="even">
 <td><p><a href="delegated-setup-exchange-2013-help.md">Configuração Delegada</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -148,7 +148,7 @@ Essa função tem atribuições de função para um ou mais destinatários de fu
 <tr class="odd">
 <td><p><a href="hygiene-management-exchange-2013-help.md">Gerenciamento de Higienização</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>
@@ -166,7 +166,7 @@ Essa função tem atribuições de função para um ou mais destinatários de fu
 <tr class="odd">
 <td><p><a href="view-only-organization-management-exchange-2013-help.md">Gerenciamento da organização somente exibição</a></p></td>
 <td><p>X</p></td>
-<td><p><code> </code></p></td>
+<td><p></p></td>
 <td><p><code>Organization</code></p></td>
 <td><p><code>None</code></p></td>
 <td><p><code>OrganizationConfig</code></p></td>

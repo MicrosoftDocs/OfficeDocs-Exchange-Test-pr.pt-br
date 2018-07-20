@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-12-05_
+_**Tópico modificado em:** 2012-12-05_
 
 Um catálogo de endereços offline (OAB) é uma cópia de um catálogo de endereços que tenha sido baixado, para que um usuário do Outlook possa acessar as informações que ele contém enquanto desconectado do servidor. Você pode configurar a frequência com que o OAB é gerado usando os parâmetros *OABGeneratorWorkCycle* e *OABGeneratorWorkCycleCheckpoint* no cmdlet Set-MailboxServer.
 

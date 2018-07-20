@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-29_
+_**Tópico modificado em:** 2013-04-29_
 
 Você pode usar mutual Transport Layer Security (TLS mútuo) para habilitar a Unificação de mensagens (UM) para criptografar dados enviados entre seus servidores do Microsoft Exchange 2013 e gateways VoIP, IP PBXs, controladores de borda de sessão (SBCs) e o Microsoft Lync Server. Certificados vinculam a identidade do proprietário do certificado a um par de chaves eletrônicas (públicos e particulares) que são usados para criptografar e assinar digitalmente o informações.
 

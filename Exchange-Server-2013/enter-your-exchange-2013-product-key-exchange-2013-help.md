@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Uma chave de produto informa Exchange Server 2013 se você comprou uma licença Standard ou Enterprise Edition. Se você comprou a chave do produto for para uma licença Enterprise Edition, ele permite montar bancos de dados mais de cinco por servidor, além de tudo que é fornecido com uma licença Standard Edition. Se você quiser ler mais sobre o licenciamento do Exchange, consulte [Exchange 2013: edições e versões](exchange-2013-editions-and-versions-exchange-2013-help.md).
 

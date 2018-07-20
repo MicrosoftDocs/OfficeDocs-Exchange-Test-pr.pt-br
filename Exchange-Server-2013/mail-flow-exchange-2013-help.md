@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013, o fluxo de emails ocorre através do pipeline de transporte. O *pipeline de transporte* é uma coleção de serviços, conexões, componentes e filas que trabalham juntos para rotear todas as mensagens para o categorizador em um serviço de Transporte em um servidor de Caixa de Correio dentro da organização.
 

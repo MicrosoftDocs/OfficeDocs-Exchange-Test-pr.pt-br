@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-04-21_
+_**Tópico modificado em:** 2014-04-21_
 
 O gerenciamento de certificados em uma implantação do Exchange Server é uma das tarefas administrativas mais importantes. Para fornecer uma infraestrutura de mensagens segura para a empresa, é essencial garantir que os certificados sejam apropriadamente definidos e configurados. No Exchange 2010, o Console de Gerenciamento do Exchange (EMC) era o principal método de gerenciamento de certificados. No Exchange 2013, a funcionalidade de gerenciamento de certificados é fornecida no Centro de Administração do Exchange (EAC), a nova interface administrativa do usuário do Exchange 2013. O Exchange 2013 concentra-se em reduzir a quantidade de certificados que um administrador deve gerenciar, minimizar a interação que o administrador deve ter com certificados e permitir o gerenciamento de certificados em um local central.
 

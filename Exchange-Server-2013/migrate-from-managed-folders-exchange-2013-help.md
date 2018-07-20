@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 No Microsoft Exchange Server 2013, o gerenciamento de registros de mensagem (MRM) é realizado usando marcas de retenção e políticas de retenção. Uma política de retenção é um grupo de marcas de retenção que pode ser aplicado a uma caixa de correio. Para mais detalhes, consulte [Marcas e políticas de retenção](retention-tags-and-retention-policies-exchange-2013-help.md). Pastas gerenciadas, que a tecnologia MRM introduziu no Exchange Server 2007, não são suportadas.
 

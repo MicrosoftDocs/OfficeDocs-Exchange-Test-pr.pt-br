@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013, agentes de transporte criados usando o Microsoft .NET Framework versão 4.0 são suportados por padrão. O Exchange 2013 tem suporte a agentes de transporte criados usando versões anteriores do .NET Framework, mas o suporte a esses agentes de transporte legados não é habilitado por padrão. Para habilitar o suporte a agentes de transporte legados, você precisa modificar o arquivo XML apropriado de configuração de aplicativos. Os arquivos que você precisa modificar dependem de onde o agente de transporte está instalado:
 

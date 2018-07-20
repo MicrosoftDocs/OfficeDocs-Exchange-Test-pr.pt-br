@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
-Filtragem de remetente é fornecido pelo agente de filtro de remetente. O agente Filtro de remetente depende do cabeçalho **MAIL FROM:** SMTP para determinar qual ação, se houver, para receber uma mensagem de email de entrada.
+Filtragem de remetente é fornecido pelo agente de filtro de remetente. O agente Filtro de remetente depende do cabeçalho **MAIL FROM:**  SMTP para determinar qual ação, se houver, para receber uma mensagem de email de entrada.
 
 Quando a funcionalidade de filtragem de remetente está habilitada em um servidor Exchange, a funcionalidade de filtragem de remetente filtra todas as mensagens que vêm por meio de todos os conectores de recebimento no computador.
 

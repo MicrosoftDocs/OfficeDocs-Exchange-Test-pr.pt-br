@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-05_
+_**Tópico modificado em:** 2012-11-05_
 
 Você pode configurar um número de ramal ou vários números de ramal em um atendedor automático de Unificação de mensagens (UM). Quando você adiciona um número de ramal para um atendedor automático de UM, esse número pode ser usado por chamadores a ligar para o atendedor automático. Além disso, você talvez precise adicionar números de ramal porque não há mais de um número de ramal que os chamadores podem usar para acessar um atendedor automático. Por padrão, nenhuma números de ramal são configurados quando você cria um atendedor automático.
 

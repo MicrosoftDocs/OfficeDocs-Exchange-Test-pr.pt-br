@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Em Exchange Online e Exchange Server 2013, você pode usar as políticas de retenção para gerenciar o ciclo de vida de email. Políticas de retenção são aplicadas por criar marcas de retenção, adicioná-las a uma política de retenção e aplicar a política aos usuários de caixa de correio.
 

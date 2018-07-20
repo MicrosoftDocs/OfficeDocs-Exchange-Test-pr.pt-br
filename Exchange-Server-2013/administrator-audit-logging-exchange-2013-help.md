@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2018-03-05_
+_**Tópico modificado em:** 2018-03-05_
 
 Você pode usar o registro em log de auditoria do administrador no Microsoft Exchange Server 2013 para registrar em log quando um usuário ou administrador faz uma alteração em sua organização. Mantendo um log das alterações, você pode rastrear quem fez cada alteração, aumentar seus logs de alterações com registros detalhados da alteração quando ela foi implementada, atender aos requisitos regulamentares e às solicitações para descoberta e mais.
 

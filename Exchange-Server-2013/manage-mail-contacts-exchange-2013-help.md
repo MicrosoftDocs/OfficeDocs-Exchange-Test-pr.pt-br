@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-10-04_
+_**Tópico modificado em:** 2017-10-04_
 
 Contatos de email são objetos do serviço de diretório habilitados para email que contêm informações sobre pessoas ou organizações que existem fora do Exchange e da organização do Exchange Online. Cada contato de email tem um endereço de email externo. Para saber mais sobre contatos de email, confira [Destinatários](recipients-exchange-2013-help.md).
 

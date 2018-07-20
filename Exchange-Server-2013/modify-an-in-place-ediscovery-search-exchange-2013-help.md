@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-08-27_
+_**Tópico modificado em:** 2014-08-27_
 
 Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode modificá-lo para alterar os parâmetros de pesquisa. Por exemplo, você pode alterar as caixas de correio a ser pesquisado, intervalos de datas, palavras-chave, opções de log ou você pode especificar uma caixa de correio de descoberta diferente para armazenar os resultados da pesquisa. Quaisquer alterações feitas nas propriedades de pesquisa serão usadas quando você reiniciar a pesquisa.
 

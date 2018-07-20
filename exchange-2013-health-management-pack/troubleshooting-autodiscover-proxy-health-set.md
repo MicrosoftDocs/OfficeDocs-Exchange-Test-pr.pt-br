@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conjunto de integridade Autodiscover.Proxy monitora a disponibilidade da infraestrutura de proxy de descoberta automática no servidor de acesso para cliente (CAS). O conjunto de integridade Autodiscover.Proxy está relacionado ao seguinte conjunto de integridade:
 

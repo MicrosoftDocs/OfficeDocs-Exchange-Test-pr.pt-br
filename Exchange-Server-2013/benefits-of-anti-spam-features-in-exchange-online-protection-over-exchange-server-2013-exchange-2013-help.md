@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-05-26_
+_**Tópico modificado em:** 2016-05-26_
 
 Estes são os benefícios do uso de proteção de anti-spam do Exchange na nuvem (Microsoft Exchange Online ou Microsoft Proteção do Exchange Online ) em vez de Microsoft Exchange Server 2013, que possui a maioria dos mesmos recursos antispam internas como Microsoft Exchange Server 2010:
 

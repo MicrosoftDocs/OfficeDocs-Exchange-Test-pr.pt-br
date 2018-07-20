@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-06-15_
+_**Tópico modificado em:** 2016-06-15_
 
 No Microsoft Exchange Server 2013, é fácil adicionar vários domínios autoritativos à sua organização. No entanto, depois de adicionar o domínio autoritativo, você precisa decidir como usá-lo em sua organização. Por exemplo:
 

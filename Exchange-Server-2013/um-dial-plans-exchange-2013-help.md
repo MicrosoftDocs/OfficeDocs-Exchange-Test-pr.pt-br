@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Planos de discagem do Unified Messaging (UM) são o principal componente da Unificação de mensagens e são necessárias para implantar com êxito a Unificação de mensagens para a caixa postal na sua rede. As seções a seguir abordam os planos de discagem de Unificação de mensagens e como elas são usadas em uma implantação da Unificação de mensagens.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-07-02_
+_**Tópico modificado em:** 2014-07-02_
 
 O Microsoft Exchange 2013 trouxe mudanças importantes na arquitetura das funções de servidor do Exchange. Em vez das cinco funções de servidor presentes no Exchange 2010 e no Exchange 2007, a quantidade de funções de servidor no Exchange 2013 foi reduzida a três: servidor de Acesso para Cliente e servidor de Caixa de Correio e, com o Service Pack 1, a função de servidor de Transporte de Borda.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-12_
+_**Tópico modificado em:** 2012-10-12_
 
 Modelos de detalhes controlam a aparência das propriedades de objetos acessadas por meio de listas de endereços em clientes de email, como o Microsoft Outlook. Por exemplo, quando um usuário abre uma lista de endereços no Outlook, as propriedades dos destinatários nessa lista de endereços são apresentadas como definidas pelo modelo de detalhes existente na organização do Exchange. A figura a seguir ilustra as propriedades de destinatário de Kim Akers como exibidas no Outlook 2013. Usando o Editor de Modelos de Detalhes da Caixa de Ferramentas do Exchange 2013, você pode modificar a organização e o conteúdo dos vários objetos que aparecem nessa página de propriedades.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2013-02-18_
+_**Tópico modificado em:** 2013-02-18_
 
 Microsoft Exchange Server 2013 instalação não pode continuar porque ele encontrado um contêiner de objetos do sistema do Microsoft Exchange duplicado no contexto de nomeação do domínio Active Directory. Quando a instalação encontrar um contêiner de objetos do sistema do Microsoft Exchange duplicado, você deve excluir o contêiner duplicado para continuar a instalação. Quando não existe um contêiner de objetos do sistema do Microsoft Exchange duplicado, você não pode resolver o problema executando **DomainPrep** novamente. Você deve identificar e exclua o contêiner de objetos do sistema do Microsoft Exchange duplicado.
 

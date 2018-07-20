@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-11_
+_**Tópico modificado em:** 2012-11-11_
 
 Você pode especificar o número de segundos de silêncio que o sistema permite quando uma mensagem de voz está sendo registrada antes que a chamada é encerrada. Na maioria das organizações, este valor deve ser definido como o padrão de 5 segundos.
 

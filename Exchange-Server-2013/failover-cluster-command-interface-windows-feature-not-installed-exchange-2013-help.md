@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2014-12-03_
+_**Tópico modificado em:** 2014-12-03_
 
 A Instalação do Microsoft Exchange Server 2013 não pode prosseguir porque o computador local não tem um recurso do Windows necessário. Você precisará instalar esse recurso do Windows para continuar a Instalação do Exchange 2013
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Na UM (Unificação de Mensagens), os chamadores podem usar DTMF (Dual Tone Multi-frequency), também conhecido como discagem por tom, e entradas de voz para interagir com o sistema. Os métodos que os chamadores podem usar depende de como os planos de discagem de UM e os atendedores automáticos estão configurados.
 

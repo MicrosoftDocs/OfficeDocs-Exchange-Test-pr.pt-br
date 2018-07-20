@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Por padrão, o Microsoft Exchange Server 2013 instalação cria uma caixa de correio de descoberta. Em Exchange Online, uma caixa de correio de descoberta também é criada por padrão. Caixas de correio de descoberta são usadas como caixas de correio de destino para pesquisas de [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md) nos Centro de administração do Exchange (EAC). Você pode criar caixas de correio de descoberta adicionais conforme necessário. Depois de criar uma nova caixa de correio de descoberta, você precisará atribuir permissões de acesso total para os usuários apropriados para que eles possam acessar os resultados de pesquisa de descoberta eletrônica que são copiados para a caixa de correio de descoberta.
 

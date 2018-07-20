@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 No Microsoft Exchange Server 2013, estamos estiver aprimorando a versões anteriores do Exchange apresentando os novos recursos e mudanças de arquitetura. Unified Messaging (UM) em Exchange 2013 inclui o mesmo recurso definido como Exchange 2010 e Exchange 2007, no entanto, Unificação de mensagens não mais é uma função de servidor separadas. Agora é um componente dos recursos relacionadas à voz oferecidas em Exchange 2013.
 

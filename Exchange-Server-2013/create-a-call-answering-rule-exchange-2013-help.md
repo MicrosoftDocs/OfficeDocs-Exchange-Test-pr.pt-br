@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode usar o Shell para criar a chamada de um ou mais regras de atendimento de um usuário. Você também pode usar o cmdlet **New-UMCallAnsweringRule** em um script do Shell de gerenciamento do Exchange para criar regras de atendimento de chamada para vários usuários.
 
@@ -71,14 +71,11 @@ Este exemplo cria a regra atendimento chamada `MyCallAnsweringRule` na caixa de 
 
 Este exemplo cria a regra atendimento chamada `MyCallAnsweringRule` na caixa de correio de Tony Smith e executa as seguintes ações:
 
-  -  
-    Define a prioridade da regra de atendimento de chamada para 2.
+  -  Define a prioridade da regra de atendimento de chamada para 2.
 
-  -  
-    Cria mapeamentos de teclas para a regra de atendimento de chamada.
+  -  Cria mapeamentos de teclas para a regra de atendimento de chamada.
 
-  -  
-    Se o chamador chegar no correio de voz do usuário e o status do usuário estiver configurado para Ocupado, o chamador pode:
+  -  Se o chamador chegar no correio de voz do usuário e o status do usuário estiver configurado para Ocupado, o chamador pode:
     
       - Pressionar a tecla 1 e ser transferido para uma recepcionista no ramal 45678.
     

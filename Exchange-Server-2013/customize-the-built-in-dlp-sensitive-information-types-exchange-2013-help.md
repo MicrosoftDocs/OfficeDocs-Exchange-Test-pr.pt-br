@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-05-26_
+_**Tópico modificado em:** 2016-05-26_
 
 Procurando por informações confidenciais em email, você precisará descrevem essas informações no que é chamado de uma *regra*. Prevenção de perda de dados (DLP) inclui um pacote de 51 regras para os tipos mais comuns de informações confidenciais que você pode usar imediatamente. Para usar essas regras, você precisará incluí-los em uma política. Você pode encontrar o que você deseja ajustar essas regras internas para atender às necessidades específicas da sua organização, e você pode fazer isso criando um tipo de informação confidencial personalizado. Este tópico mostra como personalizar um arquivo XML que contém o conjunto existente de regra para detectar uma grande variedade de informações de cartão de crédito potenciais.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-09_
+_**Tópico modificado em:** 2012-11-09_
 
 É possível configurar o número de vezes em que usuários que ligam para um número do Outlook Voice Access podem inserir dados incorretos antes de serem desconectados. Essa configuração se aplica a usuários do Outlook Voice Access e chamadores não autenticados que usam a pesquisa de diretório.
 

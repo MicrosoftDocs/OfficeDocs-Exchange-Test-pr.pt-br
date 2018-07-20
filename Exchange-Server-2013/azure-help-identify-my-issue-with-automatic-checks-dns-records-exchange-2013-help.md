@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Um dos problemas mais comuns de instalação de configuração é incorretamente a configuração de registros DNS. Você pode usar as verificações automáticas listadas abaixo para validar a configuração e ajuda você atualize seu ambiente.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-29_
+_**Tópico modificado em:** 2013-04-29_
 
 Você pode usar o EAC ou o Shell para atribuir uma interna, autoassinada infraestrutura de chave pública (PKI) ou um certificado comercial de terceiros para serviços específicos do Exchange. Quando você usa o cmdlet **New-ExchangeCertificate** para atribuir o certificado aos serviços do Exchange com o parâmetro *Services* , você será solicitado para atribuir o certificado aos serviços do Exchange. Se você usar o EAC para criar um certificado, o Assistente de novo certificado do Exchange não solicita que você atribua o certificado aos serviços do Exchange. Você precisa editar as propriedades do certificado e atribuir o certificado selecionando quais serviços você deseja atribuí-lo a.
 

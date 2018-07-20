@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-08-05_
+_**Tópico modificado em:** 2014-08-05_
 
 Você pode controlar como os recursos são consumidos por usuários individuais em sua organização do Exchange, alterando as configurações de limitação padrão.
 
@@ -51,9 +51,12 @@ Este exemplo associa um usuário de tonysmith de nome de usuário com a diretiva
 
 Você não precisa usar o cmdlet **Set-ThrottlingPolicyAssociation** para associar um usuário uma política. Os comandos a seguir mostram outra maneira para associar a diretiva de limitação ITStaffPolicy de tonysmith.
 
+``` 
     $b = Get-ThrottlingPolicy ITStaffPolicy
-
+``` 
+``` 
     Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
+``` 
 
 Para obter mais informações sobre sintaxe e parâmetros, consulte [New-ThrottlingPolicy](https://technet.microsoft.com/pt-br/library/dd351045\(v=exchg.150\)) e [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/pt-br/library/ff459231\(v=exchg.150\)).
 

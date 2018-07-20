@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2014-09-17_
+_**Tópico modificado em:** 2014-09-17_
 
 Você pode usar o Shell para habilitar a gravação de prompts personalizados e saudações para Unificação de mensagens (UM) planos de discagem e atendedores automáticos usando a interface de usuário de telefone (TUI). Isso pode ser útil quando você deseja alterar uma saudação personalizada ou anúncio usando o EAC ou o Shell ou quando houver uma emergência, como fechamento de uma organização por causa de clima grave. Quando você estiver alterando uma saudação personalizada ou anúncio em um atendedor automático, você deve habilitar a gravação de prompt TUI no plano de discagem que está vinculado do atendedor automático.
 

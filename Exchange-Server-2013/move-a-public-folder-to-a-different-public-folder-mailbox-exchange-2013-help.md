@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-11-16_
+_**Tópico modificado em:** 2016-11-16_
 
 Se o conteúdo de um correio de pasta pública começa excederá suas cotas de caixa de correio, você pode precisar mover pastas públicas para um correio de pasta pública diferentes. Há duas maneiras de fazer isso. Para mover um ou mais pastas públicas que não contêm subpastas, você pode usar os cmdlets **PublicFolderMoveRequest** . Se você precisar mover uma ramificação de toda a pasta pública (que inclui a pasta pública pai e todas as subpastas), você pode usar o script `Move-PublicFolderBranch.ps1` que está disponível quando você instala o Exchange 2013.
 

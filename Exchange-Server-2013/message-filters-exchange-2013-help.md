@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Filtragem gera diferentes modos de exibição das mensagens nas filas. Ao especificar critérios de filtro, você pode localizar mensagens rapidamente e agir neles. Quando uma mensagem de email é enviada para vários destinatários, a mensagem pode estar localizada em várias filas. Quando você filtra por propriedades da mensagem, você pode localizar mensagens em todas as filas. Os cenários a seguir são exemplos de como você pode usar para gerenciar o fluxo de emails de filtragem de mensagens:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Um *queue* é um local de armazenamento temporário para mensagens que estão em espera para inserir o próximo estágio de processamento. Cada fila representa um conjunto de lógico de mensagens que processa de um servidor de transporte em uma ordem específica.
 

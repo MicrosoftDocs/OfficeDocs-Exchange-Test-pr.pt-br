@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Agentes de transporte permitem que você instalar o software personalizado que é criado pela Microsoft, pelos fornecedores de terceiros ou por sua organização, em um servidor Exchange. Este software pode processar as mensagens de email que passam pelo pipeline de transporte. No Microsoft Exchange Server 2013, o pipeline de transporte é composto os seguintes processos:
 

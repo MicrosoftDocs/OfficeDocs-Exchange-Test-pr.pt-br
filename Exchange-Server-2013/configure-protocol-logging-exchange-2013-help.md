@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-03-15_
+_**Tópico modificado em:** 2013-03-15_
 
 Log de protocolo registra as conversas de SMTP que ocorrem em conectores de envio e conectores de recebimento como parte da entrega da mensagem.
 
@@ -149,17 +149,13 @@ Para definir as configurações de log de protocolo, execute o seguinte comando:
 
 Este exemplo define o protocolo de seguir as configurações de log no serviço de transporte no servidor de caixa de correio chamado Mailbox01:
 
-  -  
-    O local do protocolo de conector de recebimento todos os logs D:\\Hub receber SMTP Log e todos os conjuntos de conector de envio logs de protocolo D:\\Hub enviar SMTP log. Observe que se a pasta não existir, ele será criado para você.
+  -  O local do protocolo de conector de recebimento todos os logs D:\\Hub receber SMTP Log e todos os conjuntos de conector de envio logs de protocolo D:\\Hub enviar SMTP log. Observe que se a pasta não existir, ele será criado para você.
 
-  -  
-    Define o tamanho máximo de um conector de recebimento de arquivo de log do protocolo e um arquivo de log de protocolo de conector de envio a 20 MB.
+  -  Define o tamanho máximo de um conector de recebimento de arquivo de log do protocolo e um arquivo de log de protocolo de conector de envio a 20 MB.
 
-  -  
-    Define o tamanho máximo da pasta de log de protocolo de conector de recebimento e a pasta de log de protocolo de conector de envio para 400 MB.
+  -  Define o tamanho máximo da pasta de log de protocolo de conector de recebimento e a pasta de log de protocolo de conector de envio para 400 MB.
 
-  -  
-    Define a idade máxima de um conector de recebimento de arquivo de log de protocolo e um arquivo de log de protocolo do conector de envio como 45 dias.
+  -  Define a idade máxima de um conector de recebimento de arquivo de log de protocolo e um arquivo de log de protocolo do conector de envio como 45 dias.
 
 <!-- end list -->
 

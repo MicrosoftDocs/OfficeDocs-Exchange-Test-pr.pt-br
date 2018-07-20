@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2012-11-08_
+_**Tópico modificado em:** 2012-11-08_
 
 Microsoft Exchange Server 2013 instalação não pode continuar porque ele não é possível remover um banco de dados de caixa de correio de usuário do servidor local sem incorrer em perda de dados.
 

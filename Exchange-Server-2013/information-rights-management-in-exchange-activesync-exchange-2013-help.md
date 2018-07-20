@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Os operadores de informações costumam usar o email para trocar informações confidenciais. Para ajudar a proteger essas informações, as organizações podem usar o Gerenciamento de Direitos de Informação (IRM) para aplicar proteção persistente a conteúdo de mensagens. Como dispositivos móveis estão sendo cada vez mais usados para acessar email, é importante que os usuários de dispositivo móvel possam criar e consumir conteúdo protegido por IRM.
 

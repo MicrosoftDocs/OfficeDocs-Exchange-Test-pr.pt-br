@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 O balanceamento de carga é uma maneira de gerenciar quais servidores recebem tráfego. O balanceamento de carga ajuda a distribuir as conexões de entrada do cliente em vários pontos finais (os servidores de Acesso para Cliente, por exemplo) para garantir que todos os pontos finais fiquem com uma parte proporcional da carga. O balanceamento de carga também pode proporcionar redundância de failover em caso de falha de um ou mais pontos finais. Usando o balanceamento de carga com o Exchange Server 2013, você garante que os usuários continuem a receber o serviço do Exchange em caso de falha do computador. O balanceamento de carga também possibilita que sua implantação lide com mais tráfego do que um servidor pode processar, e oferece um único nome de host para seus clientes.
 

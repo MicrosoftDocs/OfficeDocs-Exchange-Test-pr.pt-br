@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-05-07_
+_**Tópico modificado em:** 2014-05-07_
 
 Na Microsoft Exchange Server 2013, você pode usar o Visualizador de Filas na Caixa de Ferramentas do Exchange ou o Shell de Gerenciamento do Exchange para gerenciar as mensagens em filas. Para mais informações sobre como usar os cmdlets de gerenciamento da mensagen no Shell de Gerenciamento do Exchange, consulte [Usar o Shell de gerenciamento do Exchange para gerenciar filas](use-the-exchange-management-shell-to-manage-queues-exchange-2013-help.md).
 

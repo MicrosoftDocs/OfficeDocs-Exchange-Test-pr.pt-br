@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O Microsoft Exchange Server 2010 e o Exchange Server 2007 têm múltiplas funções de servidor: Acesso para Cliente, Caixa de Correio, Transporte de Hub, Unificação de Mensagens e Transporte de Borda. Com o Exchange Server 2013, reduzimos a quantidade de funções de servidor de cinco para três: Acesso para Cliente, Caixa de Correio e Transporte de Borda. A Unificação de Mensagens agora é considerada um componente ou sub-recurso dos recursos relacionados à voz oferecidos no Exchange 2013. (Para obter mais detalhes sobre as alterações, consulte \&quot;Arquitetura do Exchange 2013 \&quot; em [Novidades do Exchange 2013](what-s-new-in-exchange-2013-exchange-2013-help.md).)
 

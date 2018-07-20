@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-15_
+_**Tópico modificado em:** 2013-02-15_
 
 Você pode especificar o modo de inicialização do serviço de Unificação de Mensagens do Microsoft Exchange em um servidor de Caixa de Correio. Por padrão, o servidor de Caixa de Correio inicia em modo TCP, mas se você estiver usando o protocolo TLS para criptografar tráfego VoIP, será preciso configurar o servidor de Caixa de Correio para que use TLS ou modo Duplo. Recomendamos que os servidores de Caixa de Correio sejam configurados para usar Duplo como o modo de inicialização. Isso porque todos os servidores de Acesso para Cliente e servidores de Caixa de Correio podem atender chamadas de entrada para todos os planos de discagem da UM e esses planos de discagem podem ter diferentes configurações de segurança (não protegido, SIP protegido, ou Protegido). Se o modo de inicialização for alterado, o serviço de Unificação de Mensagens do Microsoft Exchange deve ser reiniciado para que as alterações tenham efeito.
 

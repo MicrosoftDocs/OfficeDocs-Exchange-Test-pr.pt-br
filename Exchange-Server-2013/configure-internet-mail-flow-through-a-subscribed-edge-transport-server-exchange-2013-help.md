@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Para estabelecer as mensagens da Internet por meio de um servidor de Transporte de Borda, inscreva o servidor de Transporte de Borda em um site do Active Directory. Isso cria automaticamente os dois conectores de Envio exigidos para o fluxo de mensagens da Internet:
 

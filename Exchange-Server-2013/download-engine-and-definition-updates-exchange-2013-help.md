@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Microsoft os administradores Exchange Server 2013 podem baixar manualmente mecanismo antimalware e atualizações de definições (assinatura). É altamente recomendável que você baixe as atualizações de mecanismo e definições em seu servidor Exchange antes de colocá-lo em produção.
 

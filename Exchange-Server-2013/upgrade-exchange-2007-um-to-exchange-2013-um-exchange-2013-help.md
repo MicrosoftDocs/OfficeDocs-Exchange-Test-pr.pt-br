@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Quando atualiza uma organização do Microsoft Exchange 2007 com Unificação de Mensagens (UM) para a Unificação de Mensagens do Exchange 2007, este são os passos necessários e outros passos já concluídos como parte implantação da UM do Exchange 2007. Dependendo do seu ambiente de telefonia e componentes da UM que foram criados e configurados para suportar a Unificação de Mensagens no Exchange 2007, poderá ter de implantar equipamento de telefonia adicional, incluindo gateways de Voice over IP (VoIP), IP Private Branch eXchanges (PBXs) ou PBXs tradicionais ou habilitado para SIP e, em seguida, crie e configure os componentes da UM adicionais que serão necessários para a UM do Exchange 2013.
 
@@ -520,14 +520,11 @@ Ao atualizar para a UM do Exchange 2013, já deve ter instalado e configurado um
 
 A última etapa neste processo de atualizar a UM do Exchange 2013 é configurar os gateways VoIP, PBXs IP ou PBXs habilitados para SIP para enviar as chamadas de entrada (incluindo chamadores que desejam deixar uma mensagem de caixa postal para o usuário, chamadas de usuários habilitados para UM que usam o Outlook Voice Access e chamadas de chamadores que discam para um atendedor automático de UM) para seus servidores de Acesso para Cliente do Exchange 2013. Todas as chamadas são recebidas primeiro pelo gateway VoIP, PBX IP ou PBX habilitado para SIP e será encaminhada para os servidores de Acesso para Cliente do Exchange 2013 na sua organização do Exchange 2013. Para obter mais informações, consulte os seguintes recursos:
 
-  -  
-    [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
+  -  [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
 
-  -  
-    [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
 
-  -  
-    [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
 
 ## Etapa 14: Desabilitar o atendimento de chamadas num servidor de Unificação de Mensagens no Exchange 2007
 
@@ -577,10 +574,18 @@ Para remover um servidor de UM do Exchange 2007 de um plano de discagem usando a
 
 Para remover um servidor de UM do Exchange 2007 de um plano de discagem usando o Shell, execute o seguinte comando.
 
+```
     $dp= Get-UMDialPlan "MySIPDialPlan"
+```
+```    
     $s=Get-UMServer -id MyUMServer
+```
+```
     $s.dialplans-=$dp.identity
+```
+```    
     Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 
 Neste exemplo, existem três planos de discagem URI do SIP: SipDP1, SipDP2 e SipDP3. Este exemplo remove o servidor de UM denominado `MyUMServer` do plano de discagem SipDP3.
 

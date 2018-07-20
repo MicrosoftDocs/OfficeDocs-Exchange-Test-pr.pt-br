@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2017-04-14_
+_**Tópico modificado em:** 2017-04-14_
 
 **Resumo**:
 
@@ -272,9 +272,12 @@ Para configurar os Serviços de Federação do Active Directory:
 
 Os seguintes comandos do PowerShell Windows fazem a mesma coisa que as etapas anteriores.
 
+```
     Import-Module ADFS
-
+```
+```
     Install-AdfsFarm -CertificateThumbprint 0E0C205D252002D535F6D32026B6AB074FB840E7 -FederationServiceDisplayName "Contoso Corporation" -FederationServiceName adfs.contoso.com -GroupServiceAccountIdentifier "contoso\FSgmsa`$"
+```
 
 Para obter detalhes e a sintaxe, consulte [Install-AdfsFarm](https://go.microsoft.com/fwlink/?linkid=392704).
 
@@ -372,17 +375,17 @@ Como alternativa, você pode criar relações de confiança de terceiros retrans
 
 3.  Execute os dois cmdlets a seguir para criar os objetos de confiança de terceiros confiáveis. Neste exemplo, também serão configuradas regras de declaração.
 
-**O arquivo IssuanceAuthorizationRules.txt contém:**
+**O arquivo IssuanceAuthorizationRules.txt contém:** 
 
     @RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");
 
-**O arquivo IssuanceTransformRules.txt contém:**
+**O arquivo IssuanceTransformRules.txt contém:** 
 
     @RuleName = "ActiveDirectoryUserSID" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"), query = ";objectSID;{0}", param = c.Value); 
     
     @RuleName = "ActiveDirectoryUPN" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"] => issue(store = "Active Directory", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"), query = ";userPrincipalName;{0}", param = c.Value);
 
-**Execute os seguintes comandos:**
+**Execute os seguintes comandos:** 
 
     [string]$IssuanceAuthorizationRules=Get-Content -Path C:\IssuanceAuthorizationRules.txt
     

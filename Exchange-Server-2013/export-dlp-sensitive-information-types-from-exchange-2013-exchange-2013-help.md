@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-05-04_
+_**Tópico modificado em:** 2016-05-04_
 
 Você pode exibir ou alterar os detalhes em suas políticas de DLP sem usar o Centro de administração do Exchange (EAC) ou cmdlets Shell de Gerenciamento do Exchange exportando as políticas, salvá-los como um arquivo XML e modificar esse arquivo XML. Normalmente você seria importar arquivo XML de volta à Exchange. Dessa forma, as políticas podem ser editadas independente da Exchange. No entanto, eles devem atender os requisitos de formato específico, também conhecidos como o esquema XML, para que funcionem corretamente.
 

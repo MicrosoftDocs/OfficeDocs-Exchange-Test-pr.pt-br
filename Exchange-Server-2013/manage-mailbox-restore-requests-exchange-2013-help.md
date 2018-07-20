@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Solicitações de restauração de caixa de correio são usadas para restaurar as caixas de correio desconectadas. Uma caixa de correio desconectada é uma caixa de correio em um banco de dados de caixa de correio do Exchange que não esteja associado uma conta de usuário do Active Directory. Caixas de correio se tornam desconectadas quando estiver desabilitadas, excluídos ou movidos para outro banco de dados. Para obter mais informações, consulte [Caixas de correio desconectadas](disconnected-mailboxes-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2015-12-02_
+_**Tópico modificado em:** 2015-12-02_
 
 Alternâncias e failovers são duas formas de interrupções no Microsoft Exchange Server 2013.
 

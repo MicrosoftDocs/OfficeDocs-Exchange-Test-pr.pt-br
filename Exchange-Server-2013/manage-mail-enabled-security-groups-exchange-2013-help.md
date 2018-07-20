@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-10-04_
+_**Tópico modificado em:** 2017-10-04_
 
 Um grupo de segurança habilitados para email pode ser usado para distribuir mensagens, bem como para conceder permissões de acesso a recursos em Active Directory. Para obter mais informações, consulte [Destinatários](recipients-exchange-2013-help.md).
 

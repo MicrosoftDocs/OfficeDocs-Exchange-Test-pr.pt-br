@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode configurar códigos de discagem, prefixos de número e formatos de número que são usados pela Unificação de mensagens para fazer chamadas de entrada e saídas para os usuários habilitados para Unificação de mensagens. Na maioria dos casos, você vai configurar um plano de discagem com os códigos de discagem, prefixos e formatos de número atualmente configurados em sua rede de telefonia.
 

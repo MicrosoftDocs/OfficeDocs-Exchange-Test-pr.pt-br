@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2014-09-17_
+_**Tópico modificado em:** 2014-09-17_
 
 Você pode testar a operação da Unificação de Mensagens (UM) e o equipamento de telefonia ao qual ela está conectada. Ao realizar o procedimento a seguir, o servidor de Caixa de Correio e de Acesso para Cliente testam a operação completa ponta a ponta do sistema de correio de voz. Isso inclui os componentes de telefonia conectados aos servidores de Caixa de Correio e de Acesso para Cliente, incluindo gateways VoIP, PBXs (Centrais Privadas de Comutação Telefônica), PBXs IP e cabeamento.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Cada vez que você cria uma regra de fluxo de email do Exchange, também conhecida como uma regra de transporte, você deve testá-lo antes de ativá-la. Dessa forma, se você criar acidentalmente uma condição que não faz exatamente o que deseja ou interage com outras regras de maneiras inesperadas, não terão qualquer consequências indesejadas.
 

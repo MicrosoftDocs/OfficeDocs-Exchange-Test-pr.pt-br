@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 A Unificação de Mensagens pode usar um entre quatro codecs para criar mensagens de voz: MP3, WMA (Windows Media Audio), GSM (Group System Mobile) 06.10 e G.711 PCM (Pulse Code Modulation) Linear. Por padrão, quando você cria um plano de discagem de UM (Unificação de Mensagens), ele usa o codec de áudio MP3 para gravar mensagens de voz. O formato de áudio MP3 é um formato de áudio popular usado em vários sistemas operacionais, clientes de email e MP3 players. Depois de criar um plano de discagem de UM, você pode configurá-lo para usar um dos outros formatos de áudio, incluindo os codecs de áudio WMA, GSM 06.10 ou G.711 PCM Linear. Para ouvir a mensagem de voz, um telefone celular ou computador precisa ter um software de áudio compatível instalado.
 

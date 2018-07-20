@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-12-05_
+_**Tópico modificado em:** 2012-12-05_
 
 Você pode desabilitar o email para um contato de email existente na sua organização do Exchange. Quando você desabilita o email para um contato de email, ele é removido do Exchange e do catálogo de endereços da sua organização. Se o contato de email for um membro de um grupo de distribuição, o contato não recebe emails enviados para o grupo. Além disso, os atributos do Exchange foram removidos do objeto de contato habilitado para email no Active Directory, mas o contato e seus atributos não são do Exchange (por exemplo, informações de contato e organização) são mantidos no Active Directory.
 

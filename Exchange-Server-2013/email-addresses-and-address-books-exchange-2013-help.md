@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Destinatários (que incluem usuários, recursos, contatos e grupos) são qualquer objeto habilitado para email no Active Directory para o qual o Microsoft Exchange pode entregar ou rotear mensagens. Para que um destinatário envie ou receba mensagens de email, ele deve ter um endereço de email. Catálogos de endereços são o método pelo qual os usuários podem se localizar e enviar emails uns aos outros. Existem inúmeros métodos diferentes para organizar catálogos de endereços. Consulte Terminologia principal para obter descrições detalhadas dos recursos de catálogo de endereços no Exchange Server 2013.
 

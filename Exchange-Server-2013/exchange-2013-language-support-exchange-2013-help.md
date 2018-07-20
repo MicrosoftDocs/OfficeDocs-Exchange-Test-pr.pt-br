@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-08_
+_**Tópico modificado em:** 2013-02-08_
 
 Microsoft Exchange Server 2013 aprimorou o suporte de idioma para servidores e clientes. Este tópico lista os idiomas que estão disponíveis para servidores e clientes em Exchange 2013.
 

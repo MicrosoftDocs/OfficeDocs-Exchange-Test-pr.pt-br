@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Com a versão do Windows Phone 8, Windows 8 e Windows RT, há um número de dispositivos que suportam o Exchange ActiveSync e políticas de caixa de correio de dispositivo móvel. Cada sistema operacional do dispositivo oferece suporte a um conjunto específico de configurações de diretiva de caixa de correio de dispositivo móvel.
 

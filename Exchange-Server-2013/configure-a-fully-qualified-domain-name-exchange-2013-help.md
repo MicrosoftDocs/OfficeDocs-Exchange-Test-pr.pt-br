@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-09_
+_**Tópico modificado em:** 2012-11-09_
 
 Você pode configurar um gateway IP de Unificação de mensagens (UM) com um endereço IP ou um nome de domínio totalmente qualificado (FQDN). Quando você cria um gateway IP de UM, você deve definir o endereço IP ou o FQDN configurado no gateway VoIP, IP PBX ou controlador de borda de sessão (SBC) que você está usando. Você pode alterar o endereço IP ou FQDN depois que o gateway IP de UM é criado.
 

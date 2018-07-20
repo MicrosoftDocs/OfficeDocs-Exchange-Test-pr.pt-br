@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 *Escopos exclusivos* são um tipo especial de escopo de gerenciamento explícito que pode ser associado com atribuições de função de gerenciamento. Os escopos exclusivos são projetados para permitir situações em que você tem um grupo de objetos altamente valiosos, como a caixa de correio de um CEO, e é necessário estabelecer um controle estrito de quem tem acesso para administrar esses objetos.
 

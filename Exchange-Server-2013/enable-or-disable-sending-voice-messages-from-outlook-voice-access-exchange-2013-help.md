@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-13_
+_**Tópico modificado em:** 2012-12-13_
 
 Você pode habilitar os usuários do Outlook Voice Access para envio de mensagens de caixa postal para outros usuários habilitados para UM que estão associados com o mesmo plano de discagem ou impedir que eles façam isso.
 

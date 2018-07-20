@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2018-03-02_
+_**Tópico modificado em:** 2018-03-02_
 
 Os grupos dinâmicos de distribuição são grupos de distribuição cuja associação é aceita com base em filtros específicos de destinatários em vez de um conjunto definido de destinatários. O MicrosoftExchange fornece filtros predefinidos para facilitar a criação de filtros de destinatários para grupos dinâmicos de distribuição. Um *filtro predefinido* é um filtro normalmente usado para atender a diversos critérios de filtragem de destinatários. É possível especificar os tipos de destinatários que você deseja incluir no grupo dinâmico de distribuição. Além disso, você também pode especificar uma lista de condições que os destinatários devem atender. É possível usar o Shell para visualizar a lista de destinatários de um grupo dinâmico de distribuição que usa filtros predefinidos.
 
@@ -39,9 +39,12 @@ Os grupos dinâmicos de distribuição são grupos de distribuição cuja associ
 
 Este exemplo retorna a lista de membros para o grupo dinâmico de distribuição chamado funcionários em tempo integral. O primeiro comando armazena o objeto de grupo dinâmico de distribuição na variável `$FTE`. O segundo comando usa o cmdlet **Get-Recipient** para listar os destinatários que correspondem aos critérios definidos para o grupo dinâmico de distribuição.
 
+```
     $FTE = Get-DynamicDistributionGroup "Full Time Employees"
-
+```
+```
     Get-Recipient -RecipientPreviewFilter $FTE.RecipientFilter -OrganizationalUnit $FTE.RecipientContainer
+```
 
 Para a sintaxe detalhada e informações sobre o parâmetro, consulte [Get-DynamicDistributionGroup](https://technet.microsoft.com/pt-br/library/bb124762\(v=exchg.150\)) e [Get-Recipient](https://technet.microsoft.com/pt-br/library/aa996921\(v=exchg.150\)).
 

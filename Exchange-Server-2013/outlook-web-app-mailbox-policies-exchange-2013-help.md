@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-05_
+_**Tópico modificado em:** 2012-10-05_
 
 Use as diretivas de caixa de correio do MicrosoftOutlook Web App para criar políticas em nível de organização para gerenciar o acesso a recursos no Outlook Web App.
 

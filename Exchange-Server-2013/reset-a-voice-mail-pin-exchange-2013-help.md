@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Quando um usuário habilitado para UNIFICAÇÃO de mensagens de email de voz é bloqueado suas caixas de correio usando o Outlook Voice Access porque eles tentaram entrar usando um PIN incorreto várias vezes ou eles esqueceu o seu PIN, você pode usar um dos procedimentos a seguir para redefinir o PIN do usuário. Quando você reinicia Outlook PIN Voice Access um usuário, você pode configurar a Unificação de mensagens para gerar automaticamente um PIN ou você pode especificar manualmente o PIN. O novo PIN é enviado ao usuário no email. Você pode especificar opções de PIN adicionais como exigir que o usuário redefinir seu PIN quando entrarem pela primeira vez no. Os usuários também podem redefinir seu PIN de UM usando Outlook ou Outlook Web App.
 

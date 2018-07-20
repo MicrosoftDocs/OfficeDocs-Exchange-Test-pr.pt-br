@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 As permissões exigidas para configurar o endereço de email e os recursos do catálogo de endereços variam, dependendo do procedimento que está sendo executado ou do cmdlet que você deseja executar. Para mais informações sobre endereços de email e catálogos de endereços, consulte [Endereços de email e catálogos de endereços](email-addresses-and-address-books-exchange-2013-help.md).
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-01-28_
+_**Tópico modificado em:** 2013-01-28_
 
 Portabilidade de tom de discagem é um recurso do Microsoft Exchange Server 2013 que fornece uma solução de continuidade de negócios limitados para falhas que afetam um banco de dados de caixa de correio, um servidor ou um site inteiro. Portabilidade de tom de discagem permite que os usuários têm uma caixa de correio temporária para envio e recebimento de email enquanto suas caixas de correio original está sendo restaurado ou reparado. A caixa de correio temporária pode ser no mesmo servidor de caixa de correio Exchange 2013 ou em qualquer outro servidor de caixa de correio Exchange 2013 na sua organização que possui bancos de dados com a mesma versão do esquema de banco de dados. Isso permite que um servidor alternativo hospedar as caixas de correio de usuários que estavam anteriormente em um servidor que não está mais disponível. Clientes que suportam a descoberta automática serão automaticamente redirecionados para o novo servidor sem precisar atualizar manualmente o perfil do usuário da área de trabalho. Depois que os dados do usuário original da caixa de correio foi restaurados, um administrador pode mesclar a caixa de correio recuperada do usuário e a caixa de correio de tom de discagem do usuário em uma caixa de correio única e atualizada.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Use esta lista de verificação para implantar diretivas de retenção em sua organização do Microsoft Exchange Server 2013. Antes de começar a trabalhar com esta lista de verificação, certifique-se de estar familiarizado com os conceitos nos tópicos a seguir:
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 Você pode usar o Shell para exibir ou configurar uma ou mais regras de atendimentos de chamadas para um usuário. Você também pode usar os cmdlets **Get-UMCallAnsweringRule** ou **Set-UMCallAnsweringRule** em um script do Shell de gerenciamento do Exchange para exibir ou gerenciar regras de atendimento para vários usuários de chamada.
 

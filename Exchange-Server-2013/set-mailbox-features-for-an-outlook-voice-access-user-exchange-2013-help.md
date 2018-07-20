@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Configurações de TUI (interface) do usuário de telefone são usadas quando um usuário acessa o sistema de Unificação de mensagens (UM) usando Outlook Voice Access. Quando você modifica as definições de configuração de TUI um habilitado para UM usuário, você deve modificar propriedades e seus valores na caixa de correio do usuário habilitado para UM.
 

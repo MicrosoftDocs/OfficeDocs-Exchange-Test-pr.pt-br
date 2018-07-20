@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Você pode habilitar autorizações de discagem em um plano de discagem de Unificação de mensagens (UM). Autorizações de discagem em um plano de discagem são usadas para fazer chamadas telefônicas de país/região ou internacionais ou *discagem externa para*proibir que usuários não-autenticados do Outlook Voice Access. Discagem externa acontece quando Unified Messaging faz uma chamada de saída para um usuário depois que eles tenham chamado para um número de telefone do Outlook Voice Access que está configurado em um plano de discagem de UM. Quando você configura uma configuração de um UM plano de discagem da, que configuração se aplica a todos os usuários não-autenticados que ligam para um número do Outlook Voice Access.
 

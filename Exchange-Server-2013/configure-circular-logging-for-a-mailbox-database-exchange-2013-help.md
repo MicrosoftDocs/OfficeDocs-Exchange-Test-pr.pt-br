@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-24_
+_**Tópico modificado em:** 2014-06-24_
 
 Ao habilitar o log circular de um banco de dados de caixa de correio, o tipo de log circular obtido depende de o banco de dados da caixa de correio ser replicado usando replicação contínua ou não:
 

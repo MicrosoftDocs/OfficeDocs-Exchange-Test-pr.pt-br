@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-03_
+_**Tópico modificado em:** 2012-10-03_
 
 Esse procedimento mostra como configurar um conector de Recebimento, para receber emails seguros de um parceiro. Use esse procedimento quando você tiver que criptografar a comunicação entre você e um parceiro confiável. O conector é configurado para aceitar conexões somente de servidores que se autenticarem com o Protocolo (TLS).
 

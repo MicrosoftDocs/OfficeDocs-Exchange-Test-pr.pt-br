@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Tópico modificado em:**2016-09-15_
+_**Tópico modificado em:** 2016-09-15_
 
-**Resumo:** limites de conexão sobre o repositório gerenciado e como configurá-los.
+**Resumo:**  limites de conexão sobre o repositório gerenciado e como configurá-los.
 
 No MicrosoftExchange Server 2013, conexão e limites de uso tiverem sido colocados no repositório de Managed Exchange para impedir que um único aplicativo ou um único usuário use todas as conexões disponíveis para o repositório gerenciado. Se um único usuário ou aplicativo tem permissão para usar todas as conexões, outros usuários ou aplicativos não podem ser capazes de acessar o repositório gerenciado, que pode resultar na inatividade do sistema.
 

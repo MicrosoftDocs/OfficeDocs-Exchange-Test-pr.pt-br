@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-01-28_
+_**Tópico modificado em:** 2014-01-28_
 
 Uma cópia de banco de dados de caixa de correio com atraso é uma cópia de banco de dados de caixa de correio configurada com um tempo de atraso para repetição maior do que 0. A ativação e a recuperação de um banco de dados de caixa de correio é um processo simples caso deseje que o banco de dados repita todos os arquivos de log e torne atual a cópia do banco de dados. Se você quiser repetir arquivos de log até um ponto específico no tempo, a operação é mais difícil, porque é preciso manipular manualmente os arquivos de log e executar o Eseutil.
 

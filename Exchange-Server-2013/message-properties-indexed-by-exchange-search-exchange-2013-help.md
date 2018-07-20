@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-17_
+_**Tópico modificado em:** 2015-04-17_
 
 Exchange A pesquisa cadastra muitas propriedades do item, incluindo remetente, destinatários, corpo da mensagem e anexos de mensagens de email.
 

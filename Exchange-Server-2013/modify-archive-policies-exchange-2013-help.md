@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-02-01_
+_**Tópico modificado em:** 2016-02-01_
 
 Em Exchange Server 2013 e Exchange Online, você pode usar políticas de arquivamento para mover automaticamente os itens de caixa de correio pessoal (no local) ou arquivos mortos baseados em nuvem. Políticas de arquivamento são marcas de retenção que usam a ação de retenção **Mover para arquivo morto**.
 
@@ -25,9 +25,9 @@ Você pode modificar as marcas de retenção incluídas na política padrão par
 
 Para tarefas de gerenciamento adicionais relacionadas a arquivos mortos, consulte:
 
-  - **Exchange Server 2013:** [Gerenciar arquivos mortos de In-loco no Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
+  - **Exchange Server 2013:**  [Gerenciar arquivos mortos de In-loco no Exchange 2013](manage-in-place-archives-in-exchange-2013-exchange-2013-help.md)
 
-  - **Exchange Online:** [Habilitar ou desabilitar uma caixa de correio de arquivo morto no Exchange Online](https://technet.microsoft.com/pt-br/library/jj984357\(v=exchg.150\))
+  - **Exchange Online:**  [Habilitar ou desabilitar uma caixa de correio de arquivo morto no Exchange Online](https://technet.microsoft.com/pt-br/library/jj984357\(v=exchg.150\))
 
 
 > [!TIP]
@@ -63,8 +63,7 @@ Para tarefas de gerenciamento adicionais relacionadas a arquivos mortos, consult
 
 
 
-3.  
-    
+3.     
     Em **Marca de Retenção**, exiba ou modifica as seguintes configurações e clique em **Salvar**:
     
       - **Nome** Use essa caixa no topo da página para exibir ou alterar o nome da marca.

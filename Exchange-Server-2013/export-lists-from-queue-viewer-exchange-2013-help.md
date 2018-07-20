@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-25_
+_**Tópico modificado em:** 2012-09-25_
 
 Este tópico explica como usar o Visualizador de filas na caixa de ferramentas do Exchange para exportar listas de mensagens ou filas.
 

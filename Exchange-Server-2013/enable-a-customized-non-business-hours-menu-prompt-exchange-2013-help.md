@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-03-22_
+_**Tópico modificado em:** 2013-03-22_
 
 Você pode personalizar o prompt do menu para ser usado por um atendedor automático da UM fora do horário comercial. Depois de criar um atendedor automático da UM, um prompt do sistema padrão (\&quot;Bem-Vindo à Unificação de Mensagens\&quot;) é usado como o prompt de menu que os chamadores ouvem após a saudação de boas vindas de horários não comerciais ser reproduzida. Embora os prompts do sistema não devam ser substituídos ou alterados, você pode personalizar as saudações e os prompts do menu usados com atendedores automáticos da UM. Depois de criar um arquivo de áudio personalizado de prompt do menu de horário não comercial, você deve habilitar as entradas de navegação do menu no atendedor automático da UM para horários não comerciais.
 

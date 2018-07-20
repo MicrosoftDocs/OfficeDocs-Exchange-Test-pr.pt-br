@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-07-25_
+_**Tópico modificado em:** 2017-07-25_
 
 Unified Messaging (UM) requer integrar o Microsoft Exchange com o sistema de telefonia existente para a sua organização. Uma implantação bem-sucedida requer que você faça uma análise criteriosa da sua infra-estrutura de telefonia existente e executar as etapas de planejamento corretas para implantar a Unificação de mensagens.
 

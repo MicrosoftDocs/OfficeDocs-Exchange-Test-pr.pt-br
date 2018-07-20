@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013 SP1_
+_**Aplica-se a:** Exchange Server 2013 SP1_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Você pode usar o EAC ou o Shell para desabilitar ou excluir uma caixa de correio no Exchange 2013. Quando uma caixa de correio é desabilitada ou excluída, o Exchange mantém o banco de dados da caixa de correio e alterna a caixa de correio para um estado de desabilitada. As caixas de correio desabilitadas e excluídas são retidas no banco de dados de caixa de correio até que o período de retenção da caixa de correio excluída expire, que é de 30 dias por padrão. Depois que o período de retenção expirar, a caixa de correio será permanentemente excluída ou *limpa*.
 
@@ -139,11 +139,15 @@ Quando você executa esse comando, uma mensagem é exibida que pede para você c
 
 Aqui estão alguns exemplos de comandos para desabilitar as caixas de correio.
 
+```
     Disable-Mailbox danj
-
+```
+```
     Disable-Mailbox "Conf Room 31/1234 (12)"
-
+```
+```
     Disable-Mailbox sharedmbx@contoso.com
+```
 
 ## Como saber se funcionou?
 
@@ -197,11 +201,16 @@ Quando você executa esse comando, uma mensagem é exibida que pede para você c
 
 Aqui estão alguns exemplos de comandos para excluir caixas de correio.
 
+```
     Remove-Mailbox pilarp@contoso.com
-
+```
+```
     Remove-Mailbox "Fleet Van (16)"
+```
 
+```
     Remove-Mailbox corpprint
+```
 
 ## Como saber se funcionou?
 

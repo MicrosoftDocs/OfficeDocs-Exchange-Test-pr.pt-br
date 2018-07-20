@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento `Distribution Groups` permite que os administradores criem, modifiquem, exibam e removam grupos de distribuição, e que adicionem ou removam membros de um grupo de distribuição em uma organização.
 

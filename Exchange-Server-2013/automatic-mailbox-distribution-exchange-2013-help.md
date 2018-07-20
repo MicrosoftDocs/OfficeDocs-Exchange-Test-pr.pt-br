@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2010 Service Pack 2 (SP2), Exchange Server 2013_
 
-_**Tópico modificado em:**2013-08-13_
+_**Tópico modificado em:** 2013-08-13_
 
 Ao criar ou mudar uma caixa de correio ou habilitar para email um usuário existente, essa caixa de correio precisa ser armazenada em um banco de dados de caixa de correio. No Microsoft Exchange Server 2013, você tem a opção de permitir que o Exchange escolha o banco de dados para você usando a distribuição de caixa de correio automática.
 

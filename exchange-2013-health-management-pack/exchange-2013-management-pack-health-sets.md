@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:**2013-05-17_
+_**Tópico modificado em:** 2013-05-17_
 
 O pacote de gerenciamento do Exchange Server 2013 baseia-se no recurso Disponibilidade Gerenciada do Microsoft Exchange Server 2013. Na Disponibilidade Gerenciada, cada componente do Exchange Server 2013 monitora a si mesmo usando sondas, monitores e respondentes. Qualquer componente que implemente a Disponibilidade Gerenciada é conhecido como um *conjunto de integridade*. Á lista a seguir oferece orientação para a solução de problemas de todos os conjuntos de integridade disponíveis no Exchange 2013:
 

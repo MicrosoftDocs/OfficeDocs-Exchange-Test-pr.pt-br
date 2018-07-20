@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-08-21_
+_**Tópico modificado em:** 2012-08-21_
 
 O Microsoft Exchange Server 2013 inclui muitas funções de gerenciamento por padrão. As seguintes funções são atribuídas a grupos de função de gerenciamento ou a diretivas de atribuição de função de gerenciamento em várias combinações que concedem permissões para gerenciar e usar os recursos oferecidos pelo Exchange 2013. Para mais informações sobre funções, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

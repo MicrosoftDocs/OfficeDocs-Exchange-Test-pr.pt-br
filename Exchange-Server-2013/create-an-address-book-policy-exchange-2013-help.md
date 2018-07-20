@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 Políticas de catálogo de endereços (ABPs) permitem segmentar usuários em grupos específicos para fornecer visualizações personalizadas da GAL (lista de endereços global) da sua organização. Ao criar uma ABP, atribua uma GAL, um OAB (catálogo de endereços offline), uma lista de salas e uma ou mais listas de endereços para a política. Você pode então atribuir a ABP para usuários de caixa de correio, fornecendo acesso a uma GAL personalizada no Outlook e Outlook Web App. O objetivo é fornecer um mecanismo mais simples para realizar segmentação GAL para as organizações locais que exigem várias GALs. Para saber mais sobre ABPs, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
 
@@ -43,15 +43,15 @@ Interessado em cenários que utilizam este procedimento? Consulte [Cenário: Imp
 
 Este exemplo cria uma ABP com as seguintes configurações:
 
-  - **Nome:** All Fabrikam ABP
+  - **Nome:**  All Fabrikam ABP
 
-  - **GAL:** All Fabrikam
+  - **GAL:**  All Fabrikam
 
-  - **OAB:** Fabrikam-All-OAB
+  - **OAB:**  Fabrikam-All-OAB
 
-  - **Lista de salas:** All Fabrikam Rooms
+  - **Lista de salas:**  All Fabrikam Rooms
 
-  - **Listas de endereços:** All Fabrikam, All Fabrikam Mailboxes, All Fabrikam DLs e All Fabrikam Contacts
+  - **Listas de endereços:**  All Fabrikam, All Fabrikam Mailboxes, All Fabrikam DLs e All Fabrikam Contacts
 
 <!-- end list -->
 

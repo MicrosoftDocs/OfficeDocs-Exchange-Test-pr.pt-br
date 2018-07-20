@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2009-11-03_
+_**Tópico modificado em:** 2009-11-03_
 
 [Contadores de desempenho do modo de exibição de gerenciamento de registros de mensagens](view-performance-counters-for-messaging-records-management-exchange-2013-help.md)
 

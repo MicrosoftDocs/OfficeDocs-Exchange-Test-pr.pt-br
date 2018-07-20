@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-03-08_
+_**Tópico modificado em:** 2013-03-08_
 
 Você pode criar uma política de caixa de correio de Unificação de mensagens (UM) para aplicar um conjunto comum de configurações de diretiva de Unificação de mensagens, como configurações de diretiva PIN ou restrições de discagem, a uma coleção de caixas de correio habilitadas para UM. UM políticas de caixa de correio vincular a um usuário habilitado com um plano de discagem de Unificação de mensagens e aplicam um conjunto comum de políticas ou configurações de segurança para um conjunto de caixas de correio habilitadas para UM. UM a políticas de caixa de correio são úteis para a aplicação e padronização das definições de configuração de Unificação de mensagens para usuários habilitados para UM.
 

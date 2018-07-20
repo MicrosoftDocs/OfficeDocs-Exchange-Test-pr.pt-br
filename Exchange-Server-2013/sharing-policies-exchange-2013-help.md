@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-15_
+_**Tópico modificado em:** 2014-02-15_
 
 Como parte do compartilhamento federado, compartilhar políticas habilita o compartilhamento estabelecido pelo usuário, de pessoa para pessoa, das informações de calendário com tipos diferentes de usuários externos. Políticas de compartilhamento são atribuídas a caixas de correio de usuário e permitem que os usuários gerenciem e compartilhem suas informações de disponibilidade (incluindo a pasta Calendário) com destinatários de organizações externas do Office 365 ou de outras organizações federadas locais do Exchange. Se quiser compartilhar calendários com destinatários que não sejam de um desses tipos de organização, as políticas de compartilhamento permitem o compartilhamento individual de informações de calendário com qualquer destinatário de email por meio da Publicação de Calendário na Internet.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-16_
+_**Tópico modificado em:** 2012-11-16_
 
 Você pode usar o snap-in Serviços no Microsoft Management Console (MMC) ou cmd.exe em um prompt de comando para iniciar o MicrosoftExchange o serviço de roteador de Unificação de chamada em um servidor de acesso para cliente. Por padrão, MicrosoftExchange o serviço de roteador de Unificação de chamada é iniciado depois que um servidor de acesso para cliente é instalado. No entanto, pode haver vezes quando você precisar reiniciar ou parar MicrosoftExchange chamada serviço roteador de Unificação manualmente, por exemplo, quando você assumir o servidor de acesso para cliente offline e precisa ativá-la novamente.
 

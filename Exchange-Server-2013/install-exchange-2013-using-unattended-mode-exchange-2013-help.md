@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-06-19_
+_**Tópico modificado em:** 2014-06-19_
 
 Para executar uma instalação autônoma, você deve instalar o Microsoft Exchange Server 2013 pelo prompt de comando. Para obter mais informações sobre o planejamento e a implantação do Exchange 2013, consulte [Planejamento e implantação](planning-and-deployment-for-exchange-2013-installation-instructions.md).
 

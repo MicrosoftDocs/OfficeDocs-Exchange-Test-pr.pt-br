@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Servidores de Transporte de Borda minimizam a superfície de ataque processando todo o fluxo de mensagens voltado para a Internet e fornecendo retransmissão de SMTP e serviços de host inteligente para a organização do Exchange. Camadas adicionais de proteção de mensagem e de segurança são fornecidas por vários agentes em execução no servidor de Transporte de Borda na rede de perímetro de sua organização. Esses agentes oferecem suporte a recursos que fornecem proteção contra vírus e spam e aplicam regras de transporte ao controle de fluxo de mensagens.
 
@@ -120,7 +120,7 @@ Este exemplo inscreve um servidor de Transporte de Borda no site especificado e 
     New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
 
 
-> [!TIP]
+> [!TIP]  
 > Os valores padrão dos parâmetros <EM>CreateInternetSendConnector</EM> e <EM>CreateInboundSendConnector</EM> são ambos <CODE>$true</CODE>. Eles são mostrados aqui apenas para fins demonstrativos.
 
 
@@ -130,7 +130,7 @@ Este exemplo exporta um arquivo de Inscrição de Borda.
     New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
 
 
-> [!TIP]
+> [!TIP]  
 > Quando o cmdlet <STRONG>New-EdgeSubscription</STRONG> for executado no servidor de Transporte de Borda, você receberá uma solicitação de confirmação dos comandos que serão desabilitados e a configuração que será substituída no servidor de Transporte de Borda. Para ignorar essa confirmação, use o parâmetro <EM>Force</EM>. Esse parâmetro é útil quando você cria um script com o cmdlet <STRONG>New-EdgeSubscription</STRONG>. O parâmetro <EM>Force</EM> é usado também para substituir um arquivo existente com o mesmo nome do arquivo que você está criando ao reinscrever um servidor de Transporte de Borda.
 
 
@@ -229,7 +229,7 @@ Por padrão, quando você executa o cmdlet **New-EdgeSubscription** no servidor 
 <td><p><em>SourceTransportServers</em></p></td>
 <td><p>&lt;<em>Nome de Inscrição de Borda</em>&gt;</p>
 
-> [!TIP]
+> [!TIP]  
 > O nome da Inscrição de Borda é o mesmo do servidor de Transporte de Borda inscrito.
 
 
@@ -314,13 +314,13 @@ Cada servidor de Transporte de Borda inscrito está associado a um site específ
 Esse método de bloqueio e concessão impede que mais de uma instância do serviço do EdgeSync envie dados por push ao mesmo servidor de Transporte de Borda ao mesmo tempo.
 
 
-> [!TIP]
+> [!TIP]  
 > Se você também tiver servidores de Caixa de Correio do Exchange 2010 ou do Exchange 2007 inscritos no site do Active Directory, os servidores de Caixa de Correio do Exchange 2013 sempre terão precedência e executarão a replicação.
 
 
 
 
-> [!TIP]
+> [!TIP]  
 > Quando você inscreve um servidor de Transporte de Borda em um site do Active Directory, todos os servidores de Caixa de Correio instalados nesse site do Active Directory naquele momento poderão participar do processo de sincronização do EdgeSync. Se um desses servidores for removido, o serviço do EdgeSync que estiver sendo executado nos servidores de Caixa de Correio restantes continuará o processo de sincronização de dados. Entretanto, se posteriormente você instalar novos servidores de Caixa de Correio no site do Active Directory, eles não participarão automaticamente da sincronização do EdgeSync. Se quiser permitir que esses servidores de Caixa de Correio novos participem da sincronização do EdgeSync, será preciso inscrever o servidor de Transporte de Borda novamente.
 
 

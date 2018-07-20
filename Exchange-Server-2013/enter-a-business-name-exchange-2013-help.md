@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-19_
+_**Tópico modificado em:** 2013-04-19_
 
 Você pode inserir o nome do seu negócio na caixa **nome de negócios** em um atendedor automático. Por padrão, nenhum nome de negócios é inserido. Se você inserir um nome de empresa, uma saudação prompt com o nome de empresa de padrão será reproduzida para chamadores quando ele liga para o atendedor automático de Unificação de mensagens (UM).
 

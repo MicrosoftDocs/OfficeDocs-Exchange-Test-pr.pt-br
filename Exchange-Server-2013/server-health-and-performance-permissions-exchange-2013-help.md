@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 As permissões exigidas para a realização de tarefas de configuração de vários componentes do Microsoft Exchange Server 2013 dependem do procedimento que está sendo realizado ou do cmdlet que você deseja executar. Consulte cada seção deste tópico para obter mais informações sobre os respectivos recursos.
 

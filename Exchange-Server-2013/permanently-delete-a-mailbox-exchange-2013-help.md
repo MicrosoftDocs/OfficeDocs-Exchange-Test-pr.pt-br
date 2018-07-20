@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-16_
+_**Tópico modificado em:** 2012-11-16_
 
 Quando você exclui permanentemente caixas de correio ativas e caixas de correio desconectadas, todo o conteúdo de caixa de correio é removido do banco de dados de caixa de correio do Exchange e a perda de dados é permanente. Quando você exclui permanentemente uma caixa de correio ativa, a conta de usuário do Active Directory associada também será excluída.
 

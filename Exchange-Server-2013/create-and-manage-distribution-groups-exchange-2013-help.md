@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2016, Office 365_
+_**Aplica-se a:** Exchange Online, Exchange Server 2016, Office 365_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Use o Centro de Administração do Exchange (EAC) ou o Shell de Gerenciamento do Exchange para criar um novo grupo de distribuição em sua organização do Exchange ou para habilitar um grupo existente para email no Active Directory.
 
@@ -51,27 +51,22 @@ Há dois tipos de grupos que podem ser usados para distribuir mensagens:
 
 2.  Clique em **Novo**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") \> **Grupo de distribuição**.
 
-3.  
-    
-
-    > [!TIP]
+3.  > [!TIP]
     > <IMG title="Novidade Experimentar Grupos do Office 365" alt="Novidade Experimentar Grupos do Office 365" src="images/Bb124513.3ea82c95-9dda-450f-823b-cd0772249d81(EXCHG.150).png"><BR>Agora é possível criar um grupo do Office 365 em vez de um grupo de distribuição se você tiver um plano do Office 365 para empresas ou um plano do Exchange Online. Os grupos do Office 365 têm os recursos de um grupo de distribuição e muito mais. Com os grupos do Office 365, você pode enviar emails para um grupo, compartilhar um calendário comum, ter uma biblioteca para armazenar e trabalhar em pastas e arquivos do grupo. Clique em <STRONG>Novo</STRONG><IMG title="Ícone Adicionar" alt="Ícone Adicionar" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">&nbsp;&gt;&nbsp;<STRONG>Grupo do Office 365</STRONG> para começar e confira <A href="https://go.microsoft.com/fwlink/p/?linkid=800653">Grupos do Office 365 - ajuda da administração</A>.<BR>Se você tiver grupos de distribuição existentes que queira migrar para os grupos do Office 365, veja <A href="https://go.microsoft.com/fwlink/p/?linkid=824756">Migrar as listas de distribuição para grupos do Office 365 - ajuda da administração</A>.<BR>Se você ainda quiser criar um grupo de distribuição, clique ou toque no assistente <STRONG>Novo grupo de distribuição</STRONG>.
 
 
 
-4.  
+4.  Na página **Novo grupo de distribuição**, preencha os seguintes campos:
     
-    Na página **Novo grupo de distribuição**, preencha os seguintes campos:
+      - \* **Nome para exibição**   Use essa caixa para digitar o nome para exibição. Esse nome é exibido no catálogo de endereços da organização, na linha Para: quando um email é enviado a esse grupo e na lista Grupos do EAC. O nome para exibição é necessário e deve ser amigável para que as pessoas o reconheçam. Ele também deve ser exclusivo na floresta.
     
-      - **\* Nome para exibição**   Use essa caixa para digitar o nome para exibição. Esse nome é exibido no catálogo de endereços da organização, na linha Para: quando um email é enviado a esse grupo e na lista Grupos do EAC. O nome para exibição é necessário e deve ser amigável para que as pessoas o reconheçam. Ele também deve ser exclusivo na floresta.
-    
-      - **\* Alias**   Use essa caixa para digitar o nome do alias do grupo. O alias não pode exceder 64 caracteres e deve ser único na floresta. Quando um usuário digita o alias na linha Para: de uma mensagem de email, ele é convertido para o nome para exibição do grupo.
+      - \* **Alias**   Use essa caixa para digitar o nome do alias do grupo. O alias não pode exceder 64 caracteres e deve ser único na floresta. Quando um usuário digita o alias na linha Para: de uma mensagem de email, ele é convertido para o nome para exibição do grupo.
     
       - **Unidade organizacional**   (Você verá essa opção no Exchange 2013 local) É possível selecionar uma UO (unidade organizacional) que não seja a padrão (que é o escopo do destinatário). Se o escopo do destinatário estiver definido para a floresta, o valor padrão será definido para o contêiner Usuários no domínio do Active Directory que contém o computador no qual o EAC está sendo executado. Se o escopo do destinatário estiver definido como um domínio específico, por padrão, o contêiner Usuários desse domínio será selecionado. Se o escopo do destinatário estiver definido como uma UO específica, essa UO será selecionada por padrão.
         
         Para selecionar uma UO diferente, clique em **Procurar**. A caixa de diálogo exibe todas as OUs da floresta que estão no escopo especificado. Selecione a UO desejada e clique em **OK**.
     
-      - **\* Proprietários**   Por padrão, a pessoa que cria um grupo é o proprietário. Todos os grupos devem ter no mínimo um proprietário. Você pode adicionar proprietários, clicando em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar").
+      - \* **Proprietários**   Por padrão, a pessoa que cria um grupo é o proprietário. Todos os grupos devem ter no mínimo um proprietário. Você pode adicionar proprietários, clicando em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar").
     
       - **Membros**   Use esta seção para adicionar membros e para especificar se é necessário obter aprovação para que as pessoas ingressem ou saiam do grupo.
         
@@ -89,9 +84,9 @@ Há dois tipos de grupos que podem ser usados para distribuir mensagens:
         
         Em **Definir se o grupo está aberto a saídas**, especifique se é necessário aprovação para que as pessoas saiam do grupo. Selecione uma das seguintes configurações:
         
-          - **Abrir: Qualquer pessoa pode sair do grupo sem receber aprovação dos proprietários do grupo   **Essa é a configuração padrão.
+          - **Abrir: Qualquer pessoa pode sair do grupo sem receber aprovação dos proprietários do grupo**   Essa é a configuração padrão.
         
-          - **Fechado: Os membros só podem ser removidos pelos proprietários do grupo. Todas as solicitações para sair do grupo serão rejeitadas automaticamente   **
+          - **Fechado: Os membros só podem ser removidos pelos proprietários do grupo. Todas as solicitações para sair do grupo serão rejeitadas automaticamente**
 
 5.  Ao terminar, clique em **Salvar** para criar o grupo de distribuição.
 
@@ -157,11 +152,11 @@ Para verificar se você criou com sucesso um grupo de distribuição, siga uma d
 
 Use essa seção para visualizar ou alterar informações básicas sobre o grupo.
 
-  - **\* Nome para exibição**   Este nome será exibido no catálogo de endereços, na linha Para: quando um email é enviado a esse grupo e na lista Grupos. O nome para exibição é necessário e deve ser amigável para que as pessoas o reconheçam. Ele também deve ser exclusivo em seu domínio.
+  - \* **Nome para exibição**   Este nome será exibido no catálogo de endereços, na linha Para: quando um email é enviado a esse grupo e na lista Grupos. O nome para exibição é necessário e deve ser amigável para que as pessoas o reconheçam. Ele também deve ser exclusivo em seu domínio.
     
     Se você implementou uma política de nomeação de grupo, o nome para exibição terá que estar em conformidade com o formato de nomeação definido pela política.
 
-  - **\* Alias**   É a parte do endereço de email que aparece à esquerda do símbolo de arroba (@). Se você alterar o alias, o endereço SMTP principal do grupo também será alterado e conterá o novo alias. Além disso, o endereço de email com o alias anterior será mantido como um endereço proxy para o grupo.
+  - \* **Alias**   É a parte do endereço de email que aparece à esquerda do símbolo de arroba (@). Se você alterar o alias, o endereço SMTP principal do grupo também será alterado e conterá o novo alias. Além disso, o endereço de email com o alias anterior será mantido como um endereço proxy para o grupo.
 
   - **Descrição**   Use essa caixa para descrever o grupo, para que as pessoas saibam qual é o objetivo do grupo. Essa descrição é exibida no catálogo de endereços e no painel Detalhes do EAC.
 
@@ -197,11 +192,11 @@ Use esta seção para especificar se é necessário obter aprovação para os us
     
       - **Aprovação do proprietário: Todas as solicitações são aprovadas ou rejeitadas pelos proprietários do grupo**   Se você selecionar esta opção, o proprietário ou os proprietários do grupo receberão uma mensagem de email solicitando aprovação para ingressar no grupo.
 
-  - **Escolha se o grupo está aberto para saída   **Selecione uma das seguintes configurações:
+  - **Escolha se o grupo está aberto para saída**   Selecione uma das seguintes configurações:
     
-      - **Abrir: Qualquer um pode sair do grupo sem a aprovação dos proprietários do grupo   **
+      - **Abrir: Qualquer um pode sair do grupo sem a aprovação dos proprietários do grupo**
     
-      - **Fechado: Os membros só podem ser removidos pelos proprietários do grupo. Todas as solicitações para sair do grupo serão rejeitadas automaticamente   **
+      - **Fechado: Os membros só podem ser removidos pelos proprietários do grupo. Todas as solicitações para sair do grupo serão rejeitadas automaticamente**
 
 ## Gerenciamento de entregas
 
@@ -231,7 +226,7 @@ Use esta seção para configurar opções para moderar o grupo. Os moderadores a
 
   - **Remetentes que não exigem aprovação de mensagem**    Para adicionar pessoas ou grupos que podem ignorar a moderação para o grupo em questão, clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar"). Para remover uma pessoa ou um grupo, selecione o item e clique em **Remover**![ícone Remover](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "ícone Remover").
 
-  - **Selecionar notificações de moderação   **Use esta seção para definir como os usuários serão notificados sobre a aprovação de mensagens.
+  - **Selecionar notificações de moderação**   Use esta seção para definir como os usuários serão notificados sobre a aprovação de mensagens.
     
       - **Notificar todos os remetentes quando suas mensagens não forem aprovadas**   Esta é a configuração padrão. Notifique todos os remetentes dentro e fora da sua organização quando as mensagens deles não forem aprovadas.
     
@@ -243,16 +238,16 @@ Use esta seção para configurar opções para moderar o grupo. Os moderadores a
 
 Use essa seção para visualizar ou alterar os endereços de email associados ao grupo. Isso inclui endereços SMTP principais do grupo e todos os endereços de proxy associados. O endereço SMTP principal (também conhecido como *endereço de resposta*) será exibido em negrito, na lista de endereços, com o valor em maiúsculas **SMTP** na coluna **Tipo**.
 
-  - **Adicionar **  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
+  - **Adicionar**  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
     
-      - **SMTP**   Esse é o tipo de endereço padrão. Clique nesse botão e digite o novo endereço SMTP na caixa **\* Endereço de email**.
+      - **SMTP**   Esse é o tipo de endereço padrão. Clique nesse botão e digite o novo endereço SMTP na caixa \* **Endereço de email**.
         
 
         > [!TIP]
         > Para tornar o novo endereço como endereço SMTP principal para o grupo, marque a caixa de seleção <STRONG>Tornar este o endereço de resposta</STRONG>.
 
     
-      - **Tipo de endereço personalizado**   Clique nesse botão e digite um dos tipos de endereço de email não SMTP compatíveis na caixa **\* Endereço de email**.
+      - **Tipo de endereço personalizado**   Clique nesse botão e digite um dos tipos de endereço de email não SMTP compatíveis na caixa \* **Endereço de email**.
         
 
         > [!TIP]
@@ -304,7 +299,12 @@ Veja a seguir alguns exemplos de como usar o Shell para alterar propriedades dos
 
 Este exemplo altera o endereço SMTP principal (também chamado de endereço de resposta) do grupo de distribuição Funcionários de Seattle, de employees@contoso.com para sea.employees@contoso.com. Da mesma forma, o endereço de resposta anterior será mantido como um endereço de proxy.
 
-    Set-DistributionGroup "Seattle Employees" -EmailAddresses SMTP:sea.employees@contoso.com,smtp:employees@contoso.com
+```
+    Set-DistributionGroup "Seattle Employees" -EmailAddresses 
+```
+```    
+    SMTP:sea.employees@contoso.com,smtp:employees@contoso.com
+```
 
 Este exemplo limita o tamanho máximo de mensagens que podem ser enviadas a todos os grupos de distribuição na organização em 10 megabytes (MB).
 

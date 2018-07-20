@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Depois de criar um gateway IP da Unificação de Mensagens (UM), é possível visualizar ou definir diversas configurações. Por exemplo, é possível configurar o endereço IP ou um nome de domínio totalmente qualificado (FQDN), definir as configurações das chamadas de saída e habilitar ou desabilitar o Indicador de Mensagens em Espera.
 
@@ -47,8 +47,7 @@ Para tarefas de gerenciamento adicionais relacionadas a gateways IP da UM, consu
 
 1.  No EAC, navegue até **Unificação de Mensagens** \> **Gateways IP da UM**. No modo de exibição de lista, selecione o gateway IP da UM que você deseja gerenciar e clique em **Editar**![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição").
 
-2.  
-    
+2.     
     Use a página **Gateway IP da UM** para visualizar e definir as configurações do gateway IP da UM. Também é possível visualizar ou definir as seguintes configurações:
     
       - **Status**   Esse campo apenas para exibição mostra o status do gateway IP da UM.

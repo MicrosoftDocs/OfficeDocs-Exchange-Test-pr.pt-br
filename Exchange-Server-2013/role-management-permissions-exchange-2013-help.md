@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 As permissões necessárias para executar tarefas para configurar funções de gerenciamento variam dependendo o procedimento que está sendo executado ou o cmdlet que você deseja executar. Para obter mais informações sobre funções de gerenciamento, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 

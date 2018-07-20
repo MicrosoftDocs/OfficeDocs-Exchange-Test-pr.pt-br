@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Project Server 2013_
+_**Aplica-se a:** Exchange Server 2013, Project Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O EWS. Conjunto de integridade do protocolo monitora Exchange protocolo de comunicação de serviços da Web (EWS) no servidor de caixa de correio. O EWS. Conjunto de integridade do protocolo está relacionado aos seguintes conjuntos de integridade:
 

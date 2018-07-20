@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode configurar um catálogo de endereços hierárquico (HAB), que é um recurso disponíveis para usuários finais do Microsoft Outlook 2010 ou mais recente. Com um HAB, usuários podem procurar destinatários na sua organização Exchange usando uma hierarquia organizacional baseada em estrutura de tempo de serviço ou gestão. Para saber mais sobre HABs, consulte [Catálogos de endereços hierárquicos](hierarchical-address-books-exchange-2013-help.md).
 

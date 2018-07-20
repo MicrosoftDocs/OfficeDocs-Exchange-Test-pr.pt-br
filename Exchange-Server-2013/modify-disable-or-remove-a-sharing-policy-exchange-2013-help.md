@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-02-15_
+_**Tópico modificado em:** 2014-02-15_
 
 As políticas de compartilhamento permitem que usuários individuais em sua organização do Exchange compartilhem informações de disponibilidade do calendário com outras organizações federadas do Exchange, organizações não federadas do Exchange e usuários individuais da Internet. Durante o curso normal das operações, você pode querer alterar algumas propriedades de políticas de compartilhamento, como modificar regras de compartilhamento, alterar o nível de acesso de disponibilidade, desabilitar temporariamente uma política de compartilhamento ou remover completamente uma política de compartilhamento.
 
@@ -91,8 +91,18 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
 
   - Este exemplo adiciona um segundo domínio à política de compartilhamento Contoso. Ao adicionar um domínio a uma diretiva existente, inclua quaisquer domínios incluídos previamente.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'atlanta.contoso.com: CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: CalendarSharingFreeBusyReviewer'
-
+      ```
+        Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: 
+      ```
+      ```        
+        CalendarSharingFreeBusySimple', 'atlanta.contoso.com: 
+      ```
+      ```
+        CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: 
+      ```
+      ```
+        CalendarSharingFreeBusyReviewer'
+      ```
   - Este exemplo define a política de compartilhamento Contoso como a política de compartilhamento padrão.
     
         Set-SharingPolicy -Identity Contoso -Default $True
@@ -103,9 +113,12 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
 
   - O primeiro exemplo remove a política de compartilhamento Contoso. O segundo exemplo remove a política de compartilhamento Contoso e suprime a confirmação de que você deseja remover a política.
     
+      ```
         Remove-SharingPolicy -Identity Contoso
-    
+      ```
+      ```    
         Remove-SharingPolicy -Identity Contoso -Confirm
+      ```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd297931\(v=exchg.150\)) e [Remove-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd351071\(v=exchg.150\)).
 

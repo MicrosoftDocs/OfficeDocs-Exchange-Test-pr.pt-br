@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-30_
+_**Tópico modificado em:** 2012-11-30_
 
 Unified Messaging (UM) combina mensagens de voz e mensagens de email em uma caixa de correio que pode ser acessada a partir de vários dispositivos diferentes. Os usuários podem ouvir suas mensagens da caixa postal a partir de seus emails de entrada ou usando o Outlook Voice Access de qualquer telefone.
 

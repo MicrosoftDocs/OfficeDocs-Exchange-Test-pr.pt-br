@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server_
+_**Aplica-se a:** Exchange Server_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O conteúdo neste tópico não foi atualizado para o Microsoft Exchange Server 2013. Mesmo assim, ele ainda pode se aplicar ao Exchange 2013. Se você ainda precisar de ajuda, verifique os recursos da comunidade, abaixo.
 
@@ -103,7 +103,7 @@ Para resolver esse problema, certifique-se de que as "permissões de permitir se
 <li><p>Selecione a guia <strong>segurança</strong> e, em seguida, clique em <strong>Avançado</strong>.</p></li>
 <li><p>Selecione <strong>Permitir que permissões herdadas do pai sejam propagadas a este objeto e todos os objetos filho</strong> para reabilitar a herança de permissões.</p></li>
 <li><p>Selecione <strong>Ok</strong> duas vezes para aplicar a alteração.</p></li>
-<li><p>Aguarde a replicação do Active Directory propagar as alterações ou forçar a replicação do Active Directory, seguindo as orientações no artigo da Base de Conhecimento Microsoft 232072, &quot;Iniciando replicação entre o Active Directory direto replicação Partners&quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052%26kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>).</p></li>
+<li><p>Aguarde a replicação do Active Directory propagar as alterações ou forçar a replicação do Active Directory, seguindo as orientações no artigo da Base de Conhecimento Microsoft 232072, &quot;Iniciando replicação entre o Active Directory direto replicação Partners&quot; (<a href="http://go.microsoft.com/fwlink/?linkid=3052&kbid=232072" class="uri">http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=232072</a>).</p></li>
 </ol></td>
 </tr>
 </tbody>

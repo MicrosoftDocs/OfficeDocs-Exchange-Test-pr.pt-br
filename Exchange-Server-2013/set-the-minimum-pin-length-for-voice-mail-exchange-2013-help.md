@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-22_
+_**Tópico modificado em:** 2013-02-22_
 
 Você pode definir o tamanho mínimo do PIN para os usuários do Outlook Voice Access habilitados para Unificação de mensagens (UM). As configurações de PIN que você define em uma diretiva de caixa de correio UM se aplicará a todos os usuários habilitados para UM associados com a diretiva de caixa de correio de Unificação de mensagens.
 

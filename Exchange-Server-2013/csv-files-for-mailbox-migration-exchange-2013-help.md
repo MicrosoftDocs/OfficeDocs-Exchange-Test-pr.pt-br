@@ -13,35 +13,35 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-11-16_
+_**Tópico modificado em:** 2017-11-16_
 
 Você pode usar um arquivo CSV para em massa migrar um grande número de caixas de correio do usuário. Quando você usar o Centro de administração do Exchange (EAC) ou o cmdlet **New-MigrationBatch** no Shell de Gerenciamento do Exchange para criar um lote de migração, você pode especificar um arquivo CSV. Usando um CSV para especificar vários usuários para migrar um lote de migração tem suporte nos seguintes cenários de migração:
 
   - **Move em organizações do local Exchange**
     
-      - **Movimentação local:** Uma movimentação local é onde você move caixas de correio do banco de dados de uma caixa de correio para outro. Uma movimentação local ocorre em uma única floresta.
+      - **Movimentação local:**  Uma movimentação local é onde você move caixas de correio do banco de dados de uma caixa de correio para outro. Uma movimentação local ocorre em uma única floresta.
     
-      - **Enterprise entre florestas mover:** Em uma movimentação entre florestas enterprise, caixas de correio são movidas para uma floresta diferente. Movimentações entre florestas são iniciadas a partir da floresta de destino, que é a floresta que você deseja mover as caixas de correio, ou de floresta de origem, que é a floresta que atualmente hospeda as caixas de correio.
+      - **Enterprise entre florestas mover:**  Em uma movimentação entre florestas enterprise, caixas de correio são movidas para uma floresta diferente. Movimentações entre florestas são iniciadas a partir da floresta de destino, que é a floresta que você deseja mover as caixas de correio, ou de floresta de origem, que é a floresta que atualmente hospeda as caixas de correio.
 
   - **Inclusão e exclusão no Exchange Online**
     
-      - **Migração de movimentação remota de inclusão:** Em uma implantação híbrida Exchange, você pode mover caixas de correio de uma organização local do Exchange para Exchange Online. Isso também é conhecido como uma migração de movimentação remota de *inclusão* porque você onboard caixas de correio para Exchange Online.
+      - **Migração de movimentação remota de inclusão:**  Em uma implantação híbrida Exchange, você pode mover caixas de correio de uma organização local do Exchange para Exchange Online. Isso também é conhecido como uma migração de movimentação remota de *inclusão* porque você onboard caixas de correio para Exchange Online.
     
-      - **Migração de movimentação remota de exclusão:** Você também pode realizar uma migração de movimentação remota de *exclusão* , onde você migra caixas de correio de Exchange Online à sua organização de Exchange local.
+      - **Migração de movimentação remota de exclusão:**  Você também pode realizar uma migração de movimentação remota de *exclusão* , onde você migra caixas de correio de Exchange Online à sua organização de Exchange local.
         
 
-        > [!TIP]
+        > [!TIP]  
         > As migrações por movimentação com inclusão e exclusão remotas são iniciadas em sua organização do Exchange Online.
 
     
-      - **Migração do Exchange testados:** Você também pode migrar um subconjunto de caixas de correio de uma organização local do Exchange para Exchange Online. Isso é outro tipo de migração de inclusão. Você pode migrar apenas Exchange 2003 e Exchange 2007 caixas de correio usando uma migração em estágios Exchange. Migrando Exchange 2010 e Exchange 2013 caixas de correio não é suportado usando uma migração em estágios. Antes de executar uma migração em estágios, você precisa usar a sincronização de diretório ou algum outro método para provisionar usuários de email em sua organização de Exchange Online.
+      - **Migração do Exchange testados:**  Você também pode migrar um subconjunto de caixas de correio de uma organização local do Exchange para Exchange Online. Isso é outro tipo de migração de inclusão. Você pode migrar apenas Exchange 2003 e Exchange 2007 caixas de correio usando uma migração em estágios Exchange. Migrando Exchange 2010 e Exchange 2013 caixas de correio não é suportado usando uma migração em estágios. Antes de executar uma migração em estágios, você precisa usar a sincronização de diretório ou algum outro método para provisionar usuários de email em sua organização de Exchange Online.
     
-      - **Migração IMAP:** Esse tipo de inclusão de migração migra dados de caixa de correio de um servidor IMAP (incluindo Exchange ) para Exchange Online. Para uma migração de IMAP, você deve provisionar caixas de correio em Exchange Online para que possa migrar dados de caixa de correio.
+      - **Migração IMAP:**  Esse tipo de inclusão de migração migra dados de caixa de correio de um servidor IMAP (incluindo Exchange ) para Exchange Online. Para uma migração de IMAP, você deve provisionar caixas de correio em Exchange Online para que possa migrar dados de caixa de correio.
 
 
-> [!TIP]
+> [!TIP]  
 > Uma migração de substituição Exchange não oferece suporte a um usando um arquivo CSV porque todas as caixas de correio de usuário de local são migradas para o Exchange Online em um único lote.
 
 
@@ -53,7 +53,7 @@ A primeira linha ou a linha de cabeçalho de um arquivo CSV usada para listas de
 Valores de atributo no arquivo CSV substituem o valor do parâmetro correspondente ao mesmo parâmetro é usado ao criar um lote de migração com o EAC ou o Shell de Gerenciamento do Exchange. Para obter mais informações e exemplos, consulte a seção valores de atributo no arquivo CSV substituem os valores para o lote de migração.
 
 
-> [!TIP]
+> [!TIP]  
 > Você pode usar qualquer editor de texto para criar o arquivo CSV, mas usar um aplicativo como o Microsoft Excel irá facilitar a importar dados, configurar e organizar arquivos CSV. Certifique-se de salvar arquivos CSV como um arquivo. csv ou. txt.
 
 
@@ -61,7 +61,7 @@ Valores de atributo no arquivo CSV substituem o valor do parâmetro corresponden
 As seções a seguir descrevem os atributos com suporte para a linha de cabeçalho de um arquivo CSV para cada tipo de migração. Cada seção inclui uma tabela que lista cada atributo com suporte, se necessário, um exemplo de um valor a ser usado para o atributo e uma descrição.
 
 
-> [!TIP]
+> [!TIP]  
 > Nas seções a seguir, o <EM>ambiente de origem</EM> denota o local atual de uma caixa de correio do usuário ou de um banco de dados. <EM>Ambiente de destino</EM> indica o local que será migrada para a caixa de correio ou banco de dados que será movida para a caixa de correio.
 
 
@@ -105,7 +105,7 @@ A tabela a seguir descreve os atributos com suporte para um arquivo CSV para mov
 <td><p>Nome do banco de dados</p></td>
 <td><p>Especifica o banco de dados de caixa de correio que será movido para o correio de arquivo morto do usuário (se houver). Você pode especificar outro banco de dados nas linhas diferentes do arquivo CSV, que permite mover caixas de correio de arquivo morto no lote de migração mesmo aos bancos de dados diferentes.</p>
 
-> [!TIP]
+> [!TIP]  
 > Se você não especificar o banco de dados de arquivamento, a caixa de correio de arquivo morto é movida para o mesmo banco de dados da caixa de correio principal.
 
 
@@ -117,7 +117,7 @@ A tabela a seguir descreve os atributos com suporte para um arquivo CSV para mov
 <td><p><code>Unlimited</code> ou um inteiro não negativo de <code>0</code> (padrão) para um valor máximo de <code>2147483647</code></p></td>
 <td><p>Especifica o número de itens defeituosos pular se o serviço de migração encontra um item corrompido na caixa de correio. Se você incluir este atributo no arquivo CSV, ele substituirá o valor padrão ou um valor que você especificar se você incluir o parâmetro <em>BadItemLimit</em> ao criar o lote de migração usando o EAC ou o Shell de Gerenciamento do Exchange.</p>
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos que você use o valor padrão 0 e apenas aumentar o limite de item inválido para um usuário específico se a movimentação ou a migração para o usuário falhar.
 
 
@@ -173,7 +173,7 @@ A tabela a seguir descreve os atributos com suporte para um arquivo CSV para mig
 <td><p><code>Unlimited</code> ou um inteiro não negativo de <code>0</code> (padrão) para um valor máximo de <code>2147483647</code></p></td>
 <td><p>Especifica o número de itens defeituosos pular se o serviço de migração encontra um item corrompido na caixa de correio. Se você incluir este atributo no arquivo CSV, ele substituirá o valor padrão ou o valor que você especificar se você incluir o parâmetro <em>BadItemLimit</em> ao criar o lote de migração usando o EAC ou o Shell de Gerenciamento do Exchange.</p>
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos que você use o valor padrão 0 e apenas aumentar o limite de item inválido para um usuário específico se a movimentação ou a migração para o usuário falhar.
 
 
@@ -255,7 +255,7 @@ A tabela a seguir descreve os atributos com suporte para um arquivo CSV para ent
 <td><p><code>Unlimited</code> ou um inteiro não negativo de <code>0</code> (padrão) para um valor máximo de <code>2147483647</code></p></td>
 <td><p>Especifica o número de itens defeituosos pular se o serviço de migração encontra um item corrompido na caixa de correio. Se você incluir este atributo no arquivo CSV, ele substituirá o valor padrão ou o valor que você especificar se você incluir o parâmetro <em>BadItemLimit</em> ao criar o lote de migração usando o EAC ou o Shell de Gerenciamento do Exchange.</p>
 
-> [!TIP]
+> [!TIP]  
 > Recomendamos que você use o valor padrão 0 e apenas aumentar o limite de item inválido para um usuário específico se a movimentação ou a migração para o usuário falhar.
 
 
@@ -325,7 +325,7 @@ A tabela a seguir descreve os atributos com suporte para um arquivo CSV para uma
 <td><p><code>True</code> ou <code>False</code></p></td>
 <td><p>Especifica se um usuário deve alterar a senha na primeira vez que entrarem suas caixas de correio Exchange Online.</p>
 
-> [!TIP]
+> [!TIP]  
 > Se você implementou uma solução de logon único com a implantação do Active Directory Federation Services 2.0 (AD FS 2.0) em sua organização local, você deve usar <CODE>False</CODE> para o valor desse atributo.
 
 
@@ -393,7 +393,7 @@ Por exemplo, vamos dizer que você cria um lote no Shell de Gerenciamento do Exc
     New-MigrationBatch -Name CrossForestBatch1 -SourceEndpoint ForestEndpoint1 -TargetDeliveryDomain forest2.contoso.com -TargetDatabases @(EXCH-MBX-02,EXCH-MBX-03) -TargetArchiveDatabases @(EXCH-MBX-A02,EXCH-MBX-A03) -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\CrossForestBatch1.csv")) -AutoStart
 
 
-> [!TIP]
+> [!TIP]  
 > Como o padrão é para mover principal e arquivar caixas de correio, você não precisa explicitamente especificá-lo no comando Shell de Gerenciamento do Exchange.
 
 

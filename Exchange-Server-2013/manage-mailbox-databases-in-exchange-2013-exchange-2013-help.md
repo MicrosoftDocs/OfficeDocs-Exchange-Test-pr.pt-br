@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-04-29_
+_**Tópico modificado em:** 2013-04-29_
 
 Um banco de dados de caixa de correio é uma unidade de granularidade em que as caixas de correio são criadas e armazenadas. Um banco de dados de caixa de correio é armazenado como um Exchange arquivo de banco de dados (.edb). No Microsoft Exchange Server 2013, cada banco de dados de caixa de correio possui propriedades exclusivas que podem ser configuradas.
 
@@ -85,8 +85,7 @@ No Shell, verifique se todas as suas informações de banco de dados de caixa de
 
 3.  Clique em **Editar** ![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição") para configurar os atributos de um banco de dados de caixas de correio.
 
-4.  
-    
+4.    
     Utilize a guia **Geral** para visualizar o status do banco de dados de caixa de correio, incluindo o caminho do banco de dados de caixa de correio, o último backup e o status do banco de dados de caixa de correio:
     
       - **Caminho do banco de dados**   Este campo somente de leitura exibe o caminho completo do arquivo (.edb) do banco de dados do Exchange 2013 para o banco de dados de caixa de correio selecionado. Para exibir o caminho inteiro, talvez você precise clicar no caminho e usar a tecla Seta para Direita. Você não pode usar esse campo para alterar o caminho. Para alterar o local dos arquivos de banco de dados, use o cmdlet [Move-DatabasePath](https://technet.microsoft.com/pt-br/library/bb124742\(v=exchg.150\)).

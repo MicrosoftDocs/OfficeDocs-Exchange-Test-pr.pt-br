@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-06-04_
+_**Tópico modificado em:** 2015-06-04_
 
 Saiba mais sobre o Exchange DAG no Exchange Server 2013. Este artigo discute o ciclo de vida do grupo de disponibilidade de banco de dados (DAG), além de usar um DAG para alta disponibilidade e para resiliência do site.
 

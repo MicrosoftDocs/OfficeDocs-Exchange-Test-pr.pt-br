@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-12-16_
+_**Tópico modificado em:** 2012-12-16_
 
 Quando a caixa de correio de um usuário for habilitada para Unificação de Mensagens (UM), uma mensagem de email de boas-vindas à Unificação de Mensagens será enviada ao usuário. Essa mensagem contém as informações de PIN que o usuário utilizará para acessar o sistema de Unificação de Mensagens pela primeira vez.
 

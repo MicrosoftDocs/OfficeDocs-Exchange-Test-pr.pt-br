@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-09-13_
+_**Tópico modificado em:** 2012-09-13_
 
 Os procedimentos a seguir permitem a você realizar o gerenciamento avançado das permissões. Você só deve usar esses procedimentos se os grupos de função de gerenciamento e as diretivas de atribuição de função de gerenciamento não atenderem às necessidades da sua organização.
 

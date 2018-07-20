@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2010, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-05-22_
+_**Tópico modificado em:** 2018-05-22_
 
-**Resumo:** Use as etapas deste artigo para sincronizar pastas públicas entre o Office 365 e a implantação local do Exchange 2007 ou do Exchange 2010.
+**Resumo:**  Use as etapas deste artigo para sincronizar pastas públicas entre o Office 365 e a implantação local do Exchange 2007 ou do Exchange 2010.
 
 Em uma implantação híbrida, os usuários podem estar no Exchange Online, no local ou em ambos e as pastas públicas podem estar no Exchange Online ou no local. As pastas públicas podem residir apenas em um local, por isso, você deve decidir se elas estarão no Exchange Online ou no local. Elas não podem ficar nos dois locais. As caixas de correio de pastas públicas são sincronizadas com o Exchange Online pelo Serviço de Sincronização de Diretórios. No entanto, as pastas públicas habilitadas para email não são sincronizadas nos locais.
 
@@ -104,7 +104,7 @@ Uma configuração híbrida com pastas públicas do Exchange 2003 não é suport
 
 7.  No Exchange 2007, você deve ter a função Administrador da Organização do Exchange ou Administrador do Exchange Server atribuída. Além disso, você deve ter a função Administrador de Pasta Pública e o grupo local Administradores atribuídos para o servidor de destino. Confira os detalhes em [Como adicionar um usuário ou um grupo a uma função de administrador](https://go.microsoft.com/fwlink/p/?linkid=81779)
 
-8.  Se estiver usando o Exchange Server 2007 no Windows Server 2008 x64, você deverá atualizar para o [Windows PowerShell 2.0 e WinRM 2.0 para Windows Server 2008 x64 Edition (KB968930)](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=968930). Se estiver usando o Exchange Server 2007 no Windows Server 2003 x64, você deverá atualizar para o Windows PowerShell 2.0. Para saber mais, confira [Atualização do Windows Server 2003 x64 Edition (KB968930)](https://www.microsoft.com/pt-br/download/details.aspx?id=10512).
+8.  Se estiver usando o Exchange Server 2007 no Windows Server 2008 x64, você deverá atualizar para o [Windows PowerShell 2.0 e WinRM 2.0 para Windows Server 2008 x64 Edition (KB968930)](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=968930). Se estiver usando o Exchange Server 2007 no Windows Server 2003 x64, você deverá atualizar para o Windows PowerShell 2.0. Para saber mais, confira [Atualização do Windows Server 2003 x64 Edition (KB968930)](https://www.microsoft.com/pt-br/download/details.aspx?id=10512).
 
 9.  Para acessar as pastas públicas entre locais, os usuários devem atualizar seus clientes do Outlook para a atualização pública de novembro de 2012 do Outlook ou posterior.
     
@@ -144,9 +144,12 @@ Uma configuração híbrida com pastas públicas do Exchange 2003 não é suport
 
 3.  Crie uma caixa de correio de proxy no novo banco de dados de caixa de correio e oculte a caixa de correio do catálogo de endereços. O SMTP desta caixa de correio será devolvido pela Descoberta Automática como o SMTP *DefaultPublicFolderMailbox*, de modo que, ao resolver esse SMTP, o cliente possa acessar o servidor Exchange herdado para acesso à pasta pública.
     
+    ```
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs>
-    
+    ```
+    ```    
         Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```
 
 4.  Para o Exchange 2010, habilite a Descoberta Automática para retornar as caixas de correio de pasta pública de proxy. Esta etapa não é necessária para o Exchange 2007.
     

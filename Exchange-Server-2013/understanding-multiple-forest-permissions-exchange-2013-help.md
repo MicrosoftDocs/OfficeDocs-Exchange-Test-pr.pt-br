@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Muitas organizações implantam várias florestas para criar limites de segurança em suas organizações. O uso de várias florestas ajuda os administradores definam esses limites de segurança para melhor corresponder aos seus requisitos e se o que é garantir o menor número de pessoas têm acesso aos recursos ou segmentados divisões dentro de uma organização.
 

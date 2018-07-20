@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Gerenciamento de registros de mensagens (MRM) gera eventos que você pode exibir no Visualizador de eventos. Isso permite que você a solucionar problemas e verificar o desempenho do Assistente de pasta gerenciada. Visualizador de eventos rastreia os seguintes tipos de eventos na seguinte ordem, com base na prioridade:
 

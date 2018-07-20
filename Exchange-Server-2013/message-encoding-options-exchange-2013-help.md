@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 As opções de codificação de mensagem disponíveis no Exchange especificam características da mensagem, como conjuntos de caracteres MIME e não MIME, codificação binária e formatos de anexos. Você pode especificar opções de codificação de mensagem nos seguintes locais:
 

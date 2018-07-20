@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-11_
+_**Tópico modificado em:** 2013-02-11_
 
 O POP. Conjunto de integridade do proxy monitora a disponibilidade da infraestrutura do proxy Microsoft Exchange POP3 no servidor de acesso para cliente (CAS). Se você receber um alerta que especifica que o POP. Conjunto de integridade de proxy não está íntegro, que isso indica um problema que afeta os componentes POP no CAS indicado no alerta.
 

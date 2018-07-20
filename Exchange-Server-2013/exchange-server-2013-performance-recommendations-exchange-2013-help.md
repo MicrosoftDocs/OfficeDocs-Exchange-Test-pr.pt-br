@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 ajuste e solução de problemas de desempenho de Exchange Server 2013 é mais eficiente quando seu ambiente foi corretamente porte e planejado. Enquanto o Exchange 2013 foi desenvolvido para simplificar a infra-estrutura de recurso subjacente, ele ainda poderá consumir uma grande quantidade de recursos do sistema, como memória, capacidade de armazenamento e capacidade da CPU.
 

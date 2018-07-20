@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A reconfiguração do endereço modifica endereços de email de remetentes e destinatários em mensagens que entram ou saem da sua organização por meio de um servidor de Transporte de Borda. Dois agentes de transporte no servidor de Transporte de Borda oferecem a funcionalidade de reconfiguração: o Agente de Entrada de Reconfiguração de Endereço e o Agente de Saída de Reconfiguração de Endereço. O principal motivo para reconfiguração de endereço em mensagens de saída é apresentar um único domínio de email consistente para destinatários externos. O principal motivo para reconfiguração de endereço em mensagens de entrada é entregar mensagens para o destinatário correto.
 

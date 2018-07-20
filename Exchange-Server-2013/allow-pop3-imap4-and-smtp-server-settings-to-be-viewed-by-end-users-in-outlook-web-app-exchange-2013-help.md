@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-11-28_
+_**Tópico modificado em:** 2012-11-28_
 
 Se seus usuários utilizarem POP3 ou IMAP4 para se conectarem às suas respectivas caixas de correio do MicrosoftExchange Server 2013, eles precisam conhecer as configurações corretas de servidor para se conectarem. Depois de uma instalação padrão do Exchange 2013, seus usuários não poderão procurar suas próprias configurações de servidor de entrada POP 3 ou IMAP4 ou de servidor de saída SMTP. No entanto, o Exchange pode ser configurado para que seus usuários possam procurar suas próprias configurações usando o MicrosoftOutlook Web App.
 

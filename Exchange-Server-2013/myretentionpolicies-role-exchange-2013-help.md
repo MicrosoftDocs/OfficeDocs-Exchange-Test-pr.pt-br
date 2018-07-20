@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 A função de gerenciamento `MyRetentionPolicies` permite que usuários individuais exibam as marcas de retenção e exibam e modifiquem os padrões e as configurações de marca de retenção.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 No Microsoft Exchange Server 2013, o mecanismo primário de alta disponibilidade de caixa de correio é o grupo de disponibilidade do banco de dados (DAG). Para obter mais informações sobre DAGs, consulte [Gerenciando grupos de disponibilidade de banco de dados](managing-database-availability-groups-exchange-2013-help.md). O *Transporte dumpster* foi introduzida primeiro no Exchange 2007 e foi aprimorado ainda mais no Exchange 2010 para fornecer cópias redundantes de mensagens após estiver entregue com êxito a caixas de correio em DAGs. Em Exchange 2010, o transporte dumpster ajudado proteger contra perda de dados, mantendo uma fila de mensagens entregues com êxito que não tivesse replicado para as cópias de banco de dados passiva no DAG. Quando uma falha de banco de dados ou o servidor de caixa de correio necessários a promoção de uma cópia desatualizada da caixa de correio do banco de dados, as mensagens no transporte dumpster foram reenviadas automaticamente para a nova cópia ativa do banco de dados de caixa de correio.
 

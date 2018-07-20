@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2017-12-20_
+_**Tópico modificado em:** 2017-12-20_
 
 Condições e exceções em regras de fluxo de email (também conhecido como regras de transporte) identificam as mensagens que a regra é aplicada a ou não é aplicada ao. Por exemplo, se a regra adiciona um aviso de isenção às mensagens, você pode configurar a regra seja aplicada apenas às mensagens que contêm palavras específicas, as mensagens enviadas por usuários específicos, ou a todas as mensagens, exceto aqueles enviadas pelos membros de um grupo específico. Coletivamente, as condições e exceções em regras de fluxo de email são também conhecido como *predicados*, porque cada condição, há uma exceção correspondente que usa as mesmas configurações exatas e a sintaxe. A única diferença é que condições especificam mensagens para incluir, enquanto exceções especificam mensagens a serem excluídas.
 
@@ -305,7 +305,7 @@ Voltar ao início
 ## Assunto da mensagem ou no corpo
 
 
-> [!TIP]
+> [!TIP]  
 > A pesquisa de palavras ou padrões de texto nos campos de cabeçalho assunto ou outros na mensagem ocorre <EM>após</EM> a mensagem ter sido decodificada do método de codificação de transferência de conteúdo MIME, usado para transmitir a mensagem binária entre os servidores SMTP em texto ASCII. Não é possível usar condições ou exceções para buscar os valores codificados brutos (tipicamente com base64) dos campos de cabeçalho assunto ou outros nas mensagens.
 
 
@@ -491,7 +491,7 @@ Se você adicionar uma condição de destinatário a partir desta seção, a mes
 
 Por outro lado, uma exceção destinatário desta seção *impede* a ação de regra seja aplicada a *todos os* destinatários da mensagem, não apenas para os destinatários detectados.
 
-**Observação:** Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
+**Observação:**  Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
 
 
 <table>
@@ -540,7 +540,7 @@ Voltar ao início
 
 As condições nesta seção aquela aparência para os valores dos campos **To** e **Cc** se comportam como condições na seção de qualquer destinatário (o*todos os* destinatários da mensagem são afetados pela regra, não apenas o detectou destinatários).
 
-**Observação:** Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
+**Observação:**  Essa condição não considera mensagens que são enviadas a endereços proxy de destinatários. Ela só faz a correspondência de mensagens que são enviadas ao endereço de email principal do destinatário.
 
 
 <table>
@@ -745,7 +745,7 @@ Voltar ao início
 <td><p><code>MessageType</code></p></td>
 <td><p>Mensagens do tipo especificado.</p>
 
-> [!TIP]
+> [!TIP]  
 > Quando Outlook ou Outlook Web App estiver configurada para encaminhar uma mensagem, a propriedade <STRONG>ForwardingSmtpAddress</STRONG> é adicionada à mensagem. O tipo de mensagem não é alterado para <CODE>AutoForward</CODE>.
 
 
@@ -797,7 +797,7 @@ Voltar ao início
 ## Cabeçalhos de mensagem
 
 
-> [!TIP]
+> [!TIP]  
 > A pesquisa de palavras ou padrões de texto nos campos de cabeçalho assunto ou outros na mensagem ocorre <EM>após</EM> a mensagem ter sido decodificada do método de codificação de transferência de conteúdo MIME, usado para transmitir a mensagem binária entre os servidores SMTP em texto ASCII. Não é possível usar condições ou exceções para buscar os valores codificados brutos (tipicamente com base64) dos campos de cabeçalho assunto ou outros nas mensagens.
 
 
@@ -985,7 +985,7 @@ Voltar ao início
 Os tipos de propriedade são usados em condições e exceções são descritos na tabela a seguir.
 
 
-> [!TIP]
+> [!TIP]  
 > Se a propriedade for uma cadeia de caracteres, os espaços à direita não serão permitidos.
 
 
@@ -1115,7 +1115,7 @@ Os tipos de propriedade são usados em condições e exceções são descritos n
 <li><p><strong>Confirmação de leitura</strong> (<code>ReadReceipt</code>)</p></li>
 </ul>
 
-> [!TIP]
+> [!TIP]  
 > Quando Outlook ou Outlook Web App estiver configurada para encaminhar uma mensagem, a propriedade <STRONG>ForwardingSmtpAddress</STRONG> é adicionada à mensagem. O tipo de mensagem não é alterado para <CODE>AutoForward</CODE>.
 
 
@@ -1171,7 +1171,7 @@ Os tipos de propriedade são usados em condições e exceções são descritos n
 <li><p>Endereço de email do remetente está em um domínio aceito que esteja configurado como um domínio de retransmissão externo.</p></li>
 </ul>
 
-> [!TIP]
+> [!TIP]  
 > Para determinar se os contatos de email são considerados como estando dentro ou fora da organização, o endereço do remetente é comparado com os domínios aceitos da organização.
 
 

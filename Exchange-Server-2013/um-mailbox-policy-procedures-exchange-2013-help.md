@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-05-03_
+_**Tópico modificado em:** 2013-05-03_
 
 [Criar uma política de caixa de correio da UM](create-a-um-mailbox-policy-exchange-2013-help.md)
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Esta página fornece links para as notas de configuração que foram criadas e testadas pela Microsoft ou um parceiro de gateway VoIP. Quando Microsoft ou um parceiro implanta a Unificação de mensagens com um novo gateway VoIP e configuração de PBX ou PBX IP, os pré-requisitos e as definições de configuração estão documentadas. Essas informações são usadas para criar uma nota de configuração.
 

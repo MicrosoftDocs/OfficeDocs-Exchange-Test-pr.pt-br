@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Este tópico fornece informações sobre o conceito de espaços e os cenários com suporte para a implantação do Microsoft Exchange 2013 em um domínio que tenha um namespace separado.
 
@@ -101,7 +101,7 @@ Além disso, para garantir que a lista de pesquisa de sufixo DNS contém todos o
 
   - [Perguntas frequentes (FAQ) de diretiva de grupo](https://go.microsoft.com/fwlink/p/?linkid=100128)
 
-  - [Novas diretivas de grupo para DNS no Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=294785)
+  - [Novas diretivas de grupo para DNS no Windows Server 2003](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=294785)
 
   - [Diretiva de grupo](https://go.microsoft.com/fwlink/p/?linkid=268043)
 

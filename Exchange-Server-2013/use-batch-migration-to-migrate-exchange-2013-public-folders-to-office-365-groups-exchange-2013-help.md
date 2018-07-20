@@ -13,11 +13,11 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2018-03-26_
+_**Tópico modificado em:** 2018-03-26_
 
-**Resumo:** como mover suas pastas públicas do Exchange 2013 para grupos do Office 365.
+**Resumo:**  como mover suas pastas públicas do Exchange 2013 para grupos do Office 365.
 
 Por meio de um processo conhecido como *migração de lote*, você pode mover algumas ou todas as suas pastas públicas do Exchange 2013 aos grupos do Office 365. Grupos é uma nova colaboração oferta da Microsoft que oferece determinadas vantagens sobre pastas públicas. Consulte [Migrar suas pastas públicas para o Office 365 grupos](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) para obter uma visão geral das diferenças entre pastas públicas e grupos e motivos pelos quais a sua organização pode ou não pode se beneficiar de alternar para grupos.
 
@@ -69,7 +69,7 @@ Antes de prosseguir, verifique se ter baixado e salvo todos os scripts e arquivo
 
   - **LockAndSavePublicFolderProperties.ps1**. esse script torna as pastas públicas somente leitura para impedir que quaisquer modificações e transfere as propriedades de pasta pública relacionados a email (desde que as pastas públicas são habilitados para email) para os grupos de destino, que roteará novamente emails das pastas públicas aos grupos de destino. Esse script também faz backup as entradas de permissão e as propriedades de email antes de modificá-los.
 
-  - **LockAndSavePublicFolderProperties.strings.psd1:** este arquivo de suporte é usado pelo script `LockAndSavePublicFolderProperties.ps1`.
+  - **LockAndSavePublicFolderProperties.strings.psd1:**  este arquivo de suporte é usado pelo script `LockAndSavePublicFolderProperties.ps1`.
 
   - **UnlockAndRestorePublicFolderProperties.ps1**. esse script restaura os direitos de acesso e as propriedades de email das pastas públicas usando arquivos de backup criados por `LockandSavePublicFolderProperties.ps1`.
 
@@ -262,9 +262,9 @@ Para referência, esta seção fornece descrições detalhadas para três dos sc
 
 Esse script irá ler as permissões das pastas públicas estão sendo migradas e, em seguida, adicionar membros e proprietários para o Office 365 grupos da seguinte maneira:
 
-  - Usuários com as seguintes funções de permissão serão adicionados como membros a um grupo no Office 365. **Funções de permissão:** proprietário, PublishingEditor, Editor, PublishingAuthor, autor
+  - Usuários com as seguintes funções de permissão serão adicionados como membros a um grupo no Office 365. **Funções de permissão:**  proprietário, PublishingEditor, Editor, PublishingAuthor, autor
 
-  - Além disso, para os usuários acima, com o seguinte acesso mínimo direitos serão também adicionados como membros a um grupo no Office 365. **Direitos de acesso:** ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
+  - Além disso, para os usuários acima, com o seguinte acesso mínimo direitos serão também adicionados como membros a um grupo no Office 365. **Direitos de acesso:**  ReadItems, CreateItems, FolderVisible, EditOwnedItems, DeleteOwnedItems
 
   - Usuários com acesso que à direita "proprietário" será adicionado como proprietários a um grupo e com outros direitos de acesso elegíveis será adicionado como membros.
 

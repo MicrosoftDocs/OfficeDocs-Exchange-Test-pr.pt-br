@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-07-21_
+_**Tópico modificado em:** 2015-07-21_
 
 No MicrosoftExchange Server 2013 e no Exchange Online, a Pesquisa do Exchange inclui filtros para indexar os tipos mais comuns de formatos de arquivo usados como anexos em mensagens. Você também pode instalar filtros para indexar tipos de arquivo adicionais.
 

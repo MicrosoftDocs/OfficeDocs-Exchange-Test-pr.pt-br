@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-16_
+_**Tópico modificado em:** 2013-04-16_
 
 Você pode adicionar servidores de Acesso para Cliente e de Caixa de Correio aos planos de discagem URI do SIP. Os servidores de Acesso para Cliente e de Caixa de Correio não podem ser associados aos planos de discagem Ramal ou E.164, mas os servidores atenderão a todas as chamadas de entrada.
 

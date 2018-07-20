@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 O log de protocolo registra as conversações SMTP que ocorrem entre servidores de email como parte de entrega de mensagens. Essas conversas SMTP ocorrem nos conectores de Envio e nos de Recebimento que existem no serviço de Transporte de Front-End nos servidores de Acesso para Cliente, no serviço de Transporte em servidores de Caixa de Correio e o serviço de Transporte de Caixa de Correio em servidores de Caixa de Correio. Você pode usar o log de protocolo para diagnosticar problemas de fluxo de mensagens.
 
@@ -85,7 +85,7 @@ Os arquivos de log de protocolo são arquivos de texto que contêm dados no form
 
   - **\#Software**   O nome do software que criou o arquivo de log de protocolo. Normalmente, o valor é Microsoft Exchange Server.
 
-  - **\#Version:**   O número da versão do software que criou o arquivo de log de protocolo. Atualmente, o valor é 15.0.0.0.
+  - **\#Version:**    O número da versão do software que criou o arquivo de log de protocolo. Atualmente, o valor é 15.0.0.0.
 
   - **\#Log-Type**   O valor do tipo de log desse campo é Log de Protocolo de Recebimento SMTP ou Log de Protocolo de Envio SMTP.
 

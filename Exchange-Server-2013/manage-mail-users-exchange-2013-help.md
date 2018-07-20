@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Usuários de email são semelhantes a contatos de email. Ambos têm endereços de email externos e contêm informações sobre pessoas de fora da sua organização do Exchange ou do Exchange Online que podem ser exibidas no catálogo de endereços compartilhado e em outras listas de endereços. No entanto, diferentemente de um contato de email, um usuário de email tem credenciais de logon na sua organização do Exchange ou do Office 365 e pode acessar os recursos. Para mais informações, confira [Destinatários](recipients-exchange-2013-help.md).
 
@@ -58,8 +58,7 @@ Usuários de email são semelhantes a contatos de email. Ambos têm endereços d
 
 4.  Na caixa **\* Endereço de email externo**, digite o endereço de email externo do usuário de email. O email enviado a esse usuário é encaminhado a esse endereço de email. Essa caixa é obrigatória.
 
-5.  
-    
+5.     
     Selecione uma das seguintes opções:
     
       - **Usuário existente**   Selecione para habilitar um usuário existente para email.
@@ -68,8 +67,7 @@ Usuários de email são semelhantes a contatos de email. Ambos têm endereços d
     
       - **Novo usuário**   Selecione para criar uma nova conta de usuário no Active Directory e habilitar o usuário para email. Se você selecionar essa opção, terá que fornecer as informações de conta de usuário necessárias.
 
-6.  
-    
+6.     
     Se você tiver selecionado **Novo Usuário** na Etapa 5, preencha as seguintes caixas na página **Novo usuário de email**. Caso contrário, pule para a Etapa 7.
     
       - **Nome**   Use essa caixa para digitar o nome do usuário de email.

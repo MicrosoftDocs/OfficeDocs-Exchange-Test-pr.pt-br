@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-10-01_
+_**Tópico modificado em:** 2014-10-01_
 
 O *Assistente de pasta gerenciada* é um MicrosoftExchange caixa de correio Assistant que se aplica as configurações de retenção de mensagem configuradas em diretivas de retenção.
 

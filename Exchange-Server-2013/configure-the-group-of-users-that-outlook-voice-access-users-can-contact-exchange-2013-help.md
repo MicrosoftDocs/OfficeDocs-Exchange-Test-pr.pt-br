@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2012-11-09_
+_**Tópico modificado em:** 2012-11-09_
 
 Você pode especificar quais usuários podem receber chamadas transferidas ou mensagens de caixa postal dos usuários do Outlook Voice Access. Por padrão, a **Este plano de discagem** opção está selecionada. Você pode alterar essa configuração para permitir que os usuários do Outlook Voice Access transferir chamadas ou enviar mensagens de voz aos usuários localizados em toda a organização, para Atendedor, um automático de UM existente ou para um número de ramal específico.
 

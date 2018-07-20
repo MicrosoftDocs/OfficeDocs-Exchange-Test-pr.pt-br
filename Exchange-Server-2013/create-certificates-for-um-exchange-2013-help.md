@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-04-29_
+_**Tópico modificado em:** 2013-04-29_
 
 Você pode usar o assistente de Novo Certificado do Exchange no EAC ou o Shell para criar certificados autoassinados ou solicitações de certificado para um certificado de infraestrutura de chave pública (PKI) interna. Para a Unificação de Mensagens (UM), você pode usar um destes certificados para o serviço de Unificação de Mensagens do Microsoft Exchange e para os serviços do Roteador de Chamadas da Unificação de Mensagens do Microsoft Exchange. Você pode usar o mesmo certificado para os dois serviços ou um certificado diferente para cada serviço. Você também pode adquirir e importar um certificado comercial de terceiros para os serviços de UM. Se você estiver usando um certificado autoassinado para UM, poderá precisar incluir o nome dos seus servidores de Acesso para Cliente e de Caixa de Correio no nome alternativo da entidade (SAN).
 

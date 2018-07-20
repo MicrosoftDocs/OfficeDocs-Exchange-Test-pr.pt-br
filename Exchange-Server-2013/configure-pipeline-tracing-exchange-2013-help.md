@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-08_
+_**Tópico modificado em:** 2015-04-08_
 
 O rastreamento de pipeline captura cópias de mensagens de email à medida que elas se movimentam pelo pipeline de transporte no serviço Transporte ou no serviço Transporte de Caixa de Correio no servidor de Caixa de Correio ou nos servidores de Transporte de Borda.
 

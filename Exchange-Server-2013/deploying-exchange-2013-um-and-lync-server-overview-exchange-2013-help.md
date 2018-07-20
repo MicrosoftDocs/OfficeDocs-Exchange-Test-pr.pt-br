@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 A UM (Unificação de Mensagens) e o Microsoft Lync Server podem ser implantados juntos para fornecer mensagem de voz, mensagens instantâneas, presença de usuário avançada, conferência de áudio e vídeo e uma experiência integrada de email e mensagem para os usuários de sua organização. A Unificação de Mensagens é usada para fornecer atendimento de chamadas para caixa postal, Outlook Voice Access e serviços de atendedor automático. O Microsoft Lync Server habilita recursos mais avançados encontrados no Enterprise Voice, como sistema de mensagens instantâneas (IM), conferências e chamadas de entrada e saída. Este tópico descreve como configurar a Unificação de Mensagens e o Microsoft Lync Server para oferecer suporte a esses recursos.
 

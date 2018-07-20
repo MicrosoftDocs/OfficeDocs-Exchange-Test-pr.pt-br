@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server, Exchange Server 2010, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Se o país ou a região onde sua organização ou parte de seus usuários residem alterou a política de reconhecimento do Horário de Verão (DST) ou a diferença de horário em relação ao UTC, talvez seja necessário atualizar o Microsoft Windows, o Microsoft Exchange, o Microsoft Outlook ou outros programas para acomodar essas alterações.
 
@@ -31,7 +31,7 @@ A instalação imediata das atualizações de fuso horário minimiza o número d
 
 Como o sistema de autenticação do Office 365 é atualizado quando o DST ou um fuso horário muda, todos os computadores cliente com Office 365 precisam ser atualizados. Caso contrário, podem apresentar problemas de conectividade.
 
-  - Verifique se todos os computadores cliente e desktop têm a atualização do Windows DST instalada. Para mais informações, confira [Como configurar o horário de verão para os sistemas operacionais Microsoft Windows](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=914387).
+  - Verifique se todos os computadores cliente e desktop têm a atualização do Windows DST instalada. Para mais informações, confira [Como configurar o horário de verão para os sistemas operacionais Microsoft Windows](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=914387).
 
 ## Etapa 2: Instalar a atualização do Windows DST em todos os servidores
 
@@ -47,7 +47,7 @@ Como o sistema de autenticação do Office 365 é atualizado quando o DST ou um 
 
 2.  Envie uma mensagem para os usuários que precisam atualizar seus computadores fornecendo a eles um link para a ferramenta apropriada.
 
-A tabela a seguir mostra quando os usuários devem executar a [Ferramenta de Atualização do Calendário do Exchange](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879) ou a [Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667). Descubra qual versão os servidores da sua organização estão executando e, seguida, determine quais programas cliente seus usuários estão executando.
+A tabela a seguir mostra quando os usuários devem executar a [Ferramenta de Atualização do Calendário do Exchange](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879) ou a [Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook](http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667). Descubra qual versão os servidores da sua organização estão executando e, seguida, determine quais programas cliente seus usuários estão executando.
 
 
 <table>
@@ -69,45 +69,45 @@ A tabela a seguir mostra quando os usuários devem executar a [Ferramenta de Atu
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2003 local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Ferramenta de Calendário do Exchange</a> ou</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Ferramenta de Calendário do Exchange</a> ou</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Exchange 2007 no local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Ferramenta de Calendário do Exchange</a> ou</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Ferramenta de Calendário do Exchange</a> ou</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Exchange 2010 no local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=930879">Ferramenta de Calendário do Exchange</a> ou</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=930879">Ferramenta de Calendário do Exchange</a> ou</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Exchange 2013 local</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BPOS-S (Exchange 2007)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BPOS-D (Exchange 2010)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a></p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Office 365 (Exchange 2010)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a> (não compatível com o Outlook 2003)</p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a> (não compatível com o Outlook 2003)</p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Office 365 (Exchange 2013)</strong></p></td>
-<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a> (não compatível com o Outlook 2003)</p></td>
+<td><p><a href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=931667">Ferramenta de Atualização de Dados de Fuso Horário para Microsoft Office Outlook</a> (não compatível com o Outlook 2003)</p></td>
 <td><p>Nenhuma ação é necessária</p></td>
 </tr>
 <tr class="odd">

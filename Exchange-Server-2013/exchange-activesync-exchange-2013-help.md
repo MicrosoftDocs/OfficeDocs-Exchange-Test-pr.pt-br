@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Saiba mais sobre o protocolo de cliente do Exchange ActiveSync para o Exchange Server 2013. Você aprenderá sobre os recursos do Exchange ActiveSync, incluindo recursos de segurança, as funções que você pode gerenciar, como torná-lo seguro e como evitar problemas de sincronização com o Windows Phone 7.
 

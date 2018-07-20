@@ -15,9 +15,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Os grupos de distribuição dinâmicos são objetos de grupos do Active Directory habilitados para email que são criados para agilizar o envio em massa de mensagens de email e outras informações dentro de uma organização do Microsoft Exchange.
 
@@ -51,8 +51,7 @@ Ao contrário de grupos regulares de distribuição, que contêm um conjunto def
 
 1.  No EAC, navegue até **Destinatários**  \> **Grupos** \> **Novo** \> **Grupo dinâmico de distribuição**.
 
-2.  
-    
+2.      
     Na página **Novo grupo dinâmico de distribuição**, preencha as seguintes caixas:
     
       - **\* Nome para exibição**   Use essa caixa para digitar o nome para exibição. Esse nome é exibido no catálogo de endereços compartilhado, na linha Para: quando um email é enviado a esse grupo e na lista Grupos do EAC. O nome para exibição é necessário e deve ser amigável para que as pessoas o reconheçam. Ele também deve ser exclusivo na floresta.
@@ -72,8 +71,7 @@ Ao contrário de grupos regulares de distribuição, que contêm um conjunto def
     
       - **Proprietário**  Um proprietário de um grupo dinâmico de distribuição é opcional. Você pode adicionar proprietários, clicando em **Procurar** e selecionando usuários na lista.
 
-3.  
-    
+3.      
     Use a seção **Membros** para especificar os tipos de destinatários do grupo e definir as regras que determinarão a associação. Selecione uma destas caixas:
     
       - **Todos os tipos de destinatários**   Escolha essa opção para enviar mensagens que atendam aos critérios definidos para esse grupo para todos os tipos de destinatários.
@@ -90,8 +88,7 @@ Ao contrário de grupos regulares de distribuição, que contêm um conjunto def
         
           - **Grupos habilitados para email**   Marque essa caixa de seleção se você quiser incluir os grupos de segurança ou de distribuição que foram habilitados para email. Os grupos habilitados para email são semelhantes aos grupos de distribuição. Os emails enviados a uma conta de grupo habilitada para email serão entregues a vários destinatários.
 
-4.  
-    
+4.      
     Clique em **Adicionar uma regra**, para definir o critério de associação ao grupo.
 
 5.  Selecione um destes atributos de destinatário, na lista suspensa, e informe um valor. Se o valor do atributo selecionado corresponder ao valor que você definir, o destinatário receberá uma mensagem enviada para esse grupo.

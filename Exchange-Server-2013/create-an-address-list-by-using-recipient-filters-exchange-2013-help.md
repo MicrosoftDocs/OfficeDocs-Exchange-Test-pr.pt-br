@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2014-12-16_
+_**Tópico modificado em:** 2014-12-16_
 
 Este tópico explica como criar uma lista de endereços usando filtros de destinatários. Para saber mais sobre listas de endereços, consulte [Listas de endereços](address-lists-exchange-2013-help.md).
 

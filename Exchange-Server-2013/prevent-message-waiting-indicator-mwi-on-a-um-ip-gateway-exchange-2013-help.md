@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2013-02-21_
+_**Tópico modificado em:** 2013-02-21_
 
 Você pode impedir notificações de caixa postal aos usuários para chamadas recebidas por um gateway IP de Unificação de mensagens (UM). Se você habilitar essa configuração, o gateway IP de UM pode receber e enviar mensagens SIP notificar para usuários. Indicador de espera de mensagem (MWI) é habilitado por padrão e permite que a mensagem aguardando as notificações sejam enviadas aos usuários, mas você pode desativá-la dependendo das suas necessidades.
 

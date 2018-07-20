@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2017-04-26_
+_**Tópico modificado em:** 2017-04-26_
 
 Converter uma caixa de correio em um tipo diferente de caixa de correio é muito semelhante à experiência no Exchange 2010. Você ainda deve usar o cmdlet Set-Mailbox no Shell para fazer a conversão.
 

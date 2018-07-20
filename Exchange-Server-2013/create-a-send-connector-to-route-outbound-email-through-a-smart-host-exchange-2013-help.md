@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-07_
+_**Tópico modificado em:** 2013-02-07_
 
 Em algumas situações, você pode querer rotear os emails através de um host inteligente de terceiros, tais como em uma instância em que você tem um dispositivo de rede que você quer que execute verificações de política em mensagens de saída.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Um agente de entrega pode entregar mensagens do ambiente SMTP do servidor Exchange para um sistema que não use o protocolo SMTP. Cada agente de entrega é associado a um conector de Agente de Entrega, que coloca em fila as mensagens roteadas para cada agente de entrega, para processamento e entrega para o dispositivo ou sistema não SMTP.
 

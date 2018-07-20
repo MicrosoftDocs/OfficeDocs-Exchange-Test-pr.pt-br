@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Você pode testar a conectividade do Outlook Anywhere do cliente de ponta a ponta usando o Shell ou o Analisador de Conectividade Remota do Exchange (ExRCA). Isso inclui o teste de conectividade do serviço Descoberta Automática, da criação de um perfil de usuário e do logon na caixa de correio do usuário. Todos os valores obrigatórios são obtidos do serviço Descoberta Automática.
 

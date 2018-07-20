@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 O fluxo de mensagens de entrada para sua organização do Exchange de controle de conectores de recebimento. Eles são configurados em computadores executando o Microsoft Exchange Server 2013 com o serviço de transporte ou no serviço Front-End em um servidor de acesso para cliente. Eles podem ser criados no Centro de administração do Exchange (EAC) ou no Shell de gerenciamento do Exchange.
 

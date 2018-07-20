@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Online Protection, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Online Protection, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-05-03_
+_**Tópico modificado em:** 2016-05-03_
 
 No Microsoft Proteção do Exchange Online (EOP), Microsoft Exchange Online e Microsoft Exchange 2013, você pode usar o Centro de administração do Exchange (EAC) para pesquisar e exibir entradas no *log de auditoria do administrador*. As ações específicas dos registros do log de auditoria do administrador, com base no cmdlet Shell de Gerenciamento do Exchange, realizadas por administradores e usuários aos quais tenham sido atribuídos privilégios administrativos. Entradas no log de auditoria do administrador fornecem informações sobre qual cmdlet foi executado, quais parâmetros foram usados, quem executou o cmdlet e quais objetos foram afetados.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-17_
+_**Tópico modificado em:** 2012-10-17_
 
 Você pode ter uma situação na qual deseja enviar e receber mensagens de um servidor de gateway de fax que não use SMTP como mecanismo principal de transporte. Siga as etapas descritas neste procedimento para criar um conector estrangeiro que entregue mensagens para sistemas estrangeiros e receba mensagens deles.
 

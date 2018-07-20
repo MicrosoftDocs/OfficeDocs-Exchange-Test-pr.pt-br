@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2016-12-09_
+_**Tópico modificado em:** 2016-12-09_
 
 Exchange Server 2013 permite configurar seus bancos de dados de caixa de correio em um grupo de disponibilidade do banco de dados (DAG) para que o failover automático do datacenter. Essa configuração requer três locais físicos separados: dois datacenters para servidores correio e um terceiro local para colocar o servidor testemunha do DAG. Organizações com apenas dois locais físicos também podem tirar proveito de failover automático do datacenter por meio de uma máquina virtual de servidor de arquivo de Microsoft Azure para agir como servidor de testemunha do DAG.
 

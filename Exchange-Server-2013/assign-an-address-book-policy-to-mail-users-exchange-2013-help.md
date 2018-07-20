@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-11_
+_**Tópico modificado em:** 2012-10-11_
 
 Depois de criar uma política de catálogo de endereços (ABP), você deve atribuí-lo aos usuários de caixa de correio. Os usuários não estão atribuídos a uma ABP padrão quando sua conta de usuário é criada. Se você não atribuir uma ABP a um usuário, a lista de endereços global (GAL) para toda sua organização será acessível para o usuário por meio do Outlook e Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
 

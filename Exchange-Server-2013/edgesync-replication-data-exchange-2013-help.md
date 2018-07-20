@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 Quando você implanta um servidor de Transporte de Borda, ele não tem acesso ao Active Directory. Para realizar as tarefas de agregação de lista segura e pesquisa de destinatário, bem como para implementar a segurança de domínio usando a autenticação TLS mútua, o servidor de Transporte de Borda exige dados que estão no Active Directory. Esses dados são replicados para o servidor de Transporte de Borda usando o processo do EdgeSync e o servidor de Transporte de Borda armazena todas as informações replicadas nos Active Directory Lightweight Directory Services (AD LDS).
 

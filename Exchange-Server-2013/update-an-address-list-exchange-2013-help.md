@@ -15,9 +15,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2012-10-14_
+_**Tópico modificado em:** 2012-10-14_
 
 Listas de endereços são uma coleção de destinatário e outros objetos do Active Directory. Você aplicar uma lista de endereços quando a regra de filtro de lista de endereços foi editada. Para atualizar a associação da lista de endereços para incluir novos destinatários e remover aqueles que não são mais atendam aos critérios de filtragem, você deve aplicar a lista de endereços.
 

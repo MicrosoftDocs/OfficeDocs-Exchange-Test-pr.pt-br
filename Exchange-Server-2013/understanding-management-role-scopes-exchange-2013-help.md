@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013_
+_**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
-_**Tópico modificado em:**2015-04-07_
+_**Tópico modificado em:** 2015-04-07_
 
 Os *Escopos de função de gerenciamento* permitem que você defina o escopo específico do impacto ou da influência de uma função de gerenciamento quando uma atribuição de função de gerenciamento é criada. Quando você aplica um escopo, o destinatário da função pode apenas modificar os objetos contidos nesse escopo. O destinatário da função pode ser um grupo de função de gerenciamento, uma diretiva de atribuição de gerenciamento de função, um usuário ou um USG (grupo de segurança universal). Para mais informações sobre funções de gerenciamento, consulte [Controle de acesso baseado em função de compreensão](understanding-role-based-access-control-exchange-2013-help.md).
 

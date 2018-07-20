@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-10-22_
+_**Tópico modificado em:** 2014-10-22_
 
 O serviço de Disponibilidade melhora as informações de livre/ocupado dos funcionários ao proporcionar dados seguros, consistentes e atualizados de livre/ocupado a clientes que executam o MicrosoftOutlook. Por padrão, esse serviço é instalado com o Exchange Server 2013. Em topologias entre florestas, em que todos os clientes se conectando executam o Outlook, o serviço de Disponibilidade é o único método de recuperação de informações de disponibilidade. Você pode usar o Shell para configurar o serviço de Disponibilidade para topologias entre florestas.
 
