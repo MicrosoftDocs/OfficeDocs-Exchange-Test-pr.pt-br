@@ -54,7 +54,7 @@ O uso de um único método padronizado para a autenticação de servidor para se
 A autenticação com o OAuth geralmente envolve três partes: um servidor de autorização individual e dois realms que precisam se comunicar entre si. Os tokens de segurança são emitidos pelo servidor de autorização (também conhecido como servidor do token de segurança) para os dois realms que precisam se comunicar. Esse tokens verificam se as comunicações originadas de um realm devem ser confiadas pelo outro realm. Por exemplo, o servidor de autorização pode emitir tokens que verificam se os usuários de um realm do Lync Server 2013 específico podem acessar um realm do Exchange 2013 e vice-versa.
 
 
-> [!TIP]  
+> [!TIP]
 > Um realm é um contêiner de segurança.
 
 
@@ -66,9 +66,10 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
   -  **Etapa 1: atribuir um certificado ao emissor de token integrado do Exchange Server local.** Primeiro, um administrador local do Exchange precisa usar o seguinte script do Shell de Gerenciamento do Exchange para criar um certificado, caso ele não tenha sido previamente criado, e atribui-lo ao emissor de token integrado do Exchange Server local. Esse é um processo de ocorrência única. Após a criação do certificado, ele pode ser reutilizado em outros cenários de autenticação sem ser substituído. Certifique-se de atualizar o valor de *$tenantDomain* com o nome do seu domínio. Para fazer isso, copie e cole o seguinte código.
     
 
-        > [!WARNING]  
+        > [!WARNING]
         > Para facilitar a execução de scripts do Shell, copie e cole o código em um editor de texto como o Bloco de Notas e salve o código com a extensão .ps1.
 
+    
         ```
         # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
         
@@ -130,16 +131,16 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
         }
         Write-Host "Complete."
         ```
-
+    
         O resultado esperado deve se parecer com a seguinte saída.
-
-        ```
+		
+		```
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
-        ```
+		```
 
-        > [!WARNING]  
+        > [!WARNING]
         > Antes de continuar, os cmdlets Módulo Azure Active Directory para Windows PowerShell é necessário. Se os cmdlets Módulo Azure Active Directory para Windows PowerShell (anteriormente conhecido como o Microsoft Online Services Module for Windows PowerShell) não tiver sido instalado, você pode instalá-lo a partir <A href="http://aka.ms/aadposh">Gerenciar o Azure AD usando o Windows PowerShell</A>.
 
 
@@ -176,17 +177,17 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
         Else
         {
             Write-Error "Cannot find certificate."
-        } 
-        ```
-
+        }
+        ``` 
+		
         O resultado esperado deve ser o seguinte.
-
-        ```
+		
+		```
         Please enter the administrator user name and password of the Office 365 tenant domain...
         Adding a key to Service Principal...
         Complete.
-        ```
-
+		```
+		
 ## Habilitar o uso de proxy para as notificações por push
 
 Após a configuração da autenticação OAuth das etapas anteriores ter sido realizada com êxito, um administrador local precisa habilitar o uso de proxy para notificações por push usando o seguinte script. Certifique-se de atualizar o valor de *$tenantDomain* com o nome do seu domínio. Para fazer isso, copie e cole o seguinte código.
@@ -234,31 +235,32 @@ Após a conclusão das etapas anteriores, as notificações por push podem ser t
 
   - **Habilitando o monitoramento.** Como método alternativo para testar as notificações por push, ou para investigar o motivo de falhas nas notificações, habilite o monitoramento em um servidor de caixa de correio em sua organização. Os administradores de servidor do Exchange 2013 local devem invocar o monitoramento de proxy das notificações por push usando o seguinte script. Para fazer isso, copie e cole o seguinte código.
     
-        # Send a push notification to verify connectivity.
-        
-        $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
-        If ($s.Count -gt 1)
-        {
-            $s = $s[0]
-        }
-        If ($s.Count -ne 0)
-        {
-            # Restart the monitoring service to clear the cache from when push was previously disabled.
-            Restart-Service MSExchangeHM
-        
-            # Give the monitoring service enough time to load.
-            Start-Sleep -Seconds:120
-        
-            Invoke-MonitoringProbe PushNotifications.Proxy\PushNotificationsEnterpriseConnectivityProbe -Server:$s.Fqdn | fl ResultType, Error, Exception
-        }
-        Else
-        {
-            Write-Error "Cannot find a Mailbox server in the current site."
-        }
+    ```
+    # Send a push notification to verify connectivity.
+    
+    $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
+    If ($s.Count -gt 1)
+    {
+        $s = $s[0]
+    }
+    If ($s.Count -ne 0)
+    {
+        # Restart the monitoring service to clear the cache from when push was previously disabled.
+        Restart-Service MSExchangeHM
+    
+        # Give the monitoring service enough time to load.
+        Start-Sleep -Seconds:120
+    
+        Invoke-MonitoringProbe PushNotifications.Proxy\PushNotificationsEnterpriseConnectivityProbe -Server:$s.Fqdn | fl ResultType, Error, Exception
+    }
+    Else
+    {
+        Write-Error "Cannot find a Mailbox server in the current site."
+    }
+    ```
     
     O resultado esperado deve se parecer com a seguinte saída.
     
         ResultType : Succeeded
         Error      :
         Exception  :
-
