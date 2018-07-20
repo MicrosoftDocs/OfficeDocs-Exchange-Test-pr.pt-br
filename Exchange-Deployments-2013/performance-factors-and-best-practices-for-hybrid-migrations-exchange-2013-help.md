@@ -13,9 +13,10 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Aplica-se a:</strong>Exchange Server 2016_
+
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Há muitos caminhos para migrar os dados de uma organização de email local para o Office 365. Ao planejar uma migração para o Office 365, uma pergunta comum é como melhorar o desempenho da migração de dados e otimizar a velocidade da migração. Este artigo discute o desempenho da migração para implantações híbridas do Exchange. Para informações sobre o desempenho de outros métodos de migração, confira [Desempenho de migração do Office 365 e práticas recomendadas](http://go.microsoft.com/fwlink/p/?linkid=623651).
 
@@ -82,7 +83,7 @@ Além de aplicar as práticas recomendadas descritas anteriormente, testamos as 
 
 Por exemplo, em migrações reais de clientes, atingimos um resultado consistente de 30 GB/h usando a seguinte configuração:
 
-  - **Rede **  Canalização de saída de 500 MB para a Internet; a rede interna está em 1 GB com backbone de fibra de 10 GB.
+  - **Rede**  Canalização de saída de 500 MB para a Internet; a rede interna está em 1 GB com backbone de fibra de 10 GB.
 
   - **Hardware**   As especificações para os dois servidores de Acesso para Cliente/HUB (físico) são:
     

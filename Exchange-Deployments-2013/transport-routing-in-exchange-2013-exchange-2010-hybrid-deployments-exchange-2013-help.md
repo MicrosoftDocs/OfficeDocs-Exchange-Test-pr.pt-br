@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server, Exchange Server 2013_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server, Exchange Server 2013_
 
-_**Tópico modificado em:**2016-07-29_
+_<strong>Tópico modificado em:</strong>2016-07-29_
 
 Este tópico discute suas opções de roteamento para mensagens de entrada da Internet e mensagens de saída para a Internet.
 
@@ -37,9 +37,9 @@ Faz parte do planejamento e da configuração de sua implantação híbrida deci
 
 O caminho adotado pelas mensagens enviadas a destinatários em suas organizações locais e do Exchange Online depende da forma como você decidir configurar seu registro MX na implantação híbrida. O método preferido é configurar seu registro MX de modo que este aponte para o Exchange Online Protection (EOP) no Office 365 já que essa configuração fornece o filtro de spam mais preciso. O assistente de Configuração Híbrida não configura o roteamento para mensagens de entrada da Internet para as organizações locais e do Exchange Online. Você deve configurar manualmente seu registro MX se deseja alterar a forma como suas mensagens de entrada da Internet são entregues.
 
-  - **Se alterar seu registro MX para apontar para o serviço do Exchange Online Protection no Office 365:**  Essa é a configuração recomendada para implantações híbridas. Todas as mensagens enviadas para qualquer destinatário nas organizações serão roteadas pela organização do Exchange Online primeiro. A mensagem endereçada a um destinatário localizado em sua organização local será encaminhada primeiro através de sua organização do Exchange Online e então entregue ao destinatário em sua organização local. Essa rota também é recomendável se você tiver mais destinatários em sua organização do Exchange Online do que em sua organização local e se você quiser que as mensagens sejam filtradas pelo EOP. Exige-se tal opção de configuração para que o Exchange Online Protection possa fornecer a verificação e o bloqueio do spam.
+  - **Se alterar seu registro MX para apontar para o serviço do Exchange Online Protection no Office 365:**   Essa é a configuração recomendada para implantações híbridas. Todas as mensagens enviadas para qualquer destinatário nas organizações serão roteadas pela organização do Exchange Online primeiro. A mensagem endereçada a um destinatário localizado em sua organização local será encaminhada primeiro através de sua organização do Exchange Online e então entregue ao destinatário em sua organização local. Essa rota também é recomendável se você tiver mais destinatários em sua organização do Exchange Online do que em sua organização local e se você quiser que as mensagens sejam filtradas pelo EOP. Exige-se tal opção de configuração para que o Exchange Online Protection possa fornecer a verificação e o bloqueio do spam.
 
-  - **Se você decidir manter seu registro MX apontado para sua organização local:**  Todas as mensagens enviadas para qualquer destinatário nas organizações serão roteadas pela organização local primeiro. A mensagem endereçada a um destinatário localizado no Exchange Online será encaminhada primeiramente através de sua organização local e então entregue ao destinatário no Exchange Online. Essa rota pode ser útil nas organizações onde você dispõe de diretivas de conformidade exigindo que as mensagens enviadas e recebidas de uma organização sejam examinadas por uma solução de registro em diário. Se você escolher essa opção, o Exchange Online Protection não conseguirá realizar uma verificação efetiva das mensagens de spam.
+  - **Se você decidir manter seu registro MX apontado para sua organização local:**   Todas as mensagens enviadas para qualquer destinatário nas organizações serão roteadas pela organização local primeiro. A mensagem endereçada a um destinatário localizado no Exchange Online será encaminhada primeiramente através de sua organização local e então entregue ao destinatário no Exchange Online. Essa rota pode ser útil nas organizações onde você dispõe de diretivas de conformidade exigindo que as mensagens enviadas e recebidas de uma organização sejam examinadas por uma solução de registro em diário. Se você escolher essa opção, o Exchange Online Protection não conseguirá realizar uma verificação efetiva das mensagens de spam.
 
 Para saber mais, consulte [Práticas recomendadas de fluxo de emails para Exchange Online e Office 365 (visão geral)](https://technet.microsoft.com/pt-br/library/jj937232\(v=exchg.150\)).
 

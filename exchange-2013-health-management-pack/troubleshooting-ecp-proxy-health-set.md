@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2015-03-09_
+_**Tópico modificado em:** 2015-03-09_
 
 ECP. Conjunto de integridade do proxy monitora a disponibilidade da infraestrutura de proxy do Centro de administração (EAC) Exchange no servidor de acesso para cliente (CAS). ECP. Conjunto de integridade de proxy está relacionado ao seguinte conjunto de integridade:
 

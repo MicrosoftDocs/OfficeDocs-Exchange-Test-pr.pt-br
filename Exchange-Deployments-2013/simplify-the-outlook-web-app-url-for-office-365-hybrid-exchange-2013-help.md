@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:**2016-11-11_
+_<strong>Tópico modificado em:</strong>2016-11-11_
 
 Saiba como configurar a URL do Outlook na Web (Outlook Web App) para usuários de caixa de correio baseada em nuvem em um ambiente híbrido.
 
@@ -53,7 +53,7 @@ Para eliminar esses problemas com as caixas de correio dos usuários, faça o se
     
         Set-OrganizationRelationship -TargetOWAUrl http://cloudowa.contoso.com/owa
     
-    **Observações:**
+    **Observações:** 
     
       - Use http, não https.
     
@@ -110,5 +110,5 @@ Veja na tabela a seguir a descrição da experiência de prompt de autenticaçã
 </table>
 
 
-**Observação:** A federação de identidades exige que o ponto de extremidade do AD FS seja configurado na zona da Intranet do Internet Explorer, conforme descrito no tópico [https://go.microsoft.com/fwlink/p/?linkid=834460](https://go.microsoft.com/fwlink/p/?linkid=83446), e que o AD FS seja configurado de acordo com a orientação geral do Office 365.
+**Observação:**  A federação de identidades exige que o ponto de extremidade do AD FS seja configurado na zona da Intranet do Internet Explorer, conforme descrito no tópico [https://go.microsoft.com/fwlink/p/?linkid=834460](https://go.microsoft.com/fwlink/p/?linkid=83446), e que o AD FS seja configurado de acordo com a orientação geral do Office 365.
 

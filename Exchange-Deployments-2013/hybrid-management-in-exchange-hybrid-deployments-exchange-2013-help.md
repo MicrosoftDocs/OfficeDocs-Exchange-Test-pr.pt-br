@@ -13,9 +13,9 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Ao instalar um servidor Exchange, as ferramentas de gerenciamento do Exchange são automaticamente instaladas no servidor. Você usará as seguintes ferramentas para configurar e gerenciar as organizações local do Exchange e do Exchange Online:
 

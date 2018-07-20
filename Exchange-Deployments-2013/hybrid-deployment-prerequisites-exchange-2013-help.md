@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2017-07-25_
+_<strong>Tópico modificado em:</strong>2017-07-25_
 
-**Resumo:** Do que o seu ambiente do Exchange precisa antes de você poder configurar uma implantação híbrida.
+**Resumo:**  Do que o seu ambiente do Exchange precisa antes de você poder configurar uma implantação híbrida.
 
 Antes de você criar e configurar uma implantação híbrida usando o assistente de Configuração Híbrida, sua organização local do Exchange existente precisa atender a determinados requisitos. Se você não atender a estes requisitos, não será capaz de concluir as etapas do assistente de Configuração Híbrida e não conseguirá configurar uma implantação híbrida entre a organização local do Exchange e o Exchange Online.
 
@@ -82,9 +82,9 @@ Os pré-requisitos a seguir são necessários para configurar uma implantação 
 
   - **Funções de servidor local** As funções de servidor que você precisa instalar em sua organização local dependem da versão do Exchange que você instalou.
     
-      - **Exchange 2010:** pelo menos um servidor com as funções de servidor de Acesso para Cliente, de Caixa de Correio e de Transporte de Hub instaladas. Embora seja possível instalar as funções de servidor de Acesso para Cliente, de Caixa de Correio e de Transporte de Hub em servidores separados, é altamente recomendável instalar todas as funções em todos os servidores para fornecer o melhor desempenho e confiabilidade adicional.
+      - **Exchange 2010:**  pelo menos um servidor com as funções de servidor de Acesso para Cliente, de Caixa de Correio e de Transporte de Hub instaladas. Embora seja possível instalar as funções de servidor de Acesso para Cliente, de Caixa de Correio e de Transporte de Hub em servidores separados, é altamente recomendável instalar todas as funções em todos os servidores para fornecer o melhor desempenho e confiabilidade adicional.
     
-      - **Exchange 2013:** pelo menos um servidor com as funções de servidor de Acesso para Cliente e de Caixa de Correio instaladas. Embora seja possível instalar as funções de servidor de Acesso para Cliente e de Caixa de Correio em servidores separados, é altamente recomendável instalar as duas funções em todos os servidores para fornecer o melhor desempenho e confiabilidade adicional.
+      - **Exchange 2013:**  pelo menos um servidor com as funções de servidor de Acesso para Cliente e de Caixa de Correio instaladas. Embora seja possível instalar as funções de servidor de Acesso para Cliente e de Caixa de Correio em servidores separados, é altamente recomendável instalar as duas funções em todos os servidores para fornecer o melhor desempenho e confiabilidade adicional.
     
       - **Exchange 2016 e versões mais recentes** Pelo menos um servidor que tem a função de servidor de Caixa de Correio instalada.
     

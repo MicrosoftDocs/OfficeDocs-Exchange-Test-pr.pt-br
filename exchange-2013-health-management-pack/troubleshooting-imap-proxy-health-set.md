@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2013-02-07_
+_**Tópico modificado em:** 2013-02-07_
 
 O conjunto de integridade IMAP.Proxy monitora a disponibilidade da infraestrutura proxy IMAP4 no servidor de Acesso para Cliente (CAS). Se você receber um alerta que especifica que o conjunto de integridade IMAP.Proxy não está íntegro, isso indica que um problema afeta os componentes de IMAP no CAS indicado no alerta.
 

@@ -13,9 +13,9 @@ ms.translationtype: MT
 
  
 
-_**Aplica-se a:**Exchange Server 2013_
+_**Aplica-se a:** Exchange Server 2013_
 
-_**Tópico modificado em:**2014-09-22_
+_**Tópico modificado em:** 2014-09-22_
 
 O conjunto de integridade ActiveSync.Proxy monitora a integridade da infraestrutura do Exchange ActiveSync em seus servidores de acesso para cliente (CAS). Se você receber um alerta que especifica que o conjunto de integridade ActiveSync.Proxy não está íntegro, que isso indica um problema que possam afetar os componentes de Exchange ActiveSync no CAS indicado no alerta.
 

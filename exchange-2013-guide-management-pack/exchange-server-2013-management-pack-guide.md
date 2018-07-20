@@ -13,7 +13,7 @@ ms.translationtype: HT
 
  
 
-_**Tópico modificado em:** 2013-05-01_
+_**Tópico modificado em:**  2013-05-01_
 
 O Pacote de Gerenciamento do Microsoft Exchange Server 2013 fornece informações abrangentes de integridade do serviço para sua organização do Exchange.
 

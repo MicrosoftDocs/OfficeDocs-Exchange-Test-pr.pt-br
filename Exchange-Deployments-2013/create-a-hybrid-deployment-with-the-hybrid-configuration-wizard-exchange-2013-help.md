@@ -13,9 +13,9 @@ ms.translationtype: HT
 
 Este tópico está em andamento.  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2016-12-09_
+_<strong>Tópico modificado em:</strong>2016-12-09_
 
 Ao estabelecer uma implantação híbrida, você pode levar sua capacidade de experiência e o controle administrativo cheio de recursos em suas organizações locais do Exchange Server para a nuvem. Uma implantação híbrida também oferece suporte para uma solução de arquivamento baseada na nuvem para suas caixas de correio locais com o Arquivamento Online do Exchange e também pode servir como uma etapa intermediária para uma migração completa de suas caixas de correio locais para o Exchange Online.
 

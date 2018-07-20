@@ -13,11 +13,11 @@ ms.translationtype: HT
 
  
 
-_**Aplica-se a:**Exchange Online, Exchange Server 2013, Exchange Server 2016_
+_<strong>Aplica-se a:</strong>Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
-_**Tópico modificado em:**2018-04-16_
+_<strong>Tópico modificado em:</strong>2018-04-16_
 
-**Resumo:** O que você precisa saber para planejar uma implantação híbrida do Exchange.
+**Resumo:**  O que você precisa saber para planejar uma implantação híbrida do Exchange.
 
 A implantação híbrida oferece às organizações a capacidade de levar a experiência e o controle administrativo cheio de recursos que elas possuem em suas organizações locais do Microsoft Exchange para a nuvem. Uma implantação híbrida oferece a aparência perfeita de uma única organização do Exchange entre uma organização local do Exchange e o Exchange Online no Microsoft Office 365. Além disso, uma implantação híbrida pode servir como uma etapa intermediária para se mover completamente para uma organização do Exchange Online.
 
