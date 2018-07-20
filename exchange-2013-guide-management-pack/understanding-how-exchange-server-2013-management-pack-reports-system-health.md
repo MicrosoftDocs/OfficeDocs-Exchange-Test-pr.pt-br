@@ -1,5 +1,5 @@
 ﻿---
-title: Entendendo Como o Pacote de Gerenciamento do Exchange Server 2013 Relata a Integridade do Sistema
+title: Como o pacote do Exchange Server 2013 relata a integridade do sistema
 TOCTitle: Entendendo Como o Pacote de Gerenciamento do Exchange Server 2013 Relata a Integridade do Sistema
 ms:assetid: 6ca8847f-93fe-458d-bd43-7afad7fdd2f4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn195910(v=EXCHG.150)
