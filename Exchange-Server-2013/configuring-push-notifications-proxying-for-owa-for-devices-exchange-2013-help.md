@@ -259,6 +259,8 @@ Após a conclusão das etapas anteriores, as notificações por push podem ser t
     
     O resultado esperado deve se parecer com a seguinte saída.
     
+    ```
         ResultType : Succeeded
         Error      :
         Exception  :
+    ```
