@@ -67,7 +67,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
         > [!WARNING]
         > Para facilitar a execução de scripts do Shell, copie e cole o código em um editor de texto como o Bloco de Notas e salve o código com a extensão .ps1.
 
-    
+
         ```
         # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
         
@@ -129,7 +129,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
         }
         Write-Host "Complete."
         ```
-    
+
         O resultado esperado deve se parecer com a seguinte saída.
 		
 	```
@@ -177,7 +177,8 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
             Write-Error "Cannot find certificate."
         }
         ``` 
-		
+
+
         O resultado esperado deve ser o seguinte.
 		
 	```
