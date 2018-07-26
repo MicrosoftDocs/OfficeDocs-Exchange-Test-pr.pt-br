@@ -94,7 +94,7 @@ Os itens na pasta Itens Excluídos e os itens que podem ter uma data de início 
 <ol>
 <li><p>Uma tarefa não-recorrente expira de acordo com a sua <code>message-received date</code>, se houver uma.</p></li>
 <li><p>Se uma tarefa não recorrente não tiver uma <code>message-received date</code>, ela expirará de acordo com a sua <code>message-creation date</code>.</p></li>
-<li><p>Se uma tarefa não recorrente não tiver uma <code>message-received date</code> nem uma <code></code><code>message-creation date</code>, ela não expirará.</p></li>
+<li><p>Se uma tarefa não recorrente não tiver uma <code>message-received date</code> nem uma <code>message-creation date</code>, ela não expirará.</p></li>
 </ol></li>
 <li><p>Uma tarefa recorrente expira de acordo com a <code>end date</code> de sua última ocorrência. Se a tarefa recorrente não tiver uma <code>end date</code>, ela não expirará.</p></li>
 <li><p>Uma tarefa de regeneração (que é uma tarefa recorrente que regenera um tempo especificado depois que a instância anterior da tarefa é concluída) não expira.</p></li>
