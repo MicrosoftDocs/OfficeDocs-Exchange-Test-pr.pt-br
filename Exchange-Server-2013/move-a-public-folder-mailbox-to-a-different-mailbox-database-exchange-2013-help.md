@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover uma caixa de correio de pasta pública para um banco de dados de caixa de correio diferente: Exchange 2013 Help'
+title: 'Mover cx. corr. de pasta pública para outro banco de dados de caixa de correio'
 TOCTitle: Mover uma caixa de correio de pasta pública para um banco de dados de caixa de correio diferente
 ms:assetid: 67601d45-4824-4ae6-9a7e-b645ec3af4d3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ906434(v=EXCHG.150)

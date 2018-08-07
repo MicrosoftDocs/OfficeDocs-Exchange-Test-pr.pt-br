@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usando híbrida moderno autenticação com o Outlook para iOS e Android: Exchange 2013 Help'
+title: 'Usar autenticação híbrida moderna com o Outlook para iOS e Android'
 TOCTitle: Usando híbrida moderno autenticação com o Outlook para iOS e Android
 ms:assetid: 0e701643-1f18-4cc3-8595-4fd4b15caf6c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Mt846639(v=EXCHG.150)

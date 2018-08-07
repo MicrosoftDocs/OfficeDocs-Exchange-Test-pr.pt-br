@@ -1,5 +1,5 @@
 ﻿---
-title: 'Destinatários de provisão para downloads do catálogo de endereços offline: Exchange 2013 Help'
+title: 'Destinatários de provisão para downloads do catálogo de endereços offline'
 TOCTitle: Destinatários de provisão para downloads do catálogo de endereços offline
 ms:assetid: 141751ac-16d3-4e3c-b70c-004aeedcb5a0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa996345(v=EXCHG.150)

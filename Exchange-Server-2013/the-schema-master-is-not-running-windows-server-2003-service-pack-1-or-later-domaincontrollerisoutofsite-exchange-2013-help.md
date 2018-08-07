@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mestre de esquema não está executando Windows Server 2003 Service Pack 1 ou later_DomainControllerIsOutOfSite: Exchange 2013 Help'
+title: 'O mestre de esquema não está executando o Windows Server 2003 SP1 ou posterior'
 TOCTitle: Mestre de esquema não está executando Windows Server 2003 Service Pack 1 ou later_DomainControllerIsOutOfSite
 ms:assetid: 5edbe0b8-7610-4a52-aaaa-38c6a99e7e53
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.domaincontrollerisoutofsite(v=EXCHG.150)

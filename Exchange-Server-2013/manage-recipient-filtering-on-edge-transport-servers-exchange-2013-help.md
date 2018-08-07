@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar filtragem por destinatário nos servidores de transporte de borda: Exchange 2013 Help'
+title: 'Gerenciar filtragem por destinatário nos servidores de Transporte de Borda'
 TOCTitle: Gerenciar filtragem por destinatário nos servidores de transporte de borda
 ms:assetid: f2d0041f-2872-4669-95ec-443233f4956d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb125187(v=EXCHG.150)

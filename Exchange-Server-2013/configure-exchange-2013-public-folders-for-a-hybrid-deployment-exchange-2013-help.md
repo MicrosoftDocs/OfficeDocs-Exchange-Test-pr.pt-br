@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar pastas públicas do Exchange 2013 para uma implantação híbrida: Exchange 2013 Help'
+title: 'Configurar pastas públicas do Exchange 2013 para uma implantação híbrida'
 TOCTitle: Configurar pastas públicas do Exchange 2013 para uma implantação híbrida
 ms:assetid: b828520f-022c-4fcb-ab68-e1c330e87c33
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn986544(v=EXCHG.150)

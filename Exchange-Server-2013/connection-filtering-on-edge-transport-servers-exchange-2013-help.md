@@ -1,5 +1,5 @@
 ﻿---
-title: 'Nos servidores de transporte de borda de filtragem de Conexão: Exchange 2013 Help'
+title: 'Servidores de transporte de borda de filtragem de Conexão: Exchange 2013 Help'
 TOCTitle: Nos servidores de transporte de borda de filtragem de Conexão
 ms:assetid: b513755c-5d3e-44fa-a6cb-771d48b544ac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124320(v=EXCHG.150)

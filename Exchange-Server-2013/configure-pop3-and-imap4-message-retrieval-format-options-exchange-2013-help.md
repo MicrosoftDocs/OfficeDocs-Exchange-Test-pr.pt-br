@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar opções de formato de recuperação mensagem POP3 e IMAP4: Exchange 2013 Help'
+title: 'Configurar formato de recuperação de mensagem POP3 e IMAP4: Exchange 2013 Help'
 TOCTitle: Configurar opções de formato de recuperação mensagem POP3 e IMAP4
 ms:assetid: 481096e0-4492-46c2-8ca8-bdf84a84531e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997869(v=EXCHG.150)

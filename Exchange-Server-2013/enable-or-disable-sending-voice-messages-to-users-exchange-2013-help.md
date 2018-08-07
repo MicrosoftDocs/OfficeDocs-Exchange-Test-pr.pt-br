@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar o envio de mensagens de voz aos usuários: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar o envio de mensagens de voz para usuários'
 TOCTitle: Habilitar ou desabilitar o envio de mensagens de voz aos usuários
 ms:assetid: faa300d8-2534-40db-8ef9-428be8bb7934
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd351277(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar meu problema com verificações automáticas - sincronização de diretórios: Exchange 2013 Help'
+title: 'Identificar problema com verificações automáticas – sincronização de diretório'
 TOCTitle: Ajudar a identificar meu problema com verificações automáticas - sincronização de diretórios
 ms:assetid: e6ea900a-c382-444c-a8ce-54d392bfeca3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793977(v=EXCHG.150)

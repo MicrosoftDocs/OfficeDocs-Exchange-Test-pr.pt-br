@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o número de falhas de entrada antes que os usuários do Outlook Voice Access são desconectados: Exchange 2013 Help'
+title: 'Config. nº de falhas de entrada para desc. usuários do Outlook Voice Access'
 TOCTitle: Configurar o número de falhas de entrada antes que os usuários do Outlook Voice Access são desconectados
 ms:assetid: 64c13d17-a26a-4c9b-b495-bd69c716456a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423547(v=EXCHG.150)

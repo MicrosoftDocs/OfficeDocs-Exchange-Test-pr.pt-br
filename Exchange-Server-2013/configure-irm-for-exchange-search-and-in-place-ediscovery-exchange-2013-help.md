@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o IRM para descoberta eletrônica In-loco e de pesquisa do Exchange: Exchange 2013 Help'
+title: 'Configurar IRM para Descoberta Eletrônica In-loco e pesquisa do Exchange'
 TOCTitle: Configurar o IRM para descoberta eletrônica In-loco e de pesquisa do Exchange
 ms:assetid: d96790e9-93ad-4a56-b90f-2dbfa2f2073c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg588319(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar o gerenciamento de direitos de informação nos servidores de acesso do cliente: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar IRM em servidores de Acesso para Cliente'
 TOCTitle: Habilitar ou desabilitar o gerenciamento de direitos de informação nos servidores de acesso do cliente
 ms:assetid: c7ce069b-a572-4755-90a3-7105472e4c83
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd876938(v=EXCHG.150)

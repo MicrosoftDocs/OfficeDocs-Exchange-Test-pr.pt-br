@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar cotas de itens recuperáveis e retenção de Item excluído: Exchange 2013 Help'
+title: 'Configurar cotas de itens recuperáveis e retenção de Item Excluído'
 TOCTitle: Configurar cotas de itens recuperáveis e retenção de Item excluído
 ms:assetid: de7d667a-1c93-4364-a4f9-2aa5e3678b12
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee364752(v=EXCHG.150)

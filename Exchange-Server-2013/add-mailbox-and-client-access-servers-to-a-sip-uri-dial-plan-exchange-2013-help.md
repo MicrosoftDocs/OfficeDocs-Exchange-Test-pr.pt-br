@@ -1,5 +1,5 @@
 ﻿---
-title: 'Adicionar servidores de acesso para cliente e caixa de correio a um plano de discagem URI do SIP: Exchange 2013 Help'
+title: 'Adicionar serv. acesso para cliente e cx. de correio a plano de disc. URI SIP'
 TOCTitle: Adicionar servidores de acesso para cliente e caixa de correio a um plano de discagem URI do SIP
 ms:assetid: 17fed308-ff0d-4e61-b9f9-e6680b6eccaa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa996399(v=EXCHG.150)

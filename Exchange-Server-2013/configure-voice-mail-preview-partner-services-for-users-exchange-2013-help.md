@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar serviços de parceiros de visualização da caixa postal para usuários: Exchange 2013 Help'
+title: 'Configurar serviços de parceiros de Visualização de Caixa Postal para usuários'
 TOCTitle: Configurar serviços de parceiros de visualização da caixa postal para usuários
 ms:assetid: 7bb914ca-5502-4e64-bae5-555034138d8a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff630920(v=EXCHG.150)

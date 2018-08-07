@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir seus próprios modelos de DLP e tipos de informações: Exchange 2013 Help'
+title: 'Definir seus próprios modelos de DLP e tipos de informaçõess'
 TOCTitle: Definir seus próprios modelos de DLP e tipos de informações
 ms:assetid: f4622dba-3347-4758-b4a2-f01b043c908c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ674310(v=EXCHG.150)

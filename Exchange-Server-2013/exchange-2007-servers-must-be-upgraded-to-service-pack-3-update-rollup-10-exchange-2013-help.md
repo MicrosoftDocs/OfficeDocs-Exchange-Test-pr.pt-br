@@ -1,5 +1,5 @@
 ﻿---
-title: 'Servidores Exchange 2007 devem ser atualizados para o Service Pack 3, Pacote Cumulativo de Atualizações 10: Exchange 2013 Help'
+title: 'Servidores Exchange 2007 devem atualizar para o SP 3, Pac. Cum. de Atualiz. 10'
 TOCTitle: Servidores Exchange 2007 devem ser atualizados para o Service Pack 3, Pacote Cumulativo de Atualizações 10
 ms:assetid: b8028a00-c451-412e-86f2-1669f6eee8fc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.e15e12coexistenceminversionrequirement(v=EXCHG.150)

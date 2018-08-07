@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalação da Ferramenta de Solução de Problemas de UM do Exchange: Exchange 2013 Help'
+title: 'Instalação da Ferramenta de Solução de Problemas de UM do Exchange'
 TOCTitle: Instalação da Ferramenta de Solução de Problemas de UM do Exchange
 ms:assetid: 84223af0-a717-49ee-add6-86313bb30d17
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff844714(v=EXCHG.150)

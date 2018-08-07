@@ -1,5 +1,5 @@
 ﻿---
-title: 'Registros de mensagens terminologia de gerenciamento no Exchange 2013: Exchange 2013 Help'
+title: 'Terminologia de gerenciamento de registros de mensagens no Exchange 2013'
 TOCTitle: Registros de mensagens terminologia de gerenciamento no Exchange 2013
 ms:assetid: de3e3503-6de3-4666-aeb9-cd877efb93bb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb408414(v=EXCHG.150)

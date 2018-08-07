@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar regras de transporte para inspecionar anexos de mensagens: Exchange 2013 Help'
+title: 'Usar regras de transporte para inspecionar anexos: Exchange 2013 Help'
 TOCTitle: Usar regras de transporte para inspecionar anexos de mensagens
 ms:assetid: c0de687e-e33c-4e8a-b253-771494678795
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ674307(v=EXCHG.150)

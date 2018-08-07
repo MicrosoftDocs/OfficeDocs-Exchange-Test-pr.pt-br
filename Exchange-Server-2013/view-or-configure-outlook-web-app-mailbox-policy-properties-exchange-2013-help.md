@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exibir ou configurar as propriedades de diretiva de caixa de correio do Outlook Web App: Exchange 2013 Help'
+title: 'Exibir/configurar propriedades de política de cx. correio do Outlook Web App'
 TOCTitle: Exibir ou configurar as propriedades de diretiva de caixa de correio do Outlook Web App
 ms:assetid: be012ffe-8fdb-4fb7-aebd-78b3a55593fa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd351097(v=EXCHG.150)

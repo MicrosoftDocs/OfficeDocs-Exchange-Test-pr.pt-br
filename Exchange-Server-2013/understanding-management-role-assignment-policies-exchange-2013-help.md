@@ -1,5 +1,5 @@
 ﻿---
-title: 'Noções básicas sobre diretivas de atribuição de função de gerenciamento: Exchange 2013 Help'
+title: 'Noções básicas sobre políticas de atribuição de função de gerenciamento'
 TOCTitle: Noções básicas sobre diretivas de atribuição de função de gerenciamento
 ms:assetid: 25913e43-326a-4371-90b5-021a35f100fe
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd638100(v=EXCHG.150)

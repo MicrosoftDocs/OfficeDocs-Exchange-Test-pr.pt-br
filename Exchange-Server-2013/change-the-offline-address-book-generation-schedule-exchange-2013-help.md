@@ -1,5 +1,5 @@
 ﻿---
-title: 'Alterar o agendamento de geração do catálogo de endereços offline: Exchange 2013 Help'
+title: 'Alterar o agendamento de geração do catálogo de endereços offline'
 TOCTitle: Alterar o agendamento de geração do catálogo de endereços offline
 ms:assetid: d2b4d527-311e-442d-9f1f-54fac8371b80
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124719(v=EXCHG.150)

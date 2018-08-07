@@ -1,5 +1,5 @@
 ﻿---
-title: 'Implantando a visão geral da Unificação de MENSAGENS do Exchange 2013 e Lync Server: Exchange 2013 Help'
+title: 'Implantar a visão geral da UM do Exchange 2013 e Lync Server'
 TOCTitle: Implantando a visão geral da Unificação de MENSAGENS do Exchange 2013 e Lync Server
 ms:assetid: 96fcb0dd-79ee-4e55-9e59-3ee7fbe3c4a1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb676409(v=EXCHG.150)

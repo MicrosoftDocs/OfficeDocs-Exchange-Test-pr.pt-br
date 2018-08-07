@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalar e configurar o agente de roteamento de política de catálogo de endereços: Exchange 2013 Help'
+title: 'Instalar/configurar agente de roteamento de política de catálogo de endereços'
 TOCTitle: Instalar e configurar o agente de roteamento de política de catálogo de endereços
 ms:assetid: 20e8a43d-4508-4388-a2c9-aa3073593cc2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ907308(v=EXCHG.150)

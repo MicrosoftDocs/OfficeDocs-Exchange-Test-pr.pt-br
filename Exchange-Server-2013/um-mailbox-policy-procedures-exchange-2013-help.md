@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimentos de diretiva de caixa de correio de Unificação de mensagens: Exchange 2013 Help'
+title: 'Procedimentos de política de caixa de correio de UM: Exchange 2013 Help'
 TOCTitle: Procedimentos de diretiva de caixa de correio de Unificação de mensagens
 ms:assetid: 37db12de-109f-4e81-9e6a-effab2c2171d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ851061(v=EXCHG.150)

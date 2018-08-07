@@ -1,5 +1,5 @@
 ﻿---
-title: 'Domínio do Active Directory é misto mode_PrepareDomainModeMixed: Exchange 2013 Help'
+title: 'Domínio do Active Directory está no modo misto : Exchange 2013 Help'
 TOCTitle: Domínio do Active Directory é misto mode_PrepareDomainModeMixed
 ms:assetid: 97c9f480-7a2b-482e-8f51-f7b965fe1556
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.preparedomainmodemixed(v=EXCHG.150)

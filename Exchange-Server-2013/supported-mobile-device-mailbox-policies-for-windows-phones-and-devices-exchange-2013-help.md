@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suporte a políticas de caixa de correio de dispositivo móvel para Windows telefones e dispositivos: Exchange 2013 Help'
+title: 'Políticas de caixa de correio com suporte para dispositivos Windows'
 TOCTitle: Suporte a políticas de caixa de correio de dispositivo móvel para Windows telefones e dispositivos
 ms:assetid: d76b1d4c-d1f6-4501-a7c9-854327aceda5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ983805(v=EXCHG.150)

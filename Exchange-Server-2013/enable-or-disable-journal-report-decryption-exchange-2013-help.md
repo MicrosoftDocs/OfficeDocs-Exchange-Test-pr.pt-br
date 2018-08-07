@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar a descriptografia do relatório de diário: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar a descriptografia do relatório de diário'
 TOCTitle: Habilitar ou desabilitar a descriptografia do relatório de diário
 ms:assetid: 1dedbe73-2c1a-4b14-8799-5091aaec7965
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd638092(v=EXCHG.150)

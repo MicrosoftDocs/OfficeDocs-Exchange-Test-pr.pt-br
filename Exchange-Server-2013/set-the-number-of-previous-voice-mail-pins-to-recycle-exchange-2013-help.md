@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir o número de anterior PINs reciclagem de correio de voz: Exchange 2013 Help'
+title: 'Definir número anterior de PINs de reciclagem de correio de voz'
 TOCTitle: Definir o número de anterior PINs reciclagem de correio de voz
 ms:assetid: b094e68e-c493-4576-a6b1-4c780e635405
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124254(v=EXCHG.150)

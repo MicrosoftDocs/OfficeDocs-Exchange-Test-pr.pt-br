@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar a reprodução de multimídia mensagens de voz protegido: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar a reprodução de multimídia mensagens de voz protegido'
 TOCTitle: Habilitar ou desabilitar a reprodução de multimídia mensagens de voz protegido
 ms:assetid: 3c33370c-4262-42b1-8d83-d61fc7c426cd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423543(v=EXCHG.150)

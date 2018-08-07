@@ -1,5 +1,5 @@
 ﻿---
-title: 'Atribuir uma política de catálogo de endereços para usuários de email: Exchange 2013 Help'
+title: 'Atribuir uma política de catálogo de endereços para usuários de email'
 TOCTitle: Atribuir uma política de catálogo de endereços para usuários de email
 ms:assetid: bdfe6575-24c0-47d0-9cfb-ece910db248b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh529942(v=EXCHG.150)

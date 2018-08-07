@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importar um modelo de política DLP personalizado de um arquivo: Exchange 2013 Help'
+title: 'Importar um modelo de política DLP personalizado de um arquivo'
 TOCTitle: Importar um modelo de política DLP personalizado de um arquivo
 ms:assetid: 83f49dbd-f9b1-498e-b548-1529c5e1ccdb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ150531(v=EXCHG.150)

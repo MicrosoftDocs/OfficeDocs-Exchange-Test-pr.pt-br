@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir o número de falhas de entrada antes de uma redefinição de PIN de caixa postal: Exchange 2013 Help'
+title: 'Definir número de falhas de entrada antes de redefinir o PIN de caixa postal'
 TOCTitle: Definir o número de falhas de entrada antes de uma redefinição de PIN de caixa postal
 ms:assetid: 4de38499-0a6f-4f00-8697-eeff805d7266
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997939(v=EXCHG.150)

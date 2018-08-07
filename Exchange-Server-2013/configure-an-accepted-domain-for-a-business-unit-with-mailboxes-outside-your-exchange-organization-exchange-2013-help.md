@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar um domínio aceito para uma unidade de negócios com caixas de correio fora da sua organização do Exchange: Exchange 2013 Help'
+title: 'Config. domínio para unidade com cxs. de correio fora da organização Exchange'
 TOCTitle: Configurar um domínio aceito para uma unidade de negócios com caixas de correio fora da sua organização do Exchange
 ms:assetid: ff46310b-5392-4eac-97bc-d39d397e1ce1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657737(v=EXCHG.150)

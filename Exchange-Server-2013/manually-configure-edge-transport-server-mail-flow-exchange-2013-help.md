@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar manualmente o fluxo de emails do servidor de transporte de borda: Exchange 2013 Help'
+title: 'Configurar manualmente o fluxo de emails do servidor de transporte de borda'
 TOCTitle: Configurar manualmente o fluxo de emails do servidor de transporte de borda
 ms:assetid: cb4cc165-6c09-44ab-a95f-167ae8ed2485
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn606261(v=EXCHG.150)

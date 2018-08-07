@@ -1,5 +1,5 @@
 ﻿---
-title: 'Remover uma regra de atendimento de chamada para um usuário: Exchange 2013 Help'
+title: 'Remover uma regra de atendimento de chamada para um usuário'
 TOCTitle: Remover uma regra de atendimento de chamada para um usuário
 ms:assetid: 1da3c5bc-7227-4b37-96f6-67ceefc084d5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ898497(v=EXCHG.150)

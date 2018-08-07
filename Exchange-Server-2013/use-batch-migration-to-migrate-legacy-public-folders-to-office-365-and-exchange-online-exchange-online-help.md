@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online: Exchange 2013 Help'
+title: 'Usar migração de lote em pastas herdadas no Office 365 e Exchange Online'
 TOCTitle: Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online
 ms:assetid: e8ab9309-7d12-4f02-bfc4-14e61a373958
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn874017(v=EXCHG.150)

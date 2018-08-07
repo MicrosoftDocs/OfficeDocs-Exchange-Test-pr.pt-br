@@ -1,5 +1,5 @@
 ﻿---
-title: 'Operadores de pesquisa e propriedades de mensagem para descoberta eletrônica In-loco: Exchange 2013 Help'
+title: 'Operadores de pesquisa e propr. de mensagem para Descoberta Eletrônica In-loco'
 TOCTitle: Operadores de pesquisa e propriedades de mensagem para descoberta eletrônica In-loco
 ms:assetid: 402b74e4-8853-4c51-9737-1a9c19f8e3dd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn774955(v=EXCHG.150)

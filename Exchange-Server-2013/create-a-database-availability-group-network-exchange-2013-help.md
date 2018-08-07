@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar uma rede de grupo de disponibilidade do banco de dados: Exchange 2013 Help'
+title: 'Criar rede de grupo de disponibilidade do banco de dados: Exchange 2013 Help'
 TOCTitle: Criar uma rede de grupo de disponibilidade do banco de dados
 ms:assetid: 6caec7be-788a-4058-87a7-f31c575b870c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd298051(v=EXCHG.150)

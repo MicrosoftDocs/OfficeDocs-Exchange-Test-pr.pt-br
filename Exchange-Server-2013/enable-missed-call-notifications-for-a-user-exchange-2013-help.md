@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilite as notificações de chamada perdida para um usuário: Exchange 2013 Help'
+title: 'Habilite notificações de chamada perdida para um usuário: Exchange 2013 Help'
 TOCTitle: Habilite as notificações de chamada perdida para um usuário
 ms:assetid: aa0cbb60-5422-474f-af16-621aade31c1f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb232159(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'A conta atual não está conectada a um domínio do Active Directory: Exchange 2013 Help'
+title: 'A conta atual não está conectada a um domínio do Active Directory'
 TOCTitle: A conta atual não está conectada a um domínio do Active Directory
 ms:assetid: 0e229d10-605a-420f-bf8b-58a7fcb5b259
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.loggedontodomain(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Restaurar pastas públicas e caixas de correio de pasta pública de movimentações com falha: Exchange 2013 Help'
+title: 'Restaurar pastas públicas e cxs. de corr. de pasta pública de movim. com falha'
 TOCTitle: Restaurar pastas públicas e caixas de correio de pasta pública de movimentações com falha
 ms:assetid: 2ade83c9-5f9b-4945-bf32-48fa8185b515
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ983802(v=EXCHG.150)

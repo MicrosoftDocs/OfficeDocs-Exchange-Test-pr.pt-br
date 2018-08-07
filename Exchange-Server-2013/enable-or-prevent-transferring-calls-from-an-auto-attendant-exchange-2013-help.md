@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir ou impedir transferindo chamadas de um atendedor automático: Exchange 2013 Help'
+title: 'Permitir ou impedir transferindo chamadas de um atendedor automático'
 TOCTitle: Permitir ou impedir transferindo chamadas de um atendedor automático
 ms:assetid: ca961cc8-cc24-4e05-b72d-79979c155cf9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423558(v=EXCHG.150)

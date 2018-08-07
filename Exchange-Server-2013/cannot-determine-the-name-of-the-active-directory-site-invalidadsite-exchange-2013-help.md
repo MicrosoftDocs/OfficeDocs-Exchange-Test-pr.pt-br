@@ -1,5 +1,5 @@
 ﻿---
-title: 'Não é possível determinar o nome de site_InvalidADSite o Active Directory: Exchange 2013 Help'
+title: 'Não é possível determinar o nome do site do Active Directory'
 TOCTitle: Não é possível determinar o nome de site_InvalidADSite o Active Directory
 ms:assetid: ef96e077-08a0-4108-9f7d-0d61758abcd4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.invalidadsite(v=EXCHG.150)

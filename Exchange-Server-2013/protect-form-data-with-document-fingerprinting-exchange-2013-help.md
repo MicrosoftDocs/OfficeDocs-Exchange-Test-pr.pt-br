@@ -1,5 +1,5 @@
 ﻿---
-title: 'Proteger os dados de formulário com a impressão digital de documento: Exchange 2013 Help'
+title: 'Proteger os dados de formulário com a impressão digital de documento'
 TOCTitle: Proteger os dados de formulário com a impressão digital de documento
 ms:assetid: 110c839b-7693-42f6-aa5d-58ce64f4c357
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn635175(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para Unificação de MENSAGENS: Exchange 2013 Help'
+title: 'Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para UM'
 TOCTitle: Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para Unificação de MENSAGENS
 ms:assetid: a7cecf59-b93a-413b-bb88-29f2669ef2cf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124084(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desabilitar as chamadas de usuários que não são habilitados para Unificação de mensagens: Exchange 2013 Help'
+title: 'Desabilitar as chamadas de usuários que não são habilitados para UM'
 TOCTitle: Desabilitar as chamadas de usuários que não são habilitados para Unificação de mensagens
 ms:assetid: 272ff4ab-b4d9-4647-98e2-7c171f9dfc3f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673516(v=EXCHG.150)

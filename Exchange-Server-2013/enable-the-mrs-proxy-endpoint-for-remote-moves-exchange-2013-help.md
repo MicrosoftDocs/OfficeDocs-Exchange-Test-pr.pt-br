@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar o ponto de extremidade do Proxy MRS para movimentações remotas: Exchange 2013 Help'
+title: 'Habilitar o ponto de extremidade do Proxy MRS para movimentações remotas'
 TOCTitle: Habilitar o ponto de extremidade do Proxy MRS para movimentações remotas
 ms:assetid: 9840f712-127e-4c2d-bfe5-1b35cdb2a31b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn155787(v=EXCHG.150)

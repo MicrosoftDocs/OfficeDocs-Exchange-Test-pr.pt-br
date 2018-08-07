@@ -1,5 +1,5 @@
 ﻿---
-title: 'Pesquisar o log de auditoria de caixa de correio para uma caixa de correio: Exchange 2013 Help'
+title: 'Pesquisar o log de auditoria de caixa de correio para uma caixa de correio'
 TOCTitle: Pesquisar o log de auditoria de caixa de correio para uma caixa de correio
 ms:assetid: 5b518a08-3b51-4ba3-bfbd-0e35cc5ff374
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff461930(v=EXCHG.150)

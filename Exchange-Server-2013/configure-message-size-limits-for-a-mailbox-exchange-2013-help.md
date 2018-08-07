@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar os limites de tamanho de mensagens de uma caixa de correio: Exchange 2013 Help'
+title: 'Configurar limites de tamanho de mensagem para uma caixa de correio'
 TOCTitle: Configurar os limites de tamanho de mensagens de uma caixa de correio
 ms:assetid: d1220685-14c0-4c4f-abb2-3920f3046212
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124708(v=EXCHG.150)

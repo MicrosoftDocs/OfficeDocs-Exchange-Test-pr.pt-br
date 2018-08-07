@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desabilitar ou habilitar o registro no diário de notificações de chamada perdida e caixa postal: Exchange 2013 Help'
+title: 'Desabilitar/habilitar registro de notif. de chamada perdida e caixa postal'
 TOCTitle: Desabilitar ou habilitar o registro no diário de notificações de chamada perdida e caixa postal
 ms:assetid: 5164a92e-69e6-4339-b80c-0cfbf0dc0198
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb201690(v=EXCHG.150)

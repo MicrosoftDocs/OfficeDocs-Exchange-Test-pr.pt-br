@@ -1,5 +1,5 @@
 ﻿---
-title: 'Especificação de unidade de grupo de armazenamento é missing_MailboxLogDriveDoesNotExist: Exchange 2013 Help'
+title: 'A especificação de unidade do grupo de armazenamento está ausente'
 TOCTitle: Especificação de unidade de grupo de armazenamento é missing_MailboxLogDriveDoesNotExist
 ms:assetid: fe210f29-60cb-4d34-877e-1356a21dc02a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.mailboxlogdrivedoesnotexist(v=EXCHG.150)

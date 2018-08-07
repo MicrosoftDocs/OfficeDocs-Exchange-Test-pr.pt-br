@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir a porta de escuta TLS em um servidor de acesso para cliente: Exchange 2013 Help'
+title: 'Definir porta de escuta TLS no servid de acesso p/ cliente: Exchange 2013 Help'
 TOCTitle: Definir a porta de escuta TLS em um servidor de acesso para cliente
 ms:assetid: f4401923-61fa-4dc5-95f8-c0d2f515b2ea
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673576(v=EXCHG.150)

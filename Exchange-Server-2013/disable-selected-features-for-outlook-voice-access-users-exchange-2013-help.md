@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desabilitar recursos selecionados para usuários do Outlook Voice Access: Exchange 2013 Help'
+title: 'Desabilitar recursos para usuários do Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Desabilitar recursos selecionados para usuários do Outlook Voice Access
 ms:assetid: 37421edf-af60-4ca9-9e8b-262b8b851607
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg602126(v=EXCHG.150)

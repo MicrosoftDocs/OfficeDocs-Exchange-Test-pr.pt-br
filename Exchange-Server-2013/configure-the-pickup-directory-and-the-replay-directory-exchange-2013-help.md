@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o diretório de retirada e o diretório de repetição: Exchange 2013 Help'
+title: 'Configurar diretório de retirada e diretório de repetição: Exchange 2013 Help'
 TOCTitle: Configurar o diretório de retirada e o diretório de repetição
 ms:assetid: c9ca7358-9a08-4f57-89d0-910e4438df8a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124549(v=EXCHG.150)

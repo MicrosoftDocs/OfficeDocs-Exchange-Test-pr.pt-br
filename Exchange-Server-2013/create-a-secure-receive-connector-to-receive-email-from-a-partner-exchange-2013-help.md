@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um conector de recebimento seguro para receber email de um parceiro: Exchange 2013 Help'
+title: 'Criar um conector de recebimento seguro para receber email de um parceiro'
 TOCTitle: Criar um conector de recebimento seguro para receber email de um parceiro
 ms:assetid: 06aa692c-7940-4a14-a722-058c47440f85
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673037(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Bypass de um usuário da conta de auditoria de caixa de correio log: Exchange 2013 Help'
+title: 'Ignorar um log de auditoria de caixa de correio: Exchange 2013 Help'
 TOCTitle: Bypass de um usuário da conta de auditoria de caixa de correio log
 ms:assetid: 98a87071-fe31-4b67-beb8-a73799e54df2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff461934(v=EXCHG.150)

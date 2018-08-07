@@ -1,5 +1,5 @@
 ﻿---
-title: 'Prepare a caixas de correio para movimentações entre florestas usando o script de preparação-MoveRequest.ps1 no Shell: Exchange 2013 Help'
+title: 'Preparar para mover entre florestas com Prepare-MoveRequest.ps1 no Shell'
 TOCTitle: Prepare a caixas de correio para movimentações entre florestas usando o script de preparação-MoveRequest.ps1 no Shell
 ms:assetid: 2cea59fb-69b7-4a2f-833f-de4d93cf1810
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee861103(v=EXCHG.150)

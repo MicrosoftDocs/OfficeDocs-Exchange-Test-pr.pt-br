@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permissões insuficientes para preparar o Active Directory_ADUpdateRequired: Exchange 2013 Help'
+title: 'Permissões insuficientes para preparar o Active Directory: Exchange 2013 Help'
 TOCTitle: Permissões insuficientes para preparar o Active Directory_ADUpdateRequired
 ms:assetid: 1412d8a1-605a-4b1e-bee3-0c97f2cc9e65
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.adupdaterequired(v=EXCHG.150)

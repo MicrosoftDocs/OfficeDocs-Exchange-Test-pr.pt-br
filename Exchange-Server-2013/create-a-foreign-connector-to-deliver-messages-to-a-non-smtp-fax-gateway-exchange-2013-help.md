@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um conector estrangeiro para entregar mensagens a um gateway de fax não SMTP: Exchange 2013 Help'
+title: 'Criar conector estrangeiro para entregar mensagens a gateway de fax não SMTP'
 TOCTitle: Criar um conector estrangeiro para entregar mensagens a um gateway de fax não SMTP
 ms:assetid: 589db487-3c4c-409a-92e3-c78dd8f639b6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ710163(v=EXCHG.150)

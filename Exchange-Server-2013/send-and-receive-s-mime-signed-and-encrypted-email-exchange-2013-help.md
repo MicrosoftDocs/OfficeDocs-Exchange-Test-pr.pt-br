@@ -1,5 +1,5 @@
 ﻿---
-title: 'Enviar e receber S/MIME assinadas e criptografadas de email: Exchange 2013 Help'
+title: 'Enviar e receber emails S/MIME assinados e criptografados: Exchange 2013 Help'
 TOCTitle: Enviar e receber S/MIME assinadas e criptografadas de email
 ms:assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn626157(v=EXCHG.150)

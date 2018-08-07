@@ -1,5 +1,5 @@
 ﻿---
-title: 'Não é possível instalar as funções do Exchange 2007 depois de preparar o Active Directory para o Exchange 2010_NoE12ServerWarning: Exchange 2013 Help'
+title: 'Não é possível inst. funç. do Exchange 2007 após prep. o AD para Exchange 2010'
 TOCTitle: Não é possível instalar as funções do Exchange 2007 depois de preparar o Active Directory para o Exchange 2010_NoE12ServerWarning
 ms:assetid: 4e579f69-0de9-421c-ba31-4e63a25e6a45
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.noe12serverwarning(v=EXCHG.150)

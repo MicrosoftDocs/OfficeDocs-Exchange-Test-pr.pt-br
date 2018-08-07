@@ -1,5 +1,5 @@
 ﻿---
-title: 'Copiar os resultados de pesquisa de descoberta eletrônica para uma caixa de correio de descoberta: Exchange 2013 Help'
+title: 'Copiar resultados de pesquisa de descoberta eletrônica para caixa de correio'
 TOCTitle: Copiar os resultados de pesquisa de descoberta eletrônica para uma caixa de correio de descoberta
 ms:assetid: bff2ce89-9e6f-494a-bd6a-2f2011507845
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn624163(v=EXCHG.150)

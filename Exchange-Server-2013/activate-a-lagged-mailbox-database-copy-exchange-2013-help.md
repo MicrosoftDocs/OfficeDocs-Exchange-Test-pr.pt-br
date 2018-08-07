@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ativar uma cópia do banco de dados de caixa de correio com atraso: Exchange 2013 Help'
+title: 'Ativar uma cópia do banco de dados de caixa de correio com atraso'
 TOCTitle: Ativar uma cópia do banco de dados de caixa de correio com atraso
 ms:assetid: 493d9c40-644d-49d6-9291-949acbcfdcb6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd979786(v=EXCHG.150)

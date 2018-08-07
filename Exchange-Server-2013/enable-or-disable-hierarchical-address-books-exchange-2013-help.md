@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar catálogos de endereços hierárquico: Exchange 2013 Help'
+title: 'Habilitar/desabilitar catálogos de endereços hierárquicos: Exchange 2013 Help'
 TOCTitle: Habilitar ou desabilitar catálogos de endereços hierárquico
 ms:assetid: b4c3a175-ce5e-4bfb-a4a0-92d25f3644b3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff607473(v=EXCHG.150)

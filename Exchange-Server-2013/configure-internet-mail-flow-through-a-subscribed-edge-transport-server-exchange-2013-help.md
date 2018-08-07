@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o fluxo de mensagens da Internet por meio de um servidor de Transporte de Borda inscrito: Exchange 2013 Help'
+title: 'Configurar fluxo de emails por um servidor de Transporte de Borda inscrito'
 TOCTitle: Configurar o fluxo de mensagens da Internet por meio de um servidor de Transporte de Borda inscrito
 ms:assetid: d12ea770-99ce-4ab4-a373-96f2554641fa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb738158(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o servidor de transporte de borda usando configuração clonada: Exchange 2013 Help'
+title: 'Configurar o servidor de transporte de borda usando configuração clonada'
 TOCTitle: Configurar o servidor de transporte de borda usando configuração clonada
 ms:assetid: 0bbc83e3-e5e8-4480-a8a6-15f035360856
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa996008(v=EXCHG.150)

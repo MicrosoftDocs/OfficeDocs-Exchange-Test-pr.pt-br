@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conectar seu sistema de caixa postal à sua rede de telefone: Exchange 2013 Help'
+title: 'Conectar seu sistema de caixa postal à sua rede de telefone'
 TOCTitle: Conectar seu sistema de caixa postal à sua rede de telefone
 ms:assetid: b606b49d-5bd3-4321-ae77-99fa4604c875
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673554(v=EXCHG.150)

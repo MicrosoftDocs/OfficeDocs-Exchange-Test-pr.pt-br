@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar o Shell de gerenciamento do Exchange para gerenciar filas: Exchange 2013 Help'
+title: 'Usar o Shell de gerenciamento do Exchange para gerenciar filas'
 TOCTitle: Usar o Shell de gerenciamento do Exchange para gerenciar filas
 ms:assetid: 5433c1d3-ad2e-4f82-b50d-b67964b32f26
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998047(v=EXCHG.150)

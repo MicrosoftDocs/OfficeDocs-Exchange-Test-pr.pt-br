@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar uma caixa de correio do log de auditoria de caixa de correio: Exchange 2013 Help'
+title: 'Habilitar/desabilitar caixa de correio do log de auditoria de caixa de correio'
 TOCTitle: Habilitar ou desabilitar uma caixa de correio do log de auditoria de caixa de correio
 ms:assetid: c4bbfd52-6196-49c7-8c31-777fbbee11f2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff461937(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Servidores Exchange 2010 devem ser atualizados para o Service Pack 3: Exchange 2013 Help'
+title: 'Servidores Exchange 2010 devem ser atualizados para o Service Pack 3'
 TOCTitle: Servidores Exchange 2010 devem ser atualizados para o Service Pack 3
 ms:assetid: 06f99869-79a2-4ac4-b947-b71430b178ad
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.e15e14coexistenceminmajorversionrequirement(v=EXCHG.150)

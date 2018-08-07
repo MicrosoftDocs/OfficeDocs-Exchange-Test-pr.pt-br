@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir que chamadores sem ID de chamador deixar uma mensagem de voz: Exchange 2013 Help'
+title: 'Permitir que os chamadores sem ID de chamadas deixem uma mensagem de voz'
 TOCTitle: Permitir que chamadores sem ID de chamador deixar uma mensagem de voz
 ms:assetid: 51367d98-e17c-4bcf-8b14-208bd1ac3af0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb232040(v=EXCHG.150)

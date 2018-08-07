@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o fluxo de emails da Internet através de um servidor de transporte de borda sem usar o EdgeSync: Exchange 2013 Help'
+title: 'Configurar fluxo de emails por um servidor de transporte de borda sem EdgeSync'
 TOCTitle: Configurar o fluxo de emails da Internet através de um servidor de transporte de borda sem usar o EdgeSync
 ms:assetid: 6bb98d10-6f12-4b08-a58e-36375f605d65
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb232082(v=EXCHG.150)

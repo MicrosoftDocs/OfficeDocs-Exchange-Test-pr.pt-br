@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o AutoReseed para um grupo de disponibilidade do banco de dados: Exchange 2013 Help'
+title: 'Configurar o AutoReseed para um grupo de disponibilidade do banco de dados'
 TOCTitle: Configurar o AutoReseed para um grupo de disponibilidade do banco de dados
 ms:assetid: 4a8bd779-b52a-40ed-8040-4d76eabeb41e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ619303(v=EXCHG.150)

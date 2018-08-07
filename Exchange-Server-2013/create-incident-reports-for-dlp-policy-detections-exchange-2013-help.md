@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar relatórios de incidentes para detecções de política DLP: Exchange 2013 Help'
+title: 'Criar relatórios de incidentes de detecção de política DLP: Exchange 2013 Help'
 TOCTitle: Criar relatórios de incidentes para detecções de política DLP
 ms:assetid: 8e807f94-384c-43f5-be6f-06c5587175a0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ150534(v=EXCHG.150)

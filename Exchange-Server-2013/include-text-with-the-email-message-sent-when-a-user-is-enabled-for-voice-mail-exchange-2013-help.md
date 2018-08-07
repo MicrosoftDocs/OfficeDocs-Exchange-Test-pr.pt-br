@@ -1,5 +1,5 @@
 ﻿---
-title: 'Incluir texto com a mensagem de email enviada quando um usuário está habilitado para caixa postal: Exchange 2013 Help'
+title: 'Incluir texto com o email enviado quando um usuário possui caixa postal'
 TOCTitle: Incluir texto com a mensagem de email enviada quando um usuário está habilitado para caixa postal
 ms:assetid: 3e8292fb-0cdb-445d-8048-a59af7c38d63
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb201679(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir ou impedir que um servidor de caixa de correio de atendimento de chamadas: Exchange 2013 Help'
+title: 'Permitir ou impedir atendimento de chamadas em um servidor de Caixa de Correio'
 TOCTitle: Permitir ou impedir que um servidor de caixa de correio de atendimento de chamadas
 ms:assetid: 4b860c09-6669-4e3d-b3dc-17b8018b3860
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997908(v=EXCHG.150)

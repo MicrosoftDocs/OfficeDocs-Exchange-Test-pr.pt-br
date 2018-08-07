@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um conector de recebimento para receber emails de um sistema não executa o Exchange: Exchange 2013 Help'
+title: 'Criar conector de recebimento para receber emails de um sistema sem o Exchange'
 TOCTitle: Criar um conector de recebimento para receber emails de um sistema não executa o Exchange
 ms:assetid: 85f0864a-6502-49db-8804-16755a7292b4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657467(v=EXCHG.150)

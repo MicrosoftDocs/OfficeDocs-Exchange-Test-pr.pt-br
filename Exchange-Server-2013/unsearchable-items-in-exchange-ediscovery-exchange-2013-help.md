@@ -1,5 +1,5 @@
 ﻿---
-title: 'Itens não pesquisáveis na descoberta eletrônica do Exchange: Exchange 2013 Help'
+title: 'Itens não pesquisáveis na Descoberta Eletrônica do Exchange'
 TOCTitle: Itens não pesquisáveis na descoberta eletrônica do Exchange
 ms:assetid: 32550081-9af9-474b-ae7b-28f1e68cad41
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn602498(v=EXCHG.150)

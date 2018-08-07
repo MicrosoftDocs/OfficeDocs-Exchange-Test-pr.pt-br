@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir o indicador de espera de mensagem (MWI) em um gateway IP de UM: Exchange 2013 Help'
+title: 'Permitir o indicador de espera de mensagem (MWI) em um gateway IP de UM'
 TOCTitle: Permitir o indicador de espera de mensagem (MWI) em um gateway IP de UM
 ms:assetid: 5667e37c-48c6-4659-9dc9-94b1dd8ba232
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd297995(v=EXCHG.150)

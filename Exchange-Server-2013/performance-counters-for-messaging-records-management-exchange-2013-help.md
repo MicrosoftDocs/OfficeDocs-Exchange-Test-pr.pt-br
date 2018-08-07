@@ -1,5 +1,5 @@
 ﻿---
-title: 'Contadores de desempenho para gerenciamento de registros de mensagens: Exchange 2013 Help'
+title: 'Contadores de desempenho para gerenciamento de registros de mensagens'
 TOCTitle: Contadores de desempenho para gerenciamento de registros de mensagens
 ms:assetid: b59def6f-4249-4e0c-8057-8ae6eb7c5676
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb310790(v=EXCHG.150)

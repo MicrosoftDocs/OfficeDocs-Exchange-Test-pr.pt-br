@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar meu problema com verificações automáticas - migração: Exchange 2013 Help'
+title: 'Ajudar a identificar meu problema com verificações automáticas – migração'
 TOCTitle: Ajudar a identificar meu problema com verificações automáticas - migração
 ms:assetid: c1cd235d-8e8b-44a8-862d-9d36dc3a44c3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793980(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Reduzir o tamanho de uma caixa de correio de descoberta no Exchange: Exchange 2013 Help'
+title: 'Reduzir o tamanho de uma caixa de correio de descoberta no Exchange'
 TOCTitle: Reduzir o tamanho de uma caixa de correio de descoberta no Exchange
 ms:assetid: fa762d14-f942-4728-8813-887d11441a68
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn750895(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar meu problema com o envio/recebimento de Email em um dispositivo móvel (verificações automáticas): Exchange 2013 Help'
+title: 'Não é possível enviar/receber emails em disp. móvel (verificações automáticas)'
 TOCTitle: Ajudar a identificar meu problema com o envio/recebimento de Email em um dispositivo móvel (verificações automáticas)
 ms:assetid: 7400a7c8-1e45-4e73-a642-b7d79d997462
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793610(v=EXCHG.150)

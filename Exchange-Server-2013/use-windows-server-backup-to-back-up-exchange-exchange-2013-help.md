@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar o Backup do Windows Server para fazer o backup do Exchange: Exchange 2013 Help'
+title: 'Usar o Backup do Windows Server para fazer o backup do Exchange'
 TOCTitle: Usar o Backup do Windows Server para fazer o backup do Exchange
 ms:assetid: 188a8291-0a41-4ca2-b6d2-94242e2b1ffc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd876854(v=EXCHG.150)

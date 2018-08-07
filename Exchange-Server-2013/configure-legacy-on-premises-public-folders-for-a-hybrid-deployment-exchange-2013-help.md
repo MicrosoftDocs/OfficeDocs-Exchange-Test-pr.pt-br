@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar pastas públicas locais herdadas para uma implantação híbrida: Exchange 2013 Help'
+title: 'Configurar pastas públicas locais herdadas para uma implantação híbrida'
 TOCTitle: Configurar pastas públicas locais herdadas para uma implantação híbrida
 ms:assetid: bcb0ac98-2949-486b-a8ab-8549c021651b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn249373(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Investigar a qualidade de áudio de chamadas de voz para um usuário: Exchange 2013 Help'
+title: 'Investigar a qualidade de áudio de chamadas de voz para um usuário'
 TOCTitle: Investigar a qualidade de áudio de chamadas de voz para um usuário
 ms:assetid: 0c945886-3cfa-423e-9b46-0d6b1584a145
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ659059(v=EXCHG.150)

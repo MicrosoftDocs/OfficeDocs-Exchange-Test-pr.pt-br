@@ -1,5 +1,5 @@
 ﻿---
-title: 'Especificação de unidade de banco de dados de caixa de correio é missing_MailboxEDBDriveDoesNotExist: Exchange 2013 Help'
+title: 'Especificação de unidade de banco de dados de caixa de correio ausente'
 TOCTitle: Especificação de unidade de banco de dados de caixa de correio é missing_MailboxEDBDriveDoesNotExist
 ms:assetid: 0e487aa1-3194-4a14-b255-a8b9f9afbf0e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.mailboxedbdrivedoesnotexist(v=EXCHG.150)

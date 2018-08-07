@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desabilitar ou reabilitar o compartilhamento federado para sua organização do Exchange: Exchange 2013 Help'
+title: 'Desabilitar/reabilitar compartilhamento federado para organização do Exchange'
 TOCTitle: Desabilitar ou reabilitar o compartilhamento federado para sua organização do Exchange
 ms:assetid: d36490d8-0268-47b9-a6d4-e56427f1b02e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657497(v=EXCHG.150)
