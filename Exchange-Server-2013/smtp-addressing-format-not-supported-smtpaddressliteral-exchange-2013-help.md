@@ -1,5 +1,5 @@
 ﻿---
-title: 'Formato de endereçamento SMTP não Supported_SMTPAddressLiteral: Exchange 2013 Help'
+title: 'Formato de endereçamento SMTP não Supported_SMTPAddressLiteral'
 TOCTitle: Formato de endereçamento SMTP não Supported_SMTPAddressLiteral
 ms:assetid: b8b55917-d81f-4c0a-ad65-7bb10ac58df8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.smtpaddressliteral(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Já está de função de servidor acesso para cliente instalada: Exchange 2013 Help'
+title: 'A função de servidor de Acesso para Cliente já está instalada'
 TOCTitle: Já está de função de servidor acesso para cliente instalada
 ms:assetid: 0103bf33-d553-445e-ba94-8c12e6cf507a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.caferolealreadyexists(v=EXCHG.150)

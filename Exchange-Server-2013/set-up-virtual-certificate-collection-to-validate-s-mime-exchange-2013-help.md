@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar coleção de certificados virtuais para validar S/MIME: Exchange 2013 Help'
+title: 'Configurar coleção de certificados virtuais para validar S/MIME'
 TOCTitle: Configurar coleção de certificados virtuais para validar S/MIME
 ms:assetid: 04a616e6-197c-490c-ae8c-c8d5f0f0b3dd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn626155(v=EXCHG.150)

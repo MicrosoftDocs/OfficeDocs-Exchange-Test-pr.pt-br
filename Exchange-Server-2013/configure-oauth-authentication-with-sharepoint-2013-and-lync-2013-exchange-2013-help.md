@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar a autenticação OAuth com o SharePoint 2013 e Lync 2013: Exchange 2013 Help'
+title: 'Configurar autenticação OAuth com o SharePoint 2013 e o Lync 2013'
 TOCTitle: Configurar a autenticação OAuth com o SharePoint 2013 e Lync 2013
 ms:assetid: ca3c78a3-80cc-4df2-859f-0106bbd57a07
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ649094(v=EXCHG.150)

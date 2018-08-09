@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar ou modificar uma política de caixa de correio de dispositivo móvel: Exchange 2013 Help'
+title: 'Criar ou modificar uma política de caixa de correio de dispositivo móvel'
 TOCTitle: Criar ou modificar uma política de caixa de correio de dispositivo móvel
 ms:assetid: b4a37a81-25e3-40ff-a18a-a62ae4493635
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124315(v=EXCHG.150)

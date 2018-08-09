@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar o Outlook Web App para uma caixa de correio: Exchange Online Help'
+title: 'Habilitar ou desabilitar o OWA para uma caixa de correio: Exchange Online Help'
 TOCTitle: Habilitar ou desabilitar o Outlook Web App para uma caixa de correio
 ms:assetid: abc19646-6211-4f18-a060-e347452dcc53
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124124(v=EXCHG.150)

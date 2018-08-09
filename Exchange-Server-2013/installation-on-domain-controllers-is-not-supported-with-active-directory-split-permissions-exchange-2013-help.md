@@ -1,5 +1,5 @@
 ﻿---
-title: 'Não há suporte para a instalação em controladores de domínio com o Active Directory dividir permissões: Exchange 2013 Help'
+title: 'Não há suporte para instalação em contr. de domínio com perm. divididas do AD'
 TOCTitle: Não há suporte para a instalação em controladores de domínio com o Active Directory dividir permissões
 ms:assetid: 977e3758-5e09-40a2-80c1-fe344b1d8a2a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.installondcinadsplitpermissionmode(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar caixa postal protegida de chamadores autenticados: Exchange 2013 Help'
+title: 'Configurar caixa postal protegida de chamadores autenticados'
 TOCTitle: Configurar caixa postal protegida de chamadores autenticados
 ms:assetid: f69e94a7-9768-4445-9ded-e78d732bd623
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423560(v=EXCHG.150)

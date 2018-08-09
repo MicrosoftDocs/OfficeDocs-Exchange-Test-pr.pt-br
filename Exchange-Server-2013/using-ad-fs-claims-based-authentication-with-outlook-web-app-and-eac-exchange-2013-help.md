@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar autenticação baseada em declarações do AD FS com o Outlook Web App e o EAC: Exchange 2013 Help'
+title: 'Usar autenticação baseada em declarações do AD FS com Outlook Web App e EAC'
 TOCTitle: Usar autenticação baseada em declarações do AD FS com o Outlook Web App e o EAC
 ms:assetid: 919a9bfb-c6df-490a-b2c4-51796b0f0596
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn635116(v=EXCHG.150)

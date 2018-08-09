@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usando a autenticação OAuth para suportar o Arquivamento em uma implantação híbrida do Exchange: Exchange 2013 Help'
+title: 'Usar autenticação OAuth para suportar o Arquivamento no Exchange híbrido'
 TOCTitle: Usando a autenticação OAuth para suportar o Arquivamento em uma implantação híbrida do Exchange
 ms:assetid: deb882b1-1ae2-40f3-a71c-423fafe3d66a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn689104(v=EXCHG.150)

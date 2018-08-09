@@ -1,5 +1,5 @@
 ﻿---
-title: 'Alterar as configurações de uma política de catálogo de endereços: Exchange 2013 Help'
+title: 'Alterar configurações da política de catálogo de endereços: Exchange 2013 Help'
 TOCTitle: Alterar as configurações de uma política de catálogo de endereços
 ms:assetid: ba1ca350-71c2-4c60-a612-33bfa9320b5e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh529941(v=EXCHG.150)

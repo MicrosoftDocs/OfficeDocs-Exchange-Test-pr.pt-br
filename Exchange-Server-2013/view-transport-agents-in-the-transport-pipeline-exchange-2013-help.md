@@ -1,5 +1,5 @@
 ﻿---
-title: 'Agentes de transporte de modo de exibição no pipeline de transporte: Exchange 2013 Help'
+title: 'Agente de transporte de exibição no pipeline de transporte: Exchange 2013 Help'
 TOCTitle: Agentes de transporte de modo de exibição no pipeline de transporte
 ms:assetid: bd715d8e-7b21-48de-8f68-d425d8506e4c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124395(v=EXCHG.150)

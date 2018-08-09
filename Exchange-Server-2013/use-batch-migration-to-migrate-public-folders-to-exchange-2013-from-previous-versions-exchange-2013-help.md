@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores: Exchange 2013 Help'
+title: 'Usar migração de lote para migrar pastas de versões prévias para Exchange 2013'
 TOCTitle: Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores
 ms:assetid: da808e27-d2b7-4fbd-915c-a600751f526c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn912663(v=EXCHG.150)

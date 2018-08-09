@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar nos servidores de transporte de borda de filtragem de Conexão: Exchange 2013 Help'
+title: 'Gerenciar filtragem de conexão em servidores de transporte de borda'
 TOCTitle: Gerenciar nos servidores de transporte de borda de filtragem de Conexão
 ms:assetid: baebc865-ec3e-48ca-ac48-7aac8b34c003
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124376(v=EXCHG.150)

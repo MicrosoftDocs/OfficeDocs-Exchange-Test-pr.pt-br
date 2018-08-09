@@ -1,5 +1,5 @@
 ﻿---
-title: 'Suspender ou retomar uma cópia do banco de dados de caixa de correio: Exchange 2013 Help'
+title: 'Suspender ou retomar uma cópia de banco de dados de caixa de correio'
 TOCTitle: Suspender ou retomar uma cópia do banco de dados de caixa de correio
 ms:assetid: 96aa1b82-3e15-4215-843e-3d583af9504b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd298159(v=EXCHG.150)

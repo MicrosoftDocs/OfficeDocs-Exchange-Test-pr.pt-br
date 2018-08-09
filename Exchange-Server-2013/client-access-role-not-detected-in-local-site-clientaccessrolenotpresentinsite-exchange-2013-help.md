@@ -1,5 +1,5 @@
 ﻿---
-title: 'Função acesso para cliente não detectada no local site_ClientAccessRoleNotPresentInSite: Exchange 2013 Help'
+title: 'Função Acesso para Cliente não detectada no site local : Exchange 2013 Help'
 TOCTitle: Função acesso para cliente não detectada no local site_ClientAccessRoleNotPresentInSite
 ms:assetid: b5bfc6af-9c55-46c0-a293-6078b64e87dd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.clientaccessrolenotpresentinsite(v=EXCHG.150)

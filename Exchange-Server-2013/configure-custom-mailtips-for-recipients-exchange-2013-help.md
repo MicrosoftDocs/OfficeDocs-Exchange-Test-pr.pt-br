@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar Dicas de Email personalizadas para destinatários: Exchange 2013 Help'
+title: 'Configurar Dicas de Email personalizadas para destinatários'
 TOCTitle: Configurar Dicas de Email personalizadas para destinatários
 ms:assetid: df8ee7ae-2486-4890-b057-cda87b4cb1ec
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd638199(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar um domínio aceito para uma unidade de negócios independente: Exchange 2013 Help'
+title: 'Configurar um domínio aceito para uma unidade de negócios independente'
 TOCTitle: Configurar um domínio aceito para uma unidade de negócios independente
 ms:assetid: bc95dbdc-3669-4c06-ab94-90093bc0dbfd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657491(v=EXCHG.150)

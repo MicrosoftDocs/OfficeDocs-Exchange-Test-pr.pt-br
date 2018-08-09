@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurações padrão para os diretórios virtuais do Exchange: Exchange 2013 Help'
+title: 'Configurações padrão dos diretórios virtuais do Exchange: Exchange 2013 Help'
 TOCTitle: Configurações padrão para os diretórios virtuais do Exchange
 ms:assetid: d2d89ce6-4721-4737-a325-fba5ad9422e0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg247612(v=EXCHG.150)

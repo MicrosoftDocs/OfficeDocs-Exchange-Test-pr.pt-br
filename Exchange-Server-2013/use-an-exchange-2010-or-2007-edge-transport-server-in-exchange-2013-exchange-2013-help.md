@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar um Exchange 2010 ou o servidor de transporte de borda 2007 no Exchange 2013: Exchange 2013 Help'
+title: 'Usar servidor de transporte de borda do Exchange 2010 ou 2007 no Exchange 2013'
 TOCTitle: Usar um Exchange 2010 ou o servidor de transporte de borda 2007 no Exchange 2013
 ms:assetid: ce99b4bd-868c-4767-9009-e22c17ac0ac7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ150569(v=EXCHG.150)

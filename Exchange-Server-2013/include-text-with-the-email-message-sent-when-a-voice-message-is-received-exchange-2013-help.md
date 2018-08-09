@@ -1,5 +1,5 @@
 ﻿---
-title: 'Incluir texto com a mensagem de email enviada quando for recebida uma mensagem de voz: Exchange 2013 Help'
+title: 'Incluir texto com o email enviado quando uma mensagem de voz é recebida'
 TOCTitle: Incluir texto com a mensagem de email enviada quando for recebida uma mensagem de voz
 ms:assetid: b2eec29c-e5eb-4263-80d8-0b9813dd56dc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb201718(v=EXCHG.150)

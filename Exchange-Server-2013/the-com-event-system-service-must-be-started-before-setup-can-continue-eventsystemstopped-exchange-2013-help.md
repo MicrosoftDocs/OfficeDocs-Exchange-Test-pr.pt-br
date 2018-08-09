@@ -1,5 +1,5 @@
 ﻿---
-title: 'O serviço de sistema de eventos COM + deve ser iniciado antes da instalação pode continue_EventSystemStopped: Exchange 2013 Help'
+title: 'Serviço de Sistema de Eventos COM+ deve ser iniciado para continuar a instalar'
 TOCTitle: O serviço de sistema de eventos COM + deve ser iniciado antes da instalação pode continue_EventSystemStopped
 ms:assetid: 3b8d2ba3-87fb-4749-b4d1-5dfec97e1ca4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.eventsystemstopped(v=EXCHG.150)

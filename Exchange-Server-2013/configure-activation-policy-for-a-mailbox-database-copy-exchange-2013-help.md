@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar a política de ativação para uma cópia do banco de dados de caixa de correio: Exchange 2013 Help'
+title: 'Configurar a ativação da cópia do banco de dados de caixa de correio'
 TOCTitle: Configurar a política de ativação para uma cópia do banco de dados de caixa de correio
 ms:assetid: 6b37ed6e-2e36-4688-b485-8fdbb8193ec8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd298046(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Integração com a Unificação de MENSAGENS do sistema de telefone: Exchange 2013 Help'
+title: 'Integração do sistema de telefone com a UM: Exchange 2013 Help'
 TOCTitle: Integração com a Unificação de MENSAGENS do sistema de telefone
 ms:assetid: b8790117-b040-4c84-9d34-005c75088e76
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673558(v=EXCHG.150)

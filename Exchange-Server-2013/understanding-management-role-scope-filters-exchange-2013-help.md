@@ -1,5 +1,5 @@
 ﻿---
-title: 'Noções básicas sobre filtros do escopo de função de gerenciamento: Exchange 2013 Help'
+title: 'Noções básicas sobre filtros do escopo de função de gerenciamento'
 TOCTitle: Noções básicas sobre filtros do escopo de função de gerenciamento
 ms:assetid: 6acc2922-ee9c-41f1-8a0f-10a541e8c273
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd298043(v=EXCHG.150)

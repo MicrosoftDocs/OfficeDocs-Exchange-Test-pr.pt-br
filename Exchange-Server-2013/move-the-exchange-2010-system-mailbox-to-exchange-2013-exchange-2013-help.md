@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover a caixa de correio de sistema do Exchange 2010 para o Exchange 2013: Exchange 2013 Help'
+title: 'Mover a caixa de correio de sistema do Exchange 2010 para o Exchange 2013'
 TOCTitle: Mover a caixa de correio de sistema do Exchange 2010 para o Exchange 2013
 ms:assetid: a3b03c4e-0bc7-41a2-885c-e9cac37566c8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn249849(v=EXCHG.150)

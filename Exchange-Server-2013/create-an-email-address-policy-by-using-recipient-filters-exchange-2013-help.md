@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar uma política de endereço de email usando filtros de destinatários: Exchange 2013 Help'
+title: 'Criar uma política de endereço de email usando filtros de destinatários'
 TOCTitle: Criar uma política de endereço de email usando filtros de destinatários
 ms:assetid: e3f446bd-1511-479c-8d87-2dfce5547c90
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb232194(v=EXCHG.150)

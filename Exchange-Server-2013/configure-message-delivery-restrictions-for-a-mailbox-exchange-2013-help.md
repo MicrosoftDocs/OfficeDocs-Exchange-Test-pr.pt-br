@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar restrições de entrega de mensagens para uma caixa de correio: Exchange 2013 Help'
+title: 'Configurar restrições de entrega de mensagens para uma caixa de correio'
 TOCTitle: Configurar restrições de entrega de mensagens para uma caixa de correio
 ms:assetid: c4b8b89f-3dbe-4cb8-8839-9a4e8067e00c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb397214(v=EXCHG.150)

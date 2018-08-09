@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar gravação prompt personalizada usando a interface de usuário de telefone: Exchange 2013 Help'
+title: 'Habilitar gravação prompt personalizada com a interface de usuário de telefone'
 TOCTitle: Habilitar gravação prompt personalizada usando a interface de usuário de telefone
 ms:assetid: f2e5c636-2be9-4d48-b5e7-37913ded62d1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb691404(v=EXCHG.150)

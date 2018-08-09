@@ -1,5 +1,5 @@
 ﻿---
-title: 'Software Antivírus no Sistema Operacional em Servidores do Exchange: Exchange 2013 Help'
+title: 'Software antivírus no sistema operacional em servidores do Exchange'
 TOCTitle: Software Antivírus no Sistema Operacional em Servidores do Exchange
 ms:assetid: 7cef6017-7a55-41f3-a636-1ca4fce575b1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb332342(v=EXCHG.150)

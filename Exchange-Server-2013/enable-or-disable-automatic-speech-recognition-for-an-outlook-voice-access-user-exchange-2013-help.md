@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ativar ou desativar o reconhecimento automático de fala para um usuário do Outlook Voice Access: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar ASR para usuário do Outlook Voice Access'
 TOCTitle: Ativar ou desativar o reconhecimento automático de fala para um usuário do Outlook Voice Access
 ms:assetid: 58f41016-e725-432b-953e-415d61e0664c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb232062(v=EXCHG.150)

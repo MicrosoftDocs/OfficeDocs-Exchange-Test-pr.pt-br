@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar regras de fluxo de email com base em uma lista de palavras, frases ou padrões de emails de rota: Exchange 2013 Help'
+title: 'Usar regras de fluxo de email baseadas em lista de palavras, frases ou padrões'
 TOCTitle: Usar regras de fluxo de email com base em uma lista de palavras, frases ou padrões de emails de rota
 ms:assetid: 4c5bee1b-58b5-4152-baef-86fa103050ae
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn951131(v=EXCHG.150)

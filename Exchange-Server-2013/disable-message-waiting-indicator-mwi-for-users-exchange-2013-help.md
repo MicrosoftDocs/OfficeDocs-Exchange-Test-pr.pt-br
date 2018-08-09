@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desabilitar o indicador de espera de mensagem (MWI) para usuários: Exchange 2013 Help'
+title: 'Desabilitar o indicador de espera de mensagem (MWI) para usuários'
 TOCTitle: Desabilitar o indicador de espera de mensagem (MWI) para usuários
 ms:assetid: 51cd6dc4-11d1-4eb9-a6c6-1965fcd24267
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673525(v=EXCHG.150)

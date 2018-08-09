@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um diretório virtual do catálogo de endereços offline: Exchange 2013 Help'
+title: 'Criar um diretório virtual de catálogo de endereços offline'
 TOCTitle: Criar um diretório virtual do catálogo de endereços offline
 ms:assetid: 2c70e21f-2b12-414a-9e8c-65634a767c72
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa996917(v=EXCHG.150)

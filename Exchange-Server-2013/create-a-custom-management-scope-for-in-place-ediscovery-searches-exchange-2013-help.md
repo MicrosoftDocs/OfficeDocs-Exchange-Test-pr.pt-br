@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um escopo de gerenciamento personalizado para pesquisas de Descoberta Eletrônica In-loco: Exchange 2013 Help'
+title: 'Criar escopo de geren. person. para pesquisas de Descoberta Eletrônica In-loco'
 TOCTitle: Criar um escopo de gerenciamento personalizado para pesquisas de Descoberta Eletrônica In-loco
 ms:assetid: 1543aefe-3709-402c-b9cd-c11fe898aad1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn741464(v=EXCHG.150)

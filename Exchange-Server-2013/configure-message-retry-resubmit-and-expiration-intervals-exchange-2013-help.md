@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar intervalos de repetição, reenvio e expiração de mensagem: Exchange 2013 Help'
+title: 'Configurar intervalos de repetição, reenvio e expiração de mensagem'
 TOCTitle: Configurar intervalos de repetição, reenvio e expiração de mensagem
 ms:assetid: 5420124f-aa4c-4702-b493-40a9a7edb786
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998043(v=EXCHG.150)

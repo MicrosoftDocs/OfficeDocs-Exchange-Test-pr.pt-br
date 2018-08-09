@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimentos de idiomas, saudações e prompts de Unificação de mensagens: Exchange 2013 Help'
+title: 'Procedimentos de idiomas, saudações e prompts de UM: Exchange 2013 Help'
 TOCTitle: Procedimentos de idiomas, saudações e prompts de Unificação de mensagens
 ms:assetid: 935bcf76-f27d-406e-962b-3adb014cf76e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ863293(v=EXCHG.150)

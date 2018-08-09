@@ -1,5 +1,5 @@
 ﻿---
-title: 'Adicionar marcas de retenção com ou remova as marcas de retenção uma política de retenção: Exchange 2013 Help'
+title: 'Adicionar ou remover marcas de retenção de uma política de retenção'
 TOCTitle: Adicionar marcas de retenção com ou remova as marcas de retenção uma política de retenção
 ms:assetid: 3a5196ce-2764-453d-9bc1-5ec22d06b40d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd362328(v=EXCHG.150)

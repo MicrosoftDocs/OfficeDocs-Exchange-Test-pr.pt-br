@@ -1,5 +1,5 @@
 ﻿---
-title: 'Falha na instalação ocorreu durante a instalação role_InstallWatermark um servidor: Exchange 2013 Help'
+title: 'Ocorreu falha na instalação ao instalar uma função de servidor'
 TOCTitle: Falha na instalação ocorreu durante a instalação role_InstallWatermark um servidor
 ms:assetid: ad89ebd5-f9bb-40c1-8811-09b145c2b341
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.installwatermark(v=EXCHG.150)

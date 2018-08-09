@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar a recuperação de item único para uma caixa de correio: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar a recuperação de item único para uma caixa de correio'
 TOCTitle: Habilitar ou desabilitar a recuperação de item único para uma caixa de correio
 ms:assetid: 2e7f1bcd-8395-45ad-86ce-22868bd46af0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee633460(v=EXCHG.150)

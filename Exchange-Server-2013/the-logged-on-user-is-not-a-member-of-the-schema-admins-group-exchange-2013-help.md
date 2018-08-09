@@ -1,5 +1,5 @@
 ﻿---
-title: 'O usuário conectado não é um membro do grupo Administradores de esquema: Exchange 2013 Help'
+title: 'O usuário conectado não é membro do grupo Administradores de esquema'
 TOCTitle: O usuário conectado não é um membro do grupo Administradores de esquema
 ms:assetid: a4a3f293-afb9-4c00-aa07-c438238b6a98
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.schemaupdaterequired(v=EXCHG.150)

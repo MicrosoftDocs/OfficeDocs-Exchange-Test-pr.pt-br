@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de verificação: Integrar o UM do Exchange 2013 com o Lync Server: Exchange 2013 Help'
+title: 'Lista de verificação: Integrar o UM do Exchange 2013 com o Lync Server'
 TOCTitle: 'Lista de verificação: Integrar o UM do Exchange 2013 com o Lync Server'
 ms:assetid: 3b82e86f-9f30-4445-96ad-744082abeaeb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd638120(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Propriedades de mensagem indexadas pela pesquisa do Exchange: Exchange 2013 Help'
+title: 'Propriedades de mensagem indexadas pela pesquisa do Exchange'
 TOCTitle: Propriedades de mensagem indexadas pela pesquisa do Exchange
 ms:assetid: a9754dc1-44aa-4076-8b59-a5d39246d5b0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ983804(v=EXCHG.150)

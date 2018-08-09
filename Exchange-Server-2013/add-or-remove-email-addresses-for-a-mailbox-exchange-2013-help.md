@@ -1,5 +1,5 @@
 ﻿---
-title: 'Adicionar ou remover endereços de email para uma caixa de correio: Exchange Online Help'
+title: 'Adicionar/remover endereços de email de caixa de correio: Exchange Online Help'
 TOCTitle: Adicionar ou remover endereços de email para uma caixa de correio
 ms:assetid: 93e2d9a4-7558-4509-8641-8381a7eb674f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb123794(v=EXCHG.150)

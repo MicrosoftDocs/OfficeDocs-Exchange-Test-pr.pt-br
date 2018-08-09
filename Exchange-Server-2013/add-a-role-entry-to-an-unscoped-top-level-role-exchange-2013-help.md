@@ -1,5 +1,5 @@
 ﻿---
-title: 'Adicionar uma entrada de função a uma função de nível superior sem escopo: Exchange 2013 Help'
+title: 'Adicionar entrada à função de nível superior sem escopo: Exchange 2013 Help'
 TOCTitle: Adicionar uma entrada de função a uma função de nível superior sem escopo
 ms:assetid: 52fd3f20-c348-49d5-9bdb-f2cbf780cf2d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd979789(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Adicionar a caixa de correio de Federação ao grupo de usuários do AD RMS Super: Exchange 2013 Help'
+title: 'Adicionar caixa de correio de Federação ao AD RMS Super: Exchange 2013 Help'
 TOCTitle: Adicionar a caixa de correio de Federação ao grupo de usuários do AD RMS Super
 ms:assetid: 44618df9-54f0-4474-a450-dcba48a02901
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee424431(v=EXCHG.150)

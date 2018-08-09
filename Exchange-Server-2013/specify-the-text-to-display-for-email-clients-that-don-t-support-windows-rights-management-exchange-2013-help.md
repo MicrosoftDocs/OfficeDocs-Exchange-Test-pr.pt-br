@@ -1,5 +1,5 @@
 ﻿---
-title: 'Especificar o texto a ser exibido para os clientes de email que não há suporte para gerenciamento de direitos do Windows: Exchange 2013 Help'
+title: 'Texto para clientes de email sem o gerenciamento de direitos do Windows'
 TOCTitle: Especificar o texto a ser exibido para os clientes de email que não há suporte para gerenciamento de direitos do Windows
 ms:assetid: a9b2238a-b534-469c-a0c3-2768bc3d005b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423552(v=EXCHG.150)

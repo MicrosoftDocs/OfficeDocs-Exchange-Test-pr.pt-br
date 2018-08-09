@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preservar Cco e os destinatários do grupo de distribuição expandido para eDiscovery: Exchange 2013 Help'
+title: 'Manter Cco e destinatários do grupo de distribuição expandido para eDiscovery'
 TOCTitle: Preservar Cco e os destinatários do grupo de distribuição expandido para eDiscovery
 ms:assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn770225(v=EXCHG.150)

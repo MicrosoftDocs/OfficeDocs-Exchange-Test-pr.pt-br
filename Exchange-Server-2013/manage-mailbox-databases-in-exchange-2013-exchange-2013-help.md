@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar bancos de dados de caixa de correio no Exchange 2013: Exchange 2013 Help'
+title: 'Gerenciar bancos de dados de caixa de correio no Exchange 2013'
 TOCTitle: Gerenciar bancos de dados de caixa de correio no Exchange 2013
 ms:assetid: ead4a96b-1717-435b-bcfc-9901ac4e3b58
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ150580(v=EXCHG.150)

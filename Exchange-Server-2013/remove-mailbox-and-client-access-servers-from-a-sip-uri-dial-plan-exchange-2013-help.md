@@ -1,5 +1,5 @@
 ﻿---
-title: 'Remover servidores de acesso para cliente e caixa de correio de um plano de discagem URI do SIP: Exchange 2013 Help'
+title: 'Remover serv. acesso para cliente e cx. correio de plano de discagem URI SIP'
 TOCTitle: Remover servidores de acesso para cliente e caixa de correio de um plano de discagem URI do SIP
 ms:assetid: 367441e1-1a0f-42c8-9fa8-8abe80b3d015
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997238(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mestre de esquema não está executando Windows Server 2003 Service Pack 1 ou later_SchemaFSMONotWin2003SPn: Exchange 2013 Help'
+title: 'O mestre de esquema não está executando o Windows Server 2003 SP1 ou posterior'
 TOCTitle: Mestre de esquema não está executando Windows Server 2003 Service Pack 1 ou later_SchemaFSMONotWin2003SPn
 ms:assetid: 644a85ca-7b36-4ed0-bd21-c64f2742df70
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.schemafsmonotwin2003spn(v=EXCHG.150)

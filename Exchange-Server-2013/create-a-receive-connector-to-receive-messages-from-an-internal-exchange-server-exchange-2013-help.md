@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um conector de recebimento para receber mensagens de um servidor interno do Exchange: Exchange 2013 Help'
+title: 'Criar conector de recebimento para mensagens de servidor Exchange interno'
 TOCTitle: Criar um conector de recebimento para receber mensagens de um servidor interno do Exchange
 ms:assetid: 546cead9-7a2d-4332-a5f6-35343d56c619
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657448(v=EXCHG.150)

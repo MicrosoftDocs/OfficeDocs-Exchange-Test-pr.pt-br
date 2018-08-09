@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um conector de envio para enviar email para um parceiro, com Transport Layer Security (TLS) aplicada: Exchange 2013 Help'
+title: 'Criar conector de envio para enviar emails para um parceiro com TLS aplicada'
 TOCTitle: Criar um conector de envio para enviar email para um parceiro, com Transport Layer Security (TLS) aplicada
 ms:assetid: ff2abefc-dd3e-4431-b947-df942fbf82d9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657514(v=EXCHG.150)

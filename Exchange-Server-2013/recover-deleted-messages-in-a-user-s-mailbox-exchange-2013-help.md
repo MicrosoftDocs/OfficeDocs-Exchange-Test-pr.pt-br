@@ -1,5 +1,5 @@
 ﻿---
-title: 'Recuperar mensagens excluídas na caixa de correio de um usuário: Exchange Online Help'
+title: 'Recuperar mensagens excluídas na caixa de correio de um usuário'
 TOCTitle: Recuperar mensagens excluídas na caixa de correio de um usuário
 ms:assetid: 9e0e34ce-efc5-454e-8d15-57b4da867f12
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff660637(v=EXCHG.150)

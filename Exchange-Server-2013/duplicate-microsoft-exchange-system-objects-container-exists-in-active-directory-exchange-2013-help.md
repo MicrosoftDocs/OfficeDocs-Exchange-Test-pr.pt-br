@@ -1,5 +1,5 @@
 ﻿---
-title: 'Contêiner de objetos de sistema do Microsoft Exchange duplicado existe no Active Directory: Exchange 2013 Help'
+title: 'Contêiner de objetos de sistema do Exchange duplicado no Active Directory'
 TOCTitle: Contêiner de objetos de sistema do Microsoft Exchange duplicado existe no Active Directory
 ms:assetid: cd0f45ab-89de-4653-b50d-c1157c2329d5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.adiniterrorrule(v=EXCHG.150)

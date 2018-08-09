@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impedir que o indicador de espera de mensagem (MWI) em um gateway IP de UM: Exchange 2013 Help'
+title: 'Impedir o indicador de espera de mensagem (MWI) em um gateway IP de UM'
 TOCTitle: Impedir que o indicador de espera de mensagem (MWI) em um gateway IP de UM
 ms:assetid: 7af6d094-199f-4134-a25d-9fc7e9c05fe1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673536(v=EXCHG.150)

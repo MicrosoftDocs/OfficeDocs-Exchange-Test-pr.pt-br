@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar a principal maneira para os usuários do Outlook Voice Access pesquisar: Exchange 2013 Help'
+title: 'Configurar principal forma de pesquisa para usuários do Outlook Voice Access'
 TOCTitle: Configurar a principal maneira para os usuários do Outlook Voice Access pesquisar
 ms:assetid: 3d93a037-5820-41d3-9206-69f534414daf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997563(v=EXCHG.150)

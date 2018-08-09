@@ -1,5 +1,5 @@
 ﻿---
-title: 'Defina a duração de mensagem máximo de um parceiro de visualização da caixa postal: Exchange 2013 Help'
+title: 'Definir duração máx. de mensagem para parceiro de Visualização de Caixa Postal'
 TOCTitle: Defina a duração de mensagem máximo de um parceiro de visualização da caixa postal
 ms:assetid: 18f928ff-f4cc-4eed-a466-de13388780b3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff630912(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o Outlook para mostrar o remetente original na caixa de correio de quarentena: Exchange 2013 Help'
+title: 'Configurar Outlook para mostrar remetente original na cx. corr. de quarentena'
 TOCTitle: Configurar o Outlook para mostrar o remetente original na caixa de correio de quarentena
 ms:assetid: 9249425d-1b06-48a0-ad95-c4eefb641ff4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee861109(v=EXCHG.150)

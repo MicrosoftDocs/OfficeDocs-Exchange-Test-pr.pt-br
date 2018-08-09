@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permissões insuficientes para executar /PrepareDomain_PrepareDomainNotAdmin: Exchange 2013 Help'
+title: 'Permissões insuficientes para executar /PrepareDomain: Exchange 2013 Help'
 TOCTitle: Permissões insuficientes para executar /PrepareDomain_PrepareDomainNotAdmin
 ms:assetid: c33a2bc0-5b07-49b8-a1c1-53baa4933d44
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.preparedomainnotadmin(v=EXCHG.150)

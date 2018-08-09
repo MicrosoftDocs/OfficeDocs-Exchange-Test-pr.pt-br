@@ -1,5 +1,5 @@
 ﻿---
-title: 'O computador deve ser reiniciado antes que a Configuração possa continuar: Exchange 2013 Help'
+title: 'O computador deve ser reiniciado para continuar a Configuração'
 TOCTitle: O computador deve ser reiniciado antes que a Configuração possa continuar
 ms:assetid: f2d8e504-18c1-4b86-9b97-7654d0391b19
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.pendingrebootwindowscomponents(v=EXCHG.150)

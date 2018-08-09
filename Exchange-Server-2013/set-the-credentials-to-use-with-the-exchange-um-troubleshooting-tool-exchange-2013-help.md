@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir as credenciais a serem usadas com o Exchange UM ferramenta de solução: Exchange 2013 Help'
+title: 'Definir credenciais para Ferramenta de Solução de Problemas da UM do Exchange'
 TOCTitle: Definir as credenciais a serem usadas com o Exchange UM ferramenta de solução
 ms:assetid: 542b7718-9345-40cc-bcb2-e307e70a1fa2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff630916(v=EXCHG.150)

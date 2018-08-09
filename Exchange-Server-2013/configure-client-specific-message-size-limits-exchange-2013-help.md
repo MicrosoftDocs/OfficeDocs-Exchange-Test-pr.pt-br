@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar limites de tamanho de mensagem específicos para o cliente: Exchange 2013 Help'
+title: 'Configurar limites de tamanho de mensagem para o cliente: Exchange 2013 Help'
 TOCTitle: Configurar limites de tamanho de mensagem específicos para o cliente
 ms:assetid: fef9ca78-b68f-4342-ada0-881ab985ce3c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh529949(v=EXCHG.150)

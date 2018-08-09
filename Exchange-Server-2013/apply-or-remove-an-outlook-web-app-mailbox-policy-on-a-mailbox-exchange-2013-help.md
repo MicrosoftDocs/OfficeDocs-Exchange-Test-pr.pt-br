@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aplicar ou remover uma diretiva de caixa de correio do Outlook Web App em uma caixa de correio: Exchange 2013 Help'
+title: 'Aplicar/remover política de cx. correio do Outlook Web App na caixa de correio'
 TOCTitle: Aplicar ou remover uma diretiva de caixa de correio do Outlook Web App em uma caixa de correio
 ms:assetid: 51d8e269-b0d5-4bc7-9b3d-0460871e54fa
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd876884(v=EXCHG.150)

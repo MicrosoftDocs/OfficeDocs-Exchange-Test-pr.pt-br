@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurando o compartilhamento federado entre organizações do Exchange: Exchange 2013 Help'
+title: 'Configurando o compartilhamento federado entre organizações do Exchange'
 TOCTitle: Configurando o compartilhamento federado entre organizações do Exchange
 ms:assetid: 94e31454-b027-4757-b52f-d3c2ead6d916
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657473(v=EXCHG.150)

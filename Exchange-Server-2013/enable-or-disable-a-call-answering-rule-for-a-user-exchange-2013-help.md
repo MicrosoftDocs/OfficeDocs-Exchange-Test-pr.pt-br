@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar uma regra de atendimento de chamada para um usuário: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar uma regra de atendimento de chamada para um usuário'
 TOCTitle: Habilitar ou desabilitar uma regra de atendimento de chamada para um usuário
 ms:assetid: f9e40ac3-117f-44f6-9ab1-dc9f4c72e8ac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn140252(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Cenário: Configurar o Exchange para oferecer suporte a controladores de otimização de WAN: Exchange 2013 Help'
+title: 'Cenário: configurar o Exchange para suporte a controladores de otimização WAN'
 TOCTitle: 'Cenário: Configurar o Exchange para oferecer suporte a controladores de otimização de WAN'
 ms:assetid: 1f407698-0b71-45a3-867a-640ccf7351da
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee633456(v=EXCHG.150)

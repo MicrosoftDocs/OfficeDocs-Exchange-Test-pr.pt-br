@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o número de chamadas de entrada em um servidor de caixa de correio: Exchange 2013 Help'
+title: 'Configurar o número de chamadas de entrada em um servidor de caixa de correio'
 TOCTitle: Configurar o número de chamadas de entrada em um servidor de caixa de correio
 ms:assetid: 419e1de9-2bf8-48a8-824d-2a536b0a6d90
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997637(v=EXCHG.150)

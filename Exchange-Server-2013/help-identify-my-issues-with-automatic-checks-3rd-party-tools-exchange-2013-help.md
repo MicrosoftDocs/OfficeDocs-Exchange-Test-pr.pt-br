@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar Meus problemas com verificações automáticas - 3º ferramentas de terceiros: Exchange 2013 Help'
+title: 'Identificar problema com verificações automáticas – ferramentas de terceiros'
 TOCTitle: Ajudar a identificar Meus problemas com verificações automáticas - 3º ferramentas de terceiros
 ms:assetid: 83b71e35-892e-44e3-9fce-c608b49bbc61
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793974(v=EXCHG.150)

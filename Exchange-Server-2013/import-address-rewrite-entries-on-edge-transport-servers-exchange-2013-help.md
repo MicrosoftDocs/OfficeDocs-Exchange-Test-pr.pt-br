@@ -1,5 +1,5 @@
 ﻿---
-title: 'Entradas em servidores de transporte de borda de reconfiguração de endereço de importação: Exchange 2013 Help'
+title: 'Importar entradas de endereço em servidores de Transporte de Borda'
 TOCTitle: Entradas em servidores de transporte de borda de reconfiguração de endereço de importação
 ms:assetid: bd0942c6-9c66-4b4c-b9bc-2f5f783def76
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb331966(v=EXCHG.150)

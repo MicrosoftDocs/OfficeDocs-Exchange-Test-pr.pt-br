@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir ou impedir que um usuário crie regras de atendimento de chamada: Exchange 2013 Help'
+title: 'Permitir/impedir usuário de criar regras de atend. chamada: Exchange 2013 Help'
 TOCTitle: Permitir ou impedir que um usuário crie regras de atendimento de chamada
 ms:assetid: 81863440-8b21-4523-bdab-6a2311889a0d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd298097(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'O computador local é responsável pela expansão de grupo membership_ServerIsDynamicGroupExpansionServer: Exchange 2013 Help'
+title: 'O computador local é responsável pela expansão de associação ao grupo'
 TOCTitle: O computador local é responsável pela expansão de grupo membership_ServerIsDynamicGroupExpansionServer
 ms:assetid: f6fdd8e1-fda1-45be-b8a2-0d356dbe7d83
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.serverisdynamicgroupexpansionserver(v=EXCHG.150)

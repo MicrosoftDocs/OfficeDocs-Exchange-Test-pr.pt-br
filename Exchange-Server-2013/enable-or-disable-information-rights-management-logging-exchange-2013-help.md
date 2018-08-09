@@ -1,5 +1,5 @@
 ﻿---
-title: 'Enable or Disable informações de log de gerenciamento de direitos: Exchange 2013 Help'
+title: 'Habilitar ou desabilitar informações de log de gerenciamento de direitos'
 TOCTitle: Enable or Disable informações de log de gerenciamento de direitos
 ms:assetid: 6933bc65-4d98-4878-9167-0e9eaac68b6b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff686962(v=EXCHG.150)

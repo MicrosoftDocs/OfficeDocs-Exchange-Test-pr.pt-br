@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir o parceiro URI para permitir que o envio de fax do servidor de fax: Exchange 2013 Help'
+title: 'Definir o parceiro URI para permitir que o envio de fax do servidor de fax'
 TOCTitle: Definir o parceiro URI para permitir que o envio de fax do servidor de fax
 ms:assetid: 77a9013b-d76b-4af2-8b2c-cef435cf67af
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ650873(v=EXCHG.150)

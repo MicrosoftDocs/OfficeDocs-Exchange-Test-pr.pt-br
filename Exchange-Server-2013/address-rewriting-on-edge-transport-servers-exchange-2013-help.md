@@ -1,5 +1,5 @@
 ﻿---
-title: 'Reconfiguração nos servidores de transporte de borda de endereço: Exchange 2013 Help'
+title: 'Reconfiguração de servidores de transporte de borda: Exchange 2013 Help'
 TOCTitle: Reconfiguração nos servidores de transporte de borda de endereço
 ms:assetid: 23f1eaf6-247a-4671-ad72-aae19d9b511d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa996806(v=EXCHG.150)

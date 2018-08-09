@@ -1,5 +1,5 @@
 ﻿---
-title: 'Alterar uma entrada de função em uma função de nível superior sem escopo: Exchange 2013 Help'
+title: 'Alterar entrada de função de nível superior sem escopo: Exchange 2013 Help'
 TOCTitle: Alterar uma entrada de função em uma função de nível superior sem escopo
 ms:assetid: 65c0bfb3-aafd-4c64-8429-7616c57adf1c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd876896(v=EXCHG.150)

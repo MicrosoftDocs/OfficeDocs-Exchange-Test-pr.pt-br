@@ -1,5 +1,5 @@
 ﻿---
-title: 'Solicitações de importação e exportação da caixa de correio: Exchange 2013 Help'
+title: 'Solicitações de importação e exportação da caixa de correio'
 TOCTitle: Solicitações de importação e exportação da caixa de correio
 ms:assetid: 157a7d88-d3aa-4056-9a50-df67451b14be
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee633455(v=EXCHG.150)

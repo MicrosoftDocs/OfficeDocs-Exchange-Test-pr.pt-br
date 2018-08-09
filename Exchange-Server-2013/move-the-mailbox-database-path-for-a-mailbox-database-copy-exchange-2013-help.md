@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover o caminho do banco de dados de caixa de correio para uma cópia do banco de dados de caixa de correio: Exchange 2013 Help'
+title: 'Mover caminho do banco de dados de caixa de correio para uma cópia'
 TOCTitle: Mover o caminho do banco de dados de caixa de correio para uma cópia do banco de dados de caixa de correio
 ms:assetid: 324f255c-d95d-4a8a-a134-c8cee5c5b9cb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd979782(v=EXCHG.150)

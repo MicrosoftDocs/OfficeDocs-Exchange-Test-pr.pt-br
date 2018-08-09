@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o modo secundário para os usuários do Outlook Voice Access pesquisar: Exchange 2013 Help'
+title: 'Configurar forma secundária de pesquisa para usuários do Outlook Voice Access'
 TOCTitle: Configurar o modo secundário para os usuários do Outlook Voice Access pesquisar
 ms:assetid: 5cd4e0a0-d023-45a1-aa3c-b8dea6ec6d72
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998311(v=EXCHG.150)

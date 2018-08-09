@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um conector de envio para rotear emails de saída por meio de um host inteligente: Exchange 2013 Help'
+title: 'Criar um conector de envio para rotear emails de saída por um host inteligente'
 TOCTitle: Criar um conector de envio para rotear emails de saída por meio de um host inteligente
 ms:assetid: 4a9ef08e-bd62-4c6b-8790-d24fb0f8f24b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673059(v=EXCHG.150)

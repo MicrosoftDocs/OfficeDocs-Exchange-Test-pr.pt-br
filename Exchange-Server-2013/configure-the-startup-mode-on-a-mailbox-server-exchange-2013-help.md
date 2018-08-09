@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o modo de inicialização em um servidor de caixa de correio: Exchange 2013 Help'
+title: 'Configurar inicialização em servidor de caixa de correio: Exchange 2013 Help'
 TOCTitle: Configurar o modo de inicialização em um servidor de caixa de correio
 ms:assetid: 4457d6a0-52bd-4269-8cb5-d34d7fe9bfc3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423544(v=EXCHG.150)

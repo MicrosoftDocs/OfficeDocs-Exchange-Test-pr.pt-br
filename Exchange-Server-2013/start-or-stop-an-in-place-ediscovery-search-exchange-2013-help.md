@@ -1,5 +1,5 @@
 ﻿---
-title: 'Iniciar ou parar uma pesquisa de descoberta eletrônica In-loco: Exchange 2013 Help'
+title: 'Iniciar ou parar pesquisa de descoberta eletrônica In-loco: Exchange 2013 Help'
 TOCTitle: Iniciar ou parar uma pesquisa de descoberta eletrônica In-loco
 ms:assetid: 0d546763-4bf5-4523-91f4-d181b7ee4ac2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd335090(v=EXCHG.150)

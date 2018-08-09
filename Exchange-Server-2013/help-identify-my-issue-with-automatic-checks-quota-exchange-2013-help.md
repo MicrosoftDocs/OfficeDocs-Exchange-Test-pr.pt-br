@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar meu problema com verificações automáticas - cota: Exchange 2013 Help'
+title: 'Ajudar a identificar o meu problema com verificações automáticas – cota'
 TOCTitle: Ajudar a identificar meu problema com verificações automáticas - cota
 ms:assetid: ddb93b30-d25c-463e-9814-0c56601ae734
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793976(v=EXCHG.150)

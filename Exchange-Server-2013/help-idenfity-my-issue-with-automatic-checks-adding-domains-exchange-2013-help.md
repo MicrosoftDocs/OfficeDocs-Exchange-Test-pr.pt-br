@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajuda Idenfity meu problema com verificações automáticas - adicionar domínios: Exchange 2013 Help'
+title: 'Identificar problema com verificações automáticas – adicionar domínios'
 TOCTitle: Ajuda Idenfity meu problema com verificações automáticas - adicionar domínios
 ms:assetid: ea90a24b-7c9c-48d5-9475-0eb7777452f3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793981(v=EXCHG.150)

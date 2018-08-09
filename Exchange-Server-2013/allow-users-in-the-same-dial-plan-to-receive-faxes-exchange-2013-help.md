@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir que os usuários no mesmo plano de discagem para receber faxes: Exchange 2013 Help'
+title: 'Permitir que os usuários do mesmo plano de discagem recebam faxes'
 TOCTitle: Permitir que os usuários no mesmo plano de discagem para receber faxes
 ms:assetid: cb245028-0b86-4171-879e-934dd35fa626
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124557(v=EXCHG.150)

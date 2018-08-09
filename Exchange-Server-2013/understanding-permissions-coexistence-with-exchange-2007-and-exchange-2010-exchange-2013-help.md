@@ -1,5 +1,5 @@
 ﻿---
-title: 'Noções básicas sobre a coexistência de permissões com o Exchange 2007 e Exchange 2010: Exchange 2013 Help'
+title: 'Noções básicas sobre coexistência de permissões no Exchange 2007 e 2010'
 TOCTitle: Noções básicas sobre a coexistência de permissões com o Exchange 2007 e Exchange 2010
 ms:assetid: 28ab1433-23ee-4914-8f21-9a32578792e5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd335157(v=EXCHG.150)

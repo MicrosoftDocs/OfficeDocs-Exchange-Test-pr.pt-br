@@ -1,5 +1,5 @@
 ﻿---
-title: 'Atribuir uma política de caixa de correio de Unificação de mensagens: Exchange 2013 Help'
+title: 'Atribuir uma política de caixa de correio de UM: Exchange 2013 Help'
 TOCTitle: Atribuir uma política de caixa de correio de Unificação de mensagens
 ms:assetid: c8da6cbe-3d22-4fff-8b5a-416b1c8adb6c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb201728(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir o endereço do parceiro de visualização da caixa postal: Exchange 2013 Help'
+title: 'Definir o endereço do parceiro de visualização da caixa postal'
 TOCTitle: Definir o endereço do parceiro de visualização da caixa postal
 ms:assetid: 57fbed1e-1b14-4939-95e6-ef7c072f32a9
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff630917(v=EXCHG.150)

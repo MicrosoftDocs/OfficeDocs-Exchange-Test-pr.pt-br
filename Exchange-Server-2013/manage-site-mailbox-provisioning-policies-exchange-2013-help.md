@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar políticas de provisionamento de caixa de correio do site: Exchange 2013 Help'
+title: 'Gerenciar políticas de provisionamento de caixa de correio do site'
 TOCTitle: Gerenciar políticas de provisionamento de caixa de correio do site
 ms:assetid: 2f160d1a-a031-461f-8d29-c9cd49ca1645
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ710340(v=EXCHG.150)

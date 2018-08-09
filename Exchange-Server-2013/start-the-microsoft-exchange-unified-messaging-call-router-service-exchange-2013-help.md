@@ -1,5 +1,5 @@
 ﻿---
-title: 'Iniciar o serviço Microsoft Exchange Unified Messaging roteador de chamadas: Exchange 2013 Help'
+title: 'Iniciar o serviço Roteador de Chamadas da UM do Exchange: Exchange 2013 Help'
 TOCTitle: Iniciar o serviço Microsoft Exchange Unified Messaging roteador de chamadas
 ms:assetid: 8b7e1a4c-87b3-4477-a95f-6b41cf2d38f0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673542(v=EXCHG.150)

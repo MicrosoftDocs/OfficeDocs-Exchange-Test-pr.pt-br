@@ -1,5 +1,5 @@
 ﻿---
-title: 'Atribuir um certificado para os serviços de Unificação de mensagens e o roteador de chamada UM: Exchange 2013 Help'
+title: 'Atribuir um certificado para os serviços de UM e o roteador de chamada UM'
 TOCTitle: Atribuir um certificado para os serviços de Unificação de mensagens e o roteador de chamada UM
 ms:assetid: 8a900e5f-9779-4213-92d7-ec157b15fbc5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn205140(v=EXCHG.150)

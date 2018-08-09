@@ -1,5 +1,5 @@
 ﻿---
-title: 'Benefícios e recursos antispam do Exchange Online Protection no Exchange Server 2013: Exchange 2013 Help'
+title: 'Benefícios e recursos antispam do EOP no Exchange Server 2013'
 TOCTitle: Benefícios e recursos antispam do Exchange Online Protection no Exchange Server 2013
 ms:assetid: 00e37a3c-3fbc-488f-bdad-d52a3c80fd72
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673032(v=EXCHG.150)

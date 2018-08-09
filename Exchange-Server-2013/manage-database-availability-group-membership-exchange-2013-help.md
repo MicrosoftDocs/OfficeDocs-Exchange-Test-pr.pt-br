@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar a associação de grupo de disponibilidade do banco de dados: Exchange 2013 Help'
+title: 'Gerenciar a associação de grupo de disponibilidade do banco de dados'
 TOCTitle: Gerenciar a associação de grupo de disponibilidade do banco de dados
 ms:assetid: fb2ea15e-96d5-4045-b75b-b0aa5fc60479
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd351278(v=EXCHG.150)

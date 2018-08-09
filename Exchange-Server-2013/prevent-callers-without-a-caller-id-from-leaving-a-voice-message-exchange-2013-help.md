@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impedir que os chamadores sem ID de chamador deixar uma mensagem de voz: Exchange 2013 Help'
+title: 'Impedir que os chamadores sem ID de chamadas deixem uma mensagem de voz'
 TOCTitle: Impedir que os chamadores sem ID de chamador deixar uma mensagem de voz
 ms:assetid: dd5dad32-2f69-4bf4-8ff0-545c413d395a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673571(v=EXCHG.150)

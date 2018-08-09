@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar uma política de caixa de correio de Unificação de mensagens: Exchange 2013 Help'
+title: 'Gerenciar uma política de caixa de correio de UM: Exchange 2013 Help'
 TOCTitle: Gerenciar uma política de caixa de correio de Unificação de mensagens
 ms:assetid: 704b001c-3e6f-4ed5-bbe5-42a778f6ac0d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998829(v=EXCHG.150)

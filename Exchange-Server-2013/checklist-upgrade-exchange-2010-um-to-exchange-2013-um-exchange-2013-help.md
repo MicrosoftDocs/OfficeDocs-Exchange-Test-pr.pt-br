@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de verificação: Atualizar a UM do Exchange 2010 para a UM do Exchange 2013: Exchange 2013 Help'
+title: 'Lista de verificação: atualizar UM do Exchange 2010 para UM do Exchange 2013'
 TOCTitle: 'Lista de verificação: Atualizar a UM do Exchange 2010 para a UM do Exchange 2013'
 ms:assetid: 799bd1b1-a918-4bd8-911e-e6ca08bd7b52
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn169228(v=EXCHG.150)

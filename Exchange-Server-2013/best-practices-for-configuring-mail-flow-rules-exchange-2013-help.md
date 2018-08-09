@@ -1,5 +1,5 @@
 ﻿---
-title: 'Práticas recomendadas para configuração das regras de fluxo de email: Exchange Online Protection Help'
+title: 'Configuração das regras de fluxo de email: Exchange Online Protection Help'
 TOCTitle: Práticas recomendadas para configuração das regras de fluxo de email
 ms:assetid: abd863c3-c0ce-42f3-9470-a573adc3cbba
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn960147(v=EXCHG.150)

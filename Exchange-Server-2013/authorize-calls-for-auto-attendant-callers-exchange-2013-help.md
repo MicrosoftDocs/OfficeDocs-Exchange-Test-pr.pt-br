@@ -1,5 +1,5 @@
 ﻿---
-title: 'Autorizar chamadas para os chamadores de atendedor automático: Exchange 2013 Help'
+title: 'Autorizar chamadas para chamadores de atendedor automático: Exchange 2013 Help'
 TOCTitle: Autorizar chamadas para os chamadores de atendedor automático
 ms:assetid: c6c94fad-64df-44aa-a198-980f017ef716
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb691238(v=EXCHG.150)

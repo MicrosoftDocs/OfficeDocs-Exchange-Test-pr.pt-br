@@ -1,5 +1,5 @@
 ﻿---
-title: 'Alterar as configurações para usuários específicos de limitação de usuário: Exchange 2013 Help'
+title: 'Alterar as configurações para usuários específicos de limitação de usuário'
 TOCTitle: Alterar as configurações para usuários específicos de limitação de usuário
 ms:assetid: c5f834d6-189d-485e-9800-5e0066815ecf
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ863577(v=EXCHG.150)

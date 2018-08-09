@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover uma pasta pública para uma caixa de correio de pasta pública diferentes: Exchange 2013 Help'
+title: 'Mover pasta pública para uma caixa de correio diferente: Exchange 2013 Help'
 TOCTitle: Mover uma pasta pública para uma caixa de correio de pasta pública diferentes
 ms:assetid: b8744934-a3cb-443e-acce-a9a6ca5d88f6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ906435(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Pare o serviço de Unificação de mensagens do Microsoft Exchange: Exchange 2013 Help'
+title: 'Pare o serviço de UM do Microsoft Exchange: Exchange 2013 Help'
 TOCTitle: Pare o serviço de Unificação de mensagens do Microsoft Exchange
 ms:assetid: 64fa5535-8150-45c6-82e6-d2346892a031
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998595(v=EXCHG.150)
