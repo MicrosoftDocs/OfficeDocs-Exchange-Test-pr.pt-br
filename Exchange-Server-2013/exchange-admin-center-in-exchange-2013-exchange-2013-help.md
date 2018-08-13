@@ -180,7 +180,7 @@ O *bloco Eu* permite sair do EAC e entrar como um usuário diferente. No menu su
 Para uma melhor experiência com o EAC, use um dos sistemas operacionais e combinações de navegador rotulados como "Premium".
 
 
-> [!TIP]
+> [!NOTE]
 > Não há suporte para outras combinações de sistema operacional e navegador não listadas na tabela, inclusive recursos de toque.
 
 

@@ -66,7 +66,7 @@ A figura a seguir ilustra a relação entre a conta de usuário vinculado usado 
 4.  Se sua organização tiver configurado uma relação de confiança de saída unidirecional onde a floresta de conta de confiança de floresta do Exchange, você será solicitado para credenciais de administrador na floresta de conta para que você possa ter acesso a um controlador de domínio na floresta confiável. Digite o nome de usuário e senha para uma conta de administrador na floresta de conta e clique em **Avançar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Você não será avisado para credenciais de administrador se você criou uma relação de confiança bidirecional ou criou outra confiança de saída unidirecional, onde a floresta de conta de confiança de floresta do Exchange.
 
 
