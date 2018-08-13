@@ -132,11 +132,11 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
         O resultado esperado deve se parecer com a seguinte saída.
 		
-	```
+	    ```
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
-	```
+	    ```
 
     > [!WARNING]
     > Antes de continuar, os cmdlets Módulo Azure Active Directory para Windows PowerShell é necessário. Se os cmdlets Módulo Azure Active Directory para Windows PowerShell (anteriormente conhecido como o Microsoft Online Services Module for Windows PowerShell) não tiver sido instalado, você pode instalá-lo a partir <A href="http://aka.ms/aadposh">Gerenciar o Azure AD usando o Windows PowerShell</A>.
@@ -181,11 +181,11 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
         O resultado esperado deve ser o seguinte.
 		
-	```
+	    ```
         Please enter the administrator user name and password of the Office 365 tenant domain...
         Adding a key to Service Principal...
         Complete.
-	```
+	    ```
 		
 ## Habilitar o uso de proxy para as notificações por push
 

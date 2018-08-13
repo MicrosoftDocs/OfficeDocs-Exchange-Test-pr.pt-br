@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-10-13_
 Notificações de Entrega é uma ferramenta de acompanhamento de mensagens no Centro de Administração do Exchange (EAC) que pode ser usada para pesquisar o status de entrega de emails enviados ou recebidos dos usuários do catálogo de endereços compartilhado da organização, com um determinado assunto. É possível acompanhar informações de entrega sobre mensagens enviadas ou recebidas em qualquer caixa de correio específica da organização. O conteúdo do corpo da mensagem não é retornado em uma notificação de entrega, mas a linha de assunto é exibida nos resultados. Você pode acompanhar mensagens por até 14 dias após elas serem enviadas ou recebidas.
 
 
-> [!TIP]
+> [!NOTE]
 > O recurso Notificações de Entrega acompanha mensagens enviadas por pessoas que usam os clientes de email Microsoft Outlook ou Outlook Web App. Ele não acompanha mensagens enviadas de clientes de email POP ou IMAP como o Windows Mail Outlook Express ou Mozilla Thunderbird.
 
 

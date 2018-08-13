@@ -26,7 +26,7 @@ A figura a seguir ilustra a relação entre a conta de usuário vinculado usado 
 ![Organização complexa do Exchange com floresta de recursos](images/Aa998031.706725cf-e520-4b89-a275-acd8fb58943a(EXCHG.150).gif "Organização complexa do Exchange com floresta de recursos")
 
 
-> [!TIP]
+> [!NOTE]
 > Uma relação de confiança entre a floresta do Exchange e a floresta de pelo menos uma conta deve ser configurada antes de criar caixas de correio vinculadas. No mínimo, você deve configurar uma relação de confiança unidirecional de saída para que a floresta de conta de confiança de floresta do Exchange. Para obter mais informações, consulte <A href="https://technet.microsoft.com/pt-br/library/jj156983(v=exchg.150)">Saiba mais sobre como configurar uma relação de confiança de floresta para dar suporte a caixas de correio vinculadas</A>.
 
 
@@ -88,7 +88,7 @@ A figura a seguir ilustra a relação entre a conta de usuário vinculado usado 
       - **\* Nome de logon do usuário**    Use esta caixa para digitar o nome de logon do usuário, que é necessário para criar uma caixa de correio vinculada. Digite o nome de usuário. Esse nome será usado na parte esquerda do endereço de email para a caixa de correio vinculada se você não especificar um alias.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Como a conta de usuário que é criada na floresta do Exchange está desabilitada quando você cria uma caixa de correio vinculada, o usuário não usa o nome de logon do usuário para entrar na caixa de correio vinculada. Entrarem usando suas credenciais da floresta de conta.
 
 
@@ -98,7 +98,7 @@ A figura a seguir ilustra a relação entre a conta de usuário vinculado usado 
       - **Alias**    Digite o alias, que especifica o alias de email para a caixa de correio vinculada. O alias do usuário é a parte do endereço de email no lado esquerdo do em (@) símbolo. Ele deve ser exclusivo na floresta.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Se você deixar essa caixa em branco, o valor da parte do nome de usuário do <STRONG>Nome de Logon do usuário</STRONG> é usado para o alias de email.
 
     
@@ -201,7 +201,7 @@ Use a seção de **Uso de caixa de correio** para exibir ou alterar a cota de ar
   - **Utilização de caixa de correio**   Essa área mostra o tamanho total da caixa de correio e a porcentagem da cota total de caixa de correio que foi usada.
 
 
-> [!TIP]
+> [!NOTE]
 > Para obter as informações que são exibidas nas duas caixas anteriores, a EAT consulta o banco de dados de caixa de correio que hospeda a caixa de correio. Se o EAC não pode se comunicar com o repositório do Exchange que contém o banco de dados de caixa de correio, essas caixas ficará em branco. Uma mensagem de aviso será exibida se o usuário não tiver entrado à caixa de correio pela primeira vez.
 
 
@@ -237,7 +237,7 @@ Use a seção de **endereço de Email** para exibir ou alterar os endereços de 
       - **Tipo de endereço personalizado**   Clique nesse botão e digite um dos tipos de endereço de email não SMTP compatíveis na caixa **\* Endereço de email**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Com a exceção de endereços X.400, o Exchange não valida endereços personalizados para a formatação adequada. Certifique-se de que o endereço personalizado que você especificar esteja de acordo com os requisitos de formato para esse tipo de endereço.
 
 
@@ -259,7 +259,7 @@ Use a seção **Recursos da Caixa de Correio** para exibir ou modificar os recur
   - **Unificação de mensagens**    Esse recurso é desabilitado por padrão. Quando você habilita o Unified Messaging (UM) o usuário será capaz de usar os recursos de Unificação de mensagens da sua organização e um conjunto padrão das propriedades de Unificação de mensagens são aplicadas ao usuário. Clique em **Habilitar** para habilitar a Unificação de mensagens da caixa de correio. Para obter informações sobre como habilitar a Unificação de mensagens, consulte [Habilitar um usuário para caixa postal](enable-a-user-for-voice-mail-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Um plano de discagem de UM e uma política de UM devem existir, antes de você poder habilitar a UM.
 
 
@@ -285,7 +285,7 @@ Use a seção **Recursos da Caixa de Correio** para exibir ou modificar os recur
       - **URL**   Use essa caixa para fornecer uma URL para um site que contém informações ou instruções sobre a retenção de litígio da caixa de correio.
         
 
-        > [!TIP]
+        > [!NOTE]
         > O texto dessas caixas aparecerá na caixa de correio do usuário somente se eles estão usando o Outlook 2010 ou versões posteriores. Ele não aparece no Outlook Web App ou outros clientes de email. Para exibir o texto das caixas nota e URL no Outlook, clique na guia <STRONG>arquivo</STRONG> e, na página <STRONG>Info</STRONG>, em <STRONG>Configurações de conta</STRONG>, você verá a retenção de litígio mantenha o comentário.
 
 
@@ -311,7 +311,7 @@ Use a seção **Recursos da Caixa de Correio** para exibir ou modificar os recur
       - **Limite de destinatário**    Essa configuração controla o número máximo de destinatários, que o usuário pode enviar uma mensagem. Marque a caixa de seleção de **destinatários máximo** para limitar o número de destinatários permitido em para:, Cc: e Cco: linhas de um email de mensagem e, em seguida, especifique o número máximo de destinatários.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Para organizações do Exchange no local, o limite de destinatários é ilimitado. Para organizações do Exchange Online, o limite é de 500 destinatários.
 
 
@@ -347,7 +347,7 @@ Use a seção **Membro de** para exibir uma lista dos grupos de distribuição o
 Use a seção de **Dica de email** para adicionar uma dica de email para alertar os usuários de possíveis problemas quando eles enviam uma mensagem para o destinatário. Uma dica de email é o texto que é exibido na barra de informações quando um destinatário é adicionado a para, Cc ou Cco, linhas de uma nova mensagem de email.
 
 
-> [!TIP]
+> [!NOTE]
 > As Dicas de Email podem incluir marcas HTML, mas scripts não são permitidos. O comprimento de uma dica de email personalizada não pode exceder 175 caracteres exibidos. Marcas HTML não são contadas no limite.
 
 

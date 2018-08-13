@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2017-03-27_
 As pastas públicas são feitas para acesso compartilhado e oferecem um jeito fácil e eficaz de coletar, organizar e compartilhar informações com outros pessoas no seu grupo de trabalho ou organização. Pastas públicas ajudam a organizar o conteúdo em uma hierarquia profunda fácil de navegar. Os usuários verão a hierarquia completa no Outlook, o que facilita a busca do conteúdo no qual eles estão interessados.
 
 
-> [!TIP]
+> [!NOTE]
 > Pastas públicas estão disponíveis nos seguintes clientes do Outlook: Outlook Web App para Exchange 2013, Outlook 2007, Outlook 2010, Outlook 2013 e Outlook for Mac.
 
 
@@ -28,7 +28,7 @@ As pastas públicas são feitas para acesso compartilhado e oferecem um jeito f�
 Pastas públicas também podem ser usadas como um método de arquivamento para grupos de distribuição. Quando você habilitar uma pasta pública para email e adicioná-la como membro do grupo de distribuição, os emails enviados ao grupo serão automaticamente adicionados à pasta pública para referência futura.
 
 
-> [!TIP]
+> [!NOTE]
 > É necessário usar o Outlook 2007 ou posterior para acessar pastas públicas em servidores Exchange 2013.
 
 
@@ -76,7 +76,7 @@ Há dois tipos de caixas de correio de pastas públicas: a *caixa de correio de 
   - **Caixas de correio de hierarquia secundária** As caixas de correio de hierarquia secundária também têm o conteúdo de pastas públicas e uma cópia somente leitura da hierarquia de pastas públicas.
 
 
-> [!TIP]
+> [!NOTE]
 > Não há suporte a políticas de retenção para caixas de correio de pastas públicas.
 
 
@@ -110,7 +110,7 @@ A hierarquia de pastas públicas contém propriedades das pastas e informações
   - A posição da pasta na árvore de pastas públicas, incluindo suas pastas pai e filho
 
 
-> [!TIP]
+> [!NOTE]
 > A hierarquia não armazena informações sobre endereços de email para pastas públicas habilitadas para email. Os endereços de email são armazenados no objeto de diretório no Active Directory.
 
 
@@ -134,7 +134,7 @@ Para obter mais informações, consulte [Criar uma pasta pública](create-a-publ
 O conteúdo de pastas públicas pode incluir mensagens de email, postagens, documentos e eForms. O conteúdo é armazenado na caixa de correio de pastas públicas, mas não é replicado em várias caixas de correio de pastas públicas. Todos os usuários acessam a mesma caixa de correio de pastas públicas para o mesmo conjunto de conteúdo. Embora uma pesquisa de texto completo de conteúdo de pastas públicas esteja disponível, o conteúdo de pasta pública não é pesquisável em pastas públicas, e o conteúdo não é indexado pela Pesquisa do Exchange.
 
 
-> [!TIP]
+> [!NOTE]
 > Há suporte para o Outlook Web App, mas com limitações. Você pode adicionar e remover pastas públicas favoritas e realizar operações em nível de item, como criar, editar, excluir postagens e responder a postagens. No entanto, você não pode criar nem excluir pastas públicas do Outlook Web App. Além disso, apenas as pastas públicas Email, Postagem, Calendário e Contatos podem ser adicionadas à lista de favoritos no Outlook Web App.
 
 
