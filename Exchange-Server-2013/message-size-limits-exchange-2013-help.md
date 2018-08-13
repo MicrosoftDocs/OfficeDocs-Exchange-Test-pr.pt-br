@@ -52,7 +52,7 @@ A seguir, as categorias básicas dos limites de tamanho disponíveis para mensag
   - **Limites de tamanho de cabeçalho de mensagem**   Esses limites se aplicam ao tamanho total de todos os campos de cabeçalho de mensagem presentes na mensagem. O tamanho do corpo ou dos anexos da mensagem não é considerado. Como os campos de cabeçalho são texto não criptografado, o tamanho do cabeçalho é determinado pelo número de caracteres em cada campo de cabeçalho e pelo número total de campos de cabeçalho. Cada caractere de texto consome 1 byte.
     
 
-    > [!TIP]  
+    > [!NOTE]
     > Alguns servidores proxy ou firewalls de terceiros aplicam seus próprios limites de tamanho de cabeçalho da mensagem. Esses firewalls ou servidores proxy de terceiros podem ter dificuldades para processar mensagens que contenham nomes de arquivos anexos com mais de 50 caracteres ou com caracteres que não sejam US-ASCII.
 
 
@@ -118,7 +118,7 @@ As tabelas a seguir exibem os limites de mensagens, incluindo informações sobr
 <tr class="odd">
 <td><p>Número máximo de destinatários por mensagem</p>
 
-> [!Tip]  
+> [!NOTE] 
 > <p></p>
 
 </td>
@@ -179,7 +179,7 @@ Retornar ao início
 <tr class="even">
 <td><p>Tamanho de mensagem máximo por meio de um conector de recebimento</p>
 
-> [!TIP]  
+> [!NOTE]
 > O tamanho real de mensagem pode ser menor devido à codificação de mensagem e à conversão de conteúdo.
 
 
@@ -201,7 +201,7 @@ Retornar ao início
 <p><strong>Serviço de Transporte de Front-End nos servidores de Acesso para Cliente</strong></p>
 <p>200 para os conectores de Front-end Padrão, Front-end de Cliente e Front-end de Recebimento de Proxy de Cliente.</p>
 
-> [!TIP]  
+> [!NOTE]  
 > Se o número de destinatários for excedido para um remetente anônimo, a mensagem será aceita para os primeiros 200&nbsp;destinatários. A maior parte dos servidores de mensagens SMTP detecta que há um limite de destinatários em vigor. O servidor de mensagens SMTP continua reenviando a mensagem em grupos de 200 destinatários até que a mensagem seja entregue a todos os destinatários.
 
 
@@ -282,7 +282,7 @@ Retornar ao início
 <p>Exchange ActiveSync   10 MB</p>
 <p>Serviços Web do Exchange   64 MB</p>
 
-> [!TIP]  
+> [!NOTE] 
 > Esses valores são aproximadamente 33% maiores que o tamanho máximo de mensagem utilizável real por causa da sobrecarga associada à codificação Base64.
 
 
@@ -329,7 +329,7 @@ Retornar ao início
 <td><p>Para caixas de correio:</p>
 <p><strong>Destinatários</strong> &gt; <strong>Caixas de Correio</strong> &gt; <strong>Editar</strong><img src="images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif" title="Ícone de edição" alt="Ícone de edição" /> &gt; <strong>Recursos de caixa de correio</strong> &gt; <strong>Fluxo de emails</strong> &gt; <strong>Restrições de tamanho de mensagem</strong> &gt; <strong>Exibir detalhes</strong> &gt; <strong>Mensagens enviadas</strong></p>
 
-> [!TIP]  
+> [!NOTE] 
 > Esta definição não é configurável usando o EAC para outros tipos de destinatário.
 
 
@@ -352,7 +352,7 @@ Retornar ao início
 <td><p>Para caixas de correio:</p>
 <p><strong>Destinatários</strong> &gt; <strong>Caixas de Correio</strong> &gt; <strong>Editar</strong><img src="images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif" title="Ícone de edição" alt="Ícone de edição" /> &gt; <strong>Recursos de caixa de correio</strong> &gt; <strong>Fluxo de emails</strong> &gt; <strong>Restrições de tamanho de mensagem</strong> &gt; <strong>Exibir detalhes</strong> &gt; <strong>Mensagens recebidas</strong></p>
 
-> [!TIP]  
+> [!NOTE] 
 > Esta definição não é configurável usando o EAC para outros tipos de destinatário.
 
 

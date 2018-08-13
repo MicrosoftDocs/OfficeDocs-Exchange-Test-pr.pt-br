@@ -71,9 +71,9 @@ Os principais componentes da arquitetura de pastas públicas são as caixas de c
 
 Há dois tipos de caixas de correio de pastas públicas: a *caixa de correio de hierarquia primária* e as *caixas de correio de hierarquia secundária*. Ambos os tipos de caixas de correio podem ter conteúdo:
 
-  - **Caixa de correio de hierarquia primária   **A caixa de correio de hierarquia primária é a cópia gravável única da hierarquia de pastas públicas. A hierarquia de pastas públicas é copiada para todas as outras caixas de correio de pastas públicas, mas estas serão cópias somente leitura.
+  - **Caixa de correio de hierarquia primária** A caixa de correio de hierarquia primária é a cópia gravável única da hierarquia de pastas públicas. A hierarquia de pastas públicas é copiada para todas as outras caixas de correio de pastas públicas, mas estas serão cópias somente leitura.
 
-  - **Caixas de correio de hierarquia secundária   **As caixas de correio de hierarquia secundária também têm o conteúdo de pastas públicas e uma cópia somente leitura da hierarquia de pastas públicas.
+  - **Caixas de correio de hierarquia secundária** As caixas de correio de hierarquia secundária também têm o conteúdo de pastas públicas e uma cópia somente leitura da hierarquia de pastas públicas.
 
 
 > [!TIP]

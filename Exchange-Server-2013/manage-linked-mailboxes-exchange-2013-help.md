@@ -228,7 +228,7 @@ Clique em **More options**, para ver ou alterar a cota de armazenamento da caixa
 
 Use a seção de **endereço de Email** para exibir ou alterar os endereços de email associados a caixa de correio vinculada. Isso inclui os endereços de SMTP primários do usuário e todos os endereços proxy associado. O endereço SMTP principal (também conhecido como o *endereço de resposta padrão*) é exibido em negrito na lista de endereços, com o valor de **SMTP** maiúsculas na coluna **tipo**.
 
-  - **Adicionar **  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
+  - **Adicionar**  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
     
       - **SMTP**    Este é o tipo de endereço padrão. Clique neste botão de opção e digite o novo endereço de SMTP no **\* endereço de Email** caixa.
     
