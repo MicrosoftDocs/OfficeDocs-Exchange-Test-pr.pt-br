@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2016-12-09_
 Use esta lista de verificação para instalar e implantar a Unificação de Mensagens (UM) e o Microsoft Lync Server 2013. Neste tópico, \&quot;Lync Server\&quot; também se refere ao Lync Server 2010. Entretanto, Microsoft Office Communications Server 2007 R2 também pode ser implantado em conjunto com a Unificação de Mensagens.
 
 
-> [!TIP]
+> [!NOTE]
 > &nbsp;
 
 
