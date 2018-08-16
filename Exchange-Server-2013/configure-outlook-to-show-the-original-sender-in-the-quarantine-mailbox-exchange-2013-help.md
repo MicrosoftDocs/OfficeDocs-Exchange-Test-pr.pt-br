@@ -135,7 +135,7 @@ Por padrão, você não poderá selecionar esses campos no Microsoft Outlook. Pa
         "C:\Program Files (x86)\Microsoft Office\Office15\Forms\1033\QTNE.cfg"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se o controle de acesso do usuário do Windows (UAC) impedir que você salve o arquivo no local correto, salve-o primeiro em um local temporário e, em seguida, copie-o.
 
 

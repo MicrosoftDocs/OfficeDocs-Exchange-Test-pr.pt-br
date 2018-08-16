@@ -58,7 +58,7 @@ Você pode controlar a sensibilidade de falha de consulta DNS, modificando o arq
 No modo de `Normal` e `Lenient` modo, nunca em cache os resultados da consulta DNS para um registro MX inválido. Na próxima vez que uma consulta DNS é executada, ele tentará resolver os registros MX para o domínio de destino.
 
 
-> [!TIP]
+> [!NOTE]  
 > Quaisquer configurações personalizadas em cada servidor feitas nos arquivos de configuração de aplicativo XML do Exchange, por exemplo, os arquivos web.config em servidores de acesso para cliente ou o arquivo EdgeTransport.exe.config em servidores de Caixa de Correio, são substituídos quando você instala uma Atualização Cumulativa do Exchange (CU). Não deixe de salvar essas informações para poder reconfigurar facilmente o servidor após a instalação. Você deve redefinir essas configurações depois de instalar uma Atualização Cumulativa.
 
 

@@ -34,7 +34,7 @@ Essa configuração requer uma VPN multi-site. Sempre foi possível conectar a r
 Em junho de 2014, o Microsoft Azure introduziu suporte a VPN multi-site, que é habilitado para as organizações a se conectar vários centros de dados para a mesma rede virtual do Azure. Essa alteração também o tornou possíveis para organizações com dois datacenters que utilizam o Microsoft Azure como um local de terceiro para colocar seus servidores de testemunha do DAG. Para saber mais sobre o recurso VPN multi-site no Windows Azure, consulte [Configure uma VPN multi-Site](http://go.microsoft.com/fwlink/?linkid=522621).
 
 
-> [!TIP]
+> [!NOTE]
 > Essa configuração utiliza uma VPN de vários local e máquinas virtuais do Azure para implantar o servidor testemunha e não usa a testemunha de nuvem do Windows Azure.
 
 
@@ -44,7 +44,7 @@ Em junho de 2014, o Microsoft Azure introduziu suporte a VPN multi-site, que é 
 O diagrama a seguir é uma visão geral do uso de um servidor de arquivos do Microsoft Azure VM como uma testemunha do DAG. Você precisa de uma rede virtual do Azure, uma VPN multi-site que conecta os data centers para sua rede virtual do Azure e um controlador de domínio e um servidor de arquivos implantados em máquinas virtuais do Azure.
 
 
-> [!TIP]
+> [!NOTE]
 > É tecnicamente possível usar uma única VM do Windows Azure para essa finalidade e colocar o compartilhamento de arquivos testemunha no controlador de domínio. No entanto, isso resultará em uma desnecessária elevação de privilégios. Portanto, não é uma configuração recomendada.
 
 
@@ -66,7 +66,7 @@ Depois de ter sua assinatura do Windows Azure, você precisa fazer o seguinte na
 4.  Configurar a testemunha do DAG
 
 
-> [!TIP]
+> [!NOTE]
 > Uma parte significativa das diretrizes deste artigo envolve a configuração de Microsoft Azure. Portanto, os links para documentação do Azure é usada sempre que aplicável.
 
 
@@ -102,7 +102,7 @@ Faça o seguinte procedimento para registrar seus servidores DNS:
 4.  Repita as etapas 1 a 3 para quaisquer outros servidores DNS que você deseja adicionar.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Os servidores DNS que você registre não são usados em rodízio. Azure VMs usarão o primeiro servidor DNS listado e usarão apenas quaisquer servidores adicionais se primeiro não estiver disponível.
 
 
@@ -280,7 +280,7 @@ Se ambos os encapsulamento estiverem em execução, a saída deste comando irá 
 Você também pode verificar a conectividade exibindo o painel de rede virtual no portal de gerenciamento do Windows Azure. A coluna **STATUS** para ambos os sites serão exibidas como **conectado**.
 
 
-> [!TIP]
+> [!NOTE]
 > Pode levar vários minutos após a conexão for estabelecida com êxito para que a alteração de status apareça no portal de gerenciamento do Windows Azure.
 
 
@@ -298,7 +298,7 @@ Você precisa criar um mínimo de duas máquinas virtuais in Microsoft Azure par
         Get-AzureVM Azure-FSW | Set-AzureStaticVNetIP -IPAddress 10.0.0.11 | Update-AzureVM
     
 
-    > [!TIP]
+    > [!NOTE]
     > Uma VM com um endereço IP preferencial tentará usar esse endereço. No entanto, se esse endereço tiver sido atribuído a uma VM diferente, a VM com a configuração de endereço IP preferencial não será iniciado. Para evitar essa situação, certifique-se de que o endereço IP usado não for atribuído a outra VM. Consulte <A href="http://msdn.microsoft.com/library/azure/dn630228.aspx">Configurar um endereço de IP estático interno de uma VM</A> para obter mais informações.
 
 

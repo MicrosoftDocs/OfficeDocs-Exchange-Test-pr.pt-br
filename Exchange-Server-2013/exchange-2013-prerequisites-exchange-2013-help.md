@@ -56,7 +56,7 @@ Este tópico apresenta as etapas para instalar os pré-requisitos de sistema ope
   - Instale as atualizações do Windows mais recentes no seu computador. Para mais informações, consulte [Lista de verificação de segurança de implantação](deployment-security-checklist-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se estiver instalando a função de servidor de Caixa de Correio e quiser que o servidor seja membro de um grupo de disponibilidade de banco de dados (DAG), você deverá executar o Windows Server 2012 R2 Standard ou Datacenter Edition, Windows Server 2012 Standard ou Datacenter Edition ou o Windows Server 2008 R2 SP1 Enterprise Edition O Windows Server 2008 R2 SP 1 Standard Edition não oferece suporte aos recursos necessários para DAGs.<BR>Não é possível atualizar o Exchange&nbsp;estiver instalado no servidor.<BR>Para atualizar para o Microsoft Unified Communications Managed API (UCMA) 4.0, você deve, primeiro, desinstalar todas as versões do UCMA instaladas anteriormente, usando <STRONG>Adicionar/Remover programas</STRONG>.
 
 
@@ -198,7 +198,7 @@ Após ter instalado as funções e os recursos de sistema operacional, instale o
 6.  [Artigo KB2533623 da Base de Dados de Conhecimento Microsoft (Comunicado de Segurança da Microsoft: Carregamento da biblioteca insegura pode permitir a execução de código remoto)](http://go.microsoft.com/fwlink/?linkid=3052&kbid=2533623)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Esse hotfix já poderá ter sido instalado caso você tenha configurado o Windows Update para instalar atualizações de segurança no seu computador.
 
 

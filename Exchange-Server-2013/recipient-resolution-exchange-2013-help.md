@@ -54,7 +54,7 @@ O método de encapsulamento IMCEA usa a seguinte sintaxe: `IMCEA<Type>-<address>
 O espaço reservado \<*Type*\> identifica o tipo de endereçamento não SMTP, por exemplo `EX`, `X400`ou `FAX`.
 
 
-> [!TIP]
+> [!NOTE]  
 > Embora <CODE>SMTP</CODE> e <CODE>X500</CODE> são valores válidos teoricamente para &lt;<EM>Type</EM>&gt;, resolução de destinatário do Exchange rejeita todos os endereços IMCEA codificado que usam qualquer um desses tipos.
 
 
@@ -169,7 +169,7 @@ A lista a seguir descreve os tipos de destinatários que exigem a expansão:
   - **Grupos de distribuição e grupos dinâmicos de distribuição**   Grupos de distribuição são expandidos com base em **memberOf** propriedade do Active Directory. Grupos dinâmicos de distribuição são expandidos usando a definição de consulta do Active Directory. Se o parâmetro *ExpansionServer* estiver definido no grupo, o grupo não está expandido pelo servidor atual. O grupo de distribuição é encaminhado para o servidor especificado para expansão.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Se você selecionar um servidor de transporte específica em sua organização, como o servidor de expansão, o uso do grupo de distribuição se torna depende da disponibilidade do servidor de expansão. Se o servidor de expansão não estiver disponível, todas as mensagens enviadas para o grupo de distribuição não podem ser entregue. Se você planeja usar servidores específicos de expansão para seus grupos de distribuição, para reduzir o risco de interrupção do serviço, você deve considerar a implementação de soluções de alta disponibilidade para esses servidores.
 
 
@@ -209,7 +209,7 @@ A lista a seguir descreve as configurações de redirecionamento de relatório d
   - **ReportToOriginatorEnabled**   Esse parâmetro permite que os relatórios de entrega sejam enviadas para o remetente das mensagens de email enviadas para este grupo de distribuição. Valores válidos são `$true` ou `$false`. O valor padrão é `$true`.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Os valores do parâmetro <EM>ReportToManagerEnabled</EM> e <EM>ReportToOriginatorEnabled</EM> não podem ser <CODE>$true</CODE>. Se um parâmetro for definido como <CODE>$true</CODE>, o outro deve ser definido como <CODE>$false</CODE>. Os valores dos dois parâmetros podem ser <CODE>$false</CODE>. Suprime o redirecionamento de todos os de todas as mensagens de relatório de entrega.
 
 

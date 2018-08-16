@@ -42,7 +42,7 @@ Ao contrário das pastas gerenciadas, que exigem que os usuários movam os itens
 As pastas gerenciadas suportam diferentes configurações de conteúdo gerenciado para uma pasta, cada uma com uma classe diferente de mensagem (tais como itens de email ou itens de calendário). As marcas de retenção não exigem um objeto separado de configurações de conteúdo gerenciado porque as configurações de retenção estão especificadas nas propriedades da marca. Não há suporte para criar marcas de retenção para classes particulares de mensagem, com exceção de uma marca de política padrão (DPT) para mensagens da caixa postal. As marcas de retenção não permitem que você use o registro em diário realizado pelo Assistente de Pasta Gerenciada.
 
 
-> [!TIP]
+> [!NOTE]
 > As regras de diário, usadas para enviar cópias das mensagens com um relatório do diário para uma caixa de correio de registro em diário, são impostas no pipeline de transporte pelo agente de Registro em Diário e são independentes do MRM. Para mais detalhes, consulte <A href="journaling-exchange-2013-help.md">Registro no Diário</A>.
 
 
@@ -253,7 +253,7 @@ Há dois métodos que você pode usar para esta etapa:
   - **Criar marcas de retenção especificando manualmente as configurações de retenção**   Com este método, você usa o cmdlet **New-RetentionPolicyTag** sem o parâmetro *ManagedFolderToUpgrade* . Quando esse parâmetro não é especificado, qualquer marca de diretiva de retenção adicionada à política é aplicada às pastas padrão, e a marca de diretiva padrão é aplicada a toda a caixa de correio. Entretanto, qualquer marca pessoal adicionada à diretiva não é aplicada automaticamente às pastas gerenciadas.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você estiver em um ambiente misto com servidores Exchange 2013 e Exchange 2010, você pode usar o Assistente de <STRONG>Pasta gerenciada de porta</STRONG> no Console de gerenciamento do Exchange (EMC) em um servidor de Exchange 2010 para facilmente porta de pasta gerenciada e correspondente gerenciado a configuração de conteúdo para marcas de retenção.
 
 
@@ -275,7 +275,7 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Ret
 **Criar marcas de retenção manualmente**
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode usar o EAC também para criar marcas de retenção manualmente (sem ser baseado nas configurações em pastas gerenciadas). Para obter detalhes, consulte <A href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</A>.
 
 
@@ -297,7 +297,7 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Ret
 Entrada "Gerenciamento de registros de mensagem", no tópico [Permissões de política e conformidade de mensagens](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Você também pode usar o EAC para criar uma política de retenção e adicionar marcas de retenção à política. Para obter detalhes, consulte <A href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</A>.
 
 
@@ -321,7 +321,7 @@ Este exemplo remove a politica da caixa de correio de pasta gerenciada e qualque
 Entrada "Aplicando políticas de retenção", no tópico [Permissões de política e conformidade de mensagens](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Você também pode usar o EAC para aplicar uma política de retenção para os usuários. Para obter detalhes, consulte <A href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar uma política de retenção a caixas de correio</A>.
 
 

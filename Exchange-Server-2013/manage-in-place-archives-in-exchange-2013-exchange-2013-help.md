@@ -48,7 +48,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
 3.  Na página **Nova caixa de correio de usuário**, na caixa **Alias**, digite o alias do usuário.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Se você deixar essa caixa em branco, o valor digitado em <STRONG>Nome de logon do usuário</STRONG> será usado como o alias.
 
 
@@ -60,7 +60,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
       - **Novo usuário**   Clique nesse botão para criar uma nova conta de usuário no Active Directory e criar uma caixa de correio para ele. Se você selecionar essa opção, terá que fornecer as informações de conta de usuário necessárias.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > A conta Active Directory&nbsp;associada a caixas de correio de usuários deve residir na mesma floresta que o servidor Exchange. Para criar uma caixa de correio para uma conta de usuário que esteja em uma floresta confiável, você terá que criar uma caixa de correio vinculada. Para obter detalhes, consulte <A href="manage-linked-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio vinculadas</A>.
 
 
@@ -228,13 +228,13 @@ Para verificar se você desabilitou com êxito um arquivo morto, faça o seguint
 Quando você desabilitar uma caixa de correio de arquivo morto, ele se tornará desconectado. Uma caixa de correio de arquivo morto desconectado é mantida no banco de dados de caixa de correio por um tempo determinado. Por padrão, o Exchange retém os arquivos mortos desconectados por 30 dias. Durante esse tempo, você pode recuperar o arquivo morto, associando-o a uma caixa de correio existente. Você pode modificar o período de retenção de caixa de correio excluída, para reter uma caixa de correio ou arquivo morto excluído por um período maior ou menor.
 
 
-> [!WARNING]
+> [!WARNING]  
 > Se você desabilitar um arquivo morto para um usuário e depois habilitar o arquivo morto para o mesmo usuário, ele irá receber um novo arquivo morto. O novo arquivo morto não irá conter os dados que estavam no arquivo morto desconectado do usuário. Se você quiser reconectar um usuário ao seu arquivo morto desconectado, deverá usar este procedimento.
 
 
 
 
-> [!TIP]
+> [!NOTE]  
 > Você não pode usar o EAC para conectar um arquivo morto desconectado a um usuário de caixa de correio.
 
 

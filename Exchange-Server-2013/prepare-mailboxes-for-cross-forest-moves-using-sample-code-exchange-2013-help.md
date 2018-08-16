@@ -70,7 +70,7 @@ Para obter mais informações sobre como preparar para movimentações entre flo
 3.  Edite o arquivo OneWaySync.xml que você copiou na pasta Extensões de ILM na etapa 1 para especificar o distinguishedName (DN) do contêiner TargetOU na floresta de Exchange de destino no qual você deseja criar os usuários de email. Você pode usar LDP.exe ou ADSIEdit.exe para procurar o contêiner TargetOU se você não souber qual é o seu nome.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Se você estiver usando esta amostra junto com o ILM 2007 do GalSync exclua esse contêiner da lista de contêineres gerenciados por GalSync2007.
 
 
@@ -78,7 +78,7 @@ Para obter mais informações sobre como preparar para movimentações entre flo
 4.  No Console do Gerenciador de identidades do ILM, vá para o **arquivo** \> **Importar a configuração do servidor** para importar a configuração do servidor ILM da pasta ILMServerConfig. Essa ação importará dois agentes de gerenciamento de Active Directory junto com o esquema do metaverso e a regra de provisionamento.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Durante a importação, você deve fornecer o nome da floresta e as credenciais e as partições do importados Active Directory agente de gerenciamento (ADMA) para o nome da partição faz a correspondência de sua configuração para a origem e o destino ADMAs.
 
 
@@ -92,7 +92,7 @@ Para obter mais informações sobre como preparar para movimentações entre flo
 6.  No Console do Gerenciador de identidades do ILM no painel de **Criação do agente de gerenciamento**, abra as **Propriedades** para o agente de gerenciamento de floresta de origem. Selecione o Assistente de **Partições do diretório de configurar** e, em seguida, clique em **contêineres** para selecionar o contêiner que conterá as caixas de correio que for mover para a floresta de destino. Desmarque as seleções para todos os outros contêineres, ou seja, o agente de gerenciamento apenas gerenciar este um contêiner de escopo. Da mesma forma, para a floresta de destino MA, selecione o recipiente ao qual usuários habilitados para email serão provisionados, ou seja, o TargetOU especificado na etapa 2.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Se você estiver usando esta amostra junto com o ILM 2007 do GalSync, exclua ambos desses contêineres da lista de contêineres gerenciados por GalSync 2007.
 
 
