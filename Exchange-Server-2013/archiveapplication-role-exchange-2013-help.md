@@ -145,7 +145,7 @@ Essa função foi configurada para oferecer, a um destinatário de função, tod
 Se você precisar criar uma versão personalizada desta função, você deverá criar uma função como uma filha daquela função e personalizar essa nova função.
 
 
-> [!WARNING]
+> [!CAUTION]
 > As informações a seguir permitem que você execute o gerenciamento avançado de permissões. Personalizar funções de gerenciamento pode aumentar significativamente a complexidade do seu modelo de permissões. Você pode fazer com que determinados recursos parem de funcionar, se você substituir uma função de gerenciamento interna por uma função personalizada configurada incorretamente.
 
 

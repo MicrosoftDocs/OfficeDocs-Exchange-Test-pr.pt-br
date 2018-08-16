@@ -355,7 +355,7 @@ Resolução de destinatário bifurca uma mensagem se as seguintes condições fo
 Quando o número de destinatários expandidos for muito grande, o categorizador divide a mensagem em várias cópias. Isso é feito para reduzir o uso de recursos do sistema durante a expansão da mensagem. O número máximo de destinatários do envelope em uma mensagem é controlado pela chave *ExpansionSizeLimit* no arquivo de configuração do aplicativo `%ExchangeInstallPath%Bin\EdgeTransport.exe.config` . O valor padrão é 1000.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Recomendamos que você não modifique o valor da chave <EM>ExpansionSizeLimit</EM> em um servidor de transporte do Exchange em um ambiente de produção.
 
 

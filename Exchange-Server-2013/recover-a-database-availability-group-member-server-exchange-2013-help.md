@@ -62,7 +62,7 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
         Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se o membro do DAG que está sendo removido estiver offline e não pode ser colocado online, você deve adicionar o parâmetro <EM>ConfigurationOnly</EM> para o comando anterior. Se você usar a opção <EM>ConfigurationOnly</EM> , você deve remover também manualmente o nó do cluster.
 
 
@@ -89,9 +89,13 @@ Para verificar que você tiver recuperado com êxito o membro do DAG, faça o se
 
   - No Shell, execute o seguinte comando para verificar a integridade e o status do membro DAG recuperado.
     
-        Test-ReplicationHealth <ServerName>
+    ```
+       Test-ReplicationHealth <ServerName>
+    ``` 
     
-        Get-MailboxDatabaseCopyStatus -Server <ServerName>
-    
+    ```
+       Get-MailboxDatabaseCopyStatus -Server <ServerName>
+    ```
+
     Todos os testes de integridade de replicação devem passar com êxito e o status dos bancos de dados e seus índices de conteúdo deve estar íntegro.
 

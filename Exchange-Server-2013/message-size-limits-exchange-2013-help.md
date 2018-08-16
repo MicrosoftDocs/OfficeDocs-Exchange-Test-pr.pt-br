@@ -118,9 +118,6 @@ As tabelas a seguir exibem os limites de mensagens, incluindo informações sobr
 <tr class="odd">
 <td><p>Número máximo de destinatários por mensagem</p>
 
-> [!NOTE] 
-> <p></p>
-
 </td>
 <td><p>5000</p></td>
 <td><p>Cmdlet: <strong>Set-TransportConfig</strong></p>

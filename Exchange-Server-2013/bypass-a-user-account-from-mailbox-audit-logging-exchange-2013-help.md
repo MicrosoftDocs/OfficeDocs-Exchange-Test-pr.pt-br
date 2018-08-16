@@ -22,7 +22,7 @@ Quando você habilita uma caixa de correio do log de auditoria de caixa de corre
 Você pode configurar uma conta de usuário ou de computador para ignorar o log de auditoria de caixa de correio, portanto ações tomadas por essa conta de usuário ou de qualquer caixa de correio não são registradas. Ignorando as contas de computador que precisam de acesso freqüente para caixas de correio ou de usuário confiável, você pode reduzir o ruído nos logs de auditoria de caixa de correio.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Se você usar o log de auditoria de caixa de correio para auditar ações e acesso de caixa de correio, você deve monitorar as associações de bypass de auditoria de caixa de correio em intervalos regulares. Se a associação de desvio de uma auditoria de caixa de correio é adicionada para uma conta, a conta pode acessar qualquer caixa de correio na organização à qual ela recebeu permissões, sem qualquer entradas de log de auditoria de caixa de correio que está sendo geradas para esse tipo de acesso ou quaisquer ações tomadas (por exemplo, exclusões de mensagem).
 
 

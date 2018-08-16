@@ -58,7 +58,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-Man
 Se uma função que você deseja remover tiver funções filhas, será preciso remover as funções filhas também. Se tentar remover uma função que possua funções filhas você receberá uma mensagem de erro, a não ser que use a opção *Recurse*. Ao usar a opção *Recurse* para remover uma função, a função especificada e todas as suas funções filhas serão excluídas.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Ao usar a opção <EM>Recurse</EM>, todas as funções filhas da função especificada que você deseja remover também serão removidas. Certifique-se de quais funções serão apagadas antes de executar o comando.
 
 

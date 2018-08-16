@@ -56,7 +56,7 @@ Por padrão, um único Conector de Recebimento é criado durante a instalação 
 As seções a seguir orientam você em meio a todas as etapas de configuração obrigatórias para preparar o servidor de Transporte de Borda para se comunicar com a organização do Exchange.
 
 
-> [!TIP]
+> [!NOTE]
 > Você só pode usar o Shell para executar estes procedimentos em servidores de Transporte de Borda.
 
 
@@ -84,7 +84,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [New-SendCo
 Use o cmdlet **New-SendConnector** para criar um novo conector de Envio.
 
 
-> [!TIP]
+> [!NOTE]
 > Antes de criar o conector de Envio, você deve primeiro executar o comando <STRONG>Get-Credential</STRONG> para salvar o nome e a senha do usuário que usará em uma variável temporária. Você precisa fazer isso porque o cmdlet <STRONG>New-SendConnector</STRONG> não aceita as credenciais de usuário em texto sem formatação.
 
 

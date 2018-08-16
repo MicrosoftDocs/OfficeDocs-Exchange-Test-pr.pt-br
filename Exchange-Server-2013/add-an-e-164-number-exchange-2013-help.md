@@ -70,7 +70,7 @@ Para mais tarefas de gerenciamento relacionadas a usuários habilitados para cai
 Este exemplo adiciona um número e. 164 de Tony Smith, um usuário habilitado para UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Antes de adicionar um número e. 164 usando o Shell, você precisará determinar a posição do endereço do proxy EUM que você deseja adicionar. Para determinar a posição, use o comando <STRONG>$mbx.EmailAddresses</STRONG> . O primeiro endereço de proxy na lista será 0.
 
 

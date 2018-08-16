@@ -50,7 +50,7 @@ Os procedimentos neste tópico mostram como adicionar ou remover endereços de e
 3.  Na página de propriedades de caixa de correio, clique em **Endereço de Email**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Na página <STRONG>Endereço de Email</STRONG>, o endereço SMTP principal será exibido em negrito, na lista de endereços, com o valor em maiúsculas <STRONG>SMTP</STRONG> na coluna <STRONG>Tipo</STRONG>.
 
 
@@ -58,7 +58,7 @@ Os procedimentos neste tópico mostram como adicionar ou remover endereços de e
 4.  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar"), depois clique em **SMTP** para adicionar um endereço de email SMTP a essa caixa de correio.
     
 
-    > [!TIP]
+    > [!NOTE]
     > SMTP é o tipo de endereço de email padrão. Você pode também adicionar endereços de Unificação de Mensagens do Exchange (EUM) ou endereços personalizados a uma caixa de correio. Para saber mais, confira "Alterar propriedades de caixa de correio" no tópico <A href="manage-user-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio do usuário</A>.
 
 
@@ -180,7 +180,7 @@ Execute o comando a seguir para usar os dados no arquivo CSV para adicionar o en
     Import-CSV "C:\Users\Administrator\Desktop\AddEmailAddress.csv" | ForEach {Set-Mailbox $_.Mailbox -EmailAddresses @{add=$_.NewEmailAddress}}
 
 
-> [!TIP]
+> [!NOTE]
 > Os nomes das colunas na primeira linha deste arquivo CSV (<CODE>Mailbox,NewEmailAddress</CODE>) são arbitrários. Sejam quais forem os nomes de colunas usados, os mesmos nomes deverão ser usados no comando do Shell.
 
 

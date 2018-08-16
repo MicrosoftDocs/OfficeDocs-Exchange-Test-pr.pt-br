@@ -52,7 +52,7 @@ Uma mensagem enviada para vários destinatários pode estar localizada em mais d
 5.  Para remover todas as mensagens de uma determinada fila, clique na guia **Filas**. Selecione uma fila, clique nela com o botão direito do mouse e selecione **Remover Mensagens (com notificação de falha na entrega)** ou **Remover Mensagens (sem notificação de falha na entrega)**. Será exibida uma caixa de diálogo que confirmará a ação selecionada, perguntando **Deseja continuar?** Clique em **Sim**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você estiver trabalhando com uma lista filtrada, a página exibida talvez não inclua todos os itens no filtro. Nesse caso, uma tela exibirá a mensagem: <STRONG>Esta ação afetará todos os itens nesta página. Para expandir o escopo dessa ação para incluir todos os itens neste filtro, selecione a caixa a seguir antes de clicar em OK.</STRONG>
 
 

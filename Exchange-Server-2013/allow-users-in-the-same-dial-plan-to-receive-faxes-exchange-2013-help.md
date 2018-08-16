@@ -22,7 +22,7 @@ _**Tópico modificado em:** 2016-12-09_
 Se você evitar mensagens de fax sendo recebidos em um plano de discagem, todos os usuários que estão associados ao plano de discagem não será capazes de receber mensagens de fax, mesmo se você configurar propriedades de um usuário individual para que eles possam receber mensagens de fax. Habilitar ou desabilitar o envio de fax em um plano de discagem de UM terá precedência sobre as configurações para envio de fax em uma diretiva de caixa de correio UM ou de um usuário individual de habilitado.
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode usar o EAC para definir configurações de fax em uma política de caixa de correio de UM. Entretanto, você deve utilizar o Shell para fazer as configurações de fax em planos de discagem e para usuários individuais.
 
 

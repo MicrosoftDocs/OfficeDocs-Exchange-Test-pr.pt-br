@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-04-07_
 Microsoft Exchange Unified Messaging (UM) permite que mensagens de caixa postal ao ser entregue à caixa de correio do usuário e também permite que os usuários receber faxes em suas caixas de correio. Em UM, um fax é enviado à caixa de correio do usuário, como uma mensagem de email que tenha um arquivo de imagem com uma extensão. tif anexada. O usuário pode abrir o arquivo anexado usando um aplicativo de software que pode abrir e exibir os arquivos de imagem que tenham uma extensão. tif. Este tópico aborda o envio de fax e como ele funciona em Unificação de mensagens.
 
 
-> [!TIP]
+> [!NOTE]
 > Embora a Unificação de mensagens não permitir que usuários envie faxes de saída, várias soluções de terceiros, como um serviço de fax da Internet, um email, serviço ou um aplicativo de servidor de fax de terceiros, de envio de fax pode ser usado para enviar o faxes de entrada.
 
 
@@ -318,7 +318,7 @@ Em algumas organizações, especialmente aquelas que receber faxes muitos cada d
 Publicar um número de fax para toda a organização permite que sua organização controlar os tipos de aparelhos de fax são recebidos pelos usuários. A vantagem dessa configuração é que ele requer apenas um único número de ramal DID ou um número de telefone externo. Além disso, ele não exige um número DID separado para envio de fax para cada usuário habilitado para UM. No entanto, ele requer um "secretary fax" ou outra pessoa distribuir os faxes de entrada aos usuários dentro da organização com base nas informações que tem incluído na página de rosto de fax ou na própria mensagem fax.
 
 
-> [!TIP]
+> [!NOTE]
 > Usando um número de fax central com reconhecimento óptico de caracteres (OCR) não está disponível no Exchange Unified Messaging. Esse tipo de configuração pode usar um número de fax central. No entanto, em vez de ser roteada para o destinatário por uma pessoa, o software de fax receberá o fax, executa o OCR e, em seguida, tenta localizar o destinatário com base nas informações na mensagem de fax ou página de rosto.
 
 
@@ -340,7 +340,7 @@ Voltar ao início
 Muitas organizações que implementam o registro no diário também podem usar Unificação de mensagens para consolidar o seu email, caixa postal e infraestrutura de fax. No entanto, não convém o processo de registro no diário para gerar relatórios de diário para mensagens que são gerados pela Unificação de mensagens. Nesse caso, você poderá decidir se a caixa postal do diário mensagens e mensagens de notificação de chamada perdida são manipuladas por um servidor de caixa de correio ou para ignorar a essas mensagens. Se a organização não exigir o registro no diário de notificações de chamada perdida e caixa postal, você pode reduzir o espaço em disco necessário para armazenar os relatórios de diário ignorando essas mensagens. Quando você ativar ou desativar o registro no diário de mensagens da caixa postal e mensagens de notificação de chamada perdida, sua alteração é aplicada a todos os serviços de transporte em sua organização. Para obter mais informações, consulte [Registro no Diário](journaling-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Mensagens que contêm os faxes que são gerados por um servidor de caixa de correio sempre são registradas, mesmo se você configurar uma regra de diário que especifica não para o correio de voz da Unificação de mensagens do diário e chamadas não atendidas mensagens de notificação.
 
 

@@ -166,7 +166,7 @@ O exemplo a seguir é um exemplo de uma entrada de log de auditoria típica. Com
   - As duas propriedades a seguir sobre o objeto `david` foram modificadas:
     
 
-    > [!TIP]
+    > [!NOTE]
     > As propriedades modificadas são salvas no log de auditoria, porque o parâmetro <EM>LogLevel</EM> no cmdlet <CODE>Set-AdminAuditLogConfig</CODE> foi definido para <CODE>Verbose</CODE> neste exemplo.
 
     

@@ -22,7 +22,7 @@ O Microsoft Exchange Server 2013 possui um componente chamado *Active Manager*, 
 O SAM fornece informações sobre qual servidor hospeda a cópia ativa de um banco de dados de caixa de correio para outros componentes do Exchange que estão executando um componente cliente do Active Manager (por exemplo, os serviços de Acesso para Cliente ou de Transporte). O SAM detecta falhas de bancos de dados locais e do Armazenamento de Informações local. Ele reage a falhas pedido ao PAM que inicie um failover (caso o banco de dados seja replicado). Um SAM não determina o destino de um failover, nem atualiza o estado da localização do banco de dados no PAM. Ele acessará o estado da localização da cópia do banco de dados ativa para responder consultas na cópia ativa do banco de dados que recebe.
 
 
-> [!TIP]
+> [!NOTE]
 > O Exchange 2013 não é um aplicativo em cluster. Ao invés disso, usa as funções da biblioteca do cluster implementadas na clusapi.dll para cluster, rede de cluster (pulsação), gerenciamento de nó, registro de cluster e algumas funções de código de controle. Além disso, o Active Manager armazena informações do banco de dados de caixa de correio atual (por exemplo, dados ativos e passivos e dados montados) no banco de dados de cluster (também conhecido como o registro de cluster). Embora as informações sejam armazenadas diretamente no banco de dados de cluster, não são acessadas diretamente por qualquer outro componente.
 
 

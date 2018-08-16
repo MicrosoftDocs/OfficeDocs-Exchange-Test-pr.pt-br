@@ -24,7 +24,7 @@ A recuperação de um servidor do Exchange perdido frequentemente é realizada u
 Este tópico mostra como recuperar um servidor do Exchange 2013 perdido que não seja membro de um DAG (grupo de disponibilidade de banco de dados). Para instruções detalhadas sobre como recuperar um servidor que era membro de um DAG, consulte [Recuperar um servidor membro de grupo de disponibilidade de banco de dados](recover-a-database-availability-group-member-server-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Se o Exchange for instalado em um local que não o local padrão, você deverá usar a opção <EM>/TargetDir</EM> para especificar o local dos arquivos binários do Exchange. Se você não usar a opção <EM>/TargetDir</EM>, os arquivos do Exchange serão instalados no local padrão (%programfiles%\Microsoft\Exchange Server\V15).<BR>Para determinar o local de instalação, siga estas etapas: 
 > <OL>
 > <LI>

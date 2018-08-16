@@ -59,7 +59,7 @@ Em Exchange 2013, o local padrão do diretório de retirada é `%ExchangeInstall
 
 2.  Colocar em arquivos de mensagens no diretório de retirada, como o tamanho máximo do cabeçalho e o número máximo de destinatários, os limites são verificados. Por padrão, o tamanho de cabeçalho máximo é de 64 kilobytes (KB) e o número máximo de destinatários é 100. Você pode alterar esses limites usando o cmdlet **Set-TransportService** . Essas configurações afetam apenas o diretório de retirada.
 
-3.  O arquivo é renomeado de. eml de *\<filename\>*para *\<filename\>*TMP. Se o arquivo. tmp *\<filename\>*já existir, o arquivo é renomeado como *\<filename\>\<datetime\>*TMP. Se o arquivo renomeando falhar, será gerado um erro de log de eventos e o próximo arquivo continua o processo de retirada.
+3.  O arquivo é renomeado de. eml de *\<filename\>*<span></span>para *\<filename\>*<span></span>TMP. Se o arquivo. tmp *\<filename\>*<span></span>já existir, o arquivo é renomeado como *\<filename\>\<datetime\>*<span></span>TMP. Se o arquivo renomeando falhar, será gerado um erro de log de eventos e o próximo arquivo continua o processo de retirada.
 
 4.  Depois que o arquivo. tmp com êxito é convertido em uma mensagem de email, um comando **delete on close** é emitido para o arquivo. tmp. O arquivo. tmp aparece permaneça no diretório de retirada, mas o arquivo não pode ser aberto.
 
@@ -251,7 +251,7 @@ Não pode ser filas com êxito um arquivo de mensagens copiado para os diretóri
 
   - **Badmail**   Uma mensagem classificada como *badmail* tem problemas sérios que impedem que os diretórios de retirada ou repetição enviando a mensagem para entrega. A outra condição que faz com que o badmail é quando a mensagem está formatada corretamente, mas os destinatários são inválidos e uma mensagem de notificação de falha NA não pode ser enviada ao remetente, porque o remetente não é válido.
     
-    Arquivos de mensagens determinados como badmail são deixados nos diretórios de retirada ou repetição e renomeados das. eml de *\<filename\>*para *\<filename\>*bad. Se o arquivo de bad *\<filename\>*já existir, o arquivo é renomeado para *\<filename\>\<datetime\>*bad. Se os diretórios de retirada ou repetição existir badmail, será gerado um erro de log de eventos, mas as mesmas mensagens badmail não geram erros de log de eventos repetidos.
+    Arquivos de mensagens determinados como badmail são deixados nos diretórios de retirada ou repetição e renomeados das. eml de *\<filename\>*<span></span>para *\<filename\>*<span></span>bad. Se o arquivo de bad *\<filename\>*<span></span>já existir, o arquivo é renomeado para *\<filename\>\<datetime\>*<span></span>bad. Se os diretórios de retirada ou repetição existir badmail, será gerado um erro de log de eventos, mas as mesmas mensagens badmail não geram erros de log de eventos repetidos.
     
 
     > [!TIP]

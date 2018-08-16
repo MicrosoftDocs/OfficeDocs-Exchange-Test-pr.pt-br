@@ -134,7 +134,7 @@ Para verificar se você tiver contatos habilitados para email com êxito do Acti
   - No EAC, navegue até **destinatários** \> **Contatos**. Novos contatos de email são exibidos na lista de contatos. Em **Tipo de contato**, o tipo é o **contato de email**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Talvez você precise clique em <STRONG>Atualizar</STRONG><IMG title="Ícone Atualizar" alt="Ícone Atualizar" src="images/Dd353189.85f271ca-32a4-426c-842a-d2172567099d(EXCHG.150).gif"> para exibir contatos de email novo.
 
 

@@ -34,7 +34,7 @@ Normalmente, quando Exchange for instalado, as pessoas instalá-lo precisam ser 
       - Negar permissões CreateChild e DeleteChild para Exchange objetos de armazenamento de pasta pública
     
 
-    > [!TIP]
+    > [!NOTE]
     > Pastas públicas são administradas em um nível organizacional; Portanto, a criação e a exclusão de armazenamentos de pasta pública é restrito aos administradores Exchange.
 
 

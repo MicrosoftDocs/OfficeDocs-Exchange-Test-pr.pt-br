@@ -22,7 +22,7 @@ Para conceder acesso a um cmdlet, é preciso adicionar a entrada de função de 
 Não é possível adicionar entradas de função para funções internas. Se você desejar personalizar funções, crie uma nova função. Para obter mais informações sobre como criar uma nova função, consulte [Criar uma função](create-a-role-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Este tópico não discute como adicionar entradas de função de gerenciamento sem escopo a uma função de gerenciamento sem escopo. Para obter mais informações sobre como adicionar entradas de função sem escopo, consulte <A href="add-a-role-entry-to-an-unscoped-top-level-role-exchange-2013-help.md">Adicionar uma entrada de função a uma função de nível superior sem escopo</A>.
 
 

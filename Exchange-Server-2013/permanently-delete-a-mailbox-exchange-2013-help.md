@@ -32,7 +32,7 @@ Para saber mais sobre caixas de correio desconectadas e executar outras tarefas 
   - [Conectar-se ou restaurar uma caixa de correio excluída](connect-or-restore-a-deleted-mailbox-exchange-2013-help.md)
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para excluir permanentemente uma caixa de correio ativa ou uma caixa de correio desconectada.
 
 
@@ -62,7 +62,7 @@ Execute o seguinte comando para excluir permanentemente uma caixa de correio ati
     Remove-Mailbox -Identity <identity> -Permanent $true
 
 
-> [!TIP]
+> [!NOTE]
 > Se você não incluir o parâmetro <EM>Permanent</EM> , caixa de correio excluída é mantido no banco de dados de caixa de correio por 30 dias, por padrão, antes de serem excluídos permanentemente.
 
 

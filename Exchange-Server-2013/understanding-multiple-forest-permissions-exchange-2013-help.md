@@ -76,7 +76,7 @@ Finalmente, escopos de gerenciamento criados em cada floresta também estão lig
 As permissões concedidas pelo RBAC apenas permitem aos usuários exibir ou modificar objetos Exchange dentro de uma floresta específico. No entanto, você pode conceder permissões para exibir e modificar objetos Exchange em uma floresta para usuários externos dessa floresta. Usando permissões de cross-limite, você poderá centralizar Exchange contas de gerenciamento em uma única floresta em vez de ter que autentica em cada floresta individual para realizar tarefas.
 
 
-> [!TIP]
+> [!NOTE]
 > As permissões são concedidas a um usuário fora de uma floresta Exchange ainda se aplicam apenas dessa floresta específico Exchange. Por exemplo, se um usuário em uma floresta externa é um membro do grupo de função vinculado de gerenciamento da organização que está localizado na florestaA, o usuário pode gerenciar apenas os objetos Exchange contidos FlorestaA. Um usuário deve ser membro dos grupos de função vinculado feito em cada floresta Exchange para receber permissões para gerenciar cada floresta.
 
 

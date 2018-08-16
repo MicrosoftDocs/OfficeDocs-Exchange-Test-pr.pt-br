@@ -76,7 +76,7 @@ Para criptografar dados enviados entre UM e o Lync Server, você precisará faze
     Os cmdlets **Start-CsWindowsService** e **Stop-CsWindowsService** são semelhantes aos de cmdlets do Windows PowerShell genérico **Start-Service** e **Stop-Service**. Se desejar, você pode usar os cmdlets **Start-Service** ou **Stop-Service** para iniciar e parar um serviço do Lync Server. No entanto, os cmdlets de**Stop-CsWindowsServiceStart-CsWindowsService**incluir um parâmetro *ComputerName* que torna fácil parar e iniciar um serviço do Lync Server em um computador remoto. Para fazer isso, você deve incluir o parâmetro *ComputerName* seguido do nome de domínio totalmente qualificado (FQDN) do computador remoto. Os cmdlets **Start-Service** e **Stop-Service** não tem um parâmetro comparável.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Para integrar completamente a Unificação de mensagens e o Lync Server, você também deve executar o script ExchUCUtil. Ps1 em qualquer acesso para cliente ou o servidor de caixa de correio em sua organização
 
 

@@ -24,7 +24,7 @@ RBAC permite que você controle, em ambos os amplo número e os usuários finais
 RBAC tem duas formas básicas de atribuir permissões a usuários em sua organização, dependendo se o usuário é um administrador ou especialista em ou um usuário final: grupos de função de gerenciamento e políticas de atribuição de função de gerenciamento. Cada método associa os usuários com as permissões que precisam para realizar seus trabalhos. Um terceiro, mais avançado método, diretamente a atribuição de função do usuário, também pode ser usado. As seções a seguir neste tópico explicam RBAC e fornecem exemplos de seu uso.
 
 
-> [!TIP]
+> [!NOTE]
 > Este tópico concentra-se na funcionalidade avançada de RBAC. Se você quiser gerenciar permissões básicas do Exchange 2013, como usar o Centro de Administração do Exchange (EAC) para adicionar e remover membros de grupos de funções, criar e modificar grupos de funções ou criar e modificar políticas de atribuição de função, consulte <A href="permissions-exchange-2013-help.md">Permissões</A>.
 
 
@@ -126,7 +126,7 @@ Jane é um administrador para a empresa de médio porte, Contoso. Ela é respons
 Além do Gerenciamento de Destinatários- grupo de função personalizada Vancouver, Jane também precisa de uma política de atribuição de função para gerenciar definições de configuração da própria caixa de correio. Os administradores de organização tem decidido que todos os usuários, exceto para o gerenciamento sênior, recebem as mesmas permissões quando eles gerenciam suas próprias caixas de correio. Eles podem configurar suas mensagens de voz, configurar políticas de retenção e alterar suas informações de endereço. A política de atribuição de função padrão fornecida com o Exchange 2013 agora reflete a esses requisitos.
 
 
-> [!TIP]
+> [!NOTE]
 > Você deve ter percebido que porque Jane é um membro do Gerenciamento de Destinatários- grupo de função personalizada Vancouver, que deve dar seus permissões para gerenciar a própria caixa de correio. Isso é verdadeiro; No entanto, o grupo de função não fornece seu todas as permissões necessárias para gerenciar todos os recursos da sua caixa de correio. As permissões necessárias para gerenciar a caixa postal e configurações de política de retenção não estão incluídas no seu grupo de função. Aqueles são fornecidos somente pela diretiva de atribuição de função padrão atribuída a ela.
 
 

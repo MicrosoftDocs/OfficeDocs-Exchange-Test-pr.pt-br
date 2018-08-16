@@ -56,7 +56,7 @@ Este exemplo inicia a solicitação de movimentação de \\CustomerEnagagements 
     New-PublicFolderMoveRequest -Folders \DeveloperReports\CustomerEngagements -TargetMailbox DeveloperReports01
 
 
-> [!TIP]
+> [!NOTE]
 > O correio de pasta pública de destino será bloqueado enquanto a solicitação de movimentação está ativa.
 
 
@@ -70,7 +70,7 @@ Este exemplo inicia a solicitação de movimentação de pastas públicas na ram
     New-PublicFolderMoveRequest -Folders \Dev\CustomerEngagements,\Dev\RequestsforChange,\Dev\Usability -TargetMailbox DeveloperReports01
 
 
-> [!TIP]
+> [!NOTE]
 > A caixa de correio de pasta pública de destino será bloqueada enquanto a solicitação de movimentação está ativa.
 
 

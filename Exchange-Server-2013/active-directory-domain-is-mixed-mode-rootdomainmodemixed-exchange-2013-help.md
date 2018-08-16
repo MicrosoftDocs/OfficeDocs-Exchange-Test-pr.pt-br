@@ -40,7 +40,7 @@ Para aumentar o nível funcional do domínio
       - Para aumentar o nível funcional do domínio para o Windows Server® 2003, clique em **Windows Server 2003** e, em seguida, clique em **Elevar.**
 
 
-> [!WARNING]
-> <BR>Se você tiver ou terão controladores de domínio executando o Windows NT® 4.0 e versões anteriores, não eleve o nível funcional do domínio para nativo do Windows 2000 Server. Depois que o nível funcional do domínio é definido como nativo do Windows 2000 Server, ele não pode ser alterado volta ao servidor do Windows 2000 misto.<BR>Se você tiver ou terão controladores de domínio executando o Windows NT 4.0 e versões anterior ou o Windows 2000 Server, não eleve o nível funcional do domínio para o Windows Server 2003. Após o nível funcional do domínio é definido para o Windows Server 2003, ele não pode ser alterado voltar ao Windows 2000 Server misto ou nativo do Windows 2000 Server.
+> [!CAUTION]
+> Se você tiver ou terão controladores de domínio executando o Windows NT® 4.0 e versões anteriores, não eleve o nível funcional do domínio para nativo do Windows 2000 Server. Depois que o nível funcional do domínio é definido como nativo do Windows 2000 Server, ele não pode ser alterado volta ao servidor do Windows 2000 misto.<BR>Se você tiver ou terão controladores de domínio executando o Windows NT 4.0 e versões anterior ou o Windows 2000 Server, não eleve o nível funcional do domínio para o Windows Server 2003. Após o nível funcional do domínio é definido para o Windows Server 2003, ele não pode ser alterado voltar ao Windows 2000 Server misto ou nativo do Windows 2000 Server.
 
 

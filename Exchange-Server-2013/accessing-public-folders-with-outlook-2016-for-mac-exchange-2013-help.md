@@ -36,7 +36,7 @@ Com a atualização de abril de 2016 para 2016 do Outlook para Mac, bem como CU1
 A tabela a seguir resume as topologias com suporte para usuários com o Outlook 2016 clientes Mac tentando acessar pastas públicas no Exchange 2013, 2016 do Exchange e o Exchange Online.
 
 
-> [!TIP]
+> [!NOTE]
 > Cenários mostrados na tabela a seguir pressupõem que a atualização de abril de 2016 para 2016 do Outlook para Mac foi aplicada a todos os clientes.
 
 

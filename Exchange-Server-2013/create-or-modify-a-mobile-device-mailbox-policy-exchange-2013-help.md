@@ -48,7 +48,7 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 Você pode criar uma nova diretiva de caixa de correio de dispositivo móvel usando o EAC.
 
 
-> [!TIP]
+> [!NOTE]
 > Você só pode definir um subconjunto das configurações de diretiva de caixa de correio de dispositivo móvel no EAC. Para definir configurações de diretiva de caixa de correio de dispositivo móvel, você precisará usar o Shell.
 
 
@@ -100,7 +100,7 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 Você pode editar uma política de caixa de correio de dispositivo móvel usando o EAC.
 
 
-> [!TIP]
+> [!NOTE]
 > Você só pode editar um subconjunto das configurações de diretiva de caixa de correio de dispositivo móvel no EAC. Para editar a todas as configurações de diretiva de caixa de correio dispositivo móvel, você precisará usar o Shell.
 
 
