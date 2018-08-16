@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2017-07-26_
 Uma relação de confiança de Federação estabelece uma relação de confiança entre uma organização do Microsoft Exchange 2013 e o sistema de autenticação Azure Active Directory. Configurando uma relação de confiança de federação, você pode configurar o compartilhamento federado com outras organizações federadas do Exchange para compartilhar informações de disponibilidade de calendário entre destinatários. Compartilhamento federado pode ser configurado entre duas organizações federadas Exchange 2013 ou entre uma organização federada Exchange 2013 e organizações federadas Exchange 2010. Você também pode definir o compartilhamento com uma organização do Office 365.
 
 
-> [!TIP]
+> [!NOTE]
 > Criar uma confiança de federação é uma das várias etapas da configuração do compartilhamento federado em sua organização do Exchange. Para examinar todas as etapas, consulte <A href="configure-federated-sharing-exchange-2013-help.md">Configurar o compartilhamento federado</A>.
 
 
@@ -88,7 +88,7 @@ Para tarefas de gerenciamento adicionais relacionadas à dederação, consulte [
 6.  Em **Selecionar Domínios Aceitos**, selecione o domínio compartilhado principal da lista e clique em **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O domínio que você selecionar será usado para configurar a OrgID para a confiança de federação. Para mais informações sobre a OrgID, consulte <A href="federation-exchange-2013-help.md">Federação</A>.
 
 
@@ -104,7 +104,7 @@ Para tarefas de gerenciamento adicionais relacionadas à dederação, consulte [
 8.  Na **etapa 2**, clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar domínios adicionais à confiança federada para endereços de email que será usado pelos usuários em sua organização que exigem recursos de compartilhamento federados. Por exemplo, se você tiver usuários que usam um subdomínio no seu endereço de email como sales.contoso.com, seria adicionar o domínio sales.contoso.com à confiança de Federação.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Uma cadeia de caracteres de prova de domínio federado será criada para cada domínio adicional selecionado. Você deverá criar registros TXT separados no seu DNS público para cada domínio adicional.
 
 

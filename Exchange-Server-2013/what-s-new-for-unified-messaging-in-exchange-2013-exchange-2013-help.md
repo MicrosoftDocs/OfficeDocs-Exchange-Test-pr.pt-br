@@ -46,7 +46,7 @@ No Exchange 2010 SP2 e SP1, UCMA 2.0 instalação é necessária antes de instal
   - Instalação do UCMA 4.0 inclui todos os pré-requisitos para Exchange 2013.
 
 
-> [!TIP]
+> [!NOTE]
 > UCMA 4.0 é instalado quando você está instalando Exchange 2013. Para obter detalhes sobre os requisitos de instalação e 4.0 UCMA, consulte <A href="exchange-2013-prerequisites-exchange-2013-help.md">Pré-requisitos do Exchange 2013</A>. Para atualizar para a versão mais recente do UCMA, desinstale qualquer versão anterior do UCMA instaladas usando Adicionar ou remover programas.
 
 

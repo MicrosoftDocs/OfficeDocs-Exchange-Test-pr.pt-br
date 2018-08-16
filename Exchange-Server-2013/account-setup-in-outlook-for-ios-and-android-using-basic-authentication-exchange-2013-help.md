@@ -34,7 +34,7 @@ As imagens a seguir mostram um exemplo do processo de instalação do usuário f
 Se você estiver usando o Microsoft Intune como seu provedor de gerenciamento de dispositivo móvel, as seguintes etapas permitirá que você implante definições de configuração de conta para suas caixas de correio local que utilizam a autenticação básica com o protocolo ActiveSync. Depois que a configuração é criada, você pode atribuir as configurações para grupos de usuários, conforme detalhado na próxima seção, atribuir definições de configuração.
 
 
-> [!TIP]
+> [!NOTE]
 > Se os usuários em sua organização usam iOS e Android para dispositivos de trabalho, você precisará criar uma política de configuração de aplicativo separado para cada plataforma.
 
 
@@ -60,7 +60,7 @@ Se você estiver usando o Microsoft Intune como seu provedor de gerenciamento de
 10. Escolha as **definições de configuração**. No blade **definições de configuração** , defina os pares de valores chave que fornecerá configurações para o Outlook para iOS e Android. Os pares de valores chave que você digitar são definidos neste artigo, na seção de pares de valor de chave.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Para inserir os pares de valor de chave, você tem uma escolha entre usando o designer de configuração ou inserindo uma lista de propriedade XML.
 
 

@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-04-08_
 A Filtragem de destinatário é fornecida pelo agente de Filtro de Destinatários. Quando a filtragem de destinatários é habilitada em um servidor do Exchange, ela filtra mensagens de entrada que vêm da Internet, mas não são autenticadas. Essas mensagens são manipuladas como mensagens externas.
 
 
-> [!TIP]
+> [!NOTE]
 > Embora o agente Filtro de Destinatários esteja disponíveis em servidores de caixas de correio, você não deve configurá-lo. Quando um filtro de destinatários, em um servidor de caixas de correio, detecta um destinatário inválido ou bloqueado em uma mensagem contendo outros destinatários válidos, a mensagem é rejeitada. Se você instalar o agente antispam em um servidor de caixas de correio, o agente Filtro de Destinatários será habilitado por padrão. Entretanto, ele não estará configurado para bloquear qualquer destinatário. Para obter mais informações, consulte <A href="enable-anti-spam-functionality-on-mailbox-servers-exchange-2013-help.md">Habilitar a funcionalidade anti-spam em servidores de caixa de correio</A>.
 
 
@@ -62,7 +62,7 @@ Para habilitar a filtragem por destinatário, execute o seguinte comando:
     Set-RecipientFilterConfig -Enabled $true
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você desabilita a filtragem de destinatário, o agente de Filtro de Destinatário subjacente permanece habilitado ainda. Para desabilitar o agente do Filtro de Destinatário, execute o comando: <CODE>Disable-TransportAgent "Recipient Filter Agent"</CODE>.
 
 

@@ -263,7 +263,7 @@ Os atributos na tabela a seguir estão associados ao objeto de configuração de
 
 
 
-> [!TIP]
+> [!NOTE]
 > Se o servidor de Transporte de Borda for inscrito na organização do Exchange posteriormente, o valor do atributo <STRONG>InternalSMTPServers</STRONG> será substituído durante o processo do EdgeSync. Para obter mais informações, consulte <A href="edge-subscriptions-exchange-2013-help.md">Inscrições de Borda</A>.
 
 

@@ -117,7 +117,7 @@ Quando você executar um relatório de acesso não proprietário da caixa de cor
 A tabela a seguir lista as ações executadas pelo log de auditoria de não-proprietários que podem ser registrados por caixa de correio. Na tabela, um **Sim** indica que a ação pode ser registrada para esse tipo de logon e um **não** indica que uma ação não puder ser registrada. Um asterisco (**\***) indica que a ação é registrada por padrão quando o log de auditoria de caixa de correio está habilitado para a caixa de correio. Se você deseja controlar as ações que não são registradas por padrão, você precisará usar o PowerShell para habilitar o log dessas ações.
 
 
-> [!TIP]
+> [!NOTE]
 > Um administrador que tenha sido atribuído a permissão de acesso completo à caixa de correio de um usuário é considerado um usuário delegado.
 
 
@@ -210,7 +210,7 @@ A tabela a seguir lista as ações executadas pelo log de auditoria de não-prop
 
 
 
-> [!TIP]
+> [!NOTE]
 > *&nbsp; Auditado por padrão se a auditoria estiver habilitada para uma caixa de correio.
 
 

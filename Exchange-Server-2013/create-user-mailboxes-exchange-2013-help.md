@@ -50,13 +50,12 @@ Também é possível criar caixas de correio para usuários existentes que possu
 3.  Na página **Nova caixa de correio de usuário**, na caixa **Alias**, digite o alias do usuário, que especifica o alias do email do usuário. O alias do usuário é a parte do endereço de email à esquerda do símbolo @. Ele deve ser exclusivo na floresta.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você deixar essa caixa em branco, o valor da parte do nome de usuário do <STRONG>Nome de logon do usuário</STRONG> é usado para o alias de email.
 
 
 
-4.   
-    Selecione uma das seguintes opções:
+4.  Selecione uma das seguintes opções:
     
       - **Usuário existente**   Selecione para habilitar para email e criar uma caixa de correio para um usuário existente.
         
@@ -65,13 +64,12 @@ Também é possível criar caixas de correio para usuários existentes que possu
       - **Novo usuário**   Selecione para criar uma nova conta de usuário no Active Directory e criar uma caixa de correio para esse usuário. Se você selecionar essa opção, terá que fornecer as informações de conta de usuário necessárias.
     
 
-    > [!TIP]
+    > [!NOTE]
     > A conta Active Directory&nbsp;associada a caixas de correio de usuários deve residir na mesma floresta que o servidor Exchange. Para criar uma caixa de correio para uma conta de usuário que esteja em uma floresta confiável, você terá que criar uma caixa de correio vinculada. Consulte <A href="manage-linked-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio vinculadas</A>.
 
 
 
-5.     
-    Se você tiver selecionado **Novo usuário**, na Etapa 4, preencha as seguintes caixas na página **Nova caixa de correio de usuário**. Caso contrário, pule para a Etapa 7.
+5.  Se você tiver selecionado **Novo usuário**, na Etapa 4, preencha as seguintes caixas na página **Nova caixa de correio de usuário**. Caso contrário, pule para a Etapa 7.
     
       - **Nome**   Use essa caixa para digitar o nome do usuário.
     
@@ -90,14 +88,14 @@ Também é possível criar caixas de correio para usuários existentes que possu
       - **\* Nome de logon do usuário**   Use esta caixa para digitar o nome que o usuário irá usar para fazer o logon na caixa de correio e fazer o logon no domínio. O nome de logon do usuário consiste no nome do usuário à esquerda do símbolo (@) e um sufixo à direita. Geralmente, o sufixo é o nome de domínio no qual a conta de usuário reside. Observe que você não pode usar um apóstrofo (') ou aspas (') no nome de logon do usuário porque esses caracteres não são compatíveis.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Se o valor do nome de usuário for diferente do valor usado na caixa <STRONG>Alias</STRONG> , o endereço de email do usuário e o nome de logon do usuário serão diferentes.
 
     
       - **\* Nova senha**   Use esta caixa para digitar a senha que o usuário deve usar para fazer logon em sua caixa de correio.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Verifique se a senha fornecida é compatível com os requisitos de tamanho, complexidade e histórico do domínio no qual você está criando a conta do usuário.
 
     
@@ -107,8 +105,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Se você marcar essa caixa de seleção, no primeiro logon, o novo usuário verá uma caixa de diálogo pedindo para ele alterar a senha. O usuário não terá permissão para executar nenhuma tarefa até que a senha tenha sido alterada com êxito.
 
-6.      
-    Clique em **Mais opções**, para configurar as caixas a seguir. Caso contrário, pule para a etapa 7, para salvar a nova caixa de correio do usuário.
+6.  Clique em **Mais opções**, para configurar as caixas a seguir. Caso contrário, pule para a etapa 7, para salvar a nova caixa de correio do usuário.
     
       - **Especificar o banco de dados da caixa de correio**   Use essa opção para especificar um banco de dados de caixa de correio, em vez de permitir que o Exchange selecione um banco de dados para você. Clique em **Procurar** para abrir a caixa de diálogo **Selecionar Banco de Dados de Caixa de Correio**. Essa caixa de diálogo lista todos os bancos de dados de caixa de correio de sua organização do Exchange. Por padrão, os bancos de dados de caixa de correio são classificados por nome. Você também pode clicar no título da coluna correspondente para classificar os bancos de dados por nome ou versão do servidor. Selecione o banco de dados de caixa de correio que você deseja usar e clique em **OK**.
     
@@ -122,8 +119,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 
-7.      
-    Após concluir, clique em **Salvar** para criar a caixa de correio.
+7.  Após concluir, clique em **Salvar** para criar a caixa de correio.
 
 ## Usar o Shell para criar uma caixa de correio de usuário
 
@@ -170,7 +166,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
 3.  Na página **Nova caixa de correio de usuário**, na caixa **Alias**, digite o alias do usuário, que especifica o alias do email do usuário. O alias do usuário é a parte do endereço de email à esquerda do símbolo @. Ele deve ser exclusivo na floresta.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você deixar essa caixa em branco, o valor da parte do nome de usuário do <STRONG>Nome de logon do usuário</STRONG> é usado para o alias de email.
 
 
@@ -182,7 +178,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
     Ao criar uma caixa de correio para um usuário existente, você não terá que fornecer informações de conta de usuário, porque essas informações já existirão no Active Directory.
     
 
-    > [!TIP]
+    > [!NOTE]
     > A conta Active Directory&nbsp;associada a caixas de correio de usuários deve residir na mesma floresta que o servidor Exchange. Para criar uma caixa de correio para uma conta de usuário que esteja em uma floresta confiável, você terá que criar uma caixa de correio vinculada. Consulte <A href="manage-linked-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio vinculadas</A>.
 
 

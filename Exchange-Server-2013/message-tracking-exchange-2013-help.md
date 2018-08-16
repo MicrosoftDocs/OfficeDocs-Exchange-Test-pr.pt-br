@@ -34,7 +34,7 @@ No Exchange 2013, você pode usar o cmdlet **Set-TransportService** ou o cmdlet 
   - Habilitar ou desabilitar o log de assunto de mensagens nos logs de controle de mensagens. O padrão é habilitado.
 
 
-> [!TIP]
+> [!NOTE]
 > Também é possível utilizar o EAC (Centro de administração do Exchange) para habilitar ou desabilitar o controle de mensagens e para especificar o local dos arquivos de log de controle de mensagens.
 
 

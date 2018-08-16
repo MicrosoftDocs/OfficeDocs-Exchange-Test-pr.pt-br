@@ -24,7 +24,7 @@ Exchange 2013 Requer a instalação do que a atualização do Microsoft Office 2
 Baixe e instale a atualização de 64 bits na URL a seguir e clique em **tentar novamente** na página de **Verificações de Preparação**.
 
 
-> [!TIP]
+> [!NOTE]
 > Se essa atualização exigir uma reinicialização para concluir a instalação, será necessário sair da Instalação do Exchange 2013, reiniciar e recomeçar a Instalação.
 
 

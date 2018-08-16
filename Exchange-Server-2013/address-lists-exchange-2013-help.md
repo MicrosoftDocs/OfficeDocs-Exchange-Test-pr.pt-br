@@ -70,7 +70,7 @@ Embora as listas de endereços sejam ferramentas úteis para usuários, listas d
   - Nomeie suas listas de endereços de modo que os usuários saibam imediatamente, ao olhar para elas, que tipos de destinatários estão contidos na lista. Se você tiver dificuldades para nomear as listas de endereços, crie menos listas e lembre os usuários de que eles podem encontrar qualquer pessoa da organização usando a GAL.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Por padrão, no Exchange Online, a função de Lista de Endereços não é atribuída a nenhum grupo de funções. Para usar quaisquer cmdlets que exijam a função Lista de Endereços, é necessário adicionar essa função a um grupo de funções. Para saber mais, confira a seção "Adicionar uma função a um grupo de funções" do tópico <A href="manage-role-groups-exchange-2013-help.md">Gerenciar grupos de função</A>.
 
 

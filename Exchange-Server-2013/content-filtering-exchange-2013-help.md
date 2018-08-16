@@ -18,7 +18,7 @@ _**Aplica-se a:** Exchange Server 2013_
 _**Tópico modificado em:** 2016-12-09_
 
 
-> [!TIP]
+> [!NOTE]
 > Em 1 de novembro de 2016, o Microsoft interrompeu a produção de atualizações de definição de spam para os Filtros SmartScreen, no Exchange e no Outlook. As definições de spam existentes para SmartScreen permanecerão inalteradas, mas a respectiva eficácia provavelmente diminuirá ao longo do tempo. Para saber mais, confira o artigo <A href="https://go.microsoft.com/fwlink/p/?linkid=835894">Substituição do suporte para SmartScreen no Outlook e no Exchange</A>.
 
 
@@ -50,7 +50,7 @@ Por exemplo, você pode determinar o que devem ser excluídas mensagens que têm
 Você pode ajustar o comportamento de limite SCL, atribuindo diferentes classificações de SCL para cada uma das seguintes ações. Para obter mais informações sobre como ajustar o limite de SCL para atender às necessidades da sua organização e sobre os limites de SCL por destinatário, consulte [Limite do Nível de Confiança de Spam](spam-confidence-level-threshold-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Mensagens com mais de 11 MB não são verificados pelo filtro de mensagens inteligente. Em vez disso, eles passam pelo filtro de conteúdo sem serem verificadas.
 
 

@@ -84,7 +84,7 @@ Para saber mais sobre os objetos do SCP, consulte [Publicar com pontos de conex�
 Para acesso externo, ou usando DNS, o cliente localiza o serviço de Descoberta Automática na Internet usando o endereço de domínio SMTP primário do endereço de email do usuário.
 
 
-> [!TIP]
+> [!NOTE]
 > Você deve fornecer um registro de recurso do serviço de host (SRV) no DNS para clientes do Outlook para descobrir o serviço de Descoberta Automática usando DNS. Para obter mais informações, consulte a documentação do Windows sobre configuração do DNS e <A href="https://go.microsoft.com/fwlink/p/?linkid=85214">White Paper: Serviço de Descoberta Automática do Exchange 2007</A>.
 
 

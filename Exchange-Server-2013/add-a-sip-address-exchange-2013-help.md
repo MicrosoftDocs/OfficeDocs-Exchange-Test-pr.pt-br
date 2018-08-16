@@ -72,7 +72,7 @@ Para mais tarefas de gerenciamento relacionadas a usuários habilitados para cai
 Este exemplo adiciona um endereço SIP de Tony Smith, um usuário habilitado para UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Antes de adicionar um endereço SIP usando o Shell, você precisará determinar a posição do endereço do proxy EUM que você deseja adicionar. Para determinar a posição, use o comando <STRONG>$mbx.EmailAddresses</STRONG> . O primeiro endereço de proxy na lista será 0.
 
 

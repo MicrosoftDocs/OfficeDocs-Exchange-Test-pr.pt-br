@@ -152,7 +152,7 @@ Conclua as etapas a seguir para preparar os clientes e servidores para oferecer 
 2.  Atualize servidores de Acesso para Cliente e de Caixa de Correio para o Exchange 2013 SP1. Para obter informações sobre como atualizar, consulte [Atualizar o Exchange 2013 para a atualização cumulativa ou pacote de serviço mais recente](upgrade-exchange-2013-to-the-latest-cumulative-update-or-service-pack-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Todos os servidores de Acesso para Cliente devem ser atualizados para Exchange 2013 SP1 antes da habilitação de MAPI sobre HTTP. Caso contrário, poderá ocorrer uma falha durante a conexão do Outlook a caixas de correio.<BR>Se todos os servidores de Caixa de Correio em um Grupo de Disponibilidade de Banco de Dados (DAG) não forem atualizados, poderá haver atrasos de email e o cliente solicitará a reinicialização do Outlook em caso de um failover do banco de dados.
 
 

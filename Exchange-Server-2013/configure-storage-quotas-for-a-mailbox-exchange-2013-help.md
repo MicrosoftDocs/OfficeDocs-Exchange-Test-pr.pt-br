@@ -22,7 +22,7 @@ _**Tópico modificado em:** 2015-07-07_
 As cotas de armazenamento permitem que os administradores controlem o tamanho de caixas de correio e gerenciem o crescimento de bancos de dados de caixa de correio. Quando uma caixa de correio atinge ou excede uma cota de armazenamento especificada, o Exchange envia uma notificação descritiva ao proprietário da caixa de correio.
 
 
-> [!TIP]
+> [!NOTE]
 > As cotas de armazenamento são aplicadas em relação ao tamanho de uma determinada caixa de correio conforme definido pela propriedade <CODE>TotalItemSize</CODE> ao executar o cmdlet <CODE>Get-MailboxStatistics</CODE>. Saiba mais em <A href="https://technet.microsoft.com/pt-br/library/bb124612(v=exchg.150)">Get-MailboxStatistics</A>.
 
 
@@ -75,7 +75,7 @@ Este tópico mostra como personalizar as configurações de armazenamento de uma
 Este exemplo define as cotas de aviso de problema, proibição de envio e proibição de envio e recebimento para a caixa de correio de Joe Healy em 24,5 GB, 24,75 GB e 25 GB respectivamente.
 
 
-> [!TIP]
+> [!NOTE]
 > Para garantir que as configurações personalizadas da caixa de correio sejam usadas em lugar dos padrões de banco de dados da caixa de correio, você deve definir o parâmetro <EM>UseDatabaseQuotaDefaults</EM> como <CODE>$false</CODE>.
 
 

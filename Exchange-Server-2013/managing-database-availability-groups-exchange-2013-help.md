@@ -52,7 +52,7 @@ Quando você cria um DAG, um objeto vazio representando o DAG com o nome especif
 DAGs usam um subconjunto das tecnologia de cluster de failover do Windows, como a pulsação do cluster, redes de cluster e o banco de dados de cluster (para armazenar dados que mudam ou podem mudar rapidamente, como mudanças de estado de banco de dados de ativo para passivo ou vice-versa ou de montado para desmontado e vice-versa). Como os DAGs dependem do cluster de failover do Windows, eles só podem ser criados em servidores de caixa de correio do Exchange 2013 que executem o sistema operacional Windows Server 2008 R2 Enterprise ou Datacenter, sistema operacional Windows Server 2012 Standard ou Datacenter ou o sistema operacional Windows Server 2012 R2 Standard ou Datacenter.
 
 
-> [!TIP]
+> [!NOTE]
 > O cluster de failover criado e usado pelo DAG deve ser dedicado ao DAG. O cluster não pode ser usado por nenhuma outra solução de alta disponibilidade ou para qualquer outra finalidade. Por exemplo, o cluster de failover não pode ser usado para armazenar em cluster outros aplicativos ou serviços. O uso do cluster de failover subjacente do DAG para finalidades que não sejam o DAG não tem suporte.
 
 
@@ -82,7 +82,7 @@ Independentemente de qual servidor é usado como o testemunha, se o firewall do 
 Nem o servidor testemunha nem o diretório testemunha precisa ser tolerante a falhas ou usar uma forma de redundância ou de alta disponibilidade. Não há nenhuma necessidade de usar um servidor de arquivo em cluster para o servidor testemunha ou empregar qualquer outra forma de resiliência para o servidor testemunha. Há várias razões para isso. Com DAGs maiores (por exemplo, seis membros ou mais), várias falhas são necessárias para que haja a necessidade do servidor testemunha. Como um DAG com seis membros podem tolerar até duas falhas de votante sem perder quorum, seriam necessários até três votantes com falha para que o servidor testemunha fosse exigido a fim de manter um quórum. Além disso, se houver uma falha que afete o servidor testemunha atual (por exemplo, você perde o servidor testemunha por conta de uma falha de hardware), será possível usar o cmdlet [Set-DatabaseAvailabilityGroup](https://technet.microsoft.com/pt-br/library/dd297934\(v=exchg.150\)) para configurar um novo servidor testemunha e um diretório testemunha (desde que você tenha um quórum).
 
 
-> [!TIP]
+> [!NOTE]
 > Também será possível usar o cmdlet <STRONG>Set-DatabaseAvailabilityGroup</STRONG> para configurar o servidor testemunha e o diretório testemunha no local original, se o servidor testemunha tiver perdido seu armazenamento ou se alguém tiver alterado o diretório testemunha ou as permissões de compartilhamento.
 
 
@@ -161,7 +161,7 @@ Durante a criação de um DAG, as seguintes combinações de opções e comporta
 Quando um DAG for formado, ele usará inicialmente o modelo de quórum Maioria dos Nós. Quando o segundo servidor de Caixa de Correio for adicionado ao DAG, o quorum será alterado automaticamente para um modelo de quorum Maioria dos Nós e Compartilhamentos de Arquivos. Quando essa alteração ocorrer, o cluster do DAG começará a usar o servidor testemunha para manter quorum. Se o diretório testemunha não existir, ele será automaticamente criado e compartilhado pelo Exchange, que fornecerá o compartilhamento com permissões de controle total para a conta de computador do CNO do DAG.
 
 
-> [!TIP]
+> [!NOTE]
 > Não é possível usar compartilhamento de arquivos que seja parte de um namespace do sistema de arquivos distribuído.
 
 
@@ -226,7 +226,7 @@ Voltar ao início
 Depois da criação de um DAG, é possível adicionar servidores ao DAG ou removê-los do DAG, usando o assistente para Gerenciar Grupo de Disponibilidade de Banco de Dados no EAC ou usando os cmdlets **Add-DatabaseAvailabilityGroupServer** ou **Remove-DatabaseAvailabilityGroupServer** no Shell. Para instruções detalhadas sobre como gerenciar a associação ao DAG, consulte [Gerenciar a associação de grupo de disponibilidade do banco de dados](manage-database-availability-group-membership-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Cada servidor de Caixa de Correio membro de um DAG também é um nó no cluster subjacente usado pelo DAG. Dessa forma, a qualquer momento, um servidor de Caixa de Correio pode ser membro de apenas um único DAG.
 
 
@@ -266,7 +266,7 @@ Quando o segundo e os servidores subsequentes forem adicionados ao DAG, ocorrer�
   - O banco de dados clusterizado é atualizado com informações sobre bancos de dados montados.
 
 
-> [!TIP]
+> [!NOTE]
 > A alteração feita no modelo de quorum deve acontecer automaticamente. No entanto, se o modelo de quorum não for alterado automaticamente para o modelo apropriado, será possível executar o cmdlet <STRONG>Set-DatabaseAvailabilityGroup</STRONG> com apenas o parâmetro <EM>Identity</EM> para corrigir as configurações de quorum do DAG.
 
 
@@ -416,7 +416,7 @@ Normalmente, você só precisará usar o adaptadores de rede dual onde o tráfeg
 Em configurações do adaptador de rede dual, uma rede geralmente é dedicada para o tráfego de replicação e a outra rede é usada principalmente para tráfego MAPI. Você também pode adicionar adaptadores de rede para cada membro DAG e configurar redes do DAG adicionais como redes de replicação.
 
 
-> [!TIP]
+> [!NOTE]
 > Ao usar várias redes de replicação, não há qualquer maneira de especificar uma ordem de precedência para o uso das redes. O Exchange seleciona aleatoriamente uma rede de replicação, no grupo de redes de replicação, para usá-la para envio de logs.
 
 
@@ -438,7 +438,7 @@ Depois de habilitar a configuração manual de redes DAG, você poderá usar o c
   - **Habilitar replicação**   No EAC, marque a caixa de seleção para dedicar a rede do DAG ao tráfego de replicação e bloquear o tráfego MAPI. Desmarque a caixa de seleção para evitar a replicação do uso da rede do DAG e habilitar o tráfego MAPI. No Shell, use o parâmetro *ReplicationEnabled* no cmdlet [Set-DatabaseAvailabilityGroupNetwork](https://technet.microsoft.com/pt-br/library/dd298008\(v=exchg.150\)) para habilitar e desabilitar a replicação.
 
 
-> [!TIP]
+> [!NOTE]
 > Desabilitar a replicação na rede MAPI não garante que o sistema não usará essa rede na replicação. Quando todas as redes de replicação configuradas estiverem offline, tiverem falhado ou estiverem indisponíveis de qualquer outra forma e somente a rede MAPI continuar ativa (o que é configurado como desabilitado para replicação), o sistema usará a rede MAPI para replicação.
 
 

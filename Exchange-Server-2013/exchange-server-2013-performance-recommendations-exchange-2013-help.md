@@ -26,7 +26,7 @@ Os artigos nesta seção foram gravados pela equipe de desempenho do Exchange. E
 As alterações de arquitetura no Exchange 2013 já estão documentadas no TechNet e no [Blog da equipe do Exchange](https://go.microsoft.com/fwlink/p/?linkid=35786). Primeiro mencionaremos após algumas alterações de alto níveis, você deve considerar para entender melhor desempenho dimensionamento e custo. Em seguida, abaixo, incluímos uma lista de referências recomendadas para fornecer mais contexto e plano de fundo nessas áreas importantes.
 
 
-> [!TIP]
+> [!NOTE]
 > Consulte <A href="exchange-2013-virtualization-exchange-2013-help.md">Virtualização do Exchange 2013</A> para obter orientações de otimização de desempenho sobre a implantação do Exchange Server 2013 em um ambiente virtualizado.
 
 

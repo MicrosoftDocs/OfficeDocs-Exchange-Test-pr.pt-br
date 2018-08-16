@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-11-28_
 Você pode usar o EAC e o Shell para configurar o Microsoft Exchange POP3 e IMAP4 serviços usar endereços IP e portas diferentes das configurações padrão.
 
 
-> [!TIP]
+> [!NOTE]
 > Digite os endereços IP e intervalos de endereços IP no formato de protocolo IP versão 4 (IPv4), o formato de Internet Protocol versão 6 (IPv6) ou ambos os formatos. Uma instalação padrão do Windows Server 2008 habilita o suporte para IPv4 e IPv6.
 
 

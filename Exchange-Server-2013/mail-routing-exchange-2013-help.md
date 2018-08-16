@@ -94,7 +94,7 @@ Os seguintes tipos de grupos de entrega existem no Exchange 2013:
       - Quando um servidor de Transporte de Borda for inscrito no site do Active Directory. Esses servidores de Transporte de Borda inscritos não são acessíveis diretamente de outros sites do Active Directory. Observe que o servidor de Transporte de Borda poderia ser o Exchange 2013, o Exchange 2010 ou o Exchange 2007.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O fan-out em atraso é usado somente quando o grupo de entrega está em um site do Active Directory. O fan-out em atraso tenta reduzir o número de transmissões de mensagens, quando vários destinatários compartilham qualquer parte do caminho de roteamento de menor custo.
 
 

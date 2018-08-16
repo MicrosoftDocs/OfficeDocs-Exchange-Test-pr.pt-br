@@ -22,7 +22,7 @@ Saiba como você pode segmentar sua lista de endereços global em grupos especí
 Segmentação de GAL (lista) de endereços global (também conhecido como *segregação de GAL*) é o processo no qual os administradores podem segmentar usuários em população específicas para oferecer exibições personalizadas da GAL da sua organização. Políticas de catálogo de endereços (ABPs) permitem aos usuários do segmento em grupos específicos para fornecer exibições personalizadas da lista de endereços global (GAL) da sua organização. Ao criar uma ABP, atribua um ou mais listas de endereços, um catálogo de endereços offline (OAB), uma lista de salas e um GAL à política. Em seguida, você pode atribuir a ABP aos usuários de caixa de correio, fornecendo acesso a um GAL personalizado no Outlook e Outlook Web App. O objetivo é fornecer um mecanismo mais simples para realizar a segmentação de GAL para organizações de local que exigem vários GALs. .
 
 
-> [!TIP]
+> [!NOTE]
 > ABPs destinam-se para otimizar as listas de endereço e a GAL para cada grupo de usuários, não dificultá-los para ver uns aos outros ou para se comunicar com outros usuários em sua organização. ABPs criar somente uma virtual separação de usuários de uma perspectiva de diretório, e não uma separação legais.
 
 

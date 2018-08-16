@@ -139,7 +139,7 @@ Para obter instruções detalhadas sobre como criar uma política de endereço d
     Clique em **Adicionar uma regra** para restringir os destinatários aos quais esta política será aplicada. Isso cria um demonstrativo Boolean **e**.
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > Se você aplicar muitas regras, será possível restringir a política de endereço de email até o ponto que ela não contenha nenhum usuário.
 
 

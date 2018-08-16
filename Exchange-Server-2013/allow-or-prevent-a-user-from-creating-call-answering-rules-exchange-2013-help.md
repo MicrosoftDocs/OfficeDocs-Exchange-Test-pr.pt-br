@@ -22,7 +22,7 @@ Você pode especificar se deseja que usuários individuais possam criar e gerenc
 Você pode habilitar ou desabilitar regras de atendimento de chamada para vários usuários que estão habilitados para Unificação de mensagens (UM), configurando regras de atendimento de chamada em um plano de discagem ou política de caixa de correio de Unificação de mensagens.
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para configurar esse recurso. Você deve usar o Shell para habilitar ou desabilitar regras de atendimento de chamadas para um usuário de email de voz.
 
 

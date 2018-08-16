@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2013-04-15_
 A nova propagação automática é um recurso para restaurar a redundância do banco de dados, após uma falha de disco. Se um disco falhar, as cópias de banco de dados armazenadas nesse disco são propagadas novamente, de maneira automática, para um disco sobressalente pré-configurado no servidor de Caixa de Correio. Você pode usar as instruções deste tópico para configurar a Nova Propagação Automática para um grupo de disponibilidade de banco de dados (DAG).
 
 
-> [!WARNING]
+> [!CAUTION]
 > O recurso de Nova Propagação Automática não executa quaisquer tarefas de pré-requisitos de configuração para você. Instalar discos corretamente, adicionar discos sobressalentes ao sistema, trocar discos defeituosos e formatar novos discos são coisas que devem ser feitas manualmente pelo administrador.
 
 
@@ -88,9 +88,7 @@ A saída para *AutoDagDatabaseCopiesPerVolume* deve refletir o valor configurado
 Primeiro, crie os diretórios que correspondem aos diretórios raiz configurados na Etapa 1. O exemplo a seguir mostra como criar os diretórios padrão usando o prompt de comando.
 
 ``` 
-    md C:\ExchangeDatabases
-``` 
-``` 
+    md C:\ExchangeDatabases  
     md C:\ExchangeVolumes
 ``` 
 

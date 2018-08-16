@@ -84,7 +84,7 @@ Há centenas de sondas recorrentes. Muitas dessas investigações são por banco
 Noções básicas sobre uma sonda recorrente é os seguintes: iniciar cada *RecurrenceIntervalSeconds* e verificar (ou investigue) alguns aspectos de integridade. Se o componente está íntegro, a sonda passa e grava um evento informativo o canal de Microsoft.Exchange.ActiveMonitoring\\ProbeResult com um *ResultType* de 3. Se a verificação falha ou expire, o teste falhará e grava um evento de erro ao mesmo canal. Um *ResultType* de 4 significa que a verificação de falha e um *ResultType* 1 significa que ele se esgotou. Muitos testes serão executado novamente se eles tempo de espera, até o valor da propriedade *MaxRetryAttempts* .
 
 
-> [!TIP]
+> [!NOTE]
 > <STRONG>Observação</STRONG> A ProbeResult canal crimson pode fazer muito ocupado com centenas de sondas executando cada alguns minutos e registrar um evento, portanto, pode haver um impacto real sobre o desempenho do seu servidor Exchange, caso você tente consultas caras contra os logs de eventos em um ambiente de produção.
 
 

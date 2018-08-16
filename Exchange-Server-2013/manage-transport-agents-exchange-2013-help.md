@@ -44,7 +44,7 @@ Agentes de transporte utilize os eventos de SMTP para operar em mensagens à med
 Você não pode usar o Shell de gerenciamento do Exchange para gerenciar o agente de transporte no serviço Front End Transport em um servidor de acesso para cliente. Em vez disso, você precisará abrir o Windows PowerShell no servidor de acesso para cliente e, em seguida, importe os cmdlets do Exchange para a sessão do Windows PowerShell.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Cmdlets do Exchange em execução no Windows PowerShell para tarefas que não seja o gerenciamento de agentes de transporte no serviço Front End Transport não é suportado. Há sérias conseqüências que podem resultar se ignorar o Shell de gerenciamento do Exchange e controle de acesso baseado em função (RBAC) executando os cmdlets do Exchange no Windows PowerShell. Você sempre deve executar os cmdlets do Exchange no Shell de gerenciamento do Exchange. Para obter mais informações, consulte <A href="release-notes-for-exchange-2013-exchange-2013-help.md">Notas de versão do Exchange 2013</A>.
 
 
