@@ -50,7 +50,7 @@ Usando o UCMA 4.0 oferece vários benefícios:
   - UCMA 4.0 fornece mais precisas traduções de mecanismo de fala e suporte de plataforma de voz mais escalonável em vários produtos.
 
 
-> [!NOTE]
+> [!NOTE]  
 > UCMA 4.0 é instalado quando você está instalando Exchange 2013. Para obter detalhes sobre os requisitos de instalação e 4.0 UCMA, consulte <A href="exchange-2013-prerequisites-exchange-2013-help.md">Pré-requisitos do Exchange 2013</A>. Para atualizar para a versão mais recente do UCMA, desinstale qualquer versão anterior do UCMA instaladas usando Adicionar ou remover programas.
 
 

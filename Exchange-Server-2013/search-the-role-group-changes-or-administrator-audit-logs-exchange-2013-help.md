@@ -42,7 +42,7 @@ Se quiser pesquisar no log de auditoria de caixa de correio, consulte [Registro 
         Set-AdminAuditLogConfig -AdminAuditLogEnabled $true
     
 
-    > [!TIP]
+    > [!NOTE]
     > O cmdlet <STRONG>Set-AdminAuditLogConfig</STRONG> não está disponível no Exchange Online.
 
     
@@ -77,7 +77,7 @@ Se alguma alteração for encontrada com o uso dos critérios especificados, uma
 Se quiser criar um arquivo XML que contenha as alterações efetuadas em sua organização, você poderá usar o relatório Exportar Log de Auditoria de Administrador, no EAC. Usando o relatório Exportar Log de Auditoria de Administrador, você pode especificar um intervalo de datas para pesquisar entradas de log de auditoria que contenham as alterações efetuadas pelos usuários especificados. O arquivo XML é enviado a um destinatário como anexo de email. O tamanho máximo do arquivo XML é de 10 MB.
 
 
-> [!TIP]
+> [!NOTE]
 > O Outlook Web App não permite que você abra anexos XML por padrão. O Exchange pode ser configurado para permitir que os anexos XML sejam visualizados usando o Outlook Web App, ou você pode usar outro cliente de email, como o Microsoft Outlook, para exibir o anexo. Para saber mais sobre como configurar o Outlook Web App para permitir a exibição de um anexo XML, confira <A href="view-or-configure-outlook-web-app-virtual-directories-exchange-2013-help.md">Exibir ou configurar diretórios virtuais do Outlook Web App</A>.
 
 
@@ -103,7 +103,7 @@ Para pesquisar no log de auditoria pelos critérios especificados, use a sintaxe
     Search-AdminAuditLog - Cmdlets <cmdlet 1, cmdlet 2, ...> -Parameters <parameter 1, parameter 2, ...> -StartDate <start date> -EndDate <end date> -UserIds <user IDs> -ObjectIds <object IDs> -IsSuccess <$True | $False >
 
 
-> [!TIP]
+> [!NOTE]
 > O cmdlet <STRONG>Search-AdminAuditLog</STRONG> retorna um máximo de 1.000 entradas de log por padrão. Use o parâmetro <EM>ResultSize</EM> para especificar até 250.000 entradas de log. Ou use o valor <CODE>Unlimited</CODE> para retornar todas as entradas.
 
 
@@ -174,7 +174,7 @@ Esse procedimento usa os seguintes conceitos:
 Não é possível usar o Shell para pesquisar entradas de log de auditoria que atendam aos critérios especificados e depois enviar os resultados a um destinatário que você especifica como um anexo de arquivo XML. Os resultados são enviados ao destinatário em 15 minutos. Para obter uma lista de critérios de pesquisa, consulte [Log de auditoria de administrador](administrator-audit-logging-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > O Outlook Web App não permite que você abra anexos XML por padrão. O Exchange pode ser configurado para permitir que os anexos XML sejam visualizados usando o Outlook Web App, ou você pode usar outro cliente de email, como o Microsoft Outlook, para exibir o anexo. Para saber mais sobre como configurar o Outlook Web App para permitir a exibição de um anexo XML, confira <A href="view-or-configure-outlook-web-app-virtual-directories-exchange-2013-help.md">Exibir ou configurar diretórios virtuais do Outlook Web App</A>.
 
 
@@ -200,7 +200,7 @@ O comando envia os resultados para o endereço SMTP davids@contoso.com, com "Alt
     New-AdminAuditLogSearch -Cmdlets Set-Mailbox -Parameters ProhibitSendQuota, ProhibitSendReceiveQuota, IssueWarningQuota, MaxSendSize, MaxReceiveSize -StartDate 08/04/2012 -EndDate 10/03/2012 -UserIds davids, chrisd, kima -StatusMailRecipients davids@contoso.com -Name "Mailbox limit changes"
 
 
-> [!TIP]
+> [!NOTE]
 > O relatório que o cmdlet <STRONG>New-AdminAuditLogSearch</STRONG> gera pode ter tamanho máximo de 10 MB. Se a pesquisa feita retornar um relatório maior do que 10 MB, altere os critérios de pesquisa especificados. Por exemplo, reduza o tamanho do intervalo de datas e execute vários relatórios, cada um com uma parte do intervalo de datas original.
 
 

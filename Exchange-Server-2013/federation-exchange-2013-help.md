@@ -183,7 +183,7 @@ Se quiser usar um certificado X.509 assinado por um CA externo, o certificado de
   - **Uso avançado de chave**   O certificado deve incluir o tipo de uso avançado de chave (EKU) **Autenticação de Cliente (1.3.6.1.5.5.7.3.2)**. Esse tipo de uso é feito para provar sua identidade a um computador remoto. Se você usar o EAC ou o Shell para gerar uma solicitação de certificado, esse tipo de uso será incluído por padrão.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Como o certificado não é usado para autenticação, ele não tem nenhum requisito de nome do requerente ou nome alternativo do requerente. Você pode usar um certificado com um nome de assunto que é o mesmo do nome de host, do nome de domínio ou de qualquer outro nome.
 
 
@@ -197,7 +197,7 @@ O certificado usado para criar a confiança de federação é designado como o c
 Depois de verificar o status de distribuição do certificado, você pode configurar a confiança para usar o novo certificado. Após a troca de certificados, o certificado atual é designado como o certificado anterior e o novo certificado é designado como o certificado atual. O novo certificado é publicado para o sistema de autenticação AD do Azure, e todos os tokens novos trocados com o sistema de autenticação AD do Azure criptografados usando o novo certificado.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Esse processo de transição de certificado é usado apenas pela federação. Se você usar o mesmo certificado para outros recursos do Exchange 2013 que exijam certificados, será preciso levar os requisitos de recursos em consideração ao planejar a aquisição, a instalação ou a transição para um novo certificado.
 
 

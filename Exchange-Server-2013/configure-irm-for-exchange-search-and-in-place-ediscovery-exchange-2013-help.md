@@ -22,9 +22,8 @@ No Microsoft Exchange Server 2013, você pode configurar o gerenciamento de dire
 Quando os membros do grupo de função de gerenciamento de descoberta executam uma pesquisa [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md) , mensagens protegidas por IRM são retornadas nos resultados da pesquisa e copiadas para a caixa de correio de descoberta especificada em uma pesquisa. Além disso, os membros do grupo de funções de gerenciamento de descoberta podem usar Outlook Web App para acessar as mensagens protegidas por IRM que foram copiadas para a caixa de correio de descoberta como resultado de pesquisa de descoberta.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Membros do grupo de função de gerenciamento de descoberta não podem acessar mensagens protegidas por IRM exportadas-los de uma caixa de correio de descoberta para outra caixa de correio ou para um arquivo. pst. Mensagens protegidas por IRM em uma caixa de correio de descoberta podem ser acessadas usando Outlook Web App.
-
 
 
 Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedimentos de gerenciamento de direitos de informação](information-rights-management-procedures-exchange-2013-help.md).
@@ -70,7 +69,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-IRMCon
 Este exemplo permite que os membros do grupo de função de gerenciamento de descoberta para acessar mensagens protegidas por IRM que residem na caixa de correio de descoberta.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Por padrão, o parâmetro <EM>EDiscoverySuperUserEnabled</EM> é definido para <CODE>$true</CODE>. Para desabilitar o acesso às mensagens protegidas por IRM para membros do grupo de função de gerenciamento de descoberta, defina-o para <CODE>$false</CODE>.
 
 

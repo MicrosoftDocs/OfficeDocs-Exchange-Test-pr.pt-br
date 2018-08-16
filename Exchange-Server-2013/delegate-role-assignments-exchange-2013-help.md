@@ -28,7 +28,7 @@ Se você atribuir uma atribuição de função de delegação para um grupo de f
 
 
 
-> [!NOTE]
+> [!NOTE]  
 > Este tópico discute a delegação de atribuição de função de gerenciamento. Se você deseja delegar quem pode adicionar membros ou remover membros de grupos de função, que é o método recomendado de delegação, consulte <A href="manage-role-groups-exchange-2013-help.md">Gerenciar grupos de função</A>.
 
 
@@ -62,7 +62,7 @@ Você pode criar delegação atribuições de função, usando o mesmos escopos 
   - [Adicionar uma função a um usuário ou USG](add-a-role-to-a-user-or-usg-exchange-2013-help.md)
 
 
-> [!NOTE]
+> [!NOTE]  
 > Não é possível criar uma atribuição de função de delegação para uma diretiva de atribuição de função de gerenciamento.
 
 

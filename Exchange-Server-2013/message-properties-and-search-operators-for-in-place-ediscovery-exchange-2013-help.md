@@ -174,7 +174,7 @@ A tabela a seguir lista as propriedades da mensagem de email que podem ser pesqu
 
 
 
-> [!TIP]
+> [!NOTE]
 > 1&nbsp;&nbsp;&nbsp;Para o valor de uma propriedade de destinatário, você pode usar o endereço SMTP, o nome para exibição ou o alias para especificar um usuário. Por exemplo, você pode usar clarab@contoso.com, clarab ou "Clara Barbosa" para especificar o usuário Clara Barbosa.
 
 
@@ -290,7 +290,7 @@ Operadores de pesquisa booleana, como **AND**, **OR**, ajudarão-lo a definir pe
 
 
 
-> [!TIP]
+> [!NOTE]
 > 1&nbsp;&nbsp;&nbsp;Use esse operador para propriedades que têm valores numéricos ou de data.
 
 
