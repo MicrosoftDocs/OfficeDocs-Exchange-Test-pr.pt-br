@@ -24,7 +24,7 @@ Quando você habilita um usuário para Unificação de mensagens (UM), um conjun
 Um número de ramal é necessário para cada usuário que está associado a um ramal de telefone, SIP URI Uniform Resource Identifier () ou plano de discagem e. 164. O número de extensão deve ser o número correto de dígitos, conforme especificado no plano de discagem de Unificação de mensagens para a política de caixa de correio de Unificação de mensagens.
 
 
-> [!TIP]
+> [!NOTE]
 > Você deve adicionar, remover ou modificar os números de ramal para todos os usuários habilitados para UM usando o EAC ou o Shell, mesmo que estejam vinculados a um URI do SIP ou o plano de discagem e. 164. Para adicionar, remover ou modificar o endereço SIP ou números e. 164 para usuários, você precisará usar o Shell, pois essas opções não estarão disponíveis no EAC.
 
 

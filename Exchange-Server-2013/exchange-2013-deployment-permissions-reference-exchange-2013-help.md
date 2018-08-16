@@ -175,7 +175,7 @@ Para obter informações sobre as permissões configuradas durante uma instalaç
 As tabelas de permissões desta seção mostram as permissões definidas quando o comando `Setup /PrepareAD` é executado.
 
 
-> [!TIP]
+> [!NOTE]
 > As permissões descritas nesta seção são as permissões padrão configuradas ao implantar o Exchange 2013 usando o modelo de permissões compartilhadas. Se você implantou o Exchange 2013 usando o modelo de permissões divididas do Active Directory, as permissões padrão são diferentes. Para obter mais informações sobre as alterações nas permissões padrão ao usar as permissões divididas do Active Directory ou sobre os modelos de permissões divididas e compartilhadas em geral, consulte <A href="understanding-split-permissions-exchange-2013-help.md">Active Directory split permissions</A> em <A href="understanding-split-permissions-exchange-2013-help.md">Compreendendo as permissões de divisão</A>. Se não escolher usar permissões divididas do Active Directory quando instalar o Exchange, o Exchange usará as permissões compartilhadas.
 
 
@@ -1705,7 +1705,7 @@ As tabelas de permissões desta seção mostram as permissões configuradas no c
 As tabelas a seguir mostram as permissões definidas quando o comando `Setup /PrepareDomain` é executado.
 
 
-> [!TIP]
+> [!NOTE]
 > As permissões descritas nesta seção são as permissões padrão configuradas ao implantar o Exchange 2013 usando o modelo de permissões compartilhadas. Se você implantou o Exchange 2013 usando o modelo de permissões divididas do Active Directory, as permissões padrão são diferentes. Para obter mais informações sobre as alterações nas permissões padrão ao usar as permissões divididas do Active Directory ou sobre os modelos de permissões divididas e compartilhadas em geral, consulte <A href="understanding-split-permissions-exchange-2013-help.md">Active Directory split permissions</A> em <A href="understanding-split-permissions-exchange-2013-help.md">Compreendendo as permissões de divisão</A>. Se não escolher usar permissões divididas do Active Directory quando instalar o Exchange, o Exchange usará as permissões compartilhadas.
 
 

@@ -103,7 +103,7 @@ Você pode executar duas operações em uma caixa de correio de arquivo morto de
   - **Conectá-la a uma caixa de correio principal existente**   Como uma caixa de correio principal desconectada, uma caixa de correio de arquivo morto desconectada fica retida no banco de dados de caixa de correio até o período de retenção da caixa de correio excluída expirar, que é de 30 dias por padrão. Durante esse tempo, você pode recuperar a caixa de correio de arquivo morto reconectando-a à mesma conta de usuário à qual estava conectada antes de ser desabilitada.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você desabilitar uma caixa de correio de arquivo morto de uma caixa de correio de usuário e depois habilitar uma caixa de correio de arquivo morto para o mesmo usuário, a caixa de correio desse usuário receberá uma nova caixa de correio de arquivo morto. Embora seja possível usar o cmdlet <STRONG>Connect-Mailbox</STRONG> para se conectar a uma caixa de correio principal a um usuário, você deve usar o cmdlet <STRONG>Enable-Mailbox</STRONG> para conectar uma caixa de correio de arquivo morto desabilitada a uma caixa de correio existente.
 
     

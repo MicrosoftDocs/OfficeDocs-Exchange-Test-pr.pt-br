@@ -34,7 +34,7 @@ O relatório antispam é um resumo dos resultados dos filtros antispam aplicados
 A tabela a seguir descreve as informações do filtro que podem constar em um relatório antispam.
 
 
-> [!TIP]
+> [!NOTE]
 > O relatório anti-spam só exibe informações dos filtros aplicados à mensagem específica. Um relatório antispam geralmente não contém todas as informações listadas na tabela a seguir. Por exemplo, você pode receber o seguinte relatório antispam: <CODE>DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures</CODE>.
 
 

@@ -36,7 +36,7 @@ Se for imprescindível para a sua organização proteger informações confidenc
 No Exchange 2013, há recursos do IRM que lidam com esses desafios. Se as mensagens forem protegidas por IRM, a descriptografia de transporte permite que você as descriptografe em trânsito. Mensagens protegidas por IRM são descriptografadas pelo agente de Descriptografia, um agente de transporte focado na conformidade.
 
 
-> [!TIP]
+> [!NOTE]
 > No Exchange 2013, o agente de descriptografia é um agente integrado. Agentes integrados não estão incluídos na lista de agentes retornados pelo cmdlet <STRONG>Get-TransportAgent</STRONG>. Para obter mais detalhes, consulte <A href="transport-agents-exchange-2013-help.md">Agentes de transporte</A>.
 
 
@@ -56,7 +56,7 @@ O agente de descriptografia descriptografa os seguintes tipos de mensagens prote
 
 
 
-> [!TIP]
+> [!NOTE]
 > As mensagens protegidas em trânsito usando regras de proteção de transporte não precisam ser descriptografadas pelo agente de descriptografia. O agente de descriptografia é acionado nos eventos de transporte <STRONG>OnEndOfData</STRONG> e <STRONG>OnSubmit</STRONG>. As regras de proteção de transporte são aplicadas pelo agente de Regras de Transporte, que aciona o evento <STRONG>OnRoutedMessage</STRONG>, e a proteção por IRM é aplicada pelo agente de criptografia no evento <STRONG>OnRoutedMessage</STRONG>. Para obter mais informações sobre agentes de transporte e uma lista de eventos SMTP nos quais eles podem ser registrados, consulte <A href="transport-agents-exchange-2013-help.md">Agentes de transporte</A>.
 
 

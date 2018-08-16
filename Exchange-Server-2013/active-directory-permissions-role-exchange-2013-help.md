@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-03-09_
 A função de gerenciamento `Active Directory Permissions` permite aos administradores configurar permissões do Active Directory em uma organização. Alguns recursos que usam permissões do Active Directory ou uma ACL (lista de controle de acesso) incluem conectores de Envio e Recebimento, e Enviam Como e Enviam em nome das permissões das caixas de correio.
 
 
-> [!TIP]
+> [!NOTE]
 > Permissões definidas diretamente em objetos Active Directory podem não ser impostas através do Controle de Acesso Baseado em Função (RBAC).
 
 
@@ -151,7 +151,7 @@ Essa função foi configurada para oferecer, a um destinatário de função, tod
 Se você precisar criar uma versão personalizada desta função, você deverá criar uma função como uma filha daquela função e personalizar essa nova função.
 
 
-> [!WARNING]
+> [!CAUTION]
 > As informações a seguir permitem que você execute o gerenciamento avançado de permissões. Personalizar funções de gerenciamento pode aumentar significativamente a complexidade do seu modelo de permissões. Você pode fazer com que determinados recursos parem de funcionar, se você substituir uma função de gerenciamento interna por uma função personalizada configurada incorretamente.
 
 

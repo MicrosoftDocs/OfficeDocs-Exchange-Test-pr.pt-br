@@ -22,7 +22,7 @@ Você pode usar o EAC ou o Shell para atribuir uma interna, autoassinada infraes
 Diferentes serviços têm requisitos de certificado diferente. Por exemplo, alguns serviços só podem exigir um nome de servidor nas caixas **Nome de entidade** ou **Nome alternativo da entidade** de um certificado e outros serviços podem exigir um nome de domínio totalmente qualificado (FQDN). Certifique-se de que o nome do certificado pode suportar os usos necessários para os serviços que você ativá-la para.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Certificados autoassinados não podem ser usados quando você estiver integrando a Unificação de mensagens (UM) com o Microsoft Lync Server.
 
 

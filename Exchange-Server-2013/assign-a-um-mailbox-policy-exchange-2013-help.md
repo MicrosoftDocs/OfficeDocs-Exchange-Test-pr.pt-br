@@ -28,7 +28,7 @@ Criar políticas de caixa de correio de Unificação de mensagens para aplicar u
   - Outras propriedades de política de caixa de correio de Unificação de mensagens gerais
 
 
-> [!TIP]
+> [!NOTE]
 > Uma diretiva de caixa de correio de Unificação de mensagens padrão é criada sempre que você criar um plano de discagem de UM. Você pode excluir as políticas de caixa de correio de Unificação de mensagens padrão ou criar diretivas de caixa de correio de Unificação de mensagens adicionais com base nas necessidades de sua organização.
 
 

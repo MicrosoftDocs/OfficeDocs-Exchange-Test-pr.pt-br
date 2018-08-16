@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2013-02-13_
 É possível definir um endereço de parceiro da Visualização da Caixa Postal em uma política de caixa de correio da UM (Unificação de Mensagens). Após a definição do endereço de parceiro da Visualização da Caixa Postal em uma política de caixa de correio da UM, a configuração será aplicada a todos os usuários habilitados para UM que estiverem vinculados àquela política de caixa de correio.
 
 
-> [!TIP]
+> [!NOTE]
 > Use o Shell para definir um endereço de parceiro da Visualização da Caixa Postal.
 
 

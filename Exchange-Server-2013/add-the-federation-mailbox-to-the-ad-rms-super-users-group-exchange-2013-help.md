@@ -30,7 +30,7 @@ Para os seguintes Microsoft Exchange Server 2013 gerenciamento de direitos de in
 Você pode configurar um grupo de distribuição habilitado para email como grupo de superusuários no AD RMS. Os membros do grupo de distribuição recebem uma licença de usuário de proprietário quando solicitam uma licença ao cluster do AD RMS. Isso permite a eles descriptografar todo o conteúdo protegido por RMS publicado por esse cluster. Se você usar um grupo de distribuição existente ou criar um grupo de distribuição e configurá-lo como grupo de superusuários no AD RMS, recomendamos dedicar o grupo de distribuição para essa finalidade e configurar as definições apropriadas para aprovar, auditar e monitorar alterações de associação.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Configurando um grupo de superusuários no AD RMS permite que os membros de grupo descriptografar conteúdo protegido por IRM. Recomendamos que você tomar as medidas adequadas para controlar e monitorar a associação de grupo e habilitar a auditoria acompanhar as alterações de associação. Você também pode limitar as alterações indesejadas para a associação ao grupo, definindo o grupo como um grupo restrito usando a diretiva de grupo. Para obter detalhes, consulte <A href="https://technet.microsoft.com/en-us/library/cc756802(v=ws.10).aspx">Configurações de diretiva de grupos restritos</A>.
 
 

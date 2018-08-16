@@ -92,7 +92,7 @@ Quando um chamador liga para um usuário habilitado para UM e o usuário não at
 Um servidor de caixa de correio usa as informações de desvio do cabeçalho de chamada de entrada para determinar o número do ramal ou número de telefone do usuário habilitado para UM. Quando o número de telefone ou ramal é determinado, o servidor de caixa de correio envia a solicitação para o SIP correspondente. O SIP correspondente, em seguida, altera o estado do MWI e ativa a notificação no telefone do usuário.
 
 
-> [!TIP]
+> [!NOTE]
 > Embora as paralisações de PBX devam ser raras, a UM atualiza automaticamente o estado do MWI para cada caixa de correio pelo menos uma vez a cada 12 horas. Não há nenhuma maneira para forçar uma atualização, mas se o PBX ou PBX IP estiver desligado e todas as lâmpadas do MWI se apagarem, todas as lâmpadas devem ser restauradas para o estado correto dentro de seis horas.
 
 
@@ -277,7 +277,7 @@ Como mencionado anteriormente, uma notificação do MWI é qualquer mecanismo qu
 Uma mensagem de texto é enviada para o telefone celular de um usuário quando um chamador deixa uma nova mensagem de voz. Os usuários também podem receber uma mensagem de texto notificando quando eles perdem uma chamada telefônica e uma mensagem de voz não é deixada. A mensagem de texto de notificação de chamada não atendida pode ser enviada para o usuário junto com a nova notificação de correio de voz.
 
 
-> [!TIP]
+> [!NOTE]
 > A mensagem de texto que é enviada a um usuário inclui visualização da caixa postal.
 
 

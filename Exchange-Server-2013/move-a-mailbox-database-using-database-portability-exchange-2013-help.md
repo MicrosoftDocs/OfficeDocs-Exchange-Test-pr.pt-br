@@ -38,7 +38,7 @@ _**Tópico modificado em:** 2014-06-16_
 1.  Verifique se o banco de dados está no estado de desligamento normal. Se o banco de dados não estiver no estado 'desligamento normal', execute uma recuperação simples
     
 
-    > [!TIP]
+    > [!NOTE]
     > Quando você executar a recuperação simples, qualquer arquivo de log não confirmado será confirmado no banco de dados. Se você não tiver todos os arquivos de log necessários, não poderá concluir o processo de recuperação simples. Prossiga até a etapa&nbsp;2.
 
     
@@ -47,7 +47,7 @@ _**Tópico modificado em:** 2014-06-16_
         ESEUTIL /R <Enn>
     
 
-    > [!TIP]
+    > [!NOTE]
     > E<EM>nn</EM>&gt; especifica o prefixo de arquivo de log para o banco de dados no qual você pretende repetir os arquivos de log.. O prefixo de arquivo de log especificado pelo &lt;E<EM>nn</EM>&gt; é um parâmetro necessário para o Eseutil /r.
 
 

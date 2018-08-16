@@ -56,7 +56,7 @@ Depois de criar um gateway IP de UM, os servidores de acesso para cliente e caix
 Um servidor de acesso para cliente e um servidor de caixa de correio se comunicará somente com um gateway VoIP, IP PBX ou SBC está listado como um ponto de protocolo de iniciação de sessão (SIP) confiável. Um evento com ID 1175 será registrado quando vários hosts DNS compartilham o mesmo endereço IP. Esse evento pode ocorrer se você tiver configurado as zonas DNS com os FQDNs dos gateways VoIP em sua rede. A Unificação de mensagens protege contra solicitações não autorizadas Recuperando a URL interna do diretório virtual do Unified Messaging serviços da Web que está localizado no servidor de caixa de correio e, em seguida, usando a URL para criar a lista de FQDNs para o SIP confiável de correspondentes. Depois de dois FQDNs serão resolvidos para o mesmo endereço IP, esse evento será registrado.
 
 
-> [!TIP]
+> [!NOTE]
 > Você deve reiniciar o MicrosoftExchange Unificação de mensagens do serviço se um gateway VoIP, IP PBX, ou SBC está configurado para ter um FQDN e o registro DNS do gateway VoIP, IP PBX ou SBC é alterado depois que o serviço foi iniciado. Se você não reiniciar o serviço, o servidor de caixa de correio não conseguirá localizar o gateway VoIP, IP PBX ou SBC. Isso ocorre porque um servidor de caixa de correio mantém um cache para todos os gateways VoIP, IP PBXs ou SBCs na memória e a resolução DNS é executada somente quando o serviço for reiniciado ou quando a configuração de um gateway VoIP, IP PBX ou SBC foi alterada.
 
 

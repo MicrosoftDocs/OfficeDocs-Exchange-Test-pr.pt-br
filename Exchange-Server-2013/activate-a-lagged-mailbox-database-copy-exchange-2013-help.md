@@ -22,7 +22,7 @@ Uma cópia de banco de dados de caixa de correio com atraso é uma cópia de ban
 Você está procurando por outras informações relacionadas a cópias de bancos de dados de caixa de correio atrasadas? Consulte [Gerenciando cópias de banco de dados de caixa de correio](managing-mailbox-database-copies-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > O tempo para a ativação direta de uma cópia de banco de dados de caixa de correio com atraso depende diretamente de quantos arquivos de log precisam ser repetidos e da velocidade com que o hardware pode repeti-los. Você deverá ver uma taxa de repetição de log de, pelo menos, dois logs por segundo por banco de dados.
 
 
@@ -50,7 +50,7 @@ Você está procurando por outras informações relacionadas a cópias de bancos
 ## Usar o Shell para ativar uma cópia de banco de dados de caixa de correio com atraso até um momento específico
 
 
-> [!TIP]
+> [!NOTE]
 > O EAC não pode ser usado para ativar uma cópia de banco de dados de caixa de correio com atraso em um momento específico. Em vez disso, você segue uma série de etapas usando o Shell e a linha de comando.
 
 
@@ -62,7 +62,7 @@ Você está procurando por outras informações relacionadas a cópias de bancos
 2.  Opcionalmente (para preservar uma cópia com atraso), faça uma cópia do banco de dados e de seus arquivos de log.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Neste ponto, continuar realizando este procedimento no volume existente levaria a uma penalidade de desempenho de cópia na gravação. Se isso não for o que você deseja, é possível copiar o banco de dados e os arquivos de log para outro volume para realizar a recuperação.
 
 
@@ -76,7 +76,7 @@ Você está procurando por outras informações relacionadas a cópias de bancos
         Eseutil.exe /r eXX /a
     
 
-    > [!TIP]
+    > [!NOTE]
     > No exemplo anterior, e<EM>XX</EM> é o prefixo de geração de log do banco de dados (por exemplo, E00, E01, E02 e assim por diante).
 
     
@@ -105,7 +105,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Suspend-Ma
     2.  Opcionalmente (para preservar uma cópia com atraso), faça uma cópia do banco de dados e de seus arquivos de log.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Neste ponto, continuar realizando este procedimento no volume existente levaria a uma penalidade de desempenho de cópia na gravação. Se isso não for o que você deseja, é possível copiar o banco de dados e os arquivos de log para outro volume para realizar a recuperação.
 
 
@@ -125,7 +125,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Suspend-Ma
     2.  Opcionalmente (para preservar uma cópia com atraso), faça uma cópia do banco de dados e de seus arquivos de log.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Neste ponto, continuar realizando este procedimento no volume existente levaria a uma penalidade de desempenho de cópia na gravação. Se isso não for o que você deseja, é possível copiar o banco de dados e os arquivos de log para outro volume para realizar a recuperação.
 
 

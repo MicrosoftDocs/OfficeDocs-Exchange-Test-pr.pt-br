@@ -76,7 +76,7 @@ Antes de importar ou exportar dados de caixa de correio, considere o seguinte:
 Utilize o conjunto de cmdlets **MailboxImportRequest** para importar os dados de um arquivo .pst para uma caixa de correio ou arquivo morto pessoal. Esta é uma lista de opções que você pode especificar ao importar os dados de caixas de correio de um arquivo .pst:
 
 
-> [!TIP]
+> [!NOTE]
 > A caixa de correio para a qual você vai importar os dados precisa existir. Você não pode importar dados para uma conta de usuário que não possua uma caixa de correio.
 
 

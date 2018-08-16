@@ -167,9 +167,8 @@ Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.
 Este exemplo configura o ponto de extremidade da migração e cria uma movimentação em lote entre florestas, da floresta de origem para a floresta de destino, usando um arquivo .csv.
 
 ```
-New-MigrationEndpoint -Name Fabrikam -ExchangeRemote -Autodiscover -EmailAddress tonysmith@fabrikam.com -Credentials (Get-Credential fabrikam\tonysmith) 
-```
-```    
+New-MigrationEndpoint -Name Fabrikam -ExchangeRemote -Autodiscover -EmailAddress tonysmith@fabrikam.com -Credentials (Get-Credential fabrikam\tonysmith)  
+    
     $csvData=[System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\batch.csv")
     New-MigrationBatch -CSVData $csvData -Timezone "Pacific Standard Time" -Name FabrikamMerger -SourceEndpoint Fabrikam -TargetDeliveryDomain "mail.contoso.com"
 ```

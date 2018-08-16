@@ -52,7 +52,7 @@ Para habilitar a filtragem de remetente, execute o seguinte comando:
     Set-SenderFilterConfig -Enabled $true
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você desabilita a filtragem do remetente, o agente de filtro de remetente subjacente ainda está habilitado. Para desabilitar o agente Filtro de remetente, execute o comando: <CODE>Disable-TransportAgent "Sender Filter Agent"</CODE>.
 
 

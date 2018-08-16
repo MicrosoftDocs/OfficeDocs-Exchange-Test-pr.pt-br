@@ -22,7 +22,7 @@ Regras de transporte com condições de verificação de anexo executam extraç�
 Após registrar um IFilter para um tipo de arquivo específico, as regras de transporte com condições de processamento de anexo poderão verificar esses anexos. Como resultado, esses tipos de arquivo não dispararão a condição *AttachmentIsUnsupported*.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Os procedimentos listados neste tópico envolvem a modificação do Registro nos servidores do Exchange. A edição incorreta do Registro pode causar problemas graves que podem exigir a reinstalação do sistema operacional. Talvez não seja possível resolver os problemas resultantes da edição incorreta do Registro. Antes de editar o Registro, faça backup de todos os dados importantes.<BR>Esses procedimentos também exigem que você interrompa e reinicie o serviço de Transporte do Microsoft Exchange em seus servidores de Caixa de Correio.
 
 
@@ -168,7 +168,7 @@ Você pode estender o recurso de verificação de anexos para tipos de arquivos 
 Este procedimento mostra como implantar o [IFilter do Adobe PDF](https://www.adobe.com/support/downloads/detail.jsp?ftpid=4025) para oferecer suporte a processamento de anexos PDF nas regras de transporte.
 
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, o Exchange 2013 dá suporte à verificação de arquivos PDF nas regras de transporte. O exemplo de PDF aqui é usado simplesmente para ilustrar como você pode ampliar o suporte para tipos de arquivos adicionais usando IFilters de terceiros.
 
 
@@ -186,7 +186,7 @@ Este procedimento mostra como implantar o [IFilter do Adobe PDF](https://www.ado
     2.  Altere o nome da nova chave para `{E8978DA6-047F-4E3D-9C78-CDBE46041603}`.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Cada IFilter tem uma ID de única classe (CLSID). Você pode encontrar o CLSID na documentação de instalação para o IFilter que registrou para a extensão de arquivo na chave <CODE>HKEY_CLASSES_ROOT\CLSID</CODE> no registro.
 
     

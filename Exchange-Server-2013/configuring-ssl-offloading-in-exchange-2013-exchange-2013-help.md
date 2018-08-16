@@ -22,7 +22,7 @@ As informações a seguir ajudam você a configurar descarregamento SSL para os 
 Uma das maiores vantagens do descarregamento SSL é conseguir gerenciar com mais facilidade os certificados usados. Em vez de ter certificados SSL separados para cada servidor de Acesso para Cliente com SP1 instalado, um único certificado SSL é usado e importado para todos os servidores de Acesso para Cliente. O certificado usado pode ser um certificado SSL existente ou recém-criado.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Quando você usa o Gerenciador de serviços de informações da Internet (IIS), o Shell de gerenciamento do Exchange ou uma interface de linha de comando para configurar o descarregamento de SSL, observe que há um <STRONG>Site padrão</STRONG> e um site do <STRONG>Exchange Back-End</STRONG>. Para o descarregamento de SSL, apenas configurar o <STRONG>Site padrão</STRONG> e não fizer alterações para o site do <STRONG>Exchange Back-End</STRONG>.
 
 
@@ -351,7 +351,7 @@ Voltar ao início
 Se você estiver trabalhando com uma organização grande com múltiplos servidores de Acesso para Cliente do Exchange 2013, talvez você queira agilizar as etapas anteriores pelas quais você passou. Você pode copiar e colar os comandos em qualquer um dos scripts a seguir no Bloco de Notas, fazer quaisquer alterações, salvar o arquivo com uma extensão .ps1 e depois executá-lo no Shell de Gerenciamento do Exchange. Dependendo das suas necessidades, os dois scripts podem ser usados para configurar o descarregamento SSL para todos os protocolos e serviços para um único servidor de Acesso para Cliente ou para vários deles.
 
 
-> [!TIP]
+> [!NOTE]
 > Para que as entradas de cmdlet <STRONG>Set-OutlookAnywhere</STRONG> , substitua "Meuservidor" pelo nome do seu servidor de acesso para cliente (es).
 
 
@@ -372,7 +372,7 @@ Se você estiver trabalhando com uma organização grande com múltiplos servido
 **Usando appcmd**
 
 
-> [!TIP]
+> [!NOTE]
 > Para que as entradas do cmdlet <STRONG>Set-OutlookAnywhere</STRONG> , substitua "Meuservidor" pelo nome do seu servidor de acesso para cliente (es).
 
 

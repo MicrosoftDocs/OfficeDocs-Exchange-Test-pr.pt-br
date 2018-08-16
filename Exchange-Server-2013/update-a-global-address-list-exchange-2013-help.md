@@ -44,7 +44,7 @@ Para tarefas de gerenciamento adicionais relacionadas a listas de endereços, co
 Este exemplo atualiza uma GAL para a empresa Fourth Coffee.
 
 
-> [!TIP]
+> [!NOTE]
 > A execução desse comando apenas inicia o processo de atualização. O processo de atualização da GAL pode demorar várias horas.
 
 

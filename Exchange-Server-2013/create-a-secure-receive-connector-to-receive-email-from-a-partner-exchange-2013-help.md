@@ -1,4 +1,5 @@
-﻿---
+﻿add-an-auto-attendant-extension-number-exchange-2013-help
+---
 title: 'Criar um conector de recebimento seguro para receber email de um parceiro'
 TOCTitle: Criar um conector de recebimento seguro para receber email de um parceiro
 ms:assetid: 06aa692c-7940-4a14-a722-058c47440f85
@@ -52,7 +53,7 @@ Interessado em cenários em que esse procedimento é usado? Consulte os seguinte
 5.  Se a página de configurações de rede remota listar 0.0.0.0-255.255.255.255, o que significa que o conector de Recebimento recebe conexões de todos os endereços IP, clique em **Remover**![ícone Remover](images/JJ657492.479b6ced-8d64-4277-a725-f17fea202b28(EXCHG.150).gif "ícone Remover"), para removê-lo. Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar"), adicione o endereço IP do servidor do seu parceiro e clique em **Salvar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Você também pode especificar um intervalo de endereços IP com a notação CIDR, como 64.4.6.100/24.
 
 

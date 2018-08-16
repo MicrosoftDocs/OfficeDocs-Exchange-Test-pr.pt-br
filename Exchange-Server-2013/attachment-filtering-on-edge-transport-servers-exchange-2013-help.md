@@ -42,7 +42,7 @@ Depois de definir quais arquivos procurar, configure a ação a ser realizada na
 Para obter mais informações, consulte [Gerenciar filtragem de anexos nos servidores de transporte de borda](manage-attachment-filtering-on-edge-transport-servers-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Não é possível recuperar mensagens bloqueadas ou anexos retirados. Ao configurar filtros de anexo, examine com cuidado todas as possíveis correspondências de nomes de arquivos e verifique se os anexos legítimos não serão afetados pelo filtro.<BR>Além disso, não remova anexos de mensagens de email assinadas digitalmente, criptografadas ou com proteção de direitos. Se os anexos dessas mensagens forem removidos, as mensagens assinadas digitalmente serão invalidadas e as mensagens criptografadas e com proteção de direitos ficarão ilegíveis.
 
 

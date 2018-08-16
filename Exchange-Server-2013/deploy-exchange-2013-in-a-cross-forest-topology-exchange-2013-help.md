@@ -58,7 +58,7 @@ Para realizar o procedimento a seguir no Exchange 2013, confirme o seguinte:
       - [Instalar o Exchange 2013 usando o Assistente para Configuração](install-exchange-2013-using-the-setup-wizard-exchange-2013-help.md)
         
 
-        > [!TIP]
+        > [!NOTE]
         > Este tópico pressupõe que você não possui um existente Exchange 2007 ou Exchange 2010 topologia. Se você tiver uma topologia existente do Exchange e você deseja atualizar, consulte <A href="upgrade-from-exchange-2010-to-exchange-2013-exchange-2013-help.md">Atualizar do Exchange 2010 para o Exchange 2013</A> ou <A href="upgrade-from-exchange-2007-to-exchange-2013-exchange-2013-help.md">Atualização do Exchange 2007 para o Exchange 2013</A>.
 
 
@@ -81,7 +81,7 @@ Para realizar o procedimento a seguir no Exchange 2013, confirme o seguinte:
     1.  Na página **Configurar Extensões** , em **Configurar nome(s) para exibição da partição**, ao lado de **Configurar para**, selecione **Exchange 2013**. Você verá o campo **URI do Exchange 2013 RPS** . Digite a URI de um servidor de Acesso para Cliente do Exchange 2013 para ter certeza de que a conexão remota do PowerShell está funcionando. A **URI do Exchange 2013 RPS** deve estar no seguinte formato: http://CAS\_Server\_FQDN/Powershell. Clique em **OK**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Certifique-se de que as credenciais de administrador usads para conectar-se à floresta do Exchange 2013 também podem fazer conexões remotas do PowerShell para aquela floresta.<BR>A figura a seguir mostra como selecionar a configuração para o Exchange 2013.
 
         

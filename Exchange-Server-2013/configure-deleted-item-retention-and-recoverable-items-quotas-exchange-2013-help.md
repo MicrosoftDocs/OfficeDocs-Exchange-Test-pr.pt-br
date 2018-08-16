@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2016-12-09_
 Quando um usuário exclui os itens da pasta Itens excluídos padrão usando o Delete, Shift + Delete ou ações **Esvaziar pasta Itens excluídos**, os itens são movidos para a pasta **Items\\Deletions recuperável**. A duração que itens excluídos permaneçam nesta pasta baseia-se as configurações de retenção de item excluído definidas para o banco de dados de caixa de correio ou a caixa de correio. Por padrão, um banco de dados de caixa de correio está configurado para reter itens excluídos 14 dias, e os aviso de cota e a cota de itens recuperáveis de itens recuperáveis são definidos como 20 gigabytes (GB) e 30 GB respectivamente.
 
 
-> [!TIP]
+> [!NOTE]
 > Antes do tempo de retenção para ter decorrido de itens excluídos, Microsoft Outlook e Microsoft OfficeOutlook Web App os usuários podem recuperar itens excluídos, usando o recurso de recuperar itens excluídos. Para saber mais sobre esses recursos, consulte o tópico "Recuperar itens excluídos" for <A href="https://go.microsoft.com/fwlink/p/?linkid=198206">Outlook</A> ou <A href="https://go.microsoft.com/fwlink/p/?linkid=198207">Outlook Web App</A>.
 
 
@@ -74,7 +74,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-M
 ## Use o Shell para configurar cotas de itens recuperáveis para uma caixa de correio
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para configurar cotas de itens recuperáveis para uma caixa de correio.
 
 
@@ -84,7 +84,7 @@ Este exemplo configura um aviso de cota de 12 GB e uma cota de itens recuperáve
     Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
 
 
-> [!TIP]
+> [!NOTE]
 > Para configurar uma caixa de correio para usar cotas de itens recuperáveis diferentes que o banco de dados de caixa de correio em que reside, você deve definir o parâmetro <EM>UseDatabaseQuotaDefaults</EM> para <CODE>$false</CODE>.
 
 
@@ -94,7 +94,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-M
 ## Use o Shell para configurar a retenção de item excluído de um banco de dados de caixa de correio
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para configurar a retenção de item excluído de um banco de dados de caixa de correio.
 
 
@@ -108,7 +108,7 @@ Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Set-
 ## Use o Shell para configurar cotas de itens recuperáveis para um banco de dados de caixa de correio
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para configurar cotas de itens recuperáveis para um banco de dados de caixa de correio
 
 

@@ -61,7 +61,7 @@ Você pode incorporar recursos de detecção de DLP com regras de transporte tra
 
   -  [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md)
     
-    [Cmdlets de política e conformidade](https://technet.microsoft.com/pt-br/library/dd298082\(v=exchg.150\))
+  -  [Cmdlets de política e conformidade](https://technet.microsoft.com/pt-br/library/dd298082\(v=exchg.150\))
 
 ## Usar diretivas DLP, criadas pela Microsoft
 

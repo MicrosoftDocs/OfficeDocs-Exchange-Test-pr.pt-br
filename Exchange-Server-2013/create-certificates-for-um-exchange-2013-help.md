@@ -22,7 +22,7 @@ Você pode usar o assistente de Novo Certificado do Exchange no EAC ou o Shell p
 Por padrão, ao instalar o Exchange Server 2013, dois certificados autoassinados são criados: **Microsoft Exchange Server Auth Certificate** e **Microsoft Exchange**. O certificado autoassinado do **Microsoft Exchange** pode ser usado pela UM para criptografar dados, mas você deve atribuir o certificado aos serviços de Roteador de Chamada de UM e de UM. Após você atribuir o certificado aos serviços de Unificação de Mensagens, ele pode ser copiado e importado para os gateways VoIP, PBXs IP e PBXs habilitados para SIP. Entretanto, em vez de usar os certificados autoassinados padrão, você pode precisar criar outro especificamente para a Unificação de Mensagens.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Os certificados autoassinados não podem ser usados quando você está fazendo integração da UM com o Microsoft Lync server.
 
 

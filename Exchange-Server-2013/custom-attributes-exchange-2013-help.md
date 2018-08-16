@@ -66,7 +66,7 @@ Para mais informações sobre as propriedades com muitos valores, consulte [Modi
 Em muitas implantações do Exchange, criar uma diretiva de endereços de email para todos os destinatários em um OU é um cenário comum. O OU não é uma propriedade filtrável que possa ser usada no parâmetro *RecipientFilter* de uma diretiva de endereço de email ou uma lista de endereços.
 
 
-> [!TIP]
+> [!NOTE]
 > Grupos de distribuição dinâmicos têm um parâmetro adicional que você pode usar para restringi-lo a destinatários em um OU ou contêiner em particular.
 
 
@@ -88,7 +88,7 @@ Este exemplo cria um grupo dinâmico de distribuição baseado nos destinatário
     New-DynamicDistributionGroup -Name "Sales Users and Contacts" -IncludedRecipients "MailboxUsers,MailContacts" -ConditionalCustomAttribute1 "SalesOU"
 
 
-> [!TIP]
+> [!NOTE]
 > Use o parâmetro <EM>IncludedRecipients</EM> caso utilize um parâmetro <EM>Conditional</EM>. Além disso, você não pode usar parâmetros <EM>Conditional</EM> se você usar o parâmetro <EM>RecipientFilter</EM>. Se você quiser incluir filtros adicionais para criar seu grupo de distribuição dinâmico, políticas de endereços de email ou listas de endereços, você deverá usar o parâmetro <EM>RecipientFilter</EM>.
 
 

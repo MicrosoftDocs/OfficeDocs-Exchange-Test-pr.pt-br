@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-10-04_
 Uma *atribuição de função de gerenciamento*, que é parte do modelo de permissões RBAC (controle de acesso baseado na função) do Microsoft Exchange Server 2013, é o vínculo entre uma função de gerenciamento e um destinatário de função. O parâmetro *destinatário de função* é um grupo de função, uma diretiva de atribuição de função, um usuário ou um USG (grupo de segurança universal). É preciso atribuir uma função a um destinatário de função para que ele tenha efeito. Para mais informações sobre o RBAC, consulte [Controle de acesso baseado em função de compreensão](understanding-role-based-access-control-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Este tópico concentra-se na funcionalidade avançada de RBAC. Se você quiser gerenciar permissões básicas do Exchange 2013, como usar o Centro de Administração do Exchange (EAC) para adicionar e remover membros de grupos de funções, criar e modificar grupos de funções ou criar e modificar políticas de atribuição de função, consulte <A href="permissions-exchange-2013-help.md">Permissões</A>.
 
 
@@ -82,7 +82,7 @@ As atribuições de função regulares permitem que o destinatário de função 
 As atribuições de função de delegação não oferecem acesso a recursos de gerenciamento. As atribuições de função de delegação dão a um destinatário de função a capacidade de atribuir a função especificada a outros destinatários de função. Se o destinatário de função for um grupo de função, qualquer membro do grupo de função pode atribuir a função a outro destinatário de função. Por padrão, apenas o grupo de função de Gerenciamento da Organização tem capacidade de atribuir funções a outros destinatários de função. Apenas o usuário que instalou o Exchange 2013 é membro do grupo de função Gerenciamento da Organização por padrão. No entanto, é possível adicionar outros usuários a esse grupo de função conforme a necessidade, ou criar outros grupos de função e atribuir atribuições de função de delegação a esses grupos.
 
 
-> [!TIP]
+> [!NOTE]
 > As atribuições de função de delegação dão aos destinatários de função a capacidade de delegar funções de gerenciamento a outros destinatários de função. Isso não permite aos usuários delegar grupos de função. Para obter mais informações sobre a delegação de grupos de função, consulte <A href="understanding-management-role-groups-exchange-2013-help.md">Noções básicas sobre grupos de funções de gerenciamento</A>.
 
 

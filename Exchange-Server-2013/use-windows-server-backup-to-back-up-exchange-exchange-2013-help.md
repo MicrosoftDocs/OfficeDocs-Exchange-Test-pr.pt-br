@@ -50,7 +50,7 @@ Você pode usar o Backup do Windows Server para fazer backup e restaurar os banc
 6.  Na página **Selecionar Itens para Backup**, clique em **Adicionar Itens** para selecionar o(s) volume(s) em que será feito o backup e clique em **OK**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Escolha os volumes e não pastas individuais. A única maneira de realizar um backup ou uma restauração no nível de aplicativo é selecionando um volume inteiro.
 
 
@@ -58,7 +58,7 @@ Você pode usar o Backup do Windows Server para fazer backup e restaurar os banc
 7.  Clique em **Configurações Avançadas**. Na guia **Exclusões**, clique em **Adicionar Exclusão** para adicionar arquivos ou tipos de arquivos que você deseja excluir do backup.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Por padrão, os volumes que contêm componentes ou aplicativos do sistema operacional são incluídos no backup e não podem ser excluídos.
 
 

@@ -174,7 +174,7 @@ A tabela a seguir lista os requisitos para os servidores de rede e de diretório
 O uso de controladores de domínio de 64 bits do Active Directory aumenta o desempenho do serviço de diretório do Exchange 2013.
 
 
-> [!TIP]
+> [!NOTE]
 > Em ambientes com vários domínios, em controladores de domínio do Windows Server 2008 que tenham a localidade de idioma do Active Directory definida como japonês, os seus servidores podem não receber alguns atributos armazenados em um objeto durante a replicação de entrada. Para mais informações, consulte o artigo da Base de Dados de Conhecimento da Microsoft 949189, <A href="http://go.microsoft.com/fwlink/p/?linkid=3052&kbid=949189">Um controlador de domínio do Windows Server 2008 configurado com a localidade do idioma japonês pode não aplicar atualizações a atributos em um objeto durante a replicação de entrada</A>.
 
 

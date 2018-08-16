@@ -338,9 +338,7 @@ Em implantações menores, você pode querer implantar a UM apenas para deixar m
 
 Se necessário, pode criar um atendedor automático de UM usando o EAC, da seguinte forma:
 
-1.  
-    
-    No EAC, navegue até **Unificação de Mensagens** \> **Planos de discagem de UM**. Selecione o plano de discagem da UM ao qual deseja adicionar a um atendedor automático e clique em **Editar**![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição").
+1.  No EAC, navegue até **Unificação de Mensagens** \> **Planos de discagem de UM**. Selecione o plano de discagem da UM ao qual deseja adicionar a um atendedor automático e clique em **Editar**![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição").
 
 2.  Na página **Plano de discagem de UM**, em **Atendedores Automaticos de UM**, clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar").
 

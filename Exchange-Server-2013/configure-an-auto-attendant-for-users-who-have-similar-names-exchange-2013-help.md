@@ -55,7 +55,7 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores aut
 
 3.  Na página **Atendedor Automático da UM**, clique em **Catálogo de endereços e acesso de operador** e, em **Informações a serem incluídas para usuários com o mesmo nome**, selecione uma destas opções:
     
-      - **Cargo   **O atendedor automático incluirá o cargo de cada usuário quando ele listar as correspondências.
+      - **Cargo**O atendedor automático incluirá o cargo de cada usuário quando ele listar as correspondências.
     
       - **Departamento**   O atendedor automático incluirá o departamento de cada usuário quando ele listar as correspondências.
     

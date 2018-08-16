@@ -76,7 +76,7 @@ Voltar ao início
 Por padrão, os logs de transação do banco de dados de fila de mensagem estão armazenados em %ExchangeInstallPath%TransportRoles\\data\\Queue. O Exchange monitora a utilização do espaço em disco rígido para este local. O arquivo de configuração de aplicativo %ExchangeInstallPath%Bin\\EdgeTransport.exe.config contém uma chave *DatabaseCheckPointDepthMax* com o valor padrão de 384 MB. Essa chave controla o tamanho total permitido de todos os logs de transações não confirmadas existentes no disco rígido. Essa chave é usada na fórmula que calcula a utilização do disco rígido.
 
 
-> [!TIP]
+> [!NOTE]
 > O valor da chave <EM>DatabaseCheckPointDepthMax</EM> se aplica a todos os bancos de dados ESE (Mecanismo de Armazenamento Extensível) relacionados a transporte existentes no servidor de Caixa de Correio ou de Transporte de Borda. Isso inclui o banco de dados de fila de mensagens e o banco de dados do filtro IP.
 
 
@@ -303,7 +303,7 @@ Voltar ao início
 Todas as opções de configuração para pressão de retorno estão disponíveis no arquivo XML de configuração de aplicativo %ExchangeInstallPath%Bin\\EdgeTransport.exe.config.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Essas configurações são listadas apenas como referência. É altamente desaconselhável fazer qualquer modificação nas configurações de pressão de retorno do arquivo EdgeTransport.exe.config. Modificações nas configurações da pressão de retorno podem resultar em desempenho inadequado ou perda de dados. É recomendável que você investigue e corrija a causa raiz de quaisquer eventos de pressão de retorno que possam surgir.
 
 

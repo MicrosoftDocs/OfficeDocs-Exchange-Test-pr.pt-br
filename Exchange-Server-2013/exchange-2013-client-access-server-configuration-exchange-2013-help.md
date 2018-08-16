@@ -73,10 +73,14 @@ Será necessário executar os seguintes comandos para configurar os diretórios 
     
     Execute os seguintes comandos em um prompt de comando depois de definir o diretório virtual do Outlook Web App.
     
+    ```
         Net stop IISAdmin /y
-    
-        Net start W3SVC
+    ```
 
+    ```
+        Net start W3SVC
+    ```
+    
 2.  Para configurar o acesso externo do EAC, execute o seguinte comando no Shell de Gerenciamento do Exchange.
     
         Set-EcpVirtualDirectory "<CAS2013>\ECP (Default Web Site)" -ExternalUrl https://mail.contoso.com/ECP -InternalURL https://mail.contoso.com/ECP 

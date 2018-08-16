@@ -54,7 +54,7 @@ Você pode usar o Backup do Windows Server para fazer backup e restaurar os banc
 6.  Na página **Selecionar Tipo de Recuperação**, selecione **Aplicativos** e clique em **Avançar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se a opção <STRONG>Aplicativos</STRONG> não estiver disponível, isso indica que o backup a ser recuperado era um backup no nível de pasta e não no nível de volume. Você deve realizar backups no nível de volume quando estiver fazendo backup de dados do Exchange com o Backup do Windows Server.
 
 

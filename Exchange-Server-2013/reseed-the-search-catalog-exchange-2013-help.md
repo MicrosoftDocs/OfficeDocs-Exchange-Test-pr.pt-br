@@ -98,7 +98,7 @@ Se a cópia do banco de dados de caixa de correio for a única, é preciso propa
 2.  Excluir, mover ou renomear a pasta que contém o catálogo de índice de conteúdo do Exchange. Esta pasta é denominada `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Por exemplo, você pode renomear a pasta `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD`.
     
 
-    > [!TIP]
+    > [!NOTE]
     > A exclusão dessa pasta disponibilizará mais espaço em disco. Como alternativa, você pode renomear ou mover a pasta para mantê-la para fins de solução de problemas.
 
 

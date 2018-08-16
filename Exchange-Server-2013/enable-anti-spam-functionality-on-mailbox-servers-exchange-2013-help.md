@@ -30,7 +30,7 @@ No Microsoft Exchange Server 2013, os seguintes agentes antispam estão disponí
 Porém, você pode instalar esses agentes antispam em um servidor de caixa de correio usando um script no Shell de Gerenciamento do Exchange. Geralmente, você instalaria os agentes antispam em um servidor de caixa de correio apenas se sua organização aceitasse todas as mensagens de entrada sem filtragem antispam prévia.
 
 
-> [!TIP]
+> [!NOTE]
 > Embora o agente Filtro de Destinatários esteja disponíveis em servidores de caixas de correio, você não deve configurá-lo. Quando um filtro de destinatários, em um servidor de caixas de correio, detecta um destinatário inválido ou bloqueado em uma mensagem contendo outros destinatários válidos, a mensagem é rejeitada. Entretanto, o agente do Filtro de Destinatário é ativado por padrão, e não está configurado para bloquear qualquer destinatário. Para obter mais informações, consulte <A href="manage-recipient-filtering-on-edge-transport-servers-exchange-2013-help.md">Gerenciar filtragem por destinatário nos servidores de transporte de borda</A>.
 
 

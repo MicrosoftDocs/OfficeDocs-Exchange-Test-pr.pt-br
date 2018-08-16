@@ -88,55 +88,55 @@ No Shell, verifique se todas as suas informações de banco de dados de caixa de
 4.    
     Utilize a guia **Geral** para visualizar o status do banco de dados de caixa de correio, incluindo o caminho do banco de dados de caixa de correio, o último backup e o status do banco de dados de caixa de correio:
     
-      - **Caminho do banco de dados**   Este campo somente de leitura exibe o caminho completo do arquivo (.edb) do banco de dados do Exchange 2013 para o banco de dados de caixa de correio selecionado. Para exibir o caminho inteiro, talvez você precise clicar no caminho e usar a tecla Seta para Direita. Você não pode usar esse campo para alterar o caminho. Para alterar o local dos arquivos de banco de dados, use o cmdlet [Move-DatabasePath](https://technet.microsoft.com/pt-br/library/bb124742\(v=exchg.150\)).
+      - <strong>Caminho do banco de dados</strong> Este campo somente de leitura exibe o caminho completo do arquivo (.edb) do banco de dados do Exchange 2013 para o banco de dados de caixa de correio selecionado. Para exibir o caminho inteiro, talvez você precise clicar no caminho e usar a tecla Seta para Direita. Você não pode usar esse campo para alterar o caminho. Para alterar o local dos arquivos de banco de dados, use o cmdlet [Move-DatabasePath](https://technet.microsoft.com/pt-br/library/bb124742\(v=exchg.150\)).
     
-      - **Último backup completo**   Este campo somente leitura exibe a data e a hora do último backup completo do banco de dados de caixa de correio.
+      - <strong>Último backup completo</strong> Este campo somente leitura exibe a data e a hora do último backup completo do banco de dados de caixa de correio.
     
-      - **Último backup incremental**   Este campo somente leitura exibe a data e a hora do último backup incremental do banco de dados de caixa de correio.
+      - <strong>Último backup incremental</strong> Este campo somente leitura exibe a data e a hora do último backup incremental do banco de dados de caixa de correio.
     
-      - **Status**   Este campo somente leitura mostra se o banco de dados de caixa de correio está montado ou desmontado.
+      - <strong>Status</strong> Este campo somente leitura mostra se o banco de dados de caixa de correio está montado ou desmontado.
     
-      - **Montado no servidor**   Este campo somente leitura exibe em qual servidor o banco de dados está montado.
+      - <strong>Montado no servidor</strong> Este campo somente leitura exibe em qual servidor o banco de dados está montado.
     
-      - **Mestre**   Esse campo somente leitura exibe o servidor mestre para o banco de dados de caixa de correio. O servidor de Caixa de Correio que hospeda a cópia ativa de um banco de dados é conhecido como o banco de dados de caixa de correio mestre.
+      - <strong>Mestre</strong> Esse campo somente leitura exibe o servidor mestre para o banco de dados de caixa de correio. O servidor de Caixa de Correio que hospeda a cópia ativa de um banco de dados é conhecido como o banco de dados de caixa de correio mestre.
     
-      - **Tipo de mestre**   Esse campo somente leitura exibe o tipo de mestre do banco de dados de caixa de correio.
+      - <strong>Tipo de mestre</strong> Esse campo somente leitura exibe o tipo de mestre do banco de dados de caixa de correio.
     
-      - **Modificado**   Esse campo somente leitura exibe a data e a hora da última modificação do banco de dados.
+      - <strong>Modificado</strong> Esse campo somente leitura exibe a data e a hora da última modificação do banco de dados.
     
-      - **Servidores que hospedam uma cópia deste banco de dados**   Este campo somente leitura exibe os outros servidores que têm uma cópia deste banco de dados.
+      - <strong>Servidores que hospedam uma cópia deste banco de dados</strong> Este campo somente leitura exibe os outros servidores que têm uma cópia deste banco de dados.
 
 5.  Utilize a guia **Manutenção** para configurar o banco de dados de caixa de correio, incluindo a especificação de um destinatário de diário, a definição do agendamento de manutenção e a montagem do banco de dados na inicialização:
     
-      - **Destinatário do Diário**   Clique em **Procurar** para especificar um destinatário para habilitar o registro no diário nesse banco de dados de caixa de correio. Remova o destinatário listado para desabilitar o registro no diário.
+      - <strong>Destinatário do Diário</strong> Clique em **Procurar** para especificar um destinatário para habilitar o registro no diário nesse banco de dados de caixa de correio. Remova o destinatário listado para desabilitar o registro no diário.
     
-      - **Agendamento de manutenção**   Use essa lista para selecionar um dos agendamentos de manutenção pré-definidos. Você também pode configurar um agendamento personalizado. Para configurar uma agenda personalizada, clique em **Personalizar**.
+      - <strong>Agendamento de manutenção</strong> Use essa lista para selecionar um dos agendamentos de manutenção pré-definidos. Você também pode configurar um agendamento personalizado. Para configurar uma agenda personalizada, clique em **Personalizar**.
     
-      - **Habilitar manutenção de banco de dados de plano de fundo (verificação ESE 24 x 7 ESE)   **Selecione essa caixa de seleção para habilitar a verificação de banco de dados online, que é executada continuamente no plano de fundo. A verificação de banco de dados online realiza um cálculo de soma de verificação do banco de dados e realiza operações que permitem que o Exchange verifique por espaço perdido no banco de dados e o recupere. Se você selecionar essa caixa de seleção, o Exchange verifica o banco de dados mais de uma vez por dia e emitirá um evento de aviso caso não consiga finalizar a verificação do banco de dados num período de sete dias.
+      - <strong>Habilitar manutenção de banco de dados de plano de fundo (verificação ESE 24 x 7 ESE)</strong>  Selecione essa caixa de seleção para habilitar a verificação de banco de dados online, que é executada continuamente no plano de fundo. A verificação de banco de dados online realiza um cálculo de soma de verificação do banco de dados e realiza operações que permitem que o Exchange verifique por espaço perdido no banco de dados e o recupere. Se você selecionar essa caixa de seleção, o Exchange verifica o banco de dados mais de uma vez por dia e emitirá um evento de aviso caso não consiga finalizar a verificação do banco de dados num período de sete dias.
     
-      - **Não montar este banco de dados na inicialização**   Marque essa caixa de seleção para impedir que o Exchange monte esse banco de dados de caixa de correio quando ele for iniciado.
+      - <strong>Não montar este banco de dados na inicialização</strong> Marque essa caixa de seleção para impedir que o Exchange monte esse banco de dados de caixa de correio quando ele for iniciado.
     
-      - **Este banco de dados pode ser substituído por uma restauração**    Marque essa caixa de seleção para permitir que o banco de dados de caixa de correio seja substituído durante um processo de restauração.
+      - <strong>Este banco de dados pode ser substituído por uma restauração</strong>  Marque essa caixa de seleção para permitir que o banco de dados de caixa de correio seja substituído durante um processo de restauração.
     
-      - **Habilitar log circular**   Marque essa caixa de seleção para habilitar o log circular.
+      - <strong>Habilitar log circular</strong> Marque essa caixa de seleção para habilitar o log circular.
 
 6.  Use a guia **Limites** para especificar os limites de armazenamento, o intervalo de mensagens de aviso e as configurações de exclusão de um banco de dados de caixa de correio:
     
-      - **Exibir aviso em (GB)**   Marque essa caixa de seleção para alertar automaticamente os usuários da caixa de correio que suas caixas de correio estão chegando no limite de repositório. Para especificar o limite de armazenamento, marque esta caixa de seleção e especifique a quantidade de conteúdo, em gigabytes (GB), que pode ser armazenada na caixa de correio antes de uma mensagem de email de alerta ser enviada aos usuários. Você pode inserir um valor de 0 a 2.097.151 megabytes (2,0 terabytes).
+      - <strong>Exibir aviso em (GB)</strong> Marque essa caixa de seleção para alertar automaticamente os usuários da caixa de correio que suas caixas de correio estão chegando no limite de repositório. Para especificar o limite de armazenamento, marque esta caixa de seleção e especifique a quantidade de conteúdo, em gigabytes (GB), que pode ser armazenada na caixa de correio antes de uma mensagem de email de alerta ser enviada aos usuários. Você pode inserir um valor de 0 a 2.097.151 megabytes (2,0 terabytes).
     
-      - **Proibir envio em (GB)**   Marque essa caixa de seleção para impedir que os usuários enviem novas mensagens de email após o tamanho da caixa de correio atingir o limite especificado. Para especificar esse limite, marque a caixa de seleção e digite o tamanho da caixa de correio em GB, para que seja proibido o envio de novas mensagens se o limite for atingido e para que o usuário seja notificado. Você pode inserir um valor de 0 a 2.097.151 KB (2,0 terabytes).
+      - <strong>Proibir envio em (GB)</strong> Marque essa caixa de seleção para impedir que os usuários enviem novas mensagens de email após o tamanho da caixa de correio atingir o limite especificado. Para especificar esse limite, marque a caixa de seleção e digite o tamanho da caixa de correio em GB, para que seja proibido o envio de novas mensagens se o limite for atingido e para que o usuário seja notificado. Você pode inserir um valor de 0 a 2.097.151 KB (2,0 terabytes).
     
-      - **Proibir envio e recebimento em (GB)**   Marque essa caixa de seleção para impedir que os usuários enviem e recebam mensagens de email após o tamanho da caixa de correio atingir o limite especificado. Para especificar esse limite, marque a caixa de seleção e digite o tamanho da caixa de correio em GB, para que seja proibido o envio e o recebimento de novas mensagens se o limite for atingido e para que o usuário seja notificado. Você pode inserir um valor de 0 a 2.097.151 KB (2,0 terabytes).
+      - <strong>Proibir envio e recebimento em (GB)</strong> Marque essa caixa de seleção para impedir que os usuários enviem e recebam mensagens de email após o tamanho da caixa de correio atingir o limite especificado. Para especificar esse limite, marque a caixa de seleção e digite o tamanho da caixa de correio em GB, para que seja proibido o envio e o recebimento de novas mensagens se o limite for atingido e para que o usuário seja notificado. Você pode inserir um valor de 0 a 2.097.151 KB (2,0 terabytes).
     
-      - **Manter itens excluídos por (dias)**   Marque essa caixa de seleção para definir a quantidade de dias que os itens excluídos devem ser mantidos em uma caixa de correio. Você pode digitar um valor entre 0 e 24.855 dias.
+      - <strong>Manter itens excluídos por (dias)</strong> Marque essa caixa de seleção para definir a quantidade de dias que os itens excluídos devem ser mantidos em uma caixa de correio. Você pode digitar um valor entre 0 e 24.855 dias.
     
-      - **Manter as caixas de correio excluídas por (dias)**   Marque essa caixa de seleção para definir a quantidade de dias que as caixas de correio excluídas devem ser mantidas. Você pode digitar um valor entre 0 e 24.855 dias.
+      - <strong>Manter as caixas de correio excluídas por (dias)</strong> Marque essa caixa de seleção para definir a quantidade de dias que as caixas de correio excluídas devem ser mantidas. Você pode digitar um valor entre 0 e 24.855 dias.
     
-      - **Não excluir itens permanentemente até que seja feito backup do banco de dados**   Marque essa caixa de seleção para impedir a exclusão permanente de caixas de correio e emails até que seja feito backup do banco de dados de caixa de correio.
+      - <strong>Não excluir itens permanentemente até que seja feito backup do banco de dados</strong> Marque essa caixa de seleção para impedir a exclusão permanente de caixas de correio e emails até que seja feito backup do banco de dados de caixa de correio.
 
 7.  Use a guia **Configurações do Cliente** para selecionar o catálogo de endereços offline (OAB) da caixa de correio:
     
-      - **Catálogo de endereços offline**   Para selecionar um catálogo de endereços offline, clique em **Procurar** e selecione o catálogo de endereços offline.
+      - <strong>Catálogo de endereços offline</strong> Para selecionar um catálogo de endereços offline, clique em **Procurar** e selecione o catálogo de endereços offline.
 
 ## Usar o Shell para definir propriedades de bancos de dados de caixa de correio
 
