@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar dicas de email para relacionamentos da organização: Exchange 2013 Help'
+title: 'Gerenciar dicas de email de relacionamentos da organização: Exchange 2013 Help'
 TOCTitle: Gerenciar dicas de email para relacionamentos da organização
 ms:assetid: 6e6b48ef-c41c-47ad-8063-66901765c2a5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ649324(v=EXCHG.150)

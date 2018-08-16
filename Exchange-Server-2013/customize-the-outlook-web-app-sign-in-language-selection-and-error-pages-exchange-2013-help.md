@@ -1,5 +1,5 @@
 ﻿---
-title: 'Personalizar as páginas de entrada do Outlook Web App, de seleção de idioma e de erro: Exchange 2013 Help'
+title: 'Personalizar páginas de entrada do Outlook Web App, seleção de idioma e erro'
 TOCTitle: Personalizar as páginas de entrada do Outlook Web App, de seleção de idioma e de erro
 ms:assetid: d8d9f735-7181-428f-9049-b9886dce5159
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee633483(v=EXCHG.150)

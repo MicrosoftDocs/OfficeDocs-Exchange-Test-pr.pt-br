@@ -1,5 +1,5 @@
 ﻿---
-title: 'O que muda no Active Directory quando o Exchange 2013 é instalado?: Exchange 2013 Help'
+title: 'O que muda no Active Directory quando o Exchange 2013 é instalado?'
 TOCTitle: O que muda no Active Directory quando o Exchange 2013 é instalado?
 ms:assetid: 07386078-6103-49a2-8698-2d41db9cec95
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn750898(v=EXCHG.150)

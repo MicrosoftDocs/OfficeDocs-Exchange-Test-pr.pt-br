@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar cotas de arquivo morto para um sistema de arquivamento In-loco no Exchange 2013: Exchange 2013 Help'
+title: 'Configurar cotas de arquivo morto para um Arquivo In-loco no Exchange 2013'
 TOCTitle: Configurar cotas de arquivo morto para um sistema de arquivamento In-loco no Exchange 2013
 ms:assetid: f10e77c7-e1d4-415a-bef9-cb3f00e74c34
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee633489(v=EXCHG.150)

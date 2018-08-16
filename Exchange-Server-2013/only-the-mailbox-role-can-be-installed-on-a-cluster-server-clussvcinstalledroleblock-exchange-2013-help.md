@@ -1,5 +1,5 @@
 ﻿---
-title: 'Apenas a função caixa de correio pode ser instalada em um cluster de server_ClusSvcInstalledRoleBlock: Exchange 2013 Help'
+title: 'Apenas a função caixa de correio pode ser instalada em um cluster de servidor'
 TOCTitle: Apenas a função caixa de correio pode ser instalada em um cluster de server_ClusSvcInstalledRoleBlock
 ms:assetid: 3e20f408-2b8d-47c2-a402-07232ab9f234
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.clussvcinstalledroleblock(v=EXCHG.150)

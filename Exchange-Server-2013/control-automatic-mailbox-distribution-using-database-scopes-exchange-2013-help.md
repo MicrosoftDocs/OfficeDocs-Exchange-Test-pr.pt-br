@@ -1,5 +1,5 @@
 ﻿---
-title: 'Controlar a distribuição automática de caixa de correio usando escopos de banco de dados: Exchange 2013 Help'
+title: 'Controlar distr. automática de caixa de correio com escopos de banco de dados'
 TOCTitle: Controlar a distribuição automática de caixa de correio usando escopos de banco de dados
 ms:assetid: 8eaff177-2251-4c8b-8570-c91a77d0a6fc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff628332(v=EXCHG.150)

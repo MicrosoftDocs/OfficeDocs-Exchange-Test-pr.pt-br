@@ -1,5 +1,5 @@
 ﻿---
-title: 'Desativar ou suspender o gerenciamento de registros de mensagens: Exchange 2013 Help'
+title: 'Desligar/suspender gerenciamento de registro de mensagens: Exchange 2013 Help'
 TOCTitle: Desativar ou suspender o gerenciamento de registros de mensagens
 ms:assetid: 631191aa-3bba-4ebf-a727-c48ed2ebe176
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998580(v=EXCHG.150)

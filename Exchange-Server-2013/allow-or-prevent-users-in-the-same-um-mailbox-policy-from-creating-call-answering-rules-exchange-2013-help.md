@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir ou impedir que os usuários na mesma política de caixa de correio de Unificação de mensagens criando regras de atendimento de chamada: Exchange 2013 Help'
+title: 'Permitir/impedir usuários na política cx. corr. UM criem regras de atendimento'
 TOCTitle: Permitir ou impedir que os usuários na mesma política de caixa de correio de Unificação de mensagens criando regras de atendimento de chamada
 ms:assetid: e44acaa6-d5a8-41e8-94aa-100be0bd6391
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd351209(v=EXCHG.150)

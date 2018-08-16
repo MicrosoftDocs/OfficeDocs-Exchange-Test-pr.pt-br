@@ -1,5 +1,5 @@
 ﻿---
-title: 'Grupos de disponibilidade de banco de dados de monitoramento: Exchange 2013 Help'
+title: 'Monitoramento de grupos de disponibilidade de banco de dados'
 TOCTitle: Grupos de disponibilidade de banco de dados de monitoramento
 ms:assetid: f5bdfd6e-e93c-4d96-8bc2-548750d51930
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd351258(v=EXCHG.150)

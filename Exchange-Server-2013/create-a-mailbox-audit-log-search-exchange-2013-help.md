@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar uma pesquisa de log de auditoria de caixas de correio: Exchange 2013 Help'
+title: 'Criar uma pesquisa de log de auditoria de caixas de correio'
 TOCTitle: Criar uma pesquisa de log de auditoria de caixas de correio
 ms:assetid: 48ba22cf-b1f2-4dbc-98fc-fed22d97db14
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff461929(v=EXCHG.150)

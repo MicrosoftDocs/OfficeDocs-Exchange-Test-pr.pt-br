@@ -1,5 +1,5 @@
 ﻿---
-title: 'Adicionar uma lista de endereços para ou remover uma lista de endereços do catálogo de endereços offline: Exchange 2013 Help'
+title: 'Adicionar ou remover lista de endereços do catálogo de endereços offline'
 TOCTitle: Adicionar uma lista de endereços para ou remover uma lista de endereços do catálogo de endereços offline
 ms:assetid: 86bd5651-ad41-4516-bf23-6579f4e4da03
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb123563(v=EXCHG.150)

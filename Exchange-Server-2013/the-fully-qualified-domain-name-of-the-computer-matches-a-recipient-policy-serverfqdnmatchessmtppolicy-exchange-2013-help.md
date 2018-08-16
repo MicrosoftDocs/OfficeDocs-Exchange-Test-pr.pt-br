@@ -1,5 +1,5 @@
 ﻿---
-title: 'O nome de domínio totalmente qualificado do computador corresponde a um destinatário policy_ServerFQDNMatchesSMTPPolicy: Exchange 2013 Help'
+title: 'O FQDN do computador corresponde a uma política de destinatário'
 TOCTitle: O nome de domínio totalmente qualificado do computador corresponde a um destinatário policy_ServerFQDNMatchesSMTPPolicy
 ms:assetid: f3ea61f8-1788-4cbf-814e-f7c088c1ac47
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.serverfqdnmatchessmtppolicy(v=EXCHG.150)

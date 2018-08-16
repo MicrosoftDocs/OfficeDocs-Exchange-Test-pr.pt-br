@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar uma lista de endereços usando filtros de destinatários: Exchange 2013 Help'
+title: 'Criar lista de endereços usando filtros de destinatários: Exchange 2013 Help'
 TOCTitle: Criar uma lista de endereços usando filtros de destinatários
 ms:assetid: 8eabea64-97c6-40af-b61c-9b6a125cbdf1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb123718(v=EXCHG.150)

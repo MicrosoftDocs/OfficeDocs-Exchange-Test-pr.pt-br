@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar conjuntos de integridade e a integridade do servidor: Exchange 2013 Help'
+title: 'Gerenciar conjuntos de integridade e a integridade do servidor'
 TOCTitle: Gerenciar conjuntos de integridade e a integridade do servidor
 ms:assetid: a4f84312-6cfa-4f17-9707-676aadab1143
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn482054(v=EXCHG.150)

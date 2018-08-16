@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar meu problema com verificações automáticas - Implantando o Office: Exchange 2013 Help'
+title: 'Identificar problema com verificações automáticas – implantar o Office'
 TOCTitle: Ajudar a identificar meu problema com verificações automáticas - Implantando o Office
 ms:assetid: 77d4587c-7fd5-4231-931e-3d6608e622f4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793978(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Integrando regras de informações confidenciais com regras de transporte: Exchange 2013 Help'
+title: 'Integrar regras de informações confidenciais com regras de transporte'
 TOCTitle: Integrando regras de informações confidenciais com regras de transporte
 ms:assetid: feb014a7-89dd-4f2d-a06d-52806ce435d4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ150583(v=EXCHG.150)

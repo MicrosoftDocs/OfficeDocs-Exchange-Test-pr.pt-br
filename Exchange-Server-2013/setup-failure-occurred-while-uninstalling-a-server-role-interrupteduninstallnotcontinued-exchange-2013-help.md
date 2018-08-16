@@ -1,5 +1,5 @@
 ﻿---
-title: 'Falha na instalação ocorreu role_InterruptedUninstallNotContinued um servidor de desinstalação: Exchange 2013 Help'
+title: 'Ocorreu falha na instalação ao desinstalar uma função de servidor'
 TOCTitle: Falha na instalação ocorreu role_InterruptedUninstallNotContinued um servidor de desinstalação
 ms:assetid: 187967b2-cb28-45d7-8858-2a083c1ebe58
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.interrupteduninstallnotcontinued(v=EXCHG.150)

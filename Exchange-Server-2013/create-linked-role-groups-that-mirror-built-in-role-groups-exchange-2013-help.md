@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar grupos de função vinculado que espelham grupos de função internos: Exchange 2013 Help'
+title: 'Criar grupos de função vinculados que espelham grupos de função internos'
 TOCTitle: Criar grupos de função vinculado que espelham grupos de função internos
 ms:assetid: 89dfcbb3-0568-4bbf-a885-746b91ba307e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd876918(v=EXCHG.150)

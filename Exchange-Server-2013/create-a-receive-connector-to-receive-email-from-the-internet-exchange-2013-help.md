@@ -1,5 +1,5 @@
 ﻿---
-title: 'Criar um conector de recebimento para receber email da Internet: Exchange 2013 Help'
+title: 'Criar um conector de recebimento para receber email da Internet'
 TOCTitle: Criar um conector de recebimento para receber email da Internet
 ms:assetid: 534bbd32-a0db-4d50-9579-4933b156d7b3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657447(v=EXCHG.150)

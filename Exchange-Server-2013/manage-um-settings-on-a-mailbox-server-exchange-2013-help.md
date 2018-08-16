@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar configurações de Unificação de mensagens em um servidor de caixa de correio: Exchange 2013 Help'
+title: 'Gerenciar configurações de UM em um servidor de Caixa de Correio'
 TOCTitle: Gerenciar configurações de Unificação de mensagens em um servidor de caixa de correio
 ms:assetid: 6df4853d-21d2-473f-b0ca-ebc996d8794a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998815(v=EXCHG.150)

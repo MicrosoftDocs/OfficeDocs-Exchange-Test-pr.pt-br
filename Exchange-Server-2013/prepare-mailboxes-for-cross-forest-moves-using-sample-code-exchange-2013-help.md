@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparar a caixas de correio para movimentações entre florestas usando código de exemplo: Exchange 2013 Help'
+title: 'Preparar caixas de correio para mover entre florestas usando código de exemplo'
 TOCTitle: Preparar a caixas de correio para movimentações entre florestas usando código de exemplo
 ms:assetid: f35ac7a5-bb84-4653-b6d0-65906e93627b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee861124(v=EXCHG.150)

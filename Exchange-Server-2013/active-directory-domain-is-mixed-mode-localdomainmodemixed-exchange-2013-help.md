@@ -1,5 +1,5 @@
 ﻿---
-title: 'Domínio do Active Directory é misto mode_LocalDomainModeMixed: Exchange 2013 Help'
+title: 'Domínio do AD é mode_LocalDomainModeMixed misto: Exchange 2013 Help'
 TOCTitle: Domínio do Active Directory é misto mode_LocalDomainModeMixed
 ms:assetid: a6affcfe-7264-455b-8e5c-683fa87383f1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.localdomainmodemixed(v=EXCHG.150)

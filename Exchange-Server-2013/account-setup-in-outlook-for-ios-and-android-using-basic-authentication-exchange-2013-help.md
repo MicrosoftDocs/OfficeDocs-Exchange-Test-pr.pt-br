@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configuração de conta no Outlook para iOS e Android usando a autenticação básica: Exchange 2013 Help'
+title: 'Configuração de conta no Outlook para iOS e Android usando autenticação básica'
 TOCTitle: Configuração de conta no Outlook para iOS e Android usando a autenticação básica
 ms:assetid: 013dbe8c-30de-4c9c-baa9-75081b9229e8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Mt829322(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'O computador local não está vinculado a um domínio do Active Directory: Exchange 2013 Help'
+title: 'O computador local não está vinculado a um domínio do Active Directory'
 TOCTitle: O computador local não está vinculado a um domínio do Active Directory
 ms:assetid: feb08845-6d44-4760-9932-6eca22f35eec
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.computernotpartofdomain(v=EXCHG.150)

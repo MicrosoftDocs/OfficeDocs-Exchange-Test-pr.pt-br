@@ -1,5 +1,5 @@
 ﻿---
-title: 'Execute a Ferramenta de Solução de Problemas de UM do Exchange no Windows 7 ou Windows 8: Exchange 2013 Help'
+title: 'Execute a Ferramenta de Solução de Problemas de UM do Exchange no Windows 7 /8'
 TOCTitle: Execute a Ferramenta de Solução de Problemas de UM do Exchange no Windows 7 ou Windows 8
 ms:assetid: 98d6869d-ee4a-4088-849d-ef75b0f5d932
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff851872(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar configurações de Unificação de mensagens em um servidor de acesso para cliente: Exchange 2013 Help'
+title: 'Gerenciar configurações de UM em um servidor de acesso para cliente'
 TOCTitle: Gerenciar configurações de Unificação de mensagens em um servidor de acesso para cliente
 ms:assetid: 08667911-fa86-404e-84b1-65cedd94d579
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673507(v=EXCHG.150)

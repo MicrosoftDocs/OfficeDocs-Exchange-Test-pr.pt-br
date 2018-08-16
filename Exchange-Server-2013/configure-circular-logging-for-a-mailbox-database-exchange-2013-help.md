@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar log circular de um banco de dados de caixa de correio: Exchange 2013 Help'
+title: 'Configurar log circular de um banco de dados de caixa de correio'
 TOCTitle: Configurar log circular de um banco de dados de caixa de correio
 ms:assetid: 29cbd7cd-382b-4e0d-8368-2e49e75df2fc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn756374(v=EXCHG.150)

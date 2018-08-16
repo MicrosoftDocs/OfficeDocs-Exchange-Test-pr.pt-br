@@ -1,5 +1,5 @@
 ﻿---
-title: 'Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador: Exchange 2013 Help'
+title: 'Pesquisar alterações do grupo de funções/logs de auditoria do administrador'
 TOCTitle: Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador
 ms:assetid: c7188d53-e672-492b-b57d-cd711379ddb3
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff459262(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Contadores de desempenho do modo de exibição de gerenciamento de registros de mensagens: Exchange 2013 Help'
+title: 'Contadores de desempenho do modo de exibição de registros de mensagens'
 TOCTitle: Contadores de desempenho do modo de exibição de gerenciamento de registros de mensagens
 ms:assetid: ec374d31-2797-4f8b-8c96-3839d01a662c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb397227(v=EXCHG.150)

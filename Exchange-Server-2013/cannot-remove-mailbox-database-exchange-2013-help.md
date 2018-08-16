@@ -1,5 +1,5 @@
 ﻿---
-title: 'Não é possível remover o banco de dados de caixa de correio: Exchange 2013 Help'
+title: 'Não é possível remover banco de dados de caixa de correio: Exchange 2013 Help'
 TOCTitle: Não é possível remover o banco de dados de caixa de correio
 ms:assetid: 5881e4c0-c2e2-48db-84b4-7f9ce3cf46a7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.unwillingtoremovemailboxdatabase(v=EXCHG.150)

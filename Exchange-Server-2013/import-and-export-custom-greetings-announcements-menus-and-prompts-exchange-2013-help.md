@@ -1,5 +1,5 @@
 ﻿---
-title: 'Importar e exportar saudações personalizadas, anúncios, menus e prompts: Exchange 2013 Help'
+title: 'Importar e exportar saudações personalizadas, anúncios, menus e prompts'
 TOCTitle: Importar e exportar saudações personalizadas, anúncios, menus e prompts
 ms:assetid: e82da5d5-625f-4d8b-8d31-ac45513aacfd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee681667(v=EXCHG.150)

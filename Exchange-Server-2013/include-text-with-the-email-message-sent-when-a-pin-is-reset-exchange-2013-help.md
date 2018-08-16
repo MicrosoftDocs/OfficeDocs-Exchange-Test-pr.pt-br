@@ -1,5 +1,5 @@
 ﻿---
-title: 'Incluir texto com a mensagem de email enviada quando uma redefinição de PIN é: Exchange 2013 Help'
+title: 'Incluir texto com o email enviado quando um PIN é redefinido'
 TOCTitle: Incluir texto com a mensagem de email enviada quando uma redefinição de PIN é
 ms:assetid: f7a4d775-a588-412f-ac2c-11ab1a5c67eb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb201750(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Portas de rede para clientes e fluxo de emails do Exchange 2013: Exchange 2013 Help'
+title: 'Portas de rede para clientes e fluxo de emails do Exchange 2013'
 TOCTitle: Portas de rede para clientes e fluxo de emails do Exchange 2013
 ms:assetid: fec09455-e99e-42eb-8b32-1ddc08d9a19e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb331973(v=EXCHG.150)

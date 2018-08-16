@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir ou impedir que um servidor de acesso para cliente de atendimento de chamadas: Exchange 2013 Help'
+title: 'Permitir/impedir atendimento de chamadas em um servidor de Acesso para Cliente'
 TOCTitle: Permitir ou impedir que um servidor de acesso para cliente de atendimento de chamadas
 ms:assetid: 8287bb78-2621-4b80-a128-8f2ccd67923a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb123529(v=EXCHG.150)

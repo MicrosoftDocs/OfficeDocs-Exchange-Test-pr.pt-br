@@ -1,5 +1,5 @@
 ﻿---
-title: 'Tarefas de gerenciamento de diretório virtual do Exchange ActiveSync: Exchange 2013 Help'
+title: 'Tarefas de gerenciamento de diretório virtual do Exchange ActiveSync'
 TOCTitle: Tarefas de gerenciamento de diretório virtual do Exchange ActiveSync
 ms:assetid: f0b339b7-e184-4392-a133-20523183459d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb125170(v=EXCHG.150)

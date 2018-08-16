@@ -1,5 +1,5 @@
 ﻿---
-title: 'Função de transporte de Hub não detectada no local site_BridgeheadRoleNotPresentInSite: Exchange 2013 Help'
+title: 'Função Transporte de Hub não detectada no site local: Exchange 2013 Help'
 TOCTitle: Função de transporte de Hub não detectada no local site_BridgeheadRoleNotPresentInSite
 ms:assetid: f318c947-81a8-4c18-975a-0f1e7868042a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.bridgeheadrolenotpresentinsite(v=EXCHG.150)

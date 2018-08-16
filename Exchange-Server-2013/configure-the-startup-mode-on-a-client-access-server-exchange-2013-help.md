@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o modo de inicialização em um servidor de acesso para cliente: Exchange 2013 Help'
+title: 'Configurar modo de inicialização em um servidor de Acesso para Cliente'
 TOCTitle: Configurar o modo de inicialização em um servidor de acesso para cliente
 ms:assetid: 71cc9061-9e3c-4b4a-8dbe-f590ca5bcee8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673533(v=EXCHG.150)

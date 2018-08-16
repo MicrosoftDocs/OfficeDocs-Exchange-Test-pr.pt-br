@@ -1,5 +1,5 @@
 ﻿---
-title: 'Lista de verificação: Executar uma nova instalação do Exchange 2013: Exchange 2013 Help'
+title: 'Lista de verificação: executar uma nova instalação do Exchange 2013'
 TOCTitle: 'Lista de verificação: Executar uma nova instalação do Exchange 2013'
 ms:assetid: f70d9dd3-7370-472e-b05e-1ea1671272b2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff805042(v=EXCHG.150)

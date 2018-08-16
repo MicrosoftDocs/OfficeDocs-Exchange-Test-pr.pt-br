@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir ou impedir transferência de chamadas do Outlook Voice Access: Exchange 2013 Help'
+title: 'Permitir ou impedir transferência de chamadas do Outlook Voice Access'
 TOCTitle: Permitir ou impedir transferência de chamadas do Outlook Voice Access
 ms:assetid: b80c57f1-394c-4608-8ad3-52a3e6d697db
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423554(v=EXCHG.150)

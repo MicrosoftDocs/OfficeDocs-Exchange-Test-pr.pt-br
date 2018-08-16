@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalar o Exchange 2013 usando o Assistente para Configuração: Exchange 2013 Help'
+title: 'Instalar o Exchange 2013 usando o Assistente para Configuração'
 TOCTitle: Instalar o Exchange 2013 usando o Assistente para Configuração
 ms:assetid: da690d47-3384-4430-a69e-0cd4d3bf80a7
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124778(v=EXCHG.150)

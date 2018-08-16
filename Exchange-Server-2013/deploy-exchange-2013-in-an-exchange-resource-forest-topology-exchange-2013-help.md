@@ -1,5 +1,5 @@
 ﻿---
-title: 'Implantar o Exchange 2013 em uma topologia de floresta de recursos do Exchange: Exchange 2013 Help'
+title: 'Implantar o Exchange 2013 em uma topologia de floresta de recursos do Exchange'
 TOCTitle: Implantar o Exchange 2013 em uma topologia de floresta de recursos do Exchange
 ms:assetid: 537a7b2b-d002-40a6-84ae-fd02635f9e23
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998031(v=EXCHG.150)

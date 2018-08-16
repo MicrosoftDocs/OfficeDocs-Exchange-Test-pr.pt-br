@@ -1,5 +1,5 @@
 ﻿---
-title: 'Implantar certificados para os procedimentos de Unificação de mensagens: Exchange 2013 Help'
+title: 'Implantar certificados de procedimentos de UM: Exchange 2013 Help'
 TOCTitle: Implantar certificados para os procedimentos de Unificação de mensagens
 ms:assetid: 21631c68-86ad-4f00-a1eb-dcc2758f6bf0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn205139(v=EXCHG.150)

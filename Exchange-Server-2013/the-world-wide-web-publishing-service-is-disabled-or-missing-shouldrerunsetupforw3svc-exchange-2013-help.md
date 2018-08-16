@@ -1,5 +1,5 @@
 ﻿---
-title: 'O serviço de publicação na World Wide Web estiver desabilitada ou missing_ShouldReRunSetupForW3SVC: Exchange 2013 Help'
+title: 'Serviço de Publicação na World Wide Web desabilitado ou ausente'
 TOCTitle: O serviço de publicação na World Wide Web estiver desabilitada ou missing_ShouldReRunSetupForW3SVC
 ms:assetid: f1815a6d-d16b-4271-9fab-84087465529e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.shouldrerunsetupforw3svc(v=EXCHG.150)

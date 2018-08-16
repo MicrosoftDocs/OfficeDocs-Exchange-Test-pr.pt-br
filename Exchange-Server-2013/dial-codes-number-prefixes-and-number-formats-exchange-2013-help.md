@@ -1,5 +1,5 @@
 ﻿---
-title: 'Códigos de discagem, prefixos de número e formatos de número: Exchange Online Help'
+title: 'Códigos de discagem, prefixos de número e formatos de número'
 TOCTitle: Códigos de discagem, prefixos de número e formatos de número
 ms:assetid: 26d61e55-f8dd-4d25-81f1-78a87cf88bad
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb266967(v=EXCHG.150)

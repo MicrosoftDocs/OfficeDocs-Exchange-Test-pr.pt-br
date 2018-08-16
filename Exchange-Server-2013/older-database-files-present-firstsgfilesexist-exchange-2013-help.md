@@ -1,5 +1,5 @@
 ﻿---
-title: 'Present_FirstSGFilesExist de arquivos de banco de dados mais antigos: Exchange 2013 Help'
+title: 'Present_FirstSGFilesExist de arquivos de bancos de dados mais antigos'
 TOCTitle: Present_FirstSGFilesExist de arquivos de banco de dados mais antigos
 ms:assetid: 907faeb8-1c6d-49fc-95a1-417f415a9d79
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.firstsgfilesexist(v=EXCHG.150)

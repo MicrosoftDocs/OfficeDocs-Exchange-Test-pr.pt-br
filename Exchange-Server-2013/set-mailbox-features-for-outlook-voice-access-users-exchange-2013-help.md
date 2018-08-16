@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar os recursos de caixa de correio para usuários do Outlook Voice Access: Exchange 2013 Help'
+title: 'Configurar caixas de correio do Outlook Voice Access: Exchange 2013 Help'
 TOCTitle: Configurar os recursos de caixa de correio para usuários do Outlook Voice Access
 ms:assetid: 10960bf0-65cf-4d0b-bae5-d203c53662db
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa996307(v=EXCHG.150)

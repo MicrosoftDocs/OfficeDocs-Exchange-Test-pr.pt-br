@@ -1,5 +1,5 @@
 ﻿---
-title: 'Iniciar o serviço de Unificação de mensagens do Microsoft Exchange: Exchange 2013 Help'
+title: 'Iniciar o serviço de UM do Microsoft Exchange: Exchange 2013 Help'
 TOCTitle: Iniciar o serviço de Unificação de mensagens do Microsoft Exchange
 ms:assetid: b54008e6-172e-4435-8516-57cff740e89c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124330(v=EXCHG.150)

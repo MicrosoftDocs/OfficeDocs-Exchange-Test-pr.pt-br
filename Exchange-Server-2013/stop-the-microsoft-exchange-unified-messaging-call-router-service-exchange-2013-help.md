@@ -1,5 +1,5 @@
 ﻿---
-title: 'Pare o serviço Microsoft Exchange Unified Messaging roteador de chamadas: Exchange 2013 Help'
+title: 'Para o serviço Roteador de Chamadas da UM do Microsoft Exchange'
 TOCTitle: Pare o serviço Microsoft Exchange Unified Messaging roteador de chamadas
 ms:assetid: 79935528-1a8c-4f22-826c-8f9a60f4f6f4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673535(v=EXCHG.150)

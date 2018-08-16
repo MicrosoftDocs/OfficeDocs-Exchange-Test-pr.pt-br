@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar a autenticação OAuth entre organizações do Exchange e do Exchange Online: Exchange 2013 Help'
+title: 'Configurar autenticação OAuth entre organizações do Exchange e Exchange Online'
 TOCTitle: Configurar a autenticação OAuth entre organizações do Exchange e do Exchange Online
 ms:assetid: f703e153-98e2-4268-8a6e-07a86b0a1d22
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn594521(v=EXCHG.150)

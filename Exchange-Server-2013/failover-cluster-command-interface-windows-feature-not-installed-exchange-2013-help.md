@@ -1,5 +1,5 @@
 ﻿---
-title: 'Recurso de Cluster de failover Command Interface Windows não instalado: Exchange 2013 Help'
+title: 'Recurso de Cluster de failover Command Interface Windows não instalado'
 TOCTitle: Recurso de Cluster de failover Command Interface Windows não instalado
 ms:assetid: 0d839514-5ab7-497d-8945-41392b4c3980
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.rsatclusteringcmdinterfaceinstalled(v=EXCHG.150)

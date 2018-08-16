@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar propriedades de distribuição do catálogo de endereços offline: Exchange 2013 Help'
+title: 'Configurar distribuição do catálogo de endereços offline: Exchange 2013 Help'
 TOCTitle: Configurar propriedades de distribuição do catálogo de endereços offline
 ms:assetid: 8df985e9-75ba-47ea-9cc3-aa98a5d8acf4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb123710(v=EXCHG.150)

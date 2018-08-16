@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar meu problema com o Email de envio/recebimento no Outlook do Office (verificações automáticas): Exchange 2013 Help'
+title: 'Identificar problema ao enviar/receber no Outlook – verificações automáticas'
 TOCTitle: Ajudar a identificar meu problema com o Email de envio/recebimento no Outlook do Office (verificações automáticas)
 ms:assetid: 0de16c79-807a-4cae-9097-22dd61a157b4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793609(v=EXCHG.150)

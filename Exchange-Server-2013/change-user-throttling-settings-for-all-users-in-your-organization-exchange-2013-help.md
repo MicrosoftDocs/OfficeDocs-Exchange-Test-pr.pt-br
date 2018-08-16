@@ -1,5 +1,5 @@
 ﻿---
-title: 'Alterar as configurações para todos os usuários em sua organização de limitação de usuário: Exchange 2013 Help'
+title: 'Alterar configurações de limitação de usuário para todos na organização'
 TOCTitle: Alterar as configurações para todos os usuários em sua organização de limitação de usuário
 ms:assetid: c45cacfc-768d-4605-9bb0-53e30273fe4d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ863578(v=EXCHG.150)

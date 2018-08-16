@@ -1,5 +1,5 @@
 ﻿---
-title: 'Recuperar um servidor membro de grupo de disponibilidade de banco de dados: Exchange 2013 Help'
+title: 'Recuperar um servidor membro de grupo de disponibilidade de banco de dados'
 TOCTitle: Recuperar um servidor membro de grupo de disponibilidade de banco de dados
 ms:assetid: eccd8f61-9706-4bb7-a62a-ec7c166f8019
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd638206(v=EXCHG.150)

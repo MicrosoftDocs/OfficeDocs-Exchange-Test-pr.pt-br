@@ -1,5 +1,5 @@
 ﻿---
-title: 'Impedir que os usuários no mesmo plano de discagem receber faxes: Exchange 2013 Help'
+title: 'Impedir que os usuários no mesmo plano de discagem recebam faxes'
 TOCTitle: Impedir que os usuários no mesmo plano de discagem receber faxes
 ms:assetid: 4fc66414-c950-4bca-ac20-4e489f288d06
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb201688(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar a Unificação de mensagens para funcionar com o Lync Server: Exchange 2013 Help'
+title: 'Configurar a UM para funcionar com o Lync Server: Exchange 2013 Help'
 TOCTitle: Configurar a Unificação de mensagens para funcionar com o Lync Server
 ms:assetid: 29bdddbf-75d5-4c92-988e-c8506ecc7a1c
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ966276(v=EXCHG.150)

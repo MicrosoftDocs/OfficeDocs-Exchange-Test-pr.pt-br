@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ativar um prompt do menu de horário comercial personalizado: Exchange 2013 Help'
+title: 'Habilitar um prompt do menu de horário comercial personalizado'
 TOCTitle: Ativar um prompt do menu de horário comercial personalizado
 ms:assetid: 89053e84-3490-4dc6-ade3-9b6c5dbf4020
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb232116(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciar filtragem de anexos nos servidores de transporte de borda: Exchange 2013 Help'
+title: 'Filtragem de anexos em servidores de transporte de borda: Exchange 2013 Help'
 TOCTitle: Gerenciar filtragem de anexos nos servidores de transporte de borda
 ms:assetid: 2ec91cc6-6ade-48ee-88bb-66153874393d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997139(v=EXCHG.150)

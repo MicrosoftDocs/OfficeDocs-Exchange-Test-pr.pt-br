@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar a lista de pesquisa de sufixo DNS para um namespace separado: Exchange 2013 Help'
+title: 'Configurar a lista de pesquisa de sufixo DNS para um namespace separado'
 TOCTitle: Configurar a lista de pesquisa de sufixo DNS para um namespace separado
 ms:assetid: cfa715ac-7b69-47c3-b206-933ec2cf677b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb847901(v=EXCHG.150)

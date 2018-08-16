@@ -1,5 +1,5 @@
 ﻿---
-title: 'Gerenciamento de direitos de informação no Exchange ActiveSync: Exchange 2013 Help'
+title: 'Gerenciamento de direitos de info no Exchange ActiveSync: Exchange 2013 Help'
 TOCTitle: Gerenciamento de direitos de informação no Exchange ActiveSync
 ms:assetid: ebf04460-4d61-4b00-86b9-85ec1dbbd6a1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff657743(v=EXCHG.150)

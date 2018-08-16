@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparar a caixas de correio para solicitações de movimentação entre florestas: Exchange 2013 Help'
+title: 'Preparar caixas de correio para solicitações de movimentação entre florestas'
 TOCTitle: Preparar a caixas de correio para solicitações de movimentação entre florestas
 ms:assetid: fdbed4fc-a77e-40d5-a211-863b05d74784
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee633491(v=EXCHG.150)

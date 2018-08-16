@@ -59,27 +59,27 @@ A navegação entre locais permite alternar facilmente entre o seu Exchange Onli
 
 Este é o primeiro nível de navegação para a maioria das tarefas que você executará no EAC. O painel de recursos é semelhante à árvore de console do EMC no Exchange 2010. No entanto, no Exchange 2013, o painel de recursos é organizado por áreas de recursos em vez de funções de servidor, e é necessário clicar menos para encontrar o que precisa.
 
-  - **Destinatários   **É onde você gerencia caixas de correio, grupos, caixas de correio de recursos, contatos, caixas de correio compartilhadas e migrações e movimentações de caixa de correio.
+  - **Destinatários** É onde você gerencia caixas de correio, grupos, caixas de correio de recursos, contatos, caixas de correio compartilhadas e migrações e movimentações de caixa de correio.
 
-  - **Permissões   **Aqui você gerenciará as funções de administrador, funções de usuário e políticas do Outlook Web App.
+  - **Permissões** Aqui você gerenciará as funções de administrador, funções de usuário e políticas do Outlook Web App.
 
-  - **Gerenciamento de conformidade   **É onde você gerenciará a Descoberta Eletrônica In-loco, o Bloqueio In-loco, a auditoria, a prevenção contra perda de dados (DLP), as políticas de retenção, as marcas de retenção e as regras de diário.
+  - **Gerenciamento de conformidade** É onde você gerenciará a Descoberta Eletrônica In-loco, o Bloqueio In-loco, a auditoria, a prevenção contra perda de dados (DLP), as políticas de retenção, as marcas de retenção e as regras de diário.
 
-  - **Organização   **É onde você gerenciará as tarefas pertinentes à sua Organização do Exchange, incluindo compartilhamento federado, aplicativos do Outlook e listas de endereços.
+  - **Organização** É onde você gerenciará as tarefas pertinentes à sua Organização do Exchange, incluindo compartilhamento federado, aplicativos do Outlook e listas de endereços.
 
-  - **Proteção   **É onde você gerenciará a proteção antimalware da sua organização.
+  - **Proteção** É onde você gerenciará a proteção antimalware da sua organização.
 
-  - **Fluxo de emails   **É onde você gerenciará regras, relatórios de entrega, domínios aceitos, políticas de endereço de email e conectores de envio e recebimento.
+  - **Fluxo de emails** É onde você gerenciará regras, relatórios de entrega, domínios aceitos, políticas de endereço de email e conectores de envio e recebimento.
 
-  - **Celular   **Aqui você gerenciará os dispositivos móveis que lhe permitem conectar-se a sua organização. Você pode gerenciar políticas de caixa de correio de dispositivos móveis e de acesso a dispositivos móveis.
+  - **Celular** Aqui você gerenciará os dispositivos móveis que lhe permitem conectar-se a sua organização. Você pode gerenciar políticas de caixa de correio de dispositivos móveis e de acesso a dispositivos móveis.
 
-  - **Pastas públicas   **No Exchange 2010, você precisava gerenciar as pastas públicas usando o Console de Gerenciamento de Pasta Pública, que estava localizado fora do EMC na Caixa de Ferramentas. No Exchange 2013, as pastas públicas podem ser gerenciadas da área de recurso **pastas públicas**.
+  - **Pastas públicas** No Exchange 2010, você precisava gerenciar as pastas públicas usando o Console de Gerenciamento de Pasta Pública, que estava localizado fora do EMC na Caixa de Ferramentas. No Exchange 2013, as pastas públicas podem ser gerenciadas da área de recurso **pastas públicas**.
 
-  - **Unificação de mensagens   **É onde você gerenciará os planos de discagem de UM e os gateways IP de UM.
+  - **Unificação de mensagens** É onde você gerenciará os planos de discagem de UM e os gateways IP de UM.
 
-  - **Servidores   **É onde você gerenciará seus servidores de Caixa de Correio e Acesso para Cliente, bancos de dados, grupos de disponibilidade de banco de dados (DAGs), diretórios virtuais e certificados.
+  - **Servidores** É onde você gerenciará seus servidores de Caixa de Correio e Acesso para Cliente, bancos de dados, grupos de disponibilidade de banco de dados (DAGs), diretórios virtuais e certificados.
 
-  - **Híbrido   **É onde você definirá e configurará uma organização Híbrida.
+  - **Híbrido** É onde você definirá e configurará uma organização Híbrida.
 
 ## Guias
 
@@ -173,14 +173,14 @@ O *bloco Eu* permite sair do EAC e entrar como um usuário diferente. No menu su
 
   - **Desabilitar Bolha de ajuda**   A bolha de ajuda exibe a ajuda contextual por campos quando você cria ou edita um objeto. É possível desativar a bolha de Ajuda ou ativá-la quando ela estiver desabilitada.
 
-  - **Direitos autorais e privacidade   **Clique no link de direitos autorais e privacidade para ler as informações sobre direitos autorais e privacidade do Exchange 2013.
+  - **Direitos autorais e privacidade** Clique no link de direitos autorais e privacidade para ler as informações sobre direitos autorais e privacidade do Exchange 2013.
 
 ## Navegadores com suporte
 
 Para uma melhor experiência com o EAC, use um dos sistemas operacionais e combinações de navegador rotulados como "Premium".
 
 
-> [!TIP]
+> [!NOTE]
 > Não há suporte para outras combinações de sistema operacional e navegador não listadas na tabela, inclusive recursos de toque.
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exibir propriedades de mensagem na fila no Visualizador de filas: Exchange 2013 Help'
+title: 'Exibir propriedades de mensagem na fila no Visualizador de filas'
 TOCTitle: Exibir propriedades de mensagem na fila no Visualizador de filas
 ms:assetid: 9d15d8b8-e061-4288-9354-df58e282fb6b
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb123934(v=EXCHG.150)

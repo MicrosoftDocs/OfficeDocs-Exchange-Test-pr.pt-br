@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar um plano de discagem para usuários que tenham nomes semelhantes: Exchange 2013 Help'
+title: 'Configurar um plano de discagem para usuários que tenham nomes semelhantes'
 TOCTitle: Configurar um plano de discagem para usuários que tenham nomes semelhantes
 ms:assetid: 14783f45-95f5-49de-8215-0a3aef7dc034
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb266943(v=EXCHG.150)

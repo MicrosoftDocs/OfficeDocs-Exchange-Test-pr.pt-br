@@ -1,5 +1,5 @@
 ﻿---
-title: 'Esse servidor é a origem para um Connector_ServerIsSourceForSendConnector enviar: Exchange 2013 Help'
+title: 'Este servidor é a origem para um conector de envio: Exchange 2013 Help'
 TOCTitle: Esse servidor é a origem para um Connector_ServerIsSourceForSendConnector enviar
 ms:assetid: 151c0014-c90c-4c52-8e74-4b3f1bc7aaf1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.serverissourceforsendconnector(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Avisos de isenção de responsabilidade, assinaturas, rodapés ou cabeçalhos para toda a organização: Exchange 2013 Help'
+title: 'Avisos de isenção, assinaturas, rodapés ou cabeçalhos para a organização'
 TOCTitle: Avisos de isenção de responsabilidade, assinaturas, rodapés ou cabeçalhos para toda a organização
 ms:assetid: e45e33c9-e53b-427c-ada5-70901bc399b8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn600437(v=EXCHG.150)

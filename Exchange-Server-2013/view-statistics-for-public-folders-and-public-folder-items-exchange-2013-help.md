@@ -1,5 +1,5 @@
 ﻿---
-title: 'Exibir estatísticas de pastas públicas e itens de pasta pública: Exchange 2013 Help'
+title: 'Exibir estatísticas de pastas públicas e itens de pasta pública'
 TOCTitle: Exibir estatísticas de pastas públicas e itens de pasta pública
 ms:assetid: 4e412710-9a74-4649-ab01-502e969a7eda
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997949(v=EXCHG.150)

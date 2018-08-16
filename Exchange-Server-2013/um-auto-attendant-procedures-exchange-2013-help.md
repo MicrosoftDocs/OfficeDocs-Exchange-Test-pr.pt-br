@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimentos atendedor automático a Unificação de mensagens: Exchange 2013 Help'
+title: 'Procedimentos de atendedor automático de UM: Exchange 2013 Help'
 TOCTitle: Procedimentos atendedor automático a Unificação de mensagens
 ms:assetid: 9e59d68f-e11a-49b0-ac6b-88061761fd45
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ822155(v=EXCHG.150)

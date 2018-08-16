@@ -1,5 +1,5 @@
 ﻿---
-title: 'Permitir que os procedimentos de indicador de espera de mensagem: Exchange 2013 Help'
+title: 'Permitir procedimentos de indicador de espera de mensagem: Exchange 2013 Help'
 TOCTitle: Permitir que os procedimentos de indicador de espera de mensagem
 ms:assetid: 608082bc-015e-45ef-8ebc-f77465080381
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn135233(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o serviço de disponibilidade para topologias entre florestas: Exchange 2013 Help'
+title: 'Configurar o serviço de disponibilidade para topologias entre florestas'
 TOCTitle: Configurar o serviço de disponibilidade para topologias entre florestas
 ms:assetid: f1e7d407-f0d3-47a7-8cc3-03c5980445d5
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb125182(v=EXCHG.150)

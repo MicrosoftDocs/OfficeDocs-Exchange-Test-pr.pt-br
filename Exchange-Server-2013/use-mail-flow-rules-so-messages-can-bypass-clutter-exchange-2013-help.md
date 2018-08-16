@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar regras de fluxo de email para que mensagens poderá ignorar desorganização: Exchange 2013 Help'
+title: 'Usar regras de fluxo de email para que as mensagens ignorem o Email secundário'
 TOCTitle: Usar regras de fluxo de email para que mensagens poderá ignorar desorganização
 ms:assetid: 58e413f0-aa27-4307-bffd-4df03090a15e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn896639(v=EXCHG.150)

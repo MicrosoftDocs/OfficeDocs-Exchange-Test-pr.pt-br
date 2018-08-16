@@ -1,5 +1,5 @@
 ﻿---
-title: 'Alterações na alta disponibilidade e resilência de site em relação às versões anteriores: Exchange 2013 Help'
+title: 'Alterações na alta disp. e resilência de site em relação a versões anteriores'
 TOCTitle: Alterações na alta disponibilidade e resilência de site em relação às versões anteriores
 ms:assetid: de53c00b-091c-4a31-aacc-1bd40c756ce2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn789066(v=EXCHG.150)

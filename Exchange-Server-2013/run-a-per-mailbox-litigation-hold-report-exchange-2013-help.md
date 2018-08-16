@@ -1,5 +1,5 @@
 ﻿---
-title: 'Executar um relatório de suspensão de litígio por caixa de correio: Exchange 2013 Help'
+title: 'Executar um relatório de suspensão de litígio por caixa de correio'
 TOCTitle: Executar um relatório de suspensão de litígio por caixa de correio
 ms:assetid: 98c46226-2f48-42c6-a741-34bb5944f519
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ150542(v=EXCHG.150)

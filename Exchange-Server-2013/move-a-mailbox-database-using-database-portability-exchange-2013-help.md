@@ -1,5 +1,5 @@
 ﻿---
-title: 'Mover um banco de dados de caixa de correio usando a portabilidade de banco de dados: Exchange 2013 Help'
+title: 'Mover banco de dados de caixa de correio com portabilidade de banco de dados'
 TOCTitle: Mover um banco de dados de caixa de correio usando a portabilidade de banco de dados
 ms:assetid: a765ead1-43bc-4786-ae93-1835cacfc8fc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd876926(v=EXCHG.150)

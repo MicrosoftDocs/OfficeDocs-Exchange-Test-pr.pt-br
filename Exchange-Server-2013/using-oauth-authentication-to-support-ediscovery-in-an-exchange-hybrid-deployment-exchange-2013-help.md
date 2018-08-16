@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usando a autenticação OAuth para suportar a Descoberta Eletrônica em uma implantação híbrida do Exchange: Exchange 2013 Help'
+title: 'Usar autenticação OAuth p/ suportar Descoberta Eletrônica no Exchange híbrido'
 TOCTitle: Usando a autenticação OAuth para suportar a Descoberta Eletrônica em uma implantação híbrida do Exchange
 ms:assetid: b069f8db-fbe1-4047-ad97-d00172ee6a12
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn497703(v=EXCHG.150)

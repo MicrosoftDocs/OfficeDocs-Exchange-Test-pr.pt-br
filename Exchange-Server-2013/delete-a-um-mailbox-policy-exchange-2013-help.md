@@ -1,5 +1,5 @@
 ﻿---
-title: 'Excluir uma política de caixa de correio de Unificação de mensagens: Exchange 2013 Help'
+title: 'Excluir uma política de caixa de correio de UM: Exchange 2013 Help'
 TOCTitle: Excluir uma política de caixa de correio de Unificação de mensagens
 ms:assetid: c8758464-3c52-4dd3-b2a6-142a99bb0628
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124536(v=EXCHG.150)

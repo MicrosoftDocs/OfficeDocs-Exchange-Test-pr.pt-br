@@ -1,5 +1,5 @@
 ﻿---
-title: 'Aplicar uma política de compartilhamento às caixas de correio: Exchange 2013 Help'
+title: 'Aplicar política de compartilhamento às caixas de correio: Exchange 2013 Help'
 TOCTitle: Aplicar uma política de compartilhamento às caixas de correio
 ms:assetid: dd4cc765-8469-4176-bb6e-d5b0f5235927
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ657501(v=EXCHG.150)

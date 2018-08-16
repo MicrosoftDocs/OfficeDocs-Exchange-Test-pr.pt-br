@@ -1,5 +1,5 @@
 ﻿---
-title: 'Não há suporte para caracteres para nomes de objeto do Exchange 2013: Exchange 2013 Help'
+title: 'Não há suporte para caracteres para nomes de objeto do Exchange 2013'
 TOCTitle: Não há suporte para caracteres para nomes de objeto do Exchange 2013
 ms:assetid: 76fa4e23-f0f6-473b-9227-70ded907578f
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn169553(v=EXCHG.150)

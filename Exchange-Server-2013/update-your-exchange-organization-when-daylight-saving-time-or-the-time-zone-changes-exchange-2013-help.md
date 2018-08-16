@@ -1,5 +1,5 @@
 ﻿---
-title: 'Atualizar sua organização do Exchange quando o Horário de Verão entrar em vigor ou o fuso horário mudar: Exchange 2013 Help'
+title: 'Atualizar organização do Exchange para Horário de Verão ou outro fuso horário'
 TOCTitle: Atualizar sua organização do Exchange quando o Horário de Verão entrar em vigor ou o fuso horário mudar
 ms:assetid: 5b12615c-24cf-4f46-bf3c-2334dc734ef8
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh530051(v=EXCHG.150)

@@ -1,5 +1,5 @@
 ﻿---
-title: 'Filtragem de destinatário nos servidores de Transporte de Borda: Exchange 2013 Help'
+title: 'Filtragem de destinatário nos servidores de Transporte de Borda'
 TOCTitle: Filtragem de destinatário nos servidores de Transporte de Borda
 ms:assetid: 994eefd9-3903-41e6-a882-1e333d6d2d18
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb123891(v=EXCHG.150)

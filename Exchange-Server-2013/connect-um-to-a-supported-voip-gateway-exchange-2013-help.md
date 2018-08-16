@@ -1,5 +1,5 @@
 ﻿---
-title: 'Conecte-se a Unificação de mensagens a um gateway de VoIP com suporte: Exchange 2013 Help'
+title: 'Conectar a UM a um gateway de VoIP com suporte: Exchange 2013 Help'
 TOCTitle: Conecte-se a Unificação de mensagens a um gateway de VoIP com suporte
 ms:assetid: b8dfc8bd-2ee5-418d-b0a4-4fa2ec7e2a2e
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124360(v=EXCHG.150)

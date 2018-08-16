@@ -1,5 +1,5 @@
 ﻿---
-title: 'Definir a porta de escuta TCP em um servidor de acesso para cliente: Exchange 2013 Help'
+title: 'Definir a porta de escuta TCP em um servidor de acesso para cliente'
 TOCTitle: Definir a porta de escuta TCP em um servidor de acesso para cliente
 ms:assetid: 5f48f21a-d8d4-48b2-868f-9a3647693841
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ673530(v=EXCHG.150)

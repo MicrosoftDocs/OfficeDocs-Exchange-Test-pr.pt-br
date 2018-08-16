@@ -1,5 +1,5 @@
 ﻿---
-title: 'Ajudar a identificar meu problema com verificações automáticas - do Active Directory: Exchange 2013 Help'
+title: 'Identificar problema com verificações automáticas – Active Directory'
 TOCTitle: Ajudar a identificar meu problema com verificações automáticas - do Active Directory
 ms:assetid: af08e7a1-775a-4e56-a6fe-4ffc10460514
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn793979(v=EXCHG.150)

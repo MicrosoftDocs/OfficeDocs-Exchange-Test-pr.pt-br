@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar o grupo de usuários que os usuários do Outlook Voice Access podem contatar: Exchange 2013 Help'
+title: 'Configurar grupo de usuários que usuários do Outlook Voice Access contatam'
 TOCTitle: Configurar o grupo de usuários que os usuários do Outlook Voice Access podem contatar
 ms:assetid: a8dc0f9e-dc86-4128-af63-d4e550aed5bb
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ee423551(v=EXCHG.150)

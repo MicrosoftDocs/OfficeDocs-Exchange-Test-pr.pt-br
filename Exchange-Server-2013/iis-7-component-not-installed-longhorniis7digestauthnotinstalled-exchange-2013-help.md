@@ -1,5 +1,5 @@
 ﻿---
-title: 'Componente do IIS 7 não installed_LonghornIIS7DigestAuthNotInstalled: Exchange 2013 Help'
+title: 'Componente do IIS 7 não instalado: Exchange 2013 Help: Exchange 2013 Help'
 TOCTitle: Componente do IIS 7 não installed_LonghornIIS7DigestAuthNotInstalled
 ms:assetid: 5c0523d3-f1ba-4197-9c9f-715673dc1436
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.longhorniis7digestauthnotinstalled(v=EXCHG.150)

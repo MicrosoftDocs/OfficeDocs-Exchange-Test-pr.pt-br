@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar o Backup do Windows Server para restaurar um backup do Exchange: Exchange 2013 Help'
+title: 'Usar o Backup do Windows Server para restaurar um backup do Exchange'
 TOCTitle: Usar o Backup do Windows Server para restaurar um backup do Exchange
 ms:assetid: 2d0f31dc-eb32-451a-8852-591269026506
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd876864(v=EXCHG.150)

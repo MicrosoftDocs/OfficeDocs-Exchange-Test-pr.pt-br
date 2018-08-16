@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar a funcionalidade anti-spam em servidores de caixa de correio: Exchange 2013 Help'
+title: 'Habilitar funcionalidade anti-spam em servidores de Caixa de Correio'
 TOCTitle: Habilitar a funcionalidade anti-spam em servidores de caixa de correio
 ms:assetid: 59d22c5e-64bc-4879-8ad1-364862b6ba11
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb201691(v=EXCHG.150)

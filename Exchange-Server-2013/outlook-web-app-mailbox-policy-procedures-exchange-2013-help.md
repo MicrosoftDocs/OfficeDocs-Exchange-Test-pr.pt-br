@@ -1,5 +1,5 @@
 ﻿---
-title: 'Procedimentos de diretiva de caixa de correio do Outlook Web App: Exchange 2013 Help'
+title: 'Procedimentos de política de caixa de correio do OWA: Exchange 2013 Help'
 TOCTitle: Procedimentos de diretiva de caixa de correio do Outlook Web App
 ms:assetid: 2f9fc960-6d0b-472a-a81a-6d8b629b4d5d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ674295(v=EXCHG.150)

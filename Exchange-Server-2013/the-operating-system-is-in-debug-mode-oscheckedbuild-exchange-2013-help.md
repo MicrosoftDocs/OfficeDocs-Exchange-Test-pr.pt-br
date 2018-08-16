@@ -1,5 +1,5 @@
 ﻿---
-title: 'O sistema operacional está no mode_OSCheckedBuild de depuração: Exchange 2013 Help'
+title: 'Sistema operacional no mode_OSCheckedBuild de depuração: Exchange 2013 Help'
 TOCTitle: O sistema operacional está no mode_OSCheckedBuild de depuração
 ms:assetid: 93a1380f-1388-494d-8f78-92dfefd069bd
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/ms.exch.setupreadiness.oscheckedbuild(v=EXCHG.150)

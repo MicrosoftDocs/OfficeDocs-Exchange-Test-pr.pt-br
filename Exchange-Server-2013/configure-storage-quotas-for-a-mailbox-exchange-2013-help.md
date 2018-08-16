@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar cotas de armazenamento para uma caixa de correio: Exchange 2013 Help'
+title: 'Configurar cotas de armazenamento para a caixa de correio: Exchange 2013 Help'
 TOCTitle: Configurar cotas de armazenamento para uma caixa de correio
 ms:assetid: 5f5fe292-c80e-4a0b-b3e6-e193ea5171d0
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998353(v=EXCHG.150)

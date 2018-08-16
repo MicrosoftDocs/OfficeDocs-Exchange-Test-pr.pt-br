@@ -1,5 +1,5 @@
 ﻿---
-title: 'Preparar o objeto de nome de cluster de um grupo de disponibilidade do banco de dados: Exchange 2013 Help'
+title: 'Preparar objeto de nome de cluster para grupo de dispon. de banco de dados'
 TOCTitle: Preparar o objeto de nome de cluster de um grupo de disponibilidade do banco de dados
 ms:assetid: 51ebf2f6-8a02-44ef-a489-ca361cb0f63a
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff367878(v=EXCHG.150)

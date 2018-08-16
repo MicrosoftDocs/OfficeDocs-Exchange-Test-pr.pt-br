@@ -1,5 +1,5 @@
 ﻿---
-title: 'Adicionar ou remover usuários de uma política de caixa de correio móvel: Exchange 2013 Help'
+title: 'Adicionar ou remover usuários de uma política de caixa de correio móvel'
 TOCTitle: Adicionar ou remover usuários de uma política de caixa de correio móvel
 ms:assetid: 4ca8e395-c074-4165-b788-16fae3e2ccab
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa997929(v=EXCHG.150)

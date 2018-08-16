@@ -1,5 +1,5 @@
 ﻿---
-title: 'Usar a migração de lote para migrar pastas públicas do Exchange 2013 para grupos do Office 365: Exchange 2013 Help'
+title: 'Usar migração de lote em pastas do Exchange 2013 para Grupos do Office 365'
 TOCTitle: Usar a migração de lote para migrar pastas públicas do Exchange 2013 para grupos do Office 365
 ms:assetid: 1d800576-957d-4916-ae2a-55c08ca75be1
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Mt843873(v=EXCHG.150)

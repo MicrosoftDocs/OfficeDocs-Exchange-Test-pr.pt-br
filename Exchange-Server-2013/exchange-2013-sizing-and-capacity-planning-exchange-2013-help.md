@@ -1,5 +1,5 @@
 ﻿---
-title: 'Planejamento de capacidade e dimensionamento do Exchange 2013: Exchange 2013 Help'
+title: 'Planejamento de capacidade e dimensionamento do Exchange 2013'
 TOCTitle: Planejamento de capacidade e dimensionamento do Exchange 2013
 ms:assetid: d9852860-1a4c-4162-83f1-7131432be7d6
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn178505(v=EXCHG.150)

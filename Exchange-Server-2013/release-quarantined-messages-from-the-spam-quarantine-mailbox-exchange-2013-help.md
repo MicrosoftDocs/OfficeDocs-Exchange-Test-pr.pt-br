@@ -1,5 +1,5 @@
 ﻿---
-title: 'Liberar mensagens em quarentena da caixa de correio de quarentena de spam: Exchange 2013 Help'
+title: 'Liberar mensagens em quarentena da caixa de correio de quarentena de spam'
 TOCTitle: Liberar mensagens em quarentena da caixa de correio de quarentena de spam
 ms:assetid: 7a86bfde-f868-4689-bdec-5f01e52b510d
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Aa998920(v=EXCHG.150)

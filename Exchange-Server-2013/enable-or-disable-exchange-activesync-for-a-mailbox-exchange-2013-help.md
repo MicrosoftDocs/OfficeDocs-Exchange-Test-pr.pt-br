@@ -1,5 +1,5 @@
 ﻿---
-title: 'Habilitar ou desabilitar o Exchange ActiveSync para uma caixa de correio: Exchange Online Help'
+title: 'Habilitar ou desabilitar o Exchange ActiveSync para uma caixa de correio'
 TOCTitle: Habilitar ou desabilitar o Exchange ActiveSync para uma caixa de correio
 ms:assetid: dcf7c05b-b1b9-4b0f-800d-fec9f2ddc9e4
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Bb124809(v=EXCHG.150)

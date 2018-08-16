@@ -1,5 +1,5 @@
 ﻿---
-title: 'Configurar propriedades de cópia de banco de dados de caixa de correio: Exchange 2013 Help'
+title: 'Configurar propriedades de cópia de banco de dados de caixa de correio'
 TOCTitle: Configurar propriedades de cópia de banco de dados de caixa de correio
 ms:assetid: cf186561-ab2c-45c0-90f5-8d3ecfabeeac
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dd351151(v=EXCHG.150)

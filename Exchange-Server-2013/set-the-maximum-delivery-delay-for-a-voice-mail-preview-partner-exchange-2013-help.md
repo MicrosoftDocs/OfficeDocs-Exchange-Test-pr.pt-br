@@ -1,5 +1,5 @@
 ﻿---
-title: 'Defina o atraso máximo de entrega de um parceiro de visualização da caixa postal: Exchange 2013 Help'
+title: 'Definir atraso máximo de entrega para parceiro de Visualização de Caixa Postal'
 TOCTitle: Defina o atraso máximo de entrega de um parceiro de visualização da caixa postal
 ms:assetid: c9a07f6d-6f7f-4036-9a4a-d668d21e2c76
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Ff630928(v=EXCHG.150)

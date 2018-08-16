@@ -1,5 +1,5 @@
 ﻿---
-title: 'Instalar a função de Transporte de Borda do Exchange 2013 usando o Assistente para Configuração: Exchange 2013 Help'
+title: 'Instalar a função Transporte de Borda do Exchange 2013 usando o Assistente'
 TOCTitle: Instalar a função de Transporte de Borda do Exchange 2013 usando o Assistente para Configuração
 ms:assetid: b8e51b0b-201e-4c64-92c8-3ac0db04b6e2
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn635117(v=EXCHG.150)

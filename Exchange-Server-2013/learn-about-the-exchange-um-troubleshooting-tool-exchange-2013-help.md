@@ -1,5 +1,5 @@
 ﻿---
-title: 'Saiba mais sobre a UM ferramenta de solução de problemas do Exchange: Exchange 2013 Help'
+title: 'Saiba mais da ferramenta de solução de problemas de UM: Exchange 2013 Help'
 TOCTitle: Saiba mais sobre a UM ferramenta de solução de problemas do Exchange
 ms:assetid: cc11bf5e-2c87-4495-b2ad-3e9a6bc81dbc
 ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg584301(v=EXCHG.150)
