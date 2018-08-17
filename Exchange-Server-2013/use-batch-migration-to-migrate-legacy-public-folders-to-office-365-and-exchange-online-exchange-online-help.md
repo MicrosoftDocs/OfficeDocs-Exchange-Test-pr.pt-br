@@ -24,7 +24,7 @@ Este tópico descreve como migrar suas pastas públicas em uma migração rápid
 Este tópico chama os servidores Exchange 2010 SP3 RU8 e Exchange 2007 SP3 RU15 de *servidores Exchange herdados*. Da mesma forma, as etapas deste tópico podem ser aplicadas ao Exchange Online e ao Office 365. Os termos podem ser usados de maneira intercambiável nesse tópico.
 
 
-> [!TIP]
+> [!NOTE]
 > O método de migração em lotes descrito neste artigo é o único método com suporte para migrar pastas públicas legadas para o Office 365 e o Exchange Online. O método antigo de migração em série para migrar pastas públicas está se tornando obsoleto e já não tem mais o suporte da Microsoft.
 
 
@@ -158,7 +158,7 @@ Realize as seguintes etapas de pré-requisitos antes de iniciar a migração.
             Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > Depois de redefinir essas propriedades, você deverá aguardar até que o Exchange detecte as novas configurações. Isso pode demorar até duas horas.
 
 

@@ -38,7 +38,7 @@ Usando um grupo de disponibilidade de banco de dados (DAG) para resiliência de 
 Os DAGs utilizam o conceito de *implantação incremental*, que é a capacidade de implantar disponibilidade de dados e serviços para todos os servidores de Caixa de Correio e bancos de dados depois da instalação do Exchange. Depois de implantar os servidores de Caixa de Correio do Exchange 2013, você poderá criar um DAG, adicionar servidores de Caixa de Correio a ele e replicar bancos de dados de caixa de correio entre os membros do DAG.
 
 
-> [!TIP]
+> [!NOTE]  
 > Há suporte para criar um DAG que contém uma combinação de servidores de Caixa de Correio físicos e virtualizados, desde que os servidores e a solução estejam em conformidade com os <A href="exchange-2013-system-requirements-exchange-2013-help.md">Requisitos de sistema do Exchange 2013</A> e os requisitos estabelecidos em <A href="exchange-2013-virtualization-exchange-2013-help.md">Virtualização do Exchange 2013</A>. Como em todas as configurações de alta disponibilidade do Exchange, você deve garantir que todos os servidores de Caixa de Correio no DAG sejam corretamente dimensionados para lidar com a carga de trabalho necessária durante as interrupções agendadas ou não agendadas.
 
 

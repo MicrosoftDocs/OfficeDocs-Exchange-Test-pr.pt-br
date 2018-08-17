@@ -22,7 +22,7 @@ Você pode usar o EAC ou o Shell para desabilitar ou excluir uma caixa de correi
 Se você precisar excluir uma caixa de correio no Exchange Online, confira [Excluir ou restaurar caixas de correio do usuário no Exchange Online](https://technet.microsoft.com/pt-br/library/dn186233\(v=exchg.150\)).
 
 
-> [!TIP]
+> [!NOTE]
 > As caixas de correio desabilitadas ou excluídas são referidas como <EM>caixas de correio desconectadas</EM>.
 
 
@@ -164,7 +164,7 @@ Para confirmar se você desabilitou uma caixa de correio com êxito, siga um des
     O valor de `Disabled` na propriedade *DisconnectReason* indica que a caixa de correio está desabilitada.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Quando você exclui uma caixa de correio, o valor na propriedade <EM>DisconnectReason</EM> também é <CODE>Disabled</CODE>. No entanto, a conta de usuário do Active Directory correspondente é excluída.
 
 
@@ -229,7 +229,7 @@ Ou
     O valor `Disabled` na propriedade *DisconnectReason* indica que a caixa de correio foi excluída.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Quando você desabilita uma caixa de correio, o valor na propriedade <EM>DisconnectReason</EM> também é <CODE>Disabled</CODE>. No entanto, a conta de usuário do Active Directory correspondente é mantida.
 
 

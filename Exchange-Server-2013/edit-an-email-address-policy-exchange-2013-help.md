@@ -68,7 +68,7 @@ Este exemplo edita a política de endereço de email South East Offices que atua
     Set-EmailAddressPolicy -Identity "South East Offices" -ConditionalStateorProvince "Georgia","Alabama","Louisiana","Texas"
 
 
-> [!TIP]
+> [!NOTE]
 > Embora a política de endereço de email já é aplicada aos destinatários na Geórgia, Alabama e Louisiana, você deve inclui-los no parâmetro porque o parâmetro substitui os valores; ele não acrescente valores já existentes.
 
 

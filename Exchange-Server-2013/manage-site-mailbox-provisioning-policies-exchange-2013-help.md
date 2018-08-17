@@ -86,7 +86,7 @@ Este exemplo desabilita a nomenclatura de prefixo ao configurar o parâmetro *De
 Este exemplo altera a política de provisionamento padrão e define *AliasPrefix* como FOREST01.
 
 
-> [!TIP]
+> [!NOTE]
 > Para implantações com várias florestas, é recomendável que um prefixo diferente seja usado em cada floresta para impedir conflitos quando objetos sejam sincronizados entre florestas, no caso de que caixas de correio da equipe tiverem sido criadas com o mesmo nome em duas ou mais florestas.
 
 
@@ -94,7 +94,7 @@ Este exemplo altera a política de provisionamento padrão e define *AliasPrefix
     Set-SiteMailboxProvisioningPolicy -Identity Default -AliasPrefix FOREST01 -DefaultAliasPrefixEnabled $false
 
 
-> [!TIP]
+> [!NOTE]
 > No caso de uma implantação híbrida onde você tiver o Exchange local e no Office 365, todas caixas de correio da equipe baseadas em nuvem serão criadas com o prefixo <STRONG>SMO-</STRONG>. Os prefixos são diferentes no Office 365 e no Exchange local de forma que clientes híbridos não experimentem conflitos caso as caixas de correio da equipe sejam criadas em ambos os locais e então sincronizadas entre locais. O parâmetro AliasPrefix tem precedência sobre o parâmetro DefaultAliasPrefixEnabled; portanto, se o parâmetro <EM>AliasPrefix</EM> for definido como uma cadeia de caracteres válida e não nula, cada nova caixa de correio da equipe terá essa cadeia de caracteres como prefixo do alias.
 
 

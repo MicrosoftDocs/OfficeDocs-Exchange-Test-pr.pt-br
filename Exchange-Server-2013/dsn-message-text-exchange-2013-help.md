@@ -78,7 +78,7 @@ Porque mensagens DSN podem ser exibidas em HTML, é possível incorporar a forma
 
 
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, o Exchange envia HTML DSN mensagens, mas você pode configurar se o Exchange envia mensagens DSN HTML para remetentes internos, remetentes externos ou ambos. Para definir esse comportamento, modifique o parâmetro <EM>InternalDsnSendHtml</EM> e <EM>ExternalDsnSendHtml</EM> com o comando <STRONG>Set-TransportService</STRONG> .<BR>Se o parâmetro <EM>InternalDsnSendHtml</EM> é definido como <CODE>$false</CODE>, Exchange suprime as marcas HTML em mensagens DSN enviadas para remetentes internos. Se o parâmetro <EM>ExternalDsnSendHtml</EM> é definido como <CODE>$false</CODE>, Exchange suprime as marcas HTML em mensagens DSN enviadas para remetentes externos.
 
 

@@ -85,7 +85,7 @@ Para configurar permissões compartilhadas no grupo de funções Gerenciamento d
         New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management" -Delegating
     
 
-    > [!TIP]
+    > [!NOTE]
     > Grupo de função (neste procedimento, o grupo de funções administradores Active Directory ) que possui delegando atribuições de função para a função de criação de destinatário de email e criação de grupos de segurança e a associação de função deve ser atribuído a função de gerenciamento de função para executar o cmdlet <STRONG>New-ManagementRoleAssignment</STRONG> . O destinatário da função que pode delegar a função de gerenciamento de função deve atribuir essa função ao grupo de função de administradores de Active Directory.
 
 
@@ -106,7 +106,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [New-Manage
 Opcionalmente, você pode remover as permissões concedidas aos administradores Active Directory se não quiser mais eles possam criar ou gerenciar objetos de Active Directory usando as ferramentas de gerenciamento de Exchange. Se você deseja remover permissões de administradores Active Directory, execute este procedimento.
 
 
-> [!TIP]
+> [!NOTE]
 > Embora não seja possível remover permissões para administradores Active Directory gerenciar objetos de Active Directory usando as ferramentas de gerenciamento de Exchange, Active Directory administradores podem continuar a gerenciar objetos Active Directory usando ferramentas de gerenciamento de Active Directory, se suas permissões Active Directory permitirem. No entanto, não, poderá gerenciar Exchange-atributos específicos nos objetos Active Directory. Para obter mais informações, consulte <A href="understanding-split-permissions-exchange-2013-help.md">Compreendendo as permissões de divisão</A>.
 
 
@@ -152,7 +152,7 @@ Para alternar entre Active Directory dividir permissões para permissões compar
 3.  Reinicie os servidores de Exchange 2013 em sua organização.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você tiver servidores Exchange 2010 em sua organização, você também precisará reiniciar esses servidores.
 
 

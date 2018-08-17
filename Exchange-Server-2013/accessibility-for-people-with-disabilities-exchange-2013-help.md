@@ -44,7 +44,7 @@ Cada figura na Ajuda para o Microsoft Exchange, incluindo capturas de tela, diag
 As seções a seguir fornecem informações sobre os recursos, produtos e serviços que tornam o Microsoft Windows mais acessível para pessoas com deficiências.
 
 
-> [!TIP]
+> [!NOTE]
 > As informações nesta seção se aplica somente aos usuários que obtiveram licença produtos da Microsoft nos Estados Unidos. Se você tiver obtido este produto fora dos Estados Unidos, visite o <A href="https://www.microsoft.com/enable">site Microsoft Accessibility</A> para obter uma lista de números de telefone e serviços de suporte de endereços para o Microsoft. Entre em contato com sua subsidiária para saber se o tipo de produtos e serviços descritos nesta seção estão disponíveis em sua área. Saiba mais sobre os recursos de acessibilidade incluídos nos produtos da Microsoft sobre a acessibilidade no site da Microsoft Products.
 
 

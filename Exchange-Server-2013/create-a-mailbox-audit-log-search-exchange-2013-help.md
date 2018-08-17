@@ -58,7 +58,7 @@ Para tarefas de gerenciamento adicionais relacionadas ao log de auditoria de cai
       - **Pesquisar essas caixas de correio ou deixar em banco, para encontrar todas as caixas de correio acessadas por não proprietários**
         
 
-        > [!WARNING]
+        > [!CAUTION]
         > Dependendo do número de caixas de correio na sua organização e a quantidade de dados de log de auditoria de caixa de correio em cada caixa de correio, pesquisar todas as caixas de correio pode demorar muito.
 
     

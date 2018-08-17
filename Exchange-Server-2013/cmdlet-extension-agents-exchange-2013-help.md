@@ -40,7 +40,7 @@ Se quiser que usar o `Scripting agent` para definir o valor de propriedades que 
   - Manter as prioridades dos agente iguais e certificar-se de que o script executado sob o `Scripting agent` respeite o valor fornecido pelos outros agentes.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Alterar a prioridade ou substituir a funcionalidade de uma agente integrado é uma operação avançada. Certifique-se de ter entendido completamente as alterações que está realizando.
 
 
@@ -56,7 +56,7 @@ Exchange 2013 inclui vários agentes que podem ser invocados quando um cmdlet é
 A configuração para agentes é armazenada no nível da organização. Quando você ativa ou desativa um agente, ou quando determina sua prioridade, você define a configuração daquele agente em todos os servidores da organização. A exceção é adicionar scripts ao `Scripting agent`. Você deve atualizar os scripts em cada servidor individualmente. Para obter mais informações sobre como configurar scripts para usar com o `Scripting agent`, consulte a seção "Agente de script" posteriormente neste tópico.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Alterar a prioridade de agentes, ou habilitar e desabilitar agentes, pode causar efeitos indesejados se você não compreender completamente o que cada agente faz e como eles interagem com os cmdlets do Exchange. Antes de alterar a configuração de um agente, certifique-se de compreender totalmente as alterações e os resultados que deseja, e de verificar se o script personalizado irá funcionar conforme o pretendido.
 
 
@@ -136,7 +136,7 @@ A configuração para agentes é armazenada no nível da organização. Quando v
 Você pode usar o agente de extensão de cmdlet `Scripting agent` do Exchange 2013 para inserir sua própria lógica de scripts na execução dos cmdlets do Exchange. Ao usar o `Scripting agent`, você pode adicionar condições, substituir valores e configurar relatórios.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Quando você habilita o agente de extensão do cmdlet <CODE>Scripting agent</CODE>, o agente é invocado sempre que um cmdlet é executado em um servidor em execução no Exchange 2013. Isso inclui não só os cmdlets executados diretamente por você no Shell de Gerenciamento do Exchange, mas também os cmdlets executados pelos serviços do Exchange e o Centro de Administração do Exchange (EAC). É altamente recomendado testar seus scripts e todas as alterações efetuadas no arquivo de configuração, antes de copiar seu arquivo de configuração atualizado para os servidores do Exchange 2013 e habilitar o agente de extensão do cmdlet do <CODE>Scripting agent</CODE>.
 
 
@@ -152,7 +152,7 @@ Toda vez que um cmdlet do Exchange é executado, o cmdlet invoca o agente de ext
 4.  **OnComplete**   Essa API é usada após todo o processamento do cmdlet terminar. Pode ser usada para executar tarefas posteriores ao processamento, como gravação de dados em um banco de dados externo.
 
 
-> [!TIP]
+> [!NOTE]
 > O agente de extensão do cmdlet do <CODE>Scripting agent</CODE> não é invocado quando os cmdlets com o verbo <CODE>Get</CODE> são executados.
 
 
@@ -245,7 +245,7 @@ Para habilitar o `Scripting agent`, é preciso proceder da seguinte forma:
 1.  Renomeie o arquivoScriptingAgentConfig.xml.sample em **\<caminho de instalação\>\\V15\\Bin\\CmdletExtensionAgents** como ScriptingAgentConfig.xml em todos os servidores do Exchange 2013 de sua organização.
     
 
-    > [!TIP]
+    > [!NOTE]
     > É possível copiar o arquivo de configuração de um servidor Exchange 2013 para outros servidores Exchange 2013. Certifique-se de atualizar o arquivo de configuração que deseja copiar antes de copiá-lo.
 
 

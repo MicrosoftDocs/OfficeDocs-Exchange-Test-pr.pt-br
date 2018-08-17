@@ -52,7 +52,7 @@ Execute o script do Shell em uma função de servidor do Exchange 2013 na flores
 Para atribuir uma credencial de autenticação específica para o controlador de domínio da floresta remota, primeiro você deve executar o cmdlet de **Get-Credential**Windows PowerShell e armazenar a entrada do usuário em uma variável temporária. Quando você executa o cmdlet **Get-Credential** , o cmdlet solicita o nome de usuário e senha da conta usada durante a autenticação com o controlador de domínio da floresta remota. Em seguida, você pode usar variável temporária no script Prepare-MoveRequest.ps1. Para obter mais informações sobre o cmdlet **Get-Credential** , consulte [Get-Credential](https://go.microsoft.com/fwlink/p/?linkid=142122).
 
 
-> [!TIP]
+> [!NOTE]
 > Certifique-se de usar duas credenciais separadas para a floresta local e a floresta remota ao chamar esse script.
 
 
@@ -114,7 +114,7 @@ A tabela a seguir descreve o parâmetro definido para o script.
 <td><p>O parâmetro <em>DisableEmailAddressPolicy</em> especifica se a Política de Endereço de Email (EAP) deve ser desabilitada ao se criar um objeto <strong>MailUser</strong> na floresta de destino.</p>
 <p>Quando você especificar esse parâmetro, o EAP na floresta de destino não será aplicado.</p>
 
-> [!TIP]
+> [!NOTE]
 > Quando você especificar esse parâmetro, o objeto <STRONG>MailUser</STRONG> não terá mapeamento de endereço de email no domínio de floresta local carimbado. Isso costuma ser carimbado pelo EAP.
 
 

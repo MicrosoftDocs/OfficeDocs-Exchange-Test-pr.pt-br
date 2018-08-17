@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2014-08-27_
 Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode modificá-lo para alterar os parâmetros de pesquisa. Por exemplo, você pode alterar as caixas de correio a ser pesquisado, intervalos de datas, palavras-chave, opções de log ou você pode especificar uma caixa de correio de descoberta diferente para armazenar os resultados da pesquisa. Quaisquer alterações feitas nas propriedades de pesquisa serão usadas quando você reiniciar a pesquisa.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Se estiver executando uma pesquisa de descoberta eletrônica In-loco, você deve pará-lo antes de modificá-lo. Quando você reiniciar a pesquisa, os resultados da última vez que a pesquisa foi executada são removidos da caixa de correio de descoberta. No entanto, os logs de pesquisas anteriores são salvas.
 
 
@@ -89,7 +89,7 @@ Para verificar se você modificou com êxito uma pesquisa de descoberta eletrôn
   - Use o cmdlet **Get-MailboxSearch** do Shell para verificar as propriedades da pesquisa. Para obter exemplos de como verificar as propriedades de uma pesquisa de caixa de correio, consulte a seção "Exemplos" em [Get-MailboxSearch](https://technet.microsoft.com/pt-br/library/dd351021\(v=exchg.150\)).
 
 
-> [!TIP]
+> [!NOTE]
 > Se você usar <STRONG>Get-MailboxSearch</STRONG> em Exchange Online para recuperar informações sobre uma pesquisa de descoberta eletrônica, você precisa especificar o nome de uma pesquisa para retornar uma lista completa das propriedades de pesquisa; Por exemplo, <CODE>Get-MailboxSearch "Contoso Legal Case"</CODE>. Se você executar o cmdlet <STRONG>Get-MailboxSearch</STRONG> sem usar quaisquer parâmetros, as propriedades a seguir não são retornadas: 
 > <UL>
 > <LI>

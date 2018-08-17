@@ -52,7 +52,7 @@ As permissões necessárias nas pastas e subpastas usadas no rastreamento de con
   - Sistema: Controle Total
 
 
-> [!WARNING]
+> [!CAUTION]
 > Rastreamento de conversão de conteúdo copia todo o conteúdo das mensagens de email. Para evitar a divulgação indesejada de informações confidenciais, você precisará definir permissões de segurança apropriadas no local da conversão conteúdo os arquivos de rastreamento.
 
 

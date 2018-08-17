@@ -82,7 +82,7 @@ Você pode especificar que parâmetros deseja auditar usando o parâmetro *Admin
   - `*Region`
 
 
-> [!TIP]
+> [!NOTE]
 > Para uma entrada de log de auditoria ser criada quando um comando for executado, o comando deve incluir pelo menos um parâmetro que exista em pelo menos um cmdlet especificado com o parâmetro <EM>AdminAuditLogCmdlets</EM>.
 
 
@@ -108,7 +108,7 @@ O limite de idade de log de auditoria determina por quanto tempo as entradas de 
   - **ss**   O número de segundos que a entrada do log de auditoria será mantida
 
 
-> [!WARNING]
+> [!CAUTION]
 > Você pode definir para o limite de idade do log de auditoria um valor menor do que o limite de idade atual. Se isso for feito, todas as entradas do log de auditoria com idade que excede o novo limite de idade são excluídas.<BR>Se você definir o limite de idade para 0, o Exchange&nbsp;exclui todas as entradas no log de auditoria.<BR>Recomendamos que você conceda permissões de configuração do limite de idade do log de auditoria somente a usuários extremamente confiáveis.
 
 
