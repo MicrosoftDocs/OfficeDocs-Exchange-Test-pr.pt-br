@@ -30,7 +30,7 @@ O recurso de apagamento remoto do dispositivo também inclui uma função de con
 
 
 
-> [!WARNING]
+> [!Caution]
 > Após a ocorrência de apagamento remoto de dispositivo, a recuperação de dados é muito difícil. No entanto, nenhum processo de remoção de dados deixa um dispositivo móvel tão livre de dados residuais como quando ele é novo. Recuperação de dados de um dispositivo móvel ainda pode ser possível usando ferramentas sofisticadas.
 
 

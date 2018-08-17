@@ -34,7 +34,7 @@ Para implantações de Service Pack 1 (SP1) do local Exchange 2013, instalando e
 A autenticação é o processo de confirmação da identidade de um usuário. A autenticação valida que o usuário é quem ele afirma ser. A identidade baseada em declarações é uma outra abordagem de autenticação. A autenticação baseada em declarações remove o gerenciamento de autenticação do aplicativo (nesse caso, do Outlook Web App e do EAC) para facilitar o gerenciamento de contas por meio da centralização da autenticação. O Outlook Web App e o EAC não são responsáveis pela autenticação de usuários, nem pelo armazenamento de contas e senhas de usuários, pela pesquisa de detalhes de identidade de usuários ou pela integração com outros sistemas de identidade. A centralização da autenticação facilita a atualização para métodos de autenticação no futuro.
 
 
-> [!TIP]
+> [!NOTE]  
 > O OWA para dispositivos não é compatível com a autenticação baseada em declarações.
 
 
@@ -164,7 +164,7 @@ Ao configurar o Exchange 2013 SP1, o AD FS e o Proxy de Aplicativo da Web, siga 
           - Nome Alternativo da Entidade (SAN): Nenhum
         
 
-        > [!TIP]
+        > [!NOTE]  
         > Ao substituir o certificado de autenticação de token no AD FS, todos os objetos de confiança de terceiros confiáveis devem ser atualizados para o uso no novo certificado de autenticação de token.
 
 
@@ -178,7 +178,7 @@ Ao configurar o Exchange 2013 SP1, o AD FS e o Proxy de Aplicativo da Web, siga 
           - Nome Alternativo da Entidade (SAN): Nenhum
         
 
-        > [!TIP]
+        > [!NOTE]  
         > Se a URL Externa do Proxy de Aplicativo da Web for idêntica à sua URL interna, reutilize o certificado SSL do Exchange aqui.
 
     
@@ -193,7 +193,7 @@ Ao configurar o Exchange 2013 SP1, o AD FS e o Proxy de Aplicativo da Web, siga 
 Consulte a seção de requisitos de certificado no [Examinar os requisitos para implantar o AD FS](https://go.microsoft.com/fwlink/?linkid=392699) para obter mais informações sobre certificados.
 
 
-> [!TIP]
+> [!NOTE]  
 > Um certificado de criptografia SSL ainda será necessário para o Outlook Web App e para o EAC, mesmo que você já tenha um certificado SSL para o AD FS. O certificado SSL é usado nos diretórios virtuais do OWA e do ECP.
 
 
@@ -221,7 +221,7 @@ Para instalar o AD FS no Windows Server 2012 R2:
 7.  Na página **Confirmar Seleções de Instalação**, marque **Reiniciar cada servidor de destino automaticamente, se necessário** e clique em **Instalar**.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Não feche o assistente durante o processo de instalação.
 
 
@@ -247,7 +247,7 @@ Para configurar os Serviços de Federação do Active Directory:
 5.  Na página **Especificar Conta de Serviço**, selecione **Usar uma Conta de Serviço Gerenciado de grupo ou de conta de usuário de domínio existente** e, em seguida, especifique a conta GMSA (FsGmsa) criada ao gerar o controlador de domínio. Inclua a senha da conta e clique em **Seguinte**.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > A Conta de Serviço Gerenciado Globalmente (GMSA) é uma conta que deve ser criada ao configurar o controlador de domínio. A conta GMSA é necessária durante a instalação e configuração do AD FS. Se ainda não tiver criado esta conta, execute o seguinte comando do Windows PowerShell. Ele criará a conta para o domínio contoso.com e para o servidor AD FS:
 
 
@@ -290,7 +290,7 @@ Para obter todos os aplicativos e serviços que você deseja publicar por meio d
 O EAC usa o diretório virtual do ECP. Exiba ou defina definições para o EAC usando o [Get-EcpVirtualDirectory](https://technet.microsoft.com/pt-br/library/dd351058\(v=exchg.150\)) e os cmdlets [Set-EcpVirtualDirectory](https://technet.microsoft.com/pt-br/library/dd297991\(v=exchg.150\)). Para acessar o EAC, use um navegador da Web e vá para **http://server1.contoso.com/ecp**.
 
 
-> [!TIP]
+> [!NOTE]  
 > A inclusão da barra à direita <STRONG>/</STRONG> nos exemplos URL mostrada abaixo é intencional. É importante garantir que o AD FS confianças de parceiros e a <STRONG>são idênticos do Exchange audiência URI</STRONG>. Isso significa que o AD FS terceira confiança de terceiros e Exchange audiência URI deve <STRONG>ter</STRONG> ou <STRONG>ambos emitem</STRONG> trilha barras em suas URLs. Os exemplos desta seção contêm à direita <STRONG>/</STRONG> após qualquer url que terminem com "owa" (/owa/) ou "ecp" (/ecp/).
 
 
@@ -398,7 +398,7 @@ Como alternativa, você pode criar relações de confiança de terceiros retrans
 ## Etapa 4: instalar o serviço de função do Proxy de aplicativo Web (opcional)
 
 
-> [!TIP]
+> [!NOTE]  
 > Etapa 4, etapa 5 e 6 etapa são para os usuários que deseja publicar o OWA do Exchange e do ECP usando o Proxy de aplicativo Web e que desejam ter o Proxy de aplicativo Web executem a autenticação do AD FS. No entanto, publicação Exchange com o Proxy de aplicativo Web não será necessária, portanto você pode ignorar a etapa 7, se você não usar o Proxy de aplicativo Web e quiser que o Exchange para realizar a autenticação do AD FS em si.
 
 

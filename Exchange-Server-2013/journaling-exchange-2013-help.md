@@ -74,7 +74,7 @@ Voltar ao início
 Em uma organização do Exchange 2013 , todo o tráfego de email é roteado por servidores de Caixa de Correio. Todas as mensagens percorrem pelo menos um servidor com o serviço de Transporte na sua vida útil. O *Agente de registro no diário* é um agente de transporte com foco em conformidade que processa mensagens nos servidores de Caixa de Correio. Ele é disparado nos eventos de transporte de **OnSubmittedMessage** e **OnRoutedMessage**.
 
 
-> [!TIP]
+> [!NOTE]
 > No Exchange 2013, o agente de Registro no Diário e um agente integrado. Agentes integrados não estão incluídos na lista de agentes retornados pelo cmdlet <STRONG>Get-TransportAgent</STRONG>. Para mais detalhes, consulte <A href="transport-agents-exchange-2013-help.md">Agentes de transporte</A>.
 
 
@@ -120,7 +120,7 @@ Todas as mensagens enviadas ou recebidas dos destinatários de registro no diár
 Muitas organizações que implementam o registro no diário também podem usar a Unificação de Mensagens (UM) para consolidar sua infraestrutura de email, caixa postal e fax. Entretanto, não é recomendável que o processo de registro no diário gere relatórios das mensagens geradas pela Unificação de Mensagens. Nesses casos, você pode decidir se deseja registrar no diário mensagens de caixa postal e mensagens de notificação de chamada não atendida tratadas por um servidor Exchange com o serviço de Unificação de Mensagens ou se deseja ignorar essas mensagens. Se a sua organização não exigir o registro no diário dessas mensagens, você poderá ignorá-las e, assim, reduzir a quantidade de espaço de armazenamento em disco rígido exigida para armazenar relatórios de registro no diário.
 
 
-> [!TIP]
+> [!NOTE]
 > As mensagens que contêm faxes gerados pelo serviço de Unificação de Mensagens são sempre registradas no diário, mesmo que você desabilite o registro no diário de mensagens de notificação de chamada perdida e caixa postal da Unificação de Mensagens.
 
 
@@ -158,7 +158,7 @@ Quando a caixa de correio de registro no diário ficar disponível novamente, vo
 Quando você configura uma caixa de correio de registro no diário alternativa, todos os relatórios do diário que são rejeitados ou não podem ser entregues em toda a organização do Exchange são entregues à caixa de correio de registro no diário alternativa. Portanto, é importante verificar se a caixa de correio de registro no diário alternativa e o servidor de caixa de correio onde ela está localizada podem oferecer suporte a muitos relatórios de diário.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Se você configurar uma caixa de correio de registro no diário alternativa, será preciso monitorar a caixa de correio para garantir que ela não fique indisponível ao mesmo tempo que as caixas de correio do diário. Se a caixa de correio de registro no diário alternativa ficar indisponível e rejeitar relatórios de diário, os relatórios de diário rejeitados serão perdidos e não poderão ser recuperados.
 
 
@@ -197,7 +197,7 @@ Voltar ao início
 
 ## Relatórios de diário
 
-O *relatório de registro no diário* é a mensagem que o agente de Registro no diário gera quando uma mensagem corresponde a uma regra de registro no diário e deve ser enviada à caixa de correio de Registro no diário. A mensagem original que corresponde à regra de registro no diário é incluída inalterada como um anexo ao relatório de registro no diário. O corpo de um relatório de registro no diário contém informações da mensagem original, como o endereço de email do remetente, o assunto da mensagem, a ID da mensagem e os endereços de email de destinatário. Isso também é chamado de registro no diário do tipo envelope e é o único método de registro no diário suportado pelos Exchange 2013.
+O *relatório de registro no diário* é a mensagem que o agente de Registro no diário gera quando uma mensagem corresponde a uma regra de registro no diário e deve ser enviada à caixa de correio de Registro no diário. A mensagem original que corresponde à regra de registro no diário é incluída inalterada como um anexo ao relatório de registro no diário. O corpo de um relatório de registro no diário contém informações da mensagem original, como o endereço de email do remetente, o assunto da mensagem, a ID da mensagem e os endereços de email de destinatário. Isso também é chamado de registro no diário do NOTEo envelope e é o único método de registro no diário suportado pelos Exchange 2013.
 
 ## Relatórios de registro no diário e mensagens protegidas por IRM
 

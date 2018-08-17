@@ -24,7 +24,7 @@ Como permitir que os usuários do Exchange 2013 ou Exchange 2016 como acesso Exc
 Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server 2016 não conseguirá acessar pastas públicas herdadas do Outlook Web App, Outlook na web ou o Outlook para Mac. As etapas neste artigo funcionam para o Exchange 2013 e Exchange 2016.
 
 
-> [!TIP]
+> [!NOTE]
 > 2016 do Outlook para usuários do Mac podem acessar pastas públicas herdadas após seguir as etapas neste artigo. Se os clientes na sua organização usarem 2016 do Outlook para Mac, certifique-se de que eles tenham instalado a atualização de abril de 2016. Caso contrário, os usuários não poderão acessar pastas públicas em uma coexistência ou topologia híbrida. Para obter mais informações, consulte <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Acesso a pastas públicas com 2016 do Outlook para Mac</A>.
 
 
@@ -34,7 +34,7 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
 1.  Se suas pastas públicas no Exchange 2010 ou posteriores servidores, você precisará instalar a função de servidor acesso para cliente em todos os servidores de caixa de correio que tem um banco de dados de pasta pública. Isso permite que o serviço Microsoft Exchange RpcClientAccess estar em execução, que permite que todos os clientes acessar pastas públicas. A função de acesso para cliente não é necessária para servidores de pasta pública do Exchange 2007 e esta etapa não é necessária. Para obter mais informações, consulte [instalar o Exchange Server 2010](install-exchange-2013-using-the-setup-wizard-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Esse servidor não precisa ser parte do balanceamento de carga de acesso para cliente. Para obter mais informações, consulte <A href="https://technet.microsoft.com/en-us/library/ff625247(v=exchg.141).aspx">balanceamento de carga de Understanding no Exchange 2010</A>.
 
 
@@ -50,7 +50,7 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
         New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
     
 
-    > [!TIP]
+    > [!NOTE]
     > Recomendamos que a única caixa de correio que você adicionar a esse banco de dados seja a caixa de correio de proxy que você criará na etapa 3. Nenhuma outra caixa de correio deve ser criada nesse banco de dados de caixa de correio.
 
 
@@ -79,7 +79,7 @@ Permita que os usuários locais do Exchange Server 2013 acessem as pastas públi
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 
 
-> [!TIP]
+> [!NOTE]
 > Você deve esperar a conclusão da sincronização do ActiveDirectory para ver as alterações. Esse processo pode levar várias horas.
 
 
