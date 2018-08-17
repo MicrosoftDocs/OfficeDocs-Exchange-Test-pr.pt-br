@@ -26,7 +26,7 @@ O servidor de Acesso para Cliente no qual habilitar o ponto de extremidade do Pr
   - **Migrações de movimentação remota entre uma organização do Exchange local e o Exchange Online**   Para migrações de movimentação remota de adição e transferência, é necessário habilitar o ponto de extremidade do Proxy MRS em servidores de Acesso para Cliente na sua organização local.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você usa o EAC para mover caixas de correio, as movimentações entre florestas e as migrações de movimentação remota de adição são tipos de movimentações pull, pois a solicitação é iniciada do ambiente de destino. As migrações de movimentação remota de transferência são um tipo de movimentação push, pois a solicitação é iniciada do ambiente de origem.
 
 
@@ -101,9 +101,13 @@ Outra maneira de verificar se o ponto de extremidade do Proxy MRS está habilita
 
 O exemplo a seguir testa a conexão com um servidor na floresta corp.contoso.com.
 
+```
     $Credentials = Get-Credential
+```
 
+```
     Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```
 
 Para executar este comando com êxito, o ponto de extremidade do Proxy MRS deve estar habilitado.
 

@@ -81,7 +81,7 @@ Se você não inserir uma chave de produto, o seu servidor é licenciado automat
 Esse exemplo usa o cmdlet **set-ExchangeServer** para inserir a chave de produto.
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode executar este comando novamente no mesmo servidor para atualizá-lo de uma licença Standard Edition para uma licença Enterprise Edition.
 
 

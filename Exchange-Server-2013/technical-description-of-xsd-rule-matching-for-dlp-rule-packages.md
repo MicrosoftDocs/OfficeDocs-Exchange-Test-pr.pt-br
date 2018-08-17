@@ -223,24 +223,30 @@ O atributo opcional minMatches pode ser usado (padrão = 1) para definir o núme
     Corresponder um subconjunto exato dos elementos filhos de Match
 
 <!-- end list -->
-
+```
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
+```
 
+```
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
+```
 
+```
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
         <Match idRef="Name" />
     </Any>
+```
+
 
 ## Aumentar o nível de confiança com mais evidências
 

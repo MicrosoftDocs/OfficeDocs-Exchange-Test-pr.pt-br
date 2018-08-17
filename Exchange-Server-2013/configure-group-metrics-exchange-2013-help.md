@@ -42,7 +42,7 @@ Você pode habilitar ou desabilitar a geração de métricas de grupo em um serv
 ## Usar o Shell para habilitar ou desabilitar a geração de métricas de grupo
 
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, os dados de métricas de grupo são gerados em qualquer servidor responsável por gerar o catálogo de endereços offline (OAB). Estes exemplos somente são necessários para organizações que não usam OABs.
 
 

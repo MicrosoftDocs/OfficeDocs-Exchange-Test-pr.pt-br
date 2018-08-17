@@ -177,7 +177,7 @@ O comando anterior cria um DAG chamado DAG1, configura o CAS1 para agir como ser
 O comando anterior configura o DAG1 para usar um servidor testemunha alternativo CAS4 e um diretório testemunha alternativo no CAS4 que usa o mesmo caminho configurado no CAS1.
 
 
-> [!TIP]
+> [!NOTE]
 > Não é necessário usar o mesmo caminho; a Contoso optou por fazer isso para padronizar a configuração.
 
 
@@ -250,7 +250,7 @@ Nos exemplos anteriores para o cmdlet **Add-MailboxDatabaseCopy**, o parâmetro 
 Embora haja duas cópias de cada banco de dados ativo ao longo da WAN no outro local, a propagação pela WAN só foi realizada uma vez. Isso acontece porque a Contoso está potencializando a capacidade do Exchange 2013 para usar uma cópia passiva de um banco de dados como origem da propagação. O uso do cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd298105\(v=exchg.150\)) com o parâmetro *SeedingPostponed* impede que a tarefa propague automaticamente a nova cópia de banco de dados que está sendo criada. Assim, o administrador pode suspender a cópia não propagada e, usando o cmdlet [Update-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335201\(v=exchg.150\)) com o parâmetro *SourceServer*, pode especificar a cópia local do banco de dados como origem da operação de propagação. Como resultado, a propagação da segunda cópia de banco de dados adicionada a cada localidade acontece localmente, e não através da WAN.
 
 
-> [!TIP]
+> [!NOTE]
 > No exemplo anterior, a cópia de banco de dados sem atraso é propagada através da WAN, e essa cópia é usada para propagar a cópia com atraso do banco de dados que está no mesmo datacenter que a cópia sem atraso.
 
 

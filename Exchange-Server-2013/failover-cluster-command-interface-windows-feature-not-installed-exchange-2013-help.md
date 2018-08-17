@@ -24,7 +24,7 @@ Exchange 2013 A instalação exige que o recurso de **Interface de Cluster de Fa
 Execute este procedimento para instalar o recurso do Windows neste computador. Se o recurso exigir uma reinicialização para concluir a instalação, será necessário sair da Instalação do Exchange 2013, reiniciar e recomeçar a Instalação.
 
 
-> [!TIP]
+> [!NOTE]
 > Talvez seja necessário instalar recursos ou atualizações adicionais do Windows para continuar a Instalação do Exchange 2013. Para obter uma lista completa dos recursos e atualizações exigidos do Windows, confira <A href="exchange-2013-prerequisites-exchange-2013-help.md">Pré-requisitos do Exchange 2013</A>.
 
 

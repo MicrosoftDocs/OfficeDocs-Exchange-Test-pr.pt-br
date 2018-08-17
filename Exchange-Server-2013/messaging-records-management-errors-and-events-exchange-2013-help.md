@@ -161,7 +161,7 @@ As tabelas a seguir fornecem listas de eventos que você pode usar para solucion
 <td><p>LogAlways</p></td>
 <td><p>Serviço &lt;<em>service</em>&gt;. &lt;<em>service</em>&gt; para o banco de dados &lt;<em>database</em>&gt; está deixando uma janela de horário agendado. &lt;<em>number</em>&gt; sem &lt;<em>number</em>&gt; caixas de correio foram processadas com êxito. &lt;<em>number</em>&gt; caixas de correio foram ignoradas devido a erros. &lt;<em>number</em>&gt; caixas de correio foram processadas separadamente. &lt;<em>number</em>&gt; caixas de correio não foram processadas devido ao tempo insuficiente.</p>
 
-> [!TIP]
+> [!NOTE]
 > Assistente de pasta gerenciada voltarão onde ela parou na próxima vez que ele é executado.
 
 

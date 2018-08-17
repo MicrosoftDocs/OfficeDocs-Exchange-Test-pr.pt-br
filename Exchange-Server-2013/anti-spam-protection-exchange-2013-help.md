@@ -64,7 +64,7 @@ Se sua organização tiver um servidor de transporte de borda instalado na rede 
   - **Agente de Filtro de Destinatário**   A filtragem de destinatário compara os destinatários da mensagem no comando SMTP RCPT TO: a uma lista de Bloqueio de Destinatários definida pelo administrador. Se for encontrada uma correspondência, a mensagem não terá permissão para entrar na organização. O filtro de destinatários também compara destinatários em mensagens de entrada no diretório de destinatários local para determinar se ela está endereçada a destinatários válidos. Quando uma mensagem não é dirigida a destinatários válidos, ela é rejeitada. Para mais informações, consulte [Filtragem de destinatário nos servidores de Transporte de Borda](recipient-filtering-on-edge-transport-servers-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Embora o agente do filtro de destinatário esteja disponível em servidores de caixa de correio, você não deve configurá-lo. Quando o filtro de destinatários em um servidor de caixa de correio detecta um destinatário inválido ou bloqueado em uma mensagem que contém a outros destinatários válidos, a mensagem será rejeitada. Se você instalar os agentes antispam em um servidor de caixa de correio, o agente do filtro de destinatário é habilitado por padrão. No entanto, ele não está configurado para bloquear qualquer destinatários.
 
 

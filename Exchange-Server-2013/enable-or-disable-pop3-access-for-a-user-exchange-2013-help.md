@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2014-01-06_
 Você pode habilitar ou desabilitar POP3 para um usuário.
 
 
-> [!TIP]
+> [!NOTE]
 > Depois de ter habilitado ou desabilitado o POP3 para um usuário, reinicie o serviço POP3 do Microsoft Exchange e o serviço de back-end POP3 do Microsoft Exchange. Para obter mais informações sobre como reiniciar o protocolo POP3, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar e interromper os serviços POP3</A>.
 
 

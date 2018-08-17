@@ -32,13 +32,13 @@ Suplementos para Outlook são aplicativos que estendem a utilidade dos clientes 
 Clientes do Outlook suporta uma variedade de suplementos disponíveis por meio da loja do Office. Outlook também oferece suporte a suplementos personalizados que você pode criar e distribuir aos usuários em sua organização.
 
 
-> [!TIP]
+> [!NOTE]
 > Acesso ao armazenamento do Office não é compatível com caixas de correio ou organizações em regiões específicas. Se você não vir <STRONG>Adicionar da Office Store</STRONG> como uma opção no <STRONG>Centro de administração do Exchange</STRONG> em <STRONG>organização</STRONG> &gt; <STRONG>suplementos</STRONG> &gt; <IMG title="Ícone Adicionar" alt="Ícone Adicionar" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif">, você poderá instalar um suplemento para Outlook a partir de um local de arquivo ou URL. Para obter mais informações, contate o provedor de serviço.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Alguns suplementos do Outlook são instalados por padrão. Suplementos de padrão para o Outlook somente ativar no conteúdo de idioma inglês. Por exemplo, endereços postais alemão no corpo da mensagem não ativar o suplemento do Bing Maps.
 
 

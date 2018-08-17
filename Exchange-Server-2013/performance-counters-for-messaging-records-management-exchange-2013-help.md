@@ -157,7 +157,7 @@ A tabela a seguir descreve os contadores de desempenho para MRM.
 <td><p>Indica que o número de itens atribuído a uma marca de diretiva padrão (DPT) com base em uma ação do usuário, por exemplo, quando um usuário seleciona uma mensagem com uma marca pessoal e seleciona a <strong>usar a política de pasta</strong>.</p>
 <p>Se um novo usuário é atribuído a uma política de retenção com um DPT, o contador é incrementado pelo número de itens que serão atribuídos a DPT devido à política de retenção.</p>
 
-> [!TIP]
+> [!NOTE]
 > Se um usuário tiver uma política de retenção com um DPT, novas mensagens que chegarem por meio de transporte obtém uma marca padrão e isso não é rastreado por esse contador.
 
 

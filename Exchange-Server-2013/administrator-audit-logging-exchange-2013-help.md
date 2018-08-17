@@ -234,7 +234,7 @@ O cmdlet **New-AdminAuditLogSearch** pesquisa o log de auditoria da mesma maneir
 Após a execução do cmdlet **New-AdminAuditLogSearch**, o Exchange pode levar até 15 minutos para entregar o relatório ao destinatário especificado. O relatório com o arquivo XML anexado pode ser de, no máximo, 10 megabytes (MB). O arquivo XML contém as mesmas informações descritas na tabela de Audit Log Contents. Para mais informações sobre a estrutura do arquivo XML, consulte [Estrutura de log de auditoria do administrador](administrator-audit-log-structure-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > O Outlook Web App não permite que você abra anexos XML por padrão. O Exchange pode ser configurado para permitir que os anexos XML sejam visualizados usando o Outlook Web App, ou você pode usar outro cliente de email, como o Microsoft Outlook, para exibir o anexo. Para saber mais sobre como configurar o Outlook Web App para permitir a exibição de um anexo XML, confira <A href="view-or-configure-outlook-web-app-virtual-directories-exchange-2013-help.md">Exibir ou configurar diretórios virtuais do Outlook Web App</A>.
 
 

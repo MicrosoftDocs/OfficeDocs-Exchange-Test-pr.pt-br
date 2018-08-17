@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-12-16_
 Você pode incluir texto adicional na mensagem de email enviada quando uma mensagem de voz é recebida por um usuário habilitado para caixa postal de Unificação de mensagens (UM). Por padrão, o texto que tiver incluído com uma mensagem de voz indica somente se o usuário recebeu uma mensagem de voz. No entanto, você pode criar uma mensagem personalizada, adicionando texto na caixa de ferramentas **quando um usuário recebe uma mensagem de voz** em uma diretiva de caixa de correio de UM. Por exemplo, o texto pode incluir informações sobre diretivas de segurança do sistema e descrevem a maneira correta de lidar com as mensagens de voz em sua organização. Depois de adicionar o texto, ele será incluído em cada mensagem de email é enviada quando usuários habilitados para UM associados com a diretiva de caixa de correio de Unificação de mensagens recebem uma mensagem de voz.
 
 
-> [!TIP]
+> [!NOTE
 > O texto personalizado que acompanha uma mensagem de voz é limitado a 512 caracteres e pode incluir texto HTML simples.
 
 

@@ -24,7 +24,7 @@ Por padrão, ao instalar o MicrosoftExchange 2013, você habilita o Outlook Web 
 A função do servidor de Acesso para Cliente fornece serviços de proxy e redirecionamento para o Outlook Web App.
 
 
-> [!TIP]
+> [!NOTE]
 > O Outlook Web App se chamava Outlook Web Access nas versões do Microsoft Exchange anteriores ao Exchange 2010.
 
 

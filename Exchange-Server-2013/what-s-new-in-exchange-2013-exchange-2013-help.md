@@ -64,7 +64,7 @@ Batch mailbox moves
 Exchange workload management
 
 
-> [!TIP]
+> [!NOTE]
 > Para obter informações sobre recursos de versões anteriores do Exchange que foram removidos, descontinuados ou substituídos no Exchange Server 2013, consulte <A href="what-s-discontinued-in-exchange-2013-exchange-2013-help.md">O que será descontinuado no Exchange 2013</A>. Além disso, você pode ter interesse em <A href="release-notes-for-exchange-2013-exchange-2013-help.md">Notas de versão do Exchange 2013</A>.
 
 
@@ -208,7 +208,7 @@ O Exchange 2013 inclui os seguintes aprimoramentos no Arquivamento In-loco, na r
       - **Assistente de Bloqueio e Descoberta Eletrônica In-loco**   Os Gerentes de Descoberta podem usar o novo assistente de Bloqueio e Descoberta Eletrônica In-loco para realizar operações de descoberta eletrônica e bloqueio.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Se o SharePoint 2013 não estiver disponível, um subconjunto da funcionalidade de Descoberta Eletrônica estará disponível no centro de administração do Exchange.
 
 

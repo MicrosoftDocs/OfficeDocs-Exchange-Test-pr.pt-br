@@ -48,7 +48,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
 3.  Na página **Nova caixa de correio de usuário**, na caixa **Alias**, digite o alias do usuário.
     
 
-    > [!TIP]
+    > [!NOTE]  
     > Se você deixar essa caixa em branco, o valor digitado em <STRONG>Nome de logon do usuário</STRONG> será usado como o alias.
 
 
@@ -60,7 +60,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
       - **Novo usuário**   Clique nesse botão para criar uma nova conta de usuário no Active Directory e criar uma caixa de correio para ele. Se você selecionar essa opção, terá que fornecer as informações de conta de usuário necessárias.
     
 
-    > [!TIP]
+    > [!NOTE] 
     > A conta Active Directory&nbsp;associada a caixas de correio de usuários deve residir na mesma floresta que o servidor Exchange. Para criar uma caixa de correio para uma conta de usuário que esteja em uma floresta confiável, você terá que criar uma caixa de correio vinculada. Para obter detalhes, consulte <A href="manage-linked-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio vinculadas</A>.
 
 
@@ -234,7 +234,7 @@ Quando você desabilitar uma caixa de correio de arquivo morto, ele se tornará 
 
 
 
-> [!TIP]
+> [!NOTE] 
 > Você não pode usar o EAC para conectar um arquivo morto desconectado a um usuário de caixa de correio.
 
 

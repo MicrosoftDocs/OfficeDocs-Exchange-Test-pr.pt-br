@@ -22,7 +22,7 @@ Gerenciamento de detecção política do prevention (DLP) de perda de dados ampl
 Para obter informações sobre como criar um relatório de incidente juntamente com um evento de detecção de única política, consulte [Criar relatórios de incidentes para detecções de política DLP](create-incident-reports-for-dlp-policy-detections-exchange-2013-help.md). Para obter mais informações sobre logs de mensagem, consulte [Acompanhar mensagens com notificações de entrega](track-messages-with-delivery-reports-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Exchange 2013: DLP é um recurso premium que exige uma licença dos Serviços da Enterprise CAL do Exchange. Para saber mais sobre CALs e sobre licenciamento de servidor, confira o artigo <A href="https://go.microsoft.com/fwlink/p/?linkid=237292">Licenciamento do Exchange Server</A>.
 
 

@@ -44,7 +44,7 @@ Depois que você criou a nova política de atribuição, você atribuir usuário
 ## Usar o EAC para criar uma nova política de atribuição
 
 
-> [!TIP]
+> [!NOTE]
 > Você só pode criar políticas de atribuição explícita usando o Centro de administração do Exchange (EAC). Se você quiser criar uma nova política de atribuição padrão, você deve usar o Exchange Management Shell. Para obter mais informações, consulte a seção "Usar o Shell para criar uma política de atribuição padrão" mais adiante neste tópico.
 
 
@@ -208,7 +208,7 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailb
 Você pode alterar a política de atribuição de função de gerenciamento atribuída a novas caixas de correio que são criadas. Alterando a política de atribuição de função padrão não altera a política de atribuição atribuída às caixas de correio existentes. Para alterar a política de atribuição atribuída às caixas de correio existentes, consulte [Alterar a política de atribuição de uma caixa de correio](change-the-assignment-policy-on-a-mailbox-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para alterar a política de atribuição padrão. Você precisará usar o Shell.
 
 

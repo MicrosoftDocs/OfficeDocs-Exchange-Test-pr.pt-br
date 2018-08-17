@@ -68,7 +68,7 @@ Para mais tarefas de gerenciamento relacionadas a usuários habilitados para cai
 Este exemplo altera um número E.164 para Tony Smith, um usuário habilitado para UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Antes de alterar um número E.164 usando o Shell, é preciso determinar a posição do endereço proxy EUM que deseja modificar. Para determinar a posição, use o comando <STRONG>$mbx.EmailAddresses</STRONG>. O primeiro endereço proxy EUM é o número E.164 padrão (principal) e será 0 na lista.
 
 

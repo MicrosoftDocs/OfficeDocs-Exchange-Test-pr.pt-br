@@ -22,7 +22,7 @@ Você pode desenvolver modelos de política de prevenção contra perda de dados
 Procurando tarefas de gerenciamento relacionadas aos modelos de política DLP? Consulte [Procedimentos DLP](dlp-procedures-exchange-2013-help.md) (Exchange Server 2013 ) ou [Procedimentos DLP](https://technet.microsoft.com/pt-br/library/jj938003\(v=exchg.150\)) (Exchange Online ).
 
 
-> [!TIP]
+> [!NOTE]  
 > Exchange 2013: DLP é um recurso premium que exige uma licença dos Serviços da Enterprise CAL do Exchange. Para saber mais sobre CALs e sobre licenciamento de servidor, confira o artigo <A href="https://go.microsoft.com/fwlink/p/?linkid=237292">Licenciamento do Exchange Server</A>.<BR>Exchange Online: DLP é um recurso premium que exige uma assinatura do Plano 2 do Exchange Online. Para saber mais, confira <A href="https://go.microsoft.com/fwlink/p/?linkid=286154">Licenciamento do Exchange Online</A>.
 
 

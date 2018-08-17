@@ -92,7 +92,7 @@ A tabela a seguir descreve os componentes do Exchange 2013 afetados pelo IPv6.
 <li><p>O parâmetro <em>SourceIPAddress</em> para conectores de envio configurados nos servidores de Transporte de Borda</p></li>
 </ul>
 
-> [!TIP]
+> [!NOTE]  
 > Se você deseja especificar um endereço IPv6 para o parâmetro <EM>SourceIPAddress</EM>, verifique se os registros MX e AAAA do DNS adequados estão configurados corretamente. Isso ajudará a garantir a entrega da mensagem se um servidor de mensagens remoto tentar qualquer tipo de teste de consulta reversa no endereço IPv6 especificado.
 
 

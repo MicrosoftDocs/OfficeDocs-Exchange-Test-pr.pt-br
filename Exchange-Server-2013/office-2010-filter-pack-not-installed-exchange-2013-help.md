@@ -24,7 +24,7 @@ Exchange 2013 Requer a instalação do que a atualização do Microsoft Office 2
 Baixe e instale a atualização de 64 bits na URL a seguir e clique em **tentar novamente** na página de **Verificações de Preparação**.
 
 
-> [!TIP]
+> [!NOTE]
 > Se essa atualização exigir uma reinicialização para concluir a instalação, será necessário sair da Instalação do Exchange 2013, reiniciar e recomeçar a Instalação.
 
 
@@ -32,7 +32,7 @@ Baixe e instale a atualização de 64 bits na URL a seguir e clique em **tentar 
 [Pacotes de filtro do Microsoft Office 2010](https://go.microsoft.com/fwlink/p/?linkid=191548)
 
 
-> [!TIP]
+> [!NOTE]
 > Você deve instalar também a atualização Microsoft Office 2010 Filter Pack Service Pack 1 64-bit. Para mais informações, confira <A href="office-2010-filter-pack-sp1-not-installed-exchange-2013-help.md">Office 2010 Filter Pack SP1 não instalado</A>.
 
 

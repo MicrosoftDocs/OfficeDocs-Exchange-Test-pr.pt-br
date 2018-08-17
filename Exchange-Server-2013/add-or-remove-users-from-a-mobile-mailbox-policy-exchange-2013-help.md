@@ -107,7 +107,7 @@ Você pode usar o Shell para alterar a política de caixa de correio do disposit
          } | Set-CASMailbox -activesyncmailboxpolicy(Get-ActiveSyncMailboxPolicy "Contoso").Identity
     
 
-    > [!TIP]
+    > [!NOTE]
     > Você pode usar <CODE>CustomAttribute1</CODE> em substituição a qualquer das propriedades no objeto de <STRONG>Get-Mailbox</STRONG>. Para exibir a lista completa, digite: <CODE>Get-Mailbox username |fl</CODE>.
 
 

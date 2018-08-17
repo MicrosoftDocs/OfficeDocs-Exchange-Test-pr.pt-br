@@ -28,7 +28,7 @@ Para descobrir de que permissões você precisa para executar o procedimento ou 
 3.  Agora, execute o cmdlet **Get-ManagementRoleAssignment** para examinar os grupos de funções ou funções de gerenciamento atribuídas a você, para ver se você tem as permissões necessárias para gerenciar o recurso.
     
 
-    > [!TIP]  
+    > [!NOTE]  
     > A função de gerenciamento Gerenciamento de Funções deve sido atribuída a você, para que você possa executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>. Se você não tiver as permissões para executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>, peça ao seu administrador do Exchange para recuperar os grupos de funções ou funções de gerenciamento atribuídas a você.
 
 
@@ -36,7 +36,7 @@ Para descobrir de que permissões você precisa para executar o procedimento ou 
 Se você quiser delegar, a outro usuário, a habilidade para gerenciar um recurso, confira [Atribuições de função de representante](delegate-role-assignments-exchange-2013-help.md).
 
 
-> [!TIP]  
+> [!NOTE]  
 > Pode haver, nos servidores de Transporte de Borda, alguns recursos que você queira gerenciar. Para gerenciar os recursos nos servidores de Transporte de Borda, você precisa se tornar um membro do grupo Administradores Locais, no servidor de Transporte de Borda que você deseja gerenciar. Servidores de Transporte de Borda não usam o Controle de Acesso Baseado na Função (RBAC). Os recursos que podem ser gerenciados nos servidores de Transporte de Borda têm Administrador Local de Transporte de Borda na coluna "Permissões necessárias" na tabela abaixo.
 
 
@@ -78,7 +78,7 @@ Os usuários atribuídos ao grupo de funções Gerenciamento Somente para Exibi�
 <td><p><a href="discovery-management-exchange-2013-help.md">Gerenciamento de Descobertas</a> <strong>e</strong></p>
 <p><a href="mailbox-import-export-role-exchange-2013-help.md">Função Importar Exportar Caixa de Correio</a></p>
 
-> [!TIP]  
+> [!NOTE]  
 > Por padrão, a função Importar Exportar Caixa de Correio não está atribuída a um grupo de funções. Você pode atribuir uma função de gerenciamento a um grupo de funções personalizado interno, um usuário ou um grupo de segurança universal. É recomendado atribuir uma função a um grupo de funções. Para obter mais informações, consulte <A href="add-a-role-to-a-user-or-usg-exchange-2013-help.md">Adicionar uma função a um usuário ou USG</A>.
 
 
@@ -113,7 +113,7 @@ Os usuários atribuídos ao grupo de funções Gerenciamento Somente para Exibi�
 <td><p>Descoberta eletrônica In-loco</p></td>
 <td><p><a href="discovery-management-exchange-2013-help.md">Gerenciamento de Descobertas</a></p>
 
-> [!TIP]  
+> [!NOTE]  
 > Por padrão, o grupo de função Gerenciamento de Descoberta não tem membros. Nenhum usuário, incluindo administradores, tem as permissões necessárias para buscar caixas de correio. Para mais informações, consulte <A href="assign-ediscovery-permissions-in-exchange-exchange-2013-help.md">Atribuir permissões de descoberta eletrônica no Exchange</A>.
 
 

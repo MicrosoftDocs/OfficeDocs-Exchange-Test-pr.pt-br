@@ -7484,7 +7484,7 @@ Prevenção de perda de dados (DLP) no Exchange inclui 80 tipos de informações
 <td><p>Formato</p></td>
 <td><p>9 dígitos que podem estar em um padrão formatado ou não formatado</p>
 
-> [!TIP]
+> [!NOTE]
 > Se emitido antes de meados de 2011, um SSN possui formatação forte onde determinadas partes do número devem se enquadra determinados intervalos seja válido (mas não há nenhum soma de verificação).
 
 

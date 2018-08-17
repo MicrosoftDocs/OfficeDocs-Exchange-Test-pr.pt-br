@@ -42,7 +42,7 @@ Descriptografia do relatório de diário permite que você salve uma cópia de t
 Descriptografia é realizada pelo agente de descriptografia do relatório de diário, um agente de transporte voltadas à conformidade. O agente de descriptografia do relatório de diário aciona o evento **OnCategorizedMessage** . Em trânsito de mensagens protegidas usando regras já são criptografadas pelo agente de criptografia, que dispara o evento **OnRoutedMessage** , antes que eles cheguem ao agente de descriptografia do relatório de diário de proteção de transporte. O agente de descriptografia do relatório de diário descriptografa essas mensagens.
 
 
-> [!TIP]
+> [!NOTE]  
 > Em Exchange 2013, o agente de descriptografia do relatório de diário é um agente interno. Agentes internos não estão incluídos na lista de agentes retornada pelo cmdlet <STRONG>Get-TransportAgent</STRONG> . Para obter mais detalhes, consulte <A href="transport-agents-exchange-2013-help.md">Agentes de transporte</A>.
 
 

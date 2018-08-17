@@ -62,7 +62,7 @@ Para criar uma caixa de correio de quarentena de spam dedicada, siga estas etapa
     Você pode aplicar políticas de destinatário, como gerenciamento de registros de mensagens, cotas de caixa de correio e direitos de delegação, de acordo com as necessidades e as políticas de conformidade da organização. Para saber mais, confira [Gerenciamento de registros de mensagens](messaging-records-management-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se uma mensagem em quarentena for rejeitada por causa de uma cota de armazenamento, a mensagem será perdida. O Exchange não gera NDRs para mensagens em quarentena porque as mensagens em quarentena são encapsuladas como NDRs.
 
 

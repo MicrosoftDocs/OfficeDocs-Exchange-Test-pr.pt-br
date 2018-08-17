@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2014-02-17_
 Pode haver situações nas quais você precise desabilitar temporariamente o compartilhamento federado de sua organização. Em vez de excluir a confiança de federação ou excluir os relacionamentos de organização e as políticas de compartilhamento que você pode precisar no futuro, você pode simplesmente desabilitar o identificador de organização (OrgID) para a confiança federada.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Para implantações híbridas com o Office 365, desabilitar a confiança de federação de seus servidores locais também desabilitará recursos híbridos, como informações de disponibilidade de calendário compartilhado, Dicas de Email e acompanhamento de mensagens. Entretanto, o transporte de email seguro não será desabilitado na implantação híbrida se a confiança de federação da organização local estiver desabilitada.
 
 

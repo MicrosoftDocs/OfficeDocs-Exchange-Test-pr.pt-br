@@ -22,7 +22,7 @@ A função de servidor de Transporte de Borda foi reintroduzida no Exchange Serv
 É possível adicionar um servidor de Transporte de Borda a uma organização existente do Exchange 2013. Não é preciso executar qualquer etapa adicional de preparação do Active Directory ao instalar o servidor de Transporte de Borda.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você estiver adicionando o transporte de borda para um existente Exchange 2010 ou Exchange 2007 organização, você precisará instalar atualizações de pacote cumulativo de atualizações específicas em seus servidores herdados antes de instalar o Exchange 2013 transporte de borda. Para obter detalhes, consulte <A href="exchange-2013-system-requirements-exchange-2013-help.md">Requisitos de sistema do Exchange 2013</A>.
 
 
@@ -89,7 +89,7 @@ Quando você estiver planejando implantar servidores de Transporte de Borda, dev
     </table>
     
 
-    > [!TIP]
+    > [!NOTE]
     > A função de servidor Transporte de Borda usa portas LDAP não padrão. As portas especificadas neste tópico são as portas de comunicação LDAP configuradas quando a função de servidor de Transporte de Borda é instalada.
 
 

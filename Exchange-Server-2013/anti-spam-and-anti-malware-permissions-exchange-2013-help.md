@@ -30,7 +30,7 @@ Para descobrir de que permissões você precisa para executar o procedimento ou 
 3.  Agora, execute o cmdlet **Get-ManagementRoleAssignment** para examinar os grupos de funções ou funções de gerenciamento atribuídas a você, para ver se você tem as permissões necessárias para gerenciar o recurso.
     
 
-    > [!TIP]
+    > [!NOTE]
     > A função de gerenciamento Gerenciamento de Funções deve sido atribuída a você, para que você possa executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>. Se você não tiver as permissões para executar o cmdlet <STRONG>Get-ManagementRoleAssignment</STRONG>, peça ao seu administrador do Exchange para recuperar os grupos de funções ou funções de gerenciamento atribuídas a você.
 
 
@@ -38,13 +38,13 @@ Para descobrir de que permissões você precisa para executar o procedimento ou 
 Se você quiser delegar, a outro usuário, a habilidade para gerenciar um recurso, confira [Atribuições de função de representante](delegate-role-assignments-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Pode haver, nos servidores de Transporte de Borda, alguns recursos que você queira gerenciar. Para gerenciar os recursos nos servidores de Transporte de Borda, você precisa se tornar um membro do grupo Administradores Locais, no servidor de Transporte de Borda que você deseja gerenciar. Servidores de Transporte de Borda não usam o Controle de Acesso Baseado na Função (RBAC). Os recursos que podem ser gerenciados nos servidores de Transporte de Borda têm Administrador Local de Transporte de Borda na coluna "Permissões necessárias" na tabela abaixo.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Alguns recursos podem exigir que você tenha permissões de administrador local no servidor que você quer gerenciar. Para gerenciar esses recursos, você deve ser membro do grupo Administradores Locais no servidor.
 
 
