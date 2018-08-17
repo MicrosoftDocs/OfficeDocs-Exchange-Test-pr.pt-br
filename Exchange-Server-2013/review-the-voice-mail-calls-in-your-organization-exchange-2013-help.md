@@ -58,7 +58,7 @@ Para tarefas adicionais relacionadas aos relatórios da UM, consulte [Procedimen
     O arquivo exportado será denominado um\_cdr\_*YYYY-MM-DD*. csv, onde *YYYY-MM-DD* é o ano, mês e dia em que o relatório foi executado. Para obter mais informações, consulte [Interpretar os registros de chamadas de correio de voz](interpret-voice-mail-call-records-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Na página de relatórios, é possível baixar um modelo do Microsoft Excel para utilizar para importar o arquivo .csv de um dia específico.
 
 

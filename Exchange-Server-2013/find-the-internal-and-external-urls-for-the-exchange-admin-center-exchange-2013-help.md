@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2013-02-04_
 Como o Centro de Administração do Exchange (EAC) é um console de gerenciamento baseado na Web do Exchange Server 2013, você pode acessá-lo usando a URL do diretório virtual do ECP em um navegador da Web. Este tópico mostra como encontrar a URL do diretório virtual do ECP.
 
 
-> [!TIP]
+> [!NOTE]
 > O ECP é a interface de usuário baseada na web desenvolvido para o Exchange Server 2010. Os cmdlets do EAC para diretórios virtuais ainda usam "ECP" no nome, e esses cmdlets podem ser usados para gerenciar diretórios virtuais do ECP no Exchange 2010 e no Exchange 2013.
 
 

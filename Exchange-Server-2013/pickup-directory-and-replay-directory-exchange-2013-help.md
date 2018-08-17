@@ -123,7 +123,7 @@ O diretório de retirada remove qualquer um dos seguintes campos de cabeçalho d
   - `Bcc`
     
 
-    > [!TIP]
+    > [!NOTE]
     > Qualquer email endereços encontrados no cabeçalho da mensagem opcional <CODE>Bcc</CODE> campos no cabeçalho da mensagem são processados corretamente. Depois que os destinatários <CODE>Bcc</CODE> são promovidos para destinatários de envelope da mensagem invisível, eles são removidos do cabeçalho da mensagem para proteger sua identidade. Se uma mensagem contiver somente os destinatários <CODE>Bcc</CODE> , o valor de <STRONG>Undisclosed Recipients</STRONG> é adicionado ao campo <CODE>To</CODE> no cabeçalho da mensagem.
 
 
@@ -163,7 +163,7 @@ Os cabeçalhos de X descritos na lista a seguir são exigidos por mensagens no d
         X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
     
 
-    > [!TIP]
+    > [!NOTE]
     > Esses parâmetros são valores de envelope de mensagem que normalmente são gerados pelo servidor de envio. Talvez você veja parâmetros semelhantes a esta nos arquivos de mensagem exportado.<BR><CODE>RET</CODE> Especifica se a mensagem inteira ou apenas os cabeçalhos devem ser retornados ao remetente se a mensagem não pode ser entregue. <CODE>RET</CODE> pode ter um valor de <CODE>HDRS</CODE> ou <CODE>FULL</CODE>. <CODE>ENVID</CODE> é um identificador de envelope de mensagem. <CODE>BODY</CODE> Especifica a codificação de texto da mensagem. <CODE>auth</CODE> Especifica um mecanismo de autenticação para o servidor de mensagens, conforme descrito em RFC 2554.
 
 
@@ -173,7 +173,7 @@ Os cabeçalhos de X descritos na lista a seguir são exigidos por mensagens no d
         X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
     
 
-    > [!TIP]
+    > [!NOTE]
     > Esses parâmetros são valores de envelope de mensagem que normalmente são gerados pelo servidor de envio. Talvez você veja parâmetros semelhantes a esta nos arquivos de mensagem exportado. Esses parâmetros estão relacionados às mensagens de notificação (DSN) de status de entrega conforme descrito em RFC 1891.<BR><CODE>NOTIFY</CODE> pode ter um valor de <CODE>NEVER</CODE>, <CODE>DELAY</CODE>ou <CODE>FAILURE</CODE>. <CODE>ORcpt</CODE> preserva o destinatário original da mensagem.
 
 
@@ -244,7 +244,7 @@ Não pode ser filas com êxito um arquivo de mensagens copiado para os diretóri
   - **Falhas de entrega**   Um arquivo de mensagem formatada corretamente em conjunto com um remetente válido que não pode ser enviado com êxito para entrega gera um relatório de falha na entrega (NDR). As violações de restrição do diretório de conteúdo ou retirada mal formados mensagem também pode causar um NDR. Quando uma NDR é gerada durante o processamento de mensagem, o arquivo de mensagem original é anexado à mensagem NDR e o arquivo de mensagem é excluído do diretório de retirada ou do diretório de repetição.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Uma mensagem formatada corretamente enviada pelo pipeline de transporte posteriormente perceba uma falha de entrega e a ser retornada ao remetente com uma NDR. Esse tipo de falha pode ser causado por questões de transmissão não relacionadas aos diretórios de retirada ou repetição, como falhas do servidor de mensagens ou routing falhas ao longo do caminho de entrega da mensagem.
 
 
@@ -254,7 +254,7 @@ Não pode ser filas com êxito um arquivo de mensagens copiado para os diretóri
     Arquivos de mensagens determinados como badmail são deixados nos diretórios de retirada ou repetição e renomeados das. eml de *\<filename\>*<span></span>para *\<filename\>*<span></span>bad. Se o arquivo de bad *\<filename\>*<span></span>já existir, o arquivo é renomeado para *\<filename\>\<datetime\>*<span></span>bad. Se os diretórios de retirada ou repetição existir badmail, será gerado um erro de log de eventos, mas as mesmas mensagens badmail não geram erros de log de eventos repetidos.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Sempre redação e salvar arquivos de mensagens em um local diferente antes de copiá-los para o diretório de retirada para entrega. O diretório de retirada sonda para novas mensagens a cada cinco segundos. Portanto, se você tentar redação e salvar os arquivos de mensagens no diretório de retirada próprio, o diretório de retirada pode tentar processar os arquivos de mensagens antes de finalizar redigi-los.
 
 

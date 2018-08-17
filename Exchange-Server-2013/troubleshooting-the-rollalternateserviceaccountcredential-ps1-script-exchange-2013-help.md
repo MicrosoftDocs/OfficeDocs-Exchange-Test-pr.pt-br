@@ -60,7 +60,7 @@ Se o servidor só será para baixo por um curto período e você não deseja rem
 Depois que o serviço de acesso para cliente RPC foi removido, o servidor não será retornado como um membro da matriz por [Get-ClientAccessArray](https://technet.microsoft.com/pt-br/library/dd297976\(v=exchg.150\)) e o script não têm como destino. Assim que o servidor está funcionando novamente, você pode adicionar novamente o serviço de acesso para cliente RPC usando o cmdlet **New-RpcClientAccess** . Quando o serviço de acesso para cliente RPC é adicionado novamente, certifique-se de reiniciar o serviço de catálogo de endereços do Microsoft Exchange no servidor afetado.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Antes de remover o serviço de acesso para cliente RPC de um servidor, consulte o tópico <A href="https://technet.microsoft.com/pt-br/library/dd298151(v=exchg.150)">Remove-RPCClientAccess</A>.
 
 

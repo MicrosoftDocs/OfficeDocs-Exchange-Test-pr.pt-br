@@ -58,7 +58,7 @@ Para usar uma cópia específica como a origem de propagação ao adicionar uma 
 Além de selecionar um servidor de origem específico para propagar uma cópia de banco de dados de caixa de correio, você também pode usar o Shell para especificar quais redes do DAG usar e, opcionalmente, substituir as configurações de compactação e criptografia da rede do DAG durante a operação de propagação.
 
 
-> [!TIP]
+> [!NOTE]
 > Propagar um catálogo de índice do contexto só é possível através de uma rede MAPI. Isso acontece, mesmo se você usar o parâmetro <CODE>-Network</CODE> no cmdlet Update-MailboxDatabaseCopy.
 
 

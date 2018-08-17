@@ -90,7 +90,7 @@ Caminhos de implantação diferentes estão disponíveis para organizações que
 2.  Implante a sua nova organização do Exchange 2013. Para obter detalhes, consulte [Instalar o Exchange 2013 usando o Assistente para Configuração](install-exchange-2013-using-the-setup-wizard-exchange-2013-help.md).
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > Você deve implantar pelo menos um servidor de caixa de correio do Exchange 2013 em sua organização antes de configurar gateways VoIP ou PBXs de IP para enviar SIP do UM e tráfego RTP para os servidores de Acesso para Cliente do Exchange 2013.
 
 
@@ -106,7 +106,7 @@ Ao instalar o Exchange pela primeira vez, o inglês (EUA) será o idioma padrão
 Você pode adicionar os pacotes de idiomas de Unificação de MENSAGENS usando o comando Setup.exe ou executando o programa de instalação do *\<UMLanguagePack\>*.exe depois de baixar o pacote de idiomas de Unificação de MENSAGENS do [Exchange Server 2013 UM pacotes de idiomas](https://go.microsoft.com/fwlink/p/?linkid=266542). No entanto, você precisará usar o comando Setup.exe para remover um pacote de idiomas de Unificação de MENSAGENS. Não há nenhum cmdlet do Shell de gerenciamento de Exchange que você pode usar para adicionar ou remover idiomas de um servidor de caixa de correio. Para obter mais informações sobre como instalar um pacote de idiomas de Unificação de MENSAGENS, consulte [Instalar um pacote de idiomas para UM](install-a-um-language-pack-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, quando você instala um servidor de caixa de correio, o idioma Inglês dos EUA (en-US) é instalado. Ele não poderá ser removido, a menos que você remova o servidor de Caixa de Correio do computador.
 
 

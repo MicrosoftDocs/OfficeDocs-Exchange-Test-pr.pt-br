@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2016-09-15_
 No MicrosoftExchange Server 2013, conexão e limites de uso tiverem sido colocados no repositório de Managed Exchange para impedir que um único aplicativo ou um único usuário use todas as conexões disponíveis para o repositório gerenciado. Se um único usuário ou aplicativo tem permissão para usar todas as conexões, outros usuários ou aplicativos não podem ser capazes de acessar o repositório gerenciado, que pode resultar na inatividade do sistema.
 
 
-> [!TIP]
+> [!NOTE]
 > Para todas as conexões feitas por contas que possuem privilégios administrativos, os limites máximos de sessão aumentaram para 64.000.
 
 
@@ -171,13 +171,13 @@ A seção a seguir, "Configurar limites de sessão", descreve como modificar ess
 Você pode modificar os limites de sessão padrão.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você deseja modificar os limites de sessão, você precisará modificá-los em todos os servidores de caixa de correio em quaisquer grupos de disponibilidade de banco de dados (DAGs). Se você não fizer as mesmas alterações em todos os servidores, os resultados serão inconsistentes. Para aumentar o limite de sessão no servidor de acesso para cliente, o valor de <CODE>RCAMaxConcurrency</CODE> deve ser aumentado na diretiva de limitação. Para obter mais informações, consulte <A href="https://technet.microsoft.com/pt-br/library/dd298094(v=exchg.150)">Set-ThrottlingPolicy</A>.
 
 
 
 
-> [!WARNING]
+> [!CAUTION]
 > A edição incorreta do Registro pode causar problemas graves que podem exigir a reinstalação do sistema operacional. Talvez não seja possível resolver os problemas resultantes da edição incorreta do Registro. Antes de editar o Registro, faça backup de todos os dados importantes.
 
 
@@ -301,13 +301,13 @@ Se você deseja modificar esses limites, consulte "Configurar Open limites Item"
 Você pode limitar o número máximo de recursos que um cliente MAPI pode usar simultaneamente.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você deseja modificar os limites de item aberto, será necessário modificá-los em todos os servidores de caixa de correio em qualquer DAGs e matrizes de acesso do cliente. Se você não fizer as mesmas alterações em todos os servidores, os resultados serão inconsistentes.
 
 
 
 
-> [!WARNING]
+> [!CAUTION]
 > A edição incorreta do Registro pode causar problemas graves que podem exigir a reinstalação do sistema operacional. Talvez não seja possível resolver os problemas resultantes da edição incorreta do Registro. Antes de editar o Registro, faça backup de todos os dados importantes.
 
 

@@ -88,7 +88,7 @@ Para a sintaxe detalhada e informações sobre o parâmetro, consulte [Set-Mailb
 Para desligar o MRM para uma organização, exclua todas as marcas de retenção e as políticas de retenção para a política ArbritationMailbox, que é criada pela Instalação do Exchange. Após a finalização, as políticas de retenção são impostas.
 
 
-> [!WARNING]
+> [!CAUTION]
 > As políticas de retenção também incluem etiquetas de Mover para Arquivo Morto, que movem as mensagem para a caixa de correio de arquivo morto do usuário. Se você remover uma política de retenção que possui uma etiqueta de Mover para Arquivo Morto, os usuários que tiveram essa política aplicada não terão mais as suas mensagens movidas para o arquivo morto pelo Assitente da Pasta Gerenciada.<BR>Para evitar que isso aconteça, remova somente as etiquetas de Excluir e Permitir Recuperação e Excluir Permanentemente da sua organizção e mantenha as políticas que possuem as etiquetas de Mover para Arquivo Morto aplicadas. De forma alternativa, os usuários que possuírem arquivo morto habilitado podem mover os itens manualmente para a caixa de correio de arquivo morto usando o Outlook ou Outlook Web App.<BR>Antes de remover as marcas de retenção ou as políticas de retenção, recomendamos que você verifique as configurações das etiquetas sendo removidas. Não exclua as etiquetas com a ação de retenção de Arquivo Morto.
 
 
@@ -96,7 +96,7 @@ Para desligar o MRM para uma organização, exclua todas as marcas de retenção
 Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o Entrada \&quot;Gerenciamento de registros de mensagens\&quot;, no tópico [Permissões de política e conformidade de mensagens](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Inclua a opção <EM>WhatIf</EM> nos seguintes comandos para simular a ação tomada por um comando.
 
 

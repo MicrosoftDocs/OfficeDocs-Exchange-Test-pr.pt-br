@@ -24,7 +24,7 @@ Com a distribuição de caixa de correio automática, o Exchange olha para os b
 Distribuição automática é usada quando você não especifica o parâmetro nos cmdles *Database***New-Mailbox** e **Enable-Mailbox** ou o parâmetro *TargetDatabase* no cmdlet **New-MoveRequest**.
 
 
-> [!TIP]
+> [!NOTE]
 > A distribuição de caixa de correio automática é executada somente quando uma caixa de correio é criada em um servidor Exchange 2013, mudado para um servidor&nbsp;Exchange 2013, ou quando um usuário estiver habilitado para email. Os cmdlets <STRONG>New-Mailbox</STRONG>, <STRONG>New-MoveRequest</STRONG> e <STRONG>Enable-Mailbox</STRONG> devem ser executados a partir de um servidor executando o Exchange 2013. O Exchange não redistribui caixas de correio para distribuir a carga entre bancos de dados automaticamente com base na carga do servidor.
 
 
@@ -50,7 +50,7 @@ Se você nunca quiser que caixas de correio sejam distribuídas automaticamente,
 Por padrão, todos os bancos de dados de correio saudáveis nos servidores Exchange 2013 no site local Active Directory podem ser escolhidos por distribuição automática de caixa de correio para armazenar uma nova caixa de correio ou mudada. Entretanto, talvez você deseje excluir alguns bancos de dados do processo de distribuição por vários motivos. Por exemplo, você pode designar um banco de dados de caixa de correio como uma banco de dados de diário no qual quaisquer caixas de correio que você especificar manualmente deve ser localizada. Ou você talvez deseje remover temporariamente um banco de dados de rotação para executar manutenção agendada. O Exchange 2013 fornece a opção de excluir banco de dados permanente ou temporariamente do processo de exclusão usando o parâmetro *IsExcludedFromProvisioning* que pode ser definido usando o cmdlet **Set-MailboxDatabase**.
 
 
-> [!TIP]
+> [!NOTE]
 > Dois outros parâmetros, <EM>IsSuspendedFromProvisioning</EM> e <EM>IsExcludedFromInitialProvisioning</EM>, também estão disponíveis no cmdlet <STRONG>Set-MailboxDatabase</STRONG>. Esses parâmetros serão removidos em uma versão futura do Exchange e seu uso não é suportado.
 
 

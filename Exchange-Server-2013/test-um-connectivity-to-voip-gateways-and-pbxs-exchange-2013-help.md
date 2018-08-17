@@ -56,7 +56,7 @@ Este exemplo testa o número do Outlook Voice Access em um plano de discagem usa
     Test-UMConnectivity -UMIPGateway OCSGateway1 -Phone "sip:SIPdialplan.contoso.com@contoso.com"
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode definir o parâmetro <CODE>-Timeout</CODE> com um valor inferior a 5 segundos. No entanto, recomendamos que você sempre configure esse parâmetro com um valor de 5 segundos ou mais. Use o modo 2 quando o parâmetro <CODE>&shy;UMIPGateway</CODE> for especificado na sintaxe de linha de comando.
 
 

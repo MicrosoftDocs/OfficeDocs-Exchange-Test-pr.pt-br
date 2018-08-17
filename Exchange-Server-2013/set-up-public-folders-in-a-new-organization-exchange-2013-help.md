@@ -22,7 +22,7 @@ _**Tópico modificado em:** 2015-11-09_
 Este tópico mostra como configurar e executar pastas públicas em uma nova organização ou em uma organização que nunca teve pastas públicas antes.
 
 
-> [!TIP]
+> [!NOTE]
 > Para saber mais sobre as cotas de armazenamento e limites para pastas públicas, consulte os seguintes tópicos: 
 > <UL>
 > <LI>

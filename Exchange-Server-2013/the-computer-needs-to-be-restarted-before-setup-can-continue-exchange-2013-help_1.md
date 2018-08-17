@@ -34,7 +34,7 @@ Se você reiniciar o computador mais de duas ou três vezes e ainda vir esse err
 Se, depois de reiniciar seu computador e reinstalar todos os programas recentes ou Windows atualizações, você *ainda* receber esse erro, é recomendável que você entre em contato com suporte da Microsoft. Eles vai ajudá-lo a encontrar a razão por que Windows e outros programas pensa que seu computador precisa ser reiniciado. Para contatar o suporte da Microsoft, vá para o [suporte para o Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=525940).
 
 
-> [!WARNING]
+> [!CAUTION]
 > Embora pareça tentador, é altamente recomendável que você não tente resolver esse problema excluindo ou alterando manualmente as chaves ou valores no Registro do Windows. Essa ação pode corrigir esse problema momentaneamente, mas pode provocar problemas no futuro. Isso é especialmente importante se a instalação que falhou tiver sido uma Atualização do Windows.
 
 

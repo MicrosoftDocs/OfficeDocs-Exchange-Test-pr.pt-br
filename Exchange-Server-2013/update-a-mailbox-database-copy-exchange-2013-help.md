@@ -50,7 +50,7 @@ Uma cópia do banco de dados pode ser propagada usando a cópia ativa ou uma có
 Várias cópias de banco de dados podem ser propagadas simultaneamente. No entanto, quando várias cópias de propagação simultaneamente, você deve propagar somente o arquivo de banco de dados e omitir o catálogo de índice de conteúdo. Você pode fazer isso usando o parâmetro *DatabaseOnly* com o cmdlet [Update-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335201\(v=exchg.150\)) .
 
 
-> [!TIP]
+> [!NOTE]
 > Se você não usar o parâmetro <EM>DatabaseOnly</EM> quando vários destinos da mesma origem de propagação, a tarefa falhará com erro SeedInProgressException FE1C6491.
 
 

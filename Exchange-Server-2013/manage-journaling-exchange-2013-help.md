@@ -72,7 +72,7 @@ Habilitar ou desabilitar o registro no diário de banco de dados por caixa de co
       - **Enviar relatórios de registro em diário para**   Digite o endereço da caixa de correio de registro no diário que receberá todos os relatórios de diário.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Você também pode digitar o nome para exibição ou o alias de um usuário de email ou um contato de email da caixa de correio de diário. Nesse caso, relatórios de diário serão enviados para o endereço de email externo do contato de email ou de usuário de email. Mas, conforme explicado anteriormente, o endereço de email externo de um contato de email ou de usuário de email não pode ser o endereço de uma caixa de correio Exchange Online.
 
 
@@ -208,7 +208,7 @@ Voltar ao início
 ## Habilitar ou desabilitar o registro no diário do banco de dados por caixa de correio
 
 
-> [!WARNING]
+> [!CAUTION]
 > A desabilitação do registro em diário de mensagem em um banco de dados de caixa de correio pode resultar na falta de conformidade da organização com qualquer diretiva de retenção do sistema de mensagens aplicável. Quando você desabilita o registro em diário de mensagem em um banco de dados de caixa de correio, os recibos de diário deixam de ser enviados ou recebidos por caixas de correio nesse banco de dados de caixa de correio.
 
 

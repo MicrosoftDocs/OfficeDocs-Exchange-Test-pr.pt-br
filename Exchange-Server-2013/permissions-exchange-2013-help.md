@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-03-09_
 Microsoft Exchange Server 2013 inclui um amplo conjunto de permissões predefinidas, baseada no modelo de permissões do controle de acesso com base da função (RBAC), que você pode usar imediatamente facilmente conceder permissões a administradores e usuários. Você pode usar os recursos de permissões no Exchange 2013 para que você possa obter sua nova organização para cima e funcionando com rapidez.
 
 
-> [!TIP]
+> [!NOTE]
 > Diversos recursos e conceitos de RBAC não são discutidos neste tópico porque são recursos avançados. Caso a funcionalidade discutida neste tópico não atenda às suas necessidades e você queira personalizar mais seu modelo de permissões, consulte <A href="understanding-role-based-access-control-exchange-2013-help.md">Controle de acesso baseado em função de compreensão</A>.
 
 
@@ -70,7 +70,7 @@ Cada administrador que gerencia Exchange 2013 deve ser atribuída a pelo menos u
 Para facilitar a atribuir várias funções para um administrador, Exchange 2013 inclui grupos de função. Função são grupos de segurança universais especiais (USGs) usados pelo Exchange 2013 que pode conter usuários Active Directory, USGs e outros grupos de função. Quando uma função for atribuída a um grupo de funções, as permissões concedidas pela função são concedidas para todos os membros do grupo de função. Isso permite que você atribua muitas funções aos membros do grupo de função muitas ao mesmo tempo. Normalmente, os grupos de função abrangem amplas áreas de gerenciamento, como gerenciamento de destinatários. Eles são usados apenas com funções administrativas e não as funções de usuário final.
 
 
-> [!TIP]
+> [!NOTE]
 > É possível atribuir uma função diretamente a um usuário ou USG sem usar um grupo de funções. Entretanto, esse método de atribuição de função é um procedimento avançado e não é discutido neste tópico. Recomendamos que você use grupos de funções para gerenciar permissões.
 
 
@@ -218,7 +218,7 @@ Caso exista um grupo de funções contendo algumas, mas não todas as permissõe
 Grupos de função existentes também podem ser modificados. Você pode adicionar e remover funções dos grupos de função existente e adicionar e remover membros a partir ao mesmo tempo, usando uma caixa de diálogo EAT similar na figura anterior. Adicionando e Removendo funções para e de grupos de função, você ativar e desativar recursos administrativos para que os membros desse grupo de função. Para obter uma lista das funções que você pode adicionar a um grupo de funções, consulte [Funções de gerenciamento internas](built-in-management-roles-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Embora seja possível alterar as funções atribuídas aos grupos de funções internos, recomendamos copiar esses grupos de funções, alterar a cópia e então adicionar os membros ao grupo de funções copiado.
 
 
@@ -256,7 +256,7 @@ Caso queira atribuir diferentes permissões de usuário final aos vários tipos 
 Se quiser alterar a diretiva de atribuição de função padrão, você terá que usar o Shell. Quando a política de atribuição de função padrão é alterada, todas as caixas de correio criadas serão associadas à nova política de atribuição de função se nenhuma política for explicitamente especificada. A diretiva de atribuição de função associada às caixas de correio existentes não muda quando é selecionada uma nova diretiva de atribuição de função padrão.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você marcar a caixa de seleção de uma função com funções filhas, as caixas de seleção das funções filhas também serão marcadas. Se você desmarcar a caixa de seleção de uma função com funções filhas, as caixas de seleção das funções filhas também serão desmarcadas.<BR>Para obter uma descrição detalhada de como criar diretivas de atribuição de função ou fazer alterações nas diretivas de atribuição de função existentes, consulte os seguintes tópicos: 
 > <UL>
 > <LI>

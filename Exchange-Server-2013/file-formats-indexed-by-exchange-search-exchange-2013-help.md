@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-07-21_
 No MicrosoftExchange Server 2013 e no Exchange Online, a Pesquisa do Exchange inclui filtros para indexar os tipos mais comuns de formatos de arquivo usados como anexos em mensagens. Você também pode instalar filtros para indexar tipos de arquivo adicionais.
 
 
-> [!TIP]
+> [!NOTE]
 > No Exchange 2013, não é obrigatório instalar e registrar o Microsoft Office Filter Pack.<BR>Por padrão, o tamanho máximo de arquivo que pode ser indexado pela Exchange Server 2013 local é de 32 MB. Para aumentar esse limite de tamanho, você deve adicionar a seguinte chave do registro em todas as autoridades de certificação e servidores de várias funções em sua organização:<BR><CODE>@"SOFTWARE\Microsoft\ExchangeServer\V15\Search\SystemParameters" DWORD: "MaxAttachmentSize"</CODE>
 
 

@@ -80,7 +80,7 @@ Antes de você poder enviar emails para a Internet, você precisará criar um co
 9.  Clique em **Concluir**.
 
 
-> [!TIP]
+> [!NOTE]
 > Um conector de Recebimento de entrada padrão é criado quando Exchange 2013 é instalado. Esse conector de Recebimento aceita conexões SMTP anônimas de servidores externos. Você não precisa de nenhuma configuração adicional, se essa for a funcionalidade que você desejar. Se você quiser restringir as conexões de entrada de servidores externos, modifique o conector de Recebimento <STRONG>Frontend Padrão &lt;servidor de Acesso para Cliente&gt;</STRONG> no servidor de Acesso para Cliente.
 
 
@@ -146,7 +146,7 @@ Se você tiver adicionado um domínio aceito na etapa anterior e quiser que esse
 8.  No painel de detalhes **Política Padrão**, clique em **Aplicar**.
 
 
-> [!TIP]
+> [!NOTE]
 > Recomendamos que você configure um nome principal de usuário (UPN) que corresponda ao endereço de email principal de cada usuário. Se você não fornecer um UPN que corresponda ao endereço de email de um usuário, o usuário dever fornecer manualmente seu domínio\nome de usuário ou UPN, além de seu endereço de email. Se o UPN dele corresponder ao endereço de email, o Outlook Web App, o ActiveSync e o Outlook irão automaticamente comparar o endereço de email ao UPN.
 
 
@@ -196,7 +196,7 @@ Antes que os clientes possam se conectar a seu novo servidor da Internet, é pre
 11. Em **Inserir o nome de domínio que você irá usar com seus servidores externos de Acesso para Cliente**, digite o domínio externo que você deseja aplicar. Por exemplo, mail.contoso.com. Clique em **Salvar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Algumas organizações usam um FQDN do Outlook Web App exclusivo, para proteger usuários de alterações no FQDN do servidor subjacente. Muitas organizações usam owa.contoso.com como FQDN do Outlook Web App, em vez de mail.contoso.com. Se você quiser configurar um FQDN do Outlook Web App exclusivo, faça o seguinte, após concluir a etapa anterior. Esta lista de verificação pressupõe que você configurou um FQDN do Outlook Web App exclusivo. 
     > <OL>
     > <LI>
@@ -469,7 +469,7 @@ Para verificar se você configurou com êxito seus registros DNS privados, faça
 7.  Repita as etapas 5 e 6 para cada diretório virtual que você deseja alterar.
     
 
-    > [!TIP]
+    > [!NOTE]
     > As URLs internas de diretório virtual do ECP e do OWA devem ser iguais.<BR>Não é possível definir uma URL interna no diretório virtual de Descoberta Automática.
 
 

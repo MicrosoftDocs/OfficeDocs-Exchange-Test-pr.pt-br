@@ -49,7 +49,7 @@ Sincronização do Windows Phone 7
 O Exchange ActiveSync é um protocolo de sincronização do Microsoft Exchange otimizado para funcionar junto com redes de alta latência e baixa largura de banda. O protocolo, baseado em HTTP e XML, permite que celulares acessem as informações de uma organização em um servidor que esteja executando o Microsoft Exchange. O Exchange ActiveSync permite que usuários acessem, via celular, emails, calendários, contatos e tarefas e continuem acessando essas informações enquanto estiverem trabalhando offline.
 
 
-> [!TIP]
+> [!NOTE]
 > O Exchange ActiveSync não oferece suporte a caixas de correio compartilhadas ou a acesso de representante.
 
 
@@ -129,7 +129,7 @@ Além do recurso de configurar as opções de segurança para as comunicações 
   - **Diretivas de senha de dispositivo **  O Exchange ActiveSync permite configurar várias opções de senhas de dispositivo.
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > O leitor de impressão digital iOS7 não pode ser usado como uma senha do dispositivo. Se escolher usar o leitor de impressão digital iOS7, precisará criar e digitar a senha do dispositivo se a política para a caixa de correio do dispositivo móvel exigir uma senha para o dispositivo.
 
     

@@ -28,7 +28,7 @@ Recomendamos que a função Transporte de Borda seja instalada na rede de perím
 
 
 
-> [!TIP]
+> [!NOTE]
 > Depois de instalar qualquer função de servidor em um computador executando o Exchange 2013, não será possível usar o assistente de Instalação do Exchange 2013&nbsp;para adicionar outras funções de servidor ao computador. Se você quiser adicionar mais funções de servidor a um computador, use Adicionar ou Remover Programas no Painel de Controle ou Setup.exe na janela de prompt de comando.<BR>A função Transporte de Borda não pode ser instalada no mesmo computador que tiver as funções de servidor de Caixa de Correio e Acesso para Cliente instaladas.
 
 
@@ -48,7 +48,7 @@ As informações a seguir se aplicam a todas as funções de servidor do Exchang
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!WARNING]
+> [!CAUTION]
 > Depois de instalar o Exchange em um servidor, não altere o nome do servidor. Não há suporte para renomear o servidor após a instalação de uma função de servidor Exchange.
 
 
@@ -80,7 +80,7 @@ As informações a seguir se aplicam à função de servidor de Transporte de Bo
 ## Use o Setup.exe para instalar o Exchange 2013 no modo autônomo
 
 
-> [!TIP]
+> [!NOTE]
 > Para baixar a versão mais recente do Exchange 2013, consulte <A href="updates-for-exchange-2013-exchange-2013-help.md">Atualizações para o Exchange 2013</A>.
 
 

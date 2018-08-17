@@ -126,7 +126,7 @@ Por exemplo, vamos supor que a política de endereço de email em sua organizaç
     Set-EmailAddressPolicy "Default Policy" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com,smtp:@contoso.com
 
 
-> [!TIP]
+> [!NOTE]
 > O qualificador <CODE>SMTP</CODE> em letra maiúscula especifica o endereço primário (responder para). O qualificador <CODE>smtp</CODE> em letra minúscula especifica um endereço proxy (secundário).
 
 
@@ -172,7 +172,7 @@ Para criar endereços de email adicionais que serão usados como endereço de em
 5.  **Criar regras para definir ainda mais os destinatários aos quais essa política de endereço de email se aplica**   Clique em **Adicionar regra** para restringir os destinatários aos quais essa política será aplicada. Isso cria uma instrução **And** booleana. Repita essa etapa quantas vezes forem necessárias.
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > Se você aplicar muitas regras, será possível restringir a política de endereço de email até o ponto que ela não contenha nenhum usuário.
 
 

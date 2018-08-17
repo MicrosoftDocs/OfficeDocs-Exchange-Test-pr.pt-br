@@ -321,7 +321,7 @@ Para verificar se adicionou com êxito funções a um grupo de função, faça o
 A remoção de uma função de um grupo de funções de gerenciamento é a maneira recomendada e simples para revogar permissões concedidas para um grupo de administradores ou usuários especializados. Se não desejar que os administradores ou usuários especializados tenha permissões para gerenciar um recurso, você remove a função de gerenciamento do grupo de funções de gerenciamento que gerencia as permissões. Depois que a função for removida, os membros do grupo de função não terá mais permissões para gerenciar o recurso.
 
 
-> [!TIP]
+> [!NOTE]
 > Alguns grupos de função, como o grupo de funções Gerenciamento da Organização, restringem quais funções podem ser removidas de um grupo de função. Para obter mais informações, consulte <A href="understanding-management-role-groups-exchange-2013-help.md">Noções básicas sobre grupos de funções de gerenciamento</A>.<BR>Se um administrador for um membro de outro grupo de função que contém funções de gerenciamento que concede permissões para gerenciar o recurso, você precisa remover o administrador de outros grupos de função, ou remover a função que concede permissões para gerenciar o recurso dos outros grupos de função.
 
 
@@ -425,7 +425,7 @@ Use apenas os parâmetros de que você precisa para configurar o escopo que dese
     Get-ManagementRoleAssignment -RoleAssignee "Sales Recipient Management" | Set-ManagementRoleAssignment -CustomRecipientWriteScope "Direct Sales Employees"
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode usar a opção <EM>WhatIf</EM> para verificar se apenas as atribuições de função que deseja modificar foram alteradas. Execute o comando anterior com a opção <EM>WhatIf</EM> para verificar os resultados e remova a opção <EM>WhatIf</EM> para aplicar as alterações.
 
 
@@ -495,7 +495,7 @@ Representantes do grupo de função são usuários ou grupos de segurança unive
 
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para adicionar um delegado a um grupo de funções.
 
 
@@ -513,7 +513,7 @@ Para alterar a lista de delegados em um grupo de função, você pode usar o par
         $RoleGroup.ManagedBy += (Get-User <user to add>).Identity
     
 
-    > [!TIP]
+    > [!NOTE]
     > Use o cmdlet <STRONG>Get-Group</STRONG> se você deseja adicionar um USG.
 
 
@@ -545,7 +545,7 @@ Para alterar a lista de delegados em um grupo de função, você pode usar o par
         $RoleGroup.ManagedBy -= (Get-User <user to remove>).Identity
     
 
-    > [!TIP]
+    > [!NOTE]
     > Use o cmdlet <STRONG>Get-Group</STRONG> se desejar remover um USG.
 
 

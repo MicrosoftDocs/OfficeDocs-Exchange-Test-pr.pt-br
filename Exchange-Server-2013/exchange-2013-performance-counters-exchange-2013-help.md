@@ -271,7 +271,7 @@ As tabelas a seguir exibe informações sobre comuns contadores para monitorar o
 A tabela a seguir mostra os contadores de requisitos de latência de e/s log ativo e seus limites aceitáveis. Quando os limites são excedidos, cai a experiência do cliente. Por exemplo, os usuários podem enfrentar atrasos de entrega de mensagem ou lento o desempenho do sistema.
 
 
-> [!TIP]
+> [!NOTE]
 > Orientação de latência de armazenamento normal no Exchange 2013 é muito semelhante para acessar as diretrizes do Exchange 2010. Contadores de bancos de dados adicionais podem ser encontrados no <A href="https://go.microsoft.com/fwlink/p/?linkid=525622">Contadores de servidor de caixa de correio</A>.
 
 
@@ -492,7 +492,7 @@ As tabelas a seguir exibe informações sobre contadores de HTTP Proxy.
 As tabelas a seguir exibe informações sobre contadores de armazenamento de informações e limites aceitáveis.
 
 
-> [!TIP]
+> [!NOTE]
 > Orientação de latência normal de armazenamento no Exchange 2013 é muito semelhante para acessar as diretrizes do Exchange 2010. Contadores de armazenamento de informações adicionais podem ser encontrados no <A href="https://go.microsoft.com/fwlink/p/?linkid=525622">Contadores de servidor de caixa de correio</A>.
 
 

@@ -68,7 +68,7 @@ O uso do NLB (Balanceamento de Carga de Rede) em seus servidores de Acesso para 
 A URL interna é usada na intranet e a URL externa é usada na Internet. Se quiser usar a mesma URL para tráfego interno e externo, verifique se o DNS está configurado corretamente para rotear o tráfego interno diretamente para a URL interna. Verifique também se a URL está acessível interna e externamente. Para que os serviços de Descoberta Automática e Disponibilidade funcionem, o DNS precisa estar configurado para que mail.\<*nome de domínio*\>.com e autodiscover.mail.\<*nome de domínio*\>.com apontem para o IP virtual (VIP) da sua solução de balanceamento de carga, onde \<*nome de domínio*\> é o nome do seu domínio.
 
 
-> [!TIP]
+> [!NOTE]
 > Para obter mais informações, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=45959">Network carga balanceamento Technical Reference</A> e <A href="https://go.microsoft.com/fwlink/p/?linkid=49315">Clusters de balanceamento de carga de rede</A>. Você também pode pesquisar por sites de software de balanceamento de carga de terceiros.
 
 

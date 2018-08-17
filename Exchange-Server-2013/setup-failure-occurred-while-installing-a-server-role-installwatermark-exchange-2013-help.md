@@ -42,12 +42,12 @@ Reinstalar a função de servidor com falha da linha de comando
     EdgeTransport (ou ET ou F)
     
 
-    > [!TIP]
+    > [!NOTE]
     > A função de servidor de transporte de borda não pode coexistir no mesmo computador com nenhuma outra função de servidor.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Você deve implantar a função de servidor de transporte de borda na rede de perímetro e fora da floresta Active Directory.
 
     
@@ -60,14 +60,14 @@ Reinstalar a função de servidor com falha da linha de comando
     ManagementTools (ou MT ou T)
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você especificar ManagementTools, você instalará o Exchange Console de gerenciamento, os cmdlets Exchange para Exchange Shell de gerenciamento, Exchange o arquivo de Ajuda, Exchange Best Practices Analyzer Tool e Exchange Assistente de solução de problemas. Se você instalar qualquer outra função de servidor, as ferramentas de gerenciamento serão instaladas automaticamente.
 
     
     Por exemplo, para adicionar a função de servidor de transporte de Hub a um servidor de caixa de correio existente, digite o seguinte: **%LocalExchangeInstallationDir%\\bin\\Setup.com /role:HubTransport /Mode**
 
 
-> [!TIP]
+> [!NOTE]
 > Se qualquer função de servidor do Exchange Server 2007 instalado anteriormente com êxito, o assistente será executado no modo de manutenção do programa de instalação. Se nenhuma função de servidor do Exchange 2007 anteriormente foram instaladas com êxito, o Assistente de instalação será iniciado de onde foi interrompido.
 
 
@@ -85,17 +85,17 @@ Usar o Assistente de instalação do Exchange Server 2007 no modo de manutençã
 5.  Na página **Seleção da função de servidor**, marque as caixas de seleção para as funções de servidor que você deseja instalar e clique em **Avançar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > A função de servidor de transporte de borda não pode coexistir no mesmo computador com nenhuma outra função de servidor.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Você deve implantar a função de servidor de transporte de borda na rede de perímetro e fora da floresta Active Directory.
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você selecionar ferramentas de gerenciamento, você instalará o Exchange Console de gerenciamento, os cmdlets do Exchange para Exchange Shell de gerenciamento e o arquivo de Ajuda Exchange. As ferramentas de gerenciamento serão instaladas automaticamente se você instalar qualquer outra função de servidor.
 
 

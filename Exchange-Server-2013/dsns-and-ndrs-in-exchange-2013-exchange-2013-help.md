@@ -18,7 +18,7 @@ _**Aplica-se a:** Exchange Server 2013_
 _**Tópico modificado em:** 2016-12-09_
 
 
-> [!TIP]
+> [!NOTE]
 > Se precisar de ajuda com notificações de falha na entrega no Office 365 ou no Exchange Online, confira <A href="https://go.microsoft.com/fwlink/p/?linkid=524931">Notificações de falha na entrega de email no Office 365</A>.
 
 

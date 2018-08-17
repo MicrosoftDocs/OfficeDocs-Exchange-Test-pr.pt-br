@@ -439,7 +439,7 @@ A tabela a seguir identifica os navegadores da Web com suporte para uso em conju
 A tabela a seguir identifica os navegadores da Web com suporte para uso em conjunto com a versão básica (light) do Outlook Web App ou do Outlook na Web. Os navegadores com suporte são identificados com um X.
 
 
-> [!TIP]
+> [!NOTE]
 > O Outlook Web App Basic (Outlook Web App Light) é suportado para uso em navegadores móveis. Entretanto, se houver problemas de renderização ou autenticação em um navegador móvel, verifique se o problema pode ser reproduzido, usando o Outlook Web App Light no cliente completo de um navegador suportado. Por exemplo, teste o uso do Outlook Web App Light no Safari, Chrome ou Internet Explorer. Se o problema não puder ser reproduzido no cliente completo, recomendamos que você entre em contato com o fornecedor do dispositivo móvel, para ajuda. Nesses casos, nós colaboramos com o fornecedor conforme apropriado.
 
 
@@ -739,7 +739,7 @@ A tabela a seguir identifica a versão do Microsoft.NET Framework que pode ser u
 
 
 
-> [!TIP]
+> [!NOTE]
 > Quando atualizar o Exchange de um CU sem suporte para a CU atual e nenhum CUs intermediários estão disponíveis, você deve atualizar para a versão mais recente do .NET que é suportado pelo Exchange primeiro e, em seguida, imediatamente atualize para a CU atual. Este método não substitui a necessidade de manter seus servidores do Exchange para cima até a data e no máximo, suporte, CU.<BR>A Microsoft não faz nenhuma declaração que uma falha de atualização não ocorrerá usando este método, o que pode resultar na necessidade de entrar em contato com o Microsoft Support Services.
 
 

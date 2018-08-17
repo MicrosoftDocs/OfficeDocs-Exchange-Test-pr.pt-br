@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2014-10-01_
 É possível usar as diretivas de retenção para agrupar uma ou mais marcas de retenção e aplicá-las a caixas de correio para impor configurações de retenção de mensagem. Uma caixa de correio não pode ter mais de uma diretiva de retenção.
 
 
-> [!WARNING]
+> [!CAUTION]  
 > As mensagens expiram com base nas configurações definidas nas marcas de retenção vinculadas à diretiva. Essas configurações incluem ações como a movimentação de mensagens para o arquivo morto ou a exclusão permanente. Antes de aplicar uma diretiva de retenção a uma ou mais caixas de correio, recomendamos a você testar a diretiva e inspecionar cada marca de retenção associada a ela.
 
 

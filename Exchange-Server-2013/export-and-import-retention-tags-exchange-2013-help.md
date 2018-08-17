@@ -28,7 +28,7 @@ Há vários cenários nos quais você pode querer exportar ou importar marcas de
 Nesses cenários, o Assistente de Pasta Gerenciada pode processar corretamente um item que tenha uma marca de retenção aplicada após a movimentação do item ou caixa de correio para outra organização.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Para manter as marcas de retenção e as políticas de retenção sincronizadas entre duas organizações, sempre que realizar alterações em uma marca ou política de retenção na organização de origem, você deve realizar esse procedimento para exportar marcas e políticas de retenção da organização de origem e importá-las na organização de destino.<BR>Você não pode selecionar marcas ou políticas de retenção específicas para exportação. O script Export-RetentionTags.ps1 exporta todas as marcas de retenção e políticas de uma organização.
 
 
@@ -96,7 +96,7 @@ Para confirmar se você exportou as marcas de retenção e as políticas de rete
 
     
 
-    > [!TIP]
+    > [!NOTE]
     > Ao executar esse script contra Exchange Online, você pode ser solicitado a confirmar que você deseja executar o software de um editor confiável. Verifique se o nome do Editor aparece como <CODE>CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</CODE>e clique em <STRONG>R</STRONG> para permitir que o script a ser executado uma vez ou <STRONG>uma</STRONG> para sempre são executados.
 
     

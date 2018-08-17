@@ -54,7 +54,7 @@ Os protocolos POP3 e IMAP4 têm os seguintes benefícios e limitações:
 Os aplicativos de email POP3 e IMAP4 não utilizam POP3 e IMAP4 para enviar mensagens ao servidor de email. Eles dependem do protocolo SMTP para enviar mensagens. O conector de recebimento de envio de emails de aplicativos de clientes que usam POP3 ou IMAP4 é criado automaticamente na instalação do Exchange. Para saber mais sobre conectores, veja [Conectores de recebimento](receive-connectors-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Sempre que um usuário usa um programa de email baseado em POP ou IMAP para abrir emails do Office 365, existe a possibilidade de haver um atraso de vários segundos. O atraso é causado pelo servidor proxy, que gera um salto adicional para autenticação. Esse servidor proxy primeiro analisa o servidor de pod atribuído (servidor de Acesso para Cliente) e depois faz a autenticação com base nisso.
 
 
@@ -74,7 +74,7 @@ Não é possível usar a conta Anônimo ou Convidado para entrar em uma caixa de
 **IMAP4** Os aplicativos cliente de email que usam IMAP4 são mais flexíveis e geralmente oferecem mais recursos do que os aplicativos cliente de email que usam POP3. Por padrão, quando aplicativos de email que usam IMAP4 baixam mensagens para o computador cliente, uma cópia das mensagens baixadas é mantida no servidor. Como uma cópia da mensagem do usuário é guardada no servidor de emails, o usuário pode acessar as mesmas mensagens a partir de outros computadores. Com o email IMAP4, o usuário pode acessar e criar várias pastas de email no servidor. Dessa forma, os usuários podem acessar qualquer mensagem do servidor a partir de computadores em vários locais. Por exemplo, a maioria dos aplicativos de email IMAP4 pode ser configurada para manter uma cópia dos itens enviados no servidor, de forma que o usuário possa acessar esses itens em qualquer outro computador. O IMAP4 oferece suporte a outros recursos que não têm suporte na maioria dos aplicativos IMAP4. Por exemplo, alguns aplicativos IMAP4 contêm um recurso que permite ao usuário exibir somente os cabeçalhos das mensagens de email no servidor, ou seja, o remetente e o assunto, e depois baixar somente as mensagens que desejar ler. O IMAP4 também não é compatível com o acesso à pasta pública.
 
 
-> [!TIP]
+> [!NOTE]
 > Clientes IMAP4 e POP3 tem acesso limitado às informações do calendário do Exchange. Para obter mais informações, consulte <A href="configure-calendar-options-for-pop3-exchange-2013-help.md">Configurar opções de calendário para POP3</A> e <A href="configure-calendar-options-for-imap4-exchange-2013-help.md">Configurar opções de calendário para o IMAP4</A>.
 
 
@@ -100,7 +100,7 @@ Para informações sobre como configurar essas definições para seu aplicativo 
 Se o dispositivo ou o computador que está executando o aplicativo de email POP3 ou IMAP4 estiver sempre conectado à Internet, o usuário poderá configurar o aplicativo de email para enviar e receber mensagens em um intervalo de minutos definido. Conectar-se frequentemente ao servidor permite que o usuário mantenha o aplicativo de email atualizado com as informações mais recentes do servidor. No entanto, se o dispositivo ou o computador que está executando o aplicativo de email POP3 ou IMAP4 estiver sempre conectado à Internet, o usuário poderá configurar o aplicativo de email para enviar e receber mensagens manualmente.
 
 
-> [!TIP]
+> [!NOTE]
 > Se estiver usando um aplicativo de email compatível com IMAP4 e com suporte ao comando IMAP4 IDLE, o usuário poderá enviar e receber emails de sua caixa de correio do Exchange quase em tempo real. Para que esse método de conexão funcione, o aplicativo do servidor de emails e o aplicativo cliente devem oferecer suporte ao comando IMAP4 IDLE. Na maioria dos casos, não é necessário definir as configurações no aplicativo IMAP4 para usar esse método de conexão.
 
 

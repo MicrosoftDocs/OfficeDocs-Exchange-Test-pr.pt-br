@@ -36,7 +36,7 @@ O cmdlet **Test-UMConnectivity** pode ser usado para verificar a conectividade c
   - **Remoto**   O cmdlet **Test-UMConnectivity** tenta conectar-se ao servidor remoto de Acesso do Cliente fazendo uma chamada através de um gateway de VoIP. Após a conexão, são realizadas verificações de conectividade no servidor remoto de Acesso do Cliente e nos caminhos da mídia.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se receber a mensagem a seguir, reinicie o serviço de Unificação de Mensagens do MicrosoftExchange porque ele parou ou não está respondendo: "A tarefa Test-UMConnectivity encontrou um erro durante a tentativa de estabelecimento de uma chamada. Detalhes: Não é possível estabelecer uma conexão."
 
 

@@ -22,7 +22,7 @@ _**Tópico modificado em:** 2016-12-09_
 *Anulação* é um mecanismo de segurança que grava zeros ou um padrão binário sobre dados excluídos de modo que seja mais difícil recuperar os dados excluídos. No Exchange Server 2013, um banco de dados ESE usa *páginas* como sua unidade de armazenamento e, como resultado, implementa a *anulação de página*. A anulação de página está habilitada por padrão e não pode ser desabilitada. As operações de anulação de página são registradas nos arquivos de log de transações, para que todas as cópias de um banco de dados passem pela anulação de página de forma semelhante. Anular uma página em um banco de dados ativo faz com que a página seja zerada em uma cópia passiva do banco de dados.
 
 
-> [!TIP]
+> [!NOTE]
 > Não há mecanismo para que o Mecanismo de Armazenamento Extensível (ESE) dê prioridade à reutilização de páginas anuladas sobre a alocação de novo espaço. Tabelas com alocação de espaço sequencial atribuída irão ignorar propositalmente páginas fragmentadas ou anuladas em prol da utilização de páginas sequenciais novas ou livres. Esta abordagem reduz os IOPs do banco de dados.
 
 
@@ -160,7 +160,7 @@ Você pode medir e monitorar a funcionalidade de anulação de página exibindo 
   - Banco de dados do MSExchange-\>Páginas anuladas pela manutenção de banco de dados por segundo: Indica a taxa de anulação de páginas.
 
 
-> [!TIP]
+> [!NOTE]
 > Para saber como habilitar esses contadores, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=101194">como habilitar contadores de desempenho de ESE estendido</A>.
 
 

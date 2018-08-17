@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-03-09_
 Este tópico descreve os cmdlets utilizados mais frequentemente disponíveis na versão Release to Manufacturing (RTM) e posteriores do Microsoft Exchange Server 2013 e fornece exemplos para seu uso.
 
 
-> [!TIP]
+> [!NOTE]
 > Mais conteúdo será adicionado sobre outras áreas de Exchange 2013, em breve.
 
 

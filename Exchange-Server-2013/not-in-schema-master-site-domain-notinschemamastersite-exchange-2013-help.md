@@ -38,7 +38,7 @@ Para exibir o mestre de esquema atual
 1.  Em um prompt de comando, digite **regsvr32 schmmgmt. dll**
     
 
-    > [!TIP]
+    > [!NOTE]
     > <STRONG>RegSvr32</STRONG> foi registrado com êxito ao seguinte caixa de diálogo é exibida:<BR>DllRegisterServer em schmmgmt teve êxito.
 
 

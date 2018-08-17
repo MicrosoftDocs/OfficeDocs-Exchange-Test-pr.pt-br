@@ -248,7 +248,7 @@ O Exchange aceita os seguintes tipos de grupos de distribuição:
   - **Grupos não universais habilitados para email**   São os objetos de grupo local ou global Active Directory que são habilitados para email. Você pode criar ou habilitar para email somente grupos de distribuição universais. Você pode ter grupos habilitados para email que tenham sido migrados de versões anteriores do Exchange e que não são grupos universais. Esses grupos também podem ser gerenciados usando o EAC ou o Shell.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Para converter um grupo global ou de domínio local em um grupo universal, você pode usar o cmdlet <A href="https://technet.microsoft.com/pt-br/library/bb123770(v=exchg.150)">Set-Group</A> no Shell.
 
 
@@ -296,7 +296,7 @@ Se uma pessoa fora de sua organização exigir acesso a recursos em sua rede, vo
 Outro cenário é criar usuários de email em sua organização para quem você não deseja manter uma caixa de correio do Exchange. Por exemplo, após uma aquisição, a empresa adquirida poderá manter sua infra-estrutura de mensagens separada, mas talvez precise ter acesso a recursos de sua rede. Para esses usuários, você pode desejar criar usuários de email, em vez de usuários de caixas de correio.
 
 
-> [!TIP]
+> [!NOTE]
 > No EAC, você usa a página <STRONG>Destinatários</STRONG> &gt; <STRONG>Contatos</STRONG> para gerenciar usuários de email. Não há uma página separada para usuários de email.
 
 
@@ -314,7 +314,7 @@ O destinatário do Microsoft Exchange é um objeto de destinatário especial que
 O destinatário do Microsoft Exchange não é um objeto de destinatário comum, como uma caixa de correio, usuário de email ou contato de email, e não é gerenciado com ferramentas de destinatário comuns. No entanto, você pode usar o cmdlet [Set-OrganizationConfig](https://technet.microsoft.com/pt-br/library/aa997443\(v=exchg.150\)) no Shell para configurar o destinatário do Microsoft Exchange.
 
 
-> [!TIP]
+> [!NOTE]
 > Quando mensagens geradas pelo sistema são enviadas para um remetente externo, o destinatário do Microsoft Exchange não é usado como o remetente da mensagem. Em vez disso, o endereço de email especificado pelo parâmetro <EM>ExternalPostmasterAddress</EM> no cmdlet <A href="https://technet.microsoft.com/pt-br/library/bb124151(v=exchg.150)">Set-TransportConfig</A> é usado.
 
 

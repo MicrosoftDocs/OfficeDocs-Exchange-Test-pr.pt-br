@@ -66,7 +66,7 @@ Um RDB pode ser usado para recuperar dados em várias situações, tais como:
   - **Recuperação de item específico**   Você pode restaurar os dados de backup que tenha sido excluída ou removidos de uma caixa de correio.
 
 
-> [!TIP]
+> [!NOTE]
 > Listas de controle de acesso (ACLs) pasta não são preservadas ao recuperar o conteúdo em uma caixa de correio ativa. Como o processo de recuperação geralmente envolve a recuperação de dados de caixa de correio e mesclando o conteúdo de volta no banco de dados original, não deve haver nenhuma necessidade de recuperar ou copie as ACLs.
 
 

@@ -26,7 +26,7 @@ Por padrão, o grupo de funções Suporte Técnico permite que o membros exibam 
 Os membros desse grupo de funções pode somente modificar as mesmas opções do Outlook Web App que o usuário pode modificar. Isso significa que, se um usuário pode modificar seu nome de exibição, um membro do grupo de funções Suporte Técnico também pode modificar o nome de exibição daquele usuário. Entretanto, se um usuário não pode modificar seu nome de exibição, um membro do grupo de funções Suporte Técnico não pode modificar o nome de exibição daquele usuário.
 
 
-> [!WARNING]
+> [!CAUTION]
 > As limitações na qual Outlook Web App opções que um membro do grupo de função Help Desk pode modificar são impostas pelo Exchange Centro de administração (EAC). Se um membro do grupo de função Help Desk tem acesso ao Exchange Shell de gerenciamento, poderá modificar qualquer opção Outlook Web App para qualquer usuário. Considere cuidadosamente quem você tornar um membro do grupo de função Help Desk e se eles devem também ser oferecidos acesso para o Shell.
 
 

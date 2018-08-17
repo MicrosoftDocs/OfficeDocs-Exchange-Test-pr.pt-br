@@ -140,7 +140,7 @@ Sempre que a rede MAPI do DAG for estendida até uma sub-rede adicional, um ende
 A qualquer momento específico, o cluster do DAG só usará um dos endereços IP atribuídos. O Cluster de Failover do Windows registra esse endereço IP no DNS quando o endereço IP do cluster e os recursos de nome da rede estão online. Além de usar um endereço IP e um nome da rede, um CNO (objeto de rede de cluster) é criado no Active Directory. O nome, o endereço IP e o CNO do cluster são usados internamente pelo sistema para proteger o DAG e para fins de comunicação interna. Os administradores e os usuários finais não precisam ter interface com ou se conectar ao nome do DAG ou ao endereço IP.
 
 
-> [!TIP]
+> [!NOTE]
 > Muito embora o endereço IP do cluster e o nome da rede sejam usados internamente pelo sistema, não há nenhuma dependência difícil no Exchange 2013&nbsp;para que esses recursos estejam disponíveis. Mesmo se o ponto de acesso administrativo do cluster subjacente (por exemplo, seus recursos de endereço IP e Nome da Rede) estiver offline, a comunicação interna ainda ocorrerá no DAG por meio do uso de nomes de servidores membros do DAG. No entanto, recomendamos monitorar periodicamente a disponibilidade desses recursos para ter certeza de que eles não permaneçam offline por mais de 30 dias. Se o cluster subjacente permanecer offline por mais de 30 dias, a conta CNO do cluster poderá ser invalidada pelo mecanismo de coleta de lixo no Active Directory.
 
 

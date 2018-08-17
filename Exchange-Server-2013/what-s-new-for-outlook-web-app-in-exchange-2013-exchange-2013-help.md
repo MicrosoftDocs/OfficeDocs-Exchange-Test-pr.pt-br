@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2017-12-20_
 Para o Microsoft Exchange Server 2013, adicionamos vários novos recursos para o Microsoft Outlook Web App e atualizamos o seu design.
 
 
-> [!TIP]
+> [!NOTE]
 > Para mais detalhes sobre como usar o Outlook Web App na sua organização do Exchange Server 2013 , veja <A href="outlook-web-app-exchange-2013-help.md">Outlook Web App</A>.<BR>Agora, os usuários do Outlook Web App da organização têm a capacidade de adicionar ou remover pastas públicas dos Favoritos. Anteriormente, isso só podia ser feito no Outlook.
 
 
@@ -148,13 +148,13 @@ Na tabela abaixo, as seguintes definições se aplicam:
 
 
 
-> [!TIP]
+> [!NOTE]
 > Nas versões anteriores, o Outlook Web App tinha um verificador ortográfico incorporado. No Exchange Server 2013, o Outlook Web App depende do navegador para verificação ortográfica, um recurso que o Internet Explorer anterior à versão 10 não oferece.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Os usuários do Office 365 ficarão limitados à versão light do Outlook Web App ao usarem o Internet Explorer 8. Os usuários cujas caixas de correio estão em um servidor Exchange gerenciado localmente continuarão ver a versão padrão do Outlook Web App ao usar o Internet Explorer 8, mas podem enfrentar um desempenho lento ou insatisfatório de alguma outra maneira.
 
 
@@ -193,7 +193,7 @@ Na tabela abaixo, as seguintes definições se aplicam:
 
 
 
-> [!TIP]
+> [!NOTE]
 > As combinações de sistema operacional e navegador que não foram listadas exibirão a versão light do Outlook Web App.
 
 
@@ -296,7 +296,7 @@ Com o aplicativo OWA para Android, você pode:
 Saiba mais sobre o plano de fundo OWA para Android na série de garagem desta semana. Consulte [a série de garagem Macetes: evoluindo Exchange ActiveSync e o OWA para dispositivos](https://blogs.office.com/2014/6/11/the-garage-series-under-the-hood-evolving-exchange-activesync-and-owa-for-devices)
 
 
-> [!TIP]
+> [!NOTE]
 > Este aplicativo não funcionará com caixas de correio do Outlook.com (anteriormente Hotmail).
 
 

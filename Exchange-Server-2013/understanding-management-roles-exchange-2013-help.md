@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-04-07_
 Funções de gerenciamento são parte do modelo de permissões RBAC (controle de acesso baseado na função) usado no Microsoft Exchange Server 2013. As funções atuam como um agrupamento lógico de cmdlets que são combinados para fornecer acesso à exibição ou modificação da configuração de componentes do Exchange 2013, como caixas de correio, regras de transporte e destinatários. As funções de gerenciamento podem ser combinadas em agrupamentos maiores denominados grupos de funções de gerenciamento e políticas de atribuição de funções de gerenciamento, que permitem o gerenciamento de áreas de recursos e configuração de destinatários. Os grupos de funções e as diretivas de atribuição de funções atribuem permissões a administradores e usuários finais, respectivamente. Para mais informações sobre o grupos de funções de gerenciamento e diretivas de atribuição de funções, consulte [Controle de acesso baseado em função de compreensão](understanding-role-based-access-control-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Este tópico concentra-se na funcionalidade avançada de RBAC. Se você quiser gerenciar permissões básicas do Exchange 2013, como usar o Centro de Administração do Exchange (EAC) para adicionar e remover membros de grupos de funções, criar e modificar grupos de funções ou criar e modificar políticas de atribuição de função, consulte <A href="permissions-exchange-2013-help.md">Permissões</A>.
 
 
@@ -68,7 +68,7 @@ Para obter uma lista completa das funções de gerenciamento incluídas com o Ex
 As funções internas fornecidas com o Exchange 2013 podem ser combinadas de todas as maneiras para criar um modelo de permissões que funcione para o seu negócio. Por exemplo, se quiser que os membros de um grupo de funções gerenciem destinatários e pastas públicas, atribua as funções de Destinatário de Email e Pastas Públicas ao grupo de funções. Com frequência, atribua funções a grupos ou diretivas de atribuição de funções. Você poderál também atribuir funções de gerenciamento diretamente aos usuários se quiser controlar as permissões em um nível granular. Recomendamos usar os grupos de funções e as diretivas de atribuição de função em vez da atribuição de função de usuário direta para simplificar o modelo de permissões.
 
 
-> [!TIP]
+> [!NOTE]
 > Você só pode atribuir funções de gerenciamento de usuário final a diretivas de atribuição de função.
 
 
@@ -264,7 +264,7 @@ A tabela a seguir lista todos os tipos de função de gerenciamento administrati
 <td><p><a href="active-directory-permissions-role-exchange-2013-help.md">Papel de permissões do diretório ativo</a></p></td>
 <td><p>Esse tipo de função é associado a funções que permitem que administradores configurem permissões do Active Directory em uma organização. Alguns recursos que usam permissões do Active Directory ou uma ACL (lista de controle de acesso) incluem conectores de Envio e Recebimento, e as permissões Enviar como e Enviar em nome de para caixas de correio.</p>
 
-> [!TIP]
+> [!NOTE]
 > As permissões definidas diretamente em objetos Active Directory podem não ser impostas por meio de RBAC.
 
 
@@ -591,7 +591,7 @@ A tabela a seguir lista todos os tipos de função de gerenciamento administrati
 <td><p><a href="support-diagnostics-role-exchange-2013-help.md">Função Diagnóstico de Suporte</a></p></td>
 <td><p>Esse tipo de função é associado a funções que permitem que administradores realizem um diagnóstico avançado sob a orientação dos serviços de suporte da Microsoft em uma organização.</p>
 
-> [!WARNING]
+> [!CAUTION]
 > As funções associadas a esse tipo de função concedem permissões a cmdlets e scripts que devem ser usados apenas sob a orientação do Suporte e Atendimento ao Cliente Microsoft.
 
 

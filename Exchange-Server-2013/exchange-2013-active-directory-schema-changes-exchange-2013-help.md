@@ -56,7 +56,7 @@ Atualizações de esquema do Exchange 2013 são cumulativas. Cada versão inclui
 
 
 
-> [!TIP]
+> [!NOTE]
 > As alterações de esquema do Active Directory identificadas neste tópico podem não se aplicar a todas as edições de uma versão do Exchange Server.<BR>Para verificar se o Active Directory foi preparado com êxito, consulte a seção "Como saber se isso funcionou?" em <A href="prepare-active-directory-and-domains-exchange-2013-help.md">Preparar o Active Directory e domínios</A>.
 
 

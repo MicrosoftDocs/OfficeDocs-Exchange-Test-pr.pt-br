@@ -62,7 +62,7 @@ Pacotes de idioma do Unified Messaging permitem que um servidor de caixa de corr
 Pacotes de idiomas de Unificação de MENSAGENS incluem pré-gravado prompts, suporte de conversão de TTS para um idioma específico e em alguns casos, o suporte para ASR. Em ambientes de vários idiomas, você talvez seja necessário instalar pacotes de idiomas de Unificação de MENSAGENS adicionais, pois alguns chamadores preferem ser solicitado em outro idioma ou porque recebem email em mais de um idioma. Você deve instalar vários pacotes de idiomas de Unificação de MENSAGENS para oferecer suporte a capacidade do servidor de caixa de correio para ler uma mensagem de email que contém mais de um idioma, pois o sistema de conversão de TTS deve ser instruído o idioma a ser selecione baseada no texto da mensagem a ser lido. Se o pacote de idiomas de Unificação de mensagens não tenha sido instalado, a mensagem de email será ilógico e incoerentes, quando ele é lido volta para o usuário. Instalando o pacote de idioma apropriado habilita o mecanismo TTS ler itens de email e calendário ao usuário Outlook Voice Access usando o idioma correto e também fornece prompts de pré-gravado específicos de idioma para a Unificação de mensagens. Em alguns casos, também podem oferecer suporte a ASR.
 
 
-> [!TIP]
+> [!NOTE]
 > O mecanismo de TTS converte o texto em fala, mas ele não converte fala ao texto. Habilitado os usuários podem enviar uma mensagem de email que tenha um arquivo de voz anexado para outro usuário. No entanto, eles não podem criar e enviar uma mensagem de email baseado em texto para outro usuário.
 
 
@@ -80,7 +80,7 @@ Ao instalar um pacote de idiomas, o programa de instalação faz o seguinte:
 Você pode adicionar os pacotes de idiomas de Unificação de MENSAGENS usando o comando **Setup.exe** ou executando o programa de instalação do *\<UMLanguagePack\>*.exe depois de baixar o pacote de idiomas de Unificação de MENSAGENS do [Exchange Server 2013 UM pacotes de idiomas](https://go.microsoft.com/fwlink/p/?linkid=266542). No entanto, você precisará usar o comando Setup.exe para remover um pacote de idiomas de Unificação de MENSAGENS. Não há nenhum cmdlet do Shell de gerenciamento de Exchange que você pode usar para adicionar ou remover idiomas de um servidor de caixa de correio. Para obter mais informações sobre como instalar um pacote de idiomas de Unificação de MENSAGENS, consulte [Instalar um pacote de idiomas para UM](install-a-um-language-pack-exchange-2013-help.md). Para obter mais informações sobre como remover um pacote de idiomas de Unificação de MENSAGENS, consulte [Remover um pacote de idiomas de Unificação de mensagens](remove-a-um-language-pack-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, quando você instala um servidor de caixa de correio, o pacote de idiomas inglês dos Estados Unidos (en-US) é instalado. Ele não pode ser removido, a menos que você remova o servidor de caixa de correio do computador.
 
 
@@ -320,7 +320,7 @@ A Unificação de mensagens depende de um mecanismo de fala (TTS). Funcionalidad
   - Saudação da caixa postal dos usuários padrão
 
 
-> [!TIP]
+> [!NOTE]
 > Depois que um usuário tiver gravado saudação da personalizadas de caixa postal, a versão TTS das saudações de voz não são mais usados.
 
 

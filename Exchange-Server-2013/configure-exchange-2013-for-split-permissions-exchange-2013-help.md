@@ -26,7 +26,7 @@ Microsoft Exchange Server 2013 oferece os seguintes tipos de modelos de permiss�
   - **Permissões de divisão do Active Directory**   Permissões para criar objetos de segurança na partição de domínio Active Directory completamente são removidas do qualquer usuário Exchange, serviço ou servidor. Nenhuma opção é fornecida no RBAC para criar entidades de segurança. Criação de entidades de segurança no Active Directory deve ser executada usando as ferramentas de gerenciamento de Active Directory.
     
 
-    > [!TIP]
+    > [!NOTE]
     > as permissões de divisão de Active Directory estão disponíveis nas organizações que executa o Microsoft Exchange Server 2010 Service Pack 1 (SP1) ou posterior, ou ambas as versões do ExchangeExchange 2013.
 
 
@@ -102,7 +102,7 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
     2.  Reinicie os servidores de Exchange 2013 em sua organização ou aguardar até que o token de acesso Active Directory replicar para todos os servidores de Exchange 2013.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Se você tiver servidores Exchange 2010 em sua organização, você também precisará reiniciar esses servidores.
 
 
@@ -114,7 +114,7 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
             New-RoleGroup "Active Directory Administrators" -Roles "Mail Recipient Creation", "Security Group Creation and Membership"
         
 
-        > [!TIP]
+        > [!NOTE]
         > Se desejar que os membros desse grupo de função possam criar atribuições de função, inclua a função de gerenciamento de função. Você não precisa adicionar essa função agora. No entanto, se você nunca deseja atribuir a função de criação de destinatário de email ou a criação de grupos de segurança e a associação de função para os outros destinatários de função, a função de gerenciamento de função deve ser atribuída a esse novo grupo de função. Etapas a seguir configure o grupo de funções administradores Active Directory como o grupo de função única que pode delegar essas funções.
 
     
@@ -145,7 +145,7 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
             Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
         
 
-        > [!TIP]
+        > [!NOTE]
         > Se você deseja remover todos os regulares e delegando atribuições de função para a função de criação de destinatário de email em qualquer destinatário da função que não seja o grupo de funções administradores Active Directory, use o seguinte comando. A opção <EM>WhatIf</EM> permite ver quais atribuições de função serão removidas. Remover o comutador <EM>WhatIf</EM> e execute o comando novamente para remover as atribuições de função.
 
         
@@ -160,7 +160,7 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
             Remove-ManagementRoleAssignment <Security Group Creation and Membership role assignment to remove>
         
 
-        > [!TIP]
+        > [!NOTE]
         > Você pode usar o mesmo comando na observação anterior para remover todos os regulares e delegando atribuições de função para a função de criação de grupos de segurança e a associação no qualquer destinatário da função que não seja o grupo de função de administradores Active Directory, conforme mostrado neste exemplo.
 
         
@@ -213,7 +213,7 @@ Você pode configurar sua organização de Exchange 2013 para Active Directory d
 servidores e administradores Exchange apenas será capazes de gerenciar os atributos de Exchange nos entidades de segurança Active Directory existente. No entanto, eles serão capazes de criar e gerenciar Exchange-planos de discagem de objetos específicos, como regras de transporte e Unificação de mensagens.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Após habilitar Active Directory dividir permissões, servidores e administradores Exchange não mais poderão criar entidades de segurança no Active Directory e eles não poderão gerenciar a associação de grupo de distribuição. Essas tarefas devem ser executadas usando as ferramentas de gerenciamento de Active Directory com as permissões necessárias Active Directory. Antes de fazer essa alteração, você deve compreender o impacto que haverá nos seus processos de administração e os aplicativos de terceiros que integram com Exchange 2013 e o modelo de permissões de RBAC.<BR>Para obter mais informações, consulte a seção "permissões de divisão deActive Directory " <A href="understanding-split-permissions-exchange-2013-help.md">Compreendendo as permissões de divisão</A>.
 
 
@@ -229,7 +229,7 @@ Para alternar entre compartilhados ou RBAC dividir permissões para Active Direc
 3.  Reinicie os servidores de Exchange 2013 em sua organização ou aguardar até que o token de acesso Active Directory replicar para todos os servidores de Exchange 2013.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você tiver servidores Exchange 2010 em sua organização, você também precisará reiniciar esses servidores.
 
 

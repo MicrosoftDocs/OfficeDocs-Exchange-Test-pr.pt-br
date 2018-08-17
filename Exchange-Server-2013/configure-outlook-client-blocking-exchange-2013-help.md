@@ -114,7 +114,7 @@ A tabela a seguir mostra os números de versão para Outlook.
 
 
 
-> [!TIP]
+> [!NOTE]
 > Antes de fazer alterações, observe que versões de pacote de hotfixes e serviço podem afetar a cadeia de caracteres de versão do cliente. Tenha cuidado quando você restringir o acesso do cliente porque os componentes do servidor Exchange também devem usar o MAPI para logon. Alguns componentes relatá sua versão do cliente como o nome do componente (por exemplo, SMTP ou OLE DB), enquanto outros relatório a Exchange número (por exemplo, 6.0.4712.0) da compilação. Por esse motivo, evite restringindo clientes que têm números de versão que começam com 6. &lt;<EM>x</EM>. <EM>x</EM>. &gt;. Por exemplo, para impedir o acesso MAPI completamente, em vez de especificar <STRONG>0.0.0-6.5535.65535.65535</STRONG>, especifique os dois intervalos para que os componentes do servidor podem fazer logon. Por exemplo, especifique o seguinte: <STRONG>0.0.0-5.9.9; 7.0.0-</STRONG>.
 
 

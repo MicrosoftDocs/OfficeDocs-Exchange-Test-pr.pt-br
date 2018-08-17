@@ -58,7 +58,7 @@ A migração de lote para o Office 365 grupos requer a execução de um número 
 Antes de prosseguir, verifique se ter baixado e salvo todos os scripts e arquivos a seguir:
 
 
-> [!TIP]
+> [!NOTE]
 > Certifique-se de salvar todos os scripts e arquivos no mesmo local.
 
 
@@ -217,7 +217,7 @@ Depois que os usuários tiverem sido adicionados a um grupo no Office 365, eles 
 Quando a maioria dos dados em suas pastas públicas tenha migrado para o Office 365 grupos, você pode executar o script `LockAndSavePublicFolderProperties.ps1` no servidor Exchange 2010 para tornar as pastas públicas somente leitura. Essa etapa garante que nenhum dado novo é adicionado às pastas públicas antes que a migração for concluída.
 
 
-> [!TIP]
+> [!NOTE]
 > Se houver pastas públicas habilitadas para email (MEPFs) entre o público pastas sendo migradas, esta etapa copiará algumas propriedades de MEPFs, como endereços SMTP e ao grupo correspondente no Office 365 e, em seguida, a pasta pública de email-disable. Porque o MEPFs migrando vai ser desabilitada para email após a execução desse script, iniciará vendo emails enviados a MEPFs em vez disso, que está sendo recebidos nos grupos correspondentes. Para obter mais detalhes, consulte scripts de migração mais adiante neste artigo.
 
 

@@ -56,7 +56,7 @@ Para fornecer mais consistente taxa de transferência de mensagem e a latência 
 servidores de transporte de Exchange 2013 rastrear o custo médio de entrega de mensagens enviadas por usuários individuais. Usando os custos de mensagem, Exchange 2013 fornece um grupo de configurações que podem controlar o efeito que um usuário ou a conexão tem em uma organização do Exchange. Esse grupo de configurações é conhecido como uma *diretiva de limitação*. Quando um usuário repetidamente envia mensagens dispendiosas, como mensagens com anexos grandes ou que são enviadas para vários destinatários, o Exchange 2013-servidores de transporte baseado em usam uma política de limitação para atribuir uma prioridade mais baixa para mensagens de custo mais alto do usuário enquanto continua a entregar mensagens de menor custo. Esse novo comportamento adiciona um aspecto "de qualidade de serviço" à mensagem funcionalidade no Exchange 2013 de limitação.
 
 
-> [!TIP]
+> [!NOTE]
 > Limitação de mensagem não afeta a prioridade da mensagem da perspectiva de um usuário. Mensagens ainda mantêm a prioridade original definida pelo usuário. Por exemplo, mensagens de mantém uma configuração de importante ou urgente e assim por diante.
 
 

@@ -96,7 +96,7 @@ Voltar ao início
 Remetentes podem controlar as opções de conversão de mensagem TNEF padrão para mensagens TNEF enviadas a todos os destinatários fora da organização do Exchange. Essas opções são chamadas de opções de *formato de mensagem da Internet* . As opções se aplicam somente aos destinatários remotos e não aos destinatários na organização do Exchange.
 
 
-> [!TIP]
+> [!NOTE]
 > As opções seguintes definem como mensagens contendo o rich text do Outlook são manipuladas quando enviadas para destinatários externos. Se você estiver usando o formato da mensagem for HTML ou texto sem formatação, essas configurações não se aplicam.
 
 

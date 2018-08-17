@@ -18,7 +18,7 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013_
 _**Tópico modificado em:** 2017-01-18_
 
 
-> [!TIP]
+> [!NOTE]
 > Adiamos o prazo de 1 de julho de 2017 para criar novos Bloqueios In-loco no Exchange Online (em planos autônomos do Office 365 e do Exchange Online). No entanto, mais para o fim deste ano ou no início do próximo ano, não será possível criar novos Bloqueios In-loco no Exchange Online. Como alternativa ao uso de Bloqueios In-loco, use <A href="https://go.microsoft.com/fwlink/?linkid=780738">casos de descoberta eletrônica</A> ou <A href="https://go.microsoft.com/fwlink/?linkid=827811">políticas de retenção</A> no Centro de Conformidade e Segurança do Office 365. Após encerrarmos os novos Bloqueios In-loco, você ainda conseguirá modificar os existentes, e a criação de novos bloqueios em implantações híbridas no Exchange Server 2013 e no Exchange ainda terão suporte. Além disso, você poderá posicionar caixas de entrada em Retenção de Litígio.
 
 
