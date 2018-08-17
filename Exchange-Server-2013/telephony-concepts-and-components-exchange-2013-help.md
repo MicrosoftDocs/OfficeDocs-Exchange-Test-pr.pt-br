@@ -64,7 +64,7 @@ Em redes telefônicas comutadas, como a comutação telefônica PSTN (rede públ
 Uma rede baseada em circuitos comutados é uma rede em que existe uma conexão dedicada. Uma conexão dedicada é um circuito ou o canal configurar entre dois nós para que eles possam se comunicar. Depois que uma chamada é estabelecida entre dois nós, a conexão pode ser usada somente por esses dois nós. Quando a chamada é encerrada por um de nós, a conexão será cancelada.
 
 
-> [!TIP]
+> [!NOTE]
 > A PSTN é um agrupamento das redes públicas mundiais de telefone de comutação de circuitos. Esse agrupamento assemelha-se à Internet, que é um agrupamento das redes públicas mundiais de comutação de pacotes baseada em IP.
 
 
@@ -76,7 +76,7 @@ Há vantagens e desvantagens para redes telefônicas comutadas. Redes telefônic
 Comutação por circuito tem uma grande vantagem sobre redes de comutação de pacotes. Em uma rede baseada em circuitos comutados, quando você usa um circuito, você tem o circuito completo para o tempo que você está usando o circuito sem concorrência de outros usuários. Isso não é o caso com redes de comutação de pacotes.
 
 
-> [!TIP]
+> [!NOTE]
 > Síncrono Digital Hierarchy (SDH) tornou-se o protocolo de transmissão primário para a maioria das redes PSTN. SDH é realizada através de redes de fibra óptica.
 
 
@@ -90,7 +90,7 @@ Comutação de pacotes é uma técnica que divide uma mensagem de dados em unida
 Em redes de comutação de pacotes, como a Internet, pacotes são roteados para seu destino por meio da rota mais apropriada, mas não todos os pacotes entre dois hosts em viagem viajam da mesma rota, mesmo aqueles partir de uma única mensagem. Isso quase garante que os pacotes chegará em momentos diferentes e fora de ordem. Em uma rede de comutação de pacotes, pacotes (mensagens ou fragmentos de mensagens) são roteados individualmente entre os nós links de dados que podem ser compartilhados por outros nós. Com comutação de pacotes, ao contrário de alternar de circuito, várias conexões a nós na rede compartilham a largura de banda disponível.
 
 
-> [!TIP]
+> [!NOTE]
 > Com a alternância circuito, todos os pacotes vá para o receptor em ordem e um único caminho.
 
 
@@ -108,7 +108,7 @@ Voltar ao início
 Um PBX herdado é um dispositivo de telefonia que atua como um comutador para alternar entre as chamadas em uma rede baseada em circuitos comutados ou de telefonia.
 
 
-> [!TIP]
+> [!NOTE]
 > Um PBX herdado é um sistema PBX que não é possível passar pacotes IP. Em muitas empresas, PBXs herdados foram substituídos por PBXs IP.
 
 
@@ -128,7 +128,7 @@ Em empresas de médio porte e tamanho maior, as seguintes configurações de PBX
   - Um agrupamento de dois ou mais PBXs conectados juntos ou em rede.
 
 
-> [!TIP]
+> [!NOTE]
 > Um plano de discagem UM Exchange 2013 pode abranger mais de um PBX ou PBX IP.
 
 
@@ -158,7 +158,7 @@ Voice over Internet Protocol (VoIP) é uma tecnologia que contém o hardware e s
 Um gateway VoIP é um dispositivo de hardware de terceiros ou o produto que se conecta a um PBX herdado à sua rede local. O gateway VoIP permite que o sistema PBX se comunicar com seu Exchange 2013 caixa de correio e servidores de acesso para cliente executando a Unificação de mensagens do Microsoft Exchange e serviços de Unificação de mensagens de chamada roteador.
 
 
-> [!TIP]
+> [!NOTE]
 > O gateway de VoIP também pode se conectar aos sistemas de PBX que usam o VoIP em vez de protocolos comutadas de PSTN.
 
 

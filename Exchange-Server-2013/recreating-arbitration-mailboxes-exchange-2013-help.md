@@ -86,7 +86,7 @@ Se você precisar recriar uma ou mais dessas caixas de correio de arbitragem, co
 Use as instruções a seguir para recriar um tipo específico de caixa de correio de arbitragem.
 
 
-> [!TIP]
+> [!NOTE]
 > Todas as etapas nas seções a seguir devem ser executadas no mesmo diretório onde você extraiu da mídia de instalação do Exchange.
 
 

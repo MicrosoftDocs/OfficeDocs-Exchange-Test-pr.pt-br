@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2013-01-28_
 Com as ferramentas de gerenciamento do Microsoft Exchange Server 2013, é possível configurar e gerenciar remotamente a organização do Exchange. As ferramentas de gerenciamento do Exchange 2013 incluem o Shell de Gerenciamento do Exchange e a Caixa de Ferramentas do Exchange. Este tópico explica como é possível usar tanto o Setup.exe quanto o modo de instalação autônoma para instalar as ferramentas de gerenciamento do Exchange 2013.
 
 
-> [!TIP]
+> [!NOTE]
 > Não é preciso executar este procedimento para usar o Centro de Administração do Exchange (EAC) remotamente. O EAC é um console baseado na Web hospedado em computadores com a função de servidor de Acesso para Cliente do Exchange 2013. Para saber mais sobre como acessar o EAC remotamente, confira <A href="exchange-admin-center-in-exchange-2013-exchange-2013-help.md">Centro de administração do Exchange no Exchange 2013</A>.
 
 
@@ -61,26 +61,18 @@ Para mais informações sobre como gerenciar o Exchange 2013, confira [Centro de
 
 4.  Na página **Verificar se Há Atualizações**, escolha se deseja que a Instalação se conecte à Internet e baixe atualizações de segurança e produtos para o Exchange 2013. Se você selecionar **Conectar-se à Internet e verificar se há atualizações**, a Instalação baixará e aplicará atualizações antes de continuar. Se você selecionar **Não verificar atualizações agora**, poderá baixar e instalar atualizações manualmente mais tarde. Convém baixar e instalar atualizações agora. Clique em **Avançar** para continuar.
 
-5.  
-    
-    A página **Introdução** inicia o processo de instalação do Exchange na sua organização. Ela o guiará pela instalação. Vários links para conteúdo útil de implantação estão listados. Recomendamos que você visite esses links antes de continuar a instalação. Clique em **Avançar** para continuar.
+5.  A página **Introdução** inicia o processo de instalação do Exchange na sua organização. Ela o guiará pela instalação. Vários links para conteúdo útil de implantação estão listados. Recomendamos que você visite esses links antes de continuar a instalação. Clique em **Avançar** para continuar.
 
-6.  
-    
-    Na página **Contrato de Licença**, examine os termos de licença do software. Se você concordar com os termos, selecione **Aceito os termos do contrato de licença** e clique em **Avançar**.
+6.  Na página **Contrato de Licença**, examine os termos de licença do software. Se você concordar com os termos, selecione **Aceito os termos do contrato de licença** e clique em **Avançar**.
 
-7.  
-    
-    Na página **Configurações recomendadas**, selecione se deseja usar as configurações recomendadas. Caso selecione **Usar configurações recomendadas**, o Exchange automaticamente enviará relatórios de erros e informações à Microsoft sobre o hardware do seu computador e como você usa o Exchange. Se você selecionar **Não usar as configurações recomendadas**, essas configurações permanecerão desabilitadas, mas você poderá habilitá-las a qualquer momento após o término da Instalação. Para obter mais informações sobre essas configurações e como as informações enviadas à Microsoft são usadas, clique em **?**.
+7.  Na página **Configurações recomendadas**, selecione se deseja usar as configurações recomendadas. Caso selecione **Usar configurações recomendadas**, o Exchange automaticamente enviará relatórios de erros e informações à Microsoft sobre o hardware do seu computador e como você usa o Exchange. Se você selecionar **Não usar as configurações recomendadas**, essas configurações permanecerão desabilitadas, mas você poderá habilitá-las a qualquer momento após o término da Instalação. Para obter mais informações sobre essas configurações e como as informações enviadas à Microsoft são usadas, clique em **?**.
 
-8.  
-    
-    Na página **Seleção de Função de Servidor**, verifique se a opção **Ferramentas de Gerenciamento** está selecionada.
+8.  Na página **Seleção de Função de Servidor**, verifique se a opção **Ferramentas de Gerenciamento** está selecionada.
     
     Selecione **Instalar automaticamente as funções e os recursos do Windows Server necessários para instalar o Exchange Server** para que o assistente de Instalação instale os pré-requisitos necessários do Windows. Talvez seja necessário reiniciar o computador para concluir a instalação de alguns recursos do Windows. Se você não selecionar essa opção, deverá instalar os recursos do Windows manualmente.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Essa opção instala apenas os recursos do Windows necessários para o Exchange. Você deve instalar manualmente outros pré-requisitos. Para obter mais informações, confira <A href="exchange-2013-prerequisites-exchange-2013-help.md">Pré-requisitos do Exchange 2013</A>.
 
     
@@ -88,9 +80,7 @@ Para mais informações sobre como gerenciar o Exchange 2013, confira [Centro de
 
 9.  Na página **Espaço e local da instalação**, aceite o local de instalação padrão ou clique em **Procurar** para escolher um novo local. Verifique se você tem espaço em disco suficiente disponível no local onde deseja instalar o Exchange. Clique em **Avançar** para continuar.
 
-10. 
-    
-    Se for a primeira vez que você executa a Instalação do Exchange 2013 em sua organização, na página **Organização do Exchange**, digite um nome para sua organização do Exchange. O nome da organização do Exchange só pode conter os seguintes caracteres:
+10. Se for a primeira vez que você executa a Instalação do Exchange 2013 em sua organização, na página **Organização do Exchange**, digite um nome para sua organização do Exchange. O nome da organização do Exchange só pode conter os seguintes caracteres:
     
       - A a Z
     
@@ -103,26 +93,22 @@ Para mais informações sobre como gerenciar o Exchange 2013, confira [Centro de
       - Hífen ou travessão
         
 
-        > [!TIP]
+        > [!NOTE]
         > O nome da organização não pode conter mais de 64 caracteres. O nome da organização não pode ficar em branco.
 
     
     Se quiser usar o modelo de permissões de divisão do Active Directory, selecione **Aplicar modelo de segurança de permissões divididas do Active Directory à organização do Exchange**.
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > A maioria das organizações não precisa aplicar o modelo de permissões de divisão do Active Directory. Se você precisar de gerenciamento separado das entidades de segurança do Active Directory e da configuração do Exchange, as permissões de divisão do Controle de Acesso Baseado na Função (RBAC) poderão funcionar para você. Para maiores informações, clique em <STRONG>?</STRONG>.
 
     
     Clique em **Avançar** para continuar.
 
-11. 
-    
-    Na página **Verificações de Preparação**, exiba o status para determinar se as verificações de pré-requisitos de função de servidor e da organização foram concluídas com êxito. Se essas verificações não forem concluídas com êxito, será necessário resolver todos os erros relatados antes de instalar o Exchange 2013. Você não precisa sair da Instalação durante a resolução de alguns dos erros de pré-requisitos. Após resolver um erro informado, clique em **Voltar** e em **Avançar** para executar a verificação de pré-requisito novamente. Lembre-se de rever também todos os avisos relatados. Se todas as verificações de preparação tiverem sido concluídas com sucesso, clique em **Avançar** para instalar o Exchange 2013.
+11. Na página **Verificações de Preparação**, exiba o status para determinar se as verificações de pré-requisitos de função de servidor e da organização foram concluídas com êxito. Se essas verificações não forem concluídas com êxito, será necessário resolver todos os erros relatados antes de instalar o Exchange 2013. Você não precisa sair da Instalação durante a resolução de alguns dos erros de pré-requisitos. Após resolver um erro informado, clique em **Voltar** e em **Avançar** para executar a verificação de pré-requisito novamente. Lembre-se de rever também todos os avisos relatados. Se todas as verificações de preparação tiverem sido concluídas com sucesso, clique em **Avançar** para instalar o Exchange 2013.
 
-12. 
-    
-    Na página **Conclusão**, clique em **Concluir**.
+12. Na página **Conclusão**, clique em **Concluir**.
 
 13. Reinicie o computador depois que o Exchange 2013 terminar.
 

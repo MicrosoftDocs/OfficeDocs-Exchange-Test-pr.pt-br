@@ -59,7 +59,7 @@ RBAC é um componente que existe em cada servidor executando o Exchange 2013. RB
 Se o RBAC permite que uma ação continuar, a ação é executada no contexto do Exchange do subsistema confiável e não o contexto do usuário. Exchange do subsistema confiável é um grupo de segurança universal com altos privilégios (USG) que tenha acesso de leitura/gravação para cada Exchange-objeto relacionado na organização Exchange. Também é membro do grupo de segurança local Administradores e Exchange USG de permissões do Windows, que permite Exchange criar e gerenciar objetos de Active Directory.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Não faça as alterações manualmente para a associação do grupo de segurança Exchange subsistema confiável. Além disso, não adicioná-lo ao ou removê-lo da listas de controle de acesso (ACLs) do objeto. Fazendo alterações Exchange USG do subsistema confiável sozinho, você poderá causar dano irreparável à sua organização Exchange.
 
 
@@ -283,7 +283,7 @@ Exchange 2013 atinge Active Directory permissões de divisão, removendo permiss
 Para obter uma lista das alterações que ocorrem para o grupo de segurança de permissões deWindowsExchange e outros componentes Exchange quando você ativar ou desativar Active Directory dividir permissões, consulte a tabela a seguir.
 
 
-> [!TIP]
+> [!NOTE]
 > Atribuições de função a grupos de funções que permitem que administradores Exchange criar objetos de segurança são removidas quando Active Directory dividir permissões está habilitado. Isso é feito para remover o acesso aos cmdlets que, caso contrário, poderia gerar um erro quando são executados, porque eles não têm permissões para criar o objeto associado Active Directory.
 
 

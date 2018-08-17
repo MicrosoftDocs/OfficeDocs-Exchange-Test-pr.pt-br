@@ -36,7 +36,7 @@ No entanto, se a caixa de correio do sistema de descoberta for excluída acident
 2.  Use o Shell para habilitar a caixa de correio do sistema de descoberta.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Você não pode usar o EAC para habilitar a caixa de correio do sistema de descoberta.<BR>O comando a seguir deve ser executado do mesmo diretório onde você extraiu da mídia de instalação do Exchange.
 
     

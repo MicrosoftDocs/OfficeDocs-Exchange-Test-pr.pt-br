@@ -50,7 +50,7 @@ A Microsoft aceitará o Exchange 2013 em produção no software de virtualizaç�
       - Qualquer hipervisor de terceiros que tenha sido validado sob o [Programa de validação de virtualização do Windows Server](https://go.microsoft.com/fwlink/p/?linkid=125375).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Implantação do Exchange 2013 em provedores de infra-estrutura-como um serviço (IaaS) é suportada se todos os requisitos de suporte são atendidos. No caso de provedores que são provisionamento de máquinas virtuais, esses requisitos incluem garantindo que o hipervisor que está sendo usado para máquinas virtuais do Exchange é totalmente suportado e que atenda a infraestrutura a ser utilizado por Exchange o requisitos de desempenho que foram determinados durante o processo de dimensionamento. Implantação de máquinas virtuais do Microsoft Azure é suportada se todos os volumes de armazenamento usado para bancos de dados do Exchange e logs de transações do banco de dados (incluindo bancos de dados de transporte) estão configurados para o armazenamento do Azure Premium.
 
 

@@ -30,7 +30,7 @@ Existem três níveis de acesso que você pode especificar:
   - Acesso à disponibilidade, incluindo hora, assunto e local
 
 
-> [!TIP]
+> [!NOTE]
 > Se os usuários não quiserem compartilhar as informações de disponibilidade com outras pessoas, poderão alterar a entrada de permissão Padrão no Outlook. Para tanto, os usuários devem acessar a guia <STRONG>Propriedades do Calendário</STRONG> &gt; <STRONG>Permissões</STRONG>, selecionar a permissão <STRONG>Padrão</STRONG> e selecionar <STRONG>Nenhum</STRONG> na lista <STRONG>Nível de Permissão</STRONG>. Suas informações de disponibilidade não serão vistas por usuários internos ou externos, mesmo se houver um relacionamento de organização. As permissões definidas pelo usuário serão aplicadas.
 
 

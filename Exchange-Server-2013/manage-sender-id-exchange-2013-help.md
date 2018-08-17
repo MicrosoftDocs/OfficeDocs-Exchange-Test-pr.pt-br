@@ -50,7 +50,7 @@ Para habilitar a Identificação de Remetente, execute o seguinte comando:
     Set-SenderIDConfig -Enabled $true
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você desabilita a ID de Remetente, o agente de ID de Remetente subjacente permanece habilitado. Para desabilitar o agente de ID de Remetente, execute o comando: <CODE>Disable-TransportAgent "Sender ID Agent"</CODE>.
 
 

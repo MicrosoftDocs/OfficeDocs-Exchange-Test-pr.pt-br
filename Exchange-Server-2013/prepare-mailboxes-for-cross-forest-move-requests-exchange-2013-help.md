@@ -123,7 +123,7 @@ A tabela a seguir lista o conjunto mínimo de atributos que precisam ser configu
 <td><p><strong>proxyAddresses</strong></p></td>
 <td><p>Copie o atributo de <strong>proxyAddresses</strong> do correio de origem. Além disso, a cópia fonte <strong>LegacyExchangeDN</strong> como um X500 da caixa de correio endereço no atributo <strong>proxyAddresses</strong> do usuário de email de destino.</p>
 
-> [!TIP]
+> [!NOTE]
 > O <STRONG>proxyAddresses</STRONG> do usuário de caixa de correio de origem deve conter um endereço SMTP que corresponde ao domínio autoritativo da floresta de destino. Isso permite que o cmdlet <STRONG>New-MoveRequest</STRONG> selecionar corretamente o <STRONG>targetAddress</STRONG> do usuário habilitado para email fonte (convertido de usuário de caixa de correio de origem após concluir a solicitação de movimentação de caixa de correio) para garantir que o mail roteamento ainda está funcionando.
 
 
@@ -350,7 +350,7 @@ Se você deseja mover uma caixa de correio para uma floresta de recursos Exchang
 
 
 
-> [!TIP]
+> [!NOTE]
 > Uma caixa de correio vinculada só pode ser criada se não houver relação de confiança de floresta entre a floresta de origem e a floresta de destino.
 
 

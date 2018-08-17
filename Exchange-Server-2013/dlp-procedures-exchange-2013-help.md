@@ -30,7 +30,7 @@ Você pode começar usando uma solução de (DLP) de prevenção de perda de dad
 [Exibir relatórios de detecção de política DLP](view-dlp-policy-detection-reports-exchange-2013-help.md)   Rastrear violações de política.
 
 
-> [!TIP]
+> [!NOTE]
 > A Prevenção de Perda de Dados é um recurso premium que requer uma Licença de Acesso para Cliente Empresarial (CAL).
 
 

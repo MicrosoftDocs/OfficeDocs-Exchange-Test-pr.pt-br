@@ -22,7 +22,7 @@ Como desabilitar a publicação de calendário de Internet depende de como você
 Quando você desabilitar a publicação de calendário da Internet, os usuários que podem usar a política de compartilhamento não poderão compartilhar informações de calendário com o domínio **Anônimo** na Internet especificado na política. Entretanto, você não pode excluir ou desabilitar uma política de compartilhamento dedicada à publicação de calendário da Internet, até que todos os usuários provisionados para usar essa política tenham a configuração de política removida de suas caixas de correio. Para detalhes sobre como alterar a configuração de política para um usuário, consulte [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Quando uma política de compartilhamento é habilitada ou desabilitada, os usuários provisionados para usar a política continuam compartilhando informações até que o Assistente de Política de Compartilhamento seja executada. Para especificar com que frequência o Assistente de Política de Compartilhamento será executado, use o cmdlet <A href="https://technet.microsoft.com/pt-br/library/aa998651(v=exchg.150)">Set-MailboxServer</A> com o parâmetro <EM>SharingPolicySchedule</EM>.
 
 
@@ -98,7 +98,7 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-S
 ## Etapa 2: Usar o Shell para desabilitar os recursos de Anônimo do diretório virtual do Outlook Web App
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para desabilitar os recursos de Anônimo do diretório virtual do Outlook Web App.
 
 

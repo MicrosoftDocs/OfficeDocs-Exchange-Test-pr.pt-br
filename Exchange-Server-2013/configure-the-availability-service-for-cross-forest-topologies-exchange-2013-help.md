@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2014-10-22_
 O serviço de Disponibilidade melhora as informações de livre/ocupado dos funcionários ao proporcionar dados seguros, consistentes e atualizados de livre/ocupado a clientes que executam o MicrosoftOutlook. Por padrão, esse serviço é instalado com o Exchange Server 2013. Em topologias entre florestas, em que todos os clientes se conectando executam o Outlook, o serviço de Disponibilidade é o único método de recuperação de informações de disponibilidade. Você pode usar o Shell para configurar o serviço de Disponibilidade para topologias entre florestas.
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para configurar o serviço de Disponibilidade entre florestas.
 
 
@@ -67,7 +67,7 @@ Este exemplo define o método de acesso de disponibilidade usado pelo serviço d
     Add-AvailabilityAddressSpace -Forestname ContosoForest.com -AccessMethod PerUserFB -UseServiceAccount:$true
 
 
-> [!TIP]
+> [!NOTE]
 > Para configurar a disponibilidade bidirecional entre florestas, repita essas etapas na floresta de destino.
 
 

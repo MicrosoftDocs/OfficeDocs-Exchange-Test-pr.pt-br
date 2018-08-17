@@ -156,7 +156,7 @@ Banda larga RTAudio ou áudio de alta fidelidade para gravar mensagens de voz es
 Há dois fluxos de mídia para cada chamada de entrada: entrada para um servidor de Acesso para Cliente e saída para um servidor de Caixa de Correio. Quando o tipo de plano de discagem é configurado para SIP URI e o codec de atendimento de chamada é configurado para MP3 ou WMA, um servidor de Acesso para Cliente tenta escolher o codec VoIP de RTAudio para o fluxo de mídia de entrada. Se a negociação for bem sucedida, o codec RTAudio para o fluxo de entrada será usado para chamadas de atendimento de chamadas ou chamadas originadas de um cliente ou servidor Lync.
 
 
-> [!TIP]
+> [!NOTE]
 > Chamadas realizadas usando o recurso Tocar no Telefone não usarão o codec RTAudio. O fluxo de entrada de chamadas realizadas usando o recurso Tocar no Telefone usará o codec G.711 ou G.723.1.
 
 
@@ -226,7 +226,7 @@ O tamanho das mensagens de voz de UM dependem do tamanho do anexo que contém os
 A figura a seguir mostra como o tamanho do arquivo de áudio depende da duração da gravação da mensagem de voz para os três codecs de áudio que você pode usar na UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Nesta figura, a duração média de uma mensagem de voz de atendimento de chamadas é de aproximadamente 30 segundos.
 
 
@@ -244,7 +244,7 @@ Por padrão, o formato MP3 está selecionado e é o formato de arquivo de áudio
 WMA é o codec de áudio com maior taxa de compactação dos três tipos de codec. A compactação é de aproximadamente 11.000 bytes para cada 10 segundos de áudio. Entretanto, o formato do arquivo .wma tem uma seção de cabeçalho muito maior do que o formato de arquivo .wav. A seção de cabeçalho do arquivo .wma é de aproximadamente 7 quilobytes (KB), embora a seção de cabeçalho do arquivo .wav seja de menos de 100 bytes. Embora as gravações de áudio WMA sejam gravadas por mais de 15 segundos, ficam menores do que as gravações de áudio GSM. Portanto, para os menores arquivos de áudio, mas de alta qualidade, use o codec de áudio WMA.
 
 
-> [!TIP]
+> [!NOTE]
 > Se usar notificações por push na implantação local do OWA para Dispositivos, você não poderá usar o formato WMA. OWA para Dispositivos dá suporte apenas ao formato de arquivo MP3.
 
 

@@ -58,13 +58,13 @@ Este exemplo testa a capacidade do servidor de Acesso para Cliente local de escu
     Test-UMConnectivity -ListenPort 5061
 
 
-> [!TIP]
+> [!NOTE]
 > Use modo 1 quando o parâmetro <CODE>-UMIPGateway</CODE> não for especificado.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode definir o parâmetro <CODE>-Timeout</CODE> com um valor inferior a 5 segundos. No entanto, recomendamos que você sempre configure esse parâmetro com um valor de 5 segundos ou mais.
 
 

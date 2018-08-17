@@ -62,7 +62,7 @@ Este exemplo faz as seguintes alterações para o diretório de Retirada no serv
     Set-TransportService Exchange01 -PickupDirectoryPath "D:\Pickup Directory" -PickupDirectoryMaxHeaderSize 96KB -PickupDirectoryMaxRecipientsPerMessage 250 -PickupDirectoryMaxMessagesPerMinute 200
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Configurar o parâmetro <EM>PickupDirectoryPath</EM> para o valor <CODE>$null</CODE> desativa o diretório de Retirada.</P>
@@ -88,7 +88,7 @@ Este exemplo faz as seguintes alterações para o diretório de Reprodução no 
     Set-TransportService Exchange01 -ReplayDirectoryPath "D:\Replay Directory" -PickupDirectoryMaxMessagesPerMinute 200
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Configurar o parâmetro <EM>ReplayDirectoryPath</EM> para o valor <CODE>$null</CODE> desativa o diretório de Reprodução.</P>

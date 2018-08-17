@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2014-05-07_
 Por padrão, a Pesquisa do Exchange é habilitada para todos os novos bancos de dados de caixa de correio e não exige configuração adicional. Entretanto, se você quiser que a Pesquisa do Exchange pare de indexar o conteúdo da caixa de correio, você pode desabilitar a pesquisa para bancos de dados de caixas de correio individuais ou para todo um servidor de Caixa de Correio.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Desabilitar a Pesquisa do Exchange afeta a funcionalidade e o desempenho das pesquisas de texto completo executadas pelos seus usuários com o Outlook no modo online ou em dispositivos móveis com Windows.<BR>O <A href="in-place-ediscovery-exchange-2013-help.md">Descoberta Eletrônica In-loco</A> também depende da Pesquisa do Exchange. Se você desabilitar a Pesquisa do Exchange para um banco de dados de caixa de correio ou para um servidor de Caixa de Correio, as pesquisas de Descoberta eletrônica In-loco não retornarão mensagens do banco de dados ou do servidor.
 
 
@@ -46,7 +46,7 @@ Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fór
 Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o Entrada \&quot;Pesquisa do Exchange\&quot; no tópico [Permissões de destinatários](recipients-permissions-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Não é possível usar o EAC para desabilitar ou habilitar a Pesquisa do Exchange para um banco de dados de caixa de correio.
 
 
@@ -76,7 +76,7 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 3.  Na guia **Geral**, na lista **Tipo de Inicialização**, selecione **Desabilitado**, para desabilitar o serviço, ou **Automático**, para iniciá-lo automaticamente.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O tipo de inicialização afetará o serviço na próxima vez que for feita uma tentativa de inicializá-lo, seja automaticamente, após o servidor ser reiniciado, ou manualmente. Na próxima etapa, o serviço será interrompido ou iniciado manualmente.
 
 

@@ -58,7 +58,7 @@ Este exemplo define o agente de seguir as configurações de log no servidor de 
     Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Se você definir o parâmetro <EM>AgentLogPath</EM> como o valor <CODE>$null</CODE>, você efetivamente desabilitar o log de agente. No entanto, se você definir <EM>AgentLogPath</EM> como <CODE>$null</CODE> quando o valor do parâmetro <EM>AgentLogEnabled</EM> é <CODE>$true</CODE>, erros de log de eventos são gerados. O método preferencial para desabilitar o log de agente é definida <EM>AgentLogEnabled</EM> como <CODE>$false</CODE>.</P>

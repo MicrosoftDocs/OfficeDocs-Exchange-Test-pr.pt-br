@@ -104,7 +104,7 @@ No Exchange 2013, você pode usar os recursos de IRM para aplicar proteção per
 O AD RMS usa certificados e licenças baseados em XrML (eXtensible Rights Markup Language) para certificar computadores e usuários e para proteger conteúdo. Quando conteúdo, como um documento ou uma mensagem, é protegido com AD RMS, é anexada uma licença XrML contendo os direitos que os usuários autorizados têm para o conteúdo anexado. Para acessar o conteúdo protegido por IRM, os aplicativos habilitados para AD RMS devem conseguir uma licença de uso para o usuário autorizado do cluster AD RMS.
 
 
-> [!TIP]
+> [!NOTE]
 > No Exchange 2013, o agente de pré-licenciamento anexa uma licença de uso a mensagens protegidas usando o cluster AD RMS na sua organização. Para mais informações, consulte Prelicensing, posteriormente neste tópico.
 
 
@@ -158,7 +158,7 @@ Em Exchange 2010, proteção IRM pode ser aplicada às mensagens usando os segui
   - **Automaticamente nos servidores de Caixa de Correio**   Você pode criar regras de proteção de transporte para proteger com IRM automaticamente as mensagens nos servidores de Caixa de Correio do Exchange 2013. Para mais informações sobre regras de proteção de transporte, consulte [Regras de proteção de transporte](transport-protection-rules-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > A proteção de IRM não é aplicada novamente a mensagens que já estão protegidas por IRM. Por exemplo, se um usuário proteger com IRM uma mensagem no Outlook ou Outlook Web App, a proteção com IRM não será aplicada à mensagem, com o uso de uma regra de proteção de transporte.
 
 
@@ -226,7 +226,7 @@ Para impor diretivas de mensagens e para conformidade regulamentar, você deve p
   - **Descriptografia do IRM para a Pesquisa do Exchange**   Com a descriptografia do IRM para a Pesquisa do Exchange, a Pesquisa do Exchange pode indexar o conteúdo de mensagens protegidas com IRM. Quando um gerenciador de descobertas executa uma pesquisa de Descoberta Eletrônica In-loco, as mensagens protegidas com IRM que tiverem sido indexadas são retornadas nos resultados da pesquisa. Para mais informações, consulte [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Na Exchange 2010 SP1 e posterior, os membros do grupo de função de gerenciamento de descoberta podem acessar mensagens protegidas por IRM retornado por uma pesquisa de descoberta e que residem em uma caixa de correio de descoberta. Para habilitar essa funcionalidade, use o parâmetro <EM>EDiscoverySuperUserEnabled</EM> com <A href="https://technet.microsoft.com/pt-br/library/dd979792(v=exchg.150)">Set-IRMConfiguration</A> cmdlet. Para obter mais informações, consulte <A href="configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md">Configurar o IRM para descoberta eletrônica In-loco e de pesquisa do Exchange</A>.
 
 
@@ -246,7 +246,7 @@ Voltar ao início
 No Exchange 2013, a funcionalidade do IRM é habilitada usando-se agentes de transporte no serviço de Transporte, nos servidores de Caixa de Correio. Os agentes do IRM são instalados pela Instalação do Exchange em um servidor de Caixa de Correio. Não é possível controlar agentes IRM usando as tarefas de gerenciamento de agentes de transporte.
 
 
-> [!TIP]
+> [!NOTE]
 > No Exchange 2013, os agentes de IRM são agentes embutidos. Agentes integrados não estão incluídos na lista de agentes retornados pelo cmdlet <STRONG>Get-TransportAgent</STRONG>. Para mais informações, consulte <A href="transport-agents-exchange-2013-help.md">Agentes de transporte</A>.
 
 
@@ -359,7 +359,7 @@ Para implementar o IRM na sua organização do Exchange 2013, sua implantação 
 
 
 
-> [!TIP]
+> [!NOTE]
 > <EM>ClusterAD RMS</EM> é o termo usado para a implantação do AD RMS em uma organização, incluindo uma implantação de um servidor único. O AD RMS é um serviço da web. Você não precisa configurar um cluster de failover do Windows Server. Para alta disponibilidade e equilíbrio de carga, você pode implantar vários servidores do AD RMS no cluster e usar Balanceamento de Carga de Rede.
 
 

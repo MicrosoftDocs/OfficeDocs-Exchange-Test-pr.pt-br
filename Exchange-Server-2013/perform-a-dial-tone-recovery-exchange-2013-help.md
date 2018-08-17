@@ -38,7 +38,7 @@ O uso da portabilidade de sinal de linha permite que os usuários tenham uma cai
 ## Usar o Shell para executar uma recuperação de sinal de linha em um único servidor
 
 
-> [!TIP]
+> [!NOTE]
 > Não é possível usar o EAC para executar uma recuperação de sinal de linha em um único servidor
 
 

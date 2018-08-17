@@ -64,7 +64,7 @@ A tabela a seguir identifica os cenários de Descoberta Eletrônica em uma impla
 <td><p>Pesquisa de caixas de correio locais usando uma pesquisa de Descoberta Eletrônica iniciada na organização local do Exchange por um administrador ou responsável pela conformidade.</p></td>
 <td><p>Não</p>
 
-> [!TIP]  
+> [!NOTE]  
 > Conforme discutido anteriormente, a autenticação OAuth seria necessária se as caixas de correio locais fossem configuradas com caixas de correio de arquivamento com base na nuvem.
 
 
