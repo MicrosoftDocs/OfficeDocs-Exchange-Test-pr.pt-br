@@ -22,7 +22,7 @@ Você pode habilitar pesquisas de diretório para que os chamadores que ligam pa
 Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](um-auto-attendant-procedures-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Outlook usuários Voice Access não podem usar o reconhecimento automático de fala (ASR) ou entradas de fala para localizar usuários no diretório, eles só podem usar DTMF ou entradas de toque.
 
 

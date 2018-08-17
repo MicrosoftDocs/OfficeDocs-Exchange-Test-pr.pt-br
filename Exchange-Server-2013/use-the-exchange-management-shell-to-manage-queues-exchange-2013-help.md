@@ -250,7 +250,7 @@ Voltar ao início
 O Exchange 2013 adiciona um novo cmdlet de fila chamado **Get-QueueDigest**. Esse cmdlet permite exibir informações sobre algumas ou todas as filas em sua organização do Exchange com um único comando. Especificamente, o cmdlet **Get-QueueDigest** permite que você exiba informações sobre filas com base em sua localização nos servidores, em DAGs, nos sites do Active Directory ou em toda a floresta do Active Directory. Observe que filas em um servidor de Transporte de Borda inscrito na rede de perímetro não são incluídas nos resultados. Além disso, **Get-QueueDigest** está disponível em um servidor de Transporte de Borda, mas os resultados estão restritos a filas no servidor de Transporte de Borda.
 
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, o cmdlet <STRONG>Get-QueueDigest</STRONG> exibe as filas de entrega que contenham dez ou mais mensagens e os resultados são de um a dois minutos atrás. Para instruções sobre como alterar estes valores padrões, consulte <A href="configure-get-queuedigest-exchange-2013-help.md">Configurar Get-QueueDigest</A>.
 
 

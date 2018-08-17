@@ -64,7 +64,7 @@ Se você não quiser inscrever o servidor de Transporte de Borda em um site do A
         New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "D:\Data\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -Site "Default-First-Site-Name"
     
 
-    > [!TIP]
+    > [!NOTE]
     > Você pode usar os parâmetros <EM>CreateInternetSendConnector</EM> ou <EM>CreateInboundSendConnector</EM> para impedir a criação automática de um ou ambos os Conectores de envio exigidos. Para obter mais informações, consulte <A href="edge-subscriptions-exchange-2013-help.md">Inscrições de Borda</A>.
 
 

@@ -50,7 +50,7 @@ Usuários de email são semelhantes a contatos de email. Ambos têm endereços d
       - Para especificar um endereço de email SMTP para o endereço de email externo do usuário de email, clique em **SMTP**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > O Exchange valida endereços SMTP para formatação correta. Se a sua entrada for inconsistente com o formato SMTP, será exibida uma mensagem de erro quando você clicar em <STRONG>Salvar</STRONG> para criar o usuário de email.
 
     
@@ -81,7 +81,7 @@ Usuários de email são semelhantes a contatos de email. Ambos têm endereços d
       - **\* Nome**   Use essa caixa para digitar um nome para o usuário de email. Esse é o nome listado no serviço de diretório. Essa caixa também é preenchida com os nomes que você insere nas caixas **Nome**, **Iniciais** e **Sobrenome**. Se você não tiver usado essas caixas, ainda deverá digitar um nome, pois essa caixa é obrigatória. Esse nome também não pode exceder 64 caracteres.
         
 
-        > [!TIP]
+        > [!NOTE]
         > A caixa <STRONG>Nome</STRONG> só está disponível no Exchange Server 2013. Ela não está disponível no Exchange Online.
 
     
@@ -90,21 +90,21 @@ Usuários de email são semelhantes a contatos de email. Ambos têm endereços d
         Para selecionar uma UO diferente, clique em **Procurar**. A caixa de diálogo exibe todas as OUs da floresta que estão no escopo especificado. Selecione a UO desejada e clique em **OK**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > A caixa <STRONG>Unidade organizacional</STRONG> só está disponível no Exchange Server 2013. Ela não está disponível no Exchange Online.
 
     
       - **\* Nome de logon do usuário**    Use essa caixa para digitar o nome que o usuário de email usará para fazer logon no domínio. O nome de logon do usuário consiste em um nome de usuário no lado esquerdo do símbolo (@) e um sufixo no lado direito. Geralmente, o sufixo é o nome do domínio no qual a conta do usuário reside.
         
 
-        > [!TIP]
+        > [!NOTE]
         > No Exchange Online, essa caixa se chama <STRONG>ID de usuário</STRONG>.
 
     
       - **\* Nova senha**   Use essa caixa para digitar a senha que o usuário de email utilizará para fazer logon no domínio.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Verifique se a senha fornecida é compatível com os requisitos de tamanho, complexidade e histórico do domínio no qual você está criando a conta do usuário.
 
     
@@ -201,7 +201,7 @@ Use a seção **Geral** para exibir ou alterar as informações básicas sobre o
   - **O usuário deve alterar a senha no próximo logon**   Marque essa caixa de seleção se quiser que o usuário redefina a senha da próxima vez em que fizer logon no domínio.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Essa caixa não está disponível no Exchange Online.
 
 
@@ -211,7 +211,7 @@ Clique em **Mais opções**, para exibir ou alterar essas propriedades adicionai
   - **Unidade organizacional**   Essa caixa somente leitura exibe a unidade organizacional (OU) que contém a conta do usuário. Você pode usar Usuários e Computadores do Active Directory para mover a conta de usuário para uma OU diferente.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Essa caixa não está disponível no Exchange Online.
 
 
@@ -253,7 +253,7 @@ Use a seção **Endereços de email** para exibir ou alterar os endereços de em
       - **Tipo de endereço personalizado**   Clique nesse botão e digite um dos tipos de endereço de email não SMTP compatíveis na caixa **\* Endereço de email**.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Com a exceção de endereços X.400, o Exchange não valida endereços personalizados para a formatação adequada. Certifique-se de que o endereço personalizado que você especificar esteja de acordo com os requisitos de formato para esse tipo de endereço.
 
 
@@ -263,7 +263,7 @@ Use a seção **Endereços de email** para exibir ou alterar os endereços de em
   - **Atualizar automaticamente os endereços de email com base na política de endereços de email aplicados a este destinatário**   Marque essa caixa de seleção para que os endereços de email do destinatário sejam atualizados automaticamente com base nas alterações feitas nas políticas de endereços de email em sua organização. Essa caixa de seleção é marcada por padrão.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Essa caixa de seleção não está disponível no Exchange Online.
 
 
@@ -303,7 +303,7 @@ Use a seção **Membro de** para visualizar uma lista de grupos de distribuiçã
 Use a seção **Dica de Email** para adicionar uma Dica de Email a fim de alertar os usuários de possíveis problemas antes que seja enviada uma mensagem a este destinatário. Uma Dica de Email é o texto exibido na Barra de Informações quando esse destinatário é adicionado às linhas Para, Cc ou Cco de uma nova mensagem de email.
 
 
-> [!TIP]
+> [!NOTE]
 > As Dicas de Email podem incluir marcas HTML, mas scripts não são permitidos. O comprimento de uma dica de email personalizada não pode exceder 175 caracteres exibidos. As marcas HTML não são contadas no limite.
 
 
@@ -399,13 +399,13 @@ Para verificar se você executou com sucesso uma edição em massa dos usuários
 Esta seção oferece informações sobre o gerenciamento de usuários de email usando a sincronização de diretórios no Exchange Online. A sincronização de diretórios está disponível para clientes híbridos com caixas de correio hospedadas na nuvem e locais e para clientes do Exchange Online totalmente hospedados cujo Active Directory é local.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você utilizar a sincronização de diretórios para gerenciar seus destinatários, ainda é possível adicionar e gerenciar usuários no Centro de administração do Office 365, porém eles não serão sincronizados com seu Active Directory local. Isso porque a sincronização de diretórios sincroniza apenas destinatários de seu Active Directory local com a nuvem.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > A sincronização de diretório é recomendada para uso com os seguintes recursos: 
 > <UL>
 > <LI>

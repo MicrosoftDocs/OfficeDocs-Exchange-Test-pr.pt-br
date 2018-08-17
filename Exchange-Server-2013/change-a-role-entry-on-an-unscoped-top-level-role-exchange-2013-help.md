@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-10-03_
 As entradas de função de gerenciamento em funções de gerenciamento de nível superior sem escopo se referem aos scripts e cmdlets não-Exchange e seus parâmetros que você pretende disponibilizar aos atribuídos à função. Ao alterar os parâmetros disponíveis em uma entrada de função, você controla qual dos atribuídos à função podem ser disponibilizados com o script ou o cmdlet não-Exchange. Para obter mais informações sobre entradas de função sem escopo, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Se você quiser alterar uma entrada de função em uma função de gerenciamento que contenha cmdlets do Exchange, consulte <A href="change-a-role-entry-exchange-2013-help.md">Alterar uma entrada de função</A>.
 
 
@@ -82,7 +82,7 @@ Para remover parâmetros de uma entrada de função, é necessário proceder da 
   - Especifique o parâmetro *UnscopedTopLevel* para indicar que você está alterando uma entrada de função em uma função de nível superior sem escopo. Se você não especificar esse parâmetro quando alterar uma entrada de função em uma função sem escopo, ocorre um erro.
 
 
-> [!WARNING]
+> [!CAUTION]
 > As operações de remoção não podem ser desfeitas. Se você tiver removido por engano um parâmetro de uma entrada de função, será preciso adicioná-lo manualmente outra vez.
 
 
@@ -110,7 +110,7 @@ A remoção de todos os parâmetros de uma entrada de função é mais útil qua
 Se não quiser que a função tenha acesso a um script ou cmdlet não-Exchange, remova a entrada de função associada da função por completo em vez de apenas remover os parâmetros. Para mais informações sobre como remover uma entrada de função de uma função, consulte [Remover uma entrada de função de uma função](remove-a-role-entry-from-a-role-exchange-2013-help.md).
 
 
-> [!WARNING]
+> [!CAUTION]
 > As operações de remoção não podem ser desfeitas. Se você removeu por engano todos os parâmetros de uma entrada de função, será preciso adicioná-los manualmente outra vez.
 
 
@@ -134,7 +134,7 @@ Se quiser incluir apenas um conjunto específico de parâmetros a uma entrada de
   - Especifique o parâmetro *UnscopedTopLevel* para indicar que você está alterando uma entrada de função em uma função sem escopo. Se você não especificar esse parâmetro quando alterar uma entrada de função em uma função de nível superior sem escopo, ocorrerá um erro.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Ao especificar apenas o parâmetro <EM>Parameters</EM>, só os parâmetros que você especificar no comando serão incluídos na entrada de função. Todos os outros parâmetros são removidos.
 
 

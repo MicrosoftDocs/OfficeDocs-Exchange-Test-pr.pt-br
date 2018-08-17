@@ -74,7 +74,7 @@ Este exemplo define estas configurações de log de conectividade no serviço de
     Set-TransportService Mailbox01 -ConnectivityLogPath "D:\Hub Connectivity Log" -ConnectivityLogMaxFileSize 20MB -ConnectivityLogMaxDirectorySize 1.5GB -ConnectivityLogMaxAge 45.00:00:00
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Para definir as configurações do log de conectividade no serviço de Transporte de Caixa de Correio em um servidor de Caixa de Correio, use o cmdlet <STRONG>Set-MailboxTransportService</STRONG>. Para definir as configurações do log de conectividade no serviço de Transporte de Front End em um servidor de Acesso para Cliente, use o cmdlet <STRONG>Set-FrontEndTransportService</STRONG>.</P>

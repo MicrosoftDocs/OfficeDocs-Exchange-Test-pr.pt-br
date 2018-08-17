@@ -22,7 +22,7 @@ A Microsoft Exchange 2010 Unified Messaging Troubleshooting Tool é um cmdlet do
 A Ferramenta de Solução de Problemas UM pode ser usada para testar se o correio de voz está funcionando corretamente em implantações locais e em vários locais. Você pode usar esta ferramenta nas implantações de UM que incluem Microsoft Office Communications Server 2007 R2 ou o Microsoft Lync Server 2010 ou posterior, ou em implantações de UM que incluam gateways VoIP, IP Private Branch eXchanges (IP PBXs), ou controladores de borda de sessão (SBCs).
 
 
-> [!TIP]
+> [!NOTE]
 > A Ferramenta de Solução de Problemas UM é usada para teste e solução de problemas. Já o cmdlet <STRONG>Test-UMConnectivity</STRONG> deve ser usado para monitoramento. O cmdlet <STRONG>Test-UMConnectivity</STRONG> é usado com os pacotes de gerenciamento do with System Center Operations Manager (SCOM) usados para monitorar os servidores de UM do Exchange 2010 ou os servidores de Caixa de Correio e de Acesso do Cliente do Exchange 2013 e os componentes de telefonia. O cmdlet <STRONG>Test-UMConnectivity</STRONG> realiza testes SIP locais e testes de logon locais em caixas de correio, podendo ser executado como uma tarefa SCOM.
 
 
@@ -216,7 +216,7 @@ Se você estiver usando a Ferramenta de Solução de Problemas de UM em uma vers
   - Microsoft .NET Framework 3.5 Service Pack 1 (SP1) consulte [Microsoft .NET Framework 3.5 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=152380).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se a ferramenta for executada em um computador Windows Vista ou Windows Server 2008, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=178998">Microsoft .NET Framework 3.5 Family Update para Windows Vista x64 e Windows Server 2008 x64</A>.
 
 

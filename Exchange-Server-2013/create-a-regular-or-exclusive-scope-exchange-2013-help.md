@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-04-07_
 Escopos da função de gerenciamento determinam quais objetos são disponibilizados para um usuário para que os objetos podem ser alterados usando os cmdlets e parâmetros atribuídos a eles. Adicionando um escopo de gerenciamento, você pode configurar as atribuições de função de gerenciamento para que os usuários podem administrar servidores específicos, bancos de dados, os destinatários e outros objetos em sua organização enquanto impedidos alterando a outros objetos.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Quando você cria um escopo regular ou exclusivo, você pode substituir o escopo de gravação que é definido na função de gerenciamento que está sendo atribuído. Você não pode substituir o escopo de leitura que está configurado na função de gerenciamento.
 
 
@@ -46,7 +46,7 @@ Procurando outras tarefas de gerenciamento relacionadas a escopos? Consulte [Per
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -72,7 +72,7 @@ Este exemplo cria um escopo que inclui todas as caixas de correio dentro do cont
     New-ManagementScope -Name "Mailboxes in Sales OU" -RecipientRestrictionFilter { RecipientType -eq 'UserMailbox' } -RecipientRoot "contoso.com/Sales OU"
 
 
-> [!TIP]
+> [!NOTE]  
 > Você pode omitir o parâmetro <EM>RecipientRoot</EM> se quiser que o filtro a ser aplicado a todo implícito leitura o escopo da função de gerenciamento e não apenas dentro de uma OU específica.
 
 

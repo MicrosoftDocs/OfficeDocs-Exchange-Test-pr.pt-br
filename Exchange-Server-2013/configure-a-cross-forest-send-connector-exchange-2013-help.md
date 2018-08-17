@@ -60,7 +60,7 @@ Estabelece o fluxo de email entre florestas usando a autenticação básica.
     Para **autenticação de host inteligente**, escolha **a autenticação básica** e forneça um nome de usuário e senha. Aqui, você pode escolher **a autenticação básica de oferta somente após iniciar TLS** para comunicação segura sobre TLS.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você usar a autenticação básica sobre TLS, o servidor de destino deve ser configurado para usar um certificado x. 509.
 
 

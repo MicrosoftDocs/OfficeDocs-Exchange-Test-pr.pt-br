@@ -22,7 +22,7 @@ Você pode desabilitar o email para um usuário de email existente na sua organi
 Após desabilitar o email para um usuário de email, você pode habilitar o usuário para email novamente usando o cmdlet **Enable-MailUser** no Shell. Você também pode usar esse cmdlet para habilitar qualquer usuário do Active Directory.
 
 
-> [!TIP]
+> [!NOTE]
 > Usuários de email (também chamados de <EM>usuários habilitados para email</EM>) são diferentes de usuários na sua organização que possuem uma caixa de correio. A principal diferença é que usuários de email representam usuários fora da sua organização do Exchange que possuem endereços de email externos. Eles não têm uma caixa de correio em sua organização. Para obter mais informações sobre as diferenças entre usuários que possuem caixas de correio em sua organização e usuários de email, consulte <A href="recipients-exchange-2013-help.md">Destinatários</A>.
 
 
@@ -154,7 +154,7 @@ Para verificar se você habilitou para email com êxito usuários do Active Dire
   - No EAC, navegue até **Destinatários** \> **Contatos**. Novos usuários de email são exibidos na lista de contatos. Em **Tipo de contato**, o tipo é **Usuário de email**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Pode ser necessário clicar em <STRONG>Atualizar</STRONG><IMG title="Ícone Atualizar" alt="Ícone Atualizar" src="images/Dd353189.85f271ca-32a4-426c-842a-d2172567099d(EXCHG.150).gif"> para exibir novos usuários de email.
 
 

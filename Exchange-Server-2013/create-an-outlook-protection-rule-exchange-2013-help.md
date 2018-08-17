@@ -48,7 +48,7 @@ Este exemplo cria a regra de proteção de Outlook Project Contoso. A regra prot
     New-OutlookProtectionRule -Name "Project Contoso" -SentTo "DL-ContosoPMs@contoso.com" -ApplyRightsProtectionTemplate "Business Critical"
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você usa o predicado <CODE>SentTo</CODE> para uma regra de proteção de Outlook e especificar um grupo de distribuição, somente as mensagens endereçadas ao grupo de distribuição no para, Cc ou Cco campos são protegidas por IRM. Proteção de IRM não é aplicada às mensagens endereçadas a membros individuais do grupo de distribuição.
 
 
@@ -66,7 +66,7 @@ Para verificar se você criou com êxito uma regra de proteção do Outlook, fa�
   - Use Outlook 2010 para criar uma mensagem de teste que atenda a condição da regra e certificar-se de que a regra for acionada no cliente.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Pode levar algum tempo para que uma regra de proteção do Outlook esteja disponível no Outlook.
 
 

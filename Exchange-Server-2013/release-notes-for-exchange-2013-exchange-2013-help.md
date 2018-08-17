@@ -118,7 +118,7 @@ Para obter mais informações sobre como instalar o Exchange 2013, consulte [Pla
     Para instalar, desinstalar ou gerenciar agentes de transporte em servidores de Acesso para Cliente, faça o seguinte no servidor de Acesso para Cliente que deseja gerenciar:
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > O carregamento do snap-in do Windows PowerShell do <CODE>Microsoft.Exchange.Management.PowerShell.SnapIn</CODE> e a execução de cmdlets que não sejam <STRONG>*-TransportAgent</STRONG> não é suportado e pode resultar em dano irreparável à sua implantação do Exchange.<BR>É necessário ser um Administrador local no servidor de Acesso para Cliente em que você deseja instalar, desinstalar ou gerenciar agentes de transporte. Não oferecemos suporte à modificação de listas de controle de acesso (ACLs) em arquivos, diretórios ou objetos do Active Directory no Exchange.
 
     
@@ -166,7 +166,7 @@ Para obter mais informações sobre como instalar o Exchange 2013, consulte [Pla
   - **MAPI sobre HTTP pode ter um baixo desempenho ao atualizar para o Exchange 2013 SP1**   Se você atualizar de uma atualização cumulativa do Exchange 2013 para o Exchange 2013 SP1 e habilitar o MAPI sobre HTTP, os clientes que se conectam a um servidor do Exchange 2013 SP1 usando o protocolo poderão ter baixo desempenho. Isso acontece porque as configurações necessárias não são definidas durante uma atualização cumulativa para o Exchange 2013 SP1. Esse problema não ocorrerá se você atualizar para o Exchange 2013 SP1 do Exchange 2013 RTM ou se você instalar um novo servidor do Exchange 2013 SP1 ou mais recente.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Isso só será um problema caso o protocolo MAPI sobre HTTP esteja habilitado em seus servidores de Acesso para Cliente. Ele está desabilitado por padrão. Se MAPI sobre HTTP estiver desabilitado, os clientes usarão o protocolo RPC sobre HTTP.
 
     

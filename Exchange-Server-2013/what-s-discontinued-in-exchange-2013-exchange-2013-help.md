@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2016-12-09_
 Este tópico discute os componentes, os recursos ou as funcionalidades que foram removidos, descontinuados ou substituídos no Microsoft Exchange Server 2013.
 
 
-> [!TIP]  
+> [!NOTE]  
 > Os tópicos a seguir também podem interessar a você: 
 > <UL>
 > <LI>
@@ -197,7 +197,7 @@ Essa seção lista os recursos do Exchange Server 2010 que não estão mais disp
 <td><p>Agente de Filtragem de Conexão em servidores de Transporte de Hub</p></td>
 <td><p>No Exchange 2010, quando você habilitar os agentes antispam em um servidor de Transporte de Hub, o agente do Filtro de Anexos era o único agente antispam que não estava disponível. No Exchange 2013, quando você habilita os agentes antispam no servidor Caixa de Correio, o agente Filtro de Anexos e o agente Filtragem de Conexão não ficam disponíveis. O agente do Filtro de Conexão oferece os recursos Lista de IP Permitidos e Lista de IP Bloqueados. Para informações sobre como habilitar os agentes antispam em um servidor de Caixa de Correio <a href="enable-anti-spam-functionality-on-mailbox-servers-exchange-2013-help.md">Habilitar a funcionalidade anti-spam em servidores de caixa de correio</a>.</p>
 
-> [!TIP]  
+> [!NOTE]  
 > Não é possível habilitar os agentes antispam em um servidor de Acesso para Cliente do Exchange 2013. Portanto, a única maneira de obter o agente Filtragem de Conexão é instalando um servidor de Transporte de Borda na rede de perímetro. Para obter mais informações, consulte <A href="edge-transport-servers-exchange-2013-help.md">Servidores de Transporte de Borda</A>.
 
 
@@ -226,7 +226,7 @@ Essa seção lista os recursos do Exchange Server 2010 que não estão mais disp
 <td><p>Pastas gerenciadas</p></td>
 <td><p>Exchange 2010, você usa pastas gerenciadas para mensagens (MRM) de gerenciamento de retenção. Em Exchange 2013, pastas gerenciadas não são suportadas. Você deve usar políticas de retenção para MRM.</p>
 
-> [!TIP]  
+> [!NOTE]  
 > Cmdlets relacionados a pastas gerenciadas ainda estão disponíveis. Você pode criar pastas gerenciadas, configurações de conteúdo gerenciado e políticas de caixa de correio de pasta gerenciada e aplicar uma política de caixa de correio de pasta gerenciada a um usuário, mas o assistente MRM ignora o processamento das caixas de correio a que tenha sido aplicada uma política de caixa de correio de pasta pública.
 
 
@@ -543,7 +543,7 @@ Essa seção lista os recursos do Exchange Server 2007 que não estão mais disp
 <td><p>Pastas gerenciadas</p></td>
 <td><p>No Exchange 2007, você usa pastas gerenciadas para gerenciamento de retenção de mensagens (MRM). No Exchange 2013, pastas gerenciadas não são suportadas. Você deve usar políticas de retenção para MRM.</p>
 
-> [!TIP]  
+> [!NOTE]  
 > Cmdlets relacionados a pastas gerenciadas ainda estão disponíveis. Você pode criar pastas gerenciadas, configurações de conteúdo gerenciado e políticas de caixa de correio de pasta gerenciada e aplicar uma política de caixa de correio de pasta gerenciada a um usuário, mas o assistente MRM ignora o processamento das caixas de correio a que tenha sido aplicada uma política de caixa de correio de pasta pública.
 
 

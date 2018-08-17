@@ -30,7 +30,7 @@ Você pode usar o script MigrateUMCustomPrompts.ps1 para migrar uma cópia de to
 Por padrão, o script MigrateUMCustomPrompts.ps1 está localizado em \<Arquivos de Programa\>pasta \\Microsoft\\Exchange Server\\V15\\Scripts em um servidor do Exchange 2013 .
 
 
-> [!TIP]
+> [!NOTE]
 > O script MigrateUMCustomPrompts.ps1 está incluído com o Exchange 2013. Ele deve ser executado em um servidor de Caixa de Correio do Exchange 2013 na mesma organização com os seus servidores do Exchange 2007 .
 
 

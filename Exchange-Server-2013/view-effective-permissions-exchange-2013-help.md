@@ -24,7 +24,7 @@ A maioria das permissões são concedidas com base em associação à função d
 A opção *GetEffectiveUsers* é usada com o cmdlet **Get-ManagementRoleAssignment** quando o parâmetro *Role* é usado. Especificando este comutador com uma determinada função, o cmdlet **Get-ManagementRoleAssignment** examina todas os função os destinatários atribuídos à função, como grupos de funções, diretivas de atribuição e USGs e lista os membros de cada uma delas.
 
 
-> [!TIP]
+> [!NOTE]
 > A opção <EM>GetEffectiveUser</EM> não lista os usuários que são membros de um grupo de função estrangeira vinculado. Em vez de uma lista de usuários, se for encontrado um grupo de função vinculado, <STRONG>Todos os membros do grupo vinculados</STRONG> é exibida. Para obter mais informações sobre permissões em várias florestas, consulte <A href="understanding-multiple-forest-permissions-exchange-2013-help.md">Compreendendo as permissões de várias florestas</A>.
 
 

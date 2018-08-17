@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2016-12-09_
 A UM (Unificação de Mensagens) e o Microsoft Lync Server podem ser implantados juntos para fornecer mensagem de voz, mensagens instantâneas, presença de usuário avançada, conferência de áudio e vídeo e uma experiência integrada de email e mensagem para os usuários de sua organização. A Unificação de Mensagens é usada para fornecer atendimento de chamadas para caixa postal, Outlook Voice Access e serviços de atendedor automático. O Microsoft Lync Server habilita recursos mais avançados encontrados no Enterprise Voice, como sistema de mensagens instantâneas (IM), conferências e chamadas de entrada e saída. Este tópico descreve como configurar a Unificação de Mensagens e o Microsoft Lync Server para oferecer suporte a esses recursos.
 
 
-> [!TIP]
+> [!TIP]  
 > O Microsoft Office Communications Server 2007 R2 também pode ser implantado junto com a Unificação de Mensagens. Neste tópico, &amp;quot;Microsoft Lync Server&amp;quot; se refere ao Microsoft Lync Server 2010 ou ao Microsoft Lync Server 2013.
 
 
@@ -58,7 +58,7 @@ A lista a seguir mostra as etapas simplificadas de implantação da UM e do Lync
 7.  Execute o script ExchUcUtil.ps1 na pasta \<pasta de instalação do Exchange\>\\Exchange Server\\Script em um servidor de Caixa de Correio.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > O script ExchUcUtil.ps1 cria um ou mais gateways para integração do Lync. Você deve desabilitar as chamadas de saída em todos os gateways IP de UM com exceção do gateway criado pelo script. Isto inclui desabilitar as chamadas de saída nos gateways IP de UM que foram criados antes de você executar o script. Para desabilitar as chamadas de saída em um gateway IP de UM, consulte <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Desabilitar as chamadas de saída nos gateways IP de UM</A>.
 
 
@@ -137,7 +137,7 @@ Você deve concluir as seguintes etapas para configurar a Unificação de Mensag
 1.  Crie um ou mais planos de discagem de URI de protocolo SIP de Unificação de Mensagens, cada um sendo mapeado para um perfil da localidade correspondente do Lync Server. Um perfil de local do Enterprise Voice deve ser criado para cada plano de discagem do UM do Exchange. Você pode usar o cmdlet **Get-UMDialPlan** para obter o FQDN de um plano de discagem URI de SIP. Para obter mais informações sobre como criar um plano de discagem SIP URI, consulte [Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md).
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Durante a integração da UM do Exchange e do Lync Server, provavelmente não será necessário configurar regras de discagem ou grupos de regras de discagem na UM do Exchange. O Lync Server foi projetado para realizar o roteamento de chamadas e algumas conversões de números para usuários de sua organização e também faz isso quando as chamadas são feitas da Unificação de Mensagens em nome dos usuários.
 
 
@@ -147,7 +147,7 @@ Você deve concluir as seguintes etapas para configurar a Unificação de Mensag
 3.  Criptografe o tráfego de voz sobre IP (VoIP) configurando o plano de discagem de URI de SIP como SIP Protegido ou Protegido.
     
 
-    > [!WARNING]
+    > [!CAUTION]  
     > Se você definir suas configurações de segurança como SIP Protegido para exigir criptografia apenas para tráfego SIP, a configuração não será suficiente em um plano de discagem se o pool de Front-End estiver configurado para exigir criptografia (o que significa que o pool exige criptografia para tráfego SIP e RTP). Quando as configurações de segurança do plano de discagem e do pool não são compatíveis, todas as chamadas para a UM do Exchange vindas do pool Front-End falharão, resultando em um erro que indica que você tem uma &amp;quot;Configuração de segurança incompatível&amp;quot;.
 
     

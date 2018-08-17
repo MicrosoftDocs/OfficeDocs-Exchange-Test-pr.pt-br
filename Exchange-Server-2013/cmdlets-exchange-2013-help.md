@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-03-09_
 Um *cmdlet*, pronunciado "command-let", é a menor unidade de funcionalidade do Shell de Gerenciamento do Exchange. Os cmdlets assemelham-se a comandos internos em outros shells, por exemplo, o comando `dir` encontrado no `cmd.exe`. Da mesma forma que esses comandos familiares, os cmdlets podem ser chamados diretamente da linha de comando do Shell e executados no contexto do Shell, não como um processo separado.
 
 
-> [!TIP]  
+> [!NOTE]  
 > Desde o Microsoft Exchange Server 2007, houve alterações na forma como o Exchange 2013 usa os cmdlets internamente devido ao uso da funcionalidade remota do Windows&nbsp;PowerShell. Essas alterações têm pouco ou nenhum impacto sobre a forma como você precisa usar os cmdlets, mas podem oferecer mais flexibilidade na forma como você gerencia seus servidores do Exchange.
 
 
@@ -30,7 +30,7 @@ Os cmdlets geralmente são desenvolvidos em torno de tarefas administrativas rep
 Todos os cmdlets do Shell são apresentados em pares verbo-substantivo. O par verbo-substantivo é sempre separado por um hífen (-) sem espaços e os nomes do cmdlet estão sempre no singular. Os verbos se referem à ação que o cmdlet executa. Os substantivos se referem ao objeto no qual o cmdlet executa a ação. Por exemplo, no cmdlet **Get-SystemMessage**, o verbo é **Get** e o substantivo é **SystemMessage**. Todos os cmdlets do Shell que gerenciam um recurso específico compartilham o mesmo substantivo. A tabela a seguir fornece exemplos de alguns verbos disponíveis no Shell.
 
 
-> [!TIP]  
+> [!NOTE]  
 > Por padrão, se o verbo for omitido, o Shell presumirá o verbo <STRONG>Get</STRONG>. Por exemplo, ao chamar <STRONG>Mailbox</STRONG>, recuperará os mesmos resultados que obteria caso tivesse chamado <STRONG>Get-Mailbox</STRONG>.
 
 
@@ -61,7 +61,7 @@ Todos os cmdlets do Shell são apresentados em pares verbo-substantivo. O par ve
 <td><p><strong>Get</strong></p></td>
 <td><p>Os cmdlets <strong>Get</strong> recuperam informações sobre um objeto específico do Exchange.</p>
 
-> [!TIP]  
+> [!NOTE]  
 > A maioria dos cmdlets <STRONG>Get</STRONG> retornam apenas informações resumidas quando são executados. Para dizer ao cmdlet <STRONG>Get</STRONG> que retorne informações detalhadas ao executar um comando, canalize o comando para o cmdlet <STRONG>Format-List</STRONG>. Para obter mais informações sobre o comando <STRONG>Format-List</STRONG>, consulte <A href="working-with-command-output-exchange-2013-help.md">Trabalhando com a saída do comando</A>. Para mais informações sobre pipeline, consulte <A href="https://technet.microsoft.com/pt-br/library/aa998260(v=exchg.150)">Pipelining</A>.
 
 

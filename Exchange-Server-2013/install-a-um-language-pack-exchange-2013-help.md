@@ -22,7 +22,7 @@ Para disponibilizar um idioma na lista de idiomas de Unificação de mensagens d
 Após instalar o pacote de idiomas de Unificação de MENSAGENS apropriado, você pode exibir a lista de pacotes de idiomas de Unificação de MENSAGENS instaladas, exibindo a lista suspensa na página **configurações** de um plano de discagem ou lista suspensa **idioma da interface de voz automatizados** na página **Geral** de um atendedor automático. Você também pode configurar o idioma padrão para ser um idioma diferente do inglês (en-US) em planos de discagem de Unificação de MENSAGENS e atendedores automáticos.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Os pacotes de idiomas de Unificação de MENSAGENS para o Microsoft Exchange Server 2007 ou Exchange 2007 Service Pack 1 (SP1), SP2, ou SP3 ou Exchange 2010 Service Pack 1 SP1, SP2 ou SP3 não podem ser usados em um servidor de caixa de correio Exchange 2013.
 
 

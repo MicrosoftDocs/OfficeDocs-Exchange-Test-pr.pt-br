@@ -22,7 +22,7 @@ Você pode criar uma função de gerenciamento, altere as entradas de função d
 Para obter mais informações sobre as funções de gerenciamento no Microsoft Exchange Server 2013, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Este tópico não aborda como criar uma função de gerenciamento sem escopo. Para obter informações sobre como criar uma função de gerenciamento sem escopo, consulte <A href="create-an-unscoped-role-exchange-2013-help.md">Criar uma função sem escopo</A>.
 
 
@@ -100,7 +100,7 @@ Quando você cria uma atribuição de função, você pode optar por fazer uma d
   - Crie a atribuição de função com o escopo personalizado ou exclusivo que você criou na etapa 3.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Quando você cria uma atribuição entre uma função e uma diretiva de atribuição de função de gerenciamento, é possível especificar um escopo.
 
 

@@ -22,7 +22,7 @@ Uma carga de trabalho do Exchange é um recurso, protocolo ou serviço que foi e
 Você pode gerenciar cargas de trabalho do Exchange por meio do controle como os recursos são consumidos por usuários individuais (às vezes chamados de usuário limitação no Exchange 2010). Controlar como os recursos de sistema do Exchange são consumidos por usuários individuais que era possível nos Exchange Server 2010 e esse recurso foi expandido para Exchange Server 2013.
 
 
-> [!TIP]
+> [!NOTE]
 > Gerenciando cargas de trabalho por meio do monitoramento de integridade de recursos do sistema nos servidores do Exchange em sua organização deve ser feito apenas sob a orientação do suporte e atendimento ao cliente Microsoft.
 
 
@@ -86,7 +86,7 @@ Atribuir políticas de limitação
   - [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/pt-br/library/ff459231\(v=exchg.150\))
 
 
-> [!TIP]
+> [!NOTE]
 > Os cmdlets de gerenciamento de carga de trabalho de sistema <STRONG>*-ResourcePolicy</STRONG>, <STRONG>*-WorkloadManagementPolicy</STRONG> e <STRONG>*-WorkloadPolicy</STRONG> foram preteridos. Configurações de gerenciamento de carga de trabalho do sistema devem ser personalizadas apenas sob a orientação do suporte e atendimento ao cliente Microsoft.
 
 

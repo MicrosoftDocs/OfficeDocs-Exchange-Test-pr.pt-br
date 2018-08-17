@@ -66,7 +66,7 @@ Antes de mover para grupos, também é uma boa ideia anote os limites de vários
 Se você decidir alternar para o Office 365 grupos, você pode usar um processo conhecido como *migração de lote* para mover o conteúdo de email e calendário de suas pastas públicas existentes para grupos. As etapas específicas para executar uma migração de lote depende de qual versão do Exchange atualmente hospeda sua hierarquia de pastas públicas. No final deste artigo, você encontrará links para instruções que você percorrer o processo de migração em lote.
 
 
-> [!TIP]
+> [!NOTE]
 > Quando terminar de fazer a migração de uma pasta pública habilitada para email a um determinado grupo no Office 365, todos os emails endereçados a pasta pública nesse momento serão recebidos pelo grupo.
 
 

@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2014-07-14_
 Você pode parar ou reiniciar uma pesquisa de descoberta eletrônica In-loco a qualquer momento. Por exemplo, se você deseja modificar as propriedades de pesquisa como palavras-chave ou caixas de correio pesquisadas, você deve primeiro parar uma pesquisa. Em seguida, você pode reiniciar a pesquisa depois de fazer as alterações necessárias.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Se você reiniciar uma pesquisa de descoberta eletrônica In-loco, copiados para a caixa de correio de descoberta especificada em uma pesquisa de resultados da pesquisa serão removidos.
 
 

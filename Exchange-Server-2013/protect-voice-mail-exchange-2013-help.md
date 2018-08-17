@@ -214,7 +214,7 @@ Há duas situações em que mensagens de voz protegida podem ser criadas:
     O chamador pode escolher adicionais nas opções da mensagem, incluindo a opção para marcar a mensagem de voz como particular pressionando a tecla de cerquilha (\#). Se o chamador pressionar a tecla \#, eles podem siga as instruções fornecidas pela Unificação de MENSAGENS para marcar a mensagem como particular, remova a marcação privada a mensagem de voz privada ou marcar a mensagem de voz com alta prioridade. O diagrama a seguir mostra as opções de menu que estão disponíveis para os chamadores quando eles deixam uma mensagem de voz privada para um usuário.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Para chamadas de atendimento de chamadas, o UM utiliza as configurações de caixa postal protegida na política de caixa de correio de Unificação de MENSAGENS do destinatário da mensagem, porque o chamador não seja autenticado.
 
     
@@ -227,7 +227,7 @@ Há duas situações em que mensagens de voz protegida podem ser criadas:
     Outlook Usuários de acesso de voz podem pesquisar contatos no diretório e enviar-lhes mensagens de voz. Se a caixa postal protegida tiver sido habilitada para os destinatários habilitado, os chamadores podem marcar as mensagens como particular após eles estão registrados. Como alternativa, os administradores podem configurar uma política de caixa de correio de Unificação de MENSAGENS para garantir que todas as mensagens de voz enviadas por usuários autenticados são protegidas pela Unificação de MENSAGENS.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se um chamador for autenticado, são aplicadas as configurações de caixa postal protegida na diretiva de caixa de correio de Unificação de MENSAGENS que está vinculada ao chamador, independentemente das configurações de diretiva de caixa de correio de Unificação de MENSAGENS para o destinatário pretendido da mensagem de voz.
 
     

@@ -22,7 +22,7 @@ A disponibilidade gerenciada executa investigação contínua para detectar poss
 Existem dois tipos de substituições: global e local. Como seus nomes sugerem, uma substituição local está disponível somente no servidor no qual ele é criado e uma substituição global é usada para aplicar uma substituição para vários servidores. Os dois tipos de substituição podem ser criados por um período específico ou para uma versão específica de Exchange, mas não ambos ao mesmo tempo.
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você criar uma substituição, ele não entrarão em vigor imediatamente. Microsoft Exchange serviço de gerenciamento de integridade verifica a cada 10 minutos para que as alterações de configuração e carrega as alterações na configuração detectado. Se você não quiser esperar, você pode reiniciar o serviço.
 
 
@@ -56,7 +56,7 @@ Para criar uma substituição local para uma versão específica de Exchange, us
     Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Version <15.01.xxxx.xxx>
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você cria a substituição, os valores usados no parâmetro <EM>Identity</EM> diferenciam maiúsculas de minúsculas.
 
 
@@ -102,7 +102,7 @@ Para criar uma substituição global para uma versão específica de Exchange, u
     Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -ApplyVersion <15.01.xxxx.xxx>
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você cria a substituição, os valores usados no parâmetro <EM>Identity</EM> diferenciam maiúsculas de minúsculas.
 
 

@@ -40,7 +40,7 @@ Os recursos do Outlook Web App também podem ser gerenciados através da configu
 Uma política padrão de caixa de correio do Outlook Web App é criada automaticamente quando o Exchange é instalado. Por padrão, todas as opções são habilitadas na diretiva de caixa de correio padrão do Outlook Web App. Você pode criar quantas diretivas de caixa de correio do Outlook Web App forem necessárias para atender às necessidades de sua organização.
 
 
-> [!TIP]
+> [!NOTE]
 > A política padrão de caixa de correio do Outlook Web App não será automaticamente aplicada a qualquer caixa de correio.
 
 

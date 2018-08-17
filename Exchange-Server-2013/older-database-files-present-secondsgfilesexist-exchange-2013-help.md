@@ -32,7 +32,7 @@ Para excluir os arquivos de banco de dados existentes do Exchange Server do cami
 1.  Em Meu computador ou no Windows Explorer, localize o caminho de instalação de destino.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Por padrão, os arquivos de banco de dados estão localizados em:<BR>&lt; unidade_do_sistema &gt;: \Program Server\Mailbox\First grupo de armazenamento.
 
 

@@ -62,7 +62,7 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [New-Transp
 Você pode verificar o desvio de cabeçalhos de mensagem de email para ver se as mensagens de email são inicial na caixa de entrada devido a regra de transporte desorganização. Selecione uma mensagem de email de uma caixa de correio em sua organização que tem a confusão Ignorar regra de transporte aplicada. Examinar os cabeçalhos marcados na mensagem, e você deverá ver a **X-MS-Exchange-organização-BypassClutter: true** cabeçalho. Isso significa que o desvio está funcionando. Confira o tópico de [Exibir as informações de cabeçalho de uma mensagem de email da Internet](https://go.microsoft.com/fwlink/p/?linkid=822530) para informações sobre como localizar as informações de cabeçalho.
 
 
-> [!TIP]
+> [!NOTE]
 > Itens de calendário, como reuniões aceitos, enviadas ou recusada não terão esses cabeçalhos neles. Estamos trabalhando em estendendo os recursos de desorganização a estes itens de calendário em breve.
 
 

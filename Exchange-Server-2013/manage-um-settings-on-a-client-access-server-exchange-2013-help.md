@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2013-04-09_
 Depois de instalar um servidor de Acesso para Cliente que esteja executando o serviço de Roteamento de Chamada de Unificação de Mensagens do Microsoft Exchange, você poderá configurar diversas opções, incluindo o número de chamadas consecutivas, as portas de escuta de protocolo TCP e TLS, o status e o modo de inicialização.
 
 
-> [!TIP]
+> [!NOTE]
 > Não é necessário que os servidores de Acesso para Cliente sejam adicionados a um plano de discagem de UM antes de poderem processar chamadas para a Unificação de Mensagens (UM), exceto quando você estiver integrando a UM e o Microsoft Office Communications Server 2007 R2 ou Microsoft Lync Server. Por padrão, todos os servidores de Acesso para Cliente em uma organização estão disponíveis para atender chamadas de entrada.
 
 

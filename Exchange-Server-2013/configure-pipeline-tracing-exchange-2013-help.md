@@ -58,7 +58,7 @@ Esse exemplo configura o rastreamento de pipeline para fazer a captura de tela d
     Set-TransportService Mailbox02 -PipelineTracingSenderAddress "<>"
 
 
-> [!WARNING]
+> [!CAUTION]
 > A configuração do rastreamento de pipeline para capturar todas as mensagens geradas pelo servidor em um serviço de transporte pode colocar uma carga considerável sobre o servidor e consumir rapidamente o espaço em disco disponível. Monitore sempre o espaço disponível em disco quando o rastreamento de pipeline estiver habilitado.
 
 

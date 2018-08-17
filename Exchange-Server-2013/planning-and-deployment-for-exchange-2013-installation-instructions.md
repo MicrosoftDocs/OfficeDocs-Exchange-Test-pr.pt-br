@@ -213,7 +213,7 @@ A instalação do Exchange 2013 inclui vários modos de instalação:
   - **Atualizar**   Selecione este modo se você já tiver uma instalação existente do Exchange e estiver instalando uma atualização cumulativa ou um service pack. Você pode usar este modo na instalação autônoma e no Assistente de instalação do Exchange.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O Exchange 2013 não oferece suporte para atualizações in-loco de versões anteriores do Exchange. Este modo é usado apenas para instalar atualizações cumulativas ou service packs.
 
 
@@ -221,7 +221,7 @@ A instalação do Exchange 2013 inclui vários modos de instalação:
   - **RecoverServer**   Use este modo quando houve uma falha catastrófica de um servidor, e você precisa recuperar os dados. Você deve instalar um servidor com o mesmo FQDN (nome de domínio totalmente qualificado) utilizado pelo servidor que falhou, e em seguida executar o Programa de Instalação com a opção **/m:RecoverServer**. Não especifique as funções a serem restauradas. A Instalação detecta o objeto do Exchange Server no Active Directory e instala automaticamente a configuração e os arquivos correspondentes. Após recuperar o servidor, você pode restaurar bancos de dados e reconfigurar quaisquer definições adicionais. Para executar no modo **RecoverServer**, o Exchange não pode estar instalado no servidor. O objeto do servidor do Exchange deve existir no Active Directory. Você pode usar este modo apenas durante uma instalação autônoma.
 
 
-> [!TIP]
+> [!NOTE]
 > É necessário concluir um modo de instalação antes de poder usar outro modo.
 
 

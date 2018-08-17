@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-10-15_
 Esse procedimento mostra como configurar um conector de recebimento para receber email da Internet.
 
 
-> [!TIP]
+> [!NOTE]
 > Na maioria dos casos, você não precisa definir explicitamente um conector de recebimento para receber email da Internet, porque um conector de recebimento para aceitar email da Internet é criado implicitamente na instalação do Exchange. Consulte <A href="receive-connectors-exchange-2013-help.md">Conectores de recebimento</A> para obter mais informações.
 
 
@@ -56,7 +56,7 @@ Interessado em cenários em que esse procedimento é usado? Consulte os seguinte
 4.  Para **Ligações de adaptador de rede**, observe que **Todos os IPV4 disponíveis** está na lista **Endereços IP** e que a **Porta** é 25. (o protocolo SMTP usa a porta 25.) Isso indica que o conector escuta conexões de todos os endereços IP atribuídos a adaptadores de rede no servidor local.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você tiver vários adaptadores de rede, nessa página você pode adicionar um endereço IP atribuído a um adaptador de rede específico no servidor local, mas isso não é necessário.
 
 

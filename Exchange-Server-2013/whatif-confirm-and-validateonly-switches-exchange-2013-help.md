@@ -28,7 +28,7 @@ The *WhatIf*, *Confirm*, and *ValidateOnly* switches are especially useful when 
 
 
 
-> [!TIP]
+> [!NOTE]
 > <EM>WhatIf</EM>, <EM>Confirm</EM>, and <EM>ValidateOnly</EM> are called switch parameters. For more information about switch parameters, see <A href="https://technet.microsoft.com/pt-br/library/bb124388(v=exchg.150)">Parâmetros</A>.
 
 
@@ -102,7 +102,7 @@ If you want to override the default behavior of the Shell and suppress the confi
 In this case, no confirmation prompt is displayed.
 
 
-> [!WARNING]
+> [!CAUTION]
 > The default value of the <EM>Confirm</EM> switch is <CODE>$True</CODE>. The default behavior of the Shell is to automatically display a confirmation prompt. If you suppress this default behavior, you instruct the command to suppress all confirmation prompts for the duration of that command. The command will process all objects that meet the criteria for the command without confirmation.
 
 

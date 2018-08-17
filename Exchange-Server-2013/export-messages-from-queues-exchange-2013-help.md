@@ -84,7 +84,7 @@ Este exemplo exporta uma cópia de todas as mensagens dos remetentes no domínio
     Get-Message -Filter {FromAddress -like "*@contoso.com"} -Server Mailbox01 | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
 
 
-> [!TIP]
+> [!NOTE]
 > se você omitir o parâmetro <EM>Server</EM> , o comando opera no servidor local.
 
 

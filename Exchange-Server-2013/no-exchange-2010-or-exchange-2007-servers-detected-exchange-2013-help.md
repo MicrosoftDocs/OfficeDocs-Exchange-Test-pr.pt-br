@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-11-08_
 Microsoft Exchange Server 2013 instalação exibido esse aviso, porque nenhuma função de servidor Exchange Server 2010 ou Exchange Server 2007 existe na organização.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Se você continuar com a instalação do Exchange Server 2013, você não conseguirá adicionar servidores Exchange 2010 ou Exchange 2007 para a organização futuramente.
 
 

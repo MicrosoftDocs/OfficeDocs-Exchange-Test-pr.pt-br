@@ -45,7 +45,7 @@ Este exemplo habilita o registro em log de protocolo para POP3 ou IMAP4 no servi
     Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true
 
 
-> [!TIP]
+> [!NOTE]
 > Após alterar as configurações de log de protocolo para POP3 ou IMAP4, será necessário reiniciar o serviço que estiver em uso: POP3 ou IMAP4. Para obter informações sobre como reiniciar os serviços POP3 e IMAP4, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar e interromper os serviços POP3</A> e <A href="start-and-stop-the-imap4-services-exchange-2013-help.md">Iniciar e interromper os serviços de IMAP4</A>.
 
 
@@ -60,7 +60,7 @@ Este exemplo desabilita o registro em log de protocolo para POP3 ou IMAP4 no ser
     Set-PopSettings -Server "CAS01" -protocolLogEnabled $false
 
 
-> [!TIP]
+> [!NOTE]
 > Após alterar as configurações de log de protocolo para POP3 ou IMAP4, será necessário reiniciar o serviço que estiver em uso: POP3 ou IMAP4. Para obter informações sobre como reiniciar os serviços POP3 e IMAP4, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar e interromper os serviços POP3</A> e <A href="start-and-stop-the-imap4-services-exchange-2013-help.md">Iniciar e interromper os serviços de IMAP4</A>.
 
 
@@ -100,7 +100,7 @@ Para modificar as configurações de registro em log de POP3 ou IMAP4, execute o
         Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
 
 
-> [!TIP]
+> [!NOTE]
 > Após alterar as configurações de log de protocolo para POP3 ou IMAP4, será necessário reiniciar o serviço que estiver em uso: POP3 ou IMAP4. Para obter informações sobre como reiniciar os serviços POP3 e IMAP4, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar e interromper os serviços POP3</A> e <A href="start-and-stop-the-imap4-services-exchange-2013-help.md">Iniciar e interromper os serviços de IMAP4</A>.
 
 
@@ -114,7 +114,7 @@ Execute o seguinte comando no Shell para verificar as definições de registro e
     Get-PopSettings | format-list
 
 Execute o seguinte comando no Shell para verificar as definições de registro em log de protocolo IMAP4. Se o registro em log de protocolo IMAP4 for habilitado, o valor para o parâmetro *ProtocolLogEnabled* será `True`. Se o log de protocolo IMAP4 estiver desabilitado, o valor será `False`. Você também pode verificar se os valores para os parâmetros *LogFileLocation*, *LogPerFileSizeQuota* e *LogFileRollOverSettings* estão corretos.
-
+    
     Get-ImapSettings | format-list
 
 ## Para mais informações

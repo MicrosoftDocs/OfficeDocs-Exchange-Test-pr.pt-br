@@ -162,7 +162,7 @@ Este exemplo define o protocolo de seguir as configurações de log no serviço 
     Set-TransportService Mailbox01 -ReceiveProtocolLogPath "D:\Hub Receive SMTP Log" -SendProtocolLogPath "D:\Hub Send SMTP Log" -ReceiveProtocolLogMaxFileSize 20MB -SendProtocolLogMaxFileSize 20MB -ReceiveProtocolLogMaxDirectorySize 400MB -SendProtocolLogMaxDirectorySize 400MB -ReceiveProtocolLogMaxAge 45.00:00:00 -SendProtocolLogMaxAge 45.00:00:00
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Para configurar as configurações de log do protocolo no serviço de transporte de caixa de correio em um servidor de caixa de correio, use o cmdlet <STRONG>Set-MailboxTransportService</STRONG> . Para configurar as configurações de log do protocolo no serviço Front End Transport em um servidor de acesso para cliente, use o cmdlet <STRONG>Set-FrontEndTransportService</STRONG> .</P>

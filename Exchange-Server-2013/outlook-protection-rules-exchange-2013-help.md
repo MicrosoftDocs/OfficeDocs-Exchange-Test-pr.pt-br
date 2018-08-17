@@ -38,7 +38,7 @@ Quando você cria regras de proteção de Outlook em um servidor de Exchange 201
 regras de proteção de Outlook são semelhantes às regras de proteção de transporte. Ambos são aplicados com base nas condições da mensagem, e ambas protegem mensagens aplicando um modelo de proteção de direitos do AD RMS. No entanto, as regras de proteção de transporte são aplicadas no serviço de transporte no servidor de caixa de correio pelo agente de regras de transporte. regras de proteção de Outlook são aplicadas na Outlook 2010, antes da mensagem sair do computador do usuário. Mensagens protegidas por uma regra de proteção de Outlook insira o pipeline de transporte com a proteção de IRM já aplicada. Além disso, as mensagens protegidas com uma regra de proteção de Outlook também são salvas em um formato criptografado na pasta Itens enviados da caixa de correio do remetente.
 
 
-> [!TIP]
+> [!NOTE]
 > Se a descriptografia de transporte estiver habilitada em sua organização Exchange, as mensagens que são protegidas por IRM por uma regra de proteção de Outlook usando o servidor do AD RMS em sua organização podem ser descriptografadas pelo agente de descriptografia no serviço de transporte. Conteúdo da mensagem pode ser inspecionado, o agente de regras de transporte e outros agentes de transporte instalados no serviço de transporte. Para obter mais detalhes sobre a descriptografia de transporte, consulte <A href="transport-decryption-exchange-2013-help.md">Descriptografia de transporte</A>.
 
 

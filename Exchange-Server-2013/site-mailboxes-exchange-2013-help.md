@@ -100,7 +100,7 @@ Caixas de correio de site não suportam a retenção no nível do item. A reten�
 Usando o Console de Descoberta Eletrônica no SharePoint, as caixas de correio de site podem ser parte do escopo da Descoberta Eletrônica In-loco, pois você pode fazer pesquisas de palavras-chave em relação a caixas de correio de usuário ou de site. Além disso, você pode colocar uma caixa de correio do site em retenção legal. Para mais informações, consulte [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Para colocar uma caixa de correio de site em retenção legal em Office 365, ele deve ser atribuído a uma licença Exchange Online (plano 2). Se uma caixa de correio de site é atribuída a uma licença Exchange Online (plano 1), você teria atribuí-lo de uma licença separada Exchange Online arquivamento colocá-lo em espera.
 
 

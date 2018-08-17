@@ -44,7 +44,7 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 ## Usar o Shell para mover um banco de dados de caixa de correio replicado para um novo caminho
 
 
-> [!TIP]
+> [!NOTE]
 > Não é possível usar o EAC para mover um banco de dados de caixa de correio replicado para um novo caminho.
 
 

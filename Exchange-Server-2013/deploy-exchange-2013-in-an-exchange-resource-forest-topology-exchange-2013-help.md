@@ -42,7 +42,7 @@ Para executar o procedimento a seguir Exchange 2013, confirme que você tem o se
 1.  A partir de um controlador de domínio na floresta Exchange, crie uma relação de confiança unidirecional de saída para a floresta Exchange relações de confiança da floresta de contas. Para obter etapas detalhadas, consulte [criar uma relação de confiança de floresta unidirecional de saída, para ambos os lados da relação de confiança](https://go.microsoft.com/fwlink/p/?linkid=69130).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Embora seja recomendável criar uma confiança de floresta, você pode criar uma confiança de floresta ou uma confiança externa. Se você criar uma confiança externa, quando criar caixas de correio vinculadas na Etapa 3, na página <STRONG>Conta Principal</STRONG> do assistente de Nova Caixa de Correio, especifique uma conta de usuário que possa acessar o controlador de domínio na floresta confiável. Você não pode usar as credenciais com as quais está conectado atualmente. Se você criar caixas de correio vinculadas usando o cmdlet <STRONG>New-Mailbox</STRONG>, deverá especificar uma conta de usuário que possa acessar o controlador de domínio na floresta confiável usando o parâmetro <EM>LinkedCredential</EM>.
 
 

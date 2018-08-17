@@ -28,7 +28,7 @@ Este tópico explica como usar o console de gerenciamento de diretiva de grupo (
   - Confirme que você instalou .NET Framework 3.0 no computador no qual você instalará o GPMC.
     
 
-    > [!TIP]
+    > [!NOTE]
     > A versão atual do GPMC que podem ser baixados do Microsoft Download Center opera nas versões de 32 bits dos sistemas operacionais Windows Server 2003 e Windows XP e pode gerenciar remotamente os objetos de diretiva de grupo em controladores de domínio de 32 bits e 64 bits. Esta versão do GPMC não inclui uma versão de 64 bits e a versão de 32 bits não é executada em plataformas de 64 bits. A versão de 32 bits do Windows Server 2008 e a versão de 32 bits do Windows Vista ambas incluem uma versão de 32 bits do GPMC. A versão de 64 bits do Windows Server 2008 e a versão de 64 bits do Windows Vista ambas incluem uma versão de 64 bits do GPMC.
 
 
@@ -46,7 +46,7 @@ Este tópico explica como usar o console de gerenciamento de diretiva de grupo (
 1.  Em um computador de 32 bits em seu domínio, instale o GPMC com Service Pack 1 (SP1). Para obter informações de download, consulte o [Console de gerenciamento de diretiva de grupo com Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=100126).
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você tiver um computador no domínio executando Windows Server 2008 ou Windows Vista, você pode ignorar esta etapa.
 
 

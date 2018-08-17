@@ -26,7 +26,7 @@ Para mais informações sobre funções de gerenciamento, grupos de funções e 
 Para que esta função conceda permissões, deve ser atribuída a um destinatário de função, como uma diretiva de atribuição de função. Esta atribuição é feita usando atribuições de função de gerenciamento. Atribuições de função vinculam destinatários de função e funções juntos. Se mais de uma função for atribuída a um destinatário de função, a ele será concedida a combinação de todas as permissões concedidas por todas as funções atribuídas.
 
 
-> [!TIP]
+> [!NOTE]
 > Também é possível atribuir esta função de gerenciamento a um grupo de função, USG, ou diretamente a um usuário. No entanto, as funções destacadas para o usuário são mais eficazes quando usadas com diretivas de atribuição de função.
 
 
@@ -129,7 +129,7 @@ Essa função foi configurada para oferecer, a um destinatário de função, tod
 Se você precisar criar uma versão personalizada desta função, você deverá criar uma função como uma filha daquela função e personalizar essa nova função.
 
 
-> [!WARNING]
+> [!CAUTION]
 > As informações a seguir permitem que você execute o gerenciamento avançado de permissões. Personalizar funções de gerenciamento pode aumentar significativamente a complexidade do seu modelo de permissões. Você pode fazer com que determinados recursos parem de funcionar, se você substituir uma função de gerenciamento interna por uma função personalizada configurada incorretamente.
 
 

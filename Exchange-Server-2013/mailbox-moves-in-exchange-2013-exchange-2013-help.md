@@ -58,13 +58,13 @@ Microsoft Exchange Server 2013 introduz o conceito de *lote move* e *pontos de e
 Em Exchange 2013, você deve mover caixas de correio entre o Exchange 2007 e Exchange 2010 e Exchange 2013 do Centro de administração do Exchange 2013 (EAC) e o Shell de gerenciamento do Exchange.
 
 
-> [!TIP]
+> [!NOTE]
 > Você ainda pode executar as movimentações de caixa de correio única em Exchange 2013 semelhante ao Exchange Server 2010 usando o EAC ou os cmdlets do lote solicitar ou migração de movimentação.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode mover caixas de correio no local de Exchange Server 2003 para Exchange 2013.
 
 

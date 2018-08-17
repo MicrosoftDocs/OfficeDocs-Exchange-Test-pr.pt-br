@@ -50,7 +50,7 @@ Para habilitar a filtragem de conteúdo, execute o seguinte comando:
     Set-ContentFilterConfig -Enabled $true
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você desabilita a filtragem de conteúdo, o agente de Filtro de Conteúdo subjacente permanece habilitado. Para desabilitar o agente do Filtro de Conteúdo, execute o comando: <CODE>Disable-TransportAgent "Content Filter Agent"</CODE>.
 
 
@@ -194,7 +194,7 @@ Para configurar os limites e as ações do nível de confiança de spam (SCL), e
     Set-ContentFilterConfig -SCLDeleteEnabled <$true | $false> -SCLDeleteThreshold <Value> -SCLRejectEnabled <$true | $false> -SCLRejectThreshold <Value> -SCLQuarantineEnabled <$true | $false> -SCLQuarantineThreshold <Value>
 
 
-> [!TIP]
+> [!NOTE]
 > A ação Excluir tem precedência sobre a ação Rejeitar, e a ação Rejeitar tem precedência sobre a ação Colocar em Quarentena. Assim, o limite do SCL para a ação Excluir deve ser maior do que o limite do SCL para a ação Rejeitar, que, por sua vez, deve ser maior do que o limite do SCL para a ação Colocar em Quarentena. Somente a ação Rejeitar é habilitada por padrão, e ela tem o valor limite de SCL de 7.
 
 

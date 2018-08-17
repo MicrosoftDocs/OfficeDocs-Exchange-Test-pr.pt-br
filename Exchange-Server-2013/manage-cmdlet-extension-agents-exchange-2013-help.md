@@ -44,7 +44,7 @@ This topic shows you how to enable, disable, view, and change the priority of cm
 When you enable a cmdlet extension agent in Exchange 2013, the agent is run on every server running Exchange 2013 in the organization. When an agent is enabled, it's made available to cmdlets, which can then use the agent to perform additional operations.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Before you enable an agent, be sure that you're aware of how the agent works and what impact the agent will have on your organization.
 
 
@@ -60,7 +60,7 @@ For detailed syntax and parameter information, see [Enable-CmdletExtensionAgent]
 When you disable a cmdlet extension agent in Exchange 2013, the agent is disabled on every server running Exchange 2013 in the organization. When an agent is disabled, it's not made available to cmdlets. Cmdlets can no longer use the agent to perform additional operations.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Before you disable an agent, be sure that you're aware of how the agent works and what impact disabling the agent will have on your organization.
 
 
@@ -94,7 +94,7 @@ For detailed syntax and parameter information, see [Get-CmdletExtensionAgent](ht
 The ability to change the priority of a cmdlet extension agent in Exchange 2013 is useful when you want a certain agent to be called by a cmdlet before another agent. This is especially useful if you create a custom script that's run in the `Scripting Agent`, and you want that script to take precedence over a built-in agent. For more information about the `Scripting Agent`, see [Agentes de extensão de cmdlet](cmdlet-extension-agents-exchange-2013-help.md).
 
 
-> [!WARNING]
+> [!CAUTION]
 > Changing the priority or replacing the functionality of a built-in agent is an advanced operation. Be sure that you completely understand the changes you're making.
 
 

@@ -176,7 +176,7 @@ As limitações a seguir aplicam-se ao compartilhamento de informações de disp
     1.  Em todos os seus servidores CAS do Exchange 2007, abra o seguinte arquivo com um editor de textos, como o Bloco de Notas: \<Exchange Installation Path\>\\V14\\ClientAccess\\ExchWeb\\EWS\\web.config
         
 
-        > [!WARNING]
+        > [!CAUTION]
         > Antes de fazer qualquer alteração no arquivo web.config, faça uma cópia do arquivo e armazene-a em um local seguro.
 
     
@@ -185,7 +185,7 @@ As limitações a seguir aplicam-se ao compartilhamento de informações de disp
     3.  Adicionar uma nova chave"\<adicionar chave ="maximumQueryIntervalDays" valor = "62" /\>" e salve o arquivo web.config.
         
 
-        > [!TIP]
+        > [!NOTE]
         > O valor maximumQueryIntervalDays não está presente por padrão. Quando esse valor não estiver presente, o Exchange 2007 usará o intervalo padrão de 42 dias.
 
     

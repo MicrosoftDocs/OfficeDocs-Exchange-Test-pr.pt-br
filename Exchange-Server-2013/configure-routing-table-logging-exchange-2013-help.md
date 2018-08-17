@@ -60,7 +60,7 @@ Este exemplo define as seguintes configurações de log de tabela de roteamento 
     Set-TransportService Mailbox01 -RoutingTableLogPath "D:\Routing Table Log" -RoutingTableLogMaxDirectorySize 70MB -RoutingTableLogMaxAge 45.00:00:00
 
 
-> [!TIP]
+> [!NOTE]
 > Definindo o parâmetro <EM>RoutingTableLogMaxAge</EM> como o valor <CODE>00:00:00</CODE> impede a remoção automática de arquivos de log de tabela de roteamento devido à sua idade.
 
 

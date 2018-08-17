@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-03-09_
 O rastreamento de pipeline captura cópias de mensagens de email de um remetente específico, como movem através do serviço de transporte em servidores de caixa de correio, o serviço de entrega de transporte de caixa de correio em servidores de caixa de correio e os servidores de transporte de borda.. O rastreamento de pipeline captura informações detalhadas sobre as alterações que cada agente de transporte se aplica às mensagens no pipeline de transporte nos arquivos de instantâneo de mensagem. Examinando o conteúdo dos arquivos de instantâneo de mensagem, você pode determinar se os agentes de transporte aplicou as alterações às mensagens no pipeline de transporte que o esperado. Se você estiver solucionando um problema, você deve determinar quais agentes de transporte está com defeito. Em seguida, é possível focar os esforços de solução de problemas em que esses operadores para resolver o problema. Em seguida, você pode exibir os arquivos de instantâneo de mensagem novamente para verificar se a sua solução é bem-sucedida.
 
 
-> [!WARNING]
+> [!CAUTION]
 > <UL>
 > <LI>
 > <P>O rastreamento de pipeline copia todo o conteúdo das mensagens de email que são enviadas de um endereço de email do remetente. Para evitar a exposição indesejada de informações confidenciais, você precisará definir permissões de segurança apropriados na pasta de rastreamento de pipeline.</P>

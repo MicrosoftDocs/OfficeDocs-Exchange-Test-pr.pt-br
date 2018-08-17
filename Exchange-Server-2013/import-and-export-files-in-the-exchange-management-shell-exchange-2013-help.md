@@ -147,7 +147,7 @@ The Shell must know that you want to save the data stored in the **FileData** pr
 For example, the following command exports the data stored in the **FileData** property on the object created by the **Export-SomeData** fictional cmdlet. The exported data is stored in a file you specify on the local computer, in this case MyData.dat.
 
 
-> [!TIP]
+> [!NOTE]
 > This procedure uses the <STRONG>ForEach</STRONG> cmdlet, objects, and pipelining. For more information about each, see <A href="https://technet.microsoft.com/pt-br/library/aa998260(v=exchg.150)">Pipelining</A> and <A href="https://technet.microsoft.com/pt-br/library/aa996386(v=exchg.150)">Dados estruturados</A>.
 
 

@@ -44,7 +44,7 @@ Você pode definir opções no Visualizador de Filas para ajustar o número de i
     1.  No campo **Intervalo de atualização (segundos)**, digite a frequência com que o Visualizador de Filas deve atualizar a exibição.
         
 
-        > [!TIP]
+        > [!NOTE]
         > O intervalo de atualização automática padrão é de 30 segundos e não pode ser definido para um período mais curto. Se você desabilitar a funcionalidade de atualização automática desmarcando a caixa de seleção <STRONG>Atualização automática de tela</STRONG> na página <STRONG>Opções do Visualizador de Filas</STRONG>, será necessário atualizar manualmente os resultados que são exibidos no Visualizador de Filas clicando em <STRONG>Atualizar</STRONG>.
 
     
