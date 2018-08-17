@@ -1,5 +1,4 @@
-﻿add-an-auto-attendant-extension-number-exchange-2013-help
----
+﻿---
 title: 'Criar um conector de recebimento seguro para receber email de um parceiro'
 TOCTitle: Criar um conector de recebimento seguro para receber email de um parceiro
 ms:assetid: 06aa692c-7940-4a14-a722-058c47440f85

@@ -45,11 +45,11 @@ Você pode usar a ferramenta de exportação de descoberta eletrônica no Centro
 
   - Verifique se que as seguintes URLS não estão listadas na zona sites confiáveis:
     
-      - https://\*.outlook.com
+      - https:/<span>/\*.outlook.com</span>
     
       - https://r4.res.outlook.com
     
-      - https://\*.res.outlook.com
+      - https:/<span>/\*.res.outlook.com</span>
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

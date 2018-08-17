@@ -46,7 +46,7 @@ Os pacotes de idioma da UM permitem que os chamadores e usuários do Outlook Voi
 Por padrão, quando instala um servidor de Caixa de Correio do Exchange 2013, o pacote de idioma inglês norte-americano (en-US) é instalado. Essa é a única opção de idioma disponível para o seu plano de discagem, a menos que você instale outro pacote de idioma de UM. (O inglês norte-americano não poderá ser removido, a menos que você remova o servidor de Caixa de Correio do computador). Depois de instalar um pacote de idioma da UM em um servidor de Caixa Postal, o idioma associado ao pacote de idioma também será listado como uma opção disponível ao configurar o idioma padrão para o plano de discagem. Por padrão, já que um atendedor automático da UM está vinculado a um plano de discagem da UM quando é criado, ele usa a definição do idioma padrão do plano de discagem da UM vinculado. Entretanto, essa definição pode ser alterada após a criação de um atendedor automático da UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Se Inglês (Estados Unidos) for o único idioma que você desejar oferecer para seu plano de discagem, ignore esta etapa e vá para a etapa 2.
 
 
@@ -80,7 +80,7 @@ Quando importa saudações, informes, menus e prompts personalizados do Exchange
 3.  No prompt do Shell, digite **".\\MigrateUMCustomPrompts"** e pressione Enter.
 
 
-> [!TIP]
+> [!NOTE]
 > Os prompts personalizados também podem ser importados individualmente com o cmdlet <STRONG>Import-UMPrompt</STRONG>. O cmdlet da UM do Exchange Server 2007 <STRONG>Copy-UMCustomPrompt</STRONG> não é suportado na UM do Exchange 2013 para cópia de prompts personalizados.
 
 
@@ -385,7 +385,7 @@ Se necessário, pode criar uma política de caixa de correio de UM usando o EAC:
 3.  Na página **Nova Política de Caixa de Correio de UM**, na caixa **Nome**, digite o nome da política de caixa de correio de UM.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Use essa caixa para especificar um nome exclusivo para a política de caixa de correio de UM. Esse é um nome de exibição que aparece no EAC. Se for necessário alterar o nome de exibição da política de caixa de correio de UM depois que ela foi criada, primeiro você deverá excluir a política de caixa de correio de UM existente e, em seguida, criar outra política de caixa de correio de UM com o nome adequado. Não será possível excluir uma política de caixa de correio da UM se algum usuário habilitado para UM estiver associado a ela. O nome da política de caixa de correio da UM é obrigatório, mas é usado apenas para fins de exibição. Como sua organização pode utilizar várias políticas de caixa de correio de UM, recomendamos que você use nomes significativos para elas. O comprimento máximo para um nome de política de caixa de correio de UM é de 64 caracteres e pode conter espaços. Entretanto, não pode incluir nenhum dos seguintes caracteres: " / \ [ ] : ; | = , + * ? &lt; &gt;.
 
 
@@ -393,7 +393,7 @@ Se necessário, pode criar uma política de caixa de correio de UM usando o EAC:
 4.  Clique em **Salvar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Quando você salva a política de caixa de correio de UM, todas as configurações padrão, incluindo as políticas de PIN, os recursos de caixa postal e as configurações de Caixa Postal Protegida são habilitadas. Se quiser personalizar ou alterar quaisquer configurações padrão da política de caixa de correio de UM recém-criada, use o cmdlet <STRONG>Set-UMMailbox</STRONG> ou o EAC.
 
 

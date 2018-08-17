@@ -490,7 +490,7 @@ Para publicar o Outlook Web App e o EAC usando o Proxy de Aplicativo da Web:
     4.  Na caixa **URL do servidor de back-end**, insira a URL do servidor back-end. Observe que esse valor é inserido automaticamente quando você insere a URL externa e alterá-lo somente se a URL do servidor back-end é diferente — por exemplo, **https://mail.contoso.com/owa/** para Outlook Web App e **https://mail.contoso.com/ecp/** para EAC.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O Proxy de Aplicativo da Web pode traduzir nomes de hosts em URLs, mas não consegue traduzir caminhos. Portanto, é possível inserir nomes de hosts diferentes, mas é necessário que o mesmo caminho seja inserido. Por exemplo, você pode inserir uma URL externa <EM>https://external.contoso.com/app1/</EM> e uma URL de servidor backend <EM>https://mail.contoso.com/app1/</EM>. Porém, não é possível inserir uma URL externa <EM>https://external.contoso.com/app1/</EM> e uma URL de servidor backend <EM>https://mail.contoso.com/internal-app1/</EM>.
 
 
@@ -525,7 +525,7 @@ Execute os seguintes comandos no Shell de gerenciamento do Exchange.
     Set-OrganizationConfig -AdfsIssuer "https://adfs.contoso.com/adfs/ls/" -AdfsAudienceUris $uris -AdfsSignCertificateThumbprint "88970C64278A15D642934DC2961D9CCA5E28DA6B"
 
 
-> [!TIP]
+> [!NOTE]
 > O parâmetro <EM>-AdfsEncryptCertificateThumbprint</EM> não é compatível com estes cenários.
 
 
@@ -551,7 +551,7 @@ Configure o diretório virtual OWA usando o Shell de gerenciamento do Exchange. 
     Get-OwaVirtualDirectory | Set-OwaVirtualDirectory -AdfsAuthentication $true -BasicAuthentication $false -DigestAuthentication $false -FormsAuthentication $false -WindowsAuthentication $false -OAuthAuthentication $false
 
 
-> [!TIP]
+> [!NOTE]
 > Os comandos anteriores do Shell de gerenciamento do Exchange configure os diretórios virtuais do OWA e do ECP em cada servidor de acesso para cliente em sua organização. Se você não quiser aplicar essas configurações para todos os servidores de acesso para cliente, use o parâmetro <EM>-Identity</EM> e especifique o servidor de acesso para cliente. É provável que você desejará aplicar estas configurações somente para os servidores de acesso para cliente em sua organização que estão na Internet opostas.
 
 

@@ -236,7 +236,7 @@ O exemplo a seguir mostra como você pode usar um script simples para produzir o
     $Ie.Visible = $True
     $Ie.Document.Write("$Input")
     # If the previous line doesn't work on your system, uncomment the line below.
-    # $Ie.Document.IHtmlDocument2_Write(\"$Input\")
+    # $Ie.Document.IHtmlDocument2_Write("$Input")
     $Ie
 
 Para usar esse script, salve-o no diretório `C:\Program Files\Microsoft\Exchange Server\V15\Scripts` no computador em que o script será executado. Nomeie o arquivo como `Out-Ie.ps1`. Depois de salvá-lo, você poderá usá-lo como um cmdlet comum.

@@ -52,7 +52,7 @@ Um grupo de segurança habilitados para email pode ser usado para distribuir men
         > Se for aplicado a um diretiva de nomeação de grupo, você deve seguir as restrições de nomenclatura impostas para sua organização. Para obter mais informações, consulte <A href="create-a-distribution-group-naming-policy-exchange-2013-help.md">Criar um diretiva de nomeação de grupo de distribuição</A>. Se você deseja substituir a diretiva de nomenclatura de grupo da sua organização, consulte <A href="override-the-distribution-group-naming-policy-exchange-2013-help.md">Substituir o diretiva de nomenclatura de grupo de distribuição</A>.
 
     
-      - **\* Alias**    Use esta caixa para digitar o alias do grupo de segurança. O alias não pode exceder 64 caracteres e deve ser exclusivo na floresta. Quando um usuário digita o alias para: linha de uma mensagem de email, que é resolvida para o nome para exibição do grupo.
+      - \* **Alias**    Use esta caixa para digitar o alias do grupo de segurança. O alias não pode exceder 64 caracteres e deve ser exclusivo na floresta. Quando um usuário digita o alias para: linha de uma mensagem de email, que é resolvida para o nome para exibição do grupo.
     
       - **Descrição**    Use esta caixa para descrever o grupo de segurança para que pessoas saibam o que é a finalidade do grupo.
     
@@ -60,7 +60,7 @@ Um grupo de segurança habilitados para email pode ser usado para distribuir men
         
         Para selecionar uma unidade organizacional diferente, clique em **Procurar**. A caixa de diálogo exibe todas as unidades organizacionais da floresta que estão no escopo especificado. Selecione a OU desejada e clique em **OK**.
     
-      - **\* Proprietários**    Por padrão, a pessoa que cria um grupo é o proprietário. Todos os grupos devem ter pelo menos um proprietário. Você pode adicionar proprietários clicando em **Adicionar**.
+      - \* **Proprietários**    Por padrão, a pessoa que cria um grupo é o proprietário. Todos os grupos devem ter pelo menos um proprietário. Você pode adicionar proprietários clicando em **Adicionar**.
     
       - **Membros**   Use esta seção para adicionar membros e para especificar se é necessário obter aprovação para que as pessoas ingressem ou saiam do grupo.
         
@@ -204,7 +204,7 @@ Use esta seção para configurar opções para moderar o grupo. Os moderadores a
 
 Use essa seção para visualizar ou alterar os endereços de email associados ao grupo. Isso inclui endereços SMTP principais do grupo e todos os endereços de proxy associados. O endereço SMTP principal (também conhecido como *endereço de resposta*) será exibido em negrito, na lista de endereços, com o valor em maiúsculas **SMTP** na coluna **Tipo**.
 
-  - **Adicionar **  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
+  - **Adicionar**  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
     
       - **SMTP**   Esse é o tipo de endereço padrão. Clique nesse botão e digite o novo endereço SMTP na caixa **\* Endereço de email**.
         

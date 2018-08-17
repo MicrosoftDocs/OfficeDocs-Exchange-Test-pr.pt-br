@@ -36,7 +36,7 @@ Migrando suas pastas públicas do Exchange 2013 para Exchange Online requer o Ex
   - Antes de começar a migração de pasta pública, se qualquer pasta pública individual em sua organização tiver mais de 25 GB, recomendamos que você excluir o conteúdo dessa pasta para torná-lo menor ou divida a pasta pública conteúdo em várias, de pastas públicas menores. Observe que o limite de 25 GB citado aqui se aplica somente à pasta pública e não para qualquer filho ou subpastas que na pasta em questão pode ter. Se nenhuma das opções é viável, recomendamos que você não mover suas pastas públicas para o Exchange Online. Consulte [Limites do Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=391188) para obter mais informações.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se menos de 25 GB suas atual cotas de pastas públicas no Exchange Online, você pode usar o <A href="https://go.microsoft.com/fwlink/p/?linkid=844062">cmdlet Set-OrganizationConfig</A> para aumentá-los com os parâmetros DefaultPublicFolderIssueWarningQuota e DefaultPublicFolderProhibitPostQuota.
 
 
@@ -62,7 +62,7 @@ Migrando suas pastas públicas do Exchange 2013 para Exchange Online requer o Ex
   - Antes de começar, leia este artigo mudada. Para algumas etapas há tempo de inatividade necessário. Durante esse tempo de inatividade, pastas públicas não será acessíveis por qualquer pessoa.
 
 
-> [!TIP]
+> [!NOTE]
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -128,7 +128,7 @@ No Exchange Management Shell (local) execute as seguintes etapas:
         Get-AcceptedDomain | Where { $_.DomainName -eq "<target domain>" } | Set-AcceptedDomain -Name PublicFolderDestination_78c0b207_5ad2_4fee_8cb9_f373175b3f99
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se suas pastas públicas habilitadas para email no Exchange Online para receber emails externos da Internet sejam os esperados, você precisa desabilitar Directory Based Edge bloqueando (DBEB) no Exchange Online e Exchange Online Protection (EOP). Consulte <A href="https://technet.microsoft.com/pt-br/library/dn600322(v=exchg.150)">Usar Bloqueio de Borda Baseado em Diretório para Rejeitar Mensagens Enviadas a Destinatários Inválidos</A> para obter mais informações.
 
 

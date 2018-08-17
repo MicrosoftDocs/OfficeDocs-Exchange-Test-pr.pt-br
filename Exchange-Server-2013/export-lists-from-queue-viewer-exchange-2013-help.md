@@ -54,7 +54,7 @@ Você pode exportar listas para os formatos de arquivo a seguir:
 3.  No Visualizador de filas, selecione a guia **filas** ou na guia **mensagens**. Em qualquer guia, você pode clicar **Criar filtro** para restringir os resultados.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se o painel de resultados não atualizar, no painel de ações, clique em <STRONG>Atualizar</STRONG>. Listas longas podem levar alguns minutos para ser atualizada.
 
 

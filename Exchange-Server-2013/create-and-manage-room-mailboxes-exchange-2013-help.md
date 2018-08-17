@@ -44,14 +44,14 @@ Para saber mais sobre outro tipo de caixa de correio do recurso, consulte [Geren
 
 3.  Use as opções na página para especificar as configurações para a nova caixa de correio de recurso.
     
-      - **\*Nome da sala**   Use esta caixa para digitar um nome para a caixa de correio de sala. Esse é o nome que fica na lista de caixas de correio de recurso no Centro de Administração do Exchange e no catálogo de endereços da sua organização. Esse nome é obrigatório e não pode exceder 64 caracteres.
+      - \* **Nome da sala**   Use esta caixa para digitar um nome para a caixa de correio de sala. Esse é o nome que fica na lista de caixas de correio de recurso no Centro de Administração do Exchange e no catálogo de endereços da sua organização. Esse nome é obrigatório e não pode exceder 64 caracteres.
         
 
         > [!TIP]
         > Embora existam outros campos que descrevam os detalhes da sala, por exemplo, Local e Capacidade, considere resumir os detalhes mais importantes no nome da sala usando uma convenção de nomenclatura consistente. Por quê? Porque assim os usuários poderão consultar facilmente os detalhes ao selecionarem a sala no catálogo de endereços na solicitação de reunião.
 
     
-      - **\* Endereço de email**   Uma caixa de correio de sala tem um endereço de email para que possa receber solicitações de reserva. O endereço de email consiste em um alias no lado esquerdo do símbolo @, que deve ser exclusivo na floresta, e no nome do domínio à direita. O endereço de email é obrigatório.
+      - \* **Endereço de email**   Uma caixa de correio de sala tem um endereço de email para que possa receber solicitações de reserva. O endereço de email consiste em um alias no lado esquerdo do símbolo @, que deve ser exclusivo na floresta, e no nome do domínio à direita. O endereço de email é obrigatório.
     
       - **Local**, **Telefone**, **Capacidade**   Você pode usar esses campos para inserir detalhes sobre a sala. Entretanto, como explicado anteriormente, você pode incluir algumas ou todas essas informações no nome da sala para que os usuários possam consultá-las.
 
@@ -213,7 +213,7 @@ Use a seção **Informações de Contato** para exibir e alterar as informaçõe
 
 Use a seção **Endereço de email** para exibir ou alterar os endereços de email associados à caixa de correio de sala. Isso inclui o endereço SMTP principal da caixa de correio e todos os endereços de proxy associados. O endereço SMTP principal (também conhecido como *endereço de resposta*) será exibido em negrito, na lista de endereços, com o valor em maiúsculas **SMTP** na coluna **Tipo**.
 
-  - **Adicionar **  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
+  - **Adicionar**  Clique em **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar") para adicionar um novo endereço de email para essa caixa de correio. Selecione um dos seguintes tipos de endereço:
     
       - **SMTP**   Esse é o tipo de endereço padrão. Clique nesse botão e digite o novo endereço SMTP na caixa **\* Endereço de email**.
     
