@@ -107,7 +107,7 @@ Este exemplo configura como 63132 a porta de replicação do DAG chamado DAG1.
     Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
 
 
-> [!TIP]
+> [!NOTE]
 > Após alterar a porta de replicação padrão de um DAG, você deverá modificar manualmente as exceções do Firewall do Windows em cada membro do DAG, a fim de permitir a comunicação pela porta especificada.
 
 

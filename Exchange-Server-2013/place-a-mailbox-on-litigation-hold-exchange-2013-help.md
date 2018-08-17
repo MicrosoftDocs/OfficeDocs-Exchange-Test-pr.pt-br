@@ -74,7 +74,7 @@ Este exemplo coloca a caixa de correio bsuneja@contoso.com em Retenção de Lit�
     Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você coloca uma caixa de correio em retenção de litígio indefinidamente (ao não especificar um período de duração), o valor da propriedade <EM>LitigationHoldDuration</EM> é definido como <CODE>Unlimited</CODE>.
 
 

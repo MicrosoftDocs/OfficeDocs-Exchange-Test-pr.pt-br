@@ -26,7 +26,6 @@ Quando os membros do grupo de função de gerenciamento de descoberta executam u
 > Membros do grupo de função de gerenciamento de descoberta não podem acessar mensagens protegidas por IRM exportadas-los de uma caixa de correio de descoberta para outra caixa de correio ou para um arquivo. pst. Mensagens protegidas por IRM em uma caixa de correio de descoberta podem ser acessadas usando Outlook Web App.
 
 
-
 Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedimentos de gerenciamento de direitos de informação](information-rights-management-procedures-exchange-2013-help.md).
 
 ## O que você precisa saber antes de começar?
@@ -56,7 +55,7 @@ Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedime
 Este exemplo configura o IRM para permitir que Exchange pesquisa para indexar mensagens protegidas por IRM.
 
 
-> [!NOTE]  
+> [!NOTE]
 > Por padrão, o parâmetro <EM>SearchEnabled</EM> é definido para <CODE>$true</CODE>. Para desabilitar a indexação de mensagens protegidas por IRM, defina-o para <CODE>$false</CODE>. Desabilitando a indexação das mensagens protegidas por IRM impede que eles sejam retornadas nos resultados da pesquisa quando os usuários pesquisar suas caixas de correio ou gerentes de descoberta usam In-Place eDiscovery.
 
 

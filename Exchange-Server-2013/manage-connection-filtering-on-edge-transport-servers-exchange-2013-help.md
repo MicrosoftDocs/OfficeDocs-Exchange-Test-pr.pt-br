@@ -138,7 +138,7 @@ Por exemplo, para exibir a entrada da lista de IPs Bloqueados que contém o ende
     Get-IPBlockListEntry -IPAddress 192.168.1.13
 
 
-> [!TIP]
+> [!NOTE]
 > Quando o parâmetro <EM>IPAddress</EM> é usado, a entrada da lista de IPs Bloqueados resultante pode ser um endereço IP individual, um intervalo de endereços IP ou um IP CIDR (Roteamento entre Domínios sem Classificação). Para usar o parâmetro <EM>Identity</EM>, é preciso especificar o valor inteiro atribuído à entrada da lista de IPs Bloqueados.
 
 
@@ -262,7 +262,7 @@ Este exemplo cria um provedor chamado "Contoso IP Block List Provider" (Provedor
     Add-IPBlockListProvider -Name "Contoso IP Block List Provider" -LookupDomain rbl.contoso.com -BitmaskMatch 127.0.0.1
 
 
-> [!TIP]
+> [!NOTE]
 > Ao adicionar um novo provedor de lista de IPs Bloqueados, ele é habilitado por padrão (o valor <EM>Enabled</EM> é <CODE>$true</CODE>) e o valor de prioridade é incrementado (a primeira entrada de <EM>Priority</EM> tem valor 1).
 
 
@@ -402,7 +402,7 @@ Por exemplo, para exibir a entrada da lista de IPs Permitidos que contém o ende
     Get-IPAllowListEntry -IPAddress 192.168.1.13
 
 
-> [!TIP]
+> [!NOTE]
 > Quando o parâmetro <EM>IPAddress</EM> é usado, a entrada da lista de IPs Permitidos resultante pode ser um endereço IP individual, um intervalo de endereços IP ou um IP CIDR (Roteamento entre Domínios sem Classificação). Para usar o parâmetro <EM>Identity</EM>, é preciso especificar o valor inteiro atribuído à entrada da lista de IPs Permitidos.
 
 
@@ -520,7 +520,7 @@ Este exemplo cria um provedor chamado "Contoso IP Allow List Provider" (Provedor
     Add-IPAllowListProvider -Name "Contoso IP Allow List Provider" -LookupDomain allow.contoso.com -BitmaskMatch 127.0.0.1
 
 
-> [!TIP]
+> [!NOTE]
 > Quando você adiciona um novo provedor de lista de IPs Permitidos, ele é habilitado por padrão (o valor <EM>Enabled</EM> é <CODE>$true</CODE>) e o valor de prioridade é incrementado (a primeira entrada de <EM>Priority</EM> tem valor 1).
 
 

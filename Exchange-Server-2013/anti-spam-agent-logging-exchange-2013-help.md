@@ -32,7 +32,7 @@ Logs de agente registram as ações executadas em uma mensagem por específicos 
   - Agente de ID de Remetente
 
 
-> [!TIP]
+> [!NOTE]
 > O agente de filtragem de conexão e o agente de regras de borda não estão disponíveis nos servidores de caixa de correio.
 
 
@@ -113,7 +113,7 @@ A tabela a seguir lista os eventos de SMTP na ordem da ocorrência e os agentes 
 
 
 
-> [!TIP]
+> [!NOTE]
 > O agente de filtragem de conexão e o agente de regras de borda não estão disponíveis nos servidores de caixa de correio.
 
 

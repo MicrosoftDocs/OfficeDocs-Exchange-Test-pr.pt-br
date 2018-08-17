@@ -80,7 +80,7 @@ Para mais tarefas de gerenciamento relacionadas a usuários habilitados para cai
 Este exemplo remove o número do ramal 12345 da caixa de correio de Tony Smith, um usuário habilitado para UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Antes de remover um número de ramal usando o Shell, você precisará determinar a posição do endereço do proxy EUM que você deseja modificar. Para determinar a posição, use o comando <STRONG>$mbx.EmailAddresses</STRONG> . O endereço de proxy EUM primeiro na lista será 0.
 
 

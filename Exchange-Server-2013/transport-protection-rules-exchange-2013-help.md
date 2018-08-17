@@ -28,7 +28,7 @@ Para tarefas de gerenciamento relacionadas ao gerenciamento de IRM, consulte [Pr
 Regras de proteção de transporte permitem que você use as regras de transporte para proteger o IRM mensagens aplicando um modelo de diretiva de direitos do [Active Directory Rights Management Services](https://go.microsoft.com/fwlink/p/?linkid=129823) (AD RMS).
 
 
-> [!TIP]
+> [!NOTE]
 > AD RMS é uma tecnologia de proteção de informações que funciona com aplicativos habilitados por RMS Rights Management Service e clientes de proteger informações confidenciais online e offline. Para usar a proteção de IRM em uma implantação no local Exchange, Exchange 2013 requer uma implantação local do AD RMS em execução no Windows Server 2008 ou posterior.
 
 

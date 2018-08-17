@@ -62,14 +62,14 @@ Use o Editor de modelos de detalhes para personalizar a apresentação de GUI (i
       - Para excluir um objeto, selecione o objeto e, em seguida, pressione a tecla DELETE.
         
 
-        > [!TIP]
+        > [!NOTE]
         > O Editor de modelos de detalhes não contém um botão de <STRONG>Desfazer</STRONG>, nem é possível usar um atalho de teclado para uma ação de desfazer. Para desfazer uma adição feitas no modelo, você deve usar a tecla DELETE. Para desfazer uma exclusão, você deve reaplicar a configuração. Você também pode reverter às configurações originais saindo do Editor de modelos de detalhes sem salvar suas alterações. Se você quiser desfazer alterações depois de ter salvado, você pode restaurar o modelo. Quando você restaura um modelo, toda a personalização é perdida e o modelo é restaurado para sua configuração original. Para obter mais informações sobre como restaurar o modelo de detalhes, consulte <A href="restore-a-details-template-to-the-default-configuration-exchange-2013-help.md">Restaurar um modelo de detalhes para a configuração padrão</A>.
 
     
       - Para adicionar um texto "Editar" caixas, caixas de listagem, caixas de lista suspensa de valores múltiplos ou caixas de listagem de valores múltiplos, no painel de ferramentas, arraste o objeto para o painel de design. Defina o atributo do objeto clicando na caixa de lista suspensa do atributo no painel Propriedades e, em seguida, selecionando o atributo que será usado pelo Exchange.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Você deve vincular o objeto para um atributo para ele a ser usado pelo Exchange. Além disso, o atributo determina o conteúdo que é exibido para o usuário final no Outlook. Se você não marcar um atributo, um atributo aleatório é selecionado automaticamente.
 
     
@@ -82,7 +82,7 @@ Use o Editor de modelos de detalhes para personalizar a apresentação de GUI (i
       - Para alterar a ordem das tabulações dos objetos em uma guia para que os usuários podem usar a tecla TAB para navegar os objetos na ordem desejada, selecione o objeto no painel design. Em seguida, no painel Propriedades, use a caixa de **TabIndex** para alterar a ordem.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Para certificar-se de que os usuários não podem usar a tecla TAB para acessar os rótulos de um objeto (por exemplo, <STRONG>nome</STRONG> ou <STRONG>Alias</STRONG> ), altere a ordem dos rótulos para que sejam últimos na ordem de tabulação.
 
 

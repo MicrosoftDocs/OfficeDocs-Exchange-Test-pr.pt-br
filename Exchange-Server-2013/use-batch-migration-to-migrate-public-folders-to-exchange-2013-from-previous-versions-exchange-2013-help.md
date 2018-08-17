@@ -24,7 +24,7 @@ Este artigo descreve como migrar suas pastas públicas do Exchange Server 2010 S
 Nos referimos os servidores Exchange 2010 SP3 RU8 e Exchange 2007 SP3 RU15 como o *servidor Exchange herdado*.
 
 
-> [!TIP]
+> [!NOTE]
 > O método de migração de lote descrito neste artigo é o único método suportado para migração de pastas públicas herdada para o Exchange 2013. O método de migração serial antigo para migração de pastas públicas está sendo preterido e não é mais suportado pela Microsoft.
 
 
@@ -211,7 +211,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
     3.  Se você tiver alguma pasta pública, execute os seguintes comandos do PowerShell para removê-los. Certifique-se de que você salvou qualquer informação que estava nas pastas públicas.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Todas as informações contidas nas pastas públicas serão permanentemente excluídas quando você removê-los.
 
         
@@ -255,7 +255,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
 2.  Execute o script `PublicFolderToMailboxMapGenerator.ps1` para criar o arquivo de mapeamento de correio de pasta pública. Esse arquivo é usado para calcular o número correto de caixas de correio de pasta pública no servidor de caixa de correio do Exchange 2013.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se o nome de uma pasta pública contiver uma barra invertida <STRONG>\</STRONG>, as pastas públicas serão criadas na pasta pública pai. Recomendamos que você revise o arquivo. csv e editar quaisquer nomes que contêm uma barra invertida.
 
     
@@ -357,7 +357,7 @@ No servidor Exchange herdado, execute o seguinte comando para bloquear as pastas
     Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
 
 
-> [!TIP]
+> [!NOTE]
 > Se por algum motivo o lote de migração arquivo não finalizar (exibe do<STRONG>PublicFolderMigrationComplete</STRONG> <STRONG>False</STRONG>,) no servidor herdado, reinicie o repositório de informações (IS).
 
 
@@ -461,9 +461,8 @@ Se você encontrar problemas com a migração e precisar reativar suas pastas p�
 2.  No servidor Exchange 2013, execute os seguintes comandos para remover as caixas de correio de pasta pública.
     
 ```
-        Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
-```
-```        
+        Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false  
+       
         Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
 ```
 

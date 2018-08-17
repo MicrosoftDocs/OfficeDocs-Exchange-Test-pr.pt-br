@@ -88,7 +88,7 @@ Há suporte para o Outlook Web App, mas com algumas limitações. Você pode adi
   - Acessar pastas públicas localizadas em servidores que executam versões anteriores do Exchange
 
 
-> [!TIP]
+> [!NOTE]
 > Você só pode criar regras de pasta pública que contenham o elemento <STRONG>responder usando um modelo específico</STRONG> em pastas públicas habilitadas para email. É possível que pré-existente regras contendo <STRONG>responder usando um modelo específico</STRONG> continuarão a trabalhar em pastas públicas habilitadas para email, mas essas pastas que você não pode criar novas regras com esse elemento do modelo ou editar as regras existentes com esse elemento.
 
 

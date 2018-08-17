@@ -34,7 +34,7 @@ Quando você habilita um usuário para Unificação de mensagens, você deve def
 Se você estiver usando planos de discagem de ramal de telefone e precisa fornecer o mesmo número de ramal de um usuário, você precisará criar um plano de discagem secundário, permitir que o usuário para Unificação de mensagens e fornecer o mesmo número de ramal para o usuário. Isso ocorre porque o número do ramal deve ser exclusivo dentro de um plano de discagem
 
 
-> [!TIP]
+> [!NOTE]
 > Não há limite para o número de ramais secundários que você pode adicionar para um usuário habilitado para UM.
 
 

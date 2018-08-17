@@ -87,7 +87,7 @@ Para obter uma orientação passo a passo sobre como atualizar do Exchange 2007 
 <td><p>Mover a caixa de correio do sistema Exchange 2010 usada para os prompts personalizados de UM para o Exchange 2013.</p></td>
 <td><p><a href="mailbox-moves-in-exchange-2013-exchange-2013-help.md">Movimentações de caixa de correio no Exchange 2013</a></p>
 
-> [!TIP]
+> [!NOTE]
 > Se a caixa de correio do sistema já tiver sido mudada, você ainda pode importar/exportar manualmente prompts personalizados do Exchange 2010 usando <A href="import-and-export-custom-greetings-announcements-menus-and-prompts-exchange-2013-help.md">Importar e exportar saudações personalizadas, anúncios, menus e prompts</A>.
 
 

@@ -58,7 +58,7 @@ Este exemplo define a política de atribuição para o Unified Messaging Users n
 ## Usar o Shell para alterar a política de atribuição em um grupo de caixas de correio atribuída uma política de atribuição específica
 
 
-> [!TIP]
+> [!NOTE]
 > Você não pode usar o EAC para alterar a política de atribuição em um grupo de caixas de correio de uma só vez.
 
 

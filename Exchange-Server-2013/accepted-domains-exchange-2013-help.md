@@ -40,7 +40,7 @@ Domínios aceitos são definidos como configurações globais para a organizaç�
 Há três tipos de domínios aceitos: autoritativos, de retransmissão internos e de retransmissão externos. Esses tipos de domínios aceitos serão discutidos nas seções a seguir.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você tiver um servidor de Transporte de Borda inscrito em sua rede de perímetro, configure os domínios aceitos em um servidor de Caixa de Correio em sua organização do Exchange. A configuração de domínios aceitos é replicada para o servidor de Transporte de Borda durante a sincronização do EdgeSync. Para saber mais, confira <A href="edge-subscriptions-exchange-2013-help.md">Inscrições de Borda</A>.
 
 

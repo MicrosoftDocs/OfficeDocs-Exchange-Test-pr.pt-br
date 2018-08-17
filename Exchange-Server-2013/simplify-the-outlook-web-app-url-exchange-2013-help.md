@@ -66,7 +66,7 @@ Ao tentar configurar o redirecionamento a partir de um diretório de nível supe
 12. Em **Configurações de SSL**, desmarque **Exigir SSL**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você não desmarcar <STRONG>Exigir SSL</STRONG>, os usuários não serão redirecionados quando digitarem uma URL desprotegida. Em vez disso, eles receberão um erro de acesso negado.
 
 

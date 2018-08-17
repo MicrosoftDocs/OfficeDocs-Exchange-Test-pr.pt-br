@@ -36,7 +36,7 @@ Para resolver esse problema, faça o seguinte:
 7.  Confirme a exclusão, clicando em **Sim** na caixa de diálogo do Active Directory.
 
 
-> [!TIP]
+> [!NOTE]
 > Se desejar que a alteração seja replicada imediatamente, você deve iniciar manualmente a replicação entre os controladores de domínio.
 
 

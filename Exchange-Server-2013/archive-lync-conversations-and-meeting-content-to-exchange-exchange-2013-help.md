@@ -24,7 +24,7 @@ Quando você coloca uma caixa de correio em retenção de litígio, todos os tip
 ![Colocar itens do Lync em espera](images/Dn508399.691d2324-9fac-4689-8527-c78d387e0e3e(EXCHG.150).jpg "Colocar itens do Lync em espera")
 
 
-> [!TIP]
+> [!NOTE]
 > Você também pode configurar um bloqueio In-loco para excluir itens do Lync. Por exemplo, organizações talvez prefira preservar itens da caixa postal e mensagem instantânea para um período de tempo menor outros tipos de conteúdo. Para implementar esse tipo de política de retenção, você criará um bloqueio In-loco para preservar o conteúdo por um longo período de tempo (por exemplo, sete anos) e excluir itens do Lync desta isenção. Em seguida, você cria outra In-Place Hold com uma duração de espera menor que preserva apenas itens do Lync. Você também pode especificar por quanto tempo o conteúdo deve ser preservado. Para obter mais informações sobre a criação de uma isenção com uma duração específica, consulte <A href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Retenção local e Retenção de litígio</A>.
 
 

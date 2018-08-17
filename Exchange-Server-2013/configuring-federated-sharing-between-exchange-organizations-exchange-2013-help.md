@@ -153,7 +153,7 @@ Conclua as etapas em [Configurar o compartilhamento federado](configure-federate
           - Em **Selecionar um Repositório de Pasta Pública**, selecione o **Banco de Dados de Pasta Pública** do servidor de Acesso para Cliente/Caixa de Correio do Exchange 2010 e clique em **OK**.
             
 
-            > [!TIP]
+            > [!NOTE]
             > Por padrão, o Exchange usa a agenda de replicação definida no banco de dados de pasta pública.
 
         

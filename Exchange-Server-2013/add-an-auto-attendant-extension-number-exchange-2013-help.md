@@ -22,7 +22,7 @@ Você pode configurar um número de ramal ou vários números de ramal em um ate
 Você pode criar um novo atendedor automático sem configurar um número de ramal para o atendedor automático. Você também pode associar mais de um número de telefone ou ramal um atendedor automático único. Você pode adicionar os números de ramal quando você cria UM atendedor automático ou adicioná-los após configurar o atendedor automático. O número de dígitos no número do ramal que tenha configurado no atendedor automático de UM deve corresponder ao número de dígitos para um número de ramal configurado em UM plano de discagem associado ao atendedor automático de UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Você também pode adicionar um endereço de protocolo de iniciação de sessão (SIP) em vez de adicionar um número de ramal. Um endereço SIP é usado por alguns IP PBXs Private Branch eXchanges () e Office Communications Server 2007 R2 ou Microsoft Lync Server.
 
 

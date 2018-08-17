@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2013-04-19_
 Quando você está definindo o Unified Messaging (UM), você deve configurar a voz sobre IP (VoIP) gateways, IP PBXs, PBXs habilitados para SIP ou controladores de borda de sessão (SBCs) em sua rede para se comunicar com os servidores de acesso para cliente que executa o serviço Microsoft Exchange Unified Messaging roteador de chamada e os servidores de caixa de correio executando o serviço de Unificação de mensagens do Microsoft Exchange em sua organização Exchange. Você também deve configurar o acesso para cliente e os servidores de caixa de correio para se comunicar com os gateways VoIP, IP PBXs, SBCs ou PBXs habilitados para SIP.
 
 
-> [!TIP]
+> [!NOTE]
 > Depois de se conectar os servidores de acesso para cliente e caixa de correio para os gateways VoIP, IP PBXs, PBXs habilitados para SIP ou SBCs em sua rede de dados, você deve criar os componentes necessários de Unificação de mensagens e também permitem que os usuários para Unificação de mensagens para que possam usar o sistema de caixa postal.
 
 

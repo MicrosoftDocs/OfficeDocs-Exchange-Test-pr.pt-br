@@ -22,7 +22,7 @@ As informações a seguir ajudam você a configurar descarregamento SSL para os 
 Uma das maiores vantagens do descarregamento SSL é conseguir gerenciar com mais facilidade os certificados usados. Em vez de ter certificados SSL separados para cada servidor de Acesso para Cliente com SP1 instalado, um único certificado SSL é usado e importado para todos os servidores de Acesso para Cliente. O certificado usado pode ser um certificado SSL existente ou recém-criado.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Quando você usa o Gerenciador de serviços de informações da Internet (IIS), o Shell de gerenciamento do Exchange ou uma interface de linha de comando para configurar o descarregamento de SSL, observe que há um <STRONG>Site padrão</STRONG> e um site do <STRONG>Exchange Back-End</STRONG>. Para o descarregamento de SSL, apenas configurar o <STRONG>Site padrão</STRONG> e não fizer alterações para o site do <STRONG>Exchange Back-End</STRONG>.
 
 

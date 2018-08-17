@@ -24,7 +24,7 @@ Há outras configurações em uma organização do Exchange que determinam o tam
 Confira outras tarefas de gerenciamento relacionadas às caixas de correio de usuário em [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Também é possível controlar o tamanho das mensagens enviadas e recebidas por usuários de correio e de caixas de correio compartilhadas.
 
 

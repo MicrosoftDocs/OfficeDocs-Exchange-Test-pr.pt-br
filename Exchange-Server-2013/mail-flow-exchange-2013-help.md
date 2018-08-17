@@ -60,7 +60,7 @@ Se você tiver um servidor de Transporte de Borda do Exchange 2013 instalado na 
   - **Servidor de Caixa de Correio e servidor de Acesso para Cliente instalados em computadores diferentes**   Nesta configuração, o servidor de Acesso para Cliente é ignorado pelo fluxo de emails de entrada. Os fluxos de email do serviço de Transporte no servidor de Transporte de Borda para o serviço de Transporte no servidor de Caixa de Correio.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você tiver um servidor de Transporte do Borda do Exchange 2010 ou do Exchange 2007 na rede de perímetro, o fluxo de emails sempre ocorrerá diretamente entre o servidor de Transporte de Borda e o serviço de Transporte no servidor de Caixa de Correio. Para mais informações, consulte <A href="use-an-exchange-2010-or-2007-edge-transport-server-in-exchange-2013-exchange-2013-help.md">Usar um Exchange 2010 ou o servidor de transporte de borda 2007 no Exchange 2013</A>.
 
 

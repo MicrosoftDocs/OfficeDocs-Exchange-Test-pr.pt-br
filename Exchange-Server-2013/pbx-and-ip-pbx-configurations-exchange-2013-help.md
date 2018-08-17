@@ -116,7 +116,7 @@ Voltar ao início
 Analógicos PBXs enviar voz e informações de sinalização, como os tons de toque de um número de telefone discado, como um som analógico de chamadas. Portanto, o som nunca é digitalizado. Para direcionar corretamente a chamada, o PBX e o office de central da companhia telefônica tem que escutar as informações de sinalização.
 
 
-> [!TIP]
+> [!NOTE]
 > Touchtone mais tecnicamente é conhecido como multifrequência de tom dual. Quando um chamador pressiona uma tecla no teclado de um telefone, o telefone produz tons separados dois: um tom de alta frequência e um tom de baixa frequência. Quando uma pessoa fala de telefone, somente um único tom ou frequência é emitida. Enviar dois tons com frequências diferentes ao mesmo tempo reduz a possibilidade de que os toques de sinalização serão interpretados como uma voz humana ou que uma voz humana será interpretada como os toques de sinalização.
 
 
@@ -124,7 +124,7 @@ Analógicos PBXs enviar voz e informações de sinalização, como os tons de to
 Digitais PBXs codificar ou digitalize o som analógico, em um formato digital. Normalmente, PBXs digitais codificam os sons de voz usando um codec de áudio padrão do setor como g. 711 ou 729. Depois que a voz digitalizada é codificada, ele é enviado através de um canal usando o recurso de comutação por circuito. Configura comutação por circuito uma ponta a ponta abre a conexão. Ele deixar o canal aberto para o comprimento da chamada e para uso exclusivo do chamador. No entanto, o método de sinalização usado pelo PBX depende do fabricante. Os fabricantes de PBX podem ter seu próprios proprietário sinalização método para a configuração da chamada.
 
 
-> [!TIP]
+> [!NOTE]
 > Digitais PBXs podem oferecer suporte a linhas de tronco analógicas e digitais.
 
 
@@ -150,7 +150,7 @@ Um PBX IP é um sistema PBX que oferece suporte ao protocolo IP para conectar te
 O desenvolvimento de protocolos da Internet em tempo real tornou possível com êxito enviar mensagens de voz e fax através de uma rede de dados. Esses protocolos de Internet em tempo real incluem os protocolos de VoIP usados com o Unified Messaging: Session Initiation Protocol (SIP) via protocolo TCP (Transmission Control) para mensagens de voz. Esses protocolos tornaram possível com êxito enviar mensagens de voz e fax através de uma rede de dados. Protocolos de VoIP em tempo real são necessários para enviar mensagens de voz através de uma rede de comutação de pacotes ou dados para a ordem de entrega e o intervalo de pacotes de dados possam ser mantidas e controlados. Se esses protocolos não foram usados para manter e controlar a entrega e timing os pacotes de dados, voz de uma pessoa seria desmembrado e som incoerentes ou as imagens podem aparecer com erros. Para obter uma lista de IP PBXs suportados para Unificação de mensagens, consulte [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Suporta do Unified Messaging apenas SIP sobre TCP.
 
 

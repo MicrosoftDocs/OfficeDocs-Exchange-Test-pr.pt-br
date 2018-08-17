@@ -100,7 +100,7 @@ Este exemplo altera os valores a seguir no servidor de caixa de correio chamado 
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
 
 
-> [!TIP]
+> [!NOTE]
 > Os parâmetros <EM>TransientFailureRetryCount</EM> e <EM>TransientFailureRetryInterval</EM> também estão disponíveis no cmdlet <STRONG>Set-FrontEndTransportService</STRONG> para o serviço de Front End Transport nos servidores de acesso para cliente.
 
 
@@ -134,7 +134,7 @@ Este exemplo altera os valores a seguir no servidor de caixa de correio chamado 
     Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
 
 
-> [!TIP]
+> [!NOTE]
 > Os parâmetros <EM>TransientFailureRetryCount</EM> e <EM>TransientFailureRetryInterval</EM> também estão disponíveis no cmdlet <STRONG>Set-FrontEndTransportService</STRONG> para o serviço de Front End Transport nos servidores de acesso para cliente.
 
 
@@ -156,7 +156,7 @@ Este exemplo altera o intervalo de repetição de mensagem como 20 minutos no se
 Você pode usar o EAC ou o Shell para configurar o intervalo de tempo limite de notificação de DSN de atraso. Essa configuração é aplicada somente o servidor de transporte de local. Você só pode usar o Shell para habilitar ou desabilitar o envio de mensagens DSN atraso para remetentes internos e externos. Essas configurações são aplicadas a todos os servidores de transporte na sua organização.
 
 
-> [!TIP]
+> [!NOTE]
 > Nos servidores de transporte de Hub Exchange 2007, todos os parâmetros <EM>ExternalDSN*</EM> e <EM>InternalDSN*</EM> estão disponíveis no cmdlet <STRONG>Set-TransportServer</STRONG> , não o cmdlet <STRONG>Set-TransportConfig</STRONG> . Se você tiver quaisquer servidores de transporte de Hub Exchange 2007 em sua organização, você precisará fazer alterações nesses valores usando o cmdlet <STRONG>Set-TransportServer</STRONG> em cada servidor de transporte de Hub Exchange 2007.
 
 

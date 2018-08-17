@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-09-30_
 Log de auditoria com caixa de correio, você pode rastrear logons de uma caixa de correio, bem como quais ações são executadas enquanto o usuário está conectado. Quando você habilita a auditoria de caixa de correio de registro em log para uma caixa de correio, algumas ações executadas pelos administradores e representantes são registrados por padrão. Nenhuma das ações executadas pelo proprietário da caixa de correio são registradas. Para saber que mais sobre a caixa de correio do log de auditoria, consulte [Registro em log de auditoria da caixa de correio](mailbox-audit-logging-exchange-2013-help.md).
 
 
-> [!WARNING]
+> [!CAUTION]
 > Auditoria de ações de proprietário da caixa de correio pode gerar um grande número de entradas de log de auditoria de caixa de correio e, portanto, está desabilitada por padrão. Recomendamos que você habilite apenas a auditoria de ações de proprietário específicas necessárias para atender aos requisitos de negócios ou segurança.
 
 

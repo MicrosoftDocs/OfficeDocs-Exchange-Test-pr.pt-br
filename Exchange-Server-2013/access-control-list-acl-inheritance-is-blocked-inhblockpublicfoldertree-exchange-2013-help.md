@@ -65,7 +65,7 @@ Para resolver esse problema, certifique-se de que as "permissões de permitir se
 <li><p>Feche o Editor do registro.</p></li>
 </ol>
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, na guia <STRONG>segurança</STRONG> não está habilitada na caixa de propriedades do objeto de configuração.
 
 
@@ -81,7 +81,7 @@ Para resolver esse problema, certifique-se de que as "permissões de permitir se
 
 
 
-> [!WARNING]
+> [!CAUTION]
 > Se você modificar incorretamente os atributos de objetos do Active Directory quando você usa o ADSI Edit, a ferramenta LDP ou outro cliente do LDAP versão 3, você pode causar problemas sérios. Esses problemas podem exigir que você reinstale o Microsoft Windows Server™ 2003, Exchange Server ou ambos. Modifica os atributos de objeto do Active Directory de sua responsabilidade.
 
 

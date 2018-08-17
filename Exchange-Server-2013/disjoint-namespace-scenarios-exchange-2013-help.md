@@ -42,7 +42,7 @@ Um computador que executa o Windows em um domínio Active Directory tem um nome 
   - **Nome de domínio NetBIOS**   Geralmente, o nome de domínio NetBIOS é o subdomínio do nome de domínio DNS. Por exemplo, se o nome de domínio DNS for contoso.com, o nome de domínio NetBIOS é contoso. Se o nome de domínio DNS for corp.contoso.com, o nome de domínio NetBIOS é corp.
 
 
-> [!TIP]
+> [!NOTE]
 > Para encontrar informações de DNS e NetBIOS para computadores que executam o Windows Server 2008, consulte DNS de modo de exibição e a informações relacionadas ao nome NetBIOS de um computador que executa o Windows Server 2008.
 
 
@@ -72,7 +72,7 @@ Exchange 2013 oferece suporte a três cenários a seguir para implantar o Exchan
 Esses cenários são detalhados nas seções a seguir.
 
 
-> [!TIP]
+> [!NOTE]
 > Há suporte para executar Exchange 2013 nos cenários namespace separado descritos neste tópico. No entanto, se você tiver um cenário de namespace separado que não seja um dos cenários descritos neste tópico, você deve trabalhar com o Microsoft Services para implantar Exchange 2013. Para obter mais informações, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=94845">Microsoft Services</A>.
 
 

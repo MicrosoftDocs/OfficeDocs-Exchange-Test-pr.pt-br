@@ -86,7 +86,7 @@ Para mais tarefas de gerenciamento relacionadas a usuários habilitados para cai
 Este exemplo adiciona um número de ramal 22222 para Tony Smith, um usuário habilitado para UM.
 
 
-> [!TIP]
+> [!NOTE]
 > Antes de adicionar um número de ramal usando o Shell, é preciso determinar a posição do endereço proxy EUM que deseja adicionar. Para determinar a posição, use o comando <STRONG>$mbx.EmailAddresses</STRONG>. O primeiro endereço proxy na lista será 0.
 
 

@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-10-03_
 Você poderá adicionar scripts e cmdlets não-Exchange a funções de gerenciamento de nível superior sem escopo se quiser disponibilizar novos scripts ou cmdlets não-Exchange a funções sem escopo existentes. Esses scripts e cmdlets não-Exchange são adicionados como entradas de função de gerenciamento a funções de gerenciamento de nível superior sem escopo. Eles podem ser usados por essas entradas de função de nível superior sem escopo ou qualquer função sem escopo derivada de funções de nível superior. Para obter mais informações sobre entradas de função sem escopo, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Se você quiser alterar uma entrada de função em uma função de gerenciamento que contenha cmdlets do Exchange, consulte <A href="change-a-role-entry-exchange-2013-help.md">Alterar uma entrada de função</A>.
 
 
@@ -68,7 +68,7 @@ Este exemplo adiciona o script BulkProvisionUsers.ps1 à função Scripts de TI 
     Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
 
 
-> [!TIP]
+> [!NOTE]
 > O cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> realiza uma validação básica para garantir que você tenha adicionado apenas os parâmetros existentes no script. Entretanto, nenhuma outra validação é realizada depois que a entrada de função for adicionada. Se parâmetros forem adicionados ou removidos posteriormente, você terá que atualizar manualmente as entradas de função que contenham o script.
 
 
@@ -90,7 +90,7 @@ Este exemplo adiciona o cmdlet **Set-WidgetConfiguration** no snap-in Contoso.Ad
     Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
 
 
-> [!TIP]
+> [!NOTE]
 > O cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> realiza uma validação básica para garantir que você tenha adicionado apenas os parâmetros existentes no cmdlet. Entretanto, nenhuma outra validação é realizada depois que a entrada de função for adicionada. Se o cmdlet for alterado posteriormente, e se parâmetros forem adicionados ou removidos, você terá que atualizar manualmente as entradas de função que contenham o cmdlet.
 
 
