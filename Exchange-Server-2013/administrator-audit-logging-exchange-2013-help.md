@@ -86,7 +86,7 @@ Por padrão, o registro em log de auditoria é configurado para armazenar entrad
 Você deve especificar anos múltiplos usando o campo `dd`. Por exemplo, 365 dias é igual a um ano; 730 dias é igual a dois anos; 913 dias é igual a dois anos e seis meses. Por exemplo, para definir o limite de idade do log de auditoria como dois anos e seis meses, use a sintaxe `913.00:00:00`.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Você pode definir para o limite de idade do log de auditoria um valor menor do que o limite de idade atual. Se isso for feito, todas as entradas do log de auditoria com idade que exceda o novo limite de idade serão excluídas.<BR>Se você definir o limite de idade para 0, o Exchange&nbsp;exclui todas as entradas no log de auditoria.<BR>Recomendamos que você conceda permissões de configuração do limite de idade do log de auditoria somente a usuários extremamente confiáveis.
 
 

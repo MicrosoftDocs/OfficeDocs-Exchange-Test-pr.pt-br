@@ -46,7 +46,7 @@ Em um prompt de comando, execute o seguinte comando.
 No comando anterior, *\<UmLanguagePackName\>* é o nome do pacote de idiomas de Unificação de mensagens, por exemplo, fr-FR.
 
 
-> [!WARNING]
+> [!CAUTION]
 > Você não pode usar o arquivo de Setup.exe que está localizado na pasta \Bin para remover um pacote de idiomas de Unificação de mensagens após ter instalado quaisquer atualizações. Você deve usar o arquivo de Setup.exe de Exchange 2013 DVD ou os arquivos de origem baixados. Se não fizer isso, você verá o seguinte erro: não há uma incompatibilidade de versões entre o aplicativo em execução e o aplicativo instalado.
 
 

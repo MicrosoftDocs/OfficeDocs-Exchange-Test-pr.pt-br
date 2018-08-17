@@ -1,4 +1,5 @@
-﻿---
+﻿
+---
 title: 'Criar uma função sem escopo: Exchange 2013 Help'
 TOCTitle: Criar uma função sem escopo
 ms:assetid: 5a042ccf-4d5f-4609-a91b-21c20d1e6459
@@ -20,13 +21,13 @@ _**Tópico modificado em:** 2014-06-09_
 Uma função de gerenciamento sem escopo pode ser usada oferecer a administradores e usuários especializados acesso a scripts do Windows PowerShell e cmdlets não-Exchange. Você pode também criar uma função de nível superior sem escopo e adicionar scripts ou cmdlets não-Exchange a essa função ou criar uma função com base em uma função de nível superior sem escopo existente. Após uma função sem escopo ter sido criada e personalizada, ela poderá ser atribuída a grupos de funções de gerenciamento, usuários e grupos de segurança universal (USGs). Funções sem escopo não podem ser atribuídas a diretivas de atribuição de função de gerenciamento. Para obter mais informações sobre funções sem escopo, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 
 
-> [!WARNING]
+> [!CAUTION]
 > As funções sem escopo podem ser poderosas porque, como seu próprio nome diz, nenhum escopo de gerenciamento é aplicado a elas. Isso significa que os scripts e os cmdlets não-Exchange que elas contêm podem ser executados para qualquer objeto em sua organização do Exchange. Considere isso ao adicionar scripts ou cmdlets não-Exchange a uma função sem escopo e ao atribuir a função sem escopo.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Se você quiser criar uma função que contenha cmdlets do Exchange, será preciso criar uma função baseada em uma função de gerenciamento existente. Para obter mais informações sobre como criar funções com cmdlets do Exchange, consulte <A href="create-a-role-exchange-2013-help.md">Criar uma função</A>.
 
 
@@ -94,7 +95,7 @@ Este exemplo adiciona o script BulkProvisionUsers.ps1 à função Scripts de TI 
     Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
 
 
-> [!TIP]
+> [!NOTE]
 > O cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> realiza uma validação básica para garantir que você tenha adicionado apenas os parâmetros existentes no script. Entretanto, nenhuma outra validação é realizada depois que a entrada de função for adicionada. Se parâmetros forem adicionados ou removidos posteriormente, você terá que atualizar manualmente as entradas de função que contenham o script.
 
 
@@ -116,7 +117,7 @@ Este exemplo adiciona o cmdlet **Set-WidgetConfiguration** no snap-in Contoso.Ad
     Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
 
 
-> [!TIP]
+> [!NOTE]
 > O cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> realiza uma validação básica para garantir que você tenha adicionado apenas os parâmetros existentes no cmdlet. Entretanto, nenhuma outra validação é realizada depois que a entrada de função for adicionada. Se o cmdlet for alterado posteriormente, e se parâmetros forem adicionados ou removidos, você terá que atualizar manualmente as entradas de função que contenham o cmdlet.
 
 
@@ -148,7 +149,7 @@ Aqui estão as etapas para criar uma função sem escopo filha:
 Funções novas filhas sem escopo podem ter como base funções sem escopo existentes. Quando você cria uma função, uma função existente e suas entradas de função de gerenciamento são copiadas para a nova função. A função existente se torna pai da nova função filha. Se você criar uma função sem escopo que tenha como base outra função sem escopo, será preciso escolher uma função que tenha todos os cmdlets e parâmetros que precisa usar e remover os que não quer usar. As funções sem escopo filhas não podem ter entradas de função de gerenciamento que não existem na função pai.
 
 
-> [!TIP]
+> [!NOTE]
 > Se for preciso criar uma função sem escopo que tenha scripts ou cmdlets não-Exchange que não existam em nenhuma outra função sem escopo, crie uma função de nível superior sem escopo. Para obter mais informações, consulte Create an unscoped top-level management role, anteriormente neste tópico.
 
 

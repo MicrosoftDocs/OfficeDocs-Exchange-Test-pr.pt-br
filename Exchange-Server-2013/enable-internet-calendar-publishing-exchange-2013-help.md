@@ -62,7 +62,7 @@ Para ver mais tarefas de gerenciamento relacionadas às diretivas de compartilha
 ## Etapa 1: Usar o Shell para configurar a URL do proxy da Web
 
 
-> [!TIP]
+> [!NOTE]
 > Esta etapa só é necessária se já existir uma URL de proxy da Web em sua organização. Caso contrário, pule para a etapa 2.<BR>Não é possível usar o Centro de Administração do Exchange (EAC) para configurar a URL do proxy da Web.
 
 
@@ -82,7 +82,7 @@ Para verificar se você configurou a URL do proxy Web com êxito, execute o segu
 ## Etapa 2: Usar o Shell para habilitar o diretório virtual de publicação
 
 
-> [!TIP]
+> [!NOTE]
 > Não é possível usar o EAC para habilitar um diretório virtual de publicação.
 
 
@@ -104,7 +104,7 @@ Para verificar se você habilitou o diretório virtual de publicação com êxit
 ## Etapa 3: Criar ou configurar uma política de compartilhamento específica para publicação de calendário da Internet
 
 
-> [!TIP]
+> [!NOTE]
 > As seguintes opções na etapa 3 somente se aplicam aos ambientes Exchange Online.
 
 

@@ -22,13 +22,13 @@ Cada entrada da função de gerenciamento em uma função de gerenciamento repre
 Você não pode modificar as entradas de função em funções de gerenciamento internas.
 
 
-> [!TIP]
+> [!NOTE]
 > Este tópico não aborda como modificar entradas de função de gerenciamento sem escopo em uma função de gerenciamento sem escopo. Para obter mais informações sobre como modificar entradas de função sem escopo, consulte <A href="create-a-role-exchange-2013-help.md">Criar uma função</A>.
 
 
 
 
-> [!WARNING]
+> [!CAUTION]
 > Para adicionar ou remover parâmetros de uma entrada de função, você deve usar os parâmetros <EM>AddParameter</EM> ou <EM>RemoveParameter</EM> . Se você omitir o parâmetro <EM>AddParameter</EM> ou <EM>RemoveParameter</EM> quando você executa o cmdlet <STRONG>Set-ManagementRoleEntry</STRONG> , somente os parâmetros especificados usando o parâmetro <EM>Parameters</EM> serão incluídos na entrada da função. Todos os outros parâmetros na entrada da função serão removidos.
 
 
@@ -92,7 +92,7 @@ Para remover todos os parâmetros de uma entrada de função, você precisará e
 Removendo todos os parâmetros de uma entrada de função é mais útil quando você deseja disponibilizar apenas alguns parâmetros em um cmdlet e excluir todos os outros parâmetros. Se você não desejar que a função tenham acesso a um cmdlet, remova a entrada de função associada da função completamente, em vez de simplesmente removendo os parâmetros. Para obter mais informações sobre como remover uma entrada de função de uma função, consulte [Remover uma entrada de função de uma função](remove-a-role-entry-from-a-role-exchange-2013-help.md).
 
 
-> [!WARNING]
+> [!CAUTION]
 > As operações de remoção não podem ser desfeitas. Se você removeu por engano todos os parâmetros de uma entrada de função, será preciso adicioná-los manualmente outra vez.
 
 

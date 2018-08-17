@@ -44,7 +44,7 @@ Depois que o comando de apagamento remoto é solicitado pelo administrador, o ap
 Desde que o Outlook para iOS e Android é exibido como uma associação de dispositivo móvel único em dispositivos móveis de um usuário no Exchange, um comando de apagamento remoto removerá os dados e excluir relacionamentos de sincronização de todos os dispositivos que executam o Outlook (iPhone, iPad, Android) associado Esse usuário.
 
 
-> [!TIP]
+> [!NOTE]
 > Devido à arquitetura de nuvem por trás do Outlook para iOS e Android, o resultado de apagamento remoto de dispositivo não é relatado volta para o Exchange. Mesmo quando o apagamento for bem-sucedido, o status será exibido como <STRONG>pendente</STRONG>. Esse é um problema conhecido e uma solução está sendo desenvolvida.
 
 
@@ -60,7 +60,7 @@ Devido a arquitetura baseada em nuvem do Outlook para iOS e Android, conexões d
 Quando a políticas de caixa de correio de dispositivo móvel estão funcionando, elas são aplicadas a todos os respectivos dispositivos. Portanto, se você aplicar um bloqueio do PIN para uma caixa de correio específica, todos os dispositivos que se conectam a essa caixa de correio exigirá um PIN.
 
 
-> [!TIP]
+> [!NOTE]
 > Porque as IDs de dispositivo não serão regidas pela ID de qualquer <EM>dispositivo físico</EM> , eles poderão alterar sem aviso prévio. Quando isso acontece, ela pode causar consequências indesejadas quando identificações de dispositivo são usadas para gerenciar os dispositivos do usuário, como os dispositivos 'permitidos' existentes podem ser bloqueados ou colocados em quarentena pelo Exchange inesperadamente. Portanto, recomendamos que os administradores apenas definir políticas de dispositivo móvel que permitem/bloquear dispositivos com base no tipo de dispositivo ou modelo de dispositivo.
 
 

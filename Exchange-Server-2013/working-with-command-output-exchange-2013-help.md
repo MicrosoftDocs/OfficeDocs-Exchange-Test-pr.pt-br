@@ -242,7 +242,7 @@ O exemplo a seguir mostra como você pode usar um script simples para produzir o
 Para usar esse script, salve-o no diretório `C:\Program Files\Microsoft\Exchange Server\V15\Scripts` no computador em que o script será executado. Nomeie o arquivo como `Out-Ie.ps1`. Depois de salvá-lo, você poderá usá-lo como um cmdlet comum.
 
 
-> [!TIP]
+> [!NOTE]
 > Para executar scripts no Exchange 2013, eles devem ser adicionados a uma função de gerenciamento sem escopo e você deve ter a função de gerenciamento atribuída diretamente ou por meio de um grupo de funções de gerenciamento. Para saber mais, confira <A href="understanding-management-roles-exchange-2013-help.md">Noções básicas sobre funções de gerenciamento</A>.
 
 

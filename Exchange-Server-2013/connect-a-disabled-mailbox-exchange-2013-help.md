@@ -68,7 +68,7 @@ O procedimento a seguir mostra como conectar uma caixa de correio do usuário de
     Uma lista de caixas de correio desconectadas no servidor do Exchange selecionado em sua organização do Exchange será exibida.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Essa lista de caixas de correio desconectadas inclui caixas de correio desabilitadas, caixas de correio excluídas e caixas de correio excluídas de forma reversível.
 
 
@@ -96,7 +96,7 @@ Este exemplo conecta uma caixa de correio compartilhada.
     Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
 
 
-> [!TIP]
+> [!NOTE]
 > Se você não incluir o parâmetro <EM>Alias</EM> ao executar o cmdlet <STRONG>Connect-Mailbox</STRONG>, o valor especificado nos parâmetros <EM>User</EM> ou <EM>LinkedMasterAccount</EM> será usado para criar o alias do endereço de email para a caixa de correio reconectada.
 
 

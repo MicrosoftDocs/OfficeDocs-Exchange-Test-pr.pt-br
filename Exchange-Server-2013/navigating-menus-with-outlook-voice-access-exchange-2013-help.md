@@ -232,7 +232,7 @@ Esse processo é mostrado na figura a seguir.
 ![Ocultar conversa de email](images/Dn205138.edd4d500-9eb4-4f83-9292-6829d768d974(EXCHG.150).gif "Ocultar conversa de email")
 
 
-> [!TIP]
+> [!NOTE]
 > Quando uma conversa estiver oculta, ela está oculta apenas para a sessão atual. Se os usuários sair e entrar para suas caixas de correio novamente, o sistema de caixa postal lê as mensagens de email que estão na mesma conversa.
 
 
@@ -436,7 +436,7 @@ Na primeira vez, os usuários configurado em suas caixas de correio, precisam cr
 Se um usuário tiver entrar em contato com um gerente de contas com informações importantes sobre um cliente, o usuário pode chamar o número que é usado para Outlook Voice Access, use o recurso de pesquisa de diretório usando o teclado de seus telefones para localizar o gerente de conta e, em seguida, colocar a chamada.
 
 
-> [!TIP]
+> [!NOTE]
 > Quando os usuários acessarem o menu de opções pessoais, eles deverão usar o teclado do telefone.
 
 
@@ -476,7 +476,7 @@ Esse processo é mostrado na figura a seguir.
 ![Gravar Sua Saudação Pessoal](images/Dn205138.4201f8a8-453c-4c6c-a8a4-29e862cd9649(EXCHG.150).gif "Gravar Sua Saudação Pessoal")
 
 
-> [!TIP]
+> [!NOTE]
 > Quando os usuários alterarem sua telefônica saudação, ele também recebe a opção para ativar ou desativar a sua mensagem de resposta automática de email.
 
 

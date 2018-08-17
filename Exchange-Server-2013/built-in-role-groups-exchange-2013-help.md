@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2012-08-21_
 Por padrão, o Microsoft Exchange Server 2013 inclui vários grupos de função de gerenciamento. Os seguintes grupos de função internos fornecem um conjunto predefinido de funções que você pode atribuir a várias administrador e usuários especialistas em sua organização.
 
 
-> [!TIP]
+> [!NOTE]
 > Grupos de função não controlam o acesso aos recursos de caixa de correio do usuário final. Para controlar o acesso aos recursos de caixa de correio do usuário final, consulte <A href="understanding-management-role-assignment-policies-exchange-2013-help.md">Noções básicas sobre diretivas de atribuição de função de gerenciamento</A>.
 
 

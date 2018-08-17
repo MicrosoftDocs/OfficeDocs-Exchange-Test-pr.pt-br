@@ -132,7 +132,7 @@ Se você não tiver certeza dos pontos finais externos do Exchange em sua organi
     Get-WebServicesVirtualDirectory | FL ExternalUrl
 
 
-> [!TIP]
+> [!NOTE]
 > Com êxito, executando o seguinte script requer que o Windows PowerShell para Azure Active Directory está conectado ao seu locatário do Microsoft Online AD do Azure, conforme explicado na etapa 4 na seção anterior.
 
 
@@ -173,7 +173,7 @@ Também é preciso definir o ponto final externo de Descoberta automática para 
   - https://\<seu domínio SMTP primário\>/autodiscover/autodiscover.svc
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode usar o cmdlet <A href="https://technet.microsoft.com/pt-br/library/dn551183(v=exchg.150)">Get-IntraOrganizationConfiguration</A> em seus locatários local e do Office 365 a fim de determinar os valores do ponto final exigidos pelo cmdlet <A href="https://technet.microsoft.com/pt-br/library/dn551178(v=exchg.150)">New-IntraOrganizationConnector</A>.
 
 
@@ -205,7 +205,7 @@ Antes de concluir esta etapa, verifique se:
   - Quaisquer servidores de Caixa de Correio e de Acesso para Cliente do Exchange 2010/2007 existentes têm a Atualização Cumulativa (CU) ou Service Pack (SP) mais recente aplicado.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Os servidores de Caixa de Correio do Exchange 2010/2007 podem continuar a usar os servidores de Acesso para Cliente do Exchange 2010/2007 para servidores Front-End para conexões de recursos não híbridos. Somente as solicitações de recurso de implantação híbrida do locatário do Office 365 precisam se conectar aos servidores do Exchange 2013.
 
 
@@ -215,7 +215,7 @@ Um *AvailabilityAddressSpace* precisa ser configurado em servidores de Acesso pa
     Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
 
 
-> [!TIP]
+> [!NOTE]
 > Se as informações de diretório virtual forem retornadas de vários servidores, use o ponto de extremidade retornado para um servidor de Acesso para Cliente do Exchange 2013 SP1. Ele mostrará 15.0 (Build 847.32) ou superior para o parâmetro <EM>AdminDisplayVersion</EM>.
 
 

@@ -30,7 +30,7 @@ Se desejar instalar a função de Transporte de Borda do Exchange 2013 em um com
 
 
 
-> [!TIP]
+> [!NOTE]
 > Depois de instalar qualquer função de servidor em um computador executando o Exchange 2013, não será possível usar o assistente de Instalação do Exchange 2013&nbsp;para adicionar outras funções de servidor ao computador. Se você quiser adicionar mais funções de servidor a um computador, use Adicionar ou Remover Programas no Painel de Controle ou Setup.exe na janela de prompt de comando.
 
 
@@ -56,7 +56,7 @@ Para obter informações sobre tarefas a serem concluídas após a instalação,
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!WARNING]
+> [!CAUTION]
 > Depois de instalar o Exchange em um servidor, não altere o nome do servidor. Não há suporte para renomear o servidor após a instalação de uma função de servidor Exchange.
 
 
@@ -66,7 +66,7 @@ Para obter informações sobre tarefas a serem concluídas após a instalação,
 Se estiver instalando o primeiro servidor do Exchange 2013 na organização e as etapas de preparação do Active Directory não tiverem sido executadas, a conta usada deverá ser membro do grupo Administradores de Empresas. Se não preparou o Esquema do Active Directory antecipadamente, a conta deverá também ser membro do grupo Administradores de Esquema. Para obter informações sobre como preparar o Active Directory para o Exchange 2013, consulte [Preparar o Active Directory e domínios](prepare-active-directory-and-domains-exchange-2013-help.md). Se já tiver executado as etapas de preparação do Esquema e do Active Directory, a conta usada deve ser membro do grupo de funções de gerenciamento de Instalação Delegada ou do grupo de funções de Gerenciamento da Organização.
 
 
-> [!TIP]
+> [!NOTE]
 > Para baixar a versão mais recente do Exchange 2013, consulte <A href="updates-for-exchange-2013-exchange-2013-help.md">Atualizações para o Exchange 2013</A>.
 
 
@@ -104,7 +104,7 @@ Se estiver instalando o primeiro servidor do Exchange 2013 na organização e as
     Selecione **Instalar automaticamente as funções e os recursos do Windows Server necessários para instalar o Exchange Server** para que o assistente de Instalação instale os pré-requisitos necessários do Windows. Talvez seja necessário reiniciar o computador para concluir a instalação de alguns recursos do Windows. Se você não selecionar essa opção, deverá instalar os recursos do Windows manualmente.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Esta opção instala apenas os recursos do Windows necessários para o Exchange. Você deve instalar manualmente outros pré-requisitos. Para mais informações, consulte <A href="exchange-2013-prerequisites-exchange-2013-help.md">Pré-requisitos do Exchange 2013</A>.
 
     
@@ -127,14 +127,14 @@ Se estiver instalando o primeiro servidor do Exchange 2013 na organização e as
       - Hífen ou travessão
         
 
-        > [!TIP]
+        > [!NOTE]
         > O nome da organização não pode conter mais de 64 caracteres. O nome da organização não pode ficar em branco.
 
     
     Se quiser usar o modelo de permissões de divisão doActive Directory, selecione **Aplicar modelo de segurança de permissões divididas do Active Directory à organização do Exchange**.
     
 
-    > [!WARNING]
+    > [!CAUTION]
     > A maioria das organizações não precisa aplicar o modelo de permissões de divisão do Active Directory. Se precisar separar o gerenciamento das entidades de segurança doActive Directory e da configuração do Exchange, as permissões de divisão do Controle de Acesso Baseado na Função (RBAC) poderão funcionar para você. Para maiores informações, clique em <STRONG>?</STRONG>.
 
     

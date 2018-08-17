@@ -22,7 +22,7 @@ Você pode criar entradas de domínio remoto para definir as configurações par
 As configurações de domínio remoto são aplicadas a mensagens durante a categorização no serviço de Transporte, em servidores de Caixa de Correio. Quando a resolução do destinatário ocorre, é feita a correspondência do domínio do destinatário com os domínios remotos configurados. Se uma configuração do domínio remoto impedir que um determinado tipo de mensagem seja enviado aos destinatários desse domínio, a mensagem será excluída. Se você especificar um determinado formato de mensagem para o domínio remoto, o conteúdo e os cabeçalhos da mensagem serão modificados. As configurações se aplicam a todas as mensagens processadas pela organização do Exchange.
 
 
-> [!TIP]
+> [!NOTE]
 > Se você configurar as definições da mensagem por usuário, as definições por usuário substituirão a configuração organizacional.
 
 

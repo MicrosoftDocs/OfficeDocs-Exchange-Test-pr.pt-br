@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2013-02-07_
 Em algumas situações, você pode querer rotear os emails através de um host inteligente de terceiros, tais como em uma instância em que você tem um dispositivo de rede que você quer que execute verificações de política em mensagens de saída.
 
 
-> [!TIP]
+> [!NOTE]
 > O host inteligente de terceiros deve usar SMTP para transporte. Se ele não usar, você deverá usar um conector Externo ou um conector de Agente de Entrega.
 
 
@@ -56,7 +56,7 @@ Interessado em cenários em que esse procedimento é usado? Consulte os seguinte
     Para **Autenticação de host inteligente**, escolha o tipo de autenticação requerida pelo host inteligente. Se você escolher a **Autenticação básica**, deverá fornecer um nome de usuário e senha.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se você escolher a autenticação Básica, recomendamos que você use uma conexão criptografada, porque o nome de usuário e a senha são enviados em texto simples.
 
 

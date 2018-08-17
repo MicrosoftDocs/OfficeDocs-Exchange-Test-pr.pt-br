@@ -73,7 +73,7 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
       - **Servidor testemunha**   Use este campo especificar um servidor testemunha para o DAG. Se você deixar esse campo em branco, o sistema tentará automaticamente selecionar um servidor de Acesso para Cliente no site do Active Directory local que não está instalado em um computador com o servidor de Caixa de Correio a ser usado como servidor testemunha.
         
 
-        > [!TIP]
+        > [!NOTE]
         > Se você especificar um servidor testemunha, deve usar um nome de host ou nome de domínio totalmente qualificado (FQDN). Não há suporte para o uso de um endereço IP ou de um nome com caractere curinga. Além disso, o servidor testemunha não pode ser membro do DAG.
 
     

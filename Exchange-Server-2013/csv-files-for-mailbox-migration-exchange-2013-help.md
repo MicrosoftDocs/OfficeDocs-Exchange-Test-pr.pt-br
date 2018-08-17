@@ -32,7 +32,7 @@ Você pode usar um arquivo CSV para em massa migrar um grande número de caixas 
       - **Migração de movimentação remota de exclusão:**  Você também pode realizar uma migração de movimentação remota de *exclusão* , onde você migra caixas de correio de Exchange Online à sua organização de Exchange local.
         
 
-        > [!TIP]  
+        > [!NOTE]  
         > As migrações por movimentação com inclusão e exclusão remotas são iniciadas em sua organização do Exchange Online.
 
     
@@ -41,7 +41,7 @@ Você pode usar um arquivo CSV para em massa migrar um grande número de caixas 
       - **Migração IMAP:**  Esse tipo de inclusão de migração migra dados de caixa de correio de um servidor IMAP (incluindo Exchange ) para Exchange Online. Para uma migração de IMAP, você deve provisionar caixas de correio em Exchange Online para que possa migrar dados de caixa de correio.
 
 
-> [!TIP]  
+> [!NOTE]  
 > Uma migração de substituição Exchange não oferece suporte a um usando um arquivo CSV porque todas as caixas de correio de usuário de local são migradas para o Exchange Online em um único lote.
 
 
@@ -61,7 +61,7 @@ Valores de atributo no arquivo CSV substituem o valor do parâmetro corresponden
 As seções a seguir descrevem os atributos com suporte para a linha de cabeçalho de um arquivo CSV para cada tipo de migração. Cada seção inclui uma tabela que lista cada atributo com suporte, se necessário, um exemplo de um valor a ser usado para o atributo e uma descrição.
 
 
-> [!TIP]  
+> [!NOTE]  
 > Nas seções a seguir, o <EM>ambiente de origem</EM> denota o local atual de uma caixa de correio do usuário ou de um banco de dados. <EM>Ambiente de destino</EM> indica o local que será migrada para a caixa de correio ou banco de dados que será movida para a caixa de correio.
 
 
@@ -105,7 +105,7 @@ A tabela a seguir descreve os atributos com suporte para um arquivo CSV para mov
 <td><p>Nome do banco de dados</p></td>
 <td><p>Especifica o banco de dados de caixa de correio que será movido para o correio de arquivo morto do usuário (se houver). Você pode especificar outro banco de dados nas linhas diferentes do arquivo CSV, que permite mover caixas de correio de arquivo morto no lote de migração mesmo aos bancos de dados diferentes.</p>
 
-> [!TIP]  
+> [!NOTE]  
 > Se você não especificar o banco de dados de arquivamento, a caixa de correio de arquivo morto é movida para o mesmo banco de dados da caixa de correio principal.
 
 
@@ -325,7 +325,7 @@ A tabela a seguir descreve os atributos com suporte para um arquivo CSV para uma
 <td><p><code>True</code> ou <code>False</code></p></td>
 <td><p>Especifica se um usuário deve alterar a senha na primeira vez que entrarem suas caixas de correio Exchange Online.</p>
 
-> [!TIP]  
+> [!NOTE]  
 > Se você implementou uma solução de logon único com a implantação do Active Directory Federation Services 2.0 (AD FS 2.0) em sua organização local, você deve usar <CODE>False</CODE> para o valor desse atributo.
 
 
@@ -393,7 +393,7 @@ Por exemplo, vamos dizer que você cria um lote no Shell de Gerenciamento do Exc
     New-MigrationBatch -Name CrossForestBatch1 -SourceEndpoint ForestEndpoint1 -TargetDeliveryDomain forest2.contoso.com -TargetDatabases @(EXCH-MBX-02,EXCH-MBX-03) -TargetArchiveDatabases @(EXCH-MBX-A02,EXCH-MBX-A03) -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\CrossForestBatch1.csv")) -AutoStart
 
 
-> [!TIP]  
+> [!NOTE]  
 > Como o padrão é para mover principal e arquivar caixas de correio, você não precisa explicitamente especificá-lo no comando Shell de Gerenciamento do Exchange.
 
 

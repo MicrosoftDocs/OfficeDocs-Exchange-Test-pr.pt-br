@@ -92,7 +92,7 @@ A seguir, é exibida uma lista de parâmetros atualizados e novos cmdlets para o
 <td><p>Disable-UMService</p></td>
 <td><p><code>-Identity &lt;UMServerIdParameter&gt; [-Confirm [&lt;SwitchParameter&gt;]] [-DomainController &lt;Fqdn&gt;] [-Immediate &lt;$true | $false&gt;] [-WhatIf [&lt;SwitchParameter&gt;]]</code></p>
 
-> [!TIP]  
+> [!NOTE]  
 > Esse cmdlet só funciona com o Exchange 2007 e servidores da UM 2010.
 
 
@@ -102,7 +102,7 @@ A seguir, é exibida uma lista de parâmetros atualizados e novos cmdlets para o
 <td><p>Enable-UMService</p></td>
 <td><p><code>-Identity &lt;UMServerIdParameter&gt; [-Confirm [&lt;SwitchParameter&gt;]] [-DomainController &lt;Fqdn&gt;] [-WhatIf [&lt;SwitchParameter&gt;]]</code></p>
 
-> [!TIP]  
+> [!NOTE]  
 > Esse cmdlet só funciona com o Exchange 2007 e servidores da UM 2010.
 
 

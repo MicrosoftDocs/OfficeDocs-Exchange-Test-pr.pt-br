@@ -56,7 +56,7 @@ Este exemplo exclui permanentemente os itens da pasta de itens recuperáveis de 
     Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
 
 
-> [!TIP]
+> [!NOTE]
 > Para excluir itens da caixa de correio sem copiá-los para outra caixa de correio, use o comando anterior sem os parâmetros <EM>TargetMailbox</EM> e <EM>TargetFolder</EM> .
 
 
@@ -88,7 +88,7 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
       - *UseDatabaseRetentionDefaults*
     
 
-    > [!TIP]
+    > [!NOTE]
     > Se o parâmetro <EM>UseDatabaseQuotaDefaults</EM> é definido como <CODE>$true</CODE>, as configurações de cota anterior não serão aplicadas. As configurações de cota correspondente configuradas no banco de dados de caixa de correio são aplicadas, mesmo se configurações individuais de caixa de correio são preenchidas.
 
     
@@ -143,7 +143,7 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
         Search-Mailbox -Identity "Gurinder Singh" -SearchQuery "Subject:'Your bank statement'" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
     
 
-    > [!TIP]
+    > [!NOTE]
     > Não é obrigatório para copiar itens para a caixa de correio de pesquisa de descoberta. Você pode copiar mensagens para qualquer caixa de correio. No entanto, para impedir o acesso aos dados de caixa de correio potencialmente confidenciais, é recomendável copiar mensagens para uma caixa de correio que tem acesso restrito aos gerentes de registros autorizado. Por padrão, o acesso à caixa de correio de pesquisa de descoberta padrão é restrito aos membros do grupo de funções de gerenciamento de descoberta. Para obter detalhes, consulte <A href="in-place-ediscovery-exchange-2013-help.md">Descoberta Eletrônica In-loco</A>.
 
 

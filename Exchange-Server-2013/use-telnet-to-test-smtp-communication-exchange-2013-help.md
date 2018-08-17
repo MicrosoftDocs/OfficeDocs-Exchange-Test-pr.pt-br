@@ -64,7 +64,7 @@ Para se conectar a um servidor SMTP de destino usando Telnet na porta 25, você 
 4.  Digite o nome do domínio do qual você deseja localizar o registro de MX. Por exemplo, para localizar o registro MX do domínio fabrikam.com, digite **fabrikam.com.** e pressione Enter.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O ponto à direita (<STRONG>.</STRONG>) indica um FQDN. O uso do ponto à direita impede que quaisquer sufixos de DNS padrão que estejam configurados para a sua rede sejam adicionados involuntariamente ao nome do domínio.
 
     
@@ -80,7 +80,7 @@ Para se conectar a um servidor SMTP de destino usando Telnet na porta 25, você 
 5.  Quando estiver pronto para encerrar a sessão Nslookup, digite **exit** e pressione Enter.
 
 
-> [!TIP]
+> [!NOTE]
 > O firewall ou as restrições de proxy da Internet que são impostas à rede interna da organização podem impedir o uso da ferramenta Nslookup para consultar servidores públicos de DNS na Internet.
 
 
@@ -102,7 +102,7 @@ Neste exemplo, os seguintes valores são usados:
   - **Corpo da mensagem**   This is a test message
 
 
-> [!TIP]
+> [!NOTE]
 > <UL>
 > <LI>
 > <P>Os comandos no Cliente Telnet não diferenciam maiúsculas de minúsculas. Os verbos do comando SMTP estão em maiúsculas por questões de clareza.</P>
@@ -158,7 +158,7 @@ Esta seção fornece informações sobre as respostas que podem ser fornecidas p
   - RCPT TO:kate@fabrikam.com NOTIFY=success,failure
     
 
-    > [!TIP]
+    > [!NOTE]
     > Os códigos de resposta SMTP de 3 dígitos que são definidos no RFC&nbsp;2821 são iguais para todos os servidores do sistema de mensagens SMTP. As descrições de texto podem ser ligeiramente diferentes em alguns dos servidores do sistema de mensagens SMTP.
 
 
@@ -190,7 +190,7 @@ Esta seção fornece informações sobre as respostas que podem ser fornecidas p
 **Possíveis motivos de falha**   Há caracteres inválidos no nome de domínio. Ou há restrições de conexão no servidor SMTP de destino.
 
 
-> [!TIP]
+> [!NOTE]
 > EHLO é o verbo de Extended Simple Message Transfer Protocol (ESMTP, SMTP estendido), que é definido no RFC 2821. Servidores ESMTP podem anunciar seus recursos durante a conexão inicial. Esses recursos incluem o tamanho máximo da mensagem aceita e os métodos de autenticação suportados. HELO é o mais antigo verbo SMTP que está definido no RFC 821. A maioria dos servidores de mensagens SMTP suportam ESMTP e EHLO.
 
 

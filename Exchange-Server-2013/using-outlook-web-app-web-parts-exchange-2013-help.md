@@ -22,7 +22,7 @@ Você pode usar o MicrosoftOfficeOutlook Web App Web Parts, abra a caixa de corr
 Outlook Web App Web Parts permitem que você acessar o conteúdo do Outlook Web App diretamente a partir de uma URL. A URL pode ser inserida em um navegador da Web ou incorporada em um aplicativo. Geralmente, as Web Parts não são criadas manualmente. Em vez disso, eles são criados por meio de programação com base nas seleções feitas em uma interface de usuário (UI) ou elas incorporadas diretamente em um aplicativo, como uma página do SharePoint Server. Code-behind a interface do usuário, em seguida, cria a URL. Um uso Outlook Web App Web Parts é para exibir a caixa de entrada ou calendário de um usuário em uma página do SharePoint.
 
 
-> [!TIP]
+> [!NOTE]
 > Para usar Outlook Web App Web Parts, a caixa de correio do usuário e a caixa de correio que está sendo abertos por meio de uma Web Part devem estar localizados na mesma floresta Active Directory.
 
 
@@ -116,7 +116,7 @@ A tabela a seguir lista os parâmetros de uma Web Part e exemplos de como eles s
 <li><p>Mensagens de mensagens</p></li>
 </ul>
 
-> [!TIP]
+> [!NOTE]
 > As cadeias de caracteres para as exibições padrão são automaticamente codificadas no URL.
 
 

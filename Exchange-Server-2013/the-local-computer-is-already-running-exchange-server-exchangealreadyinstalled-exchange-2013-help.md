@@ -40,7 +40,7 @@ Para remover os componentes do Microsoft Exchange
 5.  Na lista de ação, na página seleção de componentes, clique na seta ao lado de cada componente que tenha sido instalado e clique em **Remover**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Componentes instalados possuem uma marca de seleção na lista ação. Quando você clicar em <STRONG>Remover</STRONG>, a marca de seleção é substituída pela palavra <STRONG>Remover</STRONG>.
 
 

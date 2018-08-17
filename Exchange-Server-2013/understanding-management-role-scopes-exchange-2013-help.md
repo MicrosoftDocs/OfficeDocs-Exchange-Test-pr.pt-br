@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-04-07_
 Os *Escopos de função de gerenciamento* permitem que você defina o escopo específico do impacto ou da influência de uma função de gerenciamento quando uma atribuição de função de gerenciamento é criada. Quando você aplica um escopo, o destinatário da função pode apenas modificar os objetos contidos nesse escopo. O destinatário da função pode ser um grupo de função de gerenciamento, uma diretiva de atribuição de gerenciamento de função, um usuário ou um USG (grupo de segurança universal). Para mais informações sobre funções de gerenciamento, consulte [Controle de acesso baseado em função de compreensão](understanding-role-based-access-control-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!NOTE]
 > Este tópico concentra-se na funcionalidade avançada de RBAC. Se você quiser gerenciar permissões básicas do Exchange 2013, como usar o Centro de Administração do Exchange (EAC) para adicionar e remover membros de grupos de funções, criar e modificar grupos de funções ou criar e modificar políticas de atribuição de função, consulte <A href="permissions-exchange-2013-help.md">Permissões</A>.
 
 
@@ -828,7 +828,7 @@ Ao adicionar um escopo de configuração de servidor ou banco de dados a uma atr
 Além de controlar quais destinatários de função de bancos de dados podem gerenciar, os escopos de banco de dados também permitem controlar quais destinatários de função de bancos de dados podem criar caixas de correio. Isso é separado do controle de quais destinatários um destinatário de função pode gerenciar. Se um destinatário de função tiver permissões para criar uma nova caixa de correio, habilitar por email um usuário existente ou mover caixas de correio, você poderá refinar as permissões usando escopos de banco de dados para controlar o banco de dados em que a caixa de correio é criada ou para qual banco de dados uma caixa de correio é movida. O controle de quais destinatários um destinatário de função pode gerenciar é feito com o uso de um escopo de destinatário especificado no parâmetro *CustomRecipientWriteScope* no cmdlet **New-ManagementRoleAssignment** ou **Set-ManagementRoleAssignment**. O controle de em quais bancos de dados uma caixa de correio pode ser criada ou movida é feito com o uso de um escopo de banco de dados especificado no parâmetro *CustomConfigurationWriteScope* nos mesmos cmdlets.
 
 
-> [!TIP]
+> [!NOTE]
 > Distribuição de caixa de correio automática pode ser controlada usando escopos de banco de dados.
 
 

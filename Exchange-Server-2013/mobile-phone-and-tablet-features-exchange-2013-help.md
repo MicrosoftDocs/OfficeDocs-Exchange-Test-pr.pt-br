@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2015-03-09_
 Os usuários podem acessar seus emails, calendário, contatos e informações sobre a tarefa em telefones celulares, tablets e outros dispositivos portáteis através do Microsoft Exchange ActiveSync. Eles também podem usá-lo para configurar sua assinatura e as respostas automáticas. Uma ampla variedade de telefones e dispositivos móveis funcionam com o Exchange ActiveSync.
 
 
-> [!TIP]
+> [!NOTE]
 > Embora nos referimos consistentemente dispositivos que acessam Exchange Server 2013 como telefones celulares, existem muitos dispositivos que podem acessar Exchange 2013, mas não têm a funcionalidade de telefone celular. O termo "telefone celular" nesta documentação se refere a esses dispositivos.
 
 

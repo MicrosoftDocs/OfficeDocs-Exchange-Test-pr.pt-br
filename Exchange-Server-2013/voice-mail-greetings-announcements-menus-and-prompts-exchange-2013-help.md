@@ -114,7 +114,7 @@ A tabela a seguir resume os prompts e saudações usadas com atendedores automá
 
 
 
-> [!WARNING]
+> [!CAUTION]
 > Modificar os prompts de sistema instalado não é suportado.
 
 
@@ -136,13 +136,13 @@ A Unificação de mensagens é instalado com um conjunto de prompts de áudio pa
   - "Para acessar uma pessoa específica, basta conte-me o nome."
 
 
-> [!WARNING]
+> [!CAUTION]
 > Modificar os prompts de sistema instalado não é suportado.
 
 
 
 
-> [!TIP]
+> [!NOTE]
 > Quando o serviço de Unificação de mensagens é iniciado no servidor de caixa de correio, ele verificará todos o sistema solicita que estão disponíveis. Se não for encontrado um prompt do sistema, a Unificação de mensagens retornará um erro. Para corrigir o erro que é retornado, localize o evento usando o Visualizador de eventos e copie o arquivo listado na janela de <STRONG>Propriedades de evento</STRONG> de DVD de instalação para a pasta apropriada no servidor de caixa de correio.
 
 
