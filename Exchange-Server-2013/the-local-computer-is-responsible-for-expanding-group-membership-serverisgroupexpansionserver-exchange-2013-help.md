@@ -48,7 +48,7 @@ Para alterar o servidor de expansão de um grupo de distribuição ou o grupo di
     4.  Na caixa valor, clique no botão **Procurar** para selecionar o servidor Bridgehead que atualmente atuando como o servidor de expansão.
 
 
-> [!TIP]
+> [!NOTE]  
 > A próxima etapa é opcional.
 
 

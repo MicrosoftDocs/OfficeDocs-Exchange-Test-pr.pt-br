@@ -22,7 +22,7 @@ Você pode usar as verificações automáticas abaixo para validar sua configura
 Se você já tiver uma conta de usuário do Office 365, selecione entrar. Você não precisa de uma conta da ID do Windows Azure. Você pode ser solicitado para uma conta de usuário novamente quando as verificações executadas. Em caso afirmativo, sua conta de usuário está no formato de username@youroffice365login.domain e sua senha.
 
 
-> [!TIP]
+> [!NOTE]  
 > Se você receber mensagens de aviso de sincronização no portal do Office 365, erros de logs de eventos do servidor de sincronização, ou emails de notificação de sincronização de diretório não íntegros do Microsoft Online Services, você pode estar tendo algum tipo de problema de sincronização de diretório. A <A href="https://aka.ms/dsup">Solução de problemas de sincronização de diretório</A> é uma ferramenta de diagnóstico baseado na Web, projetada para ajudar a identificar tipos de falhas de sincronização comuns e estabelece soluções direcionadas para os problemas encontrados. A solução de problemas de sincronização de diretório deve ser executada no servidor DirSync.
 
 

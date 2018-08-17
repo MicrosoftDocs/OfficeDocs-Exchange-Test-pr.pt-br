@@ -22,7 +22,7 @@ A Instalação do Microsoft Exchange Server 2013 não pode continuar, pois o usu
 Embora a Instalação do Exchange 2013 permita o uso da delegação para instalar funções de servidor sucessivas, a Instalação exige que o usuário conectado seja membro do grupo de segurança de Administradores de Empresa do Windows quando o primeiro servidor Exchange 2013 da organização é instalado. Isso é necessário porque a Instalação do Exchange 2013 cria e configura objetos no contêiner da Organização do Exchange no Active Directory durante a instalação.
 
 
-> [!TIP]
+> [!NOTE]  
 > Se você não tiver preparado o esquema do Active Directory para o Exchange 2013, o usuário conectado também deverá ser membro do grupo de segurança Administradores de Esquema do Windows. Como alternativa, outro usuário membro do grupo Administradores de Esquema do Windows pode preparar o esquema do Active Directory antes da instalação do Exchange 2013.
 
 
