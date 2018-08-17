@@ -217,7 +217,7 @@ As chaves do banco de dados de filas disponíveis no arquivo EdgeTransport.exe.c
 
 
 
-> [!TIP]
+> [!NOTE]
 > Quaisquer configurações personalizadas em cada servidor feitas nos arquivos de configuração de aplicativo XML do Exchange, por exemplo, os arquivos web.config em servidores de acesso para cliente ou o arquivo EdgeTransport.exe.config em servidores de Caixa de Correio, são substituídos quando você instala uma Atualização Cumulativa do Exchange (CU). Não deixe de salvar essas informações para poder reconfigurar facilmente o servidor após a instalação. Você deve redefinir essas configurações depois de instalar uma Atualização Cumulativa.
 
 
@@ -506,7 +506,7 @@ O Visualizador de Filas e quase todos os cmdlets de gerenciamento de filas e men
 O Exchange 2013 contém o cmdlet **Get-QueueDigest** que proporciona uma visualização agregada de alto nível do estado das filas em todos os servidores dentro de um escopo específico; por exemplo, um DAG, um site do Active Directory, uma lista de servidores ou toda a floresta do Active Directory. Observe que as filas em um servidor de Transporte de Borda inscrito na rede de perímetro não são incluídas nos resultados. Além disso, **Get-QueueDigest** está disponível em um servidor de Transporte de Borda, mas os resultados são restritos a filas no servidor de Transporte de Borda.
 
 
-> [!TIP]
+> [!NOTE]
 > Por padrão, o cmdlet <STRONG>Get-QueueDigest</STRONG> exibe as filas de entrega que contenham dez ou mais mensagens e os resultados são de um a dois minutos atrás. Para instruções sobre como alterar estes valores padrões, consulte <A href="configure-get-queuedigest-exchange-2013-help.md">Configurar Get-QueueDigest</A>.
 
 

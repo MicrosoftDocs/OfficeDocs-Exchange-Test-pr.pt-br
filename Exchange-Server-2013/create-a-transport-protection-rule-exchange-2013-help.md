@@ -83,7 +83,7 @@ Para ver outras tarefas de gerenciamento relacionadas ao IRM (Gerenciamento de D
   - Este exemplo cria a regra de proteção de transporte Protect-BusinessCriticalProject. A regra protege com IRM mensagens que contenham a expressão "Business Critical" no campo Assunto com o modelo **Não Encaminhar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O predicado <CODE>SubjectContainsWords</CODE> é usado nesse exemplo. Você pode usar qualquer combinação de predicados de regra de transporte para formar as condições e exceções da regra. Para informações sobre os predicados disponíveis, consulte <A href="mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md">Condições de regra de transporte (predicados)</A>.
 
     

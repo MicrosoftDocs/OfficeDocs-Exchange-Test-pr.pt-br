@@ -20,7 +20,7 @@ _**Tópico modificado em:** 2016-08-09_
 Você pode gerenciar informações confidenciais por meio de políticas DLP importando um arquivo que contém as configurações de política de informações. Modelos de política DLP podem ser desenvolvidos independente do Exchange como arquivos XML. No entanto, eles devem atender os requisitos de formato específico para funcionar corretamente. Como alternativa, a políticas que são exportadas de uma versão anterior do Exchange podem ser importadas para o Microsoft Exchange Server 2013.
 
 
-> [CAUTION]
+> [!CAUTION]
 > Você deve habilitar as políticas de DLP no modo de teste antes de executá-las no seu ambiente de produção. Durante esses testes, recomenda-se que você configure caixas de correio de usuários de amostra e envie mensagens de teste que invoquem as políticas de teste para confirmar os resultados.
 
 

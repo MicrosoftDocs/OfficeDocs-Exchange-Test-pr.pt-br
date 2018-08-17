@@ -1,5 +1,4 @@
-﻿
----
+﻿---
 title: 'Criar uma função sem escopo: Exchange 2013 Help'
 TOCTitle: Criar uma função sem escopo
 ms:assetid: 5a042ccf-4d5f-4609-a91b-21c20d1e6459
