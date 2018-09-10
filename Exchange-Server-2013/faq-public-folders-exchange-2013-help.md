@@ -23,7 +23,7 @@ Tem dúvidas sobre pastas públicas que não foram respondidas aqui? Envie um em
 
 ## Perguntas frequentes sobre migração de pasta pública
 
-Esta seção contém perguntas frequentes sobre migração de pasta pública. Para obter mais informações, consulte [Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online](use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md)ou [Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md).
+Esta seção contém perguntas frequentes sobre migração de pasta pública. Para obter mais informações, consulte [Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders)ou [Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders).
 
 ## Quais são os cenários de migração suportados pasta pública?
 
@@ -113,7 +113,7 @@ Execute o comando a seguir, para criar a primeira caixa de correio de pasta púb
 
     New-Mailbox -PublicFolder -Name <name of public folder>
 
-Para saber mais detalhes, consulte [Criar uma pasta pública](create-a-public-folder-exchange-2013-help.md).
+Para saber mais detalhes, consulte [Criar uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ## Nas versões anteriores do Exchange, para cada banco de dados de caixa de correio, havia uma opção para especificar o banco de dados de pasta pública. Como isso irá funcionar no Exchange 2013?
 

@@ -37,7 +37,7 @@ O Exchange 2013 permite que o SharePoint 2013 pesquise conteúdo de caixas de co
 
 Para obter mais detalhes, consulte os seguintes tópicos:
 
-  - [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md)
+  - [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
   - [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
 

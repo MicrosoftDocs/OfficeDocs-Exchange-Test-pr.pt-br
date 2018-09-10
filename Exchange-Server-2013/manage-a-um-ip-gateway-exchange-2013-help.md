@@ -21,7 +21,7 @@ _**Tópico modificado em:** 2013-02-21_
 
 Depois de criar um gateway IP da Unificação de Mensagens (UM), é possível visualizar ou definir diversas configurações. Por exemplo, é possível configurar o endereço IP ou um nome de domínio totalmente qualificado (FQDN), definir as configurações das chamadas de saída e habilitar ou desabilitar o Indicador de Mensagens em Espera.
 
-Para tarefas de gerenciamento adicionais relacionadas a gateways IP da UM, consulte [Procedimentos de gateway IP de Unificação de mensagens](um-ip-gateway-procedures-exchange-2013-help.md).
+Para tarefas de gerenciamento adicionais relacionadas a gateways IP da UM, consulte [Procedimentos de gateway IP de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateway-procedures).
 
 ## O que você precisa saber antes de começar?
 

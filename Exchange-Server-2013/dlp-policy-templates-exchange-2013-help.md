@@ -59,7 +59,7 @@ Você pode incorporar recursos de detecção de DLP com regras de transporte tra
 
   -  [Regras de fluxo de emails (regras de transporte) no Exchange Online](https://technet.microsoft.com/pt-br/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
-  -  [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md)
+  -  [Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
     
   -  [Cmdlets de política e conformidade](https://technet.microsoft.com/pt-br/library/dd298082\(v=exchg.150\))
 
@@ -67,9 +67,9 @@ Você pode incorporar recursos de detecção de DLP com regras de transporte tra
 
 Diversas políticas DLP são fornecidas pela Microsoft. Esta é a maneira mais fácil de começar uma solução de DLP que é flexível e simples de implementar. Você sempre pode usar as políticas previstas como ponto de partida e personalizar-las ainda mais para atender às suas necessidades. Para começar, consulte as informações a seguir:
 
-  - [Modelos de política DLP fornecidos no Exchange](dlp-policy-templates-supplied-in-exchange-exchange-2013-help.md)
+  - [Modelos de política DLP fornecidos no Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/dlp-policy-templates)
 
-  - [Criar uma política de DLP a partir de um modelo](how-to-new-dlp-data-loss-prevention-policy-template.md)
+  - [Criar uma política de DLP a partir de um modelo](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)
 
 ## Para obter mais informações
 

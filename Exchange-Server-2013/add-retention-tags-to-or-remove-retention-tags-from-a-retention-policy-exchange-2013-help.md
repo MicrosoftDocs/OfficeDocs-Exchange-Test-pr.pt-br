@@ -31,7 +31,7 @@ Uma diretiva de retenção pode conter as seguintes marcas de retenção:
 
   - Qualquer número de marcas pessoais
 
-Para obter mais informações sobre marcas de retenção, consulte [Marcas e políticas de retenção](retention-tags-and-retention-policies-exchange-2013-help.md).
+Para obter mais informações sobre marcas de retenção, consulte [Marcas e políticas de retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 ## O que você precisa saber antes de começar?
 

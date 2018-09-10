@@ -23,7 +23,7 @@ Ao integrar o Microsoft Lync Server com a Unificação de Mensagens do Exchange 
     
 
     > [!IMPORTANT]
-    > O script ExchUcUtil.ps1 cria um ou mais gateways IP de UM. Você deve desativar as chamadas de saída em todos os gateways IP de UM com exceção o gateway criado pelo script. Isto inclui a desativação de chamadas de saída em gateways IP de UM que foram criados antes de você executar o script. Para desativar as chamadas de saída em um gateway IP de UM, consulte <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Desabilitar as chamadas de saída nos gateways IP de UM</A>.
+    > O script ExchUcUtil.ps1 cria um ou mais gateways IP de UM. Você deve desativar as chamadas de saída em todos os gateways IP de UM com exceção o gateway criado pelo script. Isto inclui a desativação de chamadas de saída em gateways IP de UM que foram criados antes de você executar o script. Para desativar as chamadas de saída em um gateway IP de UM, consulte <A href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Desabilitar as chamadas de saída nos gateways IP de UM</A>.
 
 
 
@@ -59,7 +59,7 @@ Execute o script ExchUcUtil.ps1 em qualquer servidor Exchange na sua organizaç�
 
 
 > [!IMPORTANT]
-> O script ExchUcUtil.ps1 cria um ou mais gateways IP de UM. Você deve desativar as chamadas de saída em todos os gateways IP de UM com exceção o gateway criado pelo script. Isto inclui a desativação de chamadas de saída em gateways IP de UM que foram criados antes de você executar o script. Para desativar as chamadas de saída em um gateway IP de UM, consulte <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Desabilitar as chamadas de saída nos gateways IP de UM</A>.
+> O script ExchUcUtil.ps1 cria um ou mais gateways IP de UM. Você deve desativar as chamadas de saída em todos os gateways IP de UM com exceção o gateway criado pelo script. Isto inclui a desativação de chamadas de saída em gateways IP de UM que foram criados antes de você executar o script. Para desativar as chamadas de saída em um gateway IP de UM, consulte <A href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Desabilitar as chamadas de saída nos gateways IP de UM</A>.
 
 
 

@@ -21,7 +21,7 @@ Você pode configurar códigos de discagem, prefixos de número e formatos de n�
 
 Códigos de discagem e prefixos de número são usados para determinar o número correto para discar para uma chamada de saída que for feita por um usuário habilitado para UM. *Outdialing* é o termo usado para descrever o processo pelo qual um usuário em um plano de discagem de UM inicia uma chamada de saída. Formatos de número são usados para chamadas de entrada dentro de um país ou região, chamadas internacionais ou chamadas que são colocadas dentro de um plano de discagem. Você pode configurar um plano de discagem para corresponder ao formato de número de chamada de entrada para números de país/região e internacionais. Quando você configura os formatos de número do país/região e internacionais, você pode restringir as chamadas de entrada para os usuários vinculadas com um plano de discagem.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas à discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](allowing-users-to-make-calls-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas à discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls-procedures).
 
 ## O que você precisa saber antes de começar?
 

@@ -64,11 +64,11 @@ A tabela a seguir contém links para tópicos que o ajudarão a conhecer e geren
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="address-lists-exchange-2013-help.md">Listas de endereços</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/address-books/address-lists/address-lists">Listas de endereços</a></p></td>
 <td><p>Saiba mais sobre o uso de listas de endereços e GALs como métodos de organizar seus destinatários para facilitar o acesso do usuário final.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="address-book-policies-exchange-2013-help.md">Políticas de catálogo de endereços</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies">Políticas de catálogo de endereços</a></p></td>
 <td><p>Saiba mais sobre como dividir suas listas de endereços e GALs em organizações virtuais distintas.</p></td>
 </tr>
 <tr class="odd">
@@ -80,7 +80,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a conhecer e geren
 <td><p>Saiba mais sobre endereços de email de proxy para tornar os destinatários mais detectáveis.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchical-address-books-exchange-2013-help.md">Catálogos de endereços hierárquicos</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/address-books/hierarchical-address-books/hierarchical-address-books">Catálogos de endereços hierárquicos</a></p></td>
 <td><p>Saiba mais sobre como personalizar a GAL e as listas de endereços para ajustar-se à estrutura de negócios exclusiva da sua organização.</p></td>
 </tr>
 <tr class="even">

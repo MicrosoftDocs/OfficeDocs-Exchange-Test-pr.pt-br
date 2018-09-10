@@ -106,7 +106,7 @@ A figura a seguir ilustra a relação entre a conta de usuário vinculado usado 
     
       - **Banco de dados de caixa de correio**    Use esta opção para especificar um banco de dados de caixa de correio em vez de permitir o Exchange escolher um banco de dados para você. Clique em **Procurar** para abrir a caixa de diálogo **Selecionar banco de dados de caixa de correio**. Esta caixa de diálogo lista todos os bancos de dados da caixa de correio em sua organização do Exchange. Por padrão, os bancos de dados de caixa de correio são classificados por nome. Você também pode clicar no título da coluna para classificar os bancos de dados por nome de servidor ou a versão correspondente. Selecione o banco de dados de caixa de correio que você deseja usar e clique em **OK**.
     
-      - **Política de catálogo de endereços**    Use esta opção para especificar uma política de catálogo de endereços (ABP) para a caixa de correio vinculada. ABPs contém uma lista de endereços global (GAL), um catálogo de endereços offline (OAB), uma lista de salas e um conjunto de listas de endereços. Quando atribuídas aos usuários, uma ABP fornece-los com o access para um GAL personalizado no Outlook e Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+      - **Política de catálogo de endereços**    Use esta opção para especificar uma política de catálogo de endereços (ABP) para a caixa de correio vinculada. ABPs contém uma lista de endereços global (GAL), um catálogo de endereços offline (OAB), uma lista de salas e um conjunto de listas de endereços. Quando atribuídas aos usuários, uma ABP fornece-los com o access para um GAL personalizado no Outlook e Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
         
         Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 
@@ -134,7 +134,7 @@ Para verificar se você criou com êxito uma caixa de correio vinculada, siga um
 
 Depois de criar uma caixa de correio vinculada, você pode fazer alterações e definir propriedades adicionais usando o Centro de administração do Exchange (EAC) ou o Shell de gerenciamento do Exchange.
 
-Você também pode alterar propriedades para várias caixas de correio vinculadas ao mesmo tempo. Para obter mais informações, consulte a seção, a seção "Em massa editar caixas de correio do usuário" no tópico [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md) .
+Você também pode alterar propriedades para várias caixas de correio vinculadas ao mesmo tempo. Para obter mais informações, consulte a seção, a seção "Em massa editar caixas de correio do usuário" no tópico [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes) .
 
 
 > [!IMPORTANT]

@@ -21,7 +21,7 @@ _**Tópico modificado em:** 2013-03-08_
 
 Depois de criar um atendedor automático de Unificação de mensagens (UM), as chamadas de entrada para um número de telefone externo que um operador humano atendidas normalmente são respondidas pelo atendedor automático. Ao contrário com outros componentes de Unificação de mensagens, como UM planos de discagem e gateways IP de UM, você não é necessários para criar atendedores automáticos. No entanto, atendedores automáticos ajuda interna e chamadores externos localizar usuários ou departamentos que existem em uma organização e transferir chamadas para eles.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## O que você precisa saber antes de começar?
 

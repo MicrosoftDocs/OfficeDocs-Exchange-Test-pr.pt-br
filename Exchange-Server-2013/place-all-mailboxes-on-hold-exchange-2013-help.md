@@ -111,7 +111,7 @@ O exemplo usa o cmdlet [Get-Mailbox](https://technet.microsoft.com/pt-br/library
 
 ## Colocar todas as caixas de correio em Bloqueio In-loco
 
-Você pode usar o EAC para selecionar até 500 caixas de correio e colocá-las em espera. Para obter detalhes, consulte [Criar ou remover um bloqueio In-loco](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+Você pode usar o EAC para selecionar até 500 caixas de correio e colocá-las em espera. Para obter detalhes, consulte [Criar ou remover um bloqueio In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 
 > [!TIP]
@@ -123,7 +123,7 @@ Você pode usar o EAC para selecionar até 500 caixas de correio e colocá-las e
 
   - Quando você coloca todas as caixas de correio em sua organização em espera, somente as caixas de correio existentes ao tempo que você executar o comando são colocadas em retenção. Se você criar novas caixas de correio mais tarde, executadas o comando novamente para colocá-los em espera. Se você cria frequentemente novas caixas de correio, você pode executar o comando como uma tarefa agendada frequentemente conforme necessário.
 
-  - Colocação de caixas de correio em espera preserva os dados, evitando a exclusão antes que o período especificado e salvando a versão original de uma mensagem antes que ele seja modificado. Ele não excluir mensagens automaticamente após o período especificado. Combine litígio ou bloqueio In-loco com uma política de retenção, que pode excluir mensagens automaticamente após o período especificado, para atender aos requisitos de retenção de email da sua organização. Consulte [Marcas e políticas de retenção](retention-tags-and-retention-policies-exchange-2013-help.md) para obter detalhes.
+  - Colocação de caixas de correio em espera preserva os dados, evitando a exclusão antes que o período especificado e salvando a versão original de uma mensagem antes que ele seja modificado. Ele não excluir mensagens automaticamente após o período especificado. Combine litígio ou bloqueio In-loco com uma política de retenção, que pode excluir mensagens automaticamente após o período especificado, para atender aos requisitos de retenção de email da sua organização. Consulte [Marcas e políticas de retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies) para obter detalhes.
 
   - O comando PowerShell usado neste tópico para colocar um litígio em todas as caixas de correio utiliza um filtro de destinatário que retorna todas as caixas de correio do usuário. Você pode usar outras propriedades de destinatário para retornar uma lista de caixas de correio específicas que você pode direcionar ao cmdlet **Set-Mailbox** para colocar um litígio nessas caixas de correio.
     

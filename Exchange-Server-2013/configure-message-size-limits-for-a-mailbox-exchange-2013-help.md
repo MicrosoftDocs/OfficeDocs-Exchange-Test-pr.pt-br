@@ -21,7 +21,7 @@ Você pode usar o EAC e o Shell para configurar os limites de tamanho de mensage
 
 Há outras configurações em uma organização do Exchange que determinam o tamanho máximo de mensagens que uma caixa de correio pode enviar e receber (por exemplo, o tamanho máximo de mensagens configurado em um servidor de caixa de correio). Saiba mais sobre as restrições de tamanho de mensagens no Exchange, inclusive os tipos de limite de tamanho de mensagens, o escopo e a ordem de precedência delas em [Limites de tamanhos de mensagens](message-size-limits-exchange-2013-help.md).
 
-Confira outras tarefas de gerenciamento relacionadas às caixas de correio de usuário em [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
+Confira outras tarefas de gerenciamento relacionadas às caixas de correio de usuário em [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 
 > [!NOTE]

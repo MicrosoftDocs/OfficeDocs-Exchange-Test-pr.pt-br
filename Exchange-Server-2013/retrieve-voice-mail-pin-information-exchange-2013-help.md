@@ -21,7 +21,7 @@ Você pode recuperar as informações do PIN de um usuário habilitado para UM (
 
 Quando você recupera as informações de PIN de um usuário habilitado para UM, as informações retornadas são calculadas com base nos dados do PIN criptografados, que são armazenados em um formato criptografado na caixa de correio do usuário. Isso permite exibir as informações da caixa de correio do usuário e também indica se o usuário teve sua caixa de correio bloqueada.
 
-Para tarefas adicionais relacionadas à segurança do PIN, consulte [Procedimentos de segurança PIN](pin-security-procedures-exchange-2013-help.md).
+Para tarefas adicionais relacionadas à segurança do PIN, consulte [Procedimentos de segurança PIN](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/pin-security-procedures).
 
 ## O que você precisa saber antes de começar?
 

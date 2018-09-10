@@ -17,11 +17,11 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
 _**Tópico modificado em:** 2012-09-22_
 
-[Criar uma política de caixa de correio do Outlook Web App](create-an-outlook-web-app-mailbox-policy-exchange-2013-help.md)
+[Criar uma política de caixa de correio do Outlook Web App](https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/create-outlook-web-app-mailbox-policy)
 
-[Aplicar ou remover uma diretiva de caixa de correio do Outlook Web App em uma caixa de correio](apply-or-remove-an-outlook-web-app-mailbox-policy-on-a-mailbox-exchange-2013-help.md)
+[Aplicar ou remover uma diretiva de caixa de correio do Outlook Web App em uma caixa de correio](https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/apply-or-remove-outlook-web-app-mailbox-policy)
 
-[Remover uma política de caixa de correio do Outlook Web App do Exchange](remove-an-outlook-web-app-mailbox-policy-from-exchange-exchange-2013-help.md)
+[Remover uma política de caixa de correio do Outlook Web App do Exchange](https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/remove-outlook-web-app-mailbox-policy)
 
-[Exibir ou configurar as propriedades de diretiva de caixa de correio do Outlook Web App](view-or-configure-outlook-web-app-mailbox-policy-properties-exchange-2013-help.md)
+[Exibir ou configurar as propriedades de diretiva de caixa de correio do Outlook Web App](https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/configure-outlook-web-app-mailbox-policy-properties)
 

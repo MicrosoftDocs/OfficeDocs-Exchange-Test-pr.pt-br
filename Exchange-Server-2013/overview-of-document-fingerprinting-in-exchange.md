@@ -17,11 +17,11 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
 _**Tópico modificado em:** 2014-09-11_
 
-Os funcionários de TI em sua organização lidam com vários tipos de informações confidenciais em um dia comum. A *Impressão Digital de Documento* facilita a proteção dessas informações identificando formas padrão usadas em sua organização. Este tópico descreve os conceitos por trás da Impressão Digital de Documento. Se quiser saber como criar uma impressão digital de documento, consulte [Proteger os dados de formulário com a impressão digital de documento](protect-form-data-with-document-fingerprinting-exchange-2013-help.md).
+Os funcionários de TI em sua organização lidam com vários tipos de informações confidenciais em um dia comum. A *Impressão Digital de Documento* facilita a proteção dessas informações identificando formas padrão usadas em sua organização. Este tópico descreve os conceitos por trás da Impressão Digital de Documento. Se quiser saber como criar uma impressão digital de documento, consulte [Proteger os dados de formulário com a impressão digital de documento](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/protect-data-with-fingerprinting).
 
 ## Cenário básico da Impressão Digital de Documento
 
-A Impressão Digital de Documento é um recurso de Prevenção Contra Perda de Dados (DLP) que converte um formulário padrão em um tipo de informação confidencial, que você pode usar para definir regras de transporte e políticas DLP. Por exemplo, você pode criar uma impressão digital de documento com base em um modelo de patente em branco e, então, criar uma política DLP que detecta e bloqueia todos os modelos de patente de saída com conteúdo confidencial. Opcionalmente, você pode configurar as [Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md) para notificar os remetentes de que eles podem estar enviando informações confidenciais, e o remetente deve verificar se os remetentes estão qualificados para receber as patentes. Esse processo funciona com qualquer formulário baseado em texto usado em sua organização. Exemplos adicionais de formulários que você pode carregar incluem:
+A Impressão Digital de Documento é um recurso de Prevenção Contra Perda de Dados (DLP) que converte um formulário padrão em um tipo de informação confidencial, que você pode usar para definir regras de transporte e políticas DLP. Por exemplo, você pode criar uma impressão digital de documento com base em um modelo de patente em branco e, então, criar uma política DLP que detecta e bloqueia todos os modelos de patente de saída com conteúdo confidencial. Opcionalmente, você pode configurar as [Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips) para notificar os remetentes de que eles podem estar enviando informações confidenciais, e o remetente deve verificar se os remetentes estão qualificados para receber as patentes. Esse processo funciona com qualquer formulário baseado em texto usado em sua organização. Exemplos adicionais de formulários que você pode carregar incluem:
 
   - Formulários governamentais
 
@@ -61,9 +61,9 @@ O agente de DLP da Impressão Digital de Documento não detectará informações
 
 ## Para saber mais
 
-[Proteger os dados de formulário com a impressão digital de documento](protect-form-data-with-document-fingerprinting-exchange-2013-help.md)
+[Proteger os dados de formulário com a impressão digital de documento](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/protect-data-with-fingerprinting)
 
-[Integrando regras de informações confidenciais com regras de transporte](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integrando regras de informações confidenciais com regras de transporte](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
 [Procedimentos DLP](https://technet.microsoft.com/pt-br/library/jj938003\(v=exchg.150\))
 

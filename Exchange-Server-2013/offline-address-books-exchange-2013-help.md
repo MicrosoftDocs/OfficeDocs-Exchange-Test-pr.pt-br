@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2014-11-16_
 
 Um catálogo de endereços offline (OAB) é uma cópia de uma coleção de lista de endereços que tenha sido baixada para que um usuário do Microsoft Outlook possa acessar o catálogo de endereços enquanto desconectado do servidor. Microsoft Exchange gera os novos arquivos OAB e compacta os arquivos e coloca-los em um compartilhamento de local. Você pode decidir quais listas de endereços são disponibilizadas para os usuários que trabalham offline, e você também pode configurar o método pelo qual os catálogos de endereços são distribuídos.
 
-Para saber mais sobre listas de endereços, consulte [Listas de endereços](address-lists-exchange-2013-help.md).
+Para saber mais sobre listas de endereços, consulte [Listas de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-lists/address-lists).
 
 
 > [!IMPORTANT]
@@ -27,7 +27,7 @@ Para saber mais sobre listas de endereços, consulte [Listas de endereços](addr
 
 
 
-Procurando tarefas de gerenciamento relacionadas a OABs? Consulte [Procedimentos do catálogo de endereços offline](offline-address-book-procedures-exchange-2013-help.md).
+Procurando tarefas de gerenciamento relacionadas a OABs? Consulte [Procedimentos do catálogo de endereços offline](https://docs.microsoft.com/pt-br/exchange/address-books/offline-address-books/offline-address-book-procedures).
 
 **Sumário**
 
@@ -75,7 +75,7 @@ Para funcionar corretamente, a distribuição baseada na Web depende os seguinte
 
   - **Distribuição do OAB**   Se um cliente inicia a solicitação de distribuição do OAB, a solicitação direcionado através de um servidor de acesso para cliente. Servidor acesso para cliente, em seguida, encaminha a solicitação no servidor de caixa de correio que está hospedando os arquivos OAB. Os arquivos OAB serão distribuídos diretamente do servidor de caixa de correio para o cliente.
 
-  - **Diretório virtual do OAB**   O diretório virtual do OAB é o ponto de distribuição usado pelo método distribuição baseada na Web. Por padrão, quando Exchange estiver instalado, um novo diretório virtual chamado **OAB** é criado no site interno padrão no serviços de informações da Internet (IIS). Se você tiver usuários do cliente que se conectam ao Outlook de fora do firewall da organização, você poderá adicionar um site externo. Como alternativa, quando você executar o cmdlet **New-OABVirtualDirectory** no Shell, um novo diretório virtual chamado OAB é criado no site do IIS padrão no servidor de acesso para cliente local Exchange. Para obter informações, consulte [Criar um diretório virtual do catálogo de endereços offline](create-an-offline-address-book-virtual-directory-exchange-2013-help.md).
+  - **Diretório virtual do OAB**   O diretório virtual do OAB é o ponto de distribuição usado pelo método distribuição baseada na Web. Por padrão, quando Exchange estiver instalado, um novo diretório virtual chamado **OAB** é criado no site interno padrão no serviços de informações da Internet (IIS). Se você tiver usuários do cliente que se conectam ao Outlook de fora do firewall da organização, você poderá adicionar um site externo. Como alternativa, quando você executar o cmdlet **New-OABVirtualDirectory** no Shell, um novo diretório virtual chamado OAB é criado no site do IIS padrão no servidor de acesso para cliente local Exchange. Para obter informações, consulte [Criar um diretório virtual do catálogo de endereços offline](https://docs.microsoft.com/pt-br/exchange/address-books/offline-address-books/create-virtual-directory).
 
   - **Serviço de descoberta automática**   Esse é um recurso disponível no Outlook 2013, Outlook 2010, Outlook 2007 e em alguns dispositivos móveis que configuram automaticamente os clientes para o acesso a Exchange. O serviço é executado em um servidor de acesso para cliente e retorna a URL correta do OAB para uma conexão de cliente específico.
 

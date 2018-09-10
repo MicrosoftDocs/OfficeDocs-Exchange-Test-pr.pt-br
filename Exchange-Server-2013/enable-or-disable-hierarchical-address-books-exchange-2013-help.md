@@ -17,7 +17,7 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
 _**Tópico modificado em:** 2016-12-09_
 
-Você pode configurar um catálogo de endereços hierárquico (HAB), que é um recurso disponíveis para usuários finais do Microsoft Outlook 2010 ou mais recente. Com um HAB, usuários podem procurar destinatários na sua organização Exchange usando uma hierarquia organizacional baseada em estrutura de tempo de serviço ou gestão. Para saber mais sobre HABs, consulte [Catálogos de endereços hierárquicos](hierarchical-address-books-exchange-2013-help.md).
+Você pode configurar um catálogo de endereços hierárquico (HAB), que é um recurso disponíveis para usuários finais do Microsoft Outlook 2010 ou mais recente. Com um HAB, usuários podem procurar destinatários na sua organização Exchange usando uma hierarquia organizacional baseada em estrutura de tempo de serviço ou gestão. Para saber mais sobre HABs, consulte [Catálogos de endereços hierárquicos](https://docs.microsoft.com/pt-br/exchange/address-books/hierarchical-address-books/hierarchical-address-books).
 
 ## O que você precisa saber antes de começar?
 
@@ -27,7 +27,7 @@ Você pode configurar um catálogo de endereços hierárquico (HAB), que é um r
 
   - Você não pode usar o Centro de Administração do Exchange (EAC) para executar esse procedimento. É necessário usar o Shell.
 
-  - Antes de começar, leia o tópico [Catálogos de endereços hierárquicos](hierarchical-address-books-exchange-2013-help.md). Você deve compreender se um HAB é apropriado para a sua organização do Exchange.
+  - Antes de começar, leia o tópico [Catálogos de endereços hierárquicos](https://docs.microsoft.com/pt-br/exchange/address-books/hierarchical-address-books/hierarchical-address-books). Você deve compreender se um HAB é apropriado para a sua organização do Exchange.
 
   - Entenda como as unidades organizacionais (UOs), grupos, usuários e contatos estão configurados atualmente em sua organização do Exchange.
 
@@ -90,7 +90,7 @@ Você pode configurar um catálogo de endereços hierárquico (HAB), que é um r
 
 Neste exemplo, uma UO chamada HAB será criada para o HAB. O nome do domínio para a organização é Contoso-dom, e Contoso,Ltd será o nome da organização de nível superior na hierarquia (a *organização raiz*). Grupos subordinados chamados Corporate Office, Product Support Organization e Sales & Marketing Organization serão criados como organizações filhas sob Contoso,Ltd. Adicionalmente, os grupos Human Resources, Accounting Group e Administration Group serão criados como organizações filhas sob Corporate Office.
 
-Para obter informações detalhadas sobre a criação de grupos dinâmicos de distribuição, consulte [Criar e gerenciar grupos de distribuição](create-and-manage-distribution-groups-exchange-2013-help.md).
+Para obter informações detalhadas sobre a criação de grupos dinâmicos de distribuição, consulte [Criar e gerenciar grupos de distribuição](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups).
 
 1.  Crie uma UO chamada HAB na organização Contoso. Você pode usar Usuários e Computadores do Active Directory ou digitar o seguinte em um prompt de comando.
     
@@ -111,7 +111,7 @@ Para obter informações detalhadas sobre a criação de grupos dinâmicos de di
     
 
     > [!TIP]
-    > Para os fins deste tópico, o exemplo do Shell é fornecido. Entretanto, você também pode usar o EAC para criar um grupo de distribuição. Para obter detalhes, consulte <A href="create-and-manage-distribution-groups-exchange-2013-help.md">Criar e gerenciar grupos de distribuição</A>.
+    > Para os fins deste tópico, o exemplo do Shell é fornecido. Entretanto, você também pode usar o EAC para criar um grupo de distribuição. Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups">Criar e gerenciar grupos de distribuição</A>.
 
     
         New-DistributionGroup -Name "Contoso,Ltd" -DisplayName "Contoso,Ltd" -Alias "ContosoRoot" -OrganizationalUnit "Contoso-dom.Contoso.com/HAB" -SamAccountName "ContosoRoot" -Type "Distribution"
@@ -124,7 +124,7 @@ Para obter informações detalhadas sobre a criação de grupos dinâmicos de di
     
 
     > [!TIP]
-    > Para os fins deste tópico, o exemplo do Shell é fornecido. Entretanto, você também pode usar o EAC para criar grupos de distribuição. Para detalhes, consulte <A href="create-and-manage-distribution-groups-exchange-2013-help.md">Criar e gerenciar grupos de distribuição</A>.
+    > Para os fins deste tópico, o exemplo do Shell é fornecido. Entretanto, você também pode usar o EAC para criar grupos de distribuição. Para detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups">Criar e gerenciar grupos de distribuição</A>.
 
     
         New-DistributionGroup -Name "Corporate Office" -DisplayName "Corporate Office" -Alias "CorporateOffice" -OrganizationalUnit "Contoso-dom.Contoso.com/HAB" -SamAccountName "CorporateOffice" -Type "Distribution"

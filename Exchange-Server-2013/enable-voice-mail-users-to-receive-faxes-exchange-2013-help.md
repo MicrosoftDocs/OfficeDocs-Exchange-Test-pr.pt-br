@@ -281,7 +281,7 @@ Voltar ao início
 
 ## Vários números de telefone DID
 
-Quando você habilita um usuário para Unificação de mensagens, você deve inserir pelo menos um número de ramal único para esse usuário. Você pode adicionar vários números de ramal para um usuário habilitado para Unificação de mensagens usando o Centro de administração do Exchange (EAC). Para obter mais informações, consulte [Adicionar um número de ramal](add-an-extension-number-exchange-2013-help.md).
+Quando você habilita um usuário para Unificação de mensagens, você deve inserir pelo menos um número de ramal único para esse usuário. Você pode adicionar vários números de ramal para um usuário habilitado para Unificação de mensagens usando o Centro de administração do Exchange (EAC). Para obter mais informações, consulte [Adicionar um número de ramal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number).
 
 Adicionar vários números de ramal é útil quando um usuário habilitado para Unificação de mensagens:
 

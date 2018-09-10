@@ -23,7 +23,7 @@ _**Tópico modificado em:** 2017-01-17_
 
 
 
-Use [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md) para pesquisar em todo o conteúdo de caixa de correio, incluindo itens excluídos e versões originais de itens modificados para usuários que estão em [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Use [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) para pesquisar em todo o conteúdo de caixa de correio, incluindo itens excluídos e versões originais de itens modificados para usuários que estão em [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
 
 ## O que você precisa saber antes de começar?
 
@@ -33,7 +33,7 @@ Use [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md) 
 
   - Para criar pesquisas de descoberta eletrônica, você precisa ter um endereço SMTP da organização que você está criando as pesquisas no. Isso no Exchange Online, você deve ter uma caixa de correio Exchange Online (plano 2) licenciada para criar pesquisas de descoberta eletrônica. Em uma organização do Exchange híbrido, sua caixa de correio do Exchange local deve ter uma conta de usuário de email correspondente na sua organização Office 365 para que você pode pesquisar Exchange Online caixas de correio. Ou, se você entrar com uma conta que existe apenas na Office 365, como a conta de administrador de locatário, essa conta deve ser atribuída uma licença do Exchange Online (plano 2).
 
-  - A Instalação do Exchange 2013 cria uma caixa de correio de Descoberta chamada **Caixa de Correio de Pesquisa de Descoberta** para copiar os resultados da pesquisa. A Caixa de Correio de Pesquisa de Descoberta também é criada por padrão no Exchange Online. Você pode criar caixas de correio de Descoberta adicionais. Para detalhes, consulte [Criar uma caixa de correio de descoberta](create-a-discovery-mailbox-exchange-2013-help.md).
+  - A Instalação do Exchange 2013 cria uma caixa de correio de Descoberta chamada **Caixa de Correio de Pesquisa de Descoberta** para copiar os resultados da pesquisa. A Caixa de Correio de Pesquisa de Descoberta também é criada por padrão no Exchange Online. Você pode criar caixas de correio de Descoberta adicionais. Para detalhes, consulte [Criar uma caixa de correio de descoberta](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox).
 
   - Quando você cria uma pesquisa de Descoberta eletrônica in-loco, as mensagens retornadas nos resultados da pesquisa não são copiadas automaticamente para uma caixa de correio de descoberta. Após criar a pesquisa, você pode usar o Centro de Administração do Exchange (EAC) para fazer uma estimativa, visualizar ou copiar os resultados da pesquisa em uma caixa de correio de descoberta. Para ver detalhes, consulte:
     
@@ -63,7 +63,7 @@ Conforme explicado anteriormente, para criar pesquisas de Descoberta eletrônica
     
 
     > [!IMPORTANT]
-    > Não é possível usar a opção <STRONG>Pesquisar em todas as caixas de correio</STRONG> para bloqueat todas as caixas de correio. Para Retenção In-loco, você deve selecionar <STRONG>Especificar caixas de correio a pesquisar</STRONG>. Para mais detalhes, consulte <A href="create-or-remove-an-in-place-hold-exchange-2013-help.md">Criar ou remover um bloqueio In-loco</A>.
+    > Não é possível usar a opção <STRONG>Pesquisar em todas as caixas de correio</STRONG> para bloqueat todas as caixas de correio. Para Retenção In-loco, você deve selecionar <STRONG>Especificar caixas de correio a pesquisar</STRONG>. Para mais detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds">Criar ou remover um bloqueio In-loco</A>.
 
 
 
@@ -190,7 +190,7 @@ Voltar ao início
     
       - [Copiar os resultados de pesquisa de descoberta eletrônica para uma caixa de correio de descoberta](copy-ediscovery-search-results-to-a-discovery-mailbox-exchange-2013-help.md)
     
-      - [Exportar resultados de pesquisa de Descoberta Eletrônica para um arquivo PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md)
+      - [Exportar resultados de pesquisa de Descoberta Eletrônica para um arquivo PST](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/export-search-results)
 
   - Depois de executar uma estimativa de pesquisa de descoberta eletrônica (que inclui as palavras-chave nos critérios de pesquisa), você pode exibir as estatísticas de palavra-chave, clicando em **Exibir estatísticas de palavra-chave** no painel de detalhes para a pesquisa selecionado. Essas estatísticas mostram detalhes sobre o número de itens retornados para cada palavra-chave usado na consulta de pesquisa. No entanto, se mais de 100 caixas de correio de origem estão incluídas na pesquisa, um erro será retornado se você tentar exibir as estatísticas de palavra-chave. Para exibir estatísticas de palavra-chave, não mais de 100 caixas de correio de origem podem ser incluídas na pesquisa.
 

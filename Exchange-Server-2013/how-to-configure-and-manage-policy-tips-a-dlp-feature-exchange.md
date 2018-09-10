@@ -35,7 +35,7 @@ Dicas de política são informativos avisos que são exibidos para remetentes de
     
     3.  O conteúdo de um cabeçalho da mensagem, corpo da mensagem ou anexo de mensagem verificado pelo seu agente de transporte atende às condições estabelecidas nas políticas ou regras de DLP que também incluem as regras de notificação de Dica de Política. Colocada de outra forma, a Dica de Política será exibida aos usuários finais apenas se eles fizerem algo que faça a regra associada agir.
 
-  - O texto de notificação padrão da Dica de Política integrado ao sistema será exibido se você não usar o recurso de configurações de Dica de Política para personalizar seu texto de Dica de Política. Para saber mais sobre o texto padrão, consulte [Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+  - O texto de notificação padrão da Dica de Política integrado ao sistema será exibido se você não usar o recurso de configurações de Dica de Política para personalizar seu texto de Dica de Política. Para saber mais sobre o texto padrão, consulte [Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips).
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -151,7 +151,7 @@ Para verificar se você criou com êxito uma Dica de Política de mensagem de re
 
 ## Criar ou modificar uma Dica de Política de substituição exceto bloquear
 
-Há quatro opções de Dicas de Política que pode rejeitar mensagens ou impedir que mensagens saiam da caixa de saída do remetente. Para saber mais sobre essas opções, consulte [Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+Há quatro opções de Dicas de Política que pode rejeitar mensagens ou impedir que mensagens saiam da caixa de saída do remetente. Para saber mais sobre essas opções, consulte [Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips).
 
 ## Usar o EAC para configurar Dicas de Política de substituição exceto bloquear
 
@@ -187,7 +187,7 @@ Para verificar se você criou com êxito uma Dica de Política de substituição
 
 ## Criar texto de notificação da Dica de Política personalizada
 
-Este procedimento opcional o ajudará a personalizar o texto de notificação da Dica de Política que os remetentes de email visualizam em seus programas de email. Se você fizer isso, tenha em mente que o texto da notificação da Dica de Política personalizada não será exibido, a não ser que você também configure uma regra de política de DLP com uma ação que faça com que a notificação apareça. Tenha em mente que há notificações de Dica de Política de sistema padrão que poderão ser mostradas se você não personalizar seu texto de notificação de Dica de Política. Para saber mais sobre o texto padrão, consulte [Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+Este procedimento opcional o ajudará a personalizar o texto de notificação da Dica de Política que os remetentes de email visualizam em seus programas de email. Se você fizer isso, tenha em mente que o texto da notificação da Dica de Política personalizada não será exibido, a não ser que você também configure uma regra de política de DLP com uma ação que faça com que a notificação apareça. Tenha em mente que há notificações de Dica de Política de sistema padrão que poderão ser mostradas se você não personalizar seu texto de notificação de Dica de Política. Para saber mais sobre o texto padrão, consulte [Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips).
 
 ## Usar o EAC para criar e gerenciar texto de notificação da Dica de Política personalizada
 
@@ -195,7 +195,7 @@ Este procedimento opcional o ajudará a personalizar o texto de notificação da
 
 2.  Selecione **Configurações de Dica de Política**![Configurações das dicas de políticas](images/JJ619307.54d1813d-3289-4765-a9a3-a7303a5ab3c7(EXCHG.150).gif "Configurações das dicas de políticas").
 
-3.  Para adicionar uma nova Dica de Política com sua própria mensagem personalizada, selecione **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar"). Para obter mais informações sobre as opções de ação disponíveis, consulte [Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+3.  Para adicionar uma nova Dica de Política com sua própria mensagem personalizada, selecione **Adicionar**![Ícone Adicionar](images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif "Ícone Adicionar"). Para obter mais informações sobre as opções de ação disponíveis, consulte [Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips).
     
     Para modificar uma Dica de Política existente, realce a dica e selecione **Editar**![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição").
     
@@ -237,7 +237,7 @@ Para verificar se você criou com êxito o texto da Dica de Política personaliz
 
 [Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
 
-[Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md)
+[Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips)
 
 [Regras de fluxo de emails ou de transporte](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md) Exchange 2013
 

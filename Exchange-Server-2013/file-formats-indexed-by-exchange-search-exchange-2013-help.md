@@ -25,7 +25,7 @@ No MicrosoftExchange Server 2013 e no Exchange Online, a Pesquisa do Exchange in
 
 
 
-Ao gerenciar ou usar a Pesquisa do Exchange e os recursos dependentes (como [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md)), considere as diferenças entre itens que não podem ser pesquisados e formatos de arquivo que estão desativados para indexação ou que contêm conteúdo que não pode ser indexado:
+Ao gerenciar ou usar a Pesquisa do Exchange e os recursos dependentes (como [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)), considere as diferenças entre itens que não podem ser pesquisados e formatos de arquivo que estão desativados para indexação ou que contêm conteúdo que não pode ser indexado:
 
   - **Itens não pesquisáveis**   Quando a Pesquisa do Exchange não conseguir indexar um tipo de arquivo específico por qualquer razão (por exemplo, se um filtro não está instalado), a pesquisa para o tipo de arquivo falha. Mensagens que contêm anexos desse tipo são marcadas como *parcialmente indexadas*. Os itens que não podem ser pesquisados podem ser recuperados usando o cmdlet [Get-FailedContentIndexDocuments](https://technet.microsoft.com/pt-br/library/dd351154\(v=exchg.150\)). Ao copiar resultados de pesquisa eDiscovery In-Loco para uma caixa de correio de descoberta ou ao exportar resultados de pesquisa para um arquivo PST, você pode incluir itens não pesquisáveis. Para obter mais informações, consulte [Itens não pesquisáveis na descoberta eletrônica do Exchange](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 

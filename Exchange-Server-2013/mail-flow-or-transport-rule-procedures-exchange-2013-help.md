@@ -23,11 +23,11 @@ Você pode começar a usar regras de transporte, usando os procedimentos a segui
 
 [Criar listas de remetentes bloqueados ou remetente seguro em toda a organização no Office 365](https://technet.microsoft.com/pt-br/library/dn198251\(v=exchg.150\))   Informações para ajudar você a criar listas de remetentes bloqueados e remetentes seguros baseadas no usuário ou no domínio usando regras de transporte.
 
-[Usar regras de fluxo de email com base em uma lista de palavras, frases ou padrões de emails de rota](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md) Informações para ajudá-lo a cumprir as políticas de email da sua organização.
+[Usar regras de fluxo de email com base em uma lista de palavras, frases ou padrões de emails de rota](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email) Informações para ajudá-lo a cumprir as políticas de email da sua organização.
 
 [Registrar IFilters do Filter Pack com o Exchange 2013](register-filter-pack-ifilters-with-exchange-2013-exchange-2013-help.md)   Informações para ajudá-lo a registrar tipos de arquivo adicionais para anexos, de forma que as regras de transporte que se aplicam aos anexos podem verificar esses tipos de arquivo.
 
-[Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md)   Informações para ajudá-lo a criar, ler, modificar, habilitar, desabilitar ou remover uma regra de transporte e informações sobre como importar e exportar as coleções de regras de transporte.
+[Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)   Informações para ajudá-lo a criar, ler, modificar, habilitar, desabilitar ou remover uma regra de transporte e informações sobre como importar e exportar as coleções de regras de transporte.
 
-[Práticas recomendadas para configuração das regras de fluxo de email](best-practices-for-configuring-mail-flow-rules-exchange-2013-help.md)   Informações para ajudar você a evitar erros de configuração comuns.
+[Práticas recomendadas para configuração das regras de fluxo de email](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/configuration-best-practices)   Informações para ajudar você a evitar erros de configuração comuns.
 

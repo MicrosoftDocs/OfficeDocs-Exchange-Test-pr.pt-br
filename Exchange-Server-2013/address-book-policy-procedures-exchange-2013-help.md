@@ -17,11 +17,11 @@ _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2012-10-11_
 
-[Criar uma política de catálogo de endereços](create-an-address-book-policy-exchange-2013-help.md)
+[Criar uma política de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/create-an-address-book-policy)
 
-[Atribuir uma política de catálogo de endereços para usuários de email](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md)
+[Atribuir uma política de catálogo de endereços para usuários de email](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users)
 
-[Alterar as configurações de uma política de catálogo de endereços](change-the-settings-of-an-address-book-policy-exchange-2013-help.md)
+[Alterar as configurações de uma política de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/change-the-settings-of-an-address-book-policy)
 
 [Remover uma política de catálogo de endereços](remove-an-address-book-policy-exchange-2013-help.md)
 

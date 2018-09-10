@@ -48,7 +48,7 @@ O local onde você autoriza os grupos de regras de discagem depende dos tipos de
 <tbody>
 <tr class="odd">
 <td><p>Chamadores não autenticados que ligam para um número do Outlook Voice Access e não inserem um PIN</p></td>
-<td><p>Plano de discagem de UM. Para obter detalhes, consulte <a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorizar chamadas para usuários em um plano de discagem</a>.</p></td>
+<td><p>Plano de discagem de UM. Para obter detalhes, consulte <a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Autorizar chamadas para usuários em um plano de discagem</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>Chamadores autenticados que ligam para um número do Outlook Voice Access e inserem um PIN</p></td>

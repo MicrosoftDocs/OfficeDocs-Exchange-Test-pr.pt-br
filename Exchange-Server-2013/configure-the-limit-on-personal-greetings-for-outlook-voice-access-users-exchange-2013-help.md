@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2012-11-05_
 
 A configuração de **limite de saudações pessoais (minutos)** permite que você insira o número máximo de minutos que os usuários associados a diretiva de caixa de correio de Unificação de mensagens (UM) podem usar para gravar sua saudação da caixa postal. Essa configuração se aplica a suas mensagens de voz padrão e a sua saudação da caixa postal de ausência temporária. Por padrão, a duração máxima da saudação é definida como 5 minutos. No entanto, você pode configurar a duração máxima da saudação para qualquer configuração entre 1 e 10 minutos.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a políticas de caixa de correio de UM, consulte [Procedimentos de diretiva de caixa de correio de Unificação de mensagens](um-mailbox-policy-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a políticas de caixa de correio de UM, consulte [Procedimentos de diretiva de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 ## O que você precisa saber antes de começar?
 

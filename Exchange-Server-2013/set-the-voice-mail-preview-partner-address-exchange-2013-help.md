@@ -25,9 +25,9 @@ _**Tópico modificado em:** 2013-02-13_
 
 
 
-Para obter mais informações sobre o programa de parceria de Visualização de Caixa Postal, consulte [Supervisor de visualização de correio de voz](voice-mail-preview-advisor-exchange-2013-help.md).
+Para obter mais informações sobre o programa de parceria de Visualização de Caixa Postal, consulte [Supervisor de visualização de correio de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-advisor).
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas à Visualização da Caixa Postal, consulte [Procedimentos de visualização da caixa postal de voz](voice-mail-preview-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas à Visualização da Caixa Postal, consulte [Procedimentos de visualização da caixa postal de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-procedures).
 
 ## O que você precisa saber antes de começar?
 

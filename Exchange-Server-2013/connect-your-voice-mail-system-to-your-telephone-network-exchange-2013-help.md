@@ -27,17 +27,17 @@ Há um relacionamento fortemente integrado e interconectado entre os componentes
 
 Para obter mais informações sobre os componentes de Unificação de mensagens, consulte:
 
-  - [Planos de discagem de Unificação de mensagens](um-dial-plans-exchange-2013-help.md)
+  - [Planos de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
   - [Gateways IP de UM](um-ip-gateways-exchange-2013-help.md)
 
-  - [Grupos de busca de Unificação de mensagens](um-hunt-groups-exchange-2013-help.md)
+  - [Grupos de busca de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
 
   - [Responder e rotear as chamadas de entrada automaticamente](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
 
 Para obter mais informações sobre como configurar a caixa postal para usuários, consulte:
 
-  - [políticas de caixa de correio de UM](um-mailbox-policies-exchange-2013-help.md)
+  - [políticas de caixa de correio de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
-  - [Caixa postal para usuários](voice-mail-for-users-exchange-2013-help.md)
+  - [Caixa postal para usuários](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users)
 

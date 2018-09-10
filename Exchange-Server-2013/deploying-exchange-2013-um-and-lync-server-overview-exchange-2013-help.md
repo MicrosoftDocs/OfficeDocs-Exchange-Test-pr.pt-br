@@ -59,7 +59,7 @@ A lista a seguir mostra as etapas simplificadas de implantação da UM e do Lync
     
 
     > [!IMPORTANT]  
-    > O script ExchUcUtil.ps1 cria um ou mais gateways para integração do Lync. Você deve desabilitar as chamadas de saída em todos os gateways IP de UM com exceção do gateway criado pelo script. Isto inclui desabilitar as chamadas de saída nos gateways IP de UM que foram criados antes de você executar o script. Para desabilitar as chamadas de saída em um gateway IP de UM, consulte <A href="disable-outgoing-calls-on-um-ip-gateways-exchange-2013-help.md">Desabilitar as chamadas de saída nos gateways IP de UM</A>.
+    > O script ExchUcUtil.ps1 cria um ou mais gateways para integração do Lync. Você deve desabilitar as chamadas de saída em todos os gateways IP de UM com exceção do gateway criado pelo script. Isto inclui desabilitar as chamadas de saída nos gateways IP de UM que foram criados antes de você executar o script. Para desabilitar as chamadas de saída em um gateway IP de UM, consulte <A href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/disable-outgoing-calls-on-um-ip-gateways">Desabilitar as chamadas de saída nos gateways IP de UM</A>.
 
 
 
@@ -188,7 +188,7 @@ Você deve concluir as seguintes etapas para configurar a Unificação de Mensag
 
 5.  Defina o modo de inicialização e a porta de escuta de TLS nos servidores de Acesso para Cliente e Caixa de Correio que são adicionados ao plano de discagem URI de SIP e reinicie o serviço de Unificação de Mensagens do MicrosoftExchange em cada servidor de Caixa de Correio e o serviço Roteador de Chamadas da Unificação de Mensagens do MicrosoftExchange em cada servidor de Acesso para Cliente.
 
-6.  Criar e configurar um atendedor automático de UM. Para detalhes, consulte [Configurar um atendedor automático](set-up-a-um-auto-attendant-exchange-2013-help.md).
+6.  Criar e configurar um atendedor automático de UM. Para detalhes, consulte [Configurar um atendedor automático](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant).
 
 7.  Ao habilitar os usuários para caixa postal, crie um endereço SIP para os usuários que usarão o Enterprise Voice. Na maioria dos casos, esse endereço SIP será igual ao endereço SIP usado quando um usuário for habilitado para o Enterprise Voice. Para detalhes, consulte [Habilitar um usuário para caixa postal](enable-a-user-for-voice-mail-exchange-2013-help.md).
     

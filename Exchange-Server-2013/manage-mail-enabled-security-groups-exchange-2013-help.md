@@ -49,7 +49,7 @@ Um grupo de segurança habilitados para email pode ser usado para distribuir men
         
 
         > [!TIP]
-        > Se for aplicado a um diretiva de nomeação de grupo, você deve seguir as restrições de nomenclatura impostas para sua organização. Para obter mais informações, consulte <A href="create-a-distribution-group-naming-policy-exchange-2013-help.md">Criar um diretiva de nomeação de grupo de distribuição</A>. Se você deseja substituir a diretiva de nomenclatura de grupo da sua organização, consulte <A href="override-the-distribution-group-naming-policy-exchange-2013-help.md">Substituir o diretiva de nomenclatura de grupo de distribuição</A>.
+        > Se for aplicado a um diretiva de nomeação de grupo, você deve seguir as restrições de nomenclatura impostas para sua organização. Para obter mais informações, consulte <A href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy">Criar um diretiva de nomeação de grupo de distribuição</A>. Se você deseja substituir a diretiva de nomenclatura de grupo da sua organização, consulte <A href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/override-group-naming-policy">Substituir o diretiva de nomenclatura de grupo de distribuição</A>.
 
     
       - \* **Alias**    Use esta caixa para digitar o alias do grupo de segurança. O alias não pode exceder 64 caracteres e deve ser exclusivo na floresta. Quando um usuário digita o alias para: linha de uma mensagem de email, que é resolvida para o nome para exibição do grupo.

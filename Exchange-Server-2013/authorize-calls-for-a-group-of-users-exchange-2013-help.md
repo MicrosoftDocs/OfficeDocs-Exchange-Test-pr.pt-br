@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2013-02-21_
 
 Você pode habilitar autorizações de discagem em uma diretiva de caixa de correio de Unificação de mensagens (UM). Você pode usar autorizações de discagem em uma diretiva de caixa de correio para proibir que os usuários autenticados do Outlook Voice Access vinculadas à diretiva de caixa de correio de Unificação de mensagens de fazer chamadas telefônicas de país/região ou internacionais ou *discagem externa*. Discagem externa acontece quando Unified Messaging faz uma chamada de saída para um usuário depois que eles tenham chamado para um número de telefone do Outlook Voice Access que está configurado em um plano de discagem de UM. Quando você configura uma configuração em uma diretiva de caixa de correio de Unificação de mensagens, que a configuração se aplica a todos os usuários habilitados para UM vinculada com a diretiva de caixa de correio de Unificação de mensagens.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas à discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](allowing-users-to-make-calls-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas à discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls-procedures).
 
 ## O que você precisa saber antes de começar?
 

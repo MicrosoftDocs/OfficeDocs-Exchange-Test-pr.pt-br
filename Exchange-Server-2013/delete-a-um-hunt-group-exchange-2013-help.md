@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2012-11-05_
 
 Depois de excluir um grupo de busca de UM, o gateway IP da UM associado ao grupo de busca de UM não servirá ou atenderá as chamadas de entrada. Se ao excluir o grupo de busca de UM, não deixar nenhum grupo de busca de UM configurados no gateway IP da UM, o gateway IP da UM não poderá gerenciar ou processar as chamadas da UM.
 
-Para tarefas adicionais relacionadas a grupos de busca de UM, consulte [Procedimentos de grupo de busca de Unificação de mensagens](um-hunt-group-procedures-exchange-2013-help.md).
+Para tarefas adicionais relacionadas a grupos de busca de UM, consulte [Procedimentos de grupo de busca de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-group-procedures).
 
 
 > [!WARNING]
@@ -37,7 +37,7 @@ Para tarefas adicionais relacionadas a grupos de busca de UM, consulte [Procedim
 
   - Antes de executar esses procedimentos, verifique se um gateway IP da UM foi criado. Para obter etapas detalhadas, consulte [Criar um gateway IP de UM](create-a-um-ip-gateway-exchange-2013-help.md).
 
-  - Antes de executar esses procedimentos, verifique se um grupo de busca de UM foi criado. Para obter etapas detalhadas, consulte [Criar um grupo de busca de UM](create-a-um-hunt-group-exchange-2013-help.md).
+  - Antes de executar esses procedimentos, verifique se um grupo de busca de UM foi criado. Para obter etapas detalhadas, consulte [Criar um grupo de busca de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

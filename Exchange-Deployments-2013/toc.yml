@@ -1,4 +1,4 @@
-- name: Implantações Híbridas do Exchange Server 2013
+﻿- name: Implantações Híbridas do Exchange Server 2013
   href: exchange-server-hybrid-deployments-exchange-2013-help.md
   items:
   - name: Assistente de Configuração Híbrida
@@ -41,9 +41,9 @@
     - name: Movimentação de caixas de correio entre organizações locais e do Exchange Online em implantações híbridas
       href: move-mailboxes-between-on-premises-and-exchange-online-organizations-in-hybrid-deployments-exchange-2013-help.md
     - name: Configurar pastas públicas locais herdadas para uma implantação híbrida
-      href: configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+      href: https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders
     - name: Configurar pastas públicas do Exchange 2013 para uma implantação híbrida
-      href: configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
+      href: https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders
     - name: Configurar pastas públicas do Exchange Online para uma implantação híbrida
       href: configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md
     - name: Configurar o Exchange para oferecer suporte à caixa de correio delegada permissões em uma implantação híbrida
@@ -88,6 +88,6 @@
     href: about-exchange-documentation-exchange-2013-help.md
     items:
     - name: Acessibilidade para pessoas com deficiência
-      href: accessibility-for-people-with-disabilities-exchange-2013-help.md
+      href: https://docs.microsoft.com/pt-br/exchange/about-exchange-documentation/accessibility
     - name: Aviso de direitos autorais de terceiros
       href: third-party-copyright-notices-exchange-2013-help.md

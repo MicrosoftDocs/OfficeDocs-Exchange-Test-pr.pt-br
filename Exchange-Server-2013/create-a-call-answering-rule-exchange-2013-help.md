@@ -27,7 +27,7 @@ Regras de atendimento de chamada são aplicadas às chamadas recebidas semelhant
 
 
 
-Para tarefas de gerenciamento adicionais relacionadas às regras de atendimento de chamadas, consulte [Encaminhamento de chamadas de procedimentos](forwarding-calls-procedures-exchange-2013-help.md).
+Para tarefas de gerenciamento adicionais relacionadas às regras de atendimento de chamadas, consulte [Encaminhamento de chamadas de procedimentos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/forwarding-calls-procedures).
 
 ## O que você precisa saber antes de começar?
 

@@ -27,7 +27,7 @@ Várias configurações relacionadas ao PIN podem ser configuradas em uma direti
 
 
 
-Para tarefas adicionais relacionadas à segurança do PIN do Outlook Voice Access, consulte [Procedimentos de segurança PIN](pin-security-procedures-exchange-2013-help.md).
+Para tarefas adicionais relacionadas à segurança do PIN do Outlook Voice Access, consulte [Procedimentos de segurança PIN](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/pin-security-procedures).
 
 ## O que você precisa saber antes de começar?
 

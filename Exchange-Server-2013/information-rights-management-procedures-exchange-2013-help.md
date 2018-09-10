@@ -29,7 +29,7 @@ _**Tópico modificado em:** 2013-11-01_
 
 [Habilitar ou desabilitar a descriptografia de transporte](enable-or-disable-transport-decryption-exchange-2013-help.md)
 
-[Configurar o IRM para descoberta eletrônica In-loco e de pesquisa do Exchange](configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md)
+[Configurar o IRM para descoberta eletrônica In-loco e de pesquisa do Exchange](configure-irm-for-exchange-search-and-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
 [Habilitar ou desabilitar a descriptografia do relatório de diário](enable-or-disable-journal-report-decryption-exchange-2013-help.md)
 

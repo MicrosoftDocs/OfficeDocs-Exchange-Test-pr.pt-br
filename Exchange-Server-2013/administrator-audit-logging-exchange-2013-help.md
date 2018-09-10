@@ -201,7 +201,7 @@ A página de **auditoria** no EAC possui diversos relatórios que fornecem infor
 
 Para mais informações sobre como usar esses relatórios, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
 
-Para obter informações sobre outros relatórios incluídos na página de **auditoria**, consulte [Relatórios de auditoria do Exchange](exchange-auditing-reports-exchange-2013-help.md).
+Para obter informações sobre outros relatórios incluídos na página de **auditoria**, consulte [Relatórios de auditoria do Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
 
 ## Cmdlet Search-AdminAuditLog
 

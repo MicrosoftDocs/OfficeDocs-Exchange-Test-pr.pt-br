@@ -31,19 +31,19 @@ Post-deployment tasks for Unified Messaging
 
 Antes de implantar a UM, recomendamos que se familiarize com os conceitos dos seguintes tópicos:
 
-  - [Planos de discagem de Unificação de mensagens](um-dial-plans-exchange-2013-help.md)
+  - [Planos de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
   - [Gateways IP de UM](um-ip-gateways-exchange-2013-help.md)
 
   - [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
 
-  - [Grupos de busca de Unificação de mensagens](um-hunt-groups-exchange-2013-help.md)
+  - [Grupos de busca de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
 
   - [Responder e rotear as chamadas de entrada automaticamente](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
 
-  - [políticas de caixa de correio de UM](um-mailbox-policies-exchange-2013-help.md)
+  - [políticas de caixa de correio de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
-  - [Caixa postal para usuários](voice-mail-for-users-exchange-2013-help.md)
+  - [Caixa postal para usuários](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users)
 
 ## Implantando a UM
 
@@ -196,7 +196,7 @@ Execute o seguinte procedimento para criar um novo gateway IP de UM.
 
 Se tiver criado um gateway IP de UM e associá-lo a um plano de discagem, o grupo de busca de UM padrão será criado. É possível associar outro grupo de busca de UM ao mesmo gateway IP de UM ou a um diferente, dependendo do número de gateways criados.
 
-Ao criar um grupo de busca de UM, você habilita todos os servidores de Caixa de Correio especificados em um plano de discagem da UM para comunicação com um gateway VoIP. Para obter detalhes, consulte [Grupos de busca de Unificação de mensagens](um-hunt-groups-exchange-2013-help.md).
+Ao criar um grupo de busca de UM, você habilita todos os servidores de Caixa de Correio especificados em um plano de discagem da UM para comunicação com um gateway VoIP. Para obter detalhes, consulte [Grupos de busca de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups).
 
 ## Criar um grupo de busca de UM
 
@@ -308,11 +308,11 @@ Para usar o protocolo TLS mútuo para criptografar SIP e tráfego de RTP enviado
 
   - Importe os certificados necessários nos gateways VoIP e no IP PBX e nos servidores de Acesso para Cliente e de Caixa de Correio de sua organização.
 
-  - Configurar segurança de VoIP nos planos de discagem de UM. Para obter detalhes, consulte [Definir a configuração de segurança de VoIP](configure-the-voip-security-setting-exchange-2013-help.md).
+  - Configurar segurança de VoIP nos planos de discagem de UM. Para obter detalhes, consulte [Definir a configuração de segurança de VoIP](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting).
 
   - Configure o modo de inicialização nos servidores de Acesso para Cliente e de Caixa de Correio. Para obter detalhes, consulte [Configurar o modo de inicialização em um servidor de caixa de correio](configure-the-startup-mode-on-a-mailbox-server-exchange-2013-help.md) e [Configurar o modo de inicialização em um servidor de acesso para cliente](configure-the-startup-mode-on-a-client-access-server-exchange-2013-help.md).
 
-  - Configure os gateways IP de UM para escutar na porta 5061. Para mais detalhes, consulte [Configure a porta de escuta](configure-the-listening-port-exchange-2013-help.md).
+  - Configure os gateways IP de UM para escutar na porta 5061. Para mais detalhes, consulte [Configure a porta de escuta](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-listening-port).
 
 ## Políticas de PIN para usuários habilitados para UM
 
@@ -322,9 +322,9 @@ Em Unificação de Mensagens, as políticas de PIN são definidas e configuradas
 
 Depois de ter implantado seus servidores e os componentes da UM necessários, há vários recursos opcionais relacionados a caixa postal que você pode configurar. Para obter mais informações, consulte o seguinte:
 
-  - [Configurando o Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md)
+  - [Configurando o Outlook Voice Access](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access)
 
-  - [Permitir usuários de email encaminhar chamadas de voz](allow-voice-mail-users-to-forward-calls-exchange-2013-help.md)
+  - [Permitir usuários de email encaminhar chamadas de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
   - [Permitir que os usuários vejam uma transcrição do correio de voz](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md)
 

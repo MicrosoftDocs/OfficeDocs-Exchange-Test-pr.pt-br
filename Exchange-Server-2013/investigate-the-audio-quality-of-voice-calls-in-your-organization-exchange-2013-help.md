@@ -25,7 +25,7 @@ Se sua organização está tendo problemas com a qualidade de áudio de chamadas
 
 
 
-Para tarefas adicionais relacionadas a estatísticas de chamadas, consulte [Procedimentos de relatórios de Unificação de mensagens](um-reports-procedures-exchange-2013-help.md).
+Para tarefas adicionais relacionadas a estatísticas de chamadas, consulte [Procedimentos de relatórios de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/um-reports-procedures).
 
 ## O que você precisa saber antes de começar?
 
@@ -86,5 +86,5 @@ Para tarefas adicionais relacionadas a estatísticas de chamadas, consulte [Proc
     
       - **Número de amostras**   O número de chamadas que foram amostra para calcular as médias.
 
-4.  Para métricas de qualidade de áudio detalhadas para chamadas específicas, consulte [Investigar a qualidade de áudio de chamadas de voz para um usuário](investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md).
+4.  Para métricas de qualidade de áudio detalhadas para chamadas específicas, consulte [Investigar a qualidade de áudio de chamadas de voz para um usuário](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-for-user).
 

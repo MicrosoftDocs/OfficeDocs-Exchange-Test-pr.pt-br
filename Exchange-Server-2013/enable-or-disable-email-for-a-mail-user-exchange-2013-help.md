@@ -27,7 +27,7 @@ Após desabilitar o email para um usuário de email, você pode habilitar o usu�
 
 
 
-Para outras tarefas de gerenciamento adicionais relacionadas a usuários de email, consulte [Gerenciar usuários de email](manage-mail-users-exchange-2013-help.md).
+Para outras tarefas de gerenciamento adicionais relacionadas a usuários de email, consulte [Gerenciar usuários de email](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-users).
 
 ## O que você precisa saber antes de começar?
 

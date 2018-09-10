@@ -263,7 +263,7 @@ Essas são as definições para os termos que você encontrou durante esse proce
 
 ## Para saber mais
 
-  - [Como as regras DLP são aplicadas para avaliar mensagens](how-dlp-rules-are-applied-to-evaluate-messages-exchange-2013-help.md)
+  - [Como as regras DLP são aplicadas para avaliar mensagens](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/dlp-rule-application)
 
   - [Criar uma política DLP personalizada](create-a-custom-dlp-policy-exchange-2013-help.md)
 

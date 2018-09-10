@@ -89,7 +89,7 @@ Para obter mais informações sobre como executar as tarefas que devem ser concl
 <tr class="even">
 <td><p></p></td>
 <td><p>Defina a configuração de segurança do plano de discagem.</p></td>
-<td><p><a href="configure-the-voip-security-setting-exchange-2013-help.md">Definir a configuração de segurança de VoIP</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting">Definir a configuração de segurança de VoIP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -109,7 +109,7 @@ Para obter mais informações sobre como executar as tarefas que devem ser concl
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure a discagem de saída para Unificação de Mensagens. Permita todas as chamadas nos planos de discagem URI do SIP e políticas de caixa de correio da UM que estejam vinculadas a esses planos de discagem.</p></td>
-<td><p><a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorizar chamadas para usuários em um plano de discagem</a></p>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Autorizar chamadas para usuários em um plano de discagem</a></p>
 <p><a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">Autorizar chamadas para um grupo de usuários</a></p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +120,7 @@ Para obter mais informações sobre como executar as tarefas que devem ser concl
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure cada um dos atendedores automáticos da UM.</p></td>
-<td><p><a href="set-up-a-um-auto-attendant-exchange-2013-help.md">Configurar um atendedor automático</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant">Configurar um atendedor automático</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>

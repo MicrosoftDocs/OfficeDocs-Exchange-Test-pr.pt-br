@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2013-02-21_
 
 Você pode habilitar autorizações de discagem em um atendedor automático de Unificação de mensagens (UM). Autorizações de discagem em um atendedor automático são usadas para proibir que os usuários que ligam para o atendedor automático de fazer chamadas telefônicas de país/região ou internacionais ou *discagem externa*. Discagem externa acontece quando Unified Messaging faz uma chamada de saída para um usuário depois que eles foram chamado em um número de telefone que está configurado em um automáticos attendant.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas à discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](allowing-users-to-make-calls-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas à discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls-procedures).
 
 ## O que você precisa saber antes de começar?
 

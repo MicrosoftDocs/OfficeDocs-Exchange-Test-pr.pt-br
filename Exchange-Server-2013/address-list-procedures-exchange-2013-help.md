@@ -27,11 +27,11 @@ _**Tópico modificado em:** 2012-10-12_
 
 [Remover uma lista de endereços](remove-an-address-list-exchange-2013-help.md)
 
-[Criar uma lista de endereços global](create-a-global-address-list-exchange-2013-help.md)
+[Criar uma lista de endereços global](https://docs.microsoft.com/pt-br/exchange/address-books/address-lists/create-global-address-list)
 
 [Configurar propriedades da lista de endereços global](configure-global-address-list-properties-exchange-2013-help.md)
 
-[Remover uma lista de endereços global](remove-a-global-address-list-exchange-2013-help.md)
+[Remover uma lista de endereços global](https://docs.microsoft.com/pt-br/exchange/address-books/address-lists/remove-a-global-address-list)
 
 [Atualizar uma lista de endereços global](update-a-global-address-list-exchange-2013-help.md)
 

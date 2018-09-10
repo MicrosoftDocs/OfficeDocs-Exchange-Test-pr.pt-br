@@ -77,7 +77,7 @@ A convenção de nomenclatura para os arquivos de log no diretório de log de co
 
   - **MSGTRK**   Estes logs estão associados ao serviço de Transporte.
 
-  - **MSGTRKMA**   Estes logs estão associados às aprovações e rejeições usadas pelo transporte moderado. Para saber mais, confira [Gerenciar a aprovação de mensagens](manage-message-approval-exchange-2013-help.md).
+  - **MSGTRKMA**   Estes logs estão associados às aprovações e rejeições usadas pelo transporte moderado. Para saber mais, confira [Gerenciar a aprovação de mensagens](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-message-approval).
 
   - **MSGTRKMD**   Estes logs estão associados às mensagens entregues a caixas de correio pelo serviço de Entrega de Transporte de Caixa e Correio.
 
@@ -343,7 +343,7 @@ Vários tipos de eventos no campo **event-id** são usados para classificar os e
 </tr>
 <tr class="even">
 <td><p><strong>INITMESSAGECREATED</strong></p></td>
-<td><p>Uma mensagem foi enviada a um destinatário moderado e, portanto, ela foi enviada à caixa de correio de arbitragem para aprovação. Para saber mais, confira <a href="manage-message-approval-exchange-2013-help.md">Gerenciar a aprovação de mensagens</a>.</p></td>
+<td><p>Uma mensagem foi enviada a um destinatário moderado e, portanto, ela foi enviada à caixa de correio de arbitragem para aprovação. Para saber mais, confira <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gerenciar a aprovação de mensagens</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LOAD</strong></p></td>
@@ -351,7 +351,7 @@ Vários tipos de eventos no campo **event-id** são usados para classificar os e
 </tr>
 <tr class="even">
 <td><p><strong>MODERATIONEXPIRE</strong></p></td>
-<td><p>Um moderador para um destinatário moderado nunca aprovou ou rejeitou a mensagem e, portanto, ela expirou. Para saber mais sobre destinatários moderados, confira <a href="manage-message-approval-exchange-2013-help.md">Gerenciar a aprovação de mensagens</a>.</p></td>
+<td><p>Um moderador para um destinatário moderado nunca aprovou ou rejeitou a mensagem e, portanto, ela expirou. Para saber mais sobre destinatários moderados, confira <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gerenciar a aprovação de mensagens</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MODERATORAPPROVE</strong></p></td>
@@ -478,7 +478,7 @@ Os valores no campo **source** no log de controle de mensagens indicam o compone
 </tr>
 <tr class="odd">
 <td><p><strong>APPROVAL</strong></p></td>
-<td><p>A origem do evento foi a estrutura de aprovação que é usada com destinatários moderados. Para saber mais, confira <a href="manage-message-approval-exchange-2013-help.md">Gerenciar a aprovação de mensagens</a>.</p></td>
+<td><p>A origem do evento foi a estrutura de aprovação que é usada com destinatários moderados. Para saber mais, confira <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gerenciar a aprovação de mensagens</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BOOTLOADER</strong></p></td>

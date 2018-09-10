@@ -27,7 +27,7 @@ Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode usar 
 
   - Uma pesquisa de descoberta eletrônica tem de ser criado, usando o EAC ou o Shell, antes de copiar os resultados da pesquisa. Para obter detalhes, consulte [Criar uma pesquisa de Descoberta Eletrônica In-loco](create-an-in-place-ediscovery-search-exchange-2013-help.md).
 
-  - Exchange 2013 A instalação cria uma caixa de correio de descoberta chamada de **Caixa de correio de pesquisa de descoberta** para copiar os resultados da pesquisa. A caixa de correio de pesquisa de descoberta também é criada por padrão em Exchange Online. Você pode criar caixas de correio de descoberta adicionais. Para obter detalhes, consulte [Criar uma caixa de correio de descoberta](create-a-discovery-mailbox-exchange-2013-help.md).
+  - Exchange 2013 A instalação cria uma caixa de correio de descoberta chamada de **Caixa de correio de pesquisa de descoberta** para copiar os resultados da pesquisa. A caixa de correio de pesquisa de descoberta também é criada por padrão em Exchange Online. Você pode criar caixas de correio de descoberta adicionais. Para obter detalhes, consulte [Criar uma caixa de correio de descoberta](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox).
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -94,7 +94,7 @@ Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbo
 
 ## Para obter mais informações sobre como copiar os resultados da pesquisa
 
-  - Depois de copiar os resultados da pesquisa na caixa de correio de descoberta, você pode exportar os resultados da pesquisa para um arquivo PST. Para obter mais informações, consulte [Exportar resultados de pesquisa de Descoberta Eletrônica para um arquivo PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md).
+  - Depois de copiar os resultados da pesquisa na caixa de correio de descoberta, você pode exportar os resultados da pesquisa para um arquivo PST. Para obter mais informações, consulte [Exportar resultados de pesquisa de Descoberta Eletrônica para um arquivo PST](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/export-search-results).
 
   - Para obter mais informações sobre itens não pesquisáveis, consulte [Itens não pesquisáveis na descoberta eletrônica do Exchange](unsearchable-items-in-exchange-ediscovery-exchange-2013-help.md).
 

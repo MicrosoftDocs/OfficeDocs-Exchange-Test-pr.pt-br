@@ -27,7 +27,7 @@ Você pode habilitar ou desabilitar a geração de métricas de grupo em um serv
 
   - Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o Entrada "Métricas de grupo" no tópico [Permissões de destinatários](recipients-permissions-exchange-2013-help.md) .
 
-  - Dados de métricas de grupo são usados somente para as dicas de email. Certifique-se que métricas de grupo que dicas de email estão habilitadas em sua organização. Para obter etapas detalhadas, consulte [Gerenciar dicas de email para relacionamentos da organização](manage-mailtips-for-organization-relationships-exchange-2013-help.md).
+  - Dados de métricas de grupo são usados somente para as dicas de email. Certifique-se que métricas de grupo que dicas de email estão habilitadas em sua organização. Para obter etapas detalhadas, consulte [Gerenciar dicas de email para relacionamentos da organização](https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships).
 
   - Você só pode usar o Shell para executar esse procedimento.
 

@@ -31,7 +31,7 @@ Exchange 2013 oferece suporte a multilocação, utilizando os recursos e os segu
 
   - **Políticas de catálogo de endereços (ABPs)**   Introduzidos em Exchange 2010 SP2, ABPs são usados em Exchange 2013 para controlar o acesso de usuário a uma lista de endereços, o endereço global (GAL) de lista e um endereço offline (OABs) manuais online na organização do Exchange. ABPs agrupar esses objetos do Active Directory diferentes em um único objeto virtual que pode ser atribuído a usuários individuais e para criar um agrupamento lógico desses recursos ao longo de uma estrutura organizacional de multilocatário. Funcionalidade ABP em Exchange 2013 é semelhante à qual ele foi Exchange 2010 SP2.
     
-    Para saber mais sobre ABPs em Exchange 2013, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+    Para saber mais sobre ABPs em Exchange 2013, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
 
   - **Gerenciamento de soluções de hospedagem**   Alguns administradores usando Exchange 2013 para fornecer uma solução hospedada do Exchange beneficiarão usando uma abordagem de gerenciamento de hospedagem personalizada. Devido a algumas limitações do Centro de administração do Exchange (EAC), a Microsoft trabalha com fornecedores de terceiros para ajudá-los no desenvolvimento de soluções de automação e painel de controle que estão em conformidade com as diretrizes e framework aprovado para organizações hospedada Exchange 2013. É recomendável que as organizações Configurando uma solução hospedada do Exchange aproveitar essas ferramentas para gerenciar suas organizações hospedadas onde circunstâncias exigirem.
     
