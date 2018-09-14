@@ -21,7 +21,7 @@ _**Tópico modificado em:** 2013-02-22_
 
 Após ter criado uma diretiva de caixa de correio de Unificação de Mensagens (UM), é possível visualizar ou definir diversas configurações. Por exemplo, é possível configurar recursos de UM, como Visualização de Mensagens de Voz ou Tocar no Telefone e outras opções relacionadas à segurança, como Mensagem de Voz Protegida e configurações de política de PIN.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a políticas de caixa de correio de UM, consulte [Procedimentos de diretiva de caixa de correio de Unificação de mensagens](um-mailbox-policy-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a políticas de caixa de correio de UM, consulte [Procedimentos de diretiva de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 ## O que você precisa saber antes de começar?
 

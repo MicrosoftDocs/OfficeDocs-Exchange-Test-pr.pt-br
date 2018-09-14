@@ -75,7 +75,7 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
         
         Para saber mais, consulte [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Política do catálogo de endereços**   Use essa lista para selecionar uma política de catálogo de endereços (ABP) para a caixa de correio. As ABPs contêm um catálogo de endereços global (GAL), um catálogo de endereços offline (OAB), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+      - **Política do catálogo de endereços**   Use essa lista para selecionar uma política de catálogo de endereços (ABP) para a caixa de correio. As ABPs contêm um catálogo de endereços global (GAL), um catálogo de endereços offline (OAB), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
 
 6.  Após concluir, clique em **Salvar** para criar a caixa de correio.
 

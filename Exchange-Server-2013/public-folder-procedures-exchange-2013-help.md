@@ -21,11 +21,11 @@ _**Tópico modificado em:** 2017-08-02_
 
 Use um ou mais dos procedimentos listados abaixo para obter sua infraestrutura de pasta pública para cima e execução e realizar outras tarefas necessárias para o gerenciamento de pastas públicas.
 
-[Configurar pastas públicas em uma nova organização](set-up-public-folders-in-a-new-organization-exchange-2013-help.md)
+[Configurar pastas públicas em uma nova organização](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-public-folders)
 
-[Configurar pastas públicas locais herdadas para uma implantação híbrida](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurar pastas públicas locais herdadas para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders)
 
-[Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders)
 
 [Configurar pastas públicas do Exchange Online para uma implantação híbrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 
@@ -33,21 +33,21 @@ Use um ou mais dos procedimentos listados abaixo para obter sua infraestrutura d
 
 [Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md)
 
-[Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online](use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md)
+[Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders)
 
-[Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md)
+[Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders)
 
-[Criar uma caixa de correio de pasta pública](create-a-public-folder-mailbox-exchange-2013-help.md)
+[Criar uma caixa de correio de pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/create-public-folder-mailbox)
 
-[Criar uma pasta pública](create-a-public-folder-exchange-2013-help.md)
+[Criar uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/create-public-folder)
 
 [Email habilitar ou desabilitar email uma pasta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md)
 
-[Atualizar a hierarquia de pastas públicas](update-the-public-folder-hierarchy-exchange-2013-help.md)
+[Atualizar a hierarquia de pastas públicas](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/update-public-folder-hierarchy)
 
-[Remover uma pasta pública](remove-a-public-folder-exchange-2013-help.md)
+[Remover uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/remove-public-folder)
 
-[Usar as pastas públicas favoritas no Outlook na web](use-favorite-public-folders-in-outlook-on-the-web-exchange-2013-help.md)
+[Usar as pastas públicas favoritas no Outlook na web](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/use-favorite-public-folders)
 
 [Mover uma caixa de correio de pasta pública para um banco de dados de caixa de correio diferente](move-a-public-folder-mailbox-to-a-different-mailbox-database-exchange-2013-help.md)
 

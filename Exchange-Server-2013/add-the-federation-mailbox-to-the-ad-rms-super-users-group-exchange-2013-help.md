@@ -61,7 +61,7 @@ Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedime
 
 Se um grupo de distribuição tiver sido criado e configurado como grupo de superusuários no cluster do AD RMS, você poderá adicionar a caixa de correio Federada do Exchange 2013 como um membro desse grupo. Se um grupo de superusuários não estiver configurado, você deverá criar um grupo de distribuição e adicionar a caixa de correio Federada como membro.
 
-1.  Crie um grupo de distribuição dedicado para uso como um grupo de superusuários do AD RMS. Para obter detalhes, consulte [Criar e gerenciar grupos de distribuição](create-and-manage-distribution-groups-exchange-2013-help.md).
+1.  Crie um grupo de distribuição dedicado para uso como um grupo de superusuários do AD RMS. Para obter detalhes, consulte [Criar e gerenciar grupos de distribuição](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups).
 
 2.  Adicione o usuário **FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042** ao novo grupo de distribuição. A caixa de correio Federação é uma caixa de correio de sistema e, portanto, não fica visível no EAC. Para adicioná-la a um grupo de distribuição, você deve usar o cmdlet [Add-DistributionGroupMember](https://technet.microsoft.com/pt-br/library/bb124340\(v=exchg.150\)) do Shell.
     

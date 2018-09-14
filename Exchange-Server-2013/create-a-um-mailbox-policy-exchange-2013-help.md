@@ -23,7 +23,7 @@ Você pode criar uma política de caixa de correio de Unificação de mensagens 
 
 Por padrão, quando um plano de discagem UM é criado, uma política de caixa de correio de Unificação de mensagens também é criada. Você pode precisar criar diretivas de caixa de correio de Unificação de mensagens adicionais ou modificar políticas de caixa de correio de Unificação de mensagens existentes após implantar a Unificação de mensagens em sua organização.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a políticas de caixa de correio de UM, consulte [Procedimentos de diretiva de caixa de correio de Unificação de mensagens](um-mailbox-policy-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a políticas de caixa de correio de UM, consulte [Procedimentos de diretiva de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policy-procedures).
 
 ## O que você precisa saber antes de começar?
 

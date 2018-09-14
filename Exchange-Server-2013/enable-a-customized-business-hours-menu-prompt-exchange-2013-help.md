@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2013-04-19_
 
 Você pode personalizar o prompt do menu a ser usado por um atendedor automático de Unificação de mensagens (UM) durante o horário comercial. Depois de criar um atendedor automático de UM, um prompt de sistema padrão ("Bem-vindo à Unificação de mensagens") é usado como prompt do menu que os chamadores ouvem após o horário comercial é reproduzida a saudação de boas-vindas. Embora o prompt do sistema não deve ser substituído ou alterado, você pode personalizar as saudações e prompts de menu que são usados com os atendedores automáticos. Depois de criar um arquivo de áudio prompt do menu horário comercial personalizado, você deve habilitar as entradas de navegação de menu em UM atendedor automático para horário comercial.
 
-Se apenas quiser incluir o nome de sua organização ou empresa como parte do prompt de sistema padrão, você poderá inserir o nome na caixa **Nome da Empresa** no atendedor automático da UM. Para detalhes, consulte [Insira um nome de empresa](enter-a-business-name-exchange-2013-help.md).
+Se apenas quiser incluir o nome de sua organização ou empresa como parte do prompt de sistema padrão, você poderá inserir o nome na caixa **Nome da Empresa** no atendedor automático da UM. Para detalhes, consulte [Insira um nome de empresa](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enter-a-business-name).
 
 
 > [!IMPORTANT]
@@ -27,7 +27,7 @@ Se apenas quiser incluir o nome de sua organização ou empresa como parte do pr
 
 
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## O que você precisa saber antes de começar?
 

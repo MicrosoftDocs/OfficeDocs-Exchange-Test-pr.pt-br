@@ -341,7 +341,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba como criar caixas de correio de usuário usando o Centro de administração do Exchange ou o Shell de Gerenciamento do Exchange.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio do usuário</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Gerenciar caixas de correio do usuário</a></p></td>
 <td><p>Saiba como criar caixas de correio de usuários, alterar propriedades de caixa de correio e editar em massa propriedades selecionadas para várias caixas de correio.</p></td>
 </tr>
 <tr class="odd">
@@ -349,7 +349,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba mais sobre os requisitos de caixas de correio vinculadas, como criá-las e vinculá-las a uma conta mestre e como alterar propriedades de caixas de correio vinculadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-and-manage-distribution-groups-exchange-2013-help.md">Criar e gerenciar grupos de distribuição</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups">Criar e gerenciar grupos de distribuição</a></p></td>
 <td><p>Saiba como criar e gerenciar grupos de distribuição e como criar uma diretiva de nomeação de grupo para a sua organização.</p></td>
 </tr>
 <tr class="odd">
@@ -365,7 +365,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba como criar e gerenciar contatos de email.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-mail-users-exchange-2013-help.md">Gerenciar usuários de email</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-users">Gerenciar usuários de email</a></p></td>
 <td><p>Saiba como criar e gerenciar usuários de email.</p></td>
 </tr>
 <tr class="odd">
@@ -373,7 +373,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba como criar caixas de correio de sala e gerenciar propriedades de caixas de correio de sala, como por exemplo habilitar reuniões recorrentes e configurar opções de agendamento.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-equipment-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio de equipamento</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-equipment-mailboxes">Gerenciar caixas de correio de equipamento</a></p></td>
 <td><p>Saiba como criar caixas de correio de equipamento, configurar opções de agendamento e gerenciar outras propriedades de caixa de correio.</p></td>
 </tr>
 <tr class="odd">
@@ -389,7 +389,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba como usar filtros predefinidos e personalizados com comandos para filtrar um conjunto de destinatários.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-permissions-for-recipients-exchange-online-help.md">Gerenciar permissões para destinatários</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Gerenciar permissões para destinatários</a></p></td>
 <td><p>Saiba como usar o EAC ou o Shell para atribuir permissões a usuários e grupos.</p></td>
 </tr>
 <tr class="odd">

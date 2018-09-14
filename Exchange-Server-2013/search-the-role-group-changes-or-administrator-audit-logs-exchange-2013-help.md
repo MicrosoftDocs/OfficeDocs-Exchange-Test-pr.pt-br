@@ -23,7 +23,7 @@ Se quiser pesquisar no log de auditoria de caixa de correio, consulte [Registro 
 
 
 > [!TIP]
-> No Exchange Online, você pode usar o EAC para ver as entradas no log de ​​auditoria do administrador. Para obter mais informações, consulte <A href="view-the-administrator-audit-log-exchange-2013-help.md">Exibir o log de auditoria do administrador</A>.
+> No Exchange Online, você pode usar o EAC para ver as entradas no log de ​​auditoria do administrador. Para obter mais informações, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log">Exibir o log de auditoria do administrador</A>.
 
 
 

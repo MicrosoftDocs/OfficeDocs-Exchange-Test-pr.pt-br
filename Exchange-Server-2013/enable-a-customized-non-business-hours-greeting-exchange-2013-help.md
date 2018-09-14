@@ -21,9 +21,9 @@ _**Tópico modificado em:** 2012-11-30_
 
 A Unificação de mensagens inclui um prompt de sistema padrão para uso durante o horário não comercial. Embora o prompt de sistema padrão não deve ser substituído ou alterado, convém fornecer uma saudação personalizada. Você pode criar uma saudação personalizada no formato de arquivo. wav ou. wma a ser usado quando os chamadores ligam para um atendedor automático durante o horário não comercial. Por exemplo, "você chegou Woodgrove Bank depois do expediente."
 
-Se você deseja incluir o nome da sua organização ou empresa como parte da saudação padrão, você pode inserir o nome na caixa **nome de negócios** em UM atendedor automático. Para obter detalhes, consulte [Insira um nome de empresa](enter-a-business-name-exchange-2013-help.md).
+Se você deseja incluir o nome da sua organização ou empresa como parte da saudação padrão, você pode inserir o nome na caixa **nome de negócios** em UM atendedor automático. Para obter detalhes, consulte [Insira um nome de empresa](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/enter-a-business-name).
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## O que você precisa saber antes de começar?
 

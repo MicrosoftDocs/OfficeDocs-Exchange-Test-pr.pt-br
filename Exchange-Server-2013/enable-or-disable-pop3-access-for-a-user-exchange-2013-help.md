@@ -25,7 +25,7 @@ Você pode habilitar ou desabilitar POP3 para um usuário.
 
 
 
-Para mais informações sobre como gerenciar caixas de correio do usuário, consulte [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
+Para mais informações sobre como gerenciar caixas de correio do usuário, consulte [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 Para mais informações relacionadas a POP3 e IMAP4, consulte [POP3 e IMAP4 no Exchange Server 2013](pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md).
 

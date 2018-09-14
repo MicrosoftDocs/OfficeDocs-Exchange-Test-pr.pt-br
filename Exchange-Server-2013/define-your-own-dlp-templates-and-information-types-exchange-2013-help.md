@@ -49,7 +49,7 @@ O gerenciamento de modelos personalizados e suas políticas relacionadas é pare
 
 2.  Importe o modelo personalizado. Para saber mais, consulte [Importar um modelo de política DLP personalizado de um arquivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md).
 
-3.  Crie uma política de DLP com base em seu modelo personalizado. Para saber mais, consulte [Criar uma política de DLP a partir de um modelo](how-to-new-dlp-data-loss-prevention-policy-template.md).
+3.  Crie uma política de DLP com base em seu modelo personalizado. Para saber mais, consulte [Criar uma política de DLP a partir de um modelo](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template).
 
 4.  Atualize o modelo personalizado, repetindo as etapas 1 e 2.
 

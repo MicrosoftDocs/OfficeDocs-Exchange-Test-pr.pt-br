@@ -27,7 +27,7 @@ Observe que, se você reverter a migração, você perderá qualquer conteúdo q
     
         Set-OrganizationConfig -PublicFolderMailboxesLockedForNewConnections:$false -PublicFolderMailboxesMigrationComplete:$false -PublicFoldersEnabled Local 
 
-2.  Em seu ambiente do Exchange local, reverta o `ExternalEmailAddress` de qualquer pasta pública habilitada para email que foi atualizada por SetMailPublicFolderExternalAddress.ps1 (o script usado na *etapa 8: testar e desbloquear a pastas públicas no Exchange Online* de [Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md)). Você pode consultar o arquivo de resumo criado pelo script para identificar aqueles que foram modificados ou use o arquivo OnPrem\_MEPF.xml arquivo gerado anteriormente no mesmo processo migriont lote para obter as propriedades originais de todas as pastas públicas habilitadas para email.
+2.  Em seu ambiente do Exchange local, reverta o `ExternalEmailAddress` de qualquer pasta pública habilitada para email que foi atualizada por SetMailPublicFolderExternalAddress.ps1 (o script usado na *etapa 8: testar e desbloquear a pastas públicas no Exchange Online* de [Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders)). Você pode consultar o arquivo de resumo criado pelo script para identificar aqueles que foram modificados ou use o arquivo OnPrem\_MEPF.xml arquivo gerado anteriormente no mesmo processo migriont lote para obter as propriedades originais de todas as pastas públicas habilitadas para email.
 
 3.  No PowerShell do Exchange Online, execute os seguintes comandos para remover todas as pastas públicas do Exchange Online e caixas de correio:
     
@@ -42,5 +42,5 @@ Observe que, se você reverter a migração, você perderá qualquer conteúdo q
     
         Set-OrganizationConfig -PublicFoldersEnabled Remote
 
-5.  Consulte [Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md) para obter instruções sobre reconfiguração acesso às suas pastas públicas no local, para que os usuários do Exchange Online possam acessá-los.
+5.  Consulte [Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders) para obter instruções sobre reconfiguração acesso às suas pastas públicas no local, para que os usuários do Exchange Online possam acessá-los.
 

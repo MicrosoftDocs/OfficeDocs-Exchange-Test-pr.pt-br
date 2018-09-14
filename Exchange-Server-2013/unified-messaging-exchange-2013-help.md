@@ -267,7 +267,7 @@ A tabela a seguir contém links para tópicos que irão ajudar você a aprender 
 <td><p>Saiba como criar atendedores automáticos de UM e gerenciar configurações para menus de navegação, saudações e horários comercial e não comercial.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-up-voice-mail-for-users-exchange-2013-help.md">Configurar caixa postal para usuários</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/set-up-voice-mail">Configurar caixa postal para usuários</a></p></td>
 <td><p>Saiba como criar e gerenciar políticas de caixa de correio de UM e como habilitar os usuários para UM.</p></td>
 </tr>
 <tr class="odd">
@@ -283,7 +283,7 @@ A tabela a seguir contém links para tópicos que irão ajudar você a aprender 
 <td><p>Saiba como usar a UM para proteger as mensagens de voz.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="run-reports-for-voice-mail-calls-exchange-2013-help.md">Executar relatórios para chamadas de correio de voz</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/run-voice-mail-call-reports">Executar relatórios para chamadas de correio de voz</a></p></td>
 <td><p>Saiba mais sobre os relatórios de chamada da UM.</p></td>
 </tr>
 </tbody>

@@ -25,9 +25,9 @@ Você pode definir o atraso máximo de entrega de um parceiro de visualização 
 
 
 
-Para obter mais informações sobre o programa de parceria de Visualização de Caixa Postal, consulte [Supervisor de visualização de correio de voz](voice-mail-preview-advisor-exchange-2013-help.md).
+Para obter mais informações sobre o programa de parceria de Visualização de Caixa Postal, consulte [Supervisor de visualização de correio de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-advisor).
 
-Para tarefas de gerenciamento adicionais relacionadas a visualização da caixa postal, consulte [Procedimentos de visualização da caixa postal de voz](voice-mail-preview-procedures-exchange-2013-help.md).
+Para tarefas de gerenciamento adicionais relacionadas a visualização da caixa postal, consulte [Procedimentos de visualização da caixa postal de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/voice-mail-preview-procedures).
 
 ## O que você precisa saber antes de começar?
 

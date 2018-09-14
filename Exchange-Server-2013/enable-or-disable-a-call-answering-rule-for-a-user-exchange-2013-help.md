@@ -21,7 +21,7 @@ Você pode usar o Shell para habilitar ou desabilitar um ou mais regras de atend
 
 Regras de atendimento de chamada são aplicadas às chamadas recebidas semelhantes à maneira como as regras de caixa de entrada são aplicadas a mensagens de email de entrada. Por padrão, quando um usuário está habilitado para Unificação de mensagens (UM), não há regras de atendimento de chamada são configuradas. Mesmo assim, as chamadas são respondidas pelo sistema de email e os chamadores for solicitados a deixar uma mensagem de voz.
 
-Para tarefas de gerenciamento adicionais relacionadas a regras de atendimento de chamadas, consulte [Encaminhamento de chamadas de procedimentos](forwarding-calls-procedures-exchange-2013-help.md).
+Para tarefas de gerenciamento adicionais relacionadas a regras de atendimento de chamadas, consulte [Encaminhamento de chamadas de procedimentos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/forwarding-calls-procedures).
 
 ## O que você precisa saber antes de começar?
 

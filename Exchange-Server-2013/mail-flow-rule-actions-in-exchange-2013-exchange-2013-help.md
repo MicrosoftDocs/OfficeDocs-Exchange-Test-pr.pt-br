@@ -61,7 +61,7 @@ As ações que estão disponíveis em regras de fluxo de correio em servidores d
 <p><strong>Encaminhar a mensagem para aprovação</strong> &gt; <strong>para que essas pessoas</strong></p></td>
 <td><p><em>ModerateMessageByUser</em></p></td>
 <td><p><code>Addresses</code></p></td>
-<td><p>Encaminhe a mensagem para os moderadores especificados como um anexo em uma solicitação de aprovação. Para obter mais informações, consulte <a href="common-message-approval-scenarios-exchange-2013-help.md">Cenários comuns de aprovação de mensagem</a>. Você não pode usar um grupo de distribuição como um moderador.</p></td>
+<td><p>Encaminhe a mensagem para os moderadores especificados como um anexo em uma solicitação de aprovação. Para obter mais informações, consulte <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios">Cenários comuns de aprovação de mensagem</a>. Você não pode usar um grupo de distribuição como um moderador.</p></td>
 <td><p>Exchange 2010 ou posterior</p></td>
 </tr>
 <tr class="even">
@@ -632,7 +632,7 @@ Voltar ao início
 
 ## Para saber mais
 
-[Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md)
+[Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Regras de fluxo de emails ou de transporte](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

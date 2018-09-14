@@ -19,9 +19,9 @@ _**Tópico modificado em:** 2016-12-09_
 
 Use esta lista de verificação para implantar diretivas de retenção em sua organização do Microsoft Exchange Server 2013. Antes de começar a trabalhar com esta lista de verificação, certifique-se de estar familiarizado com os conceitos nos tópicos a seguir:
 
-  - [Gerenciamento de registros de mensagens](messaging-records-management-exchange-2013-help.md)
+  - [Gerenciamento de registros de mensagens](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
-  - [Marcas e políticas de retenção](retention-tags-and-retention-policies-exchange-2013-help.md)
+  - [Marcas e políticas de retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies)
 
 ## Lista de verificação para implementar políticas de retenção
 
@@ -43,7 +43,7 @@ Use esta lista de verificação para implantar diretivas de retenção em sua or
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Avaliar os requisitos de MRM (gerenciamento de registros de mensagens) para diferentes conjuntos de usuários.</p></td>
-<td><p><a href="messaging-records-management-exchange-2013-help.md">Gerenciamento de registros de mensagens</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management">Gerenciamento de registros de mensagens</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
@@ -68,12 +68,12 @@ Use esta lista de verificação para implantar diretivas de retenção em sua or
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Pôr as caixas de correio em retenção.</p></td>
-<td><p><a href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Retenção local de uma caixa de correio em retenção</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Retenção local de uma caixa de correio em retenção</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Como teste, aplicar uma diretiva de retenção a uma única caixa de correio.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar uma política de retenção a caixas de correio</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Aplicar uma política de retenção a caixas de correio</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
@@ -88,7 +88,7 @@ Use esta lista de verificação para implantar diretivas de retenção em sua or
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Aplicar uma diretiva de retenção às caixas de correio adicionais.</p></td>
-<td><p><a href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar uma política de retenção a caixas de correio</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Aplicar uma política de retenção a caixas de correio</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -98,7 +98,7 @@ Use esta lista de verificação para implantar diretivas de retenção em sua or
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>No prazo final, remova a retenção das caixas de correio.</p></td>
-<td><p><a href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Retenção local de uma caixa de correio em retenção</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Retenção local de uma caixa de correio em retenção</a></p></td>
 </tr>
 </tbody>
 </table>

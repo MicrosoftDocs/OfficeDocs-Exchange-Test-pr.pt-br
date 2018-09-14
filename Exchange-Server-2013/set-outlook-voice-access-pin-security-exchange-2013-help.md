@@ -125,7 +125,7 @@ Após definir os requisitos de PIN do Outlook Voice Access, você deve criar e c
 
 
 
-Há situações em que os usuários do Outlook Voice Access esquecem seus PINs ou têm o acesso às mensagens de voz bloqueado em suas caixas de correio. Em qualquer caso, pode ser necessário que você redefina um PIN do usuário habilitado para UM. Para saber mais, confira [Redefinir um PIN da caixa postal](reset-a-voice-mail-pin-exchange-2013-help.md).
+Há situações em que os usuários do Outlook Voice Access esquecem seus PINs ou têm o acesso às mensagens de voz bloqueado em suas caixas de correio. Em qualquer caso, pode ser necessário que você redefina um PIN do usuário habilitado para UM. Para saber mais, confira [Redefinir um PIN da caixa postal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/reset-a-voice-mail-pin).
 
 Você pode recuperar as informações do PIN de um usuário que estiver habilitado para a Unificação de Mensagens. As informações retornadas são calculadas usando os dados do PIN criptografados na caixa de correio do usuário. Isso lhe permite visualizar as informações do PIN do usuário e também indica se este teve sua caixa de correio bloqueada. Para saber mais, confira [Recuperar informações de PIN de caixa postal](retrieve-voice-mail-pin-information-exchange-2013-help.md).
 

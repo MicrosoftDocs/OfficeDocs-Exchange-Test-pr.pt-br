@@ -27,15 +27,15 @@ _**Tópico modificado em:** 2013-04-16_
 
 [Alterar o codec de áudio](change-the-audio-codec-exchange-2013-help.md)
 
-[Configurar a duração máxima da chamada](configure-the-maximum-call-duration-exchange-2013-help.md)
+[Configurar a duração máxima da chamada](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-call-duration)
 
-[Configurar a duração máxima de gravação](configure-the-maximum-recording-duration-exchange-2013-help.md)
+[Configurar a duração máxima de gravação](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-recording-duration)
 
 [Configure o valor de tempo limite ocioso de gravação](configure-the-recording-idle-time-out-value-exchange-2013-help.md)
 
-[Definir a configuração de segurança de VoIP](configure-the-voip-security-setting-exchange-2013-help.md)
+[Definir a configuração de segurança de VoIP](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting)
 
 [Configurar um plano de discagem para usuários que tenham nomes semelhantes](configure-a-dial-plan-for-users-who-have-similar-names-exchange-2013-help.md)
 
-[Excluir um plano de discagem de Unificação de mensagens](delete-a-um-dial-plan-exchange-2013-help.md)
+[Excluir um plano de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-dial-plan)
 

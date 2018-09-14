@@ -67,7 +67,7 @@ Para obter informações detalhadas sobre os gateways VoIP, consulte os tópicos
 
   - [Criar um gateway IP de UM](create-a-um-ip-gateway-exchange-2013-help.md)
 
-  - [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  - [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
   - [Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para Unificação de MENSAGENS](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)
 
@@ -81,5 +81,5 @@ Grupos de busca UM espelham de grupos de busca que são usados nas PBXs e PBXs I
 
 Dependendo de como criar seu gateway IP de UM, talvez seja necessário criar um ou UM novo vários grupos de busca. Se você não vincular um gateway IP de UM com um plano de discagem quando você cria UM novo gateway IP, um único grupo de busca de Unificação de mensagens é criado por padrão. Se você vincular um gateway IP de UM para um UM plano de discagem quando você cria UM novo gateway IP, todas as chamadas recebidas serão enviadas através do gateway IP de UM e essas chamadas serão aceitas pelos servidores de acesso para cliente e caixa de correio. Se você não vincular um gateway IP de UM a um plano de discagem de UM, quando você cria UM novo gateway IP, você precisará criar um grupo de busca de Unificação de mensagens com o identificador piloto correto para as chamadas recebidas sejam encaminhadas de um gateway IP de UM a um plano de discagem.
 
-Se você tiver vários números de atendedor automático e de Outlook Voice Access e tiver vinculado a um gateway IP de UM a um plano de discagem, você precisará excluir o grupo de busca que foi criado por padrão e cria vários grupos de busca de Unificação de mensagens. Para obter detalhes sobre como criar um UM grupo de busca, consulte [Criar um grupo de busca de UM](create-a-um-hunt-group-exchange-2013-help.md).
+Se você tiver vários números de atendedor automático e de Outlook Voice Access e tiver vinculado a um gateway IP de UM a um plano de discagem, você precisará excluir o grupo de busca que foi criado por padrão e cria vários grupos de busca de Unificação de mensagens. Para obter detalhes sobre como criar um UM grupo de busca, consulte [Criar um grupo de busca de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group).
 

@@ -112,7 +112,7 @@ A tabela a seguir descreve os objetos de destinatário são encontrados no Activ
 </tr>
 <tr class="even">
 <td><p>MailUser</p></td>
-<td><p>Um objeto de usuário que tenha um endereço de email sem um parâmetro definido <em>Database</em> . Para obter mais informações, consulte <a href="manage-mail-users-exchange-2013-help.md">Gerenciar usuários de email</a>.</p></td>
+<td><p>Um objeto de usuário que tenha um endereço de email sem um parâmetro definido <em>Database</em> . Para obter mais informações, consulte <a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-users">Gerenciar usuários de email</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MailContact</p></td>

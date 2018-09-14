@@ -69,7 +69,7 @@ Para configurar a Unificação de MENSAGENS para fornecer voz visualizações de
 
 2.  Se você tiver um local ou implantação híbrida, baixe e instale o pacote de idiomas de Unificação de MENSAGENS apropriado. Baixando e instalando o pacote de idiomas não configuram o idioma de padrão de plano de discagem.
 
-3.  Configure o plano de discagem com o idioma que será usado para visualização da caixa postal. Para obter mais informações, consulte [Definir o idioma padrão em um plano de discagem](set-the-default-language-on-a-dial-plan-exchange-2013-help.md).
+3.  Configure o plano de discagem com o idioma que será usado para visualização da caixa postal. Para obter mais informações, consulte [Definir o idioma padrão em um plano de discagem](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language).
 
 Como visualização da caixa postal exibe o texto nos idiomas suportados depende do tipo de mensagem de voz que será enviada. Existem dois tipos:
 
@@ -79,7 +79,7 @@ Como visualização da caixa postal exibe o texto nos idiomas suportados depende
 
   - **Mensagens de voz que são enviadas para por um usuário do Outlook Voice Access**
     
-    Para mensagens enviadas por um usuário de acesso de voz Outlook, o idioma que é usado para visualização da caixa postal é controlado pelo administrador do correio de voz. Assim, o texto de visualização da caixa postal será no mesmo idioma como o sistema de caixa postal. No entanto, se um chamador falando de um idioma que não é suportado para visualização da caixa postal usa Outlook Voice Access para deixar uma mensagem, nenhum texto de visualização da caixa postal será incluído com a mensagem. Para saber mais sobre Outlook Voice Access, consulte [Configurando o Outlook Voice Access](setting-up-outlook-voice-access-exchange-2013-help.md).
+    Para mensagens enviadas por um usuário de acesso de voz Outlook, o idioma que é usado para visualização da caixa postal é controlado pelo administrador do correio de voz. Assim, o texto de visualização da caixa postal será no mesmo idioma como o sistema de caixa postal. No entanto, se um chamador falando de um idioma que não é suportado para visualização da caixa postal usa Outlook Voice Access para deixar uma mensagem, nenhum texto de visualização da caixa postal será incluído com a mensagem. Para saber mais sobre Outlook Voice Access, consulte [Configurando o Outlook Voice Access](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-outlook-voice-access).
 
 ## Unificação de MENSAGENS sabe quando uma visualização da caixa postal não estiverem corretas?
 

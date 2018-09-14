@@ -97,7 +97,7 @@ Caixas de correio de site não suportam a retenção no nível do item. A reten�
 
 ## Conformidade
 
-Usando o Console de Descoberta Eletrônica no SharePoint, as caixas de correio de site podem ser parte do escopo da Descoberta Eletrônica In-loco, pois você pode fazer pesquisas de palavras-chave em relação a caixas de correio de usuário ou de site. Além disso, você pode colocar uma caixa de correio do site em retenção legal. Para mais informações, consulte [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md).
+Usando o Console de Descoberta Eletrônica no SharePoint, as caixas de correio de site podem ser parte do escopo da Descoberta Eletrônica In-loco, pois você pode fazer pesquisas de palavras-chave em relação a caixas de correio de usuário ou de site. Além disso, você pode colocar uma caixa de correio do site em retenção legal. Para mais informações, consulte [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!NOTE]

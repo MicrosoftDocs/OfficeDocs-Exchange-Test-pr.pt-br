@@ -119,7 +119,7 @@ Para obter mais informações, consulte:
 
 ## Colocar uma caixa de correio em Retenção In-loco
 
-Usuários autorizados que foram adicionados ao grupo de função de controle de acesso baseado em função (RBAC) do [Gerenciamento de Descobertas](discovery-management-exchange-2013-help.md) ou receberam funções de gerenciamento de Pesquisa de Caixa de Correio e Retenção Legal podem colocar usuários de caixa de correio em Retenção In-loco. Você pode delegar a tarefa para gerenciadores de registros, responsáveis pela conformidade ou advogados no departamento jurídico da sua organização, atribuindo os privilégios mínimos. Para saber mais sobre como atribuir o grupo de função Gerenciamento de Descobertas, consulte [Atribuir permissões de descoberta eletrônica no Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+Usuários autorizados que foram adicionados ao grupo de função de controle de acesso baseado em função (RBAC) do [Gerenciamento de Descobertas](discovery-management-exchange-2013-help.md) ou receberam funções de gerenciamento de Pesquisa de Caixa de Correio e Retenção Legal podem colocar usuários de caixa de correio em Retenção In-loco. Você pode delegar a tarefa para gerenciadores de registros, responsáveis pela conformidade ou advogados no departamento jurídico da sua organização, atribuindo os privilégios mínimos. Para saber mais sobre como atribuir o grupo de função Gerenciamento de Descobertas, consulte [Atribuir permissões de descoberta eletrônica no Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
 
 
 > [!IMPORTANT]
@@ -127,7 +127,7 @@ Usuários autorizados que foram adicionados ao grupo de função de controle de 
 
 
 
-No Exchange 2013, a funcionalidade de Retenção In-loco é integrada com as pesquisas de Descoberta Eletrônica In-loco. Você pode usar o assistente de **Retenção & Descoberta Eletrônica In-loco** no Centro de Administração do Exchange ou o cmdlet **New-MailboxSearch** e cmdlets relacionados no Shell de Gerenciamento do Exchange para colocar uma caixa de correio em Retenção In-loco. Para saber mais sobre como colocar uma caixa de correio em Retenção In-loco, consulte [Criar ou remover um bloqueio In-loco](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+No Exchange 2013, a funcionalidade de Retenção In-loco é integrada com as pesquisas de Descoberta Eletrônica In-loco. Você pode usar o assistente de **Retenção & Descoberta Eletrônica In-loco** no Centro de Administração do Exchange ou o cmdlet **New-MailboxSearch** e cmdlets relacionados no Shell de Gerenciamento do Exchange para colocar uma caixa de correio em Retenção In-loco. Para saber mais sobre como colocar uma caixa de correio em Retenção In-loco, consulte [Criar ou remover um bloqueio In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 
 > [!TIP]

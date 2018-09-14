@@ -59,7 +59,7 @@ Para criar uma caixa de correio de quarentena de spam dedicada, siga estas etapa
 
   - **Criar uma caixa de correio e uma conta de usuário dedicadas**   Recomendamos que você crie uma caixa de correio e uma conta de usuário do Active Directory dedicadas para a caixa de correio de quarentena de spam. Para saber mais, confira [Criar caixas de correio do usuário](create-user-mailboxes-exchange-2013-help.md).
     
-    Você pode aplicar políticas de destinatário, como gerenciamento de registros de mensagens, cotas de caixa de correio e direitos de delegação, de acordo com as necessidades e as políticas de conformidade da organização. Para saber mais, confira [Gerenciamento de registros de mensagens](messaging-records-management-exchange-2013-help.md).
+    Você pode aplicar políticas de destinatário, como gerenciamento de registros de mensagens, cotas de caixa de correio e direitos de delegação, de acordo com as necessidades e as políticas de conformidade da organização. Para saber mais, confira [Gerenciamento de registros de mensagens](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
     
 
     > [!NOTE]

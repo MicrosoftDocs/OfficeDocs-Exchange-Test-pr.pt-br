@@ -23,7 +23,7 @@ Em uma implantação híbrida, os usuários podem estar em Exchange Online, loca
 
 
 > [!TIP]
-> Se você tiver pastas públicas do Exchange 2010 ou Exchange 2007, consulte <A href="configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md">Configurar pastas públicas locais herdadas para uma implantação híbrida</A>.
+> Se você tiver pastas públicas do Exchange 2010 ou Exchange 2007, consulte <A href="https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders">Configurar pastas públicas locais herdadas para uma implantação híbrida</A>.
 
 
 

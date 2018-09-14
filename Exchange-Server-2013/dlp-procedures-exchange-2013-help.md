@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2015-01-07_
 
 Você pode começar usando uma solução de (DLP) de prevenção de perda de dados no seu ambiente de mensagens usando os procedimentos a seguir. Para saber sobre os conceitos e objetivos para DLP, consulte [Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
 
-[Criar uma política de DLP a partir de um modelo](how-to-new-dlp-data-loss-prevention-policy-template.md)   Informações para ajudá-lo a configurar um fornecidos pela Microsoft, pré-criados conjunto de regras de política. Modelos de diretiva são uma maneira fácil de Introdução ao gerenciamento de dados de mensagem que está associados a vários requisitos legais e normativos comuns.
+[Criar uma política de DLP a partir de um modelo](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)   Informações para ajudá-lo a configurar um fornecidos pela Microsoft, pré-criados conjunto de regras de política. Modelos de diretiva são uma maneira fácil de Introdução ao gerenciamento de dados de mensagem que está associados a vários requisitos legais e normativos comuns.
 
 [Criar uma política DLP personalizada](create-a-custom-dlp-policy-exchange-2013-help.md)   Informações para ajudá-lo a configurar as regras de política para atender às necessidades específicas da sua organização que não podem ser cobertos em um dos modelos de DLP pré-existente. As condições de regra que estão disponíveis para você em uma única política incluem todas as regras de transporte tradicional, além dos novos tipos de informações confidenciais.
 

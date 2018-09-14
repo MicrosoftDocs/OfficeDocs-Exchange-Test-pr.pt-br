@@ -31,7 +31,7 @@ Quando você coloca uma caixa de correio em retenção de litígio, todos os tip
 
 Consulte os tópicos a seguir para obter instruções passo a passo para colocar um usuário em espera:
 
-  - [Criar ou remover um bloqueio In-loco](create-or-remove-an-in-place-hold-exchange-2013-help.md)
+  - [Criar ou remover um bloqueio In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds)
 
   - [Colocar uma caixa de correio em Retenção de Litígio](place-a-mailbox-on-litigation-hold-exchange-2013-help.md)
 

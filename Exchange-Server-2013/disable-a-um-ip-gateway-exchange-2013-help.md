@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2012-11-13_
 
 Por padrão, quando você cria um gateway IP de Unificação de mensagens (UM), o status de UM gateway IP está habilitado. Depois que o gateway IP de UM é criado, você pode desabilitar a operação do gateway, definindo seu status como desabilitada. Depois de desabilitar o gateway IP de UM, o gateway IP (VoIP), VoIP IP Private Branch eXchange (PBX) ou controlador de borda de sessão (SBC) que ele tenha configurado para usar não são mais pode processar chamadas de Unificação de mensagens de entrada.
 
-Para tarefas de gerenciamento adicionais relacionadas a gateways IP da UM, consulte [Procedimentos de gateway IP de Unificação de mensagens](um-ip-gateway-procedures-exchange-2013-help.md).
+Para tarefas de gerenciamento adicionais relacionadas a gateways IP da UM, consulte [Procedimentos de gateway IP de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateway-procedures).
 
 ## O que você precisa saber antes de começar?
 
@@ -29,7 +29,7 @@ Para tarefas de gerenciamento adicionais relacionadas a gateways IP da UM, consu
 
   - Antes de executar esses procedimentos, confirme se um plano de discagem da UM foi criado. Para obter etapas detalhadas, consulte [Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md).
 
-  - Antes de executar esses procedimentos, confirme que um gateway IP de UM foi criado e está habilitado. Para obter etapas detalhadas, consulte [Criar um gateway IP de UM](create-a-um-ip-gateway-exchange-2013-help.md) e [Habilitar um gateway IP de UM](enable-a-um-ip-gateway-exchange-2013-help.md).
+  - Antes de executar esses procedimentos, confirme que um gateway IP de UM foi criado e está habilitado. Para obter etapas detalhadas, consulte [Criar um gateway IP de UM](create-a-um-ip-gateway-exchange-2013-help.md) e [Habilitar um gateway IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/enable-um-ip-gateway).
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 

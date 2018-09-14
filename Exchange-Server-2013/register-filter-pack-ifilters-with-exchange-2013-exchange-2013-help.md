@@ -27,7 +27,7 @@ Após registrar um IFilter para um tipo de arquivo específico, as regras de tra
 
 
 
-Para outras tarefas de gerenciamento adicionais relacionadas a regras de Transporte, consulte [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md).
+Para outras tarefas de gerenciamento adicionais relacionadas a regras de Transporte, consulte [Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 ## O que você precisa saber antes de começar?
 
@@ -139,7 +139,7 @@ Implantar o Office 2010 Filter Pack consiste em duas etapas principais:
 
 Para verificar se você registrou com êxito os IFilters do Microsoft Office 2010 Filter Pack, faça o seguinte:
 
-1.  Crie uma regra de Transporte com as seguintes propriedades. Para obter instruções detalhadas sobre como criar regras de Transporte, consulte [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md).
+1.  Crie uma regra de Transporte com as seguintes propriedades. Para obter instruções detalhadas sobre como criar regras de Transporte, consulte [Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
     
       - O remetente é sua caixa de correio.
     

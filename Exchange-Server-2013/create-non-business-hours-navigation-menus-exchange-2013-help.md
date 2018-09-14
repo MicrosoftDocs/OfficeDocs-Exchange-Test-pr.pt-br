@@ -21,7 +21,7 @@ _**Tópico modificado em:** 2012-11-05_
 
 Quando você configurar mapeamentos de teclas, você define as opções e as operações que serão realizadas se um chamador fala uma frase enquanto eles estão usando um habilitado para fala atendedor automático ou pressiona uma tecla no teclado do telefone enquanto eles estão usando um atendedor automático que não está habilitado para fala.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## O que você precisa saber antes de começar?
 

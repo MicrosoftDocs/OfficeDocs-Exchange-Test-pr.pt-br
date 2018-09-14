@@ -168,7 +168,7 @@ A tabela a seguir lista o conteúdo e as ações que podem ser executadas na pas
 </table>
 
 
-No Exchange 2013, a recuperação de item individual não está habilitada por padrão para novas caixas de correio ou para caixas de correio migradas de uma versão anterior do Exchange. Use o Shell de Gerenciamento do Exchange para habilitar a recuperação de item individual de uma caixa de correio e configure ou modifique o período de retenção de itens excluídos. Para saber mais sobre como realizar uma recuperação de item individual, confira [Recuperar mensagens excluídas na caixa de correio de um usuário](recover-deleted-messages-in-a-user-s-mailbox-exchange-2013-help.md).
+No Exchange 2013, a recuperação de item individual não está habilitada por padrão para novas caixas de correio ou para caixas de correio migradas de uma versão anterior do Exchange. Use o Shell de Gerenciamento do Exchange para habilitar a recuperação de item individual de uma caixa de correio e configure ou modifique o período de retenção de itens excluídos. Para saber mais sobre como realizar uma recuperação de item individual, confira [Recuperar mensagens excluídas na caixa de correio de um usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/recover-deleted-messages).
 
 Voltar ao início
 
@@ -220,7 +220,7 @@ A tabela a seguir descreve o conteúdo e as ações que podem ser executadas na 
 
 Para saber mais sobre a Descoberta Eletrônica In-loco, o Bloqueio In-loco e a Retenção de Litígio, confira os seguintes tópicos:
 
-  - [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md)
+  - [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
   - [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
 

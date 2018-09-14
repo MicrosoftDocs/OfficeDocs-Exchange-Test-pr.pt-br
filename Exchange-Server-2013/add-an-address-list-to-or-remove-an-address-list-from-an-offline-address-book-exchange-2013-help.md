@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2014-12-16_
 
 Você pode usar o Shell para adicionar ou remover uma lista de endereços do catálogo de endereços offline (OAB). Por padrão, não há um OAB chamado padrão catálogo de Endereços Offline que contém a lista de endereços global (GAL). OABs são geradas com base em listas de endereços que elas contêm. Para criar os OABs personalizados que os usuários podem baixar, é possível adicionar ou remover listas de endereços de OABs.
 
-Para tarefas de gerenciamento adicionais relacionadas a OABs, consulte [Procedimentos do catálogo de endereços offline](offline-address-book-procedures-exchange-2013-help.md).
+Para tarefas de gerenciamento adicionais relacionadas a OABs, consulte [Procedimentos do catálogo de endereços offline](https://docs.microsoft.com/pt-br/exchange/address-books/offline-address-books/offline-address-book-procedures).
 
 ## O que você precisa saber antes de começar?
 
@@ -29,7 +29,7 @@ Para tarefas de gerenciamento adicionais relacionadas a OABs, consulte [Procedim
 
   - Por padrão, no Exchange Online, a função de Lista de Endereços não é atribuída a nenhum grupo de funções. Para usar quaisquer cmdlets que exijam a função Lista de Endereços, é necessário adicionar essa função a um grupo de funções. Para saber mais, confira a seção "Adicionar uma função a um grupo de funções" do tópico [Gerenciar grupos de função](manage-role-groups-exchange-2013-help.md).
 
-  - Alterações feitas na lista de endereços não estão disponíveis para download do cliente, até após o OAB no qual reside a lista de endereços foi gerado. Para obter mais informações, consulte [Atualização de um catálogo de endereços offline](update-an-offline-address-book-exchange-2013-help.md).
+  - Alterações feitas na lista de endereços não estão disponíveis para download do cliente, até após o OAB no qual reside a lista de endereços foi gerado. Para obter mais informações, consulte [Atualização de um catálogo de endereços offline](https://docs.microsoft.com/pt-br/exchange/address-books/offline-address-books/update-offline-address-book).
 
   - Você não pode usar o Centro de Administração do Exchange (EAC) para executar esse procedimento. É necessário usar o Shell.
 

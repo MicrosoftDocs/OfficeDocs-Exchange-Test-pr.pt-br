@@ -23,7 +23,7 @@ Logs de chamada do usuário são usados para exibir as seguintes informações s
 
   - Qualidade de áudio de cada chamada. Métricas de qualidade de áudio podem não estar disponíveis para todas as chamadas, porque as métricas dependem de diversos fatores, como o tipo e o comprimento da chamada.
 
-Para tarefas adicionais relacionadas aos relatórios da UM, consulte [Procedimentos de relatórios de Unificação de mensagens](um-reports-procedures-exchange-2013-help.md).
+Para tarefas adicionais relacionadas aos relatórios da UM, consulte [Procedimentos de relatórios de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/um-reports-procedures).
 
 ## Como obter os logs de chamada para um usuário habilitado para Unificação de mensagens?
 
@@ -31,7 +31,7 @@ Para tarefas adicionais relacionadas aos relatórios da UM, consulte [Procedimen
 
 2.  Clique em **Selecionar um usuário** e selecione o usuário do qual você deseja os dados.
 
-3.  Para obter mais detalhes sobre a qualidade de áudio para uma linha no relatório, selecione a linha e clique em **Detalhes de qualidade de áudio**. Para obter mais informações sobre como interpretar a qualidade do áudio, consulte [Investigar a qualidade de áudio de chamadas de voz para um usuário](investigate-the-audio-quality-of-voice-calls-for-a-user-exchange-2013-help.md).
+3.  Para obter mais detalhes sobre a qualidade de áudio para uma linha no relatório, selecione a linha e clique em **Detalhes de qualidade de áudio**. Para obter mais informações sobre como interpretar a qualidade do áudio, consulte [Investigar a qualidade de áudio de chamadas de voz para um usuário](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/run-voice-mail-call-reports/audio-quality-of-voice-calls-for-user).
 
 4.  Para copiar o relatório para a área de transferência, clique em **Copiar todas as linhas na área de transferência.**
 

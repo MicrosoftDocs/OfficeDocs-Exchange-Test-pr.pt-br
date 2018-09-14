@@ -100,7 +100,7 @@ A tabela a seguir lista as Dicas de Email disponíveis no Exchange 2013.
 <td><p>Outlook</p>
 <p>Outlook Web App</p></td>
 <td><p>Uma Dica de Email personalizada será exibida se o remetente adicionar um destinatário para o qual uma Dica de Email personalizada está configurada.</p>
-<p>Uma Dica de Email personalizada pode ser útil para o fornecimento de informações específicas sobre um destinatário. Por exemplo, você pode criar uma Dica de Email personalizada para um grupo de distribuição, explicando sua finalidade para reduzir o uso indevido. Para obter mais informações, consulte <a href="configure-custom-mailtips-for-recipients-exchange-2013-help.md">Configurar Dicas de Email personalizadas para destinatários</a>.</p>
+<p>Uma Dica de Email personalizada pode ser útil para o fornecimento de informações específicas sobre um destinatário. Por exemplo, você pode criar uma Dica de Email personalizada para um grupo de distribuição, explicando sua finalidade para reduzir o uso indevido. Para obter mais informações, consulte <a href="https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-custom-mailtips">Configurar Dicas de Email personalizadas para destinatários</a>.</p>
 <p>Por padrão, as Dicas de Email personalizadas não serão exibidas se o remetente não tiver permissão para enviar a esse destinatário. Nesse caso, a Dica de Email de destinatário restrito é exibida. Entretanto, você pode alterar essa configuração e exibir também a Dica de Email personalizada.</p></td>
 </tr>
 <tr class="odd">
@@ -124,7 +124,7 @@ A tabela a seguir lista as Dicas de Email disponíveis no Exchange 2013.
 <p>Outlook Web App</p></td>
 <td><p>A Dica de Email de destinatários externos será exibida se o remetente adicionar um destinatário externo ou adicionar um grupo de distribuição que tenha destinatários externos.</p>
 <p>Essa Dica de Email informará os remetentes se uma mensagem que estiverem compondo for enviada para fora da organização, ajudando-os a tomar as decisões corretas a respeito do estilo, do tom e do conteúdo.</p>
-<p>Por padrão, essa Dica de Email fica desabilitada. É possível habilitá-la usando o cmdlet <strong>Set-OrganizationConfig</strong>. Para detalhes, consulte <a href="mailtips-over-organization-relationships-exchange-2013-help.md">Dicas de email sobre relacionamentos da organização</a>.</p>
+<p>Por padrão, essa Dica de Email fica desabilitada. É possível habilitá-la usando o cmdlet <strong>Set-OrganizationConfig</strong>. Para detalhes, consulte <a href="https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips-over-organization-relationships">Dicas de email sobre relacionamentos da organização</a>.</p>
 <p>Se parte de suas caixas de correio de usuário estiver hospedada no Exchange Online e você estiver em coexistência com o cenário do Exchange Online, a configuração no objeto de domínio remoto que representa a parte remota de sua organização terá efeito direto sobre como essa Dica de email é processada.</p>
 <p>Se o domínio remoto estiver configurado como um domínio interno (ao configurar o parâmetro <em>IsInternal</em> no objeto de domínio remoto para <code>$true</code>), quaisquer destinatários nesse domínio remoto serão tratados como internos e, portanto, a Dica de email dos Destinatários externos não será exibida. Contudo, se o domínio remoto não estiver configurado como um domínio interno, os destinatários naquele domínio serão considerados externos e essa Dica de email será exibida quando uma mensagem estiver sendo redigida para aqueles destinatários.</p>
 
@@ -138,7 +138,7 @@ A tabela a seguir lista as Dicas de Email disponíveis no Exchange 2013.
 <td><p>Grande público</p></td>
 <td><p>Outlook</p>
 <p>Outlook Web App</p></td>
-<td><p>A Dica de Email de grande público será exibida se o remetente adicionar um grupo de distribuição com contagem maior do que o tamanho de público configurado em sua organização. Por padrão, o Exchange exibe a Dica de Email de mensagens para grupos de distribuição que tenham mais de 25 membros. Para obter detalhes, consulte <a href="configure-the-large-audience-size-for-your-organization-exchange-2013-help.md">Configurar o tamanho grande público para sua organização</a>.</p>
+<td><p>A Dica de Email de grande público será exibida se o remetente adicionar um grupo de distribuição com contagem maior do que o tamanho de público configurado em sua organização. Por padrão, o Exchange exibe a Dica de Email de mensagens para grupos de distribuição que tenham mais de 25 membros. Para obter detalhes, consulte <a href="https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/configure-large-audience-size">Configurar o tamanho grande público para sua organização</a>.</p>
 <p>O tamanho dos grupos de distribuição não é calculado sempre. Em vez disso, as informações do grupo de distribuição são lidas a partir de dados de medição de grupo.</p></td>
 </tr>
 <tr class="even">
@@ -148,7 +148,7 @@ A tabela a seguir lista as Dicas de Email disponíveis no Exchange 2013.
 <td><p>A Dica de Email de destinatário moderado será exibida se o remetente adicionar um destinatário moderado.</p>
 <p>A Dica de Email mostra qual destinatário é moderado e informa o remetente que isso pode resultar em atraso da entrega.</p>
 <p>Se o remetente for também é o moderador, essa Dica de Email não será exibida. Ela também não será exibida se o remetente tiver permissão para enviar mensagens ao destinatário (adicionando o nome do remetente à lista Aceitar mensagens somente de, para o destinatário).</p>
-<p>Para ver instruções de como configurar destinatários moderados no Exchange 2013, consulte <a href="common-message-approval-scenarios-exchange-2013-help.md">Cenários comuns de aprovação de mensagem</a>.</p>
+<p>Para ver instruções de como configurar destinatários moderados no Exchange 2013, consulte <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios">Cenários comuns de aprovação de mensagem</a>.</p>
 <p>Para ver instruções de como configurar destinatários moderados no Exchange Online, consulte <a href="https://technet.microsoft.com/pt-br/library/jj983442(v=exchg.150)">Configurar um destinatário moderado no Exchange Online</a>.</p></td>
 </tr>
 <tr class="odd">

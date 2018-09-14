@@ -27,7 +27,7 @@ Você pode usar o Centro de administração do Exchange ou o Shell de Gerenciame
 
 Para tarefas de gerenciamento adicionais relacionadas ao gerenciamento do acesso de clientes de email a uma caixa de correio, confira estes tópicos:
 
-  - [Habilitar ou desabilitar o Outlook Web App para uma caixa de correio](enable-or-disable-outlook-web-app-for-a-mailbox-exchange-2013-help.md)
+  - [Habilitar ou desabilitar o Outlook Web App para uma caixa de correio](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
   - [Habilitar ou desabilitar o acesso de IMAP4 para um usuário](enable-or-disable-imap4-access-for-a-user-exchange-2013-help.md)
 

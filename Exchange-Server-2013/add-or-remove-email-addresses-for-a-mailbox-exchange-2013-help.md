@@ -59,7 +59,7 @@ Os procedimentos neste tópico mostram como adicionar ou remover endereços de e
     
 
     > [!NOTE]
-    > SMTP é o tipo de endereço de email padrão. Você pode também adicionar endereços de Unificação de Mensagens do Exchange (EUM) ou endereços personalizados a uma caixa de correio. Para saber mais, confira "Alterar propriedades de caixa de correio" no tópico <A href="manage-user-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio do usuário</A>.
+    > SMTP é o tipo de endereço de email padrão. Você pode também adicionar endereços de Unificação de Mensagens do Exchange (EUM) ou endereços personalizados a uma caixa de correio. Para saber mais, confira "Alterar propriedades de caixa de correio" no tópico <A href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Gerenciar caixas de correio do usuário</A>.
 
 
 

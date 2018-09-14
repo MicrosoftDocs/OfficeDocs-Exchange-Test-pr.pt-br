@@ -23,7 +23,7 @@ As condições de regra que estão disponíveis para você em uma única políti
 
 
 > [!WARNING]
-> Você deve habilitar as suas políticas de DLP no modo de teste antes de executá-los em seu ambiente de produção. Durante esses testes, é recomendável que você configurar caixas de correio de usuário de amostra e envia mensagens de teste que acionem suas políticas de teste para ter a certeza os resultados. Para obter mais informações sobre como testar, consulte <A href="test-a-mail-flow-rule-exchange-2013-help.md">Testar uma regra de fluxo de email</A>.
+> Você deve habilitar as suas políticas de DLP no modo de teste antes de executá-los em seu ambiente de produção. Durante esses testes, é recomendável que você configurar caixas de correio de usuário de amostra e envia mensagens de teste que acionem suas políticas de teste para ter a certeza os resultados. Para obter mais informações sobre como testar, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules">Testar uma regra de fluxo de email</A>.
 
 
 
@@ -59,7 +59,7 @@ Para tarefas de gerenciamento adicionais relacionadas à criação de uma polít
     
 
     > [!IMPORTANT]
-    > Se você clicar em um ícone de<IMG title="Ícone Adicionar" alt="Ícone Adicionar" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif"><STRONG>Adicionar</STRONG> em vez de seta para baixo, você criará uma nova política baseada em um modelo. Para obter mais informações sobre como usar modelos, consulte <A href="how-to-new-dlp-data-loss-prevention-policy-template.md">Criar uma política de DLP a partir de um modelo</A>.
+    > Se você clicar em um ícone de<IMG title="Ícone Adicionar" alt="Ícone Adicionar" src="images/JJ218640.c1e75329-d6d7-4073-a27d-498590bbb558(EXCHG.150).gif"><STRONG>Adicionar</STRONG> em vez de seta para baixo, você criará uma nova política baseada em um modelo. Para obter mais informações sobre como usar modelos, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template">Criar uma política de DLP a partir de um modelo</A>.
 
 
 
@@ -99,5 +99,5 @@ Modelos de política DLP são um tipo de recurso de design do Microsoft Exchange
 
 [Regras de fluxo de emails (regras de transporte) no Exchange Online](https://technet.microsoft.com/pt-br/library/jj919238\(v=exchg.150\)) Exchange Online
 
-[Integrando regras de informações confidenciais com regras de transporte](integrating-sensitive-information-rules-with-transport-rules-exchange-2013-help.md)
+[Integrando regras de informações confidenciais com regras de transporte](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 

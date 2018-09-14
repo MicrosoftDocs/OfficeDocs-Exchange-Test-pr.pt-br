@@ -214,7 +214,7 @@ Configure um modo de inicialização de UM num servidor de Caixa de Correio do E
 
 Dependendo da sua implantação existente do Exchange 2007, poderá ter de criar novos planos de discagem de UM ou configurar os planos de discagem existentes. Um plano de discagem de UM representa um conjunto de Private Branch eXchanges (PBXs) tradicional ou habilitados para SIP, PBXs IP ou PBXs habilitados para SIP que compartilham números de ramais de usuário comuns. Todos os ramais de usuários hospedados em PBXs tradicionais ou habilitados para SIP ou PBXs IP dentro de um plano de discagem contêm o mesmo número de dígitos. Os usuários podem discar para outros ramais telefônicos sem a necessidade de acrescentar um número especial ao ramal ou discar o número completo do telefone.
 
-Os planos de discagem de UM são usados na Unificação de Mensagens para garantir que os ramais de telefone do usuário sejam exclusivos. Em algumas redes de telefonia, existem vários PBXs IP, PBSx tradicionais ou PBXs habilitados para SIP. Nessas redes de telefonia, pode haver dois usuários com o mesmo ramal telefônico. Os planos de discagem da UM resolvem esta situação. Colocar os dois usuários em dois planos de discagem de UM separados torna seus ramais exclusivos. Para mais informações, consulte [Planos de discagem de Unificação de mensagens](um-dial-plans-exchange-2013-help.md).
+Os planos de discagem de UM são usados na Unificação de Mensagens para garantir que os ramais de telefone do usuário sejam exclusivos. Em algumas redes de telefonia, existem vários PBXs IP, PBSx tradicionais ou PBXs habilitados para SIP. Nessas redes de telefonia, pode haver dois usuários com o mesmo ramal telefônico. Os planos de discagem da UM resolvem esta situação. Colocar os dois usuários em dois planos de discagem de UM separados torna seus ramais exclusivos. Para mais informações, consulte [Planos de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans).
 
 Se necessário, pode criar um plano de discagem de UM usando o EAC:
 
@@ -302,7 +302,7 @@ Se necessário, pode configurar um gateway IP de UM existente executando o segui
 
 Dependendo da sua implantação existente do Exchange 2007, poderá ter de criar novos grupos de busca de UM. Um grupo de busca de telefonia fornece uma maneira de distribuir chamadas telefônicas a partir de um único número para diversos ramais ou números de telefone. Na Unificação de Mensagens, um grupo de busca de UM é uma representação lógica de um grupo de busca de telefonia e vincula um gateway IP de UM a um plano de discagem de UM.
 
-Você precisa ter pelo menos um grupo de busca de UM para cada grupo de busca de PBX IP ou PBX. Quando você concluir o procedimento a seguir, um grupo de busca de UM será criado por padrão. Se você tiver mais de um grupo de busca de PBX IP ou PBX, precisará criar grupos de busca de UM adicionais. Para saber mais sobre grupos de busca de UM, consulte [Grupos de busca de Unificação de mensagens](um-hunt-groups-exchange-2013-help.md).
+Você precisa ter pelo menos um grupo de busca de UM para cada grupo de busca de PBX IP ou PBX. Quando você concluir o procedimento a seguir, um grupo de busca de UM será criado por padrão. Se você tiver mais de um grupo de busca de PBX IP ou PBX, precisará criar grupos de busca de UM adicionais. Para saber mais sobre grupos de busca de UM, consulte [Grupos de busca de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups).
 
 Se necessário, pode criar um grupo de busca de UM usando o EAC:
 
@@ -374,7 +374,7 @@ Se necessário, pode configurar um atendedor automático de UM existente executa
 
 ## Etapa 10: Criar ou configurar políticas de caixa de correio de UM
 
-Dependendo da sua implantação existente do Exchange 2007, poderá ter de criar novas políticas de caixa de correio de UM ou configurar políticas de caixa de correio de UM existentes. As políticas de caixa de correio de UM são necessárias quando os usuários são habilitados para a Unificação de Mensagens. A caixa de correio de cada usuário habilitado para UM deve estar vinculada a uma única política de caixa de correio de UM. Depois de criar uma política de caixa de correio de UM, você vincula uma ou mais caixas de correio habilitadas para UM à política de caixa de correio de UM. Isso permite controlar as configurações de segurança de PIN, como o número mínimo de dígitos em um PIN ou o número máximo de tentativas de logon para os usuários habilitados para UM que estão vinculados à política de caixa de correio de UM. Para mais informações, consulte [políticas de caixa de correio de UM](um-mailbox-policies-exchange-2013-help.md).
+Dependendo da sua implantação existente do Exchange 2007, poderá ter de criar novas políticas de caixa de correio de UM ou configurar políticas de caixa de correio de UM existentes. As políticas de caixa de correio de UM são necessárias quando os usuários são habilitados para a Unificação de Mensagens. A caixa de correio de cada usuário habilitado para UM deve estar vinculada a uma única política de caixa de correio de UM. Depois de criar uma política de caixa de correio de UM, você vincula uma ou mais caixas de correio habilitadas para UM à política de caixa de correio de UM. Isso permite controlar as configurações de segurança de PIN, como o número mínimo de dígitos em um PIN ou o número máximo de tentativas de logon para os usuários habilitados para UM que estão vinculados à política de caixa de correio de UM. Para mais informações, consulte [políticas de caixa de correio de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies).
 
 Se necessário, pode criar uma política de caixa de correio de UM usando o EAC:
 
@@ -414,7 +414,7 @@ Se necessário, pode configurar uma política de caixa de correio de UM existent
 
 ## Etapa 11: Mover caixas de correio habilitadas para UM existentes para o Exchange 2013
 
-Na Unificação de Mensagens do Exchange 2007, depois de habilitar usuários na organização para usarem caixa postal, um conjunto padrão de propriedades de UM é aplicado ao usuário e ele poderá usar os recursos de UM. Para mais informações, consulte [Caixa postal para usuários](voice-mail-for-users-exchange-2013-help.md).
+Na Unificação de Mensagens do Exchange 2007, depois de habilitar usuários na organização para usarem caixa postal, um conjunto padrão de propriedades de UM é aplicado ao usuário e ele poderá usar os recursos de UM. Para mais informações, consulte [Caixa postal para usuários](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 
 Durante o processo de atualização, haverá o período de tempo em que terá caixas de correio habilitadas para UM tanto nos servidores de Caixa de Correio do Exchange 2007 e nos servidores de Caixa de Correio do Exchange 2013. No entanto, se está a mover todos os usuários habilitados para UM para servidores de Caixa de Correio do Exchange 2013, tem de usar o EAC ou o cmdlet **New-MoveRequest** no Shell a partir de um servidor do Exchange 2013 para reter todas as propriedades e definições, incluindo o PIN do usuário.
 
@@ -442,7 +442,7 @@ Para mover uma caixa de correio do Exchange 2007 para um servidor de Caixa de Co
 
 ## Etapa 12: Habilitar novos usuários para UM ou configurar definições para usuários habilitados para UM existentes
 
-Um usuário deve ter uma caixa de correio antes de poder ser habilitado para Unificação de Mensagens. Mas, por padrão, um usuário que tenha uma caixa de correio não está habilitado para a UM. Depois que o usuário for habilitado para UM, você poderá gerenciar, modificar e configurar as propriedades de UM e de caixa postal do usuário. Pode habilitar um usuário para UM usando o EAC ou o Shell. Saiba mais em [Caixa postal para usuários](voice-mail-for-users-exchange-2013-help.md).
+Um usuário deve ter uma caixa de correio antes de poder ser habilitado para Unificação de Mensagens. Mas, por padrão, um usuário que tenha uma caixa de correio não está habilitado para a UM. Depois que o usuário for habilitado para UM, você poderá gerenciar, modificar e configurar as propriedades de UM e de caixa postal do usuário. Pode habilitar um usuário para UM usando o EAC ou o Shell. Saiba mais em [Caixa postal para usuários](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 
 Quando você habilita um usuário para UM, deve definir pelo menos um número de ramal que será usado pela UM quando a caixa postal for enviada para a caixa de correio do o usuário e para habilitar o usuário de usar o Outlook Voice Access. Depois de habilitar o usuário para UM, você poderá adicionar números de ramal secundários à caixa de correio do usuário, bem como modificá-los ou removê-los, configurando o endereço de proxy da Unificação de Mensagens (EUM) do Exchange na caixa de correio do usuário, ou adicionar ou remover os ramais adicionais ou secundários do usuário no EAC. Para adicionar, modificar e remover os números de ramal, números E.164 ou endereços SIP, consulte [Procedimentos do usuário habilitado para email de voz](voice-mail-enabled-user-procedures-exchange-2013-help.md).
 
@@ -520,9 +520,9 @@ A última etapa neste processo de atualizar a UM do Exchange 2013 é configurar 
 
   -  [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
 
-  -  [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
-  -  [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Supervisor de telefonia para o Exchange 2013](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
 
 ## Etapa 14: Desabilitar o atendimento de chamadas num servidor de Unificação de Mensagens no Exchange 2007
 

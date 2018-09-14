@@ -21,7 +21,7 @@ Tempo estimado para conclusão: 5 minutos.
 
 Uma caixa de correio de sala é uma caixa de correio de recurso atribuída a um local físico, como uma sala de conferência, auditório ou sala de treinamento. Depois que um administrador cria caixas de correio de sala, os usuários podem reservar salas facilmente incluindo caixas de correio de sala em solicitações de reunião. Para obter mais detalhes, consulte [Destinatários](recipients-exchange-2013-help.md).
 
-Para saber mais sobre outro tipo de caixa de correio do recurso, consulte [Gerenciar caixas de correio de equipamento](manage-equipment-mailboxes-exchange-2013-help.md).
+Para saber mais sobre outro tipo de caixa de correio do recurso, consulte [Gerenciar caixas de correio de equipamento](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-equipment-mailboxes).
 
 ## O que você deseja fazer?
 
@@ -159,7 +159,7 @@ Clique em **Mais opções**, para exibir ou alterar essas propriedades adicionai
 
   - **Empresa**   Use essa caixa para especificar uma empresa à qual a sala está associada, se aplicável. Como a propriedade de Departamento, você pode usar esta propriedade para criar condições de destinatário para grupos dinâmicos de distribuição e listas de endereços.
 
-  - **Política do catálogo de endereços**   Use essa opção para especificar uma política de catálogo de endereços (ABP) para a caixa de correio de sala. As ABPs contêm um catálogo de endereços global (GAL), um catálogo de endereços offline (OAB), uma lista de salas e um conjunto de listas de endereços. Para obter mais informações, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+  - **Política do catálogo de endereços**   Use essa opção para especificar uma política de catálogo de endereços (ABP) para a caixa de correio de sala. As ABPs contêm um catálogo de endereços global (GAL), um catálogo de endereços offline (OAB), uma lista de salas e um conjunto de listas de endereços. Para obter mais informações, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
     
     Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 

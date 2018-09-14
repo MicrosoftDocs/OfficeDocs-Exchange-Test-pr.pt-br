@@ -155,7 +155,7 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Ret
 
 ## Etapa 3: Aplicar uma política de retenção para usuários de caixa de correio
 
-Depois de criar uma política de retenção, você deverá aplicá-la aos usuários de caixa de correio. Você pode aplicar diferentes políticas de retenção a conjunto diferente de usuários. Para obter instruções detalhadas, consulte [Aplicar uma política de retenção a caixas de correio](apply-a-retention-policy-to-mailboxes-exchange-2013-help.md).
+Depois de criar uma política de retenção, você deverá aplicá-la aos usuários de caixa de correio. Você pode aplicar diferentes políticas de retenção a conjunto diferente de usuários. Para obter instruções detalhadas, consulte [Aplicar uma política de retenção a caixas de correio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/apply-retention-policy).
 
 ## Como saber se essa tarefa funcionou?
 

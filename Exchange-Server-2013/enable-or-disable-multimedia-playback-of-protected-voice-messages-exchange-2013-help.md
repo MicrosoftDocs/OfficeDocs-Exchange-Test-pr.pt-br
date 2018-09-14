@@ -45,7 +45,7 @@ Se o valor estiver definido como true, a reprodução multimídia de caixa posta
 
 Essa configuração é especialmente útil quando os usuários habilitados para UM utilizam computadores públicos, laptops em lugares comuns ou reprodutores de mídia de telefones celulares para ouvir a mensagem de voz protegida com informações particulares.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a procedimentos de Caixa Postal Protegida, consulte [Procedimentos de caixa postal protegidos](protected-voice-mail-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a procedimentos de Caixa Postal Protegida, consulte [Procedimentos de caixa postal protegidos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures).
 
 ## O que você precisa saber antes de começar?
 

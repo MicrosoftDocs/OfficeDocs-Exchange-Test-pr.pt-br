@@ -59,6 +59,6 @@ Este exemplo habilita o acesso de calendário e email usando o TUI para um usuá
 
 
 > [!TIP]
-> Configurações de TUI para usuários também estão disponíveis em políticas de caixa de correio de Unificação de mensagens. Modificando configurações de TUI em uma diretiva de caixa de correio UM afeta todos os usuários que estão associados a diretiva de caixa de correio de Unificação de mensagens. Para obter mais informações sobre como modificar as configurações de TUI em uma política de caixa de correio de Unificação de mensagens, consulte <A href="set-mailbox-features-for-outlook-voice-access-users-exchange-2013-help.md">Configurar os recursos de caixa de correio para usuários do Outlook Voice Access</A>.
+> Configurações de TUI para usuários também estão disponíveis em políticas de caixa de correio de Unificação de mensagens. Modificando configurações de TUI em uma diretiva de caixa de correio UM afeta todos os usuários que estão associados a diretiva de caixa de correio de Unificação de mensagens. Para obter mais informações sobre como modificar as configurações de TUI em uma política de caixa de correio de Unificação de mensagens, consulte <A href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-mailbox-features-for-users">Configurar os recursos de caixa de correio para usuários do Outlook Voice Access</A>.
 
 

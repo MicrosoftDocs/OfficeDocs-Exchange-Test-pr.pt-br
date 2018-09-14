@@ -23,13 +23,13 @@ As restrições de entrega de mensagem abordadas neste tópico se aplicam a todo
 
 Para tarefas de gerenciamento adicionais relacionadas aos destinatários, consulte os tópicos a seguir:
 
-  - [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md)
+  - [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes)
 
-  - [Criar e gerenciar grupos de distribuição](create-and-manage-distribution-groups-exchange-2013-help.md)
+  - [Criar e gerenciar grupos de distribuição](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
 
   - [Gerenciar grupos dinâmicos de distribuição](manage-dynamic-distribution-groups-exchange-2013-help.md)
 
-  - [Gerenciar usuários de email](manage-mail-users-exchange-2013-help.md)
+  - [Gerenciar usuários de email](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-users)
 
   - [Gerenciar contatos de email](manage-mail-contacts-exchange-2013-help.md)
 

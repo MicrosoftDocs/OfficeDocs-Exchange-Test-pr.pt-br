@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2012-11-16_
 
 No Microsoft Exchange Server 2013, você pode configurar o gerenciamento de direitos de informação (IRM) para que Exchange pesquisa pode indexar mensagens protegidas por IRM.
 
-Quando os membros do grupo de função de gerenciamento de descoberta executam uma pesquisa [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md) , mensagens protegidas por IRM são retornadas nos resultados da pesquisa e copiadas para a caixa de correio de descoberta especificada em uma pesquisa. Além disso, os membros do grupo de funções de gerenciamento de descoberta podem usar Outlook Web App para acessar as mensagens protegidas por IRM que foram copiadas para a caixa de correio de descoberta como resultado de pesquisa de descoberta.
+Quando os membros do grupo de função de gerenciamento de descoberta executam uma pesquisa [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) , mensagens protegidas por IRM são retornadas nos resultados da pesquisa e copiadas para a caixa de correio de descoberta especificada em uma pesquisa. Além disso, os membros do grupo de funções de gerenciamento de descoberta podem usar Outlook Web App para acessar as mensagens protegidas por IRM que foram copiadas para a caixa de correio de descoberta como resultado de pesquisa de descoberta.
 
 
 > [!NOTE]  

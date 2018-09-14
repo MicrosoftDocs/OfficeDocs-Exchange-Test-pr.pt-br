@@ -293,7 +293,7 @@ Você pode usar o EAC ou o cmdlet **Set-UMMailboxPolicy** no Shell para configur
 </table>
 
 
-Para obter mais informações sobre como gerenciar as configurações de caixa postal protegida, consulte [Procedimentos de caixa postal protegidos](protected-voice-mail-procedures-exchange-2013-help.md) ou [Set-UMMailboxPolicy](https://technet.microsoft.com/pt-br/library/bb124903\(v=exchg.150\)).
+Para obter mais informações sobre como gerenciar as configurações de caixa postal protegida, consulte [Procedimentos de caixa postal protegidos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures) ou [Set-UMMailboxPolicy](https://technet.microsoft.com/pt-br/library/bb124903\(v=exchg.150\)).
 
 Voltar ao início
 

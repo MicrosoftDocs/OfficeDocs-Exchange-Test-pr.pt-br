@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2013-02-22_
 
 Você pode permitir que os chamadores transferir chamadas para usuários por meio de um atendedor automático ou impedir isso. Por padrão essa opção está habilitada e permite que os chamadores transferir chamadas para usuários habilitados para UM no plano de discagem de Unificação de mensagens (UM) que está associado a UM atendedor automático.
 
-Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](um-auto-attendant-procedures-exchange-2013-help.md).
+Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores automáticos de UM, consulte [Procedimentos atendedor automático a Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/um-auto-attendant-procedures).
 
 ## O que você precisa saber antes de começar?
 

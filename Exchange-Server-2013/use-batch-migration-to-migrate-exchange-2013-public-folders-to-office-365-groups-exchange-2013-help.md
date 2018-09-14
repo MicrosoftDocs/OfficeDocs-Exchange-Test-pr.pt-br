@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2018-03-26_
 
 **Resumo:**  como mover suas pastas públicas do Exchange 2013 para grupos do Office 365.
 
-Por meio de um processo conhecido como *migração de lote*, você pode mover algumas ou todas as suas pastas públicas do Exchange 2013 aos grupos do Office 365. Grupos é uma nova colaboração oferta da Microsoft que oferece determinadas vantagens sobre pastas públicas. Consulte [Migrar suas pastas públicas para o Office 365 grupos](migrate-your-public-folders-to-office-365-groups-exchange-2013-help.md) para obter uma visão geral das diferenças entre pastas públicas e grupos e motivos pelos quais a sua organização pode ou não pode se beneficiar de alternar para grupos.
+Por meio de um processo conhecido como *migração de lote*, você pode mover algumas ou todas as suas pastas públicas do Exchange 2013 aos grupos do Office 365. Grupos é uma nova colaboração oferta da Microsoft que oferece determinadas vantagens sobre pastas públicas. Consulte [Migrar suas pastas públicas para o Office 365 grupos](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/migrate-your-public-folders-to-office-365-groups) para obter uma visão geral das diferenças entre pastas públicas e grupos e motivos pelos quais a sua organização pode ou não pode se beneficiar de alternar para grupos.
 
 Este artigo contém os procedimentos passo a passo para executar a migração de lote real de suas pastas públicas do Exchange 2013.
 

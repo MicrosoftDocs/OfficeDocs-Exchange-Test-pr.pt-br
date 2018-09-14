@@ -31,7 +31,7 @@ Para especificar os tipos de chamadas de saída que você deseja permitir para u
 
 
 
-Para outras tarefas de gerenciamento para discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](allowing-users-to-make-calls-procedures-exchange-2013-help.md).
+Para outras tarefas de gerenciamento para discagem externa, consulte [Permitindo que usuários façam chamadas de procedimentos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-make-calls-procedures).
 
 ## Exemplos de regras de discagem comumente usadas
 

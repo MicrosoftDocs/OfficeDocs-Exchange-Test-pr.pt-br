@@ -47,11 +47,11 @@ Unificação de MENSAGENS depende da capacidade do gateway de VoIP para traduzir
 
 Escolhendo o correto VoIP gateway, IP PBX, habilitados para SIP PBX ou SBC é a primeira parte da integração de sua rede de telefonia com UM. Você deve configurar esses dispositivos para trabalhar com a Unificação de MENSAGENS. No local e híbrido implantações, você precisa implantar os servidores de acesso para cliente e caixa de correio necessários e criar e configurar todos os componentes necessários de Unificação de MENSAGENS. Para Office 365 com caixa postal hospedada, você não estiver necessárias para instalar e configurar qualquer servidor. Os componentes permitem que você fazer a conexão do seu telefonia, rede comutada de circuito em sua rede IP de dados e habilitar a caixa postal para os usuários em sua organização. Para obter detalhes e dispositivos de telefonia com suporte, consulte os seguintes recursos:
 
-  - [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  - [Supervisor de telefonia para o Exchange 2013](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
 
-  - [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  - [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
-  - [Notas de configuração para controladores de borda de sessão suportados](configuration-notes-for-supported-session-border-controllers-exchange-2013-help.md)
+  - [Notas de configuração para controladores de borda de sessão suportados](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-session-border-controllers)
 
 ## Microsoft Lync Server
 

@@ -109,7 +109,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
     
 
     > [!NOTE]
-    > As configurações de recursos para usuários individuais substituem as configurações do diretório virtual. É possível alterar as configurações de segmentação de cada usuário usando o cmdlet <STRONG>Set-CASMailbox</STRONG> ou usando as diretivas de caixa de correio do Outlook Web App. Para mais informações, consulte <A href="outlook-web-app-mailbox-policies-exchange-2013-help.md">Diretivas de caixa de correio do Outlook Web App</A>.
+    > As configurações de recursos para usuários individuais substituem as configurações do diretório virtual. É possível alterar as configurações de segmentação de cada usuário usando o cmdlet <STRONG>Set-CASMailbox</STRONG> ou usando as diretivas de caixa de correio do Outlook Web App. Para mais informações, consulte <A href="https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies">Diretivas de caixa de correio do Outlook Web App</A>.
 
     
     Use as caixas de seleção para habilitar ou desabilitar recursos. Por padrão, são exibidos os recursos mais comuns. Para ver todos os recursos que podem ser habilitados ou desabilitados, clique em **Mais opções**.
