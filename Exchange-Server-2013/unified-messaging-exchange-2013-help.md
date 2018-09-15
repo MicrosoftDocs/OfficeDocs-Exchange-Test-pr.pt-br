@@ -255,15 +255,15 @@ A tabela a seguir contém links para tópicos que irão ajudar você a aprender 
 <td><p>Saiba mais sobrte os pacotes e as configurações de idioma de UM.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="telephone-system-integration-with-um-exchange-2013-help.md">Integração com a Unificação de MENSAGENS do sistema de telefone</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um">Integração com a Unificação de MENSAGENS do sistema de telefone</a></p></td>
 <td><p>Saiba mais sobre a integração de sua rede telefônica com a UM.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md">Conectar seu sistema de caixa postal à sua rede de telefone</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system">Conectar seu sistema de caixa postal à sua rede de telefone</a></p></td>
 <td><p>Saiba como usar e configurar componentes de UM para conectar sua rede de telefonia à UM do Exchange.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="automatically-answer-and-route-incoming-calls-exchange-2013-help.md">Responder e rotear as chamadas de entrada automaticamente</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls">Responder e rotear as chamadas de entrada automaticamente</a></p></td>
 <td><p>Saiba como criar atendedores automáticos de UM e gerenciar configurações para menus de navegação, saudações e horários comercial e não comercial.</p></td>
 </tr>
 <tr class="even">
@@ -275,7 +275,7 @@ A tabela a seguir contém links para tópicos que irão ajudar você a aprender 
 <td><p>Saiba como configurar os recursos de cliente a fim de permitir que os usuários acessem e gerenciem suas mensagens de correio de voz.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="set-outlook-voice-access-pin-security-exchange-2013-help.md">Definir segurança de PIN do Outlook Voice Access</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-outlook-voice-access-pin-security">Definir segurança de PIN do Outlook Voice Access</a></p></td>
 <td><p>Saiba como definir os requisitos de PIN para usuários do Outlook Voice Access.</p></td>
 </tr>
 <tr class="odd">

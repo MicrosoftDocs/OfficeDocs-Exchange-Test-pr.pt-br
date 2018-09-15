@@ -27,7 +27,7 @@ Use um ou mais dos procedimentos listados abaixo para obter sua infraestrutura d
 
 [Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders)
 
-[Configurar pastas públicas do Exchange Online para uma implantação híbrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurar pastas públicas do Exchange Online para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-exo-hybrid-public-folders)
 
 [Configurar as pastas públicas herdadas nas quais as caixas de correio dos usuários estão em servidores do Exchange 2013](configure-legacy-public-folders-where-user-mailboxes-are-on-exchange-2013-servers-exchange-2013-help.md)
 
@@ -41,7 +41,7 @@ Use um ou mais dos procedimentos listados abaixo para obter sua infraestrutura d
 
 [Criar uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/create-public-folder)
 
-[Email habilitar ou desabilitar email uma pasta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md)
+[Email habilitar ou desabilitar email uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder)
 
 [Atualizar a hierarquia de pastas públicas](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/update-public-folder-hierarchy)
 
@@ -55,5 +55,5 @@ Use um ou mais dos procedimentos listados abaixo para obter sua infraestrutura d
 
 [Restaurar pastas públicas e caixas de correio de pasta pública de movimentações com falha](restore-public-folders-and-public-folder-mailboxes-from-failed-moves-exchange-2013-help.md)
 
-[Exibir estatísticas de pastas públicas e itens de pasta pública](view-statistics-for-public-folders-and-public-folder-items-exchange-2013-help.md)
+[Exibir estatísticas de pastas públicas e itens de pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/view-public-folder-statistics)
 

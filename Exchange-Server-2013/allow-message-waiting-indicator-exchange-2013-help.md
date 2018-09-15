@@ -218,7 +218,7 @@ Você pode usar o EAC ou o cmdlet **Set-UMMailboxPolicy** no Shell para definir 
 
 Para obter mais informações sobre como gerenciar configurações do MWI em uma política de caixa de correio de UM, consulte os seguintes tópicos:
 
-  - [Gerenciar uma política de caixa de correio de Unificação de mensagens](manage-a-um-mailbox-policy-exchange-2013-help.md)
+  - [Gerenciar uma política de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
 
   - [Habilitar o indicador de espera de mensagem (MWI) para usuários](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/enable-mwi-for-users)
 
@@ -228,7 +228,7 @@ Para obter mais informações sobre como gerenciar configurações do MWI em uma
 
 ## Gateways IP de UM e MWI
 
-Se você desabilitar o MWI em um gateway IP de UM, vai desabilitar notificações do MWI para todos os usuários que se conectam ao gateway VoIP ou o PBX IP que é representado pelo gateway IP de UM. Desabilitar o MWI em um único gateway IP de UM vinculado a um plano de discagem de UM pode desabilitar as notificações do MWI para todos os usuários habilitados para UM associados a um único ou vários planos de discagem de UM ou uma ou várias políticas de caixa de correio de UM. Para saber mais sobre as políticas de caixa de correio de UM, incluindo como habilitar ou desabilitar o MWI para um grupo de usuários habilitados para UM, consulte [Gerenciar uma política de caixa de correio de Unificação de mensagens](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Se você desabilitar o MWI em um gateway IP de UM, vai desabilitar notificações do MWI para todos os usuários que se conectam ao gateway VoIP ou o PBX IP que é representado pelo gateway IP de UM. Desabilitar o MWI em um único gateway IP de UM vinculado a um plano de discagem de UM pode desabilitar as notificações do MWI para todos os usuários habilitados para UM associados a um único ou vários planos de discagem de UM ou uma ou várias políticas de caixa de correio de UM. Para saber mais sobre as políticas de caixa de correio de UM, incluindo como habilitar ou desabilitar o MWI para um grupo de usuários habilitados para UM, consulte [Gerenciar uma política de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 Você pode usar o EAC ou o cmdlet **Set-UMMailboxPolicy** no Shell para definir a configuração do MWI, como mostra a tabela a seguir.
 
@@ -260,7 +260,7 @@ Você pode usar o EAC ou o cmdlet **Set-UMMailboxPolicy** no Shell para definir 
 
 Para obter mais informações sobre como gerenciar configurações de MWI, consulte estes tópicos:
 
-  - [Gerenciar um gateway IP de UM](manage-a-um-ip-gateway-exchange-2013-help.md)
+  - [Gerenciar um gateway IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway)
 
   - [Permitir o indicador de espera de mensagem (MWI) em um gateway IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-mwi-on-um-ip-gateway)
 
@@ -341,7 +341,7 @@ A tabela a seguir mostra o parâmetro em uma política de caixa de correio de UM
 
 Para obter mais informações sobre como gerenciar configurações de notificação de mensagem de texto, consulte os seguintes tópicos:
 
-  - [Gerenciar uma política de caixa de correio de Unificação de mensagens](manage-a-um-mailbox-policy-exchange-2013-help.md)
+  - [Gerenciar uma política de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy)
 
   - [Set-UMMailboxPolicy](https://technet.microsoft.com/pt-br/library/bb124903\(v=exchg.150\))
 

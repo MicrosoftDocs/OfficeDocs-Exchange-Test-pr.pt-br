@@ -134,7 +134,7 @@ Para obter detalhes sobre o Microsoft Lync Server, consulte [Microsoft Lync Serv
 
 Você deve concluir as seguintes etapas para configurar a Unificação de Mensagens para operar com os recursos do Enterprise Voice no Lync Server:
 
-1.  Crie um ou mais planos de discagem de URI de protocolo SIP de Unificação de Mensagens, cada um sendo mapeado para um perfil da localidade correspondente do Lync Server. Um perfil de local do Enterprise Voice deve ser criado para cada plano de discagem do UM do Exchange. Você pode usar o cmdlet **Get-UMDialPlan** para obter o FQDN de um plano de discagem URI de SIP. Para obter mais informações sobre como criar um plano de discagem SIP URI, consulte [Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md).
+1.  Crie um ou mais planos de discagem de URI de protocolo SIP de Unificação de Mensagens, cada um sendo mapeado para um perfil da localidade correspondente do Lync Server. Um perfil de local do Enterprise Voice deve ser criado para cada plano de discagem do UM do Exchange. Você pode usar o cmdlet **Get-UMDialPlan** para obter o FQDN de um plano de discagem URI de SIP. Para obter mais informações sobre como criar um plano de discagem SIP URI, consulte [Criar um plano de discagem de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
 
     > [!IMPORTANT]  
@@ -190,7 +190,7 @@ Você deve concluir as seguintes etapas para configurar a Unificação de Mensag
 
 6.  Criar e configurar um atendedor automático de UM. Para detalhes, consulte [Configurar um atendedor automático](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant).
 
-7.  Ao habilitar os usuários para caixa postal, crie um endereço SIP para os usuários que usarão o Enterprise Voice. Na maioria dos casos, esse endereço SIP será igual ao endereço SIP usado quando um usuário for habilitado para o Enterprise Voice. Para detalhes, consulte [Habilitar um usuário para caixa postal](enable-a-user-for-voice-mail-exchange-2013-help.md).
+7.  Ao habilitar os usuários para caixa postal, crie um endereço SIP para os usuários que usarão o Enterprise Voice. Na maioria dos casos, esse endereço SIP será igual ao endereço SIP usado quando um usuário for habilitado para o Enterprise Voice. Para detalhes, consulte [Habilitar um usuário para caixa postal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!IMPORTANT]
@@ -202,11 +202,11 @@ Você deve concluir as seguintes etapas para configurar a Unificação de Mensag
     
       - Concede permissão ao Lync Server para ler Exchange componentes de Active Directory de Unificação de MENSAGENS, especificamente, o plano de discagem URI do SIP que foi criado na tarefa anterior. Para obter detalhes sobre como configurar permissões no Active Directory, consulte [como usar o ADSI Edit para aplicar permissões](https://go.microsoft.com/fwlink/p/?linkid=82751).
     
-      - Cria um gateway IP da UM para cada pool do Lync Server ou para cada servidor executando o Lync Server Standard Edition que hospeda os usuários que serão habilitados para o Enterprise Voice. Para detalhes, consulte [Criar um gateway IP de UM](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Cria um gateway IP da UM para cada pool do Lync Server ou para cada servidor executando o Lync Server Standard Edition que hospeda os usuários que serão habilitados para o Enterprise Voice. Para detalhes, consulte [Criar um gateway IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Crie um grupo de busca da UM do Exchange para cada gateway IP da UM. O identificador piloto do grupo de busca terá o nome do plano de discagem associado ao gateway IP da UM correspondente. O grupo de busca precisa especificar o plano de discagem SIP da UM com o gateway IP da UM.
 
-9.  Habilite os usuários para caixa postal. Quando você os habilitar, confira se você informou um endereço SIP válido para o usuário e vincule-os a um plano de discagem SIP. Para detalhes, consulte [Habilitar um usuário para caixa postal](enable-a-user-for-voice-mail-exchange-2013-help.md).
+9.  Habilite os usuários para caixa postal. Quando você os habilitar, confira se você informou um endereço SIP válido para o usuário e vincule-os a um plano de discagem SIP. Para detalhes, consulte [Habilitar um usuário para caixa postal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
 Também é necessário concluir as seguintes tarefas para configurar o Lync Server para funcionar com a UM do Exchange:
 

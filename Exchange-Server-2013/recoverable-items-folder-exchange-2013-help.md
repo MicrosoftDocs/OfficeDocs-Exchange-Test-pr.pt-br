@@ -222,7 +222,7 @@ Para saber mais sobre a Descoberta Eletrônica In-loco, o Bloqueio In-loco e a R
 
   - [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
-  - [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 Voltar ao início
 

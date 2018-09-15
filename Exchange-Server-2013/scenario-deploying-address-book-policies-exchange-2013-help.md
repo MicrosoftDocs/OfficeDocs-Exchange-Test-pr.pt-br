@@ -289,7 +289,7 @@ Este exemplo cria a lista de endereços AL\_TAIL\_Users\_DGs. A lista de endere�
 
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
 
-Para mais informações sobre como criar listas de endereços usando filtros de destinatários, consulte [Criar uma lista de endereços usando filtros de destinatários](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md).
+Para mais informações sobre como criar listas de endereços usando filtros de destinatários, consulte [Criar uma lista de endereços usando filtros de destinatários](https://docs.microsoft.com/pt-br/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list).
 
 Para criar uma ABP, você deve fornecer uma lista de endereços de salas. Se a sua organização não tiver caixas de correio de recursos, como caixas de correio de sala ou equipamento, sugerimos que você crie uma lista de endereços de sala em branco. O exemplo a seguir cria uma lista de endereços de salas em branco, porque não há caixas de correio de salas na organização.
 
@@ -311,7 +311,7 @@ Este exemplo cria o OAB para Fabrikam chamado OAB\_FAB.
 
     New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
 
-Para mais informações, consulte [Criar um catálogo de endereços offline](create-an-offline-address-book-exchange-2013-help.md).
+Para mais informações, consulte [Criar um catálogo de endereços offline](https://docs.microsoft.com/pt-br/exchange/address-books/offline-address-books/create-offline-address-book).
 
 ## Etapa 4: Criar as ABPs
 

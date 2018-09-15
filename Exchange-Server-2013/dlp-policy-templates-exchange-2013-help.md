@@ -73,5 +73,5 @@ Diversas políticas DLP são fornecidas pela Microsoft. Esta é a maneira mais f
 
 ## Para obter mais informações
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

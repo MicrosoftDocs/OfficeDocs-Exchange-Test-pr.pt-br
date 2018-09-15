@@ -312,11 +312,11 @@ Para ajudá-lo a gerenciar informações comerciais importantes em emails, você
 
   - Defina uma ação a ser executada em emails que contenham números de passaporte que não estão no arquivo protegido.
 
-Políticas de DLP e condições relacionadas a anexos podem ajudá-lo a impor as suas necessidades comerciais definindo estas necessidades como condições, exceções e ações de regra de transporte. Quando você inclui a inspeção de informações confidenciais em uma política de DLP, qualquer anexo de mensagem é verificado por essa informação apenas. Entretanto, as condições relacionadas ao anexo, como tamanho ou tipo de arquivo, não são incluídas até que você adicione as condições listadas neste tópico. A DLP não está disponível com todas as versões do Exchange. Saiba mais em [Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+Políticas de DLP e condições relacionadas a anexos podem ajudá-lo a impor as suas necessidades comerciais definindo estas necessidades como condições, exceções e ações de regra de transporte. Quando você inclui a inspeção de informações confidenciais em uma política de DLP, qualquer anexo de mensagem é verificado por essa informação apenas. Entretanto, as condições relacionadas ao anexo, como tamanho ou tipo de arquivo, não são incluídas até que você adicione as condições listadas neste tópico. A DLP não está disponível com todas as versões do Exchange. Saiba mais em [Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
 ## Para obter mais informações
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Regras de fluxo de emails ou de transporte](mail-flow-rules-transport-rules-in-exchange-2013-exchange-2013-help.md)
 

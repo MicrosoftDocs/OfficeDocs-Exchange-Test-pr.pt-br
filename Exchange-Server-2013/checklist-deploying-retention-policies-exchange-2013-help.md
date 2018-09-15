@@ -53,17 +53,17 @@ Use esta lista de verificação para implantar diretivas de retenção em sua or
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Criar marcas de retenção.</p></td>
-<td><p><a href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Criar uma política de retenção</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Criar diretivas de retenção.</p></td>
-<td><p><a href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Criar uma política de retenção</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Adicionar marcas de retenção às diretivas de retenção.</p></td>
-<td><p><a href="add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md">Adicionar marcas de retenção com ou remova as marcas de retenção uma política de retenção</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/add-or-remove-retention-tags">Adicionar marcas de retenção com ou remova as marcas de retenção uma política de retenção</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong> </strong></p></td>

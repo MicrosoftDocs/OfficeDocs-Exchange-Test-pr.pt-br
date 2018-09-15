@@ -23,7 +23,7 @@ _**Tópico modificado em:** 2017-01-18_
 
 
 
-Sua organização pode exigir de todos os dados de correio seja preservado por um período específico. Você pode usar litígio ou bloqueio In-loco para atender a esse requisito. Depois de colocar uma caixa de correio em retenção de litígio ou bloqueio In-loco, itens de caixa de correio que serão modificados ou que são excluídos permanentemente são preservados na pasta itens recuperáveis. Para obter mais informações, consulte [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Sua organização pode exigir de todos os dados de correio seja preservado por um período específico. Você pode usar litígio ou bloqueio In-loco para atender a esse requisito. Depois de colocar uma caixa de correio em retenção de litígio ou bloqueio In-loco, itens de caixa de correio que serão modificados ou que são excluídos permanentemente são preservados na pasta itens recuperáveis. Para obter mais informações, consulte [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 Antes de colocar todas as caixas de correio de uma organização em Retenção de litígio ou Bloqueio In-loco, considere o seguinte:
 

@@ -51,5 +51,5 @@ Você pode usar as seguintes permissões com uma caixa de correio compartilhada.
 
 ## Convertendo caixas de correio compartilhadas
 
-Nas versões anteriores do Exchange, você podia usar uma caixa de correio regular como uma caixa de correio delegada. Se você tiver caixas de correio delegadas, poderá usar o Shell para converter essas caixas de correio delegadas em caixas de correio compartilhadas. Para detalhes, consulte [Converter uma caixa de correio](convert-a-mailbox-exchange-2013-help.md).
+Nas versões anteriores do Exchange, você podia usar uma caixa de correio regular como uma caixa de correio delegada. Se você tiver caixas de correio delegadas, poderá usar o Shell para converter essas caixas de correio delegadas em caixas de correio compartilhadas. Para detalhes, consulte [Converter uma caixa de correio](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/convert-a-mailbox).
 

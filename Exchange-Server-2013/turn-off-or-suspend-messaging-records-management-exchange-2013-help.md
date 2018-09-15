@@ -47,7 +47,7 @@ Você pode colocar caixas de correio em retenção para desativar temporariament
 
 Para obter detalhes sobre como colocar uma caixa de correio em retenção, consulte [Retenção local de uma caixa de correio em retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
 
-Para saber mais sobre Bloqueio In-loco e retenção de litígio, veja [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Para saber mais sobre Bloqueio In-loco e retenção de litígio, veja [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 ## Remover marcas de retenção das caixas de correio
 

@@ -17,7 +17,7 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
 _**Tópico modificado em:** 2015-03-09_
 
-Esta visão geral explica os componentes de uma definição de esquema XML para arquivos de modelo de política de prevenção de perda de dados (DLP) e também oferece um arquivo de política de exemplo do formato XML. Ela será útil para compreender a arquitetura DLP geral e o processo de desenvolvimento de regras, antes de você começar. Para obter mais informações, consulte [Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md) e [Definir seus próprios modelos de DLP e tipos de informações](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
+Esta visão geral explica os componentes de uma definição de esquema XML para arquivos de modelo de política de prevenção de perda de dados (DLP) e também oferece um arquivo de política de exemplo do formato XML. Ela será útil para compreender a arquitetura DLP geral e o processo de desenvolvimento de regras, antes de você começar. Para obter mais informações, consulte [Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention) e [Definir seus próprios modelos de DLP e tipos de informações](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md).
 
 Para tornar as soluções de prevenção de perda de dados fáceis de adotar e gerenciar, um modelo conceitual conhecido como políticas DLP e modelos de política é apresentado no Microsoft Exchange Server 2013. Modelos de política de DLP fornecem um design preliminar para a sua política de DLP pretendida. Para ter valor, um modelo de política de DLP deve encapsular todas as diretivas e objetos de dados que são necessários para atender a um objetivo de política específico, como uma regulamentação ou uma necessidade de negócios. O modelo não é específico para o ambiente. Ele é simplesmente uma definição ou modelo de uma política que pode ser fornecida como parte da configuração do produto ou fornecido por fornecedores de parceiros de software independentes. As políticas DLP, por outro lado, são instanciações dos modelos que são específicos para o ambiente de implantação. A sua estrutura de política de mensagens existente pode incorporar políticas DLP através do uso de regras de transporte. As regras de transporte oferecem grande flexibilidade para adaptar e expressar a riqueza das suas soluções DLP.
 
@@ -315,7 +315,7 @@ Elementos filho incluem a seguinte sequência ordenada de elementos.
 
 ## Para obter mais informações
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Definir seus próprios modelos de DLP e tipos de informações](define-your-own-dlp-templates-and-information-types-exchange-2013-help.md)
 

@@ -276,7 +276,7 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Ret
 
 
 > [!NOTE]
-> Você pode usar o EAC também para criar marcas de retenção manualmente (sem ser baseado nas configurações em pastas gerenciadas). Para obter detalhes, consulte <A href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</A>.
+> Você pode usar o EAC também para criar marcas de retenção manualmente (sem ser baseado nas configurações em pastas gerenciadas). Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Criar uma política de retenção</A>.
 
 
 
@@ -298,7 +298,7 @@ Entrada "Gerenciamento de registros de mensagem", no tópico [Permissões de pol
 
 
 > [!NOTE]
-> Você também pode usar o EAC para criar uma política de retenção e adicionar marcas de retenção à política. Para obter detalhes, consulte <A href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</A>.
+> Você também pode usar o EAC para criar uma política de retenção e adicionar marcas de retenção à política. Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Criar uma política de retenção</A>.
 
 
 

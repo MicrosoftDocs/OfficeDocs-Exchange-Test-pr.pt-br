@@ -45,7 +45,7 @@ Quando você estiver implantando os servidores do Exchange em sua organização,
 
 ## Etapa 2: Criar e configurar um plano de discagem de Unificação de mensagens
 
-Após ter instalado os servidores necessários, crie primeiro um plano de discagem de UM. Um plano de discagem de UM contém as definições de configuração que permitem conectar à sua rede de telefonia, vinculando para um único ou vários os gateways IP de UM. Um gateway IP de UM e o grupo de busca estiverem diretamente ligados a um plano de discagem de UM e também são necessários. Para obter detalhes, consulte [Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md).
+Após ter instalado os servidores necessários, crie primeiro um plano de discagem de UM. Um plano de discagem de UM contém as definições de configuração que permitem conectar à sua rede de telefonia, vinculando para um único ou vários os gateways IP de UM. Um gateway IP de UM e o grupo de busca estiverem diretamente ligados a um plano de discagem de UM e também são necessários. Para obter detalhes, consulte [Criar um plano de discagem de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
 Um plano de discagem UM estabelece um link do número de ramal de um usuário para suas caixas de correio habilitadas para UM. Quando você cria um plano de discagem de UM, você pode configurar o número de dígitos nos ramais, o tipo de identificador de recurso uniforme (URI) e o plano de discagem da configuração de segurança de VoIP.
 
@@ -65,13 +65,13 @@ Unificação de mensagens do Exchange oferece suporte a vários fornecedores de 
 
 Para obter informações detalhadas sobre os gateways VoIP, consulte os tópicos a seguir:
 
-  - [Criar um gateway IP de UM](create-a-um-ip-gateway-exchange-2013-help.md)
+  - [Criar um gateway IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway)
 
   - [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
   - [Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para Unificação de MENSAGENS](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)
 
-Para obter detalhes, consulte [Conectar seu sistema de caixa postal à sua rede de telefone](connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md).
+Para obter detalhes, consulte [Conectar seu sistema de caixa postal à sua rede de telefone](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system).
 
 ## Etapa 4: Criar um novo grupo de busca de Unificação de mensagens (se necessário)
 
