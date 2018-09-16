@@ -83,7 +83,7 @@ Não é possível migrar pastas públicas diretamente do Exchange 2003. Se você
 
   - Em um ambiente de vários domínios, o pastas públicas habilitadas para email irá parar de funcionar após a migração para o Exchange 2013, se estiver executando o Exchange em um domínio filho. Isso acontece porque no Exchange 2013, objetos de pasta pública habilitada para email deverão ser sob o domínio raiz. Para resolver esse problema, você precisa desabilitar email suas pastas públicas habilitadas para email e, em seguida, habilitar email-los novamente, que permitirá que você transfira-os para o local de domínio correto.
 
-  - Após a migração é concluída, que se desejar que os remetentes externos para enviar emails para as pastas públicas habilitadas para email migradas, o usuário **anônimo** precisa ser concedida pelo menos a permissão de **Criar itens**. Se você não fizer isso, remetentes externos receberá uma notificação de falha de entrega e as mensagens não será entregue à pasta pública habilitada para email migrada. Para ler mais sobre como definir permissões em que o usuário anônimo, consulte [Email habilitar ou desabilitar email uma pasta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+  - Após a migração é concluída, que se desejar que os remetentes externos para enviar emails para as pastas públicas habilitadas para email migradas, o usuário **anônimo** precisa ser concedida pelo menos a permissão de **Criar itens**. Se você não fizer isso, remetentes externos receberá uma notificação de falha de entrega e as mensagens não será entregue à pasta pública habilitada para email migrada. Para ler mais sobre como definir permissões em que o usuário anônimo, consulte [Email habilitar ou desabilitar email uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -418,7 +418,7 @@ Depois de finalizar a migração de pastas públicas, você deve executar o segu
 
 6.  Finalmente, se desejar que os remetentes externos para enviar emails para as pastas públicas habilitadas para email migradas, o usuário **anônimo** deve ser concedida pelo menos a permissão de **Criar itens**. Se você não fizer isso, remetentes externos receberá uma notificação de falha de entrega e as mensagens não será entregue à pasta pública habilitada para email migrada.
     
-    Você pode usar o Shell ou o Outlook para definir as permissões do usuário anônimo. Para ler mais sobre como definir permissões em que o usuário anônimo, consulte [Email habilitar ou desabilitar email uma pasta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    Você pode usar o Shell ou o Outlook para definir as permissões do usuário anônimo. Para ler mais sobre como definir permissões em que o usuário anônimo, consulte [Email habilitar ou desabilitar email uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ## Como saber se funcionou?
 

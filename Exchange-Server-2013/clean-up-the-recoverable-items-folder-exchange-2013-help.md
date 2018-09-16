@@ -27,7 +27,7 @@ Como limpar a pasta itens recuperáveis na caixa de correio do usuário depende 
 
   - Se a caixa de correio for colocada em retenção In-loco ou retenção de litígio ou tem recuperação de item único habilitada, é importante preservar os dados de caixa de correio até que a suspensão seja removida ou recuperação de item único está desabilitada. Nesse caso, você precisará executar etapas mais detalhadas para limpar a pasta itens recuperáveis.
 
-Para saber mais sobre o bloqueio In-loco e retenção de litígio, consulte [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md). Para saber mais sobre a recuperação de item único, consulte "Recuperação de Item único" em [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
+Para saber mais sobre o bloqueio In-loco e retenção de litígio, consulte [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds). Para saber mais sobre a recuperação de item único, consulte "Recuperação de Item único" em [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
 
 Para saber mais sobre a pasta itens recuperáveis, consulte [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
 

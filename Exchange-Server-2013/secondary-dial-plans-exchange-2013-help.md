@@ -110,7 +110,7 @@ Quando Microsoft Lync Server é usado para o Enterprise Voice, a Unificação de
 
 Para obter mais informações sobre a adição, remoção ou alteração de ramais, consulte o seguinte:
 
-  - [Alterar um número de ramal](change-an-extension-number-exchange-2013-help.md)
+  - [Alterar um número de ramal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-extension-number)
 
   - [Adicionar um número de ramal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number)
 
@@ -118,13 +118,13 @@ Para obter mais informações sobre a adição, remoção ou alteração de rama
 
 Se precisar alterar os endereços SIP ou os números E.164 para usuários de UM, consulte:
 
-  - [Adicionar um endereço SIP](add-a-sip-address-exchange-2013-help.md)
+  - [Adicionar um endereço SIP](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-sip-address)
 
   - [Alterar um endereço SIP](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-sip-address)
 
-  - [Remover um endereço SIP](remove-a-sip-address-exchange-2013-help.md)
+  - [Remover um endereço SIP](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/remove-sip-address)
 
-  - [Adicionar um número e. 164](add-an-e-164-number-exchange-2013-help.md)
+  - [Adicionar um número e. 164](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-e-164-number)
 
   - [Alterar um número e. 164](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/change-e-164-number)
 

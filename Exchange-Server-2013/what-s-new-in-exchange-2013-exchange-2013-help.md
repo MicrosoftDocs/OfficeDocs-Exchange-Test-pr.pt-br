@@ -175,7 +175,7 @@ O conector Microsoft Rights Management (RMS connector) é um aplicativo opcional
 
 Para saber mais sobre estes recursos consulte:
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Conector Rights Management](https://go.microsoft.com/fwlink/p/?linkid=330432)
 

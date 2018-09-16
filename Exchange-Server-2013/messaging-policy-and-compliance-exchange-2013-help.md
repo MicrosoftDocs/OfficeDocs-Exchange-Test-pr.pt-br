@@ -61,7 +61,7 @@ A tabela abaixo apresenta uma visão geral dos recursos de conformidade e polít
 <tr class="odd">
 <td><p>Retenção Local</p></td>
 <td><p>Quando existe uma expectativa razoável de litígio, as organizações são solicitadas a preservar informações armazenadas eletronicamente (ESI), incluindo emails, pertinentes ao caso. A retenção local permite pesquisar e preservar mensagens que correspondam aos parâmetros de consulta. As mensagens são protegidas contra exclusão, modificação e adulteração, e podem ser preservadas indefinidamente ou por um período especificado.</p></td>
-<td><p><a href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Retenção local e Retenção de litígio</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds">Retenção local e Retenção de litígio</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Descoberta eletrônica In-loco</p></td>
@@ -81,7 +81,7 @@ A tabela abaixo apresenta uma visão geral dos recursos de conformidade e polít
 <tr class="odd">
 <td><p>Prevenção de Perda de Dados (DLP)</p></td>
 <td><p>Os recursos de DLP vão ajudá-lo a proteger seus dados confidenciais e informar os usuários sobre suas políticas e normas. A DLP também pode ajudá-lo a impedir que usuários enviem informações confidenciais acidentalmente para pessoas não autorizadas. Ao configurar políticas de DLP, você pode identificar e proteger dados confidenciais analisando o conteúdo de seu sistema de mensagens, que inclui diversos tipos de arquivo associados. Os modelos de políticas de DLP fornecidos com o Exchange 2013 se baseiam em padrões regulamentares como os padrões de segurança de dados do setor de cartões (PCI-DSS) e PII. O DLP pode ser estendido; com isso, você pode incluir outras políticas importantes para sua organização. Além disso, com o novo recurso de dicas de política, você pode informar aos usuários sobre violações de políticas antes que dados confidenciais sejam enviados.</p></td>
-<td><p><a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Prevenção de perda de dados</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Prevenção de perda de dados</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Gerenciamento de Direitos de Informação (IRM)</p></td>

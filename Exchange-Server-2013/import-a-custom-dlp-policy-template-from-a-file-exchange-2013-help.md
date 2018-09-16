@@ -69,5 +69,5 @@ Este exemplo importa um arquivo de modelo de política DLP personalizado no arqu
 
 ## Para obter mais informações
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

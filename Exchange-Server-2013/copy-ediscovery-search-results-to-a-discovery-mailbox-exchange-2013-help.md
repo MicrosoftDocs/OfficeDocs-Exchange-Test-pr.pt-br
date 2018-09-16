@@ -25,7 +25,7 @@ Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode usar 
 
   - Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o Entrada "Descoberta" no tópico [Permissões de política e conformidade de mensagens](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 
-  - Uma pesquisa de descoberta eletrônica tem de ser criado, usando o EAC ou o Shell, antes de copiar os resultados da pesquisa. Para obter detalhes, consulte [Criar uma pesquisa de Descoberta Eletrônica In-loco](create-an-in-place-ediscovery-search-exchange-2013-help.md).
+  - Uma pesquisa de descoberta eletrônica tem de ser criado, usando o EAC ou o Shell, antes de copiar os resultados da pesquisa. Para obter detalhes, consulte [Criar uma pesquisa de Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
 
   - Exchange 2013 A instalação cria uma caixa de correio de descoberta chamada de **Caixa de correio de pesquisa de descoberta** para copiar os resultados da pesquisa. A caixa de correio de pesquisa de descoberta também é criada por padrão em Exchange Online. Você pode criar caixas de correio de descoberta adicionais. Para obter detalhes, consulte [Criar uma caixa de correio de descoberta](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/create-a-discovery-mailbox).
 
@@ -71,7 +71,7 @@ Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode usar 
 
 Depois de usar o cmdlet **New-MailboxSearch** para criar uma pesquisa de descoberta eletrônica In-loco, você deve iniciar a pesquisa para copiar mensagens para a caixa de correio de descoberta especificado no parâmetro *TargetMailbox* . Para obter informações sobre como criar pesquisas de descoberta eletrônica usando o Shell, consulte:
 
-  - [Usar o Shell para criar uma pesquisa de Descoberta Eletrônica In-loco](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+  - [Usar o Shell para criar uma pesquisa de Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
 
   - [New-MailboxSearch](https://technet.microsoft.com/pt-br/library/dd298064\(v=exchg.150\))
 
@@ -106,5 +106,5 @@ Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbo
     
       - **Resultados da pesquisa de visualização**   Essa opção permite visualizar os resultados da pesquisa retornados pela pesquisa em vez de informarem copiá-los para uma caixa de correio de descoberta para exibir. Isso permite rapidamente determinar se os resultados da pesquisa são relevantes. Depois que você visualizar os resultados, você pode revisar sua consulta de pesquisa para restringir os resultados da pesquisa e execute novamente a pesquisa. Itens na página visualização são versões somente leitura dos resultados da pesquisa real, portanto você não pode mover, editar, excluir ou encaminhar na página de visualização.
     
-    Para obter mais informações, consulte [estimativa ou visualização de resultados da pesquisa](create-an-in-place-ediscovery-search-exchange-2013-help.md).
+    Para obter mais informações, consulte [estimativa ou visualização de resultados da pesquisa](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search).
 

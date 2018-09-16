@@ -25,7 +25,7 @@ Os recursos de prevenção de perda de dados (DLP) do Exchange 2013 podem ajudar
 
 [Integrando regras de informações confidenciais com regras de transporte](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules)
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 ## Novas ações e predicados
 

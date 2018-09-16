@@ -27,7 +27,7 @@ Para saber mais, consulte os seguintes tópicos:
 
   - [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md)
 
-  - [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 ## O que você precisa saber antes de começar?
 

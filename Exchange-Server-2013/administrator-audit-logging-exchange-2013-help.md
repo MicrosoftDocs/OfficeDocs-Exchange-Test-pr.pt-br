@@ -141,11 +141,11 @@ Cada entrada de log de auditoria contém as informações descritas na tabela a 
 </tr>
 <tr class="even">
 <td><p><code>CmdletParameters</code></p></td>
-<td><p>Este campo contém os parâmetros que foram especificados quando o cmdlet no campo <code>CmdletName</code> foi executado. O valor especificado com o parâmetro, se houver, também é armazenado nesse campo, mas não é visível na saída-padrão. Para obter mais informações sobre como acessar as informações adicionais nesse campo, consulte <a href="search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md">Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador</a>.</p></td>
+<td><p>Este campo contém os parâmetros que foram especificados quando o cmdlet no campo <code>CmdletName</code> foi executado. O valor especificado com o parâmetro, se houver, também é armazenado nesse campo, mas não é visível na saída-padrão. Para obter mais informações sobre como acessar as informações adicionais nesse campo, consulte <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes">Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>ModifiedProperties</code></p></td>
-<td><p>Este campo contém as propriedades que foram modificadas no objeto do campo <code>ObjectModified</code>. O valor antigo da propriedade e o novo valor que foi armazenado também é armazenado nesse campo, mas não é visível na saída-padrão. Para obter mais informações sobre como acessar as informações adicionais nesse campo, consulte <a href="search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md">Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador</a>.</p>
+<td><p>Este campo contém as propriedades que foram modificadas no objeto do campo <code>ObjectModified</code>. O valor antigo da propriedade e o novo valor que foi armazenado também é armazenado nesse campo, mas não é visível na saída-padrão. Para obter mais informações sobre como acessar as informações adicionais nesse campo, consulte <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes">Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador</a>.</p>
 
 > [!IMPORTANT]
 > Esse campo só é preenchido se o parâmetro <EM>LogLevel</EM> no cmdlet <STRONG>Set-AdminAuditLogConfig</STRONG> for definido como <CODE>Verbose</CODE>.
@@ -199,7 +199,7 @@ A página de **auditoria** no EAC possui diversos relatórios que fornecem infor
 
   - **Log de auditoria de administrador**   Este relatório permite que você exporte as entradas de log de auditoria gravadas dentro de um período de tempo especificado para um arquivo XML e depois envie o arquivo por email para um destinatário especificado por você. Para mais informações sobre o conteúdo do arquivo XML, consulte [Estrutura de log de auditoria do administrador](administrator-audit-log-structure-exchange-2013-help.md).
 
-Para mais informações sobre como usar esses relatórios, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Para mais informações sobre como usar esses relatórios, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 Para obter informações sobre outros relatórios incluídos na página de **auditoria**, consulte [Relatórios de auditoria do Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
 
@@ -223,7 +223,7 @@ Quando o cmdlet **Search-AdminAuditLog** é executado, todas as entradas de log 
 
 Cada entrada de log de auditoria retornada contém as informações descritas na tabela de Audit Log Contents. Por padrão, somente as 1.000 primeiras entradas de log que correspondam aos critérios que você especifica são retornadas. Contudo, é possível substituir esse padrão e retornar mais ou menos entradas usando o parâmetro *ResultSize*. É possível especificar um valor de `Unlimited` com o parâmetro *ResultSize* para retornar todas as entradas de log que correspondam aos critérios especificados.
 
-Para obter informações sobre como usar o cmdlet **Search-AdminAuditLog**, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Para obter informações sobre como usar o cmdlet **Search-AdminAuditLog**, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 ## Cmdlet New-AdminAuditLogSearch
 
@@ -239,7 +239,7 @@ Após a execução do cmdlet **New-AdminAuditLogSearch**, o Exchange pode levar 
 
 
 
-Para informações sobre como usar o cmdlet **New-AdminAuditLogSearch**, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Para informações sobre como usar o cmdlet **New-AdminAuditLogSearch**, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 Voltar ao início
 
@@ -257,7 +257,7 @@ Com o cmdlet **Write-AdminAuditLog** , você especifica uma cadeia de textos a s
 
 É possível recuperar as entradas manuais de log de auditoria da mesma maneira que qualquer outra entrada de log, usando a página de **auditoria** do EAC ou usando os cmdlets **Search-AdminAuditLog** ou **New-AdminAuditLogSearch**.
 
-Para exibir o conteúdo do parâmetro *Comment* no cmdlet **Write-AdminAuditLog** em uma entrada manual de log de auditoria, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](search-the-role-group-changes-or-administrator-audit-logs-exchange-2013-help.md).
+Para exibir o conteúdo do parâmetro *Comment* no cmdlet **Write-AdminAuditLog** em uma entrada manual de log de auditoria, consulte [Pesquisar as alterações do grupo de funções ou logs de auditoria do administrador](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/search-role-group-changes).
 
 ## Replicação do Active Directory
 

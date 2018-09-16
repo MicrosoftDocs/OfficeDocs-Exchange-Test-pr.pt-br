@@ -39,7 +39,7 @@ Para obter mais detalhes, consulte os seguintes tópicos:
 
   - [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)
 
-  - [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds)
 
   - [Configurar o eDiscovery no SharePoint 2013](https://go.microsoft.com/fwlink/p/?linkid=257727)
 

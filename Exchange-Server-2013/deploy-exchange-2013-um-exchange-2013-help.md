@@ -33,13 +33,13 @@ Antes de implantar a UM, recomendamos que se familiarize com os conceitos dos se
 
   - [Planos de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans)
 
-  - [Gateways IP de UM](um-ip-gateways-exchange-2013-help.md)
+  - [Gateways IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways)
 
   - [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
 
   - [Grupos de busca de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups)
 
-  - [Responder e rotear as chamadas de entrada automaticamente](automatically-answer-and-route-incoming-calls-exchange-2013-help.md)
+  - [Responder e rotear as chamadas de entrada automaticamente](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
   - [políticas de caixa de correio de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies)
 
@@ -292,7 +292,7 @@ Após concluir uma nova instalação dos servidores de Acesso para Cliente e de 
 
 ## Habilite os usuários para caixa postal
 
-Após ter implantado os gateways VoIP ou IP PBXs, instalado os servidores de Acesso para Cliente e de Caixa de Correio e criado os componentes necessários para a Unificação de Mensagens, você deverá habilitar os usuários para a Unificação de Mensagens. Para obter detalhes, consulte [Habilitar um usuário para caixa postal](enable-a-user-for-voice-mail-exchange-2013-help.md).
+Após ter implantado os gateways VoIP ou IP PBXs, instalado os servidores de Acesso para Cliente e de Caixa de Correio e criado os componentes necessários para a Unificação de Mensagens, você deverá habilitar os usuários para a Unificação de Mensagens. Para obter detalhes, consulte [Habilitar um usuário para caixa postal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
 
 ## Caixa postal protegida
 
@@ -316,7 +316,7 @@ Para usar o protocolo TLS mútuo para criptografar SIP e tráfego de RTP enviado
 
 ## Políticas de PIN para usuários habilitados para UM
 
-Em Unificação de Mensagens, as políticas de PIN são definidas e configuradas em uma política de caixa de correio de UM. Ao permitir que um usuário utilize a Unificação de Mensagens, você associa o usuário a uma política existente de caixa de correio de UM. As diretivas de PIN de UM configuradas na diretiva de caixa de correio de UM devem ser baseadas nos requisitos de segurança de sua organização. Para obter mais informações sobre como definir as configurações de PIN para usuários habilitados para UM, consulte [Definir segurança de PIN do Outlook Voice Access](set-outlook-voice-access-pin-security-exchange-2013-help.md).
+Em Unificação de Mensagens, as políticas de PIN são definidas e configuradas em uma política de caixa de correio de UM. Ao permitir que um usuário utilize a Unificação de Mensagens, você associa o usuário a uma política existente de caixa de correio de UM. As diretivas de PIN de UM configuradas na diretiva de caixa de correio de UM devem ser baseadas nos requisitos de segurança de sua organização. Para obter mais informações sobre como definir as configurações de PIN para usuários habilitados para UM, consulte [Definir segurança de PIN do Outlook Voice Access](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-outlook-voice-access-pin-security/set-outlook-voice-access-pin-security).
 
 ## Configurar Recursos do Cliente de Caixa Postal
 
@@ -326,7 +326,7 @@ Depois de ter implantado seus servidores e os componentes da UM necessários, h�
 
   - [Permitir usuários de email encaminhar chamadas de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-voice-mail-users-to-forward-calls)
 
-  - [Permitir que os usuários vejam uma transcrição do correio de voz](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md)
+  - [Permitir que os usuários vejam uma transcrição do correio de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-see-a-voice-mail-transcript)
 
   - [Permitir que os usuários de email de voz receber faxes](enable-voice-mail-users-to-receive-faxes-exchange-2013-help.md)
 

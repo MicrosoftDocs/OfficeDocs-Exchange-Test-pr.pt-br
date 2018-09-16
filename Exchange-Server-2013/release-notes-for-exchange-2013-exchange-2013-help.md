@@ -107,7 +107,7 @@ Para obter mais informações sobre como instalar o Exchange 2013, consulte [Pla
     
     Iniciando com CU6 do Exchange 2013, se desejar que os remetentes externos para enviar email a um pastas públicas habilitadas para email, o usuário **anônimo** deve ser concedida pelo menos a permissão de **Criar itens**. Se você configurou as pastas públicas habilitadas para email e ainda não tiver feito isso, os remetentes externos receberá uma notificação de falha de entrega e as mensagens não será entregue para a pasta pública habilitada para email.
     
-    Você pode usar o Shell ou o Outlook para definir as permissões do usuário anônimo. Para ler mais sobre como definir permissões em que o usuário anônimo, consulte [Email habilitar ou desabilitar email uma pasta pública](mail-enable-or-mail-disable-a-public-folder-exchange-2013-help.md).
+    Você pode usar o Shell ou o Outlook para definir as permissões do usuário anônimo. Para ler mais sobre como definir permissões em que o usuário anônimo, consulte [Email habilitar ou desabilitar email uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
   - O número máximo de pastas públicas que podem ser migradas para o Exchange 2013 de servidores Exchange herdados é 500.000. Para obter mais informações sobre migração de pastas públicas, consulte [Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md).
 

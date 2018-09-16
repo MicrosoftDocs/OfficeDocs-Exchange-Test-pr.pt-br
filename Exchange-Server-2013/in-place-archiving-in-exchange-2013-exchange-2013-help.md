@@ -279,7 +279,7 @@ Esta seção explica a funcionalidade entre Arquivos Mortos In-Loco e vários re
 
 
 
-  - **Retenção de litígio e In-loco**   Quando uma caixa de correio é colocada em retenção de litígio ou In-loco, a retenção é imposta à caixa de correio principal e à de arquivo morto. Para obter mais informações sobre Retenção In-Loco e Retenção de litígio, consulte [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+  - **Retenção de litígio e In-loco**   Quando uma caixa de correio é colocada em retenção de litígio ou In-loco, a retenção é imposta à caixa de correio principal e à de arquivo morto. Para obter mais informações sobre Retenção In-Loco e Retenção de litígio, consulte [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds).
 
   - **Pasta Itens Recuperáveis   **A caixa de correio de arquivo morto contém sua própria pasta Itens Recuperáveis e está sujeita às mesmas cotas da pasta Itens Recuperáveis que a caixa de correio principal. Para saber mais sobre itens recuperáveis, consulte [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
 

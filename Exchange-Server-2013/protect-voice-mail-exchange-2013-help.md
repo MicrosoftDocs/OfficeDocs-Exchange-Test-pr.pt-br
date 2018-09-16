@@ -243,7 +243,7 @@ Voltar ao início
 
 ## políticas de caixa de correio de UM
 
-Você pode criar uma política de caixa de correio de Unificação de mensagens para aplicar um conjunto comum de configurações de diretiva de Unificação de MENSAGENS, como configurações de diretiva PIN, restrições de discagem e configurações de caixa postal protegida, a uma coleção de caixas de correio habilitadas para UM. Para saber mais sobre políticas de caixa de correio de Unificação de MENSAGENS, consulte [Gerenciar uma política de caixa de correio de Unificação de mensagens](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Você pode criar uma política de caixa de correio de Unificação de mensagens para aplicar um conjunto comum de configurações de diretiva de Unificação de MENSAGENS, como configurações de diretiva PIN, restrições de discagem e configurações de caixa postal protegida, a uma coleção de caixas de correio habilitadas para UM. Para saber mais sobre políticas de caixa de correio de Unificação de MENSAGENS, consulte [Gerenciar uma política de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 Você pode usar o EAC ou o cmdlet **Set-UMMailboxPolicy** no Shell para configurar as opções de caixa postal protegida. A tabela a seguir lista as configurações que podem ser configuradas para caixa postal protegida.
 

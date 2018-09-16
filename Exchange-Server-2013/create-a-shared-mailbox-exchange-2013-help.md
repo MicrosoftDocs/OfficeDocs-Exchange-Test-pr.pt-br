@@ -84,7 +84,7 @@ Este exemplo cria a caixa de correio compartilhada Departamento de Vendas e conc
 
 
 > [!TIP]
-> Este exemplo assume que você já criou o grupo de segurança MarketingSG e o que o grupo de segurança está habilitado para email. Consulte <A href="manage-mail-enabled-security-groups-exchange-2013-help.md">Gerenciar grupos de segurança habilitados para email</A>.
+> Este exemplo assume que você já criou o grupo de segurança MarketingSG e o que o grupo de segurança está habilitado para email. Consulte <A href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Gerenciar grupos de segurança habilitados para email</A>.
 
 
 

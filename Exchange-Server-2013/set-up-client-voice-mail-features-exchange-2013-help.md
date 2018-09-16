@@ -49,7 +49,7 @@ Um usuário habilitado para UM pode criar e configurar regras de atendimento de 
 
 ## Visualização de Caixa Postal
 
-Visualização da Caixa Postal é um recurso disponível a usuários que recebem suas mensagens de caixa postal do sistema de caixa postal de UM. Visualização da Caixa Postal aprimora a experiência de caixa postal, fornecendo uma versão em texto de gravações de áudio. Para obter detalhes, consulte [Permitir que os usuários vejam uma transcrição do correio de voz](allow-users-to-see-a-voice-mail-transcript-exchange-2013-help.md).
+Visualização da Caixa Postal é um recurso disponível a usuários que recebem suas mensagens de caixa postal do sistema de caixa postal de UM. Visualização da Caixa Postal aprimora a experiência de caixa postal, fornecendo uma versão em texto de gravações de áudio. Para obter detalhes, consulte [Permitir que os usuários vejam uma transcrição do correio de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/allow-users-to-see-a-voice-mail-transcript).
 
 ## Recebendo faxes
 

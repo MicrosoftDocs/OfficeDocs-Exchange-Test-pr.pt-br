@@ -265,7 +265,7 @@ Essas são as definições para os termos que você encontrou durante esse proce
 
   - [Como as regras DLP são aplicadas para avaliar mensagens](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/dlp-rule-application)
 
-  - [Criar uma política DLP personalizada](create-a-custom-dlp-policy-exchange-2013-help.md)
+  - [Criar uma política DLP personalizada](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-custom-dlp-policy)
 
   - [O que os tipos de informações confidenciais no Exchange procurar](what-the-sensitive-information-types-in-exchange-look-for-exchange-online-help.md)
 

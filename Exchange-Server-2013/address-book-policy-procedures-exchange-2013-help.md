@@ -23,5 +23,5 @@ _**Tópico modificado em:** 2012-10-11_
 
 [Alterar as configurações de uma política de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/change-the-settings-of-an-address-book-policy)
 
-[Remover uma política de catálogo de endereços](remove-an-address-book-policy-exchange-2013-help.md)
+[Remover uma política de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/remove-an-address-book-policy)
 

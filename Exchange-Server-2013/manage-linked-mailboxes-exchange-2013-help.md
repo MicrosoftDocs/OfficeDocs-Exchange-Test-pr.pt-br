@@ -256,7 +256,7 @@ Use a seção **Recursos da Caixa de Correio** para exibir ou modificar os recur
 
   - **Política de catálogo de endereços**    Esta caixa mostra a política de catálogo de endereços aplicada à caixa de correio. Uma política de catálogo de endereços permite aos usuários do segmento em grupos específicos para fornecer exibições personalizadas do catálogo de endereços. Para aplicar ou alterar a política de catálogo de endereços que é aplicada à caixa de correio, selecione uma opção na lista suspensa.
 
-  - **Unificação de mensagens**    Esse recurso é desabilitado por padrão. Quando você habilita o Unified Messaging (UM) o usuário será capaz de usar os recursos de Unificação de mensagens da sua organização e um conjunto padrão das propriedades de Unificação de mensagens são aplicadas ao usuário. Clique em **Habilitar** para habilitar a Unificação de mensagens da caixa de correio. Para obter informações sobre como habilitar a Unificação de mensagens, consulte [Habilitar um usuário para caixa postal](enable-a-user-for-voice-mail-exchange-2013-help.md).
+  - **Unificação de mensagens**    Esse recurso é desabilitado por padrão. Quando você habilita o Unified Messaging (UM) o usuário será capaz de usar os recursos de Unificação de mensagens da sua organização e um conjunto padrão das propriedades de Unificação de mensagens são aplicadas ao usuário. Clique em **Habilitar** para habilitar a Unificação de mensagens da caixa de correio. Para obter informações sobre como habilitar a Unificação de mensagens, consulte [Habilitar um usuário para caixa postal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail).
     
 
     > [!NOTE]
