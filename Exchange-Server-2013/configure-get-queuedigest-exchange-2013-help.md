@@ -61,7 +61,9 @@ Por padrão, as filas de entrega que possuem o status de Ativa, Conectando, Pron
 
 1.  Em uma janela do Prompt de Comando, abra o arquivo EdgeTransport.exe.config no Bloco de Notas executando o comando a seguir:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Adicione uma ou ambas as chaves a seguir na seção `<appSettings>`.
     
@@ -81,11 +83,15 @@ Por padrão, as filas de entrega que possuem o status de Ativa, Conectando, Pron
 
 5.  Para alterar o valor do parâmetro *QueueDiagnosticsAggregationInterval* no Shell de Gerenciamento do Exchange, use a seguinte sintaxe:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+```
     
     Por exemplo, para alterar o valor para 30 segundos, execute o comando a seguir:
     
-        Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```powershell
+Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+```
 
 ## Como saber se funcionou?
 

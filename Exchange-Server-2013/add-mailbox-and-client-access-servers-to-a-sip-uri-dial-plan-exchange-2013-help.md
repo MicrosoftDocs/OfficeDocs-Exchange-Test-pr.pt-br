@@ -87,7 +87,9 @@ Esse exemplo adiciona o servidor de Caixa de Correio chamado `MyMailboxServer` a
 
 Este exemplo adiciona o servidor de Acesso para Cliente chamado `MyClientAccessServer` e um plano de discagem URI do SIP chamado `MySIPDialPlan`. Ele também define o modo inicial como modo Duplo, que habilita o servidor da Acesso para Cliente a aceitar solicitações TCP e TLS.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```
 
 Esse exemplo adiciona o servidor de Acesso para Cliente chamado `MyClientAccessServer` a dois planos de discagem SIP, chamados `MySIPDialPlan` e `MySIPDialPlan2`, e permite que o servidor use endereços IPv4 e IPv6.
 

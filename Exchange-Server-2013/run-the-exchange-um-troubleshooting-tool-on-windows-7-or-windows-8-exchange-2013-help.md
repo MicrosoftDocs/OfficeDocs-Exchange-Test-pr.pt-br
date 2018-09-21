@@ -77,13 +77,17 @@ A ferramenta de solução de problemas de UM do Microsoft Exchange 2010 é um cm
 
 4.  Se você está executando a Ferramenta de Solução de Problemas de UM no Windows Vista, Windows 7, ou Windows 8, no prompt de comando do Windows PowerShell, execute o seguinte.
     
-        Set-ExecutionPolicy RemoteSigned
+    ```powershell
+Set-ExecutionPolicy RemoteSigned
+```
 
 5.  No menu **Início**, abra a **Ferramenta de Solução de Problemas de UM do Microsoft Exchange 2010**.
 
 6.  Na janela **Ferramenta de Solução de Problemas da UM do Microsoft Exchange 2010**, no prompt, digite o seguinte e pressione Enter.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 7.  Na janela **Solicitação de Credencial do Windows PowerShell**, digite o nome e a senha do domínio/usuário e depois clique em **OK**.
 

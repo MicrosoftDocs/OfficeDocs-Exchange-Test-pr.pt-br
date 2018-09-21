@@ -76,7 +76,9 @@ Para ver outras tarefas de gerenciamento relacionadas ao IRM (Gerenciamento de D
 
   - Para criar uma regra de proteção de transporte, você precisa ter modelos de RMS existentes em sua implantação do AD RMS. Este exemplo recupera os modelos disponíveis do seu cluster do AD RMS.
     
-        Get-RMSTemplate | format-list
+    ```powershell
+Get-RMSTemplate | format-list
+```
     
     Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-RMSTemplate](https://technet.microsoft.com/pt-br/library/dd297960\(v=exchg.150\)).
 

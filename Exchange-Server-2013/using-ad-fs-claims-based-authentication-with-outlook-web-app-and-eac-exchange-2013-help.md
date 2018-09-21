@@ -273,7 +273,9 @@ Para configurar os Serviços de Federação do Active Directory:
 Os seguintes comandos do PowerShell Windows fazem a mesma coisa que as etapas anteriores.
 
 ```
-    Import-Module ADFS
+```powershell
+Import-Module ADFS
+```
 ```
 ```
     Install-AdfsFarm -CertificateThumbprint 0E0C205D252002D535F6D32026B6AB074FB840E7 -FederationServiceDisplayName "Contoso Corporation" -FederationServiceName adfs.contoso.com -GroupServiceAccountIdentifier "contoso\FSgmsa`$"
@@ -431,7 +433,9 @@ Para implantar o Proxy de Aplicativo da Web, é necessário instalar a função 
 
 O cmdlet Windows PowerShell a seguir faz o mesmo que as etapas anteriores.
 
-    Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
+```powershell
+Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
+```
 
 ## Etapa 5: configurar o serviço de função do Proxy de aplicativo Web (opcional)
 
@@ -564,7 +568,9 @@ Depois de concluir todas as etapas necessárias, incluindo as alterações nos d
 
   - Usando o Windows PowerShell:
     
-        Restart-Service W3SVC,WAS -noforce
+    ```powershell
+Restart-Service W3SVC,WAS -noforce
+```
 
   - Usando uma linha de comando: Clique em **Iniciar** e em **Executar**, digite `IISReset /noforce` e clique em **OK**.
 

@@ -87,11 +87,15 @@ Este exemplo define as seguintes configurações do log de acompanhamento de men
 
 Este exemplo desabilita o registro do assunto da mensagem no log de acompanhamento de mensagens no servidor de caixa de correio chamado Mailbox01:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogSubjectLoggingEnabled $false
+```
 
 Este exemplo desabilita o acompanhamento de mensagens no servidor de caixa de correio chamado Mailbox01:
 
-    Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```powershell
+Set-TransportService Mailbox01 -MessageTrackingLogEnabled $false
+```
 
 ## Como saber se funcionou?
 

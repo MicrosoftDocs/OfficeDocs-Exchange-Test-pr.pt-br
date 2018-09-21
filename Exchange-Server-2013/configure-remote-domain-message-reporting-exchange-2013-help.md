@@ -41,9 +41,13 @@ Você pode usar o cmdlet **Set-RemoteDomain** para configurar as propriedades de
 
 Este exemplo desabilita as notificações de entrega para o domínio remoto chamado Contoso. Essa configuração estiver habilitada por padrão.
 
-    Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```powershell
+Set-RemoteDomain Contoso -DeliveryReportEnabled $false
+```
 
 Este exemplo desabilita relatórios de entrega para o domínio remoto. Essa configuração estiver habilitada por padrão.
 
-    Set-RemoteDomain Contoso -NDREnabled $false
+```powershell
+Set-RemoteDomain Contoso -NDREnabled $false
+```
 

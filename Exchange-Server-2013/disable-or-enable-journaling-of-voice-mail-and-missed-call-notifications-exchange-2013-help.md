@@ -41,11 +41,15 @@ Procurando outras tarefas de gerenciamento relacionadas a registro no diário? C
 
 Este exemplo desabilita o registro no diário de notificações de caixa postal e chamadas perdidas com a configuração do parâmetro *VoicemailJournalingEnabled* para `$false`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $false
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $false
+```
 
 Este exemplo habilita o registro no diário de notificações de correio de voz e chamadas não atendidas pela configuração do mesmo parâmetro como `$true`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $true
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $true
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-TransportConfig](https://technet.microsoft.com/pt-br/library/bb124151\(v=exchg.150\)).
 

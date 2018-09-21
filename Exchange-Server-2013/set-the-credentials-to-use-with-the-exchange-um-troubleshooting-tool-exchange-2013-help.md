@@ -59,7 +59,9 @@ Como padrão, ao executar a Ferramenta de solução de problemas da UM, são usa
 
 2.  Na janela **Ferramenta de Solução de Problema de UM do Microsoft Exchange 2010**, no prompt, digite o seguinte e aperte Enter.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 3.  Na janela **Solicitação de Credencial do Windows PowerShell**, digite o nome de usuário/domínio e a senha e depois clique em **OK**.
 

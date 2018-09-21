@@ -138,11 +138,15 @@ Como mostra a tabela anterior, os adaptadores usados para redes de Replicação 
 
 Para configurar o roteamento para os adaptadores de rede de Replicação em MBX1 e MBX2, o comando a seguir foi executado em cada servidor.
 
-    netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```powershell
+netsh interface ipv4 add route 10.0.2.0/24 <NetworkName> 10.0.1.254
+```
 
 Para configurar o roteamento para os adaptadores de rede de Replicação em MBX3 e MBX4, o comando a seguir foi executado em cada servidor.
 
-    netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```powershell
+netsh interface ipv4 add route 10.0.1.0/24 <NetworkName> 10.0.2.254
+```
 
 As seguintes configurações de rede adicionais também foram configuradas:
 
@@ -189,7 +193,9 @@ O comando anterior configura o DAG1 para usar um servidor testemunha alternativo
 
 Os comandos anteriores adicionam cada um dos servidores de caixa de correio, um de cada vez, ao DAG. Os comandos também instalam o componente de Cluster de Failover do Windows em cada servidor de caixa de correio (caso ainda não esteja instalado), cria um cluster de failover e ingressa cada servidor de caixa de correio no cluster recém-criado.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -DatacenterActivationMode DagOnly
+```
 
 O comando anterior habilita o modo DAC para o DAG.
 

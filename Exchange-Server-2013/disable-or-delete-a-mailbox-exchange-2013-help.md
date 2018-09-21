@@ -133,20 +133,26 @@ A caixa de correio é removida da lista de caixas de correio.
 
 Use o seguinte comando para desabilitar caixas de correio de usuário, caixas de correio vinculadas, caixas de correio de recurso e caixas de correio compartilhadas.
 
-    Disable-Mailbox <identity>
+```powershell
+Disable-Mailbox <identity>
+```
 
 Quando você executa esse comando, uma mensagem é exibida que pede para você confirmar se deseja desabilitar a caixa de correio.
 
 Aqui estão alguns exemplos de comandos para desabilitar as caixas de correio.
 
 ```
-    Disable-Mailbox danj
+```powershell
+Disable-Mailbox danj
+```
 ```
 ```
     Disable-Mailbox "Conf Room 31/1234 (12)"
 ```
 ```
-    Disable-Mailbox sharedmbx@contoso.com
+```powershell
+Disable-Mailbox sharedmbx@contoso.com
+```
 ```
 
 ## Como saber se funcionou?
@@ -171,7 +177,9 @@ Para confirmar se você desabilitou uma caixa de correio com êxito, siga um des
 
   - No Shell, execute o comando a seguir.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     O valor para a propriedade *RecipientType* é `User`, em vez de `UserMailbox`, que é o valor para usuários com caixas de correio habilitadas. Isso também confirma que a caixa de correio está desabilitada, mas a conta de usuário é mantida.
 
@@ -195,21 +203,27 @@ A caixa de correio é removida da lista de caixas de correio.
 
 Use o seguinte comando para excluir caixas de correio de usuário, caixas de correio vinculadas, caixas de correio de recurso e caixas de correio compartilhadas.
 
-    Remove-Mailbox <identity>
+```powershell
+Remove-Mailbox <identity>
+```
 
 Quando você executa esse comando, uma mensagem é exibida que pede para você confirmar se deseja remover a caixa de correio e a conta de usuário do Active Directory correspondente.
 
 Aqui estão alguns exemplos de comandos para excluir caixas de correio.
 
 ```
-    Remove-Mailbox pilarp@contoso.com
+```powershell
+Remove-Mailbox pilarp@contoso.com
+```
 ```
 ```
     Remove-Mailbox "Fleet Van (16)"
 ```
 
 ```
-    Remove-Mailbox corpprint
+```powershell
+Remove-Mailbox corpprint
+```
 ```
 
 ## Como saber se funcionou?
@@ -236,7 +250,9 @@ Ou
 
 2.  Execute o seguinte comando para verificar se a conta de usuário do Active Directory foi excluída.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     O comando retornará um erro que diz que o usuário não foi encontrado, confirmando que a conta foi excluída.
 

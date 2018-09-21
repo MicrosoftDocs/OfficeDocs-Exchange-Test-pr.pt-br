@@ -89,7 +89,9 @@ Este exemplo usa o script `Move-PublicFolderBranch.ps1` para mover uma ramifica�
 
 Para verificar se a solicitação de movimentação de pasta pública foi bem-sucedida, execute o comando a seguir:
 
-    Get-PublicFolderMoveRequest | Format-List Status
+```powershell
+Get-PublicFolderMoveRequest | Format-List Status
+```
 
 Um status de `Completed` indica que a solicitação de movimentação foi realizada com êxito.
 

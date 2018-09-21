@@ -212,11 +212,15 @@ Neste exemplo, o número de colunas é restrito a quatro com o parâmetro *Colum
 
 O cmdlet **Out-Host** é um cmdlet padrão invisível no final da pipeline. Depois que toda a formatação é aplicada, o cmdlet **Out-Host** envia a saída final para a janela do console, para exibição. Você não precisa chamar expressamente o cmdlet **Out-Host**, porque ele é a saída padrão. É possível substituir o envio da saída para a janela do console, chamando o cmdlet **Out-File** como o último cmdlet no comando. O cmdlet **Out-File** então grava a saída no arquivo especificado no comando, como no exemplo a seguir:
 
-    Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 | Out-File c:\OutputFile.txt
+```
 
 Neste exemplo, o cmdlet **Out-File** grava as informações exibidas no comando **Get-ChildItem | Format-Wide -Column 4** em um arquivo chamado `OutputFile.txt`. Você pode também redirecionar a saída da pipeline para um arquivo com o operador de redirecionamento, que é o sinal de maior que ( `>` ). Para anexar a saída da pipeline de um comando para um arquivo existente sem substituir o arquivo original, use o caractere de sinal de maior que duplo (`>>` ), como no exemplo a seguir:
 
-    Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```powershell
+Get-ChildItem | Format-Wide -Column 4 >> C:\OutputFile.txt
+```
 
 Neste exemplo, a saída do cmdlet **Get-Childitem** está canalizada para o cmdlet **Format-Wide** para formatação e, em seguida, é gravada no final do arquivo `OutputFile.txt`. Observe que, se o arquivo `OutputFile.txt` não existisse, o uso do sinal de maior do que duplo ( `>>` ) criaria o arquivo.
 
@@ -249,7 +253,9 @@ Para usar esse script, salve-o no diretório `C:\Program Files\Microsoft\Exchang
 
 O script `Out-Ie` presume que os dados recebidos são HTML válido. Para converter os dados que deseja exibir em HTML, canalize os resultados do comando para o cmdlet **ConvertTo-Html**. Em seguida, canalize os resultados desse comando para o script `Out-Ie`. O exemplo a seguir mostra como exibir uma listagem de diretório em uma janela do Internet Explorer:
 
-    Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```powershell
+Get-ChildItem | Select Name,Length | ConvertTo-Html | Out-Ie
+```
 
 ## Como filtrar os dados
 

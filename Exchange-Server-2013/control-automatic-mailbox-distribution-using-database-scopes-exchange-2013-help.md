@@ -63,7 +63,9 @@ Nessa etapa, decida quais bancos de dados deseja incluir no escopo de banco de d
 
 Use uma lista de banco de dados se quiser definir uma lista estática de bancos de dados de caixa de correio que não devem ser incluídos nesse escopo. Use a seguinte sintaxe para criar um escopo de lista de bancos de dados.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 Esse exemplo cria um escopo que se aplica somente aos bancos de dados Banco de Dados 1, Banco de Dados 2 e Banco de Dados 3.
 
@@ -79,7 +81,9 @@ Para uma lista das propriedades de banco de dados filtráveis, consulte [Noçõe
 
 Use a seguinte sintaxe para criar um escopo de filtro de bancos de dados.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 Este exemplo cria um escopo que inclui todos os bancos de dados que contêm a cadeia de caracteres "ACCT" na propriedade **Name** do banco de dados.
 

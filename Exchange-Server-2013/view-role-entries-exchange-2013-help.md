@@ -95,11 +95,15 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Manag
 
 Para exibir os detalhes de uma entrada de função única, use a seguinte sintaxe.
 
-    Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```powershell
+Get-ManagementRoleEntry <role name>\<cmdlet name> | Format-List
+```
 
 Este exemplo recupera os detalhes da entrada da função **Set-Mailbox** na função `Recipient Administrators` .
 
-    Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```powershell
+Get-ManagementRoleEntry "Recipient Administrators\Set-Mailbox" | Format-List
+```
 
 Se a entrada de função que você exibir tiver muitos parâmetros para listar usando o cmdlet **Format-List** , consulte "Exibir os parâmetros em uma entrada de função única" neste tópico.
 

@@ -33,7 +33,9 @@ Por padrão, somente membros do grupo de funções de Gerenciamento de Organiza�
 
 Você pode usar o comando a seguir para exibir uma lista de usuários ou USGs (Grupos de Segurança Universal) que sejam membros deste grupo de função.
 
-    Get-RoleGroupMember "Recipient Management"
+```powershell
+Get-RoleGroupMember "Recipient Management"
+```
 
 Para mais informações sobre os membros de um grupo de função, consulte [View the members of a role group](manage-role-group-members-exchange-2013-help.md) em [Gerenciar membros do grupo de função](manage-role-group-members-exchange-2013-help.md).
 

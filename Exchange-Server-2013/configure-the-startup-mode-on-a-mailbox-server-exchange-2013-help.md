@@ -67,9 +67,13 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a Unificação de
 
 Este exemplo define o modo de inicialização para um servidor de Caixa de Correio chamado `MyUMServer1` como modo Duplo.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode Dual
+```
 
 Este exemplo define o modo de inicialização para um servidor de Caixa de Correio chamado `MyUMServer1` como modo TLS.
 
-    Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```powershell
+Set-UMService -Identity MyUMServer1 -UMStartUpMode TLS
+```
 

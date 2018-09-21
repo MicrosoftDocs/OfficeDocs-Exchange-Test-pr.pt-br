@@ -45,11 +45,15 @@ Quando a funcionalidade de filtragem de remetente está habilitada em um servido
 
 Para desabilitar a filtragem de remetente, execute o seguinte comando:
 
-    Set-SenderFilterConfig -Enabled $false
+```powershell
+Set-SenderFilterConfig -Enabled $false
+```
 
 Para habilitar a filtragem de remetente, execute o seguinte comando:
 
-    Set-SenderFilterConfig -Enabled $true
+```powershell
+Set-SenderFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -63,7 +67,9 @@ Para verificar que você tiver com êxito habilitou ou desabilitou a filtragem d
 
 1.  Execute o seguinte comando:
     
-        Get-SenderFilterConfig | Format-List Enabled
+    ```powershell
+Get-SenderFilterConfig | Format-List Enabled
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -99,7 +105,9 @@ Para verificar se você configurou com êxito remetentes bloqueados, faça o seg
 
 1.  Execute o seguinte comando:
     
-        Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```powershell
+Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -107,11 +115,15 @@ Para verificar se você configurou com êxito remetentes bloqueados, faça o seg
 
 Para habilitar ou desabilitar a mensagem de bloqueio com remetentes em branco, execute o seguinte comando:
 
-    Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```
 
 Este exemplo configura o agente de filtro de remetente para bloquear mensagens que não especificar um remetente em MAIL FROM: comando SMTP:
 
-    Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```
 
 ## Como saber se funcionou?
 
@@ -119,7 +131,9 @@ Para verificar que você com êxito habilitada ou desabilitada bloqueio mensagen
 
 1.  Execute o seguinte comando:
     
-        Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```powershell
+Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 

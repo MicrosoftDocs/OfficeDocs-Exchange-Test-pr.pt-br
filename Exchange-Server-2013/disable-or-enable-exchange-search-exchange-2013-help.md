@@ -90,16 +90,24 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 Execute os seguintes comandos para interromper e desabilitar o serviço de Pesquisa do Microsoft Exchange.
 
 ```
-    Stop-Service MSExchangeFastSearch
+```powershell
+Stop-Service MSExchangeFastSearch
 ```
 ```
-    Set-Service MSExchangeFastSearch -StartupType Disabled
+```
+```powershell
+Set-Service MSExchangeFastSearch -StartupType Disabled
+```
 ```
 Execute os seguintes comandos para configurar o serviço de Pesquisa do Exchange de modo ele seja iniciado automaticamente e depois inicie o serviço.
 
 ```
-    Set-Service MSExchangeFastSearch -StartupType Automatic
+```powershell
+Set-Service MSExchangeFastSearch -StartupType Automatic
 ```
 ```
-    Start-Service MSExchangeFastSearch
+```
+```powershell
+Start-Service MSExchangeFastSearch
+```
 ```

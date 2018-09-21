@@ -127,7 +127,9 @@ Este exemplo inscreve um servidor de Transporte de Borda no site especificado e 
 
 Este exemplo exporta um arquivo de Inscrição de Borda.
 
-    New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```powershell
+New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```
 
 
 > [!NOTE]  

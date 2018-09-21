@@ -41,11 +41,15 @@ Para tarefas de gerenciamento adicionais relacionadas a RDBs, consulte [Bancos d
 
 2.  Use o Eseutil para deixar esse banco de dados em um estado de desligamento normal. No exemplo anterior, o EXX é o prefixo de geração de log do banco de dados (por exemplo, E00, E01, E02 e assim por diante).
     
-        Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
+    ```powershell
+Eseutil /R EXX /l <RDBLogFilePath> /d <RDBEdbFolder>
+```
     
     O exemplo a seguir ilustra uma geração de log do prefixo E01 e um banco de dados de recuperação e um caminho do arquivo de log do E:\\Databases\\RDB1:
     
-        Eseutil /R E01 /l E:\Databases\RDB1 /d E:\Databases\RDB1
+    ```powershell
+Eseutil /R E01 /l E:\Databases\RDB1 /d E:\Databases\RDB1
+```
 
 3.  Criar um banco de dados de recuperação. Dê um nome único ao banco de dados de recuperação, mas use o nome e o caminho do arquivo do banco de dados para o parâmetro EdbFilePath e a localização dos arquivos de log recuperados para o parâmetro LogFolderPath.
     
@@ -57,15 +61,21 @@ Para tarefas de gerenciamento adicionais relacionadas a RDBs, consulte [Bancos d
 
 4.  Reinicie o serviço Repositório de Informações do Microsoft Exchange:
     
-        Restart-Service MSExchangeIS
+    ```powershell
+Restart-Service MSExchangeIS
+```
 
 5.  Monte o banco de dados de recuperação:
     
-        Mount-database <RDBName>
+    ```powershell
+Mount-database <RDBName>
+```
 
 6.  Verifique se o banco de dados montado contém a(s) caixa(s) de correio que deseja restaurar:
     
-        Get-MailboxStatistics -Database <RDBName> | ft -auto
+    ```powershell
+Get-MailboxStatistics -Database <RDBName> | ft -auto
+```
 
 7.  Use o cmdlet New-MailboxRestoreRequest para restaurar uma caixa de correio ou itens do banco de dados de recuperação para uma caixa de correio de produção.
     
@@ -81,7 +91,9 @@ Para tarefas de gerenciamento adicionais relacionadas a RDBs, consulte [Bancos d
     
     Uma vez que a restauração tenha o status de Concluída, remova a solicitação de restauração usando [Remove-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829910\(v=exchg.150\)). Por exemplo:
     
-        Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+    ```powershell
+Get-MailboxRestoreRequest -Status Completed | Remove-MailboxRestoreRequest
+```
 
 ## Como saber se funcionou?
 

@@ -57,5 +57,7 @@ Para conhecer tarefas adicionais relacionadas a servidores de Unificação de Me
 
 Este exemplo define a porta de escuta TCP em um servidor de Acesso chamado `MyClientAccessServer` para Cliente como 5566.
 
-    Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```powershell
+Set-UMCallRouterSettings -Server MyClientAccessServer -SipTCPListeningPort 5566
+```
 

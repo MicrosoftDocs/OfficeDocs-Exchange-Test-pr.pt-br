@@ -65,11 +65,15 @@ Para tarefas adicionais relacionadas às caixas de correio da UM, consulte [Proc
 
 Este exemplo permite o acesso à caixa postal sem PIN em uma política de caixa de correio da UM chamada `MyUMMailboxPolicy` para usuários associados à política de caixa de correio que discarem para o Outlook Voice Access.
 
-    Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```powershell
+Set-UMMailboxPolicy -id MyUMMailboxPolicy -AllowPinlessVoiceMailAccess $true
+```
 
 ## Usar o Shell para habilitar acesso sem PIN à caixa postal em uma caixa de correio de usuário habilitado para a UM
 
 Este exemplo permite o acesso à caixa postal sem PIN para o usuário que discar para o Outlook Voice Access para alcançar a caixa de correio chamada `tonys@contoso.com`.
 
-    Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```powershell
+Set-UMMailbox -id tonys@contoso.com -PinlessAccessToVoiceMailEnabled $true
+```
 

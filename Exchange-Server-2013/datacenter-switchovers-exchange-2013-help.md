@@ -67,16 +67,22 @@ Quando o DAG não estiver em modo DAC, as ativações específicas para encerrar
 
 1.  Os membros DAG no datacenter principal devem ser forçados do cluster subjacente do DAG executando os seguintes comandos em cada membro:
     
-        net stop clussvc
+    ```powershell
+net stop clussvc
+```
         cluster <DAGName> node <DAGMemberName> /forcecleanup
 
 2.  Os membros DAG no segundo datacenter devem agora ser reiniciados e, em seguida, usados para concluir o processo de remoção do segundo datacenter. Pare o serviço de cluster em cada membro DAG no segundo datacenter executando o seguinte comando em cada membro:
     
-        net stop clussvc
+    ```powershell
+net stop clussvc
+```
 
 3.  Em um membro DAG no segundo datacenter, force um início de quorum do serviço de Cluster executando o seguinte comando:
     
-        net start clussvc /forcequorum
+    ```powershell
+net start clussvc /forcequorum
+```
 
 4.  Abra a ferramenta de Gerenciamento de Cluster de Failover e conecte-se ao cluster subjacente do DAG. Expanda o cluster e expanda **Nós**. Com o botão direito do mouse, clique em cada modo no datacenter principal e selecione **Mais Ações** e, em seguida, **Remover**. Quando estiver removendo os membros DAG no datacenter principal, feche a ferramenta Gerenciamento de Cluster de Failover.
 
@@ -106,15 +112,21 @@ Quando o DAG não estiver em modo DAC, as etapas para a conclusão da ativação
     
     1.  Se houver um número ímpar de membros DAG, altere o modelo do quorum DAG de um Nó, um Compartilhamento de Arquivo Principais para um quorum de Nó principal executando o seguinte comando:
         
-            cluster <DAGName> /quorum /nodemajority
+        ```powershell
+cluster <DAGName> /quorum /nodemajority
+```
     
     2.  Se houver um número par de membros DAG, reconfigure o servidor e o diretório testemunha executando o seguinte comando no Shell de Gerenciamento do Exchange:
         
-            Set-DatabaseAvailabilityGroup <DAGName> -WitnessServer <ServerName>
+        ```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -WitnessServer <ServerName>
+```
 
 2.  Inicie o serviço de Cluster em quaisquer membros DAG remanescentes no segundo datacenter executando o seguinte comando:
     
-        net start clussvc
+    ```powershell
+net start clussvc
+```
 
 3.  Execute alternâncias de servidor para ativar os banco de dados da caixa de correio no DAG executando o seguinte comando para cada membro DAG:
     
@@ -122,7 +134,9 @@ Quando o DAG não estiver em modo DAC, as etapas para a conclusão da ativação
 
 4.  Monte os banco de dados da caixa de correio em cada membro DAG no segundo site executando o seguinte comando:
     
-        Get-MailboxDatabase <DAGMemberinSecondSite> | Mount-Database
+    ```powershell
+Get-MailboxDatabase <DAGMemberinSecondSite> | Mount-Database
+```
 
 Voltar ao início
 

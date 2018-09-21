@@ -87,7 +87,9 @@ Para obter mais informações sobre filtros do escopo de gerenciamento e para ob
 
 Use a sintaxe a seguir para criar um escopo de filtro do servidor.
 
-    New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
+```
 
 Este exemplo cria um escopo que inclui todos os servidores dentro do ' CN = Redmond, CN = Sites, CN = Configuration, DC = contoso, DC = com' site do AD (Active Directory ).
 
@@ -101,11 +103,15 @@ Escopos de configuração baseada na lista de servidor são criados usando-se o 
 
 Use a seguinte sintaxe para criar um escopo de lista do servidor.
 
-    New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```powershell
+New-ManagementScope -Name <scope name> -ServerList <server 1>, <server 2...>
+```
 
 Este exemplo cria um escopo que se aplica somente a MBX1, MBX3 e MBX5.
 
-    New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```powershell
+New-ManagementScope -Name "Mailbox servers" -ServerList MBX1,MBX3,MBX5
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementScope](https://technet.microsoft.com/pt-br/library/dd335137\(v=exchg.150\)).
 
@@ -123,7 +129,9 @@ Para obter mais informações sobre filtros do escopo de gerenciamento e para ob
 
 Use a sintaxe a seguir para criar um filtro de restrição de banco de dados.
 
-    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+```
 
 Este exemplo cria um escopo que inclui todos os bancos de dados que contêm a cadeia de caracteres "Executivo" na propriedade **Name** do banco de dados.
 
@@ -143,11 +151,15 @@ Escopos de configuração baseada na lista de banco de dados são criados usando
 
 Use a seguinte sintaxe para criar um escopo de lista do banco de dados.
 
-    New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```powershell
+New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2...>
+```
 
 Esse exemplo cria um escopo que se aplica somente aos bancos de dados Banco de Dados 1, Banco de Dados 2 e Banco de Dados 3.
 
-    New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```powershell
+New-ManagementScope -Name "Primary databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementScope](https://technet.microsoft.com/pt-br/library/dd335137\(v=exchg.150\)).
 

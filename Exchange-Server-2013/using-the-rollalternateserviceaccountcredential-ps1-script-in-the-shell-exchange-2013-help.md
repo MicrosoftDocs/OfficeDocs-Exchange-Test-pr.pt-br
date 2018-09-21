@@ -265,5 +265,7 @@ Este exemplo mostra como você pode usar o script para distribuir o ASA para um 
 
 Você precisa atualizar a credencial ASA antes que o servidor de acesso para cliente recebe o tráfego. Copie a credencial ASA compartilhada de qualquer servidor de acesso para cliente que já está configurado corretamente. Por exemplo, se servidor A tem atualmente uma credencial ASA de trabalho e servidor B recém adicionada à matriz, você pode usar o script para copiar a credencial (incluindo a senha) de servidor A para servidor B. Isso é útil se o servidor B foi pressionada ou ainda não é um membro da matriz quando a senha foi revertida a última vez.
 
-    .\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```powershell
+.\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```
 

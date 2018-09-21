@@ -61,11 +61,15 @@ Após definir o tempo limite de conexões para POP3, é preciso reiniciar os ser
 
 Este exemplo define o tempo limite de conexão para conexões autenticadas ociosas.
 
-    Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 Este exemplo define o tempo limite de conexão para conexões não autenticadas ociosas.
 
-    Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -PopSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Após definir o tempo limite de conexões para POP3, é preciso reiniciar os serviços POP3 para que as configurações entrem em vigor. Para obter informações sobre como reiniciar os serviços POP3, consulte [Iniciar e interromper os serviços POP3](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ Ou
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Verifique se as configurações de conexão estão corretas.
 

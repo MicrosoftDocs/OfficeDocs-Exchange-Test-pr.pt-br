@@ -71,7 +71,9 @@ Você pode precisar exibir as regras e ações de uma política DLP existente qu
 
 Este exemplo retorna informações sobre a política DLP fictícia chamada Employee Numbers. O comando é canalizado para o cmdlet **Format-List** para exibir a configuração detalhada de política de DLP especificada.
 
-    Get-DlpPolicy "Employee Numbers" | Format-List
+```powershell
+Get-DlpPolicy "Employee Numbers" | Format-List
+```
 
 Para obter informações de sintaxe e parâmetros, consulte [Get-DlpPolicy](https://technet.microsoft.com/pt-br/library/jj215752\(v=exchg.150\)).
 
@@ -101,7 +103,9 @@ Você pode alterar uma política existente de DLP, modificando o nome da políti
 
 Você pode especificar o nível de notificação e a ação de uma diretiva usando o Shell de gerenciamento do Exchange. Este exemplo define o modo para uma política de DLP fictícia chamada Employee Numbers para que as ações não são impostas e mensagens de notificação não são exibidas.
 
-    Set-DlpPolicy "Employee Numbers" -Mode Audit
+```powershell
+Set-DlpPolicy "Employee Numbers" -Mode Audit
+```
 
 Para obter informações de sintaxe e parâmetros, consulte [Set-DlpPolicy](https://technet.microsoft.com/pt-br/library/jj215778\(v=exchg.150\)).
 
@@ -121,7 +125,9 @@ Como alternativa, você pode definir o estado operacional ou o modo de uma polí
 
 Este exemplo remove a política de DLP fictícia chamada Employee Numbers.
 
-    Remove-DlpPolicy "Employee Numbers"
+```powershell
+Remove-DlpPolicy "Employee Numbers"
+```
 
 Para obter informações de sintaxe e parâmetros, consulte [Remove-DlpPolicy](https://technet.microsoft.com/pt-br/library/jj215677\(v=exchg.150\)).
 

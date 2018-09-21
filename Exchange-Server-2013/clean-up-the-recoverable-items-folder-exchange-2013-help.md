@@ -104,7 +104,9 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 4.  Recupere a configuração atual de Assistente de pasta gerenciada do ciclo de trabalho. Certifique-se observar a configuração para uso futuro.
     
-        Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```powershell
+Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+```
 
 5.  Desabilite o acesso do cliente à caixa de correio para certificar-se de que não há alterações podem ser feitas aos dados de caixa de correio para a duração deste procedimento.
     
@@ -116,7 +118,9 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 7.  Desative o Assistente de pasta gerenciada no servidor de caixa de correio.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+```
     
 
     > [!IMPORTANT]
@@ -126,7 +130,9 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 8.  Desabilitar a recuperação de item único e remova a caixa de correio de litígio.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+```
     
 
     > [!IMPORTANT]
@@ -150,7 +156,9 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 10. Se a caixa de correio foi colocada em retenção de litígio ou tinha a recuperação de item único habilitada anteriormente, habilitá-los novamente.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```powershell
+Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+```
     
 
     > [!IMPORTANT]
@@ -180,7 +188,9 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 12. Ative o Assistente de pasta gerenciada, definindo o ciclo de trabalho de volta para o valor que você anotou na etapa 4. Este exemplo define o ciclo de trabalho para um dia.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 13. Habilite acesso para cliente.
     

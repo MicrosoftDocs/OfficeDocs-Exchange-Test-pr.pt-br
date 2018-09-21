@@ -43,11 +43,15 @@ A funcionalidade de ID de remetente é fornecida pelo agente ID do Remetente. A 
 
 Para desabilitar a Identificação de Remetente, execute o seguinte comando:
 
-    Set-SenderIDConfig -Enabled $false
+```powershell
+Set-SenderIDConfig -Enabled $false
+```
 
 Para habilitar a Identificação de Remetente, execute o seguinte comando:
 
-    Set-SenderIDConfig -Enabled $true
+```powershell
+Set-SenderIDConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Para verificar se você habilitou ou desabilitou com êxito a ID de Remetente, f
 
 1.  Execute o seguinte comando:
     
-        Get-SenderIDConfig | Format-List Enabled
+    ```powershell
+Get-SenderIDConfig | Format-List Enabled
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -69,11 +75,15 @@ Para verificar se você habilitou ou desabilitou com êxito a ID de Remetente, f
 
 Para configurar a ação da ID de Remetente para mensagens falsificadas, execute este comando:
 
-    Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction <StampStatus | Reject | Delete>
+```
 
 Este exemplo configura a ID de Remetente para rejeitar quaisquer mensagens em que o endereço IP do servidor de envio não esteja listado como servidor de envio SMTP autoritativo no registro de Estrutura de Política de Remetente (SPF) DNS para o domínio de envio.
 
-    Set-SenderIDConfig -SpoofedDomainAction Reject
+```powershell
+Set-SenderIDConfig -SpoofedDomainAction Reject
+```
 
 ## Como saber se funcionou?
 
@@ -81,7 +91,9 @@ Para verificar se você configurou com êxito a ação da ID de Remetente para a
 
 1.  Execute o seguinte comando:
     
-        Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```powershell
+Get-SenderIDConfig | Format-List SpoofedDomainAction
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -89,11 +101,15 @@ Para verificar se você configurou com êxito a ação da ID de Remetente para a
 
 Para configurar a ação da ID de Remetente para erros transitórios, execute este comando:
 
-    Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```powershell
+Set-SenderIDConfig -TempErrorAction <StampStatus | Reject | Delete>
+```
 
 Este exemplo configura o agente da ID de Remetente para carimbar as mensagens para as quais o status da ID de Remetente não pode ser determinado devido a um erro temporário no servidor DNS. A mensagem será processada por outros agentes antispam e o agente Filtro de Conteúdo usará a marca ao determinar o valor SCL da mensagem.
 
-    Set-SenderIDConfig -TempErrorAction StampStatus
+```powershell
+Set-SenderIDConfig -TempErrorAction StampStatus
+```
 
 Observe que `StampStatus` é o valor padrão para o parâmetro *TempErrorAction*.
 
@@ -103,7 +119,9 @@ Para verificar se você configurou com êxito a ação da ID de Remetente para e
 
 1.  Execute o seguinte comando:
     
-        Get-SenderIDConfig | Format-List TempErrorAction
+    ```powershell
+Get-SenderIDConfig | Format-List TempErrorAction
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -137,7 +155,9 @@ Para verificar se você configurou com êxito as exceções de domínios de dest
 
 1.  Execute o seguinte comando:
     
-        Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```powershell
+Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 

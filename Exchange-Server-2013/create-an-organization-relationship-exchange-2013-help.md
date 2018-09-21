@@ -113,7 +113,9 @@ A conclusão bem-sucedida do assistente **Novo relacionamento de organização**
 
 Para verificar mais ainda se você criou o relacionamento de organização com êxito, execute o seguinte comando do Shell, para verificar as informações de relacionamento de organização:
 
-    Get-OrganizationRelationship | format-list
+```powershell
+Get-OrganizationRelationship | format-list
+```
 
 
 > [!TIP]

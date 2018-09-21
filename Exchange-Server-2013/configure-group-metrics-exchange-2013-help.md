@@ -49,11 +49,15 @@ Você pode habilitar ou desabilitar a geração de métricas de grupo em um serv
 
 Para ativar ou desativar a geração de métricas de grupo em um servidor de caixa de correio, execute o seguinte comando:
 
-    Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```powershell
+Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```
 
 Este exemplo habilita a geração de métricas de grupo em um servidor de caixa de correio chamado MBX1.
 
-    Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```powershell
+Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```
 
 ## Como saber se funcionou?
 
@@ -61,7 +65,9 @@ Para verificar que você com êxito habilitada ou desabilitada geração de mét
 
 1.  Execute o seguinte comando:
     
-        Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```powershell
+Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+```
 
 2.  Verifique se a configuração exibida é a configuração que você configurou.
 

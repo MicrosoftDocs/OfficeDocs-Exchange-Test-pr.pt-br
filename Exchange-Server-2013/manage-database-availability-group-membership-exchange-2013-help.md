@@ -63,15 +63,21 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 Este exemplo adiciona o servidor de Caixa de Correio MBX1 ao DAG DAG1.
 
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 Este exemplo remove a o servidor de Caixa de Correio MBX1 do DAG DAG1. Antes de executar este comando, verifique se não há nenhum banco de dados replicado no servidor de Caixa de Correio.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 Este exemplo remove as configurações do servidor de Caixa de Correio MBX4 do DAG2 DAG. O MBX4 deve permanecer offline por um longo período, por isso suas configurações são removidas de um DAG enquanto ele estiver offline para estabelecer quórum com os membros do DAG online remanescente.
 
-    Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG2 -MailboxServer MBX4 -ConfigurationOnly
+```
 
 ## Como saber se funcionou?
 
@@ -81,7 +87,9 @@ Para verificar se você gerenciou com êxito a associação ao DAG, execute um d
 
   - No Shell, execute o comando a seguir para exibir as informações de associação ao DAG.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+```
 
 ## Para obter mais informações
 

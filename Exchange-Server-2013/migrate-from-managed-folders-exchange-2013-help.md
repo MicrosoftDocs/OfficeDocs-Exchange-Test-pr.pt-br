@@ -314,7 +314,9 @@ Entrada "Aplicando políticas de retenção", no tópico [Permissões de políti
 
 Este exemplo remove a politica da caixa de correio de pasta gerenciada e qualquer pasta da caixa de correio de Ken Kwok. Pastas gerenciadas que possuem qualquer mensagem não são removidas.
 
-    Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```
 
 ## Etapa 4: Aplicar a diretiva de retenção a caixas de correio do usuário
 
@@ -328,7 +330,9 @@ Entrada "Aplicando políticas de retenção", no tópico [Permissões de políti
 
 Este exemplo aplica a diretiva de retenção recém-criada RP-Corp à caixa de correio do usuário Ken Kwok.
 
-    Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -346,5 +350,7 @@ Para verificar se você migrou de pastas gerenciadas para políticas de retenç�
     
     Este comando reccupera as marcas de retenção efetivamente aplicadas na caixa de coreeio de April Stewart.
     
-        Get-RetentionPolicyTag -Mailbox astewart
+    ```powershell
+Get-RetentionPolicyTag -Mailbox astewart
+```
 

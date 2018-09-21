@@ -309,7 +309,9 @@ Quando você criar a OAB, inclua a GAL apropriada, ao fornecer o parâmetro *Add
 
 Este exemplo cria o OAB para Fabrikam chamado OAB\_FAB.
 
-    New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```powershell
+New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
+```
 
 Para mais informações, consulte [Criar um catálogo de endereços offline](https://docs.microsoft.com/pt-br/exchange/address-books/offline-address-books/create-offline-address-book).
 

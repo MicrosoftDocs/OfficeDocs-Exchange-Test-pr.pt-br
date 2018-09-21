@@ -59,7 +59,9 @@ O contato de email será removido da lista Contatos.
 
 Este exemplo desabilita o email para o contato de email Neil Black.
 
-    Disable-MailContact -Identity "Neil Black"
+```powershell
+Disable-MailContact -Identity "Neil Black"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Disable-MailContact](https://technet.microsoft.com/pt-br/library/aa997465\(v=exchg.150\)).
 
@@ -73,13 +75,17 @@ Para verificar se você desabilitou com êxito email para um contato de email, s
 
 3.  No Shell, execute o comando a seguir.
     
-        Get-MailContact
+    ```powershell
+Get-MailContact
+```
     
     O que você desabilitou o email para contato não será retornado nos resultados da porque este cmdlet retorna apenas os contatos habilitados para email.
 
 4.  No Shell, execute o comando a seguir.
     
-        Get-Contact
+    ```powershell
+Get-Contact
+```
     
     O que você desabilitou o email para contato é retornado nos resultados da porque este cmdlet retorna todos os objetos de contato do Active Directory.
 
@@ -91,7 +97,9 @@ Você pode usar o cmdlet **Enable-MailContact** para ativar o email de contatos 
 
 Este exemplo habilita para email do contato Rene Valdes. Você deve fornecer um endereço de email externo.
 
-    Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```powershell
+Enable-MailContact -Identity "Rene Valdes" -ExternalEmailAddress renev@tailspintoys.com
+```
 
 ## Use o Shell e um arquivo CSV para habilitar email vários contatos
 
@@ -141,5 +149,7 @@ Para verificar se você tiver contatos habilitados para email com êxito do Acti
 
   - No Shell, execute o seguinte comando para exibir informações sobre novos contatos de email.
     
-        Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```powershell
+Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+```
 

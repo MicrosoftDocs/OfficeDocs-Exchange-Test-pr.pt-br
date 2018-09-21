@@ -47,7 +47,9 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
     
     Para o Exchange 2007, execute o seguinte comando:
     
-        New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```powershell
+New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+```
     
 
     > [!NOTE]
@@ -61,12 +63,16 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
     ```
     ```    
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```powershell
+Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+```
     ```
 
 4.  Para o Exchange 2010, habilite a Descoberta Automática para retornar as caixas de correio de pasta pública de proxy. Esta etapa não é necessária para o Exchange 2007.
     
-        Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```powershell
+Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+```
 
 5.  Repita as etapas anteriores para cada servidor de pasta pública em sua organização.
 

@@ -101,7 +101,9 @@ Use o cmdlet **Connect-Mailbox** no Shell para conectar uma caixa de correio exc
 
 Este exemplo conecta-se a uma caixa de correio de usuário. O parâmetro *Identity* especifica o nome para exibição da caixa de correio excluída mantida no banco de dados de caixa de correio denominado MBXDB01. O parâmetro *User* especifica a conta de usuário do Active Directory para conectar a caixa de correio.
 
-    Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```powershell
+Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```
 
 
 > [!NOTE]
@@ -143,7 +145,9 @@ Para verificar se você conectou com êxito uma caixa de correio excluída a uma
 
   - No Shell, execute o comando a seguir.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     O valor de **UserMailbox** da propriedade *RecipientType* indica que a conta de usuário e a caixa de correio estão conectadas. Você pode também executar o comando **Get-Mailbox \<identity\>** para verificar se a caixa de correio estava conectada.
 
@@ -183,7 +187,9 @@ Será necessário o GUID da caixa de correio de pasta pública excluída, além 
 
 1.  Obtenha o nome de domínio totalmente qualificado (FQDN) do controlador e a floresta do Active Directory executando o seguinte cmdlet:
     
-        Get-OrganizationConfig | fl OriginatingServer
+    ```powershell
+Get-OrganizationConfig | fl OriginatingServer
+```
 
 2.  Com as informações retornadas pela Etapa 1, pesquise o contêiner Objetos Excluídos no Active Directory pelo GUID da caixa de correio de pasta pública e pelo GUID ou nome do banco de dados da caixa de correio na qual a caixa de correio de pasta pública excluída estava.
     

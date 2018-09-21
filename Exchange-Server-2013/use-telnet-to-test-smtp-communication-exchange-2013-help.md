@@ -127,7 +127,9 @@ Neste exemplo, os seguintes valores são usados:
 
 8.  Digite **DATA** e pressione Enter. Você receberá uma resposta semelhante à seguinte:
     
-        354 Start mail input; end with <CLRF>.<CLRF>
+    ```powershell
+354 Start mail input; end with <CLRF>.<CLRF>
+```
 
 9.  Digite **Subject: Test from Contoso** e pressione Enter.
 
@@ -137,11 +139,15 @@ Neste exemplo, os seguintes valores são usados:
 
 12. Pressione Enter, digite um ponto (**.**) e pressione Enter. Você receberá uma resposta semelhante à seguinte:
     
-        250 2.6.0 <GUID> Queued mail for delivery
+    ```powershell
+250 2.6.0 <GUID> Queued mail for delivery
+```
 
 13. Para se desconectar do servidor SMTP de destino, digite **QUIT** e pressione Enter. Você receberá uma resposta semelhante à seguinte:
     
-        221 2.0.0 Service closing transmission channel
+    ```powershell
+221 2.0.0 Service closing transmission channel
+```
 
 14. Para finalizar a sessão Telnet, digite **quit** e pressione Enter.
 

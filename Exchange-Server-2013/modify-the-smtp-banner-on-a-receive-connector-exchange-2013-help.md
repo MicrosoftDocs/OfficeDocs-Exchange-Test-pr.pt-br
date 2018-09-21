@@ -25,7 +25,9 @@ Esta é a resposta padrão recebida por um servidor de mensagens SMTP remoto dep
 
 Quando você especifica um valor personalizado para um banner SMTP em um conector de Recebimento, um servidor de mensagem SMTP remoto que se conecta a esse conector de Recebimento SMTP recebe a seguinte resposta.
 
-    220 <Banner Text>
+```powershell
+220 <Banner Text>
+```
 
 Talvez você deseje modificar o banner SMTP de conectores de recebimento SMTP voltados para a Internet para que o nome do servidor e o software do servidor de mensagens não sejam revelados pelo banner SMTP.
 
@@ -51,15 +53,21 @@ Talvez você deseje modificar o banner SMTP de conectores de recebimento SMTP vo
 
 Execute o seguinte comando:
 
-    Set-ReceiveConnector <ConnectorIdentity> -Banner "220 <Banner Text>"
+```powershell
+Set-ReceiveConnector <ConnectorIdentity> -Banner "220 <Banner Text>"
+```
 
 Este exemplo modifica o banner SMTP no conector de Recebimento existente nomeado Da Internet para que o banner SMTP mostre `220 Contoso Corporation`.
 
-    Set-ReceiveConnector "From the Internet" -Banner "220 Contoso Corporation"
+```powershell
+Set-ReceiveConnector "From the Internet" -Banner "220 Contoso Corporation"
+```
 
 Este exemplo remove o banner SMTP personalizado no conector de Recebimento nomeado Da Internet, o que retorna o banner SMTP para o valor padrão.
 
-    Set-ReceiveConnector "From the Internet" -Banner $null
+```powershell
+Set-ReceiveConnector "From the Internet" -Banner $null
+```
 
 ## Como saber se funcionou?
 
@@ -67,7 +75,9 @@ Para verificar se você modificou com êxito o banner SMTP em um conector de Rec
 
 1.  Abra um Cliente Telnet em um computador que possa acessar o conector de recebimento e execute o seguinte comando:
     
-        open <Connector FQDN or IP address> <Port>
+    ```powershell
+open <Connector FQDN or IP address> <Port>
+```
 
 2.  Verifique se a resposta do conector de Recebimento contém o banner SMTP que você configurou.
 

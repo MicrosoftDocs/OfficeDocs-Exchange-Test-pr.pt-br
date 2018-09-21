@@ -111,11 +111,15 @@ Realize as seguintes etapas de pré-requisitos antes de iniciar a migração.
     
       - Execute o seguinte comando para obter um instantâneo da estrutura de pasta de origem original:
         
-            Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Legacy_PFStructure.xml
+        ```powershell
+Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Legacy_PFStructure.xml
+```
     
       - Execute o seguinte comando para obter um instantâneo de estatísticas de pasta pública, como contagem de itens, tamanho e proprietário:
         
-            Get-PublicFolderStatistics | Export-CliXML C:\PFMigration\Legacy_PFStatistics.xml
+        ```powershell
+Get-PublicFolderStatistics | Export-CliXML C:\PFMigration\Legacy_PFStatistics.xml
+```
     
       - Execute o seguinte comando para obter um instantâneo das permissões:
         
@@ -135,19 +139,25 @@ Realize as seguintes etapas de pré-requisitos antes de iniciar a migração.
     
     3.  Se qualquer pasta pública for retornada, você poderá renomeá-la executando o seguinte comando:
         
-            Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+        ```powershell
+Set-PublicFolder -Identity <public folder identity> -Name <new public folder name>
+```
 
 3.  Verifique se que não há um registro anterior de uma migração bem-sucedida.
     
     1.  O exemplo a seguir verifica o status de migração de pasta pública.
         
-            Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+        ```powershell
+Get-OrganizationConfig | Format-List PublicFoldersLockedforMigration, PublicFolderMigrationComplete
+```
         
         Se houve uma migração bem-sucedida anterior, o valor das propriedades *PublicFoldersLockedforMigration* ou *PublicFolderMigrationComplete* é `$true`. Use o comando na etapa 3b para definir o valor como `$false`. Se o valor é definido como `$true`, sua solicitação de migração falhará.
     
     2.  Se o status das propriedades *PublicFoldersLockedforMigration* ou *PublicFolderMigrationComplete* for `$true`, execute o seguinte comando para definir o valor como `$false`.
         
-            Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+        ```powershell
+Set-OrganizationConfig -PublicFoldersLockedforMigration:$false -PublicFolderMigrationComplete:$false
+```
     
 
     > [!WARNING]
@@ -188,7 +198,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
     
     O exemplo a seguir remove todas as solicitações de migração em série de pastas públicas existentes.
     
-        Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+    ```powershell
+Get-PublicFolderMigrationRequest | Remove-PublicFolderMigrationRequest
+```
     
     O exemplo a seguir descobrirá todas as solicitações de migração em lotes existentes.
     
@@ -196,7 +208,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
     
     O exemplo a seguir remove todas as solicitações de migração em lotes de pastas públicas existentes.
     
-        $batch | Remove-MigrationBatch -Confirm:$false
+    ```powershell
+$batch | Remove-MigrationBatch -Confirm:$false
+```
 
 2.  Verifique se não há pastas públicas nem caixas de correio de pasta pública pública nos servidores Exchange 2013.
     
@@ -206,7 +220,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
     
     2.  Se o comando não retornou nenhum caixas de correio de pasta pública, continuar etapa 3: gerar os arquivos. csv. Se o comando retornado quaisquer pastas públicas, execute o seguinte comando para ver se existem pastas públicas:
         
-            Get-PublicFolder
+        ```powershell
+Get-PublicFolder
+```
     
     3.  Se você tiver alguma pasta pública, execute os seguintes comandos do PowerShell para removê-los. Certifique-se de que você salvou qualquer informação que estava nas pastas públicas.
         
@@ -219,7 +235,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
             Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false
         ```
         ```        
-            Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+        ```powershell
+Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+```
         ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
@@ -302,7 +320,9 @@ As etapas para migrar pastas públicas do Exchange 2007 são diferentes das etap
 
 3.  Inicie a migração usando o seguinte comando:
     
-        Start-MigrationBatch PFMigration
+    ```powershell
+Start-MigrationBatch PFMigration
+```
 
 **Migrar pastas públicas do Exchange 2010**
 
@@ -314,7 +334,9 @@ As etapas para migrar pastas públicas do Exchange 2007 são diferentes das etap
 
 2.  Inicie a migração usando o seguinte comando:
     
-        Start-MigrationBatch PFMigration
+    ```powershell
+Start-MigrationBatch PFMigration
+```
     
     Ou:
     
@@ -354,7 +376,9 @@ Antes de executar o comando `PublicFoldersLockedForMigration` conforme descrito 
 
 No servidor Exchange herdado, execute o seguinte comando para bloquear as pastas públicas herdadas para finalização.
 
-    Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```powershell
+Set-OrganizationConfig -PublicFoldersLockedForMigration:$true
+```
 
 
 > [!NOTE]
@@ -370,11 +394,15 @@ Se a sua organização tiver vários bancos de dados de pastas públicas, você 
 
 Primeiro, execute o seguinte cmdlet para alterar o tipo de implantação do Exchange 2013 para **remoto**:
 
-    Set-OrganizationConfig -PublicFoldersEnabled Remote
+```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Remote
+```
 
 Depois disso, você poderá concluir a migração de pastas públicas executando o comando a seguir:
 
-    Complete-MigrationBatch PublicFolderMigration
+```powershell
+Complete-MigrationBatch PublicFolderMigration
+```
 
 Ou, no EAC, você poderá concluir a migração clicando em **Concluir este lote de migração**.
 
@@ -400,7 +428,9 @@ Depois de finalizar a migração de pastas públicas, você deve executar o segu
 
 3.  Se você tiver quaisquer problemas, consulte Reverter a migração , mais adiante neste tópico. Se o conteúdo de pasta pública e a hierarquia é aceitáveis e funciona como esperado, execute o seguinte comando para desbloquear as pastas públicas para todos os outros usuários.
     
-        Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
+    ```powershell
+Get-Mailbox -PublicFolder | Set-Mailbox -PublicFolder -IsExcludedFromServingHierarchy $false
+```
     
 
     > [!IMPORTANT]
@@ -410,11 +440,15 @@ Depois de finalizar a migração de pastas públicas, você deve executar o segu
 
 4.  No servidor Exchange herdado, execute o seguinte comando para indicar que a migração de pastas públicas está concluída:
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+    ```powershell
+Set-OrganizationConfig -PublicFolderMigrationComplete:$true
+```
 
 5.  Depois de confirmar que a migração estiver concluída, execute o seguinte comando:
     
-        Set-OrganizationConfig -PublicFoldersEnabled Local
+    ```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Local
+```
 
 6.  Finalmente, se desejar que os remetentes externos para enviar emails para as pastas públicas habilitadas para email migradas, o usuário **anônimo** deve ser concedida pelo menos a permissão de **Criar itens**. Se você não fizer isso, remetentes externos receberá uma notificação de falha de entrega e as mensagens não será entregue à pasta pública habilitada para email migrada.
     
@@ -426,7 +460,9 @@ No etapa 2: preparar para a migração, que foram instruído tirar instantâneos
 
 1.  Execute o comando a seguir para obter um instantâneo da estrutura de pastas original.
     
-        Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Cloud_PFStructure.xml
+    ```powershell
+Get-PublicFolder -Recurse | Export-CliXML C:\PFMigration\Cloud_PFStructure.xml
+```
 
 2.  Execute o seguinte comando para obter um instantâneo de estatísticas de pastas públicas, como contagem de itens, tamanho e proprietário.
     
@@ -456,17 +492,23 @@ Se você encontrar problemas com a migração e precisar reativar suas pastas p�
 
 1.  No servidor Exchange herdado, execute o seguinte comando para desbloquear as pastas públicas herdadas do Exchange. Esse processo pode levar várias horas.
     
-        Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+    ```powershell
+Set-OrganizationConfig -PublicFoldersLockedForMigration:$False
+```
 
 2.  No servidor Exchange 2013, execute os seguintes comandos para remover as caixas de correio de pasta pública.
     
 ```
         Get-Mailbox -PublicFolder | Where{$_.IsRootPublicFolderMailbox -eq $false} | Remove-Mailbox -PublicFolder -Force -Confirm:$false  
        
-        Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+    ```powershell
+Get-Mailbox -PublicFolder | Remove-Mailbox -PublicFolder -Force -Confirm:$false
+```
 ```
 
 3.  No servidor Exchange herdado, execute o seguinte comando para definir o sinalizador `PublicFolderMigrationComplete` como `$false`.
     
-        Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+    ```powershell
+Set-OrganizationConfig -PublicFolderMigrationComplete:$False
+```
 

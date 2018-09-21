@@ -53,7 +53,9 @@ Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedime
 
 Este exemplo habilita o log do IRM em um servidor de Caixa de Correio.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $true
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-TransportService](https://technet.microsoft.com/pt-br/library/jj215682\(v=exchg.150\)).
 
@@ -61,7 +63,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-Transp
 
 Este exemplo desabilita o registro em log do IRM em um servidor de Caixa de Correio.
 
-    Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```powershell
+Set-TransportService -Identity EXCH01 -IRMLogEnabled $false
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-TransportService](https://technet.microsoft.com/pt-br/library/jj215682\(v=exchg.150\)).
 

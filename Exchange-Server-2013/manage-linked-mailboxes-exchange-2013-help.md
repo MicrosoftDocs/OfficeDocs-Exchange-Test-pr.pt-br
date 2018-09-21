@@ -128,7 +128,9 @@ Para verificar se você criou com êxito uma caixa de correio vinculada, siga um
 
   - No Shell, execute o seguinte comando para exibir informações sobre a nova caixa de correio vinculada.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+```
 
 ## Alterar propriedades de caixa de correio vinculada
 
@@ -398,5 +400,7 @@ Para verificar que você alterou com êxito propriedades para uma caixa de corre
     
     No exemplo acima onde a conta principal vinculada foi alterada, execute o seguinte comando para verificar o novo valor.
     
-        Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```powershell
+Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+```
 

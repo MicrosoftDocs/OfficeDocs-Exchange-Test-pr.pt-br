@@ -43,7 +43,9 @@ _**Tópico modificado em:** 2014-12-16_
 
 1.  Em uma janela do Prompt de Comando, abra o arquivo de configuração de aplicativo EdgeTransport.exe.config no Bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Localize as chaves a seguir na seção `<appSettings>`.
     
@@ -61,7 +63,9 @@ _**Tópico modificado em:** 2014-12-16_
     
     Para habilitar a fila de prioridades no serviço de Transporte no servidor de Caixa de Correio, use o seguinte valor:
     
-        <add key="PriorityQueuingEnabled" value="true" />
+    ```command line
+<add key="PriorityQueuingEnabled" value="true" />
+```
     
     Configure os valores restantes da fila de prioridades ou deixe os valores padrão.
 

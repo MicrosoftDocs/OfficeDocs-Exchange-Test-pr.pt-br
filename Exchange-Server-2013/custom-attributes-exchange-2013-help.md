@@ -73,7 +73,9 @@ Em muitas implantações do Exchange, criar uma diretiva de endereços de email 
 
 Se os destinatários no OU não compartilharem nenhuma propriedade comum pela qual você possa filtrá-los, como departamento ou local, você pode popular um dos atributos personalizados com um valor comum, conforme este exemplo.
 
-    Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```powershell
+Get-Mailbox -OrganizationalUnit Sales | Set-Mailbox CustomAttribute1 "SalesOU"
+```
 
 Agora, você pode criar uma diretiva de endereço de email para todos os destinatários que tenham a propriedade *CustomAttribute1* igual a SalesOU, conforme este exemplo.
 
@@ -97,7 +99,9 @@ Este exemplo cria um grupo dinâmico de distribuição baseado nos destinatário
 
 Neste exemplo, a caixa de correio de Kweku terá *ExtensionCustomAttribute1* adicionado para refletir que ele se matriculou nos seguintes cursos: MATH307, ECON202 e ENGL300.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 MATH307,ECON202,ENGL300
+```
 
 Depois, será criado um grupo de distribuição para todos os alunos matriculados em MATH307, usando-se o parâmetro *RecipientFilter*, em que *ExtensionCustomAttribute1* é igual a MATH307. Ao usar os parâmetros *ExtentionCustomAttributes*, você poderá usar o operador `-eq` em vez do operador `-like`.
 
@@ -105,5 +109,7 @@ Depois, será criado um grupo de distribuição para todos os alunos matriculado
 
 Neste exemplo, os valores de *ExtensionCustomAttribute1* de Kweku são atualizados para refletir que ele adicionou o curso ENGL210 e removeu o ECON202.
 
-    Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```powershell
+Set-Mailbox -Identity Kweku -ExtensionCustomAttribute1 @{Add="ENGL210"; Remove="ECON202"}
+```
 

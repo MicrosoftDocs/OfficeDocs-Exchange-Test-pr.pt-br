@@ -55,7 +55,9 @@ Você pode adicionar os pacotes de idiomas de Unificação de MENSAGENS usando o
 
 Este exemplo usa o setup.exe para instalar o pacote do idioma japonês (ja-JP).
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 ## Etapa 2: Mover as saudações personalizadas, informes, menus e prompts do Exchange 2007 para a caixa de correio de sistema do Exchange 2013
 
@@ -65,11 +67,15 @@ Por padrão, as caixas de correio de sistema não estão visíveis no centro de 
 
 Este comando retorna uma lista de todas as caixas de correio de sistema.
 
-    Get-Mailbox -Arbitration
+```powershell
+Get-Mailbox -Arbitration
+```
 
 Este comando retorna uma lista das caixas de correio de sistema e as propriedades ou definições individuais.
 
-    Get-Mailbox -Arbitration |fl
+```powershell
+Get-Mailbox -Arbitration |fl
+```
 
 Quando importa saudações, informes, menus e prompts personalizados do Exchange 2007 para o Exchange 2013, terá de usar o script MigrateUMCustomPrompts.ps1. Não pode usar o EAC para importar saudações, informes, menus e prompts personalizados. O script MigrateUMCustomPrompts.ps1 migra uma cópia de todas as saudações, informes, menus e prompts personalizadas da UM do Exchange Server 2007 para a UM do Exhchange 2013. Por padrão o script MigrateUMCustomPrompts.ps1 está localizado na pasta *\<Program Files\>*\\Microsoft\\Exchange Server\\V15\\Scripts num servidor de Caixa de Correio do Exchange 2013 e tem de ser executado a partir de um servidor de Caixa de Correio do Exchange 2013. Para executar o script:
 
@@ -182,7 +188,9 @@ Configure o modo de inicialização de UM no servidor de Acesso para Cliente do 
 
 Configure um modo de inicialização de UM num servidor de Acesso para Cliente do Exchange Online executando o seguinte comando no Shell.
 
-    Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -Server MyUMCallRouter.northwindtraders.com -UMStartupMode Dual
+```
 
 ## Etapa 5: Configurar o modo de inicialização de UM em todos os servidores de Caixa de Correio do Exchange 2013
 
@@ -242,7 +250,9 @@ Se necessário, pode criar um plano de discagem de UM usando o EAC:
 
 Se necessário, pode criar um plano de discagem de UM executando o seguinte comando no Shell.
 
-    New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```powershell
+New-UMDialplan -Name MyUMDialPlan -URIType E164 -NumberOfDigitsInExtension 5 -VoIPSecurity Secured
+```
 
 Se necessário, pode configurar um plano de discagem de UM existente usando o EAC:
 
@@ -286,7 +296,9 @@ Se necessário, pode criar um gateway IP de UM usando o EAC, da seguinte forma:
 
 Se necessário, pode criar um gateway IP de UM executando o seguinte comando no Shell.
 
-    New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```powershell
+New-UMIPGateway -Identity MyUMIPGateway -Address "MyUMIPGateway.contoso.com"
+```
 
 Se necessário, pode configurar um gateway IP de UM existente usando o EAC:
 
@@ -400,7 +412,9 @@ Se necessário, pode criar uma política de caixa de correio de UM usando o EAC:
 
 Se necessário, pode criar uma política de caixa de correio de UM executando o seguinte comando no Shell.
 
-    New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```powershell
+New-UMMailboxPolicy -Name MyUMMailboxPolicy -UMDialPlan MyUMDialPlan
+```
 
 Se necessário, pode configurar uma política de caixa de correio de UM existente usando o EAC:
 
@@ -438,7 +452,9 @@ Para mover um caixa de correio do Exchange 2007 para um servidor de Caixa de Cor
 
 Para mover uma caixa de correio do Exchange 2007 para um servidor de Caixa de Correio do Exchange 2013 usando o Shell, execute o seguinte comando.
 
-    New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```powershell
+New-MoveRequest -Identity 'tony@alpineskihouse.com' -TargetDatabase "DB01"
+```
 
 ## Etapa 12: Habilitar novos usuários para UM ou configurar definições para usuários habilitados para UM existentes
 
@@ -544,7 +560,9 @@ Para desabilitar a Unificação de Mensagens num servidor de UM do Exchange 2007
 
 Para desabilitar a Unificação de Mensagens num servidor de UM do Exchange 2007 usando o Shell, execute o seguinte comando.
 
-    Disable-UMServer -Identity MyUMServer -Immediate $true
+```powershell
+Disable-UMServer -Identity MyUMServer -Immediate $true
+```
 
 
 > [!TIP]
@@ -573,25 +591,37 @@ Para remover um servidor de UM do Exchange 2007 de um plano de discagem usando a
 Para remover um servidor de UM do Exchange 2007 de um plano de discagem usando o Shell, execute o seguinte comando.
 
 ```
-    $dp= Get-UMDialPlan "MySIPDialPlan"
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+```
 ```
 ```    
-    $s=Get-UMServer -id MyUMServer
+```powershell
+$s=Get-UMServer -id MyUMServer
 ```
 ```
-    $s.dialplans-=$dp.identity
+```
+```powershell
+$s.dialplans-=$dp.identity
+```
 ```
 ```    
-    Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```powershell
+Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 ```
 
 Neste exemplo, existem três planos de discagem URI do SIP: SipDP1, SipDP2 e SipDP3. Este exemplo remove o servidor de UM denominado `MyUMServer` do plano de discagem SipDP3.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1,SipDP2
+```
 
 Neste exemplo, existem dois planos de discagem URI do SIP: SipDP1 e SipDP2. Este exemplo remove o servidor de UM denominado `MyUMServer` do plano de discagem SipDP2.
 
-    Set-UMServer -id MyUMServer -DialPlans SipDP1
+```powershell
+Set-UMServer -id MyUMServer -DialPlans SipDP1
+```
 
 
 > [!TIP]

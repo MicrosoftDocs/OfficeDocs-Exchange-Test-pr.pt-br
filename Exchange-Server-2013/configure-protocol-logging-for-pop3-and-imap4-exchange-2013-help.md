@@ -73,7 +73,9 @@ Para modificar as configurações de registro em log de POP3 ou IMAP4, execute o
 
   - *LogFileLocation*   Esse parâmetro especifica o local dos arquivos de log de protocolo POP3 ou IMAP4. Por padrão, os arquivos de log com protocolo POP3 se encontram no diretório C:\\Arquivos de Programas\\Microsoft\\Exchange Server\\V15\\Logging\\Pop3. Esse exemplo ativa o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01. Ele também altera o diretório de registro em log de protocolo POP3 para C:\\Pop3Logging.
     
-        Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\Pop3Logging"
+    ```powershell
+Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\Pop3Logging"
+```
 
   - *LogFileRollOverSettings*   Esse parâmetro define com qual frequência o registro em log do protocolo POP3 ou IMAP4 cria um novo arquivo de log. Por padrão, o novo arquivo de log é criado a cada dia. Os valores possíveis são:
     
@@ -87,17 +89,23 @@ Para modificar as configurações de registro em log de POP3 ou IMAP4, execute o
     
     Esta configuração só é aplicável quando o valor do parâmetro *LogPerFileSizeQuota* for definido como . Esse exemplo altera o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01 para criar um novo arquivo de log a cada hora.
     
-        Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
+    ```powershell
+Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
+```
 
   - *LogPerFileSizeQuota*   Esse parâmetro define o tamanho máximo de um arquivo de log de protocolo POP3 ou IMAP4 em bytes. Por padrão, esse valor é definido como zero. Quando este valor está definido como zero, um novo arquivo de log de protocolo é criado na frequência especificada pelo parâmetro *LogFileRollOverSettings*.
     
     Esse exemplo altera o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01 para criar um novo arquivo de log quando um arquivo de log atingir 2 MB.
     
-        Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
+    ```powershell
+Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
+```
     
     Esse exemplo altera o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01 para usar o mesmo arquivo de log, independentemente de seu tamanho e sua data de criação.
     
-        Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
+    ```powershell
+Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
+```
 
 
 > [!NOTE]
@@ -111,11 +119,15 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-I
 
 Execute o seguinte comando no Shell para verificar as definições de registro em log de protocolo POP3. Se o registro em log de protocolo POP3 for habilitado, o valor para o parâmetro *ProtocolLogEnabled* será `True`. Se o log de protocolo POP3 estiver desabilitado, o valor será `False`. Você também pode verificar se os valores para os parâmetros *LogFileLocation*, *LogPerFileSizeQuota* e *LogFileRollOverSettings* estão corretos.
 
-    Get-PopSettings | format-list
+```powershell
+Get-PopSettings | format-list
+```
 
 Execute o seguinte comando no Shell para verificar as definições de registro em log de protocolo IMAP4. Se o registro em log de protocolo IMAP4 for habilitado, o valor para o parâmetro *ProtocolLogEnabled* será `True`. Se o log de protocolo IMAP4 estiver desabilitado, o valor será `False`. Você também pode verificar se os valores para os parâmetros *LogFileLocation*, *LogPerFileSizeQuota* e *LogFileRollOverSettings* estão corretos.
     
-    Get-ImapSettings | format-list
+```powershell
+Get-ImapSettings | format-list
+```
 
 ## Para mais informações
 

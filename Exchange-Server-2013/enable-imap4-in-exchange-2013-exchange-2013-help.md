@@ -61,19 +61,27 @@ No computador que executa a função de servidor de Caixa de Correio:
 
 1.  Defina o serviço IMAP4 do Microsoft Exchange para iniciar automaticamente.
     
-        Set-service msExchangeIMAP4 -startuptype automatic
+    ```powershell
+Set-service msExchangeIMAP4 -startuptype automatic
+```
 
 2.  Inicie o serviço IMAP4 do Microsoft Exchange.
     
-        Start-service msExchangeIMAP4
+    ```powershell
+Start-service msExchangeIMAP4
+```
 
 3.  Defina o serviço de Back-end do IMAP4 do Microsoft Exchange para iniciar automaticamente.
     
-        Set-service msExchangeIMAP4BE -startuptype automatic
+    ```powershell
+Set-service msExchangeIMAP4BE -startuptype automatic
+```
 
 4.  Inicie o serviço de Back-end do IMAP4 do Microsoft Exchange.
     
-        Start-service msExchangeIMAP4BE
+    ```powershell
+Start-service msExchangeIMAP4BE
+```
 
 ## Como saber se funcionou?
 

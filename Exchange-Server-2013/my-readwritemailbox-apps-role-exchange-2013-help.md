@@ -43,7 +43,9 @@ Esta função pode ser atribuída a uma ou mais diretivas de atribuição de fun
 
 Se você quiser exibir uma lista de grupos de funções, usuários ou USGs atribuídos a essa função, use o comando abaixo.
 
-    Get-ManagementRoleAssignment -Role "<role name>"
+```powershell
+Get-ManagementRoleAssignment -Role "<role name>"
+```
 
 ## Atribuições de função comuns e de delegação
 

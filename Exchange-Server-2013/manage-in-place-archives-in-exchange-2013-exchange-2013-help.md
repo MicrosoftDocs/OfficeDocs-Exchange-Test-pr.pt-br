@@ -124,7 +124,9 @@ Você também pode criar arquivos mortos para usuário existentes que tenham uma
 
 Este exemplo habilita o arquivo morto da caixa de correio de Tony Smith.
 
-    Enable-Mailbox "Tony Smith" -Archive
+```powershell
+Enable-Mailbox "Tony Smith" -Archive
+```
 
 Este exemplo recupera caixas de correio no banco de dados DB01 que não têm um arquivo morto local ou baseado em nuvem habilitado, além de não terem um nome começando com DiscoverySearchMailbox. Ele canaliza o resultado do cmdlet **Enable-Mailbox**, para habilitar o arquivo morto para todas as caixas de correio no banco de dados de caixa de correio DB01.
 
@@ -174,7 +176,9 @@ Se você quiser reconectar o arquivo morto local a essa caixa de correio, poder�
 
 Este exemplo desabilita o arquivo morto da caixa de correio de Chris Ashton. Ele não desabilita a caixa de correio.
 
-    Disable-Mailbox -Identity "Chris Ashton" -Archive
+```powershell
+Disable-Mailbox -Identity "Chris Ashton" -Archive
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Disable-Mailbox](https://technet.microsoft.com/pt-br/library/aa997210\(v=exchg.150\)).
 

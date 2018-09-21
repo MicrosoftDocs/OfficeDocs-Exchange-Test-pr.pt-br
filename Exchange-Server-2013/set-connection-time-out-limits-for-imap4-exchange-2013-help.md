@@ -61,11 +61,15 @@ Após definir o tempo limite de conexões para IMAP4, é preciso reiniciar os se
 
 Este exemplo define o tempo limite de conexão para conexões autenticadas ociosas.
 
-    Set -ImapSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -ImapSettings -Identity CAS01 -AuthenticatedConnectionTimeout TimeValue
+```
 
 Este exemplo define o tempo limite de conexão para conexões não autenticadas ociosas.
 
-    Set -ImapSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```powershell
+Set -ImapSettings -Identity CAS01 -PreAuthenticatedConnectionTimeout TimeValue
+```
 
 Após definir o tempo limite de conexões para IMAP4, é preciso reiniciar os serviços IMAP4 para que as configurações entrem em vigor. Para informações sobre como reiniciar os serviços IMAP4, consulte [Iniciar e interromper os serviços de IMAP4](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ Ou
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Verifique se configurações de conexão estão corretas.
 

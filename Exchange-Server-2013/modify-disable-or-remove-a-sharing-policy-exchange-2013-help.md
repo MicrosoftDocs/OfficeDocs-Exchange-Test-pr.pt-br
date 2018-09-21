@@ -87,7 +87,9 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
 
   - Este exemplo modifica a diretiva de compartilhamento Contoso em contoso.com, que é um domínio externo à organização. Essa diretiva permite aos usuários no domínio Contoso exibir informações simples de disponibilidade.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+```
 
   - Este exemplo adiciona um segundo domínio à política de compartilhamento Contoso. Ao adicionar um domínio a uma diretiva existente, inclua quaisquer domínios incluídos previamente.
     
@@ -101,23 +103,33 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
         CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: 
       ```
       ```
-        CalendarSharingFreeBusyReviewer'
+    ```powershell
+CalendarSharingFreeBusyReviewer'
+```
       ```
   - Este exemplo define a política de compartilhamento Contoso como a política de compartilhamento padrão.
     
-        Set-SharingPolicy -Identity Contoso -Default $True
+    ```powershell
+Set-SharingPolicy -Identity Contoso -Default $True
+```
 
   - Este exemplo desabilita a política de compartilhamento Contoso.
     
-        Set-SharingPolicy -Identity "Contoso" -Enabled $False
+    ```powershell
+Set-SharingPolicy -Identity "Contoso" -Enabled $False
+```
 
   - O primeiro exemplo remove a política de compartilhamento Contoso. O segundo exemplo remove a política de compartilhamento Contoso e suprime a confirmação de que você deseja remover a política.
     
       ```
-        Remove-SharingPolicy -Identity Contoso
+    ```powershell
+Remove-SharingPolicy -Identity Contoso
+```
       ```
       ```    
-        Remove-SharingPolicy -Identity Contoso -Confirm
+    ```powershell
+Remove-SharingPolicy -Identity Contoso -Confirm
+```
       ```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd297931\(v=exchg.150\)) e [Remove-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd351071\(v=exchg.150\)).

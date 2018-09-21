@@ -51,31 +51,45 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 Este exemplo ativa e monta uma cópia do banco de dados que db4 hospedado no MBX3, como o novo banco de dados de caixa de correio ativas. Esse comando torna DB4 o novo banco de dados de caixa de correio ativas e ele não substituem as definições de discagem de montagem do banco de dados no MBX3.
 
-    Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB4 -ActivateOnServer MBX3 -MountDialOverride:None
+```
 
 Este exemplo executa uma alternância de banco de dados DB2 para o servidor de caixa de correio MBX1. Quando o comando for concluído, MBX1 hospeda a cópia ativa do DB2. Porque o parâmetro *MountDialOverride* está definido como `None`, MBX1 monta o banco de dados usando suas próprias configurações de discagem de montagem do banco de dados definido automático.
 
-    Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```powershell
+Move-ActiveMailboxDatabase DB2 -ActivateOnServer MBX1 -MountDialOverride:None
+```
 
 Este exemplo executa uma alternância de banco de dados DB1 no servidor de caixa de correio MBX3. Quando o comando for concluído, MBX3 hospeda a cópia ativa do DB1. Porque o parâmetro *MountDialOverride* foi especificado com um valor de `Good Availability`, MBX3 monta o banco de dados usando a montagem automática de um banco de dados configuração da *GoodAvailability*de discagem.
 
-    Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```powershell
+Move-ActiveMailboxDatabase DB1 -ActivateOnServer MBX3 -MountDialOverride:GoodAvailability
+```
 
 Esse exemplo executa uma alternância do banco de dados DB3 para o servidor de Caixa de Correio MBX4. Quando o comando é concluído, MBX4 hospeda a cópia ativa de DB3. Como o parâmetro *MountDialOverride* não é especificado, o MBX4 monta o banco de dados usando uma configuração de discagem automática da montagem de *Lossless*.
 
-    Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```powershell
+Move-ActiveMailboxDatabase DB3 -ActivateOnServer MBX4
+```
 
 Este exemplo executa uma alternância para o servidor de Caixa de Correio MBX1. Todas as cópias de banco de dados de caixa de correio no MBX1 serão ativadas em um ou mais servidores de Caixa de Correio, com cópias íntegras dos bancos de dados ativos no MBX1.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 Este exemplo executa uma alternância de banco de dados DB4 para o servidor de caixa de correio MBX5. Neste exemplo, a cópia do banco de dados no MBX5 tem uma fila de repetição maior que 6. Como resultado, o parâmetro *SkipLagChecks* deve ser especificado para ativar a cópia do banco de dados no MBX5.
 
-    Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```powershell
+Move-ActiveMailboxDatabase DB4 MBX5 -SkipLagChecks
+```
 
 Este exemplo executa uma alternância de banco de dados DB5 para o servidor de caixa de correio MBX6. Neste exemplo, a cópia do banco de dados no MBX6 tem um *ContentIndexState* de Failed. Como resultado, o parâmetro *SkipClientExperienceChecks* deve ser especificado para ativar a cópia do banco de dados no MBX6.
 
-    Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```powershell
+Move-ActiveMailboxDatabase DB5 MBX6 -SkipClientExperienceChecks
+```
 
 ## Como saber se funcionou?
 
@@ -85,7 +99,9 @@ Para verificar se você ativou com êxito uma cópia do banco de dados de caixa 
 
   - No Shell, execute este comando para mostrar informações de status para uma cópia do banco de dados.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 
 ## Para saber mais
 

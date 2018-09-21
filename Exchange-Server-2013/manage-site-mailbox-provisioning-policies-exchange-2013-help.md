@@ -59,17 +59,23 @@ Este exemplo cria a política de provisionamento padrão SM\_ProvisioningPolicy 
 
 Este exemplo retorna informações detalhadas sobre todas as políticas de provisionamento de caixa de correio de site em sua organização.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List
+```
 
 Este exemplo retorna todas as políticas na sua organização, mas mostra apenas as informações de `IsDefault` para identificar que política é a política padrão.
 
-    Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```powershell
+Get-SiteMailboxProvisioningPolicy | Format-List IsDefault
+```
 
 ## Fazer alterações em uma política de provisionamento de caixa de correio local existente
 
 Este exemplo altera a política de provisionamento de caixas de correio locais chamado Padrão para permitir que o tamanho máximo das mensagens de email que podem ser recebidas pela caixa de correio local seja 25 MB. (Quando você instalar o Exchange, uma política de provisionamento chamada **Padrão** será criada.)
 
-    Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
+```
 
 Este exemplo altera a cota de alerta para 9,5 GB e a proibição da quota de envio e de recebimento para 10 GB.
 
@@ -103,7 +109,9 @@ Este exemplo altera a política de provisionamento padrão e define *AliasPrefix
 
 Este exemplo exclui a política de caixa de correio de site padrão que foi criada durante a Instalação do Setup.
 
-    Remove-SiteMailboxProvisioningPolicy -Identity Default
+```powershell
+Remove-SiteMailboxProvisioningPolicy -Identity Default
+```
 
 
 > [!IMPORTANT]

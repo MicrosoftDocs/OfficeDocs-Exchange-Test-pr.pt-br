@@ -49,19 +49,25 @@ As entradas "configurações POP3" e "configurações IMAP4" do Para executar es
 
 Este exemplo permite que as configurações de servidores POP3 externos sejam visualizadas por usuários finais.
 
-    Set-PopSettings -ExternalConnectionSettings {Dublin01.Contoso.com:995:SSL}
+```powershell
+Set-PopSettings -ExternalConnectionSettings {Dublin01.Contoso.com:995:SSL}
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, confira [Set-PopSettings](https://technet.microsoft.com/pt-br/library/aa997154\(v=exchg.150\)).
 
 Este exemplo permite que as configurações de servidores IMAP4 externos sejam visualizadas por usuários finais.
 
-    Set-ImapSettings -ExternalConnectionSettings {Dublin01.Contoso.com:993:SSL}
+```powershell
+Set-ImapSettings -ExternalConnectionSettings {Dublin01.Contoso.com:993:SSL}
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, confira [Set-ImapSettings](https://technet.microsoft.com/pt-br/library/aa998252\(v=exchg.150\)).
 
 Para aplicar essas alterações, você deve reiniciar o IIS. Você não precisa reiniciar os serviços POP3. Para reiniciar o IIS, em um prompt de comando, digite o seguinte:
 
-    iisreset
+```powershell
+iisreset
+```
 
 ## Como saber se funcionou?
 
@@ -69,7 +75,9 @@ Para verificar se você configurou o Exchange para permitir que usuários exibam
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Verifique se a propriedade *ExternalConnectionSettings* está definida.
 
@@ -77,7 +85,9 @@ Para verificar se você configurou o Exchange para permitir que usuários exibam
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Verifique se a propriedade *ExternalConnectionSettings* está definida.
 
@@ -97,7 +107,9 @@ Para verificar se você configurou o Exchange para permitir que usuários exibam
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-ReceiveConnector | format-list
+    ```powershell
+Get-ReceiveConnector | format-list
+```
 
 2.  Se a propriedade *AdvertiseClientSettings* estiver definida como `true`, os usuários poderão ver suas configurações de servidor SMTP no Outlook Web App. Se a propriedade *AdvertiseClientSettings* estiver definida como `false`, os usuários não poderão ver suas configurações de servidor SMTP no Outlook Web App.
 

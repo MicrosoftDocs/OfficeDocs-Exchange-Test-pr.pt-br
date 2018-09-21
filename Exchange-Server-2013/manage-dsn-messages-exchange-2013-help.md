@@ -41,15 +41,21 @@ O Microsoft Exchange Server 2013 usa notificações de status de entrega (DSN) p
 
 Para exibir uma lista resumida de todas as mensagens DSN incluídas com o Exchange 2013, execute este comando:
 
-    Get-SystemMessage -Original
+```powershell
+Get-SystemMessage -Original
+```
 
 Para exibir uma lista resumida de todas as mensagens DSN na sua organização, execute este comando:
 
-    Get-SystemMessage
+```powershell
+Get-SystemMessage
+```
 
 Para exibir informações detalhadas da mensagem DSN para o código DSN 5.1.2 que é enviada a remetentes internos em inglês, execute este comando:
 
-    Get-SystemMessage En\Internal\5.1.2 | Format-List
+```powershell
+Get-SystemMessage En\Internal\5.1.2 | Format-List
+```
 
 ## Usar o Shell para criar uma mensagem DSN personalizada
 
@@ -75,7 +81,9 @@ Para verificar se você criou com êxito uma mensagem DNS personalizada, faça o
 
 1.  Execute o seguinte comando:
     
-        Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+    ```powershell
+Get-SystemMessge -DSNCode <x.y.z> | Format-List Name,Internal,Text,Language
+```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -97,7 +105,9 @@ Para verificar se você alterou com êxito o texto de uma mensagem DNS personali
 
 1.  Execute o seguinte comando: `Get-SystemMessage`.
     
-        Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
+    ```powershell
+Set-SystemMessage <Locale>\<Internal | External>\<DSNcode> | Format-List -Text
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -105,11 +115,15 @@ Para verificar se você alterou com êxito o texto de uma mensagem DNS personali
 
 Execute o seguinte comando:
 
-    Remove-SystemMessage <Local>\<Internal | External>\<DSNcode>
+```powershell
+Remove-SystemMessage <Local>\<Internal | External>\<DSNcode>
+```
 
 Este exemplo remove uma mensagem DSN personalizada para o código DSN 5.1.2 que é enviada para remetentes internos em inglês.
 
-    Remove-SystemMessage En\Internal\5.1.2
+```powershell
+Remove-SystemMessage En\Internal\5.1.2
+```
 
 ## Como saber se funcionou?
 
@@ -131,11 +145,15 @@ Para atribuir uma caixa de correio ao destinatário do Exchange, siga estas inst
 
 2.  Execute o seguinte comando:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+    ```powershell
+Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient <MailboxIdentity>
+```
     
     Por exemplo, para atribuir a caixa de correio existente chamada "Contoso System Mailbox" ao destinatário do Exchange, execute o seguinte comando:
     
-        Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+    ```powershell
+Set-OrganizationConfig -MicrosoftExchangeRecipientReplyRecipient "Contoso System Mailbox"
+```
 
 ## Etapa 2: Especificar os códigos DSN que você deseja monitorar
 
@@ -149,11 +167,15 @@ Para atribuir uma caixa de correio ao destinatário do Exchange, siga estas inst
 
 Para substituir os valores existentes, execute o seguinte comando:
 
-    Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor <x.y.z>,<x.y.z>...
+```
 
 Este exemplo configura a organização do Exchange para encaminhar todas as mensagens DSN que tenham os códigos DSN 5.7.1, 5.7.2 e 5.7.3 para o destinatário do Exchange.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor 5.7.1,5.7.2,5.7.3
+```
 
 Para adicionar ou remover entradas sem modificar quaisquer valores existentes, execute este comando:
 
@@ -161,7 +183,9 @@ Para adicionar ou remover entradas sem modificar quaisquer valores existentes, e
 
 Este exemplo adiciona o código DSN 5.7.5 e remove o código DSN 5.7.1 da lista existente de mensagens DSN que são encaminhadas para o destinatário do Exchange.
 
-    Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```powershell
+Set-TransportConfig -GenerateCopyOfDSNFor @{Add="5.7.5"; Remove="5.7.1"}
+```
 
 ## Como saber se funcionou?
 

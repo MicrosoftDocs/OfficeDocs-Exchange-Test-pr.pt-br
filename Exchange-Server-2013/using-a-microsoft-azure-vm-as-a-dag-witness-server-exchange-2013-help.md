@@ -329,7 +329,9 @@ Finalmente, você precisará configurar seu DAG para usar o novo servidor de tes
 
 2.  Execute o seguinte comando para configurar o servidor de testemunha para suas DAGs.
     
-        Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
+    ```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessServer Azure-FSW
+```
 
 Consulte os tópicos a seguir para obter mais informações:
 
@@ -349,11 +351,15 @@ Neste ponto, você configurou o DAG para usar o servidor de arquivos no Azure co
 
 2.  Se o DAG tiver um número par de nós, a testemunha de compartilhamento de arquivo será configurada. Valide a testemunha de compartilhamento de arquivo a definição nas propriedades de cluster executando o seguinte comando. O valor do parâmetro *SharePath* deve apontar para o servidor de arquivos e exibir o caminho correto.
     
-        Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+    ```powershell
+Get-ClusterResource -Cluster MBX1 | Get-ClusterParameter | Format-List
+```
 
 3.  Em seguida, verifique o status do recurso "Testemunha de compartilhamento de arquivo" cluster executando o seguinte comando. O *State* do recurso cluster deve exibir **Online**.
     
-        Get-ClusterResource -Cluster MBX1
+    ```powershell
+Get-ClusterResource -Cluster MBX1
+```
 
 4.  Por fim, verifique se o compartilhamento é criado com êxito no servidor de arquivos examinando a pasta no Gerenciador de arquivos e os compartilhamentos no Gerenciador de servidores.
 

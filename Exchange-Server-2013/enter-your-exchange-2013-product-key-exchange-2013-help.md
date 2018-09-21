@@ -86,7 +86,9 @@ Esse exemplo usa o cmdlet **set-ExchangeServer** para inserir a chave de produto
 
 
 
-    Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```powershell
+Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-ExchangeServer](https://technet.microsoft.com/pt-br/library/bb123716\(v=exchg.150\)).
 

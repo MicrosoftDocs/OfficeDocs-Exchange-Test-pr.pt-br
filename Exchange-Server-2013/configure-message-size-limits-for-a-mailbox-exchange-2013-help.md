@@ -65,7 +65,9 @@ Confira outras tarefas de gerenciamento relacionadas às caixas de correio de us
 
 Este exemplo define o tamanho máximo de mensagens enviadas como 25 MB e o tamanho máximo de mensagens recebidas como 35 MB para a caixa de correio de Sara Melo.
 
-    Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```powershell
+Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -85,5 +87,7 @@ Ou
 
 Execute o seguinte comando no Shell.
 
-    Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```powershell
+Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```
 

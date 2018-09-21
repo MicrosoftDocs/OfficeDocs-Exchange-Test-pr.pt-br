@@ -87,11 +87,15 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 Este exemplo cria o DAG chamado DAG1, configurado para usar o servidor de testemunha FILESRV1 e o diretório local C:\\DAG1. DAG1 também é configurado para usar DHCP para os endereços IP do DAG.
 
-    New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer FILESRV1 -WitnessDirectory C:\DAG1
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer FILESRV1 -WitnessDirectory C:\DAG1
+```
 
 Este exemplo cria o DAG DAG2. O sistema seleciona automaticamente um servidor de Acesso para Cliente no site local do Active Directory que não contém a função de servidor de Caixa de Correio como o servidor de testemunha de DAG. O DAG2 recebe um endereço IP estático, pois todos os membros do DAG têm a rede MAPI na mesma sub-rede.
 
-    New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG2 -DatabaseAvailabilityGroupIPAddresses 10.0.0.8
+```
 
 Este exemplo cria o DAG DAG3. O DAG3 está configurado para usar o servidor de testemunha MBX2 e o diretório local C:\\DAG3. DAG3 recebe vários endereços IP estáticos, pois seus membros estão em sub-redes diferentes na rede MAPI.
 
@@ -99,7 +103,9 @@ Este exemplo cria o DAG DAG3. O DAG3 está configurado para usar o servidor de t
 
 Este exemplo cria o DAG DAG4 configurado para usar DHCP. Além disso, o servidor testemunha será selecionado automaticamente pelo sistema e o diretório testemunha padrão será criado.
 
-    New-DatabaseAvailabilityGroup -Name DAG4
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG4
+```
 
 Este exemplo cria o DAG chamado DAG5, que não terá um ponto de acesso administrativo (válido somente para DAGs do Windows Server 2012 R2). Além disso, o MBX4 será usado como o servidor de testemunha do DAG e será criado o diretório de testemunha padrão.
 
@@ -113,7 +119,9 @@ Para verificar se você criou com êxito um DAG, faça o seguinte:
 
   - No Shell, execute o comando a seguir para verificar se o DAG foi criado e para exibir as informações de propriedade do DAG.
     
-        Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+```
 
 ## Para obter mais informações
 

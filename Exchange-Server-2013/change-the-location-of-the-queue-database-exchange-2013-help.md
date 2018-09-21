@@ -93,7 +93,9 @@ O local do banco de dados de fila e os logs de transações do banco de dados de
 
 2.  Em uma janela de prompt de comando, abra o arquivo EdgeTransport.exe.config no bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 3.  Modifique as chaves a seguintes na seção `<appSettings>` .
     
@@ -137,7 +139,9 @@ Use o procedimento a seguir para mover os logs de transações e de banco de dad
 
 2.  Em uma janela de prompt de comando, abra o arquivo EdgeTransport.exe.config no bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 3.  Modifique as chaves a seguir na seção `<appSettings>` :
     
@@ -153,7 +157,9 @@ Use o procedimento a seguir para mover os logs de transações e de banco de dad
 
 5.  Pare o serviço de transporte do Microsoft Exchange executando o seguinte comando:
     
-        net stop MSExchangeTransport
+    ```powershell
+net stop MSExchangeTransport
+```
 
 6.  Mova os arquivos de banco de dados existente Mail.que e Trn.chk do local original para o novo local.
 
@@ -161,7 +167,9 @@ Use o procedimento a seguir para mover os logs de transações e de banco de dad
 
 8.  Inicie o serviço de transporte do Microsoft Exchange executando o seguinte comando:
     
-        net start MSExchangeTransport
+    ```powershell
+net start MSExchangeTransport
+```
 
 ## Como saber se funcionou?
 

@@ -49,7 +49,9 @@ Para tarefas de gerenciamento adicionais relacionadas a políticas de endereço 
 
 Para criar uma política de endereço de email usando filtros de destinatários, use a seguinte sintaxe.
 
-    New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```powershell
+New-EmailAddressPolicy -Name <String> -RecipientFilter <String>
+```
 
 Este exemplo cria uma política de endereço de email que se aplica a todos os executivos e para que a parte local do endereço de email consiste em duas primeiras letras de seu nome e sobrenome, todo.
 

@@ -61,7 +61,9 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 Este exemplo remove uma cópia do banco de dados da caixa de correio DB1 do servidor de caixa de correio MBX1.
 
-    Remove-MailboxDatabaseCopy -Identity DB1\MBX1 -Confirm:$False
+```powershell
+Remove-MailboxDatabaseCopy -Identity DB1\MBX1 -Confirm:$False
+```
 
 ## Como saber se funcionou?
 
@@ -71,7 +73,9 @@ Para verificar se você removeu com êxito uma cópia do banco de dados de caixa
 
   - No Shell, execute o seguinte comando para verificar a remoção da cópia.
     
-        Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```powershell
+Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+```
     
     A cópia passiva removida não está mais listada.
 

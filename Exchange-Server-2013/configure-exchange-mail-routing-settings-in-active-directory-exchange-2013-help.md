@@ -49,11 +49,15 @@ Para definir um custo específicas do Exchange em um link de site do Active Dire
 
 Este exemplo define um custo específicas do Exchange de 10 de link de site IP chamado IPSiteLinkAB.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost 10
+```
 
 Este exemplo limpa o custo do Exchange do link de site IP chamado IPSiteLinkAB.
 
-    Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```powershell
+Set-AdSiteLink IPSiteLinkAB -ExchangeCost $null
+```
 
 ## Como saber se funcionou?
 
@@ -61,7 +65,9 @@ Para verificar que você definiu com êxito um custo do Exchange em um link de s
 
 1.  Execute o seguinte comando:
     
-        Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```powershell
+Get-AdSiteLink | Format-List Name,ExchangeCost
+```
 
 2.  Verificar que o custo do Exchange está configurado no link de site do Active Directory.
 
@@ -71,15 +77,21 @@ Quando um site de hub existe ao longo do caminho de roteamento de custo mínimo 
 
 Para configurar um site do Active Directory como um site de hub, execute o seguinte comando:
 
-    Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```powershell
+Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```
 
 Este exemplo configura o site do Active Directory chamado Site A como um site de hub.
 
-    Set-AdSite "Site A" -HubSiteEnabled $true
+```powershell
+Set-AdSite "Site A" -HubSiteEnabled $true
+```
 
 Este exemplo remove o atributo do site de hub do site do Active Directory denominado local B.
 
-    Set-AdSite "Site B" -HubSiteEnabled $false
+```powershell
+Set-AdSite "Site B" -HubSiteEnabled $false
+```
 
 ## Como saber se funcionou?
 
@@ -87,7 +99,9 @@ Para verificar se você configurou com êxito um site do Active Directory como u
 
 1.  Execute o seguinte comando:
     
-        Get-AdSite | Format-List Name,HubSiteEnabled
+    ```powershell
+Get-AdSite | Format-List Name,HubSiteEnabled
+```
 
 2.  Verifique se que o valor de *HubSiteEnabled* é `True` para o site do Active Directory.
 

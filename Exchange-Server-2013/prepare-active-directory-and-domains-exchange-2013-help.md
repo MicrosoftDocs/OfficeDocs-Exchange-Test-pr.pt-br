@@ -87,7 +87,9 @@ Quando você estiver pronto, faça o seguinte para estender seu esquema do Activ
 
 3.  Execute o seguinte comando para estender o esquema:
     
-        Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+```
 
 Após a Instalação terminar de estender o esquema, será necessário aguardar enquanto o Active Directory replica as alterações a todos os controladores de domínio. Se você quiser verificar o andamento da replicação, use a ferramenta `repadmin`. A `Repadmin` está incluída como parte do recurso Ferramentas de Serviços de Domínio do Active Directory no Windows Server 2012 R2, Windows Server 2012 e no Windows Server 2008 R2. Para saber mais sobre como usar essa ferramenta, confira [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -149,7 +151,9 @@ Quando você estiver pronto, faça o seguinte para preparar todos os domínios e
 
 2.  Execute o comando a seguir:
     
-        Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+```
 
 ## Deixe-me escolher quais domínios do Active Directory eu quero preparar
 

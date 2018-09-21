@@ -133,11 +133,15 @@ Por exemplo, vamos supor que a política de endereço de email em sua organizaç
 
 Para aplicar a política de endereço de email atualizada aos destinatários, use a seguinte sintaxe.
 
-    Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```powershell
+Update-EmailAddressPolicy <EamilAddressPolicyIdentity>
+```
 
 Por exemplo, para aplicar a política de endereço de email atualizada chamada "Política Padrão", execute o seguinte comando:
 
-    Update-EmailAddressPolicy "Default Policy"
+```powershell
+Update-EmailAddressPolicy "Default Policy"
+```
 
 ## Substituir o endereço de email primário existente de um conjunto filtrado de destinatários
 
@@ -197,7 +201,9 @@ Este exemplo cria uma política de endereço de email chamada "Destinatários de
 
 Para aplicar a nova política de endereço de email aos destinatários afetados, execute o seguinte comando:
 
-    Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```powershell
+Update-EmailAddressPolicy "Fourth Coffee Recipients"
+```
 
 ## Como saber se essa etapa funcionou?
 

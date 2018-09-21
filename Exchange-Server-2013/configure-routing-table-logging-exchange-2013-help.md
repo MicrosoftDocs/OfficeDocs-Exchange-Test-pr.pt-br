@@ -79,15 +79,21 @@ Para verificar se você configurou com êxito log de tabela de roteamento, faça
 
 1.  Em uma janela do Prompt de Comando, abra o arquivo de configuração de aplicativo EdgeTransport.exe.config no Bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Modifica a seguinte chave na seção `<appSettings>` .
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+```
     
     Por exemplo, para alterar o intervalo de recálculo automático da tabela de roteamento para 10 horas, use o seguinte valor:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```command line
+<add key="RoutingConfigReloadInterval" value="10:00:00" />
+```
 
 3.  Quando terminar, salve e feche o arquivo EdgeTransport.exe.config.
 

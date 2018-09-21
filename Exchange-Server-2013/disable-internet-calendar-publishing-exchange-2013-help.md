@@ -69,11 +69,15 @@ Para saber mais sobre publicação de calendário na Internet e diretivas de com
 
 Este exemplo desabilita a política de compartilhamento de publicação de calendário da Internet chamada **Internet**.
 
-    Set-SharingPolicy -Identity "Internet" -Enabled $false
+```powershell
+Set-SharingPolicy -Identity "Internet" -Enabled $false
+```
 
 Este exemplo exclui uma política de compartilhamento de publicação de calendário da Internet chamada **Internet**.
 
-    Remove-SharingPolicy -Identity "Internet"
+```powershell
+Remove-SharingPolicy -Identity "Internet"
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd297931\(v=exchg.150\)).
 
@@ -81,7 +85,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-S
 
 Para verificar se você removeu ou atualizou a política de compartilhamento com êxito, execute o seguinte comando do Shell e verifique as informações de política de compartilhamento.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 Se você tiver removido a política de compartilhamento de publicação de calendário da Internet dedicada, você não verá a política nos resultados do cmdlet.
 
@@ -105,7 +111,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-S
 
 Este exemplo desabilita os recursos de Anônimo para o diretório virtual do Outlook Web App no servidor de Acesso para Cliente CAS01.
 
-    Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```powershell
+Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/bb123515\(v=exchg.150\)).
 
@@ -113,7 +121,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-O
 
 Para verificar se você desabilitou com êxito os recursos de Anônimo do diretório virtual do Outlook Web App no servidor de Acesso para Cliente, execute este comando do Shell e verifique se o parâmetro *AnonymousFeaturesEnabled* está como `$false`.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/aa998588\(v=exchg.150\)).
 

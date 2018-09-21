@@ -41,7 +41,9 @@ Para tarefas adicionais relacionadas aos idiomas da UM, consulte [Procedimentos 
 
 Em um prompt de comando, execute o seguinte comando.
 
-    Setup.exe /RemoveUmLanguagePack:<UmLanguagePackName>
+```powershell
+Setup.exe /RemoveUmLanguagePack:<UmLanguagePackName>
+```
 
 No comando anterior, *\<UmLanguagePackName\>* é o nome do pacote de idiomas de Unificação de mensagens, por exemplo, fr-FR.
 

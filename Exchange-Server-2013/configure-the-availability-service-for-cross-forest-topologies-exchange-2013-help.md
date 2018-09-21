@@ -94,7 +94,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte os seg
 
 Este exemplo define a conta de toda a organização no objeto de configuração da disponibilidade para configurar o nível de acesso para informações de disponibilidade na floresta de destino.
 
-    Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```powershell
+Set-AvailabilityConfig -OrgWideAccount "Contoso.com\User"
+```
 
 Este exemplo adiciona o objeto de configuração de espaço de endereçamento de Disponibilidade para a floresta de origem.
 

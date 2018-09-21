@@ -71,7 +71,9 @@ Você pode impedir que uma diretiva de retenção se aplique a uma caixa de corr
 
 Este exemplo do Shell remove a diretiva de retenção da caixa de correio jpeoples.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 Este exemplo do Shell remove a diretiva de retenção de todas as caixas de correio da organização do Exchange.
 
@@ -111,7 +113,9 @@ Este exemplo remove todas marcas de retenção exceto a etiqueta Nunca Excluir.
 
 Este comando remove a política de retenção Corp-Users de uma organização do Exchange.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 

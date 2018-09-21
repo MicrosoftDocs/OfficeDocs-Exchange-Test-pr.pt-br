@@ -53,11 +53,15 @@ Para informações sobre atalhos de teclado que possam se aplicar aos procedimen
 
 Este exemplo atualiza a lista de endereços do estado de Washington.
 
-    Update-AddressList "Washington State"
+```powershell
+Update-AddressList "Washington State"
+```
 
 Se você tiver mais de uma lista de endereços com o mesmo nome, você deve especificar o caminho completo para a lista de endereços que você deseja atualizar. Por exemplo, se você deseja atualizar a lista de endereços da América do Norte de vendas, mas há também uma lista de endereços de vendas na Europa, use o seguinte comando:
 
-    Update-AddressList "North America\Sales"
+```powershell
+Update-AddressList "North America\Sales"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Update-AddressList](https://technet.microsoft.com/pt-br/library/aa997982\(v=exchg.150\)).
 

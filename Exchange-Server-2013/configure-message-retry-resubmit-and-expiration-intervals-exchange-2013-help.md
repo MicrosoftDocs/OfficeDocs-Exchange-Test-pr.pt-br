@@ -43,7 +43,9 @@ Para configurar a contagem de repetição de falha de fila, o intervalo de repet
 
 1.  Em uma janela de prompt de comando no servidor de caixa de correio ou servidor de transporte de borda, abra o arquivo EdgeTransport.exe.config no bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Localize as chaves a seguir na seção `<appSettings>` .
     
@@ -145,11 +147,15 @@ Por padrão, o intervalo de repetição de mensagem é `00:15:00` ou 15 minutos.
 
 Use a sintaxe a seguir para definir o intervalo de repetição de mensagem.
 
-    Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```
 
 Este exemplo altera o intervalo de repetição de mensagem como 20 minutos no servidor de caixa de correio chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```powershell
+Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```
 
 ## Definir as configurações de tempo limite DSN de atraso
 
@@ -173,11 +179,15 @@ Você pode usar o EAC ou o Shell para configurar o intervalo de tempo limite de 
 
 Use a sintaxe a seguir para definir o intervalo de repetição de mensagem.
 
-    Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```
 
 Este exemplo altera o intervalo de tempo limite de notificação do atraso DSN mensagem como seis horas no servidor de caixa de correio chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```powershell
+Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```
 
 ## Usar o Shell para habilitar ou desabilitar o envio de notificações de DSN atraso aos remetentes das mensagens interno ou externo
 
@@ -187,11 +197,15 @@ Use a sintaxe a seguir para definir as configurações de notificação de DSN d
 
 Este exemplo impede que o envio de mensagens de notificação do atraso DSN para remetentes externos.
 
-    Set-TransportConfig -ExternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -ExternalDelayDSNEnabled $false
+```
 
 Este exemplo impede que o envio de mensagens de notificação de DSN atraso para remetentes internos.
 
-    Set-TransportConfig -InternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -InternalDelayDSNEnabled $false
+```
 
 ## Configurar o intervalo de tempo limite de expiração de mensagem
 
@@ -207,9 +221,13 @@ Este exemplo impede que o envio de mensagens de notificação de DSN atraso para
 
 Para configurar o intervalo de tempo limite de expiração de mensagem, use a seguinte sintaxe.
 
-    Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```
 
 Este exemplo altera o intervalo de tempo limite de expiração de mensagem para 4 dias no servidor Exchange chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+```powershell
+Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+```
 

@@ -78,7 +78,9 @@ Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode modif
 
 Este exemplo modifica a pesquisa de descoberta eletrônica In-loco Contoso de projeto de pesquisa para pesquisar caixas de correio que pertencem aos membros do grupo de distribuição DG-ProjectManagers.
 
-    Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```powershell
+Set-MailboxSearch -Identity "Search-Project Contoso" -SourceMailboxes "DG-ProjectManagers"
+```
 
 ## Como saber se funcionou?
 

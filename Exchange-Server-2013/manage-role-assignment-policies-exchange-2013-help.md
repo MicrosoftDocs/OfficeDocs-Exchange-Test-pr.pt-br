@@ -61,7 +61,9 @@ Depois que você criou a nova política de atribuição, você atribuir usuário
 
 Para criar uma política de atribuição explícita que pode ser atribuída manualmente a caixas de correio, use a seguinte sintaxe.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
+```
 
 Este exemplo cria a política de atribuição explícita limitado configuração de caixa de correio e atribui as funções `MyBaseOptions`, `MyAddressInformation`e `MyDisplayName` a ela.
 
@@ -73,7 +75,9 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [New-RoleA
 
 Para criar uma política de atribuição padrão atribuída às novas caixas de correio, use a seguinte sintaxe.
 
-    New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```powershell
+New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDefault
+```
 
 Este exemplo cria a política de atribuição padrão limitado configuração de caixa de correio e atribui as funções `MyBaseOptions`, `MyAddressInformation`e `MyDisplayName` a ela.
 
@@ -103,11 +107,15 @@ Se não precisar mais uma diretiva de atribuição de função de gerenciamento,
 
 Para remover uma diretiva de atribuição, use a seguinte sintaxe.
 
-    Remove-RoleAssignmentPolicy <role assignment policy>
+```powershell
+Remove-RoleAssignmentPolicy <role assignment policy>
+```
 
 Este exemplo remove a diretiva de atribuição de usuários de Nova York temporário.
 
-    Remove-RoleAssignmentPolicy "New York Temporary Users"
+```powershell
+Remove-RoleAssignmentPolicy "New York Temporary Users"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Remove-RoleAssignmentPolicy](https://technet.microsoft.com/pt-br/library/dd638190\(v=exchg.150\)).
 
@@ -135,15 +143,21 @@ Esse procedimento faz uso de canalização e o cmdlet **Format-Table** . Para ob
 
 Para retornar uma lista de todas as diretivas de atribuição na sua organização, use o seguinte comando.
 
-    Get-RoleAssignmentPolicy
+```powershell
+Get-RoleAssignmentPolicy
+```
 
 Para retornar uma lista de propriedades específicas para todas as políticas de atribuição na sua organização, você pode canalizar os resultados para o cmdlet **Format-Table** e especifique as propriedades que você deseja na lista de resultados. Use a seguinte sintaxe.
 
-    Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```powershell
+Get-RoleAssignmentPolicy | Format-Table <property 1>, <property 2...>
+```
 
 Este exemplo retorna uma lista de todas as diretivas de atribuição na sua organização e inclui as propriedades **Name** e **IsDefault** .
 
-    Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```powershell
+Get-RoleAssignmentPolicy | Format-Table Name, IsDefault
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)) ou [Get-RoleAssignmentPolicy](https://technet.microsoft.com/pt-br/library/dd638195\(v=exchg.150\)).
 
@@ -159,11 +173,15 @@ Esse procedimento faz uso de canalização e o cmdlet **Format-List** . Para obt
 
 Para exibir os detalhes de uma política de atribuição específica, use a seguinte sintaxe.
 
-    Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```powershell
+Get-RoleAssignmentPolicy <assignment policy name> | Format-List
+```
 
 Este exemplo exibe os detalhes sobre os usuários de Redmond - nenhuma diretiva de atribuição de mensagens de texto.
 
-    Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```powershell
+Get-RoleAssignmentPolicy "Redmond Users - no Text Messaging" | Format-List
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)) ou [Get-RoleAssignmentPolicy](https://technet.microsoft.com/pt-br/library/dd638195\(v=exchg.150\)).
 
@@ -179,7 +197,9 @@ Esse procedimento faz uso de canalização e o cmdlet **Where** . Para obter mai
 
 Este exemplo retorna a diretiva de atribuição padrão.
 
-    Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }
+```powershell
+Get-RoleAssignmentPolicy | Where {     Get-RoleAssignmentPolicy | Where { $_.IsDefault -eq $True }.IsDefault -eq $True }
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)) ou [Get-RoleAssignmentPolicy](https://technet.microsoft.com/pt-br/library/dd638195\(v=exchg.150\)).
 
@@ -195,11 +215,15 @@ Esse procedimento faz uso de canalização e o cmdlet **Where** . Para obter mai
 
 Use a sintaxe a seguir:
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```powershell
+Get-Mailbox | Where {     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "<role assignment policy>" }.RoleAssignmentPolicy -Eq "<role assignment policy>" }
+```
 
 Este exemplo localiza que todas as caixas de correio atribuída a política aos usuários finais de Vancouver.
 
-    Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```powershell
+Get-Mailbox | Where {     Get-Mailbox | Where { $_.RoleAssignmentPolicy -Eq "Vancouver End Users" }.RoleAssignmentPolicy -Eq "Vancouver End Users" }
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)) ou [Get-RoleAssignmentPolicy](https://technet.microsoft.com/pt-br/library/dd638195\(v=exchg.150\)).
 
@@ -217,11 +241,15 @@ Você pode alterar a política de atribuição de função de gerenciamento atri
 
 Para alterar a política de atribuição padrão, use a seguinte sintaxe.
 
-    Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```powershell
+Set-RoleAssignmentPolicy <assignment policy name> -IsDefault
+```
 
 Este exemplo define a política de atribuição de usuários finais de Vancouver como a política de atribuição padrão.
 
-    Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```powershell
+Set-RoleAssignmentPolicy "Vancouver End Users" -IsDefault
+```
 
 
 > [!IMPORTANT]

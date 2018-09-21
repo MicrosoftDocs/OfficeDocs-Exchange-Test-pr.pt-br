@@ -73,7 +73,9 @@ Você está procurando por outras informações relacionadas a cópias de bancos
 
 5.  Este exemplo usa o Eseutil para executar a operação de recuperação.
     
-        Eseutil.exe /r eXX /a
+    ```powershell
+Eseutil.exe /r eXX /a
+```
     
 
     > [!NOTE]
@@ -90,7 +92,9 @@ Você está procurando por outras informações relacionadas a cópias de bancos
 
 7.  Após a conclusão do processo de recuperação, este exemplo retoma a replicação do banco de dados usado como parte do processo de recuperação.
     
-        Resume-MailboxDatabaseCopy DB1\EX3
+    ```powershell
+Resume-MailboxDatabaseCopy DB1\EX3
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd351074\(v=exchg.150\)) ou [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335220\(v=exchg.150\)).
 
@@ -112,7 +116,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Suspend-Ma
 
 2.  Este exemplo ativa a cópia do banco de dados de caixa de correio com atraso usando o cmdlet [Move-ActiveMailboxDatabase](https://technet.microsoft.com/pt-br/library/dd298068\(v=exchg.150\)) com o parâmetro *SkipLagChecks*.
     
-        Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+    ```powershell
+Move-ActiveMailboxDatabase DB1 -ActivateOnServer EX3 -SkipLagChecks
+```
 
 ## Use o Shell para ativar uma cópia do banco de dados de caixa de correio com atraso usando a recuperação SafetyNet
 
@@ -132,7 +138,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Suspend-Ma
 
 2.  Determine os logs necessários para a cópia de banco de dados com atraso ao procurar por "Log Necessário:" valor na saída de cabeçalho de banco de dados de ESEUTIL
     
-        Eseutil /mh <DBPath> | findstr /c:"Log Required"
+    ```powershell
+Eseutil /mh <DBPath> | findstr /c:"Log Required"
+```
     
     Tome nota dos números hexadecimais entre parênteses. O primeiro número é a geração mais baixa necessária (mencionada como LowGeneration), e o segundo número é a geração mais alta necessária (mencionada como HighGeneration). Mova todos os arquivos de geração de log com uma sequência de geração maior do que HighGeneration para um local diferente para que eles não sejam reproduzidos novamente no banco de dados.
 
@@ -152,5 +160,7 @@ Para verificar se você ativou com êxito uma cópia de banco de dados de caixa 
 
   - No Shell, execute este comando para mostrar informações de status para uma cópia do banco de dados.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 
