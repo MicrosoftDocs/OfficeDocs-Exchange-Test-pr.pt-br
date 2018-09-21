@@ -17,9 +17,9 @@ _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2009-11-03_
 
-[Contadores de desempenho do modo de exibição de gerenciamento de registros de mensagens](view-performance-counters-for-messaging-records-management-exchange-2013-help.md)
+[Contadores de desempenho do modo de exibição de gerenciamento de registros de mensagens](view-performance-counters-for-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
-[Contadores de desempenho para gerenciamento de registros de mensagens](performance-counters-for-messaging-records-management-exchange-2013-help.md)
+[Contadores de desempenho para gerenciamento de registros de mensagens](performance-counters-for-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management)
 
 [Eventos e erros mensagens de gerenciamento de registros](messaging-records-management-errors-and-events-exchange-2013-help.md)
 

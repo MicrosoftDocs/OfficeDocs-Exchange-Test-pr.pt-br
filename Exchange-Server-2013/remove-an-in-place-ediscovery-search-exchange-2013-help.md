@@ -29,7 +29,7 @@ No Microsoft Exchange Server 2013, você pode usar In-Place eDiscovery para pesq
 
   - Tempo estimado para conclusão: 2-5 minutos.
 
-  - Para remover uma pesquisa de descoberta eletrônica In-loco que tenha habilitado de bloqueio In-loco, você deve primeiro remover o bloqueio In-loco da pesquisa. Para obter detalhes, consulte [Criar ou remover um bloqueio In-loco](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+  - Para remover uma pesquisa de descoberta eletrônica In-loco que tenha habilitado de bloqueio In-loco, você deve primeiro remover o bloqueio In-loco da pesquisa. Para obter detalhes, consulte [Criar ou remover um bloqueio In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
   - Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o Entrada "Descoberta" no tópico [Permissões de política e conformidade de mensagens](messaging-policy-and-compliance-permissions-exchange-2013-help.md).
 

@@ -43,5 +43,5 @@ Procurando mais do que apenas documentação? Confira estes outros recursos do E
 
   - [Suporte para o Microsoft Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=283967)   Verifique nesta página os recursos de suporte para várias versões do Exchange.
 
-  - [Acessibilidade para pessoas com deficiência](accessibility-for-people-with-disabilities-exchange-2013-help.md)   Este tópico proporciona informações importantes sobre os recursos, produtos e serviços que ajudam a tornar o Microsoft Exchange mais acessível para pessoas com deficiências.
+  - [Acessibilidade para pessoas com deficiência](https://docs.microsoft.com/pt-br/exchange/about-exchange-documentation/accessibility)   Este tópico proporciona informações importantes sobre os recursos, produtos e serviços que ajudam a tornar o Microsoft Exchange mais acessível para pessoas com deficiências.
 

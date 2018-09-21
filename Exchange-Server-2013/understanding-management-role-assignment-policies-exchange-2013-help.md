@@ -107,7 +107,7 @@ A tabela a seguir lista a camada de diretiva de atribuição de função e os t�
 <tbody>
 <tr class="odd">
 <td><p>Caixa de Correio</p></td>
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio do usuário</a></p>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Gerenciar caixas de correio do usuário</a></p>
 <p><a href="change-the-assignment-policy-on-a-mailbox-exchange-2013-help.md">Alterar a política de atribuição de uma caixa de correio</a></p></td>
 </tr>
 <tr class="even">

@@ -21,11 +21,11 @@ _<strong>Tópico modificado em:</strong>2016-12-15_
 
 Em uma implantação híbrida, os usuários podem estar em Exchange Online, local ou ambos e suas pastas públicas são seja no Exchange Online ou local. Em alguns casos, os usuários online, talvez seja necessário acessar pastas públicas em seu ambiente do Exchange Server 2013 local. Da mesma forma, os usuários do Exchange 2013, talvez seja necessário acessar pastas públicas no Office 365 ou Exchange Online.
 
-Este artigo descreve como permitir que os usuários em seu ambiente do Exchange 2013 local acessar pastas públicas do Exchange Online/Office 365. Para permitir que os usuários do Exchange Online/Office 365 acessar pastas públicas do Exchange 2013 local, consulte [Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md).
+Este artigo descreve como permitir que os usuários em seu ambiente do Exchange 2013 local acessar pastas públicas do Exchange Online/Office 365. Para permitir que os usuários do Exchange Online/Office 365 acessar pastas públicas do Exchange 2013 local, consulte [Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders).
 
 
 > [!TIP]
-> Se você tiver pastas públicas do Exchange 2010 ou Exchange 2007, consulte <A href="configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md">Configurar pastas públicas locais herdadas para uma implantação híbrida</A>.
+> Se você tiver pastas públicas do Exchange 2010 ou Exchange 2007, consulte <A href="https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders">Configurar pastas públicas locais herdadas para uma implantação híbrida</A>.
 
 
 

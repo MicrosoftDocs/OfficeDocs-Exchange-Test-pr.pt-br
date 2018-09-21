@@ -51,7 +51,7 @@ Depois de criar uma pesquisa de descoberta eletrônica In-loco, você pode modif
         
 
         > [!IMPORTANT]
-        > Você não pode usar a opção de <STRONG>todas as caixas de pesquisa</STRONG> para colocar todas as caixas de correio em servidores de caixa de correio Exchange 2013 em espera. Para criar um bloqueio In-loco, você deve selecionar <STRONG>caixas de correio de especificar a ser pesquisado</STRONG>. Para obter mais detalhes, consulte <A href="create-or-remove-an-in-place-hold-exchange-2013-help.md">Criar ou remover um bloqueio In-loco</A>.
+        > Você não pode usar a opção de <STRONG>todas as caixas de pesquisa</STRONG> para colocar todas as caixas de correio em servidores de caixa de correio Exchange 2013 em espera. Para criar um bloqueio In-loco, você deve selecionar <STRONG>caixas de correio de especificar a ser pesquisado</STRONG>. Para obter mais detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds">Criar ou remover um bloqueio In-loco</A>.
 
     
       - Na página **consulta de pesquisa**, modifique os seguintes campos:

@@ -139,5 +139,5 @@ O exemplo a seguir é uma lista completa dos nomes de linha no modelo de relató
 
 [Exibir relatórios de detecção de política DLP](view-dlp-policy-detection-reports-exchange-2013-help.md)
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 

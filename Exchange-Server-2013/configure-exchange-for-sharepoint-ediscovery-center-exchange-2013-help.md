@@ -60,7 +60,7 @@ Execute este comando para configurar o aplicativo de parceiro do SharePoint.
 
 ## Etapa 3: Adicionar usuários autorizados ao grupo de funções Gerenciamento de Descoberta
 
-Adicionar usuários que precisem realizar uma pesquisa de Descoberta Eletrônica usando o SharePoint 2013 ao grupo de funções do Gerenciamento de Descoberta no Exchange 2013. Para obter detalhes, consulte [Atribuir permissões de descoberta eletrônica no Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+Adicionar usuários que precisem realizar uma pesquisa de Descoberta Eletrônica usando o SharePoint 2013 ao grupo de funções do Gerenciamento de Descoberta no Exchange 2013. Para obter detalhes, consulte [Atribuir permissões de descoberta eletrônica no Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
 
 
 > [!CAUTION]

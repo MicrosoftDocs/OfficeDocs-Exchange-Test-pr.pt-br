@@ -29,7 +29,7 @@ As cotas de armazenamento permitem que os administradores controlem o tamanho de
 
 As cotas de armazenamento são geralmente configuradas para cada banco de dados. Isso significa que as cotas configuradas para um banco de dados de caixa de correio se aplicam a todas as caixas de correio nesse banco de dados. Para obter mais informações sobre como gerenciar configurações de caixa de correio por banco de dados, consulte [Gerenciar bancos de dados de caixa de correio no Exchange 2013](manage-mailbox-databases-in-exchange-2013-exchange-2013-help.md).
 
-Este tópico mostra como personalizar as configurações de armazenamento de uma caixa de correio específica em vez de usar as configurações de armazenamento a partir do banco de dados de caixa de correio. Para tarefas de gerenciamento adicionais relacionadas a caixas de correio de usuário, consulte [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
+Este tópico mostra como personalizar as configurações de armazenamento de uma caixa de correio específica em vez de usar as configurações de armazenamento a partir do banco de dados de caixa de correio. Para tarefas de gerenciamento adicionais relacionadas a caixas de correio de usuário, consulte [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 ## O que você precisa saber antes de começar?
 

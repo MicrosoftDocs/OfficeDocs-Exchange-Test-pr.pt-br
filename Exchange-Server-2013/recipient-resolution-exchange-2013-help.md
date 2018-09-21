@@ -104,7 +104,7 @@ A tabela a seguir descreve os objetos de destinatário são encontrados no Activ
 </tr>
 <tr class="even">
 <td><p>DynamicDistributionGroup</p></td>
-<td><p>Um objeto que tem a classe do Active Directory <strong>msExchDynamicDistributionList</strong>. Para obter mais informações, consulte <a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Gerenciar grupos dinâmicos de distribuição</a>.</p></td>
+<td><p>Um objeto que tem a classe do Active Directory <strong>msExchDynamicDistributionList</strong>. Para obter mais informações, consulte <a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups">Gerenciar grupos dinâmicos de distribuição</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Caixa de Correio</p></td>
@@ -112,11 +112,11 @@ A tabela a seguir descreve os objetos de destinatário são encontrados no Activ
 </tr>
 <tr class="even">
 <td><p>MailUser</p></td>
-<td><p>Um objeto de usuário que tenha um endereço de email sem um parâmetro definido <em>Database</em> . Para obter mais informações, consulte <a href="manage-mail-users-exchange-2013-help.md">Gerenciar usuários de email</a>.</p></td>
+<td><p>Um objeto de usuário que tenha um endereço de email sem um parâmetro definido <em>Database</em> . Para obter mais informações, consulte <a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-users">Gerenciar usuários de email</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MailContact</p></td>
-<td><p>Um objeto de contato que possui um endereço de email. Normalmente, um contato de email é usado para destinatários fora da organização do Exchange. Um contato de email também é usado em ambientes do Exchange entre florestas. Para obter mais informações, consulte <a href="manage-mail-contacts-exchange-2013-help.md">Gerenciar contatos de email</a>.</p></td>
+<td><p>Um objeto de contato que possui um endereço de email. Normalmente, um contato de email é usado para destinatários fora da organização do Exchange. Um contato de email também é usado em ambientes do Exchange entre florestas. Para obter mais informações, consulte <a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-contacts">Gerenciar contatos de email</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>MailPublicFolder</p></td>

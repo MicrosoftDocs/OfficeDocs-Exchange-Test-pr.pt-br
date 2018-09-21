@@ -154,9 +154,9 @@ Agora, o Exchange 2013 SP1 é compatível com a segurança de mensagens baseada 
 
 ## Dicas de política DLP disponíveis na versão para área de trabalho e para dispositivos móveis do Outlook Web App
 
-As [Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md) da Prevenção de Perda de Dados (DLP) são avisos informativos exibidos aos remetentes no Outlook quando eles tentam enviar informações confidenciais. No Exchange 2013 SP1, esta funcionalidade foi estendida à versão para área de trabalho do Outlook Web App e para a versão para dispositivos móveis (chamada de OWA para dispositivos). Esse recurso funcionará se você tiver uma política DLP existente com Dicas de Política habilitadas para o Outlook. Se sua política também incluir as Dicas de Política para o Outlook, não serão necessárias configurações adicionais. Vamos lá, experimente\!
+As [Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips) da Prevenção de Perda de Dados (DLP) são avisos informativos exibidos aos remetentes no Outlook quando eles tentam enviar informações confidenciais. No Exchange 2013 SP1, esta funcionalidade foi estendida à versão para área de trabalho do Outlook Web App e para a versão para dispositivos móveis (chamada de OWA para dispositivos). Esse recurso funcionará se você tiver uma política DLP existente com Dicas de Política habilitadas para o Outlook. Se sua política também incluir as Dicas de Política para o Outlook, não serão necessárias configurações adicionais. Vamos lá, experimente\!
 
-Não usa Dicas de Política atualmente? Para começar, [Criar uma política de DLP a partir de um modelo](how-to-new-dlp-data-loss-prevention-policy-template.md) e adicione uma dica de política editando a política e adicionando uma ação **Notificar o remetente com uma Dica de Política**.
+Não usa Dicas de Política atualmente? Para começar, [Criar uma política de DLP a partir de um modelo](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template) e adicione uma dica de política editando a política e adicionando uma ação **Notificar o remetente com uma Dica de Política**.
 
 ## Classificação DLP baseada em Impressões digitais do documento
 

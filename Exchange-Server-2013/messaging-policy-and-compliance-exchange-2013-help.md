@@ -51,7 +51,7 @@ A tabela abaixo apresenta uma visão geral dos recursos de conformidade e polít
 <li><p>Todas as mensagens devem ser mantidas pelo mesmo período?</p></li>
 </ul>
 <p>O Exchange 2013 inclui recursos de MRM que permitem que você implemente as políticas de ciclo de vida de email de sua organização. Você pode usar o MRM para aplicar configurações de retenção uniformes a todas as mensagens, usar políticas de retenção personalizadas para aplicar uma configuração de retenção de linha de base à caixa de correio e, se quiser, permitir que os usuários classifiquem as mensagens para que possam ser mantidas por uma duração específica.</p></td>
-<td><p><a href="messaging-records-management-exchange-2013-help.md">Gerenciamento de registros de mensagens</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management">Gerenciamento de registros de mensagens</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Arquivo Morto In-loco</p></td>
@@ -61,12 +61,12 @@ A tabela abaixo apresenta uma visão geral dos recursos de conformidade e polít
 <tr class="odd">
 <td><p>Retenção Local</p></td>
 <td><p>Quando existe uma expectativa razoável de litígio, as organizações são solicitadas a preservar informações armazenadas eletronicamente (ESI), incluindo emails, pertinentes ao caso. A retenção local permite pesquisar e preservar mensagens que correspondam aos parâmetros de consulta. As mensagens são protegidas contra exclusão, modificação e adulteração, e podem ser preservadas indefinidamente ou por um período especificado.</p></td>
-<td><p><a href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Retenção local e Retenção de litígio</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds">Retenção local e Retenção de litígio</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Descoberta eletrônica In-loco</p></td>
 <td><p>A Descoberta eletrônica In-loco permite que você pesquise dados de caixa de correio em sua organização do Exchange, visualize resultados de pesquisa e copie-os para uma caixa de correio de descoberta.</p></td>
-<td><p><a href="in-place-ediscovery-exchange-2013-help.md">Descoberta Eletrônica In-loco</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">Descoberta Eletrônica In-loco</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Diário</p></td>
@@ -81,7 +81,7 @@ A tabela abaixo apresenta uma visão geral dos recursos de conformidade e polít
 <tr class="odd">
 <td><p>Prevenção de Perda de Dados (DLP)</p></td>
 <td><p>Os recursos de DLP vão ajudá-lo a proteger seus dados confidenciais e informar os usuários sobre suas políticas e normas. A DLP também pode ajudá-lo a impedir que usuários enviem informações confidenciais acidentalmente para pessoas não autorizadas. Ao configurar políticas de DLP, você pode identificar e proteger dados confidenciais analisando o conteúdo de seu sistema de mensagens, que inclui diversos tipos de arquivo associados. Os modelos de políticas de DLP fornecidos com o Exchange 2013 se baseiam em padrões regulamentares como os padrões de segurança de dados do setor de cartões (PCI-DSS) e PII. O DLP pode ser estendido; com isso, você pode incluir outras políticas importantes para sua organização. Além disso, com o novo recurso de dicas de política, você pode informar aos usuários sobre violações de políticas antes que dados confidenciais sejam enviados.</p></td>
-<td><p><a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Prevenção de perda de dados</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Prevenção de perda de dados</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Gerenciamento de Direitos de Informação (IRM)</p></td>
@@ -97,7 +97,7 @@ A tabela abaixo apresenta uma visão geral dos recursos de conformidade e polít
 <td><p>Registro em log de auditoria de Caixa de Correio</p></td>
 <td><p>Como as caixas de correio têm boas chances de conter informações confidenciais de alto impacto sobre os negócios, além de informações de identificação pessoal, é importante que você acompanhe quem faz logon nas caixas de correio de sua organização e quais ações são realizadas. É especialmente importante monitorar o acesso de usuários que não sejam proprietários das caixas de correio em questão (conhecidos como usuários representantes). Com o registro em log de auditoria de caixa de correio, você pode registrar o acesso às caixas de correio por proprietários, representantes (incluindo administradores com permissões de acesso completo à caixa de correio) e administradores.</p></td>
 <td><p><a href="mailbox-audit-logging-exchange-2013-help.md">Registro em log de auditoria da caixa de correio</a></p>
-<p><a href="exchange-auditing-reports-exchange-2013-help.md">Relatórios de auditoria do Exchange</a></p></td>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports">Relatórios de auditoria do Exchange</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Log de auditoria de administrador</p></td>

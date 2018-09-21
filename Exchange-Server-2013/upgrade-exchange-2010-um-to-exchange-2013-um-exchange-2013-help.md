@@ -246,7 +246,7 @@ Configure o modo de inicialização de UM em um servidor de Caixa de Correio do 
 
 Dependendo de sua implantação existente do Exchange 2010, você pode precisar criar novos planos de discagem UM ou configurar seus planos de discagem existentes. Um plano de discagem de UM representa um conjunto de PBXs ou IP PBXs tradicionais ou habilitados para SIP que compartilham números de ramais de usuários comuns. Todos os ramais de usuários hospedados em PBXs ou IP PBXs tradicionais ou habilitados para SIP dentro de um plano de discagem contêm o mesmo número de dígitos. Os usuários podem discar para outros ramais telefônicos sem a necessidade de acrescentar um número especial ao ramal ou discar o número completo do telefone.
 
-Os planos de discagem de UM são usados na Unificação de Mensagens do para garantir que os ramais de telefone do usuário sejam exclusivos. Em algumas redes de telefonia, há vários PBXs ou IP PBXs. Nessas redes de telefonia, pode haver dois usuários com o mesmo ramal telefônico. Os planos de discagem da UM resolvem esta situação. Colocar os dois usuários em dois planos de discagem de UM separados torna seus ramais exclusivos. Para obter mais informações, consulte [Planos de discagem de Unificação de mensagens](um-dial-plans-exchange-2013-help.md).
+Os planos de discagem de UM são usados na Unificação de Mensagens do para garantir que os ramais de telefone do usuário sejam exclusivos. Em algumas redes de telefonia, há vários PBXs ou IP PBXs. Nessas redes de telefonia, pode haver dois usuários com o mesmo ramal telefônico. Os planos de discagem da UM resolvem esta situação. Colocar os dois usuários em dois planos de discagem de UM separados torna seus ramais exclusivos. Para obter mais informações, consulte [Planos de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-dial-plans).
 
 Se for necessário, crie um plano de discagem UM usando o EAC:
 
@@ -296,7 +296,7 @@ Dependendo de sua implantação existente do Exchange 2010, talvez seja necessá
 
 Um gateway IP de UM representa um gateway físico de Voz sobre IP (VoIP), IP PBX ou PBX habilitado para SIP. Antes que um gateway VoIP, PBX IP ou PBX habilitado para SIP possa ser usado para responder chamadas de entrada e enviar chamadas de saída para usuários de correio de voz, um gateway IP da UM deve ser criado no serviço de diretório.
 
-A combinação do objeto de gateway IP de UM e um objeto de grupo de busca de UM estabelece um vínculo entre um gateway VoIP, um IP PBX ou PBX habilitado para SIP e um plano de discagem de UM. Ao criar vários grupos de busca da UM, você pode associar um gateway IP da UM único com vários planos de discagem da UM. Para obter mais informações, consulte [Gateways IP de UM](um-ip-gateways-exchange-2013-help.md).
+A combinação do objeto de gateway IP de UM e um objeto de grupo de busca de UM estabelece um vínculo entre um gateway VoIP, um IP PBX ou PBX habilitado para SIP e um plano de discagem de UM. Ao criar vários grupos de busca da UM, você pode associar um gateway IP da UM único com vários planos de discagem da UM. Para obter mais informações, consulte [Gateways IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-ip-gateways).
 
 Se for necessário, crie um gateway IP da UM usando o EAC, da seguinte maneira:
 
@@ -334,7 +334,7 @@ Para configurar um gateway IP da UM existente no Shell, executando o seguinte co
 
 Dependendo de sua implantação existente do Exchange 2010, talvez seja necessário criar novos grupos de busca da UM. Um grupo de busca de telefonia fornece uma maneira de distribuir chamadas telefônicas a partir de um único número para diversos ramais ou números de telefone. Na Unificação de Mensagens, um grupo de busca de UM é uma representação lógica de um grupo de busca de telefonia e vincula um gateway IP de UM a um plano de discagem de UM.
 
-Você precisa ter pelo menos um grupo de busca de UM para cada grupo de busca de PBX IP ou PBX. Quando você concluir o procedimento a seguir, um grupo de busca de UM será criado por padrão. Se você tiver mais de um grupo de busca de PBX IP ou PBX, precisará criar grupos de busca de UM adicionais. Para saber mais sobre grupos de busca de UM, consulte [Grupos de busca de Unificação de mensagens](um-hunt-groups-exchange-2013-help.md).
+Você precisa ter pelo menos um grupo de busca de UM para cada grupo de busca de PBX IP ou PBX. Quando você concluir o procedimento a seguir, um grupo de busca de UM será criado por padrão. Se você tiver mais de um grupo de busca de PBX IP ou PBX, precisará criar grupos de busca de UM adicionais. Para saber mais sobre grupos de busca de UM, consulte [Grupos de busca de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/um-hunt-groups).
 
 Se for necessário, crie um grupo de busca de UM usando o EAC, da seguinte maneira:
 
@@ -364,7 +364,7 @@ Se for necessário, você pode criar um grupo de busca de UM executando o seguin
 
 ## Etapa 10: Criar ou configurar atendedores automáticos de UM
 
-Dependendo de sua implantação existente do Exchange 2010, talvez seja necessário criar novos atendedores automáticos da UM. Você pode usar atendedores automáticos de UM para criar um sistema de menus de voz que permita aos chamadores externos e internos navegar pelo sistema de menus do atendedor automático de UM para localizar pessoas e fazer ou transferir chamadas para usuários ou departamentos da empresa. Para obter mais informações, consulte [Responder e rotear as chamadas de entrada automaticamente](automatically-answer-and-route-incoming-calls-exchange-2013-help.md).
+Dependendo de sua implantação existente do Exchange 2010, talvez seja necessário criar novos atendedores automáticos da UM. Você pode usar atendedores automáticos de UM para criar um sistema de menus de voz que permita aos chamadores externos e internos navegar pelo sistema de menus do atendedor automático de UM para localizar pessoas e fazer ou transferir chamadas para usuários ou departamentos da empresa. Para obter mais informações, consulte [Responder e rotear as chamadas de entrada automaticamente](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls).
 
 Em implantações menores, você pode querer implantar a UM para que os chamadores possam deixar mensagens de caixa postal para os usuários. Nessas implantações, não é necessário criar um atendedor automático. Entretanto, na maioria dos casos, usar atendedores automáticos é muito útil para chamadores externos que ligarem para a sua organização.
 
@@ -406,7 +406,7 @@ Se for necessário, você pode configurar um atendedor automático de UM existen
 
 ## Etapa 11: Criar ou configurar políticas de caixa de correio de UM
 
-Dependendo de sua implantação existente do Exchange 2010, talvez seja necessário criar novas políticas de caixa de correio da UM ou configurar políticas de caixa de correio da UM existentes. As diretivas de caixa de correio de UM são necessárias quando os usuários são habilitados para a Unificação de Mensagens. A caixa de correio de cada usuário habilitado para UM deve estar vinculada a uma única diretiva de caixa de correio de UM. Depois de criar uma política de caixa de correio de UM, você vincula uma ou mais caixas de correio habilitadas para UM à política de caixa de correio de UM. Isso permite controlar as configurações de segurança de PIN, como o número mínimo de dígitos em um PIN ou o número máximo de tentativas de logon para os usuários habilitados para UM que estão vinculados à política de caixa de correio de UM. Para obter mais informações, consulte [políticas de caixa de correio de UM](um-mailbox-policies-exchange-2013-help.md).
+Dependendo de sua implantação existente do Exchange 2010, talvez seja necessário criar novas políticas de caixa de correio da UM ou configurar políticas de caixa de correio da UM existentes. As diretivas de caixa de correio de UM são necessárias quando os usuários são habilitados para a Unificação de Mensagens. A caixa de correio de cada usuário habilitado para UM deve estar vinculada a uma única diretiva de caixa de correio de UM. Depois de criar uma política de caixa de correio de UM, você vincula uma ou mais caixas de correio habilitadas para UM à política de caixa de correio de UM. Isso permite controlar as configurações de segurança de PIN, como o número mínimo de dígitos em um PIN ou o número máximo de tentativas de logon para os usuários habilitados para UM que estão vinculados à política de caixa de correio de UM. Para obter mais informações, consulte [políticas de caixa de correio de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/um-mailbox-policies).
 
 Se for necessário, crie uma política de caixa de correio de UM usando o EAC:
 
@@ -446,7 +446,7 @@ Se for necessário, você pode configurar uma política de caixa de correio de U
 
 ## Etapa 12: Mover caixas de correio habilitadas para UM existentes para o Exchange 2013
 
-Na Unificação de Mensagens do Exchange 2010, depois de você permitir que os usuários dentro da organização usem correio de voz, um conjunto padrão de propriedades de UM é aplicado ao usuário, para que ele possa usar os recursos de UM. Saiba mais em [Caixa postal para usuários](voice-mail-for-users-exchange-2013-help.md).
+Na Unificação de Mensagens do Exchange 2010, depois de você permitir que os usuários dentro da organização usem correio de voz, um conjunto padrão de propriedades de UM é aplicado ao usuário, para que ele possa usar os recursos de UM. Saiba mais em [Caixa postal para usuários](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 
 Durante o processo de atualização, haverá um período durante o qual você terá caixas de correio habilitadas para UM nos servidores de Caixa de Correio do Exchange 2010 e nos servidores de Caixa de Correio do Exchange 2013. No entanto, se você estiver movendo todos os usuários habilitados para UM para os servidores de Caixa de Correio do Exchange 2013, será necessário usar o EAC ou o cmdlet **New-MoveRequest** no Shell a partir de um servidor do Exchange 2013 a fim de reter todas as propriedades e configurações, incluindo o PIN do usuário.
 
@@ -474,9 +474,9 @@ Para mover uma caixa de correio do Exchange 2010 para um servidor de Caixa de Co
 
 ## Etapa 13: Habilitar novos usuários para UM ou definir configurações para um usuário habilitado para UM existente
 
-Um usuário deve ter uma caixa de correio antes de poder ser habilitado para Unificação de Mensagens. Mas, por padrão, um usuário que tenha uma caixa de correio não está habilitado para UM. Depois que o usuário for habilitado para UM, você poderá gerenciar, modificar e configurar as propriedades de UM e de caixa postal do usuário. É possível habilitar um usuário para UM usando o EAC ou o Shell. Saiba mais em [Caixa postal para usuários](voice-mail-for-users-exchange-2013-help.md).
+Um usuário deve ter uma caixa de correio antes de poder ser habilitado para Unificação de Mensagens. Mas, por padrão, um usuário que tenha uma caixa de correio não está habilitado para UM. Depois que o usuário for habilitado para UM, você poderá gerenciar, modificar e configurar as propriedades de UM e de caixa postal do usuário. É possível habilitar um usuário para UM usando o EAC ou o Shell. Saiba mais em [Caixa postal para usuários](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-for-users).
 
-Quando você habilita um usuário para UM, é necessário definir pelo menos um número de extensão que a UM usará quando o correio de voz for enviado à caixa de correio do usuário e para permitir que o usuário use o Outlook Voice Access. Depois de habilitar o usuário para UM, você poderá adicionar números de ramal secundários à caixa de correio do usuário, modificar ou removê-los configurando o endereço de proxy da Unificação de Mensagens do Exchange (EUM) na caixa de correio do usuário, ou adicionar ou remover os ramais adicionais ou secundários do usuário no EAC. Para adicionar, modificar ou remover números de ramal, números E.164 ou endereços SIP, consulte [Procedimentos do usuário habilitado para email de voz](voice-mail-enabled-user-procedures-exchange-2013-help.md).
+Quando você habilita um usuário para UM, é necessário definir pelo menos um número de extensão que a UM usará quando o correio de voz for enviado à caixa de correio do usuário e para permitir que o usuário use o Outlook Voice Access. Depois de habilitar o usuário para UM, você poderá adicionar números de ramal secundários à caixa de correio do usuário, modificar ou removê-los configurando o endereço de proxy da Unificação de Mensagens do Exchange (EUM) na caixa de correio do usuário, ou adicionar ou remover os ramais adicionais ou secundários do usuário no EAC. Para adicionar, modificar ou remover números de ramal, números E.164 ou endereços SIP, consulte [Procedimentos do usuário habilitado para email de voz](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/voice-mail-enabled-user-procedures).
 
 Para habilitar um usuário para Unificação de Mensagens usando o EAC:
 
@@ -552,9 +552,9 @@ A última etapa no processo de atualização para UM do Exchange 2013 é configu
 
   -  [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md)
 
-  -  [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+  -  [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
-  -  [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+  -  [Supervisor de telefonia para o Exchange 2013](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
 
 ## Etapa 15: Desabilitar o atendimento de chamadas em um servidor de Unificação de Mensagens do Exchange 2010
 

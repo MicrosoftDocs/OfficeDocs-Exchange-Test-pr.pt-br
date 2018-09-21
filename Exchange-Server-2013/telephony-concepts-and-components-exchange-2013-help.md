@@ -179,5 +179,5 @@ Voltar ao início
 
 [Serviços, portas e protocolos de Unificação de mensagens](um-protocols-ports-and-services-exchange-2013-help.md)
 
-[Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)
+[Supervisor de telefonia para o Exchange 2013](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)
 

@@ -23,23 +23,23 @@ Este artigo explica os componentes das regras de fluxo de emails e como eles fun
 
 Para obter informações sobre regras de fluxo de email no Exchange Online, consulte [Regras de fluxo de emails (regras de transporte) no Exchange Online](https://technet.microsoft.com/pt-br/library/jj919238\(v=exchg.150\)). Para obter informações sobre regras de fluxo de email no Proteção do Exchange Online, consulte [Regras de fluxo de emails (regras de transporte) no Exchange Online Protection](https://technet.microsoft.com/pt-br/library/dn271424\(v=exchg.150\))
 
-Você pode usar o Centro de administração do Exchange (EAC) ou o Shell de Gerenciamento do Exchange para gerenciar as regras de fluxo de emails. Confira as instruções sobre como gerenciar regras de transporte em [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md).
+Você pode usar o Centro de administração do Exchange (EAC) ou o Shell de Gerenciamento do Exchange para gerenciar as regras de fluxo de emails. Confira as instruções sobre como gerenciar regras de transporte em [Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
-Você pode impor e testar cada regra ou testar e notificar o remetente. Para saber mais sobre as políticas de teste, consulte [Testar uma regra de fluxo de email](test-a-mail-flow-rule-exchange-2013-help.md) e [Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md).
+Você pode impor e testar cada regra ou testar e notificar o remetente. Para saber mais sobre as políticas de teste, consulte [Testar uma regra de fluxo de email](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) e [Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips).
 
 Para implementar políticas de mensagens específicas usando regras do fluxo de emails, confira estes tópicos:
 
   - [Usar regras de transporte para inspecionar anexos de mensagens](use-transport-rules-to-inspect-message-attachments-exchange-2013-help.md)
 
-  - [Cenários comuns de bloqueio de anexo](common-attachment-blocking-scenarios-for-mail-flow-rules-exchange-2013-help.md)
+  - [Cenários comuns de bloqueio de anexo](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/common-attachment-blocking-scenarios)
 
   - [Avisos de isenção de responsabilidade, assinaturas, rodapés ou cabeçalhos para toda a organização](organization-wide-disclaimers-signatures-footers-or-headers-exchange-online-help.md)
 
-  - [Usar regras de fluxo de email para que mensagens poderá ignorar desorganização](use-mail-flow-rules-so-messages-can-bypass-clutter-exchange-2013-help.md)
+  - [Usar regras de fluxo de email para que mensagens poderá ignorar desorganização](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/use-rules-to-bypass-clutter)
 
-  - [Usar regras de fluxo de email com base em uma lista de palavras, frases ou padrões de emails de rota](use-mail-flow-rules-to-route-email-based-on-a-list-of-words-phrases-or-patterns-exchange-2013-help.md)
+  - [Usar regras de fluxo de email com base em uma lista de palavras, frases ou padrões de emails de rota](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/use-rules-to-route-email)
 
-  - [Cenários comuns de aprovação de mensagem](common-message-approval-scenarios-exchange-2013-help.md)
+  - [Cenários comuns de aprovação de mensagem](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/common-message-approval-scenarios)
 
 ## Componentes de regra de fluxo de email
 
@@ -131,14 +131,14 @@ A tabela a seguir descreve as propriedades das regras que estão disponíveis na
 <td><p>Indica a ordem que as regras são aplicadas às mensagens. A prioridade padrão se baseia no momento em que a regra é criada (regras mais antigas têm uma prioridade mais alta que as regras mais recentes e as regras de prioridade mais alta são processadas antes das regras de prioridade mais baixa).</p>
 <p>Altere a prioridade da regra no EAC movendo a regra para cima ou para baixo na lista de regras. No PowerShell, defina o número de prioridade (0 é a prioridade mais alta).</p>
 <p>Por exemplo, se tiver uma regra para rejeitar mensagens que incluam um número de cartão de crédito e outra exigindo aprovação, você desejará que a regra de rejeição ocorra primeiro e pare a aplicação das outras regras.</p>
-<p>Para saber mais, veja <a href="manage-mail-flow-rules-exchange-2013-help.md">Set the priority of a mail flow rule</a>.</p></td>
+<p>Para saber mais, veja <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules">Set the priority of a mail flow rule</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modo</strong></p></td>
 <td><p><em>Mode</em></p></td>
 <td><p>Você pode especificar se deseja que a regra comece a processar as mensagens imediatamente, ou se deseja testar as regras sem afetar a entrega da mensagem (com ou sem Prevenção contra Perda de Dados ou Dicas de Política DLP).</p>
-<p>As dicas de política apresentam uma anotação breve no Outlook ou no Outlook na Web que fornecem informações sobre possíveis violações de política para a pessoa que está criando a mensagem. Para saber mais, veja <a href="technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md">Dicas de política</a>.</p>
-<p>Para saber mais sobre os modos, confira <a href="test-a-mail-flow-rule-exchange-2013-help.md">Testar uma regra de fluxo de email</a>.</p></td>
+<p>As dicas de política apresentam uma anotação breve no Outlook ou no Outlook na Web que fornecem informações sobre possíveis violações de política para a pessoa que está criando a mensagem. Para saber mais, veja <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips">Dicas de política</a>.</p>
+<p>Para saber mais sobre os modos, confira <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules">Testar uma regra de fluxo de email</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ativar esta regra na seguinte data</strong></p>
@@ -259,7 +259,7 @@ Regras de fluxo de email que você criar e configurar em servidores de caixa de 
 
   - Grupos de distribuição expandido para evitar repetidas Active Directory consultas para determinar a associação de um grupo de caches de cada servidor de caixa de correio. Por padrão, as entradas no cache de grupos expandida expiração cada quatro horas. Portanto, as alterações à associação do grupo não são detectadas pelas regras de fluxo de email até que o cache de grupos expandida é atualizado. Para forçar uma atualização imediata do cache em um servidor de caixa de correio, reinicie o Microsoft Exchange serviço de transporte. Você precisará reiniciar o serviço em cada servidor de caixa de correio onde deseja obrigatoriamente atualizar o cache.
 
-Regras de fluxo de email que você criar e configurar em servidores de transporte de borda são armazenadas na instância local do AD LDS no servidor. Nenhuma replicação automatizada de regras de fluxo de email ocorre em servidores de transporte de borda. Regras no servidor de transporte de borda se aplicam apenas a mensagens que fluem através do servidor local. Se você precisa aplicar o mesmo conjunto de regras de fluxo de correio em vários servidores de transporte de borda, você pode clonar a configuração do servidor de transporte de borda, ou exportar e importar as regras de fluxo de email. Para obter mais informações, consulte [Configuração clonada do servidor de transporte de borda](edge-transport-server-cloned-configuration-exchange-2013-help.md) e [importação ou exportação coleções de regras de fluxo de email](manage-mail-flow-rules-exchange-2013-help.md).
+Regras de fluxo de email que você criar e configurar em servidores de transporte de borda são armazenadas na instância local do AD LDS no servidor. Nenhuma replicação automatizada de regras de fluxo de email ocorre em servidores de transporte de borda. Regras no servidor de transporte de borda se aplicam apenas a mensagens que fluem através do servidor local. Se você precisa aplicar o mesmo conjunto de regras de fluxo de correio em vários servidores de transporte de borda, você pode clonar a configuração do servidor de transporte de borda, ou exportar e importar as regras de fluxo de email. Para obter mais informações, consulte [Configuração clonada do servidor de transporte de borda](edge-transport-server-cloned-configuration-exchange-2013-help.md) e [importação ou exportação coleções de regras de fluxo de email](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 Sempre que o serviço de transporte em um servidor de caixa de correio ou servidor de transporte de borda detecta uma regra de fluxo de email modificadas, um evento é registrado no log do aplicativo no Visualizador de eventos (evento ID 4002 nos servidores de caixa de correio e a identificação de evento 16028 nos servidores de transporte de borda).
 
@@ -285,7 +285,7 @@ Há dois cenários de ambiente misto que são comuns em Exchange 2013:
 
 ## Para saber mais
 
-[Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md)
+[Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
 
 [Condições de regra de transporte (predicados)](mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md)
 

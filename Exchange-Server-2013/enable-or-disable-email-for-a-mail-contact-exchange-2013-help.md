@@ -21,7 +21,7 @@ Você pode desabilitar o email para um contato de email existente na sua organiz
 
 Depois que você desabilitar o email para um contato de email, você pode habilitar email do contato novamente usando o cmdlet **Enable-MailContact** no Shell. Você também pode usar este cmdlet para ativar o email de qualquer contato do Active Directory.
 
-Para tarefas de gerenciamento adicionais relacionadas a contatos de email, consulte [Gerenciar contatos de email](manage-mail-contacts-exchange-2013-help.md).
+Para tarefas de gerenciamento adicionais relacionadas a contatos de email, consulte [Gerenciar contatos de email](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-contacts).
 
 ## O que você precisa saber antes de começar?
 

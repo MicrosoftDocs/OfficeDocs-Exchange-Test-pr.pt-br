@@ -115,7 +115,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Para saber mais, consulte [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
         
         Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 
@@ -193,7 +193,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Para saber mais, consulte [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
         
         Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 

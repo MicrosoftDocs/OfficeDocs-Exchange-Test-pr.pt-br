@@ -29,7 +29,7 @@ Os logs de auditoria de caixa de correio são gerados para cada caixa de correio
 
 Por padrão, as entradas do log de auditoria de caixa de correio são mantidas na caixa de correio por 90 dias e depois excluídas. Esse período de retenção pode ser modificado com o uso do parâmetro *AuditLogAgeLimit* com o cmdlet [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)). Se uma caixa de correio estiver em Retenção In-Loco ou em Retenção de Litígio, as entradas de log de auditoria só serão retidas até que o período de retenção de log da caixa de correio seja atingido. Para reter as entradas de log de auditoria por mais tempo, é preciso aumentar o período de retenção alterando o valor do parâmetro *AuditLogAgeLimit*. Também é possível exportar as entradas de log de auditoria antes de o período de retenção terminar. Para mais informações, consulte:
 
-  - [Exportar logs de auditoria de caixas de correio](export-mailbox-audit-logs-exchange-2013-help.md)
+  - [Exportar logs de auditoria de caixas de correio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 
   - [Criar uma pesquisa de log de auditoria de caixas de correio](create-a-mailbox-audit-log-search-exchange-2013-help.md)
 
@@ -159,9 +159,9 @@ Você pode usar os seguintes métodos para pesquisar entradas de log de auditori
 
   - **Usar relatórios de auditoria do EAC (Centro de Administração do Exchange)**   Você pode usar a guia **Auditoria** no EAC para executar um relatório de acesso a caixas de correio não proprietárias ou para exportar entradas do log de auditoria de caixa de correio. Para ver detalhes, consulte:
     
-      - [Executar um relatório de acesso não proprietário da caixa de correio](run-a-non-owner-mailbox-access-report-exchange-online-help.md)
+      - [Executar um relatório de acesso não proprietário da caixa de correio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report)
     
-      - [Exportar logs de auditoria de caixas de correio](export-mailbox-audit-logs-exchange-2013-help.md)
+      - [Exportar logs de auditoria de caixas de correio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 
 ## Entradas de log de auditoria de caixa de correio
 
@@ -336,7 +336,7 @@ A tabela a seguir descreve os campos registrados em uma entrada de log de audito
 
   - **Acesso de administrador a caixas de correio**   Considera-se que caixas de correio são acessadas por um administrador apenas nestes cenários:
     
-      - A [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md) é usada para pesquisar uma caixa de correio.
+      - A [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) é usada para pesquisar uma caixa de correio.
     
       - O cmdlet [New-MailboxExportRequest](https://technet.microsoft.com/pt-br/library/ff607299\(v=exchg.150\)) é usado para exportar uma caixa de correio.
     

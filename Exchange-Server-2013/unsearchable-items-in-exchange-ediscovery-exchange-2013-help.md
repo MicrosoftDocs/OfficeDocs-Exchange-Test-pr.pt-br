@@ -63,9 +63,9 @@ Lembre-se do seguinte ao copiar ou exportar itens não pesquisáveis:
 
 Para obter mais informações sobre a inclusão de itens não pesquisáveis nos resultados da pesquisa, consulte:
 
-  - [Criar uma pesquisa de Descoberta Eletrônica In-loco](create-an-in-place-ediscovery-search-exchange-2013-help.md)
+  - [Criar uma pesquisa de Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/create-in-place-ediscovery-search)
 
-  - [Exportar resultados de pesquisa de Descoberta Eletrônica para um arquivo PST](export-ediscovery-search-results-to-a-pst-file-exchange-2013-help.md)
+  - [Exportar resultados de pesquisa de Descoberta Eletrônica para um arquivo PST](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/export-search-results)
 
   - [SharePoint: Exportar conteúdo do eDiscovery e criar relatórios](https://go.microsoft.com/fwlink/p/?linkid=324757)
 

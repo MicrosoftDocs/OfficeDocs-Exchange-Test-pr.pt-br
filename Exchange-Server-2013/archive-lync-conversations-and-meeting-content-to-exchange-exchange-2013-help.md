@@ -25,13 +25,13 @@ Quando você coloca uma caixa de correio em retenção de litígio, todos os tip
 
 
 > [!NOTE]
-> Você também pode configurar um bloqueio In-loco para excluir itens do Lync. Por exemplo, organizações talvez prefira preservar itens da caixa postal e mensagem instantânea para um período de tempo menor outros tipos de conteúdo. Para implementar esse tipo de política de retenção, você criará um bloqueio In-loco para preservar o conteúdo por um longo período de tempo (por exemplo, sete anos) e excluir itens do Lync desta isenção. Em seguida, você cria outra In-Place Hold com uma duração de espera menor que preserva apenas itens do Lync. Você também pode especificar por quanto tempo o conteúdo deve ser preservado. Para obter mais informações sobre a criação de uma isenção com uma duração específica, consulte <A href="in-place-hold-and-litigation-hold-exchange-2013-help.md">Retenção local e Retenção de litígio</A>.
+> Você também pode configurar um bloqueio In-loco para excluir itens do Lync. Por exemplo, organizações talvez prefira preservar itens da caixa postal e mensagem instantânea para um período de tempo menor outros tipos de conteúdo. Para implementar esse tipo de política de retenção, você criará um bloqueio In-loco para preservar o conteúdo por um longo período de tempo (por exemplo, sete anos) e excluir itens do Lync desta isenção. Em seguida, você cria outra In-Place Hold com uma duração de espera menor que preserva apenas itens do Lync. Você também pode especificar por quanto tempo o conteúdo deve ser preservado. Para obter mais informações sobre a criação de uma isenção com uma duração específica, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds">Retenção local e Retenção de litígio</A>.
 
 
 
 Consulte os tópicos a seguir para obter instruções passo a passo para colocar um usuário em espera:
 
-  - [Criar ou remover um bloqueio In-loco](create-or-remove-an-in-place-hold-exchange-2013-help.md)
+  - [Criar ou remover um bloqueio In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds)
 
   - [Colocar uma caixa de correio em Retenção de Litígio](place-a-mailbox-on-litigation-hold-exchange-2013-help.md)
 

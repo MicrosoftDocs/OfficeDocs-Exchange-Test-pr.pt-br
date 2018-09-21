@@ -27,7 +27,7 @@ As informações a seguir o ajudarão a configurar e implantar a Unificação de
 
   - [Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para Unificação de MENSAGENS](connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md)   Saiba como conectar os gateways VoIP ou IP PBXs a Unificação de mensagens.
 
-  - [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md)   Saiba mais sobre suportados gateways VoIP, IP PBXs e PBXs.
+  - [Supervisor de telefonia para o Exchange 2013](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013)   Saiba mais sobre suportados gateways VoIP, IP PBXs e PBXs.
 
-  - [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)  Aprenda a configurar seus gateways VoIP, IP PBXs e PBXs.
+  - [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)  Aprenda a configurar seus gateways VoIP, IP PBXs e PBXs.
 

@@ -23,9 +23,9 @@ Antes de começar a trabalhar com essa lista de verificação, certifique-se de 
 
   - [Planejamento para o Unified Messaging](planning-for-unified-messaging-exchange-2013-help.md)
 
-  - [Integração com a Unificação de MENSAGENS do sistema de telefone](telephone-system-integration-with-um-exchange-2013-help.md)
+  - [Integração com a Unificação de MENSAGENS do sistema de telefone](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephone-system-integration-with-um)
 
-  - [Conectar seu sistema de caixa postal à sua rede de telefone](connect-your-voice-mail-system-to-your-telephone-network-exchange-2013-help.md)
+  - [Conectar seu sistema de caixa postal à sua rede de telefone](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/connect-voice-mail-system)
 
 Para obter uma orientação passo a passo sobre como atualizar do Exchange 2007 UM para o Exchange 2013 UM, veja [Atualizar UM do Exchange 2007 para o UM do Exchange 2013](upgrade-exchange-2007-um-to-exchange-2013-um-exchange-2013-help.md).
 
@@ -111,31 +111,31 @@ Para obter uma orientação passo a passo sobre como atualizar do Exchange 2007 
 <tr class="odd">
 <td><p></p></td>
 <td><p>Criar ou configurar planos de discagem de UM existentes.</p></td>
-<td><p><a href="create-a-um-dial-plan-exchange-2013-help.md">Criar um plano de discagem de UM</a></p>
-<p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Gerenciar um plano de discagem de Unificação de mensagens</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan">Criar um plano de discagem de UM</a></p>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan">Gerenciar um plano de discagem de Unificação de mensagens</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Criar ou configurar gateways IP de UM existentes.</p></td>
-<td><p><a href="create-a-um-ip-gateway-exchange-2013-help.md">Criar um gateway IP de UM</a></p>
-<p><a href="manage-a-um-ip-gateway-exchange-2013-help.md">Gerenciar um gateway IP de UM</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway">Criar um gateway IP de UM</a></p>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-ip-gateway">Gerenciar um gateway IP de UM</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Criar um grupo de busca de UM.</p></td>
-<td><p><a href="create-a-um-hunt-group-exchange-2013-help.md">Criar um grupo de busca de UM</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-hunt-group">Criar um grupo de busca de UM</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Criar ou configurar atendedores automáticos de UM.</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Criar um Atendedor Automático da UM</a></p>
-<p><a href="manage-a-um-auto-attendant-exchange-2013-help.md">Gerenciar um atendedor automático</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant">Criar um Atendedor Automático da UM</a></p>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/manage-um-auto-attendant">Gerenciar um atendedor automático</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Criar ou configurar políticas de caixa de correio de UM.</p></td>
-<td><p><a href="create-a-um-mailbox-policy-exchange-2013-help.md">Criar uma política de caixa de correio da UM</a></p>
-<p><a href="manage-a-um-mailbox-policy-exchange-2013-help.md">Gerenciar uma política de caixa de correio de Unificação de mensagens</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy">Criar uma política de caixa de correio da UM</a></p>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy">Gerenciar uma política de caixa de correio de Unificação de mensagens</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
@@ -145,13 +145,13 @@ Para obter uma orientação passo a passo sobre como atualizar do Exchange 2007 
 <tr class="odd">
 <td><p></p></td>
 <td><p>Habilitar novos usuários para UM ou definir configurações para um usuário habilitado para UM existente.</p></td>
-<td><p><a href="enable-a-user-for-voice-mail-exchange-2013-help.md">Habilitar um usuário para caixa postal</a></p>
-<p><a href="manage-voice-mail-settings-for-a-user-exchange-2013-help.md">Gerenciar configurações de caixa postal de um usuário</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail">Habilitar um usuário para caixa postal</a></p>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-voice-mail-settings">Gerenciar configurações de caixa postal de um usuário</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Configurar seus gateways VoIP, IP PBXs e PBXs habilitados para SIP para enviar todas as chamadas de entrada aos servidores de Acesso para Cliente Exchange 2013.</p></td>
-<td><p><a href="configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md">Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs</a> <a href="connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md">Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para Unificação de MENSAGENS</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways">Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs</a> <a href="connect-a-voip-gateway-ip-pbx-or-session-border-controller-to-um-exchange-2013-help.md">Conectar a um controlador de borda de sessão, PBX IP ou gateway VoIP para Unificação de MENSAGENS</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

@@ -27,7 +27,7 @@ Como limpar a pasta itens recuperáveis na caixa de correio do usuário depende 
 
   - Se a caixa de correio for colocada em retenção In-loco ou retenção de litígio ou tem recuperação de item único habilitada, é importante preservar os dados de caixa de correio até que a suspensão seja removida ou recuperação de item único está desabilitada. Nesse caso, você precisará executar etapas mais detalhadas para limpar a pasta itens recuperáveis.
 
-Para saber mais sobre o bloqueio In-loco e retenção de litígio, consulte [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md). Para saber mais sobre a recuperação de item único, consulte "Recuperação de Item único" em [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
+Para saber mais sobre o bloqueio In-loco e retenção de litígio, consulte [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds). Para saber mais sobre a recuperação de item único, consulte "Recuperação de Item único" em [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
 
 Para saber mais sobre a pasta itens recuperáveis, consulte [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
 
@@ -37,7 +37,7 @@ Para saber mais sobre a pasta itens recuperáveis, consulte [Pasta Itens Recuper
 
   - Você precisa ter as seguintes funções de gerenciamento para usar o cmdlet de **Search-Mailbox** para pesquisar e excluir mensagens na caixa de correio do usuário.
     
-      - **Pesquisa de Caixa de Correio**   Essa função permite procurar mensagens em várias caixas de correio da sua organização. Os administradores não têm essa função atribuída por padrão. Para atribuir a si mesmo esta função para que você possa pesquisar caixas de correio, adicione a si mesmo como um membro do grupo de funções do Gerenciamento de Descoberta. Consulte [Atribuir permissões de descoberta eletrônica no Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+      - **Pesquisa de Caixa de Correio**   Essa função permite procurar mensagens em várias caixas de correio da sua organização. Os administradores não têm essa função atribuída por padrão. Para atribuir a si mesmo esta função para que você possa pesquisar caixas de correio, adicione a si mesmo como um membro do grupo de funções do Gerenciamento de Descoberta. Consulte [Atribuir permissões de descoberta eletrônica no Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
     
       - **Caixa de correio importar e exportar**   Essa função permite que você excluir mensagens da caixa de correio do usuário. Por padrão, essa função não é atribuída a qualquer grupo de funções. Para excluir mensagens de caixas de correio dos usuários, você pode adicionar a função caixa de correio importar e exportar para o grupo de funções de gerenciamento da organização. Para obter mais informações, consulte a seção "Adicionar uma função a um grupo de funções" no [Gerenciar grupos de função](manage-role-groups-exchange-2013-help.md) .
 
@@ -144,7 +144,7 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
     
 
     > [!NOTE]
-    > Não é obrigatório para copiar itens para a caixa de correio de pesquisa de descoberta. Você pode copiar mensagens para qualquer caixa de correio. No entanto, para impedir o acesso aos dados de caixa de correio potencialmente confidenciais, é recomendável copiar mensagens para uma caixa de correio que tem acesso restrito aos gerentes de registros autorizado. Por padrão, o acesso à caixa de correio de pesquisa de descoberta padrão é restrito aos membros do grupo de funções de gerenciamento de descoberta. Para obter detalhes, consulte <A href="in-place-ediscovery-exchange-2013-help.md">Descoberta Eletrônica In-loco</A>.
+    > Não é obrigatório para copiar itens para a caixa de correio de pesquisa de descoberta. Você pode copiar mensagens para qualquer caixa de correio. No entanto, para impedir o acesso aos dados de caixa de correio potencialmente confidenciais, é recomendável copiar mensagens para uma caixa de correio que tem acesso restrito aos gerentes de registros autorizado. Por padrão, o acesso à caixa de correio de pesquisa de descoberta padrão é restrito aos membros do grupo de funções de gerenciamento de descoberta. Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">Descoberta Eletrônica In-loco</A>.
 
 
 

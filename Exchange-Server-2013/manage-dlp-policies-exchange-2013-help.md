@@ -127,7 +127,7 @@ Para obter informações de sintaxe e parâmetros, consulte [Remove-DlpPolicy](h
 
 ## Para obter mais informações
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
-[Dicas de política](technical-overview-of-policy-tips-in-exchange-online-and-exchange-2013.md)
+[Dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/policy-tips)
 

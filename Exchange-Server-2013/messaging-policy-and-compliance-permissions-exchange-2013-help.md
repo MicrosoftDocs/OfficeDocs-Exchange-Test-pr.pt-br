@@ -114,7 +114,7 @@ Os usuários atribuídos ao grupo de funções Gerenciamento Somente para Exibi�
 <td><p><a href="discovery-management-exchange-2013-help.md">Gerenciamento de Descobertas</a></p>
 
 > [!NOTE]  
-> Por padrão, o grupo de função Gerenciamento de Descoberta não tem membros. Nenhum usuário, incluindo administradores, tem as permissões necessárias para buscar caixas de correio. Para mais informações, consulte <A href="assign-ediscovery-permissions-in-exchange-exchange-2013-help.md">Atribuir permissões de descoberta eletrônica no Exchange</A>.
+> Por padrão, o grupo de função Gerenciamento de Descoberta não tem membros. Nenhum usuário, incluindo administradores, tem as permissões necessárias para buscar caixas de correio. Para mais informações, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions">Atribuir permissões de descoberta eletrônica no Exchange</A>.
 
 
 </td>

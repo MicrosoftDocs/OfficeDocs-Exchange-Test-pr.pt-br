@@ -173,7 +173,7 @@ A tabela a seguir contém links para tópicos que irão ajudar você a aprender 
 <td><p>Os logs de transporte gravam o que acontece às mensagens, conforme elas fluem através do pipeline de transporte.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-message-approval-exchange-2013-help.md">Gerenciar a aprovação de mensagens</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-message-approval">Gerenciar a aprovação de mensagens</a></p></td>
 <td><p>O transporte moderado requer aprovação para mensagens enviadas a destinatários específicos.</p></td>
 </tr>
 <tr class="even">

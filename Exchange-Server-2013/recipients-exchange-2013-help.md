@@ -277,7 +277,7 @@ Para ajudar a criar filtros de destinatários para grupos dinâmicos de distribu
 
   - Contêiner de destinatário
 
-Você também pode especificar condições com base em propriedades de destinatário diferentes daquelas listadas anteriormente. Para isso, use o Shell para criar uma consulta personalizada para o grupo dinâmico de distribuição. Lembre-se de que as configurações de filtro e as condições para os grupos dinâmicos de distribuição que tenham filtros de destinatário personalizados podem ser gerenciadas somente usando-se o Shell. Para obter um exemplo de como criar um grupo dinâmico de distribuição usando uma consulta personalizada, consulte [Gerenciar grupos dinâmicos de distribuição](manage-dynamic-distribution-groups-exchange-2013-help.md).
+Você também pode especificar condições com base em propriedades de destinatário diferentes daquelas listadas anteriormente. Para isso, use o Shell para criar uma consulta personalizada para o grupo dinâmico de distribuição. Lembre-se de que as configurações de filtro e as condições para os grupos dinâmicos de distribuição que tenham filtros de destinatário personalizados podem ser gerenciadas somente usando-se o Shell. Para obter um exemplo de como criar um grupo dinâmico de distribuição usando uma consulta personalizada, consulte [Gerenciar grupos dinâmicos de distribuição](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups).
 
 ## Contatos de email
 
@@ -341,7 +341,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba como criar caixas de correio de usuário usando o Centro de administração do Exchange ou o Shell de Gerenciamento do Exchange.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-user-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio do usuário</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes">Gerenciar caixas de correio do usuário</a></p></td>
 <td><p>Saiba como criar caixas de correio de usuários, alterar propriedades de caixa de correio e editar em massa propriedades selecionadas para várias caixas de correio.</p></td>
 </tr>
 <tr class="odd">
@@ -349,31 +349,31 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba mais sobre os requisitos de caixas de correio vinculadas, como criá-las e vinculá-las a uma conta mestre e como alterar propriedades de caixas de correio vinculadas.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-and-manage-distribution-groups-exchange-2013-help.md">Criar e gerenciar grupos de distribuição</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups">Criar e gerenciar grupos de distribuição</a></p></td>
 <td><p>Saiba como criar e gerenciar grupos de distribuição e como criar uma diretiva de nomeação de grupo para a sua organização.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-enabled-security-groups-exchange-2013-help.md">Gerenciar grupos de segurança habilitados para email</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Gerenciar grupos de segurança habilitados para email</a></p></td>
 <td><p>Saiba como criar e gerenciar grupos de segurança habilitados para email.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-dynamic-distribution-groups-exchange-2013-help.md">Gerenciar grupos dinâmicos de distribuição</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups">Gerenciar grupos dinâmicos de distribuição</a></p></td>
 <td><p>Saiba como criar grupos de distribuição dinâmicos e gerenciar propriedades de grupos de distribuição dinâmicos, como por exemplo utilizar atributos personalizados e outras propriedades para determinar a associação ao grupo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="manage-mail-contacts-exchange-2013-help.md">Gerenciar contatos de email</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-contacts">Gerenciar contatos de email</a></p></td>
 <td><p>Saiba como criar e gerenciar contatos de email.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-mail-users-exchange-2013-help.md">Gerenciar usuários de email</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-users">Gerenciar usuários de email</a></p></td>
 <td><p>Saiba como criar e gerenciar usuários de email.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="create-and-manage-room-mailboxes-exchange-2013-help.md">Criar e gerenciar caixas de correio de sala</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-room-mailboxes">Criar e gerenciar caixas de correio de sala</a></p></td>
 <td><p>Saiba como criar caixas de correio de sala e gerenciar propriedades de caixas de correio de sala, como por exemplo habilitar reuniões recorrentes e configurar opções de agendamento.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-equipment-mailboxes-exchange-2013-help.md">Gerenciar caixas de correio de equipamento</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-equipment-mailboxes">Gerenciar caixas de correio de equipamento</a></p></td>
 <td><p>Saiba como criar caixas de correio de equipamento, configurar opções de agendamento e gerenciar outras propriedades de caixa de correio.</p></td>
 </tr>
 <tr class="odd">
@@ -389,7 +389,7 @@ A tabela a seguir contém links para tópicos que o ajudarão a gerenciar e a sa
 <td><p>Saiba como usar filtros predefinidos e personalizados com comandos para filtrar um conjunto de destinatários.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="manage-permissions-for-recipients-exchange-online-help.md">Gerenciar permissões para destinatários</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">Gerenciar permissões para destinatários</a></p></td>
 <td><p>Saiba como usar o EAC ou o Shell para atribuir permissões a usuários e grupos.</p></td>
 </tr>
 <tr class="odd">

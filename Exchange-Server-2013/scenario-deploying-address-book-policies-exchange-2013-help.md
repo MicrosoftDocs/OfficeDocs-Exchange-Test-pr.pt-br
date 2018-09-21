@@ -205,7 +205,7 @@ Considere o seguinte ao usar ABPs em sua organização:
 
   - Não execute a função de servidor do Acesso para Cliente do Exchange 2010 no servidor de catálogo global. Ao fazê-lo o Active Directory é usado para o Name Service Provider Interface (NSPI) ao invés do serviço de Catálogo de Endereços do Microsoft Exchange. Você pode executar as funções de servidor do Exchange 2013 em um servidor de catálogo global e fazer com que os ABPs funcionem corretamente, entretanto não recomendamos instalar o Exchange em um controlador de domínio.
 
-  - Você não pode usar catálogos de endereço hierárquicos (HABs) e ABPs simultaneamente. Para saber mais, consulte [Catálogos de endereços hierárquicos](hierarchical-address-books-exchange-2013-help.md).
+  - Você não pode usar catálogos de endereço hierárquicos (HABs) e ABPs simultaneamente. Para saber mais, consulte [Catálogos de endereços hierárquicos](https://docs.microsoft.com/pt-br/exchange/address-books/hierarchical-address-books/hierarchical-address-books).
 
   - Qualquer usuário atribuído com um ABP deve existir na sua própria GAL.
 
@@ -267,7 +267,7 @@ Você não precisa desenvolver um jeito de dividir suas organizações. Recomend
 
   - Os atributos CustomAttributeX são reservados explicitamente para a personalização de uma organização e estão totalmente sobre o controle dos administradores da organização.
 
-Outra melhor prática é considerar a implementação quando segregar sua organização é usar identificadores de companhia nos nomes dos grupos de distribuição e nos grupos dinâmicos de distribuição. O Exchange tem um recurso de política de Nomeação de Grupos que irá adicionar automaticamente um sufixo ou prefixo ao nome do grupo de distribuição com base em vários atributos do usuário que criar o grupo de distribuição, incluindo o criador de Companhia, StateorProvince, Cargo e CustomAttribute1 a CustomAttribute15. A política de nomeação de grupo é especialmente importante, se você estiver permitindo que os usuários criem seus próprios grupos de distribuição. Para mais informações, consulte [Criar um diretiva de nomeação de grupo de distribuição](create-a-distribution-group-naming-policy-exchange-2013-help.md).
+Outra melhor prática é considerar a implementação quando segregar sua organização é usar identificadores de companhia nos nomes dos grupos de distribuição e nos grupos dinâmicos de distribuição. O Exchange tem um recurso de política de Nomeação de Grupos que irá adicionar automaticamente um sufixo ou prefixo ao nome do grupo de distribuição com base em vários atributos do usuário que criar o grupo de distribuição, incluindo o criador de Companhia, StateorProvince, Cargo e CustomAttribute1 a CustomAttribute15. A política de nomeação de grupo é especialmente importante, se você estiver permitindo que os usuários criem seus próprios grupos de distribuição. Para mais informações, consulte [Criar um diretiva de nomeação de grupo de distribuição](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
 As políticas de nomeação de grupos não se aplicam a grupos dinâmicos de distribuição, então, você precisará segregá-los e aplicar uma política de nomeação manualmente.
 
@@ -289,7 +289,7 @@ Este exemplo cria a lista de endereços AL\_TAIL\_Users\_DGs. A lista de endere�
 
     New-AddressList -Name "AL_TAIL_Users_DGs" -RecipientFilter {((RecipientType -eq 'UserMailbox') -or (RecipientType -eq "MailUniversalDistributionGroup") -or (RecipientType -eq "DynamicDistributionGroup")) -and (CustomAttribute15 -eq "TAIL")}
 
-Para mais informações sobre como criar listas de endereços usando filtros de destinatários, consulte [Criar uma lista de endereços usando filtros de destinatários](create-an-address-list-by-using-recipient-filters-exchange-2013-help.md).
+Para mais informações sobre como criar listas de endereços usando filtros de destinatários, consulte [Criar uma lista de endereços usando filtros de destinatários](https://docs.microsoft.com/pt-br/exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list).
 
 Para criar uma ABP, você deve fornecer uma lista de endereços de salas. Se a sua organização não tiver caixas de correio de recursos, como caixas de correio de sala ou equipamento, sugerimos que você crie uma lista de endereços de sala em branco. O exemplo a seguir cria uma lista de endereços de salas em branco, porque não há caixas de correio de salas na organização.
 
@@ -303,7 +303,7 @@ A lista global de endereços usada em uma ABP deve ser um superconjunto das list
 
     New-GlobalAddressList -Name "GAL_TAIL" -RecipientFilter {(CustomAttribute15 -eq "TAIL")}
 
-Para obter mais informações, consulte [Criar uma lista de endereços global](create-a-global-address-list-exchange-2013-help.md).
+Para obter mais informações, consulte [Criar uma lista de endereços global](https://docs.microsoft.com/pt-br/exchange/address-books/address-lists/create-global-address-list).
 
 Quando você criar a OAB, inclua a GAL apropriada, ao fornecer o parâmetro *AddressLists* de New- ou Set-OfflineAddressBook, para garantir que nenhuma entrada fique faltando inesperadamente. Basicamente, você pode personalizar o conjunto de entradas que um usuário irá ver ou reduzir o tamanho de download do OAB, especificando uma lista AddressLists em AddressLists de New/Set-OfflineAddressBook. Entretanto, se você desejar que os usuários vejam a lista completa de entradas de GAL no OAB, certifique-se de que você inclua a GAL em AddressLists.
 
@@ -311,7 +311,7 @@ Este exemplo cria o OAB para Fabrikam chamado OAB\_FAB.
 
     New-OfflineAddressBook -Name "OAB_FAB" -AddressLists "GAL_FAB"
 
-Para mais informações, consulte [Criar um catálogo de endereços offline](create-an-offline-address-book-exchange-2013-help.md).
+Para mais informações, consulte [Criar um catálogo de endereços offline](https://docs.microsoft.com/pt-br/exchange/address-books/offline-address-books/create-offline-address-book).
 
 ## Etapa 4: Criar as ABPs
 
@@ -319,7 +319,7 @@ Depois de você ter criado todos os objetos exigidos, poderá criar a ABP. Este 
 
     New-AddressBookPolicy -Name "ABP_TAIL" -AddressLists "AL_TAIL_Users_DGs"," AL_TAIL_Contacts" -OfflineAddressBook "\OAB_TAIL" -GlobalAddressList "\GAL_TAIL" -RoomList "\AL_TAIL_Rooms"
 
-Para mais informações, consulte [Criar uma política de catálogo de endereços](create-an-address-book-policy-exchange-2013-help.md).
+Para mais informações, consulte [Criar uma política de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/create-an-address-book-policy).
 
 ## Etapa 5: Atribua os ABPs às caixas de correio
 
@@ -329,5 +329,5 @@ Este exemplo atribui ABP\_FAB a todas as caixas de correio em que CustomAttribut
 
     Get-Mailbox -resultsize unlimited | where {$_.CustomAttribute15 -eq "TAIL"} | Set-Mailbox -AddressBookPolicy "ABP_TAIL"
 
-Para mais informações, consulte [Atribuir uma política de catálogo de endereços para usuários de email](assign-an-address-book-policy-to-mail-users-exchange-2013-help.md).
+Para mais informações, consulte [Atribuir uma política de catálogo de endereços para usuários de email](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/assign-an-address-book-policy-to-mail-users).
 

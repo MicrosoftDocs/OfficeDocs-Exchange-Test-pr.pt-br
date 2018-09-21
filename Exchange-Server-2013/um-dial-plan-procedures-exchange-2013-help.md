@@ -17,25 +17,25 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013, Exchange Server 2016_
 
 _**Tópico modificado em:** 2013-04-16_
 
-[Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md)
+[Criar um plano de discagem de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan)
 
-[Gerenciar um plano de discagem de Unificação de mensagens](manage-a-um-dial-plan-exchange-2013-help.md)
+[Gerenciar um plano de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan)
 
 [Adicionar servidores de acesso para cliente e caixa de correio a um plano de discagem URI do SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md)
 
 [Remover servidores de acesso para cliente e caixa de correio de um plano de discagem URI do SIP](remove-mailbox-and-client-access-servers-from-a-sip-uri-dial-plan-exchange-2013-help.md)
 
-[Alterar o codec de áudio](change-the-audio-codec-exchange-2013-help.md)
+[Alterar o codec de áudio](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/change-audio-codec)
 
-[Configurar a duração máxima da chamada](configure-the-maximum-call-duration-exchange-2013-help.md)
+[Configurar a duração máxima da chamada](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-call-duration)
 
-[Configurar a duração máxima de gravação](configure-the-maximum-recording-duration-exchange-2013-help.md)
+[Configurar a duração máxima de gravação](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-maximum-recording-duration)
 
-[Configure o valor de tempo limite ocioso de gravação](configure-the-recording-idle-time-out-value-exchange-2013-help.md)
+[Configure o valor de tempo limite ocioso de gravação](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-recording-idle-time-out)
 
-[Definir a configuração de segurança de VoIP](configure-the-voip-security-setting-exchange-2013-help.md)
+[Definir a configuração de segurança de VoIP](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting)
 
-[Configurar um plano de discagem para usuários que tenham nomes semelhantes](configure-a-dial-plan-for-users-who-have-similar-names-exchange-2013-help.md)
+[Configurar um plano de discagem para usuários que tenham nomes semelhantes](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-dial-plan-for-users-with-similar-names)
 
-[Excluir um plano de discagem de Unificação de mensagens](delete-a-um-dial-plan-exchange-2013-help.md)
+[Excluir um plano de discagem de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/delete-um-dial-plan)
 
