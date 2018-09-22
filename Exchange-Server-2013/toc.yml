@@ -756,14 +756,14 @@
           - name: Migrar de pastas gerenciadas
             href: migrate-from-managed-folders-exchange-2013-help.md
           - name: Desativar ou suspender o gerenciamento de registros de mensagens
-            href: turn-off-or-suspend-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+            href: turn-off-or-suspend-messaging-records-management-exchange-2013-help.md
       - name: Gerenciamento de registros de mensagens de monitoramento
-        href: monitoring-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+        href: monitoring-messaging-records-management-exchange-2013-help.md
         items:
         - name: Contadores de desempenho do modo de exibição de gerenciamento de registros de mensagens
-          href: view-performance-counters-for-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: view-performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Contadores de desempenho para gerenciamento de registros de mensagens
-          href: performance-counters-for-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management
+          href: performance-counters-for-messaging-records-management-exchange-2013-help.md
         - name: Eventos e erros mensagens de gerenciamento de registros
           href: messaging-records-management-errors-and-events-exchange-2013-help.md
     - name: Registro no Diário
@@ -895,7 +895,7 @@
         - name: Habilitar ou desabilitar a descriptografia de transporte
           href: enable-or-disable-transport-decryption-exchange-2013-help.md
         - name: Configurar o IRM para descoberta eletrônica In-loco e de pesquisa do Exchange
-          href: configure-irm-for-exchange-search-and-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery
+          href: configure-irm-for-exchange-search-and-in-place-ediscovery-exchange-2013-help.md
         - name: Habilitar ou desabilitar a descriptografia do relatório de diário
           href: enable-or-disable-journal-report-decryption-exchange-2013-help.md
         - name: Habilitar ou desabilitar o gerenciamento de direitos de informação nos servidores de acesso do cliente
@@ -1415,7 +1415,7 @@
       href: https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies
       items:
       - name: 'Cenário: Implantando políticas de catálogo de endereços'
-        href: scenario-deploying-https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies
+        href: scenario-deploying-address-book-policies-exchange-2013-help.md
       - name: Procedimentos de política de catálogo de endereços
         href: address-book-policy-procedures-exchange-2013-help.md
         items:
@@ -1502,7 +1502,7 @@
       href: https://docs.microsoft.com/pt-br/exchange/address-books/hierarchical-address-books/hierarchical-address-books
       items:
       - name: Habilitar ou desabilitar catálogos de endereços hierárquico
-        href: enable-or-disable-https://docs.microsoft.com/pt-br/exchange/address-books/hierarchical-address-books/hierarchical-address-books
+        href: https://docs.microsoft.com/pt-br/exchange/address-books/hierarchical-address-books/enable-or-disable-hierarchical-address-books
   - name: Compartilhamento
     href: sharing-exchange-2013-help.md
     items:
@@ -1711,7 +1711,7 @@
       - name: Gerenciar o acesso de usuário aos aplicativos para Outlook
         href: https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/manage-user-access-to-add-ins
       - name: Especificar os administradores e usuários que podem instalar e gerenciar suplementos do Outlook
-        href: specify-the-administrators-and-users-who-can-install-and-manage-https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook
+        href: https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins
     - name: Configurando o descarregamento de SSL no Exchange 2013
       href: configuring-ssl-offloading-in-exchange-2013-exchange-2013-help.md
   - name: Unificação de mensagens
