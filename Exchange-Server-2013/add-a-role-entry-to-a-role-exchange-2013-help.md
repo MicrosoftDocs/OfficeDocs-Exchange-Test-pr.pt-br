@@ -73,7 +73,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Add-Manage
 
 Para adicionar uma entrada de função de uma função pai, porém incluindo apenas parâmetros específicos da entrada de função na função filha, use a sintaxe a seguir.
 
-    Add-ManagementRoleEntry <child role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```powershell
+Add-ManagementRoleEntry <child role name>\<cmdlet> -Parameters <parameter 1>, <parameter 2>, <parameter...>
+```
 
 Este exemplo adiciona o cmdlet **Set-Mailbox** à função de Suporte Técnico, mas inclui apenas os parâmetros *DisplayName* e *EmailAddresses* na entrada da função filha.
 
@@ -91,11 +93,15 @@ Para adicionar mais de uma entrada de função a uma função, é preciso obter 
 
 Para adicionar várias entradas de uma função de pai a uma função filha, use a sintaxe a seguir.
 
+```powershell
     Get-ManagementRoleEntry <parent role name>\*<partial cmdlet name>* | Add-ManagementRoleEntry -Role <child role name>
+```
 
 Este exemplo adiciona todas as entradas de função que contenham a cadeia de caracteres `Mailbox` no nome do cmdlet na função pai Destinatários de Email à função filha Destinatários de Email de Seattle.
 
+```powershell
     Get-ManagementRoleEntry "Mail Recipients\*Mailbox*" | Add-ManagementRoleEntry -Role "Seattle Mail Recipients"
+```
 
 Se as entradas de função já existirem na função filha, você pode incluir o parâmetro *Overwrite* para substituir as entradas de função existentes.
 

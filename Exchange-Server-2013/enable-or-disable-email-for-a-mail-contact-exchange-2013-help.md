@@ -60,7 +60,7 @@ O contato de email será removido da lista Contatos.
 Este exemplo desabilita o email para o contato de email Neil Black.
 
 ```powershell
-Disable-MailContact -Identity "Neil Black"
+    Disable-MailContact -Identity "Neil Black"
 ```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Disable-MailContact](https://technet.microsoft.com/pt-br/library/aa997465\(v=exchg.150\)).
@@ -76,16 +76,16 @@ Para verificar se você desabilitou com êxito email para um contato de email, s
 3.  No Shell, execute o comando a seguir.
     
     ```powershell
-Get-MailContact
-```
+    Get-MailContact
+    ```
     
     O que você desabilitou o email para contato não será retornado nos resultados da porque este cmdlet retorna apenas os contatos habilitados para email.
 
 4.  No Shell, execute o comando a seguir.
     
     ```powershell
-Get-Contact
-```
+    Get-Contact
+    ```
     
     O que você desabilitou o email para contato é retornado nos resultados da porque este cmdlet retorna todos os objetos de contato do Active Directory.
 
@@ -107,10 +107,13 @@ Quando você está mail-habilitando contatos em massa, você primeiro exporta a 
 
 1.  Execute o seguinte comando para exportar uma lista de contatos existentes que não estão habilitados para email para um arquivo na área de trabalho do administrador chamado Contacts.csv.
     
+    ```powershell
         Get-Contact | Where { $_.RecipientType -eq "Contact" } | Out-File "C:\Users\Administrator\Desktop\Contacts.csv"
-    
+    ```
+
     O arquivo resultante será similar ao seguinte arquivo.
     
+    ```powershell
         Name
         Walter Harp
         James Alvord
@@ -118,9 +121,11 @@ Quando você está mail-habilitando contatos em massa, você primeiro exporta a 
         Susan Burk
         Ian Tien
         ...
+    ```
 
 2.  Adicione um título de coluna chamado **EmailAddress** e, em seguida, adicione um endereço de email para cada contato no arquivo. O nome e o endereço de email externo para cada contato devem ser separados por uma vírgula. O arquivo CSV atualizado deve ser semelhante ao arquivo a seguir.
     
+    ```powershell
         Name,EmailAddress
         James Alvord,james@contoso.com
         Susan Burk,sburk@tailspintoys.com
@@ -128,11 +133,14 @@ Quando você está mail-habilitando contatos em massa, você primeiro exporta a 
         Ian Tien,iant@tailspintoys.com
         Rainer Witt,rainerw@fourthcoffee.com
         ...
+    ```
 
 3.  Execute o seguinte comando para usar os dados no arquivo CSV para habilitar os contatos listados no arquivo de email.
     
+    ```powershell
         Import-CSV C:\Users\Administrator\Desktop\Contacts.csv | ForEach-Object {Enable-MailContact -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
-    
+    ```
+
     Os resultados do comando exibem informações sobre os novos contatos habilitados para email.
 
 ## Como saber se funcionou?
@@ -150,6 +158,6 @@ Para verificar se você tiver contatos habilitados para email com êxito do Acti
   - No Shell, execute o seguinte comando para exibir informações sobre novos contatos de email.
     
     ```powershell
-Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
-```
+    Get-MailContact | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

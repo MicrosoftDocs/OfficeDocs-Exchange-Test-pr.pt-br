@@ -82,12 +82,14 @@ Para uma lista das propriedades de banco de dados filtráveis, consulte [Noçõe
 Use a seguinte sintaxe para criar um escopo de filtro de bancos de dados.
 
 ```powershell
-New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
+    New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
 ```
 
 Este exemplo cria um escopo que inclui todos os bancos de dados que contêm a cadeia de caracteres "ACCT" na propriedade **Name** do banco de dados.
 
+```powershell
     New-ManagementScope -Name "Accounting Databases" -DatabaseRestrictionFilter { Name -Like '*ACCT*' }
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementScope](https://technet.microsoft.com/pt-br/library/dd335137\(v=exchg.150\)).
 
@@ -105,12 +107,16 @@ Use esse procedimento se tiver criado um grupo de funções e precisar adicionar
 
 Use a seguinte sintaxe para criar uma atribuição de função entre a função de gerenciamento que deseja atribuir e o novo grupo de funções, com o novo escopo de banco de dados.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name> -CustomConfigWriteScope <database scope name>
+```
 
 Esse exemplo cria uma atribuição de função entre as funções de Destinatários de Email e Criação de Destinatário de Email e o grupo de funções Administradores de Contabilidade, usando o escopo de banco de dados Bancos de Dados de Contabilidade.
 
+```powershell
     New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipients" -CustomConfigWriteScope "Accounting Databases"
     New-ManagementRoleAssignment -SecurityGroup "Accounting Administrators" -Role "Mail Recipient Creation" -CustomConfigWriteScope "Accounting Databases"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -122,12 +128,16 @@ Esse procedimento usa canalização. Para mais informações, consulte [Pipelini
 
 Use a seguinte sintaxe para modificar uma atribuição de função entre a função de gerenciamento que deseja aplicar ao escopo de banco de dados e um grupo de funções existentes.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <role group name> -Role <role name> | Set-ManagementRoleAssignment -CustomConfigWriteScope <database scope name>
+```
 
 Esse exemplo adiciona o escopo de banco de dados Bancos de Dados de Contabilidade às funções de Destinatários de Email e Criação de Destinatário de Email atribuídas ao grupo de funções Administradores de Contabilidade.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipients" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
     Get-ManagementRoleAssignment -RoleAssignee "Accounting Administrators" -Role "Mail Recipient Creation" | Set-ManagementRoleAssignment -CustomConfigWriteScope "Accounting Databases"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd351024\(v=exchg.150\)) ou [Set-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335173\(v=exchg.150\)).
 

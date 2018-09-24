@@ -75,5 +75,6 @@ Para verificar se você habilitou ou desabilitou o registro em log do IRM com ê
 
 Este exemplo recupera todas as propriedades de log do IRM no servidor EXCH01.
 
+```powershell
     Get-TransportService -Identity EXCH01 | Format-List IRMLog*
-
+```

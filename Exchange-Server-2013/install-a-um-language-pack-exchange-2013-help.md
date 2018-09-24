@@ -73,8 +73,9 @@ setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchan
 
 Este exemplo instala o espanhol do México (es-MX) e alemão (de-DE) UM pacotes de idiomas que foram baixados para a pasta D:\\Exchange\\UMLanguagePacks em um servidor de caixa de correio.
 
+```powershell
     setup.exe /AddUmLanguagePack:es-MX,de-DE /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
-
+```
 
 > [!WARNING]
 > Se você não usar o parâmetro /IAcceptExchangeServerLicenseTerms, você verá o seguinte erro: Bem-vindo à instalação autônoma do Microsoft Exchange Server 2013. Você precisa aceitar os termos de licença para instalar o Microsoft Exchange Server 2013. Para ler o contrato de licença, visite http://go.microsoft.com/fwlink/p/?LinkId=150127. Para aceitar o contrato de licença, adicione o parâmetro /IAcceptExchangeServerLicenseTerms ao comando que você está executando. Para obter mais informações, execute a instalação /?.

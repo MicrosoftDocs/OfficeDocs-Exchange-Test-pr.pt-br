@@ -62,12 +62,14 @@ Para verificar que você tenha habilitado ou desabilitado reputação do remeten
 1.  Verifique se o agente de análise de protocolo está instalado e habilitado executando o seguinte comando:
     
     ```powershell
-Get-TransportAgent
-```
+        Get-TransportAgent
+    ```
 
 2.  Verifique se os valores de reputação do remetente que você configurou executando o seguinte comando:
     
+    ```powershell
         Get-SenderReputationConfig | Format-List Enabled,*MailEnabled
+    ```
 
 ## Usar o Shell para habilitar ou desabilitar a reputação do remetente para mensagens internas ou externas
 
@@ -103,7 +105,9 @@ Para verificar que você tenha habilitado ou desabilitado reputação do remeten
 
 1.  Execute o comando a seguir:
     
+    ```powershell
         Get-SenderReputationConfig | Format-List Enabled,*MailEnabled
+    ```
 
 2.  Verifique se os valores exibidos correspondem aos valores que você configurou.
 
@@ -128,8 +132,8 @@ Para verificar se você configurou com êxito as propriedades de reputação do 
 1.  Execute o comando a seguir:
     
     ```powershell
-Get-SenderReputationConfig
-```
+        Get-SenderReputationConfig
+    ```
 
 2.  Verifique se os valores exibidos correspondem aos valores que você configurou.
 
@@ -168,11 +172,15 @@ Você pode precisar executar etapas adicionais para permitir a reputação do re
 
 Para configurar o acesso de saída para a detecção de servidores de proxy aberto, execute o seguinte comando:
 
+```powershell
     Set-SenderReputationConfig -ProxyServerName <String> -ProxyServerPort <Port> -ProxyServerType <String>
+```
 
 Este exemplo configura a reputação do remetente para usar o servidor de proxy aberto chamado SERVER01 que usa o protocolo HTTP se conectar na porta 80.
 
+```powershell
     Set-SenderReputationConfig - ProxyServerName SERVER01 -ProxyServerPort 80 -ProxyServerType HttpConnect
+```
 
 ## Como saber se funcionou?
 
@@ -180,7 +188,9 @@ Para verificar se você configurou com êxito o acesso de saída para detecção
 
 1.  Execute o seguinte comando:
     
+    ```powershell
         Get-SenderReputationConfig | Format-List ProxyServer*
+    ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
