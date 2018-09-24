@@ -25,7 +25,7 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
 
 
 > [!NOTE]
-> 2016 do Outlook para usuários do Mac podem acessar pastas públicas herdadas após seguir as etapas neste artigo. Se os clientes na sua organização usarem 2016 do Outlook para Mac, certifique-se de que eles tenham instalado a atualização de abril de 2016. Caso contrário, os usuários não poderão acessar pastas públicas em uma coexistência ou topologia híbrida. Para obter mais informações, consulte <A href="accessing-public-folders-with-outlook-2016-for-mac-exchange-2013-help.md">Acesso a pastas públicas com 2016 do Outlook para Mac</A>.
+> 2016 do Outlook para usuários do Mac podem acessar pastas públicas herdadas após seguir as etapas neste artigo. Se os clientes na sua organização usarem 2016 do Outlook para Mac, certifique-se de que eles tenham instalado a atualização de abril de 2016. Caso contrário, os usuários não poderão acessar pastas públicas em uma coexistência ou topologia híbrida. Para obter mais informações, consulte <A href="https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/access-public-folders-with-outlook-2016-for-mac">Acesso a pastas públicas com 2016 do Outlook para Mac</A>.
 
 
 
@@ -47,7 +47,9 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
     
     Para o Exchange 2007, execute o seguinte comando:
     
-        New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```powershell
+New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+```
     
 
     > [!NOTE]
@@ -61,12 +63,16 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
         New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
     ```
     ```    
-        Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+    ```powershell
+Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
+```
     ```
 
 4.  Para o Exchange 2010, habilite a Descoberta Automática para retornar as caixas de correio de pasta pública de proxy. Esta etapa não é necessária para o Exchange 2007.
     
-        Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```powershell
+Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+```
 
 5.  Repita as etapas anteriores para cada servidor de pasta pública em sua organização.
 
@@ -74,7 +80,7 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
 
 A etapa final deste procedimento é configurar as caixas de correio de usuário para permitir o acesso a pastas públicas locais herdadas.
 
-Permita que os usuários locais do Exchange Server 2013 acessem as pastas públicas herdadas. Você apontará para todas as caixas de correio de pasta pública de proxy que criou na [Step 2: Make remote public folders discoverable](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md). Execute o seguinte comando a partir de um servidor do Exchange 2013 com a CU5 ou a atualização mais recente.
+Permita que os usuários locais do Exchange Server 2013 acessem as pastas públicas herdadas. Você apontará para todas as caixas de correio de pasta pública de proxy que criou na [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders). Execute o seguinte comando a partir de um servidor do Exchange 2013 com a CU5 ou a atualização mais recente.
 
     Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
 

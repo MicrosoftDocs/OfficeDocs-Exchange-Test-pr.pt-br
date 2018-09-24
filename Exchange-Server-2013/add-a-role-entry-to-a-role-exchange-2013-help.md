@@ -55,11 +55,15 @@ Procurando outras tarefas de gerenciamento relacionadas a funções? Consulte [P
 
 Você pode adicionar uma entrada de função a uma função exatamente como ela aparece na função pai usando a sintaxe a seguir.
 
-    Add-ManagementRoleEntry <child role name>\<cmdlet>
+```powershell
+Add-ManagementRoleEntry <child role name>\<cmdlet>
+```
 
 Este exemplo adiciona o cmdlet de **Set-Mailbox** à função de Administradores de Destinatários.
 
-    Add-ManagementRoleEntry "Recipient Administrators\Set-Mailbox"
+```powershell
+Add-ManagementRoleEntry "Recipient Administrators\Set-Mailbox"
+```
 
 Esse comando verifica a função pai, e se a entrada de função existir, é adicionada à função filha. Se a entrada de função já existir na função filha, você pode incluir o parâmetro *Overwrite* para substituir a entrada de função existente.
 
@@ -73,7 +77,9 @@ Para adicionar uma entrada de função de uma função pai, porém incluindo ape
 
 Este exemplo adiciona o cmdlet **Set-Mailbox** à função de Suporte Técnico, mas inclui apenas os parâmetros *DisplayName* e *EmailAddresses* na entrada da função filha.
 
-    Add-ManagementRoleEntry "Help Desk\Set-Mailbox" -Parameters DisplayName, EmailAddresses
+```powershell
+Add-ManagementRoleEntry "Help Desk\Set-Mailbox" -Parameters DisplayName, EmailAddresses
+```
 
 Esse comando verifica a função pai, e se a entrada de função existir, é adicionada à função filha. Se a entrada de função já existir na função filha, você pode incluir o parâmetro *Overwrite* para substituir a entrada de função existente.
 

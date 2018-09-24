@@ -17,11 +17,11 @@ _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2015-01-07_
 
-Você pode começar usando uma solução de (DLP) de prevenção de perda de dados no seu ambiente de mensagens usando os procedimentos a seguir. Para saber sobre os conceitos e objetivos para DLP, consulte [Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md).
+Você pode começar usando uma solução de (DLP) de prevenção de perda de dados no seu ambiente de mensagens usando os procedimentos a seguir. Para saber sobre os conceitos e objetivos para DLP, consulte [Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention).
 
-[Criar uma política de DLP a partir de um modelo](how-to-new-dlp-data-loss-prevention-policy-template.md)   Informações para ajudá-lo a configurar um fornecidos pela Microsoft, pré-criados conjunto de regras de política. Modelos de diretiva são uma maneira fácil de Introdução ao gerenciamento de dados de mensagem que está associados a vários requisitos legais e normativos comuns.
+[Criar uma política de DLP a partir de um modelo](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template)   Informações para ajudá-lo a configurar um fornecidos pela Microsoft, pré-criados conjunto de regras de política. Modelos de diretiva são uma maneira fácil de Introdução ao gerenciamento de dados de mensagem que está associados a vários requisitos legais e normativos comuns.
 
-[Criar uma política DLP personalizada](create-a-custom-dlp-policy-exchange-2013-help.md)   Informações para ajudá-lo a configurar as regras de política para atender às necessidades específicas da sua organização que não podem ser cobertos em um dos modelos de DLP pré-existente. As condições de regra que estão disponíveis para você em uma única política incluem todas as regras de transporte tradicional, além dos novos tipos de informações confidenciais.
+[Criar uma política DLP personalizada](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/create-custom-dlp-policy)   Informações para ajudá-lo a configurar as regras de política para atender às necessidades específicas da sua organização que não podem ser cobertos em um dos modelos de DLP pré-existente. As condições de regra que estão disponíveis para você em uma única política incluem todas as regras de transporte tradicional, além dos novos tipos de informações confidenciais.
 
 [Importar um modelo de política DLP personalizado de um arquivo](import-a-custom-dlp-policy-template-from-a-file-exchange-2013-help.md)   Informações para ajudá-lo a importar um arquivo que contém as configurações de política de informações. Políticas que são criadas independentes do Exchange, como arquivos XML devem atender aos requisitos de formato específico para funcionar corretamente.
 
@@ -37,7 +37,7 @@ Você pode começar usando uma solução de (DLP) de prevenção de perda de dad
 
 ## Para obter mais informações
 
-[Gerenciar dicas de política](how-to-configure-and-manage-policy-tips-a-dlp-feature-exchange.md)
+[Gerenciar dicas de política](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/manage-policy-tips)
 
 [Criar relatórios de incidentes para detecções de política DLP](create-incident-reports-for-dlp-policy-detections-exchange-2013-help.md)
 

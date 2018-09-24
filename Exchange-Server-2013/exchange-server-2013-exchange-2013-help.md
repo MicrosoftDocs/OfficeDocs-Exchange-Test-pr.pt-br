@@ -92,7 +92,7 @@ O conteúdo da Ajuda para o Exchange 2013 consiste nas seguintes categorias de 
 
   - [Desempenho e a integridade do servidor](server-health-and-performance-exchange-2013-help.md)
 
-  - [Sobre a documentação do Exchange](about-exchange-documentation-exchange-2013-help.md)
+  - [Sobre a documentação do Exchange](https://docs.microsoft.com/pt-br/exchange/about-exchange-documentation)
 
 
 > [!TIP]

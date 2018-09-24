@@ -21,7 +21,7 @@ Por padrão, a Pesquisa do Exchange é habilitada para todos os novos bancos de 
 
 
 > [!CAUTION]
-> Desabilitar a Pesquisa do Exchange afeta a funcionalidade e o desempenho das pesquisas de texto completo executadas pelos seus usuários com o Outlook no modo online ou em dispositivos móveis com Windows.<BR>O <A href="in-place-ediscovery-exchange-2013-help.md">Descoberta Eletrônica In-loco</A> também depende da Pesquisa do Exchange. Se você desabilitar a Pesquisa do Exchange para um banco de dados de caixa de correio ou para um servidor de Caixa de Correio, as pesquisas de Descoberta eletrônica In-loco não retornarão mensagens do banco de dados ou do servidor.
+> Desabilitar a Pesquisa do Exchange afeta a funcionalidade e o desempenho das pesquisas de texto completo executadas pelos seus usuários com o Outlook no modo online ou em dispositivos móveis com Windows.<BR>O <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery">Descoberta Eletrônica In-loco</A> também depende da Pesquisa do Exchange. Se você desabilitar a Pesquisa do Exchange para um banco de dados de caixa de correio ou para um servidor de Caixa de Correio, as pesquisas de Descoberta eletrônica In-loco não retornarão mensagens do banco de dados ou do servidor.
 
 
 
@@ -90,16 +90,24 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 Execute os seguintes comandos para interromper e desabilitar o serviço de Pesquisa do Microsoft Exchange.
 
 ```
-    Stop-Service MSExchangeFastSearch
+```powershell
+Stop-Service MSExchangeFastSearch
 ```
 ```
-    Set-Service MSExchangeFastSearch -StartupType Disabled
+```
+```powershell
+Set-Service MSExchangeFastSearch -StartupType Disabled
+```
 ```
 Execute os seguintes comandos para configurar o serviço de Pesquisa do Exchange de modo ele seja iniciado automaticamente e depois inicie o serviço.
 
 ```
-    Set-Service MSExchangeFastSearch -StartupType Automatic
+```powershell
+Set-Service MSExchangeFastSearch -StartupType Automatic
 ```
 ```
-    Start-Service MSExchangeFastSearch
+```
+```powershell
+Start-Service MSExchangeFastSearch
+```
 ```

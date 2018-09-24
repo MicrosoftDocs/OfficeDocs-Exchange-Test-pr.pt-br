@@ -74,7 +74,9 @@ Procurando outras tarefas de gerenciamento relacionadas ao backup e à recupera�
 
 6.  Navegue até os arquivos de instalação do Exchange 2013 e execute o seguinte comando:
     
-        Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
+    ```powershell
+Setup /m:RecoverServer /IAcceptExchangeServerLicenseTerms
+```
 
 7.  Depois que a instalação for concluída, mas antes que o servidor recuperado volte à ativa, reconfigure eventuais configurações personalizadas presentes anteriormente no servidor e depois reinicie o servidor.
 

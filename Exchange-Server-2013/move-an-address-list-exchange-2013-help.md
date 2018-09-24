@@ -41,7 +41,9 @@ Para tarefas de gerenciamento adicionais relacionadas a listas de endereços, co
 
 Este exemplo usa o GUID da lista de endereços para mover a lista de endereços para o contêiner de 4 de construção, que está localizado no contêiner All users\\sales..
 
-    Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+```powershell
+Move-AddressList -Identity c3fffd8e-026b-41b9-88c4-8c21697ac8ac -Target "\All Users\Sales\Building4"
+```
 
 Digite **Y** para confirmar que você deseja mover esta lista de endereços e pressione ENTER.
 

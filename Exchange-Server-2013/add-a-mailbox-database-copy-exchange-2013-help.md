@@ -71,11 +71,15 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 Este exemplo adiciona uma cópia do banco de dados de caixa de correio DB1 para o servidor de caixa de correio MBX3. Tempo de retardo de repetição e tempo de retardo de truncamento forem deixadas em valores padrão de zero e a preferência de ativação é configurada com um valor de 2.
 
-    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```powershell
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ActivationPreference 2
+```
 
 Este exemplo adiciona uma cópia do banco de dados de caixa de correio DB2 para o servidor de caixa de correio MBX4. Tempo de retardo de repetição e tempo de retardo de truncamento forem deixadas em valores padrão de zero, e a preferência de ativação é configurada com um valor de `5`. Além disso, propagação está sendo adiado por essa cópia para que ele pode ser propagado usando um servidor de origem local, em vez da cópia ativa do banco de dados atual, o que é geograficamente distante de MBX4.
 
-    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```powershell
+Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 5 -SeedingPostponed
+```
 
 Este exemplo adiciona uma cópia do banco de dados de caixa de correio DB3 para o servidor de caixa de correio MBX5. Tempo de retardo de repetição é definido como 3 dias, tempo de retardo de truncamento é deixado no valor padrão de zero e a preferência de ativação é configurada com um valor de `4`.
 
@@ -89,7 +93,9 @@ Para verificar se você criou com êxito uma cópia do banco de dados de caixa d
 
   - No Shell, execute o comando a seguir para verificar se a cópia do banco de dados de caixa de correio foi criada e está íntegra:
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+```
     
     O Status e o estado do índice de conteúdo devem ser iguais a Íntegro.
 

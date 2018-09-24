@@ -25,9 +25,9 @@ Quando você configura um gateway VoIP, você deve considerar se o dispositivo d
 
 Os seguintes recursos sugeridos no TechCenter do Exchange fornecem informações que podem ajudá-lo a configurar corretamente seus gateways VoIP e PBXs:
 
-  - **Gateway VoIP com suporte, IP PBX e documentação de PBX** [Supervisor de telefonia para o Exchange 2013](telephony-advisor-for-exchange-2013-exchange-2013-help.md) inclui arquivos de configuração e informações de instalação que você pode usar ao configurar gateways VoIP e PBXs.   
+  - **Gateway VoIP com suporte, IP PBX e documentação de PBX** [Supervisor de telefonia para o Exchange 2013](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/telephony-advisor-for-exchange-2013) inclui arquivos de configuração e informações de instalação que você pode usar ao configurar gateways VoIP e PBXs.   
 
-  - **Configuração e notas técnicas** [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md) inclui arquivos de configuração e informações de instalação que você pode usar ao configurar gateways VoIP e PBXs.   
+  - **Configuração e notas técnicas** [Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways) inclui arquivos de configuração e informações de instalação que você pode usar ao configurar gateways VoIP e PBXs.   
 
   - **Configurando um gateway VoIP baseada em AudioCodes**  A [página de recursos do Microsoft Exchange Server](https://www.audiocodes.com/solutions/microsoft/exchange-server) fornece as informações de configuração e suporte mais recentes para ajudá-lo a configurar os gateways de VoIP baseado em AudioCodes para uso com a Unificação de mensagens.
 
@@ -37,7 +37,7 @@ Recomendamos que todos os clientes que planejam implantar a Unificação de mens
 
 ## Para obter mais informações
 
-[Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](configuration-notes-for-supported-voip-gateways-ip-pbxs-and-pbxs-exchange-2013-help.md)
+[Notas de configuração para gateways VoIP com suporte, IP PBXs e PBXs](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/telephone-system-integration-with-um/configuration-notes-for-voip-gateways)
 
 [Conecte-se a Unificação de mensagens a um gateway de VoIP com suporte](connect-um-to-a-supported-voip-gateway-exchange-2013-help.md)
 

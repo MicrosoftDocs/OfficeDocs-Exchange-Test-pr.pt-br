@@ -29,7 +29,9 @@ Quando você usa os parâmetros *ToEntireForest* ou *ToArrayMembers* com o scrip
 
 Verifique se os servidores o script direcionar necessários todos os servidores usando o cmdlet **Get-ClientAccessArray** , conforme mostrado no exemplo a seguir.
 
-    Get-ClientAccessArray | fl members
+```powershell
+Get-ClientAccessArray | fl members
+```
 
 Se o servidor que está falhando para atualizar é um membro da matriz de acesso para cliente e não ainda está atualizando corretamente, execute novamente o Exchange instalação e adicione a função de servidor acesso para cliente ao servidor novamente. Você também pode especificar servidores individuais para o destino usando o parâmetro *ToSpecificServers*.
 
@@ -55,7 +57,9 @@ Para resolver esse problema, remova o servidor de sua implantação usando Excha
 
 Se o servidor só será para baixo por um curto período e você não deseja remover permanentemente Exchange, você pode ajustar o script a ser executado em servidores específicos usando o parâmetro *ToSpecificServers* para que apenas os servidores ativos direcionados. Ou então, você pode remover o serviço de acesso para cliente RPC do objeto de Active Directory sem resposta do servidor usando o cmdlet **Remove-ClientAccessArray** , conforme mostrado no exemplo a seguir.
 
-    Remove-RPCClientAccess -Server Server.Contoso.com
+```powershell
+Remove-RPCClientAccess -Server Server.Contoso.com
+```
 
 Depois que o serviço de acesso para cliente RPC foi removido, o servidor não será retornado como um membro da matriz por [Get-ClientAccessArray](https://technet.microsoft.com/pt-br/library/dd297976\(v=exchg.150\)) e o script não têm como destino. Assim que o servidor está funcionando novamente, você pode adicionar novamente o serviço de acesso para cliente RPC usando o cmdlet **New-RpcClientAccess** . Quando o serviço de acesso para cliente RPC é adicionado novamente, certifique-se de reiniciar o serviço de catálogo de endereços do Microsoft Exchange no servidor afetado.
 

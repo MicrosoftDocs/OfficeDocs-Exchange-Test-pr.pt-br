@@ -109,7 +109,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
     
 
     > [!NOTE]
-    > As configurações de recursos para usuários individuais substituem as configurações do diretório virtual. É possível alterar as configurações de segmentação de cada usuário usando o cmdlet <STRONG>Set-CASMailbox</STRONG> ou usando as diretivas de caixa de correio do Outlook Web App. Para mais informações, consulte <A href="outlook-web-app-mailbox-policies-exchange-2013-help.md">Diretivas de caixa de correio do Outlook Web App</A>.
+    > As configurações de recursos para usuários individuais substituem as configurações do diretório virtual. É possível alterar as configurações de segmentação de cada usuário usando o cmdlet <STRONG>Set-CASMailbox</STRONG> ou usando as diretivas de caixa de correio do Outlook Web App. Para mais informações, consulte <A href="https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies">Diretivas de caixa de correio do Outlook Web App</A>.
 
     
     Use as caixas de seleção para habilitar ou desabilitar recursos. Por padrão, são exibidos os recursos mais comuns. Para ver todos os recursos que podem ser habilitados ou desabilitados, clique em **Mais opções**.
@@ -145,7 +145,9 @@ Para obter mais informações sobre sintaxe e parâmetros, consulte [Set-OwaVirt
 
 Este exemplo permite a exibição das propriedades de todos os diretórios virtuais do Outlook Web App em todos os sites de IIS (Serviços de Informações da Internet) em todos os computadores que tenham a função de servidor de Acesso para Cliente instalada em uma organização do Exchange.
 
-    Get-OWAVirtualDirectory
+```powershell
+Get-OWAVirtualDirectory
+```
 
 Este exemplo permite a exibição das propriedades de um diretório virtual do Outlook Web App no site de IIS padrão no servidor Exchange local.
 
@@ -153,11 +155,15 @@ Este exemplo permite a exibição das propriedades de um diretório virtual do O
 
 Este exemplo permite a exibição das propriedades de todos os diretórios virtuais do Outlook Web App em um site de IIS em um servidor Exchange específico.
 
-    Get-OWAVirtualDirectory -server <Exchange Server Name>
+```powershell
+Get-OWAVirtualDirectory -server <Exchange Server Name>
+```
 
 Este exemplo permite a exibição dos valores das propriedades de cada diretório virtual do Outlook Web App em todos os sites de IIS em todos os servidores de Acesso para Cliente em uma organização do Exchange.
 
-    Get-OWAVirtualDirectory | format-list
+```powershell
+Get-OWAVirtualDirectory | format-list
+```
 
 Para obter mais informações sobre sintaxe e parâmetros, consulte [Get-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/aa998588\(v=exchg.150\)).
 

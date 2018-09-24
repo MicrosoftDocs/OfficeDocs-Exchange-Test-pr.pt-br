@@ -84,12 +84,12 @@ Para obter mais informações sobre como executar as tarefas que devem ser concl
 <tr class="odd">
 <td><p><strong> </strong></p></td>
 <td><p>Crie a quantidade de planos de discagem de URI de SIP necessários para sua organização.</p></td>
-<td><p><a href="create-a-um-dial-plan-exchange-2013-help.md">Criar um plano de discagem de UM</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan">Criar um plano de discagem de UM</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Defina a configuração de segurança do plano de discagem.</p></td>
-<td><p><a href="configure-the-voip-security-setting-exchange-2013-help.md">Definir a configuração de segurança de VoIP</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/configure-voip-security-setting">Definir a configuração de segurança de VoIP</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -99,7 +99,7 @@ Para obter mais informações sobre como executar as tarefas que devem ser concl
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure números do Outlook Voice Access e outras configurações.</p></td>
-<td><p><a href="manage-a-um-dial-plan-exchange-2013-help.md">Gerenciar um plano de discagem de Unificação de mensagens</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/manage-um-dial-plan">Gerenciar um plano de discagem de Unificação de mensagens</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
@@ -109,18 +109,18 @@ Para obter mais informações sobre como executar as tarefas que devem ser concl
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure a discagem de saída para Unificação de Mensagens. Permita todas as chamadas nos planos de discagem URI do SIP e políticas de caixa de correio da UM que estejam vinculadas a esses planos de discagem.</p></td>
-<td><p><a href="authorize-calls-for-users-in-a-dial-plan-exchange-2013-help.md">Autorizar chamadas para usuários em um plano de discagem</a></p>
-<p><a href="authorize-calls-for-a-group-of-users-exchange-2013-help.md">Autorizar chamadas para um grupo de usuários</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-users-in-a-dial-plan">Autorizar chamadas para usuários em um plano de discagem</a></p>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/authorize-calls-for-a-group-of-users">Autorizar chamadas para um grupo de usuários</a></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p>Crie o número necessário de atendedores automáticos.</p></td>
-<td><p><a href="create-a-um-auto-attendant-exchange-2013-help.md">Criar um Atendedor Automático da UM</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/create-a-um-auto-attendant">Criar um Atendedor Automático da UM</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
 <td><p>Configure cada um dos atendedores automáticos da UM.</p></td>
-<td><p><a href="set-up-a-um-auto-attendant-exchange-2013-help.md">Configurar um atendedor automático</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/set-up-um-auto-attendant">Configurar um atendedor automático</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
@@ -144,13 +144,13 @@ Para obter mais informações sobre como executar as tarefas que devem ser concl
 <tr class="even">
 <td><p><strong> </strong></p></td>
 <td><p>Crie uma política de caixa de correio da UM ou configure a política de caixa de correio da UM padrão.</p></td>
-<td><p><a href="create-a-um-mailbox-policy-exchange-2013-help.md">Criar uma política de caixa de correio da UM</a></p>
-<p><a href="manage-a-um-mailbox-policy-exchange-2013-help.md">Gerenciar uma política de caixa de correio de Unificação de mensagens</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy">Criar uma política de caixa de correio da UM</a></p>
+<p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy">Gerenciar uma política de caixa de correio de Unificação de mensagens</a></p></td>
 </tr>
 <tr class="odd">
 <td><p> </p></td>
 <td><p>Habilite usuários para a Unificação de Mensagens com um endereço SIP e vincule-os a um plano de discagem URI do SIP.</p></td>
-<td><p><a href="enable-a-user-for-voice-mail-exchange-2013-help.md">Habilitar um usuário para caixa postal</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/enable-a-user-for-voice-mail">Habilitar um usuário para caixa postal</a></p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>

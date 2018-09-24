@@ -27,11 +27,11 @@ A ferramenta de solução de problemas de UM do Microsoft Exchange 2010 é um cm
 
   - Certifique-se de que seu Exchange 2010 ou a organização do Exchange 2013 atende aos seguintes requisitos:
     
-      - Um plano de discagem da UM foi criado. Para instruções detalhadas, consulte [Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md).
+      - Um plano de discagem da UM foi criado. Para instruções detalhadas, consulte [Criar um plano de discagem de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
     
-      - Uma diretiva de caixa de correio da UM foi criada. Para instruções detalhadas, consulte [Criar uma política de caixa de correio da UM](create-a-um-mailbox-policy-exchange-2013-help.md).
+      - Uma diretiva de caixa de correio da UM foi criada. Para instruções detalhadas, consulte [Criar uma política de caixa de correio da UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/create-um-mailbox-policy).
     
-      - Um gateway IP do UM foi criado. Para instruções detalhadas, consulte [Criar um gateway IP de UM](create-a-um-ip-gateway-exchange-2013-help.md).
+      - Um gateway IP do UM foi criado. Para instruções detalhadas, consulte [Criar um gateway IP de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-ip-gateway).
     
       - Um servidor de Unificação de MENSAGENS do Exchange 2010 foi adicionado ao plano de discagem de Unificação de MENSAGENS. Se você estiver usando o Exchange 2013 com o Lync Server, adicione todos os servidores de caixa de correio e de acesso para cliente para os planos de discagem URI do SIP. Para obter etapas detalhadas, consulte [Adicionar um servidor UM a um plano de discagem](https://go.microsoft.com/fwlink/p/?linkid=313051) ou [Adicionar servidores de acesso para cliente e caixa de correio a um plano de discagem URI do SIP](add-mailbox-and-client-access-servers-to-a-sip-uri-dial-plan-exchange-2013-help.md).
 
@@ -77,13 +77,17 @@ A ferramenta de solução de problemas de UM do Microsoft Exchange 2010 é um cm
 
 4.  Se você está executando a Ferramenta de Solução de Problemas de UM no Windows Vista, Windows 7, ou Windows 8, no prompt de comando do Windows PowerShell, execute o seguinte.
     
-        Set-ExecutionPolicy RemoteSigned
+    ```powershell
+Set-ExecutionPolicy RemoteSigned
+```
 
 5.  No menu **Início**, abra a **Ferramenta de Solução de Problemas de UM do Microsoft Exchange 2010**.
 
 6.  Na janela **Ferramenta de Solução de Problemas da UM do Microsoft Exchange 2010**, no prompt, digite o seguinte e pressione Enter.
     
-        $cred=Get-Credential
+    ```powershell
+$cred=Get-Credential
+```
 
 7.  Na janela **Solicitação de Credencial do Windows PowerShell**, digite o nome e a senha do domínio/usuário e depois clique em **OK**.
 

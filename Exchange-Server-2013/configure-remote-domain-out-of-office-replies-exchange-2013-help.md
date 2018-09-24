@@ -41,9 +41,13 @@ Você pode usar o cmdlet **Set-RemoteDomain** para configurar as propriedades de
 
 Este exemplo desabilita mensagens de ausência temporária para o domínio remoto chamado Contoso.
 
-    Set-RemoteDomain Contoso -AllowedOOFType None
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType None
+```
 
 Este exemplo permite somente mensagens de ausência temporária externas.
 
-    Set-RemoteDomain Contoso -AllowedOOFType External
+```powershell
+Set-RemoteDomain Contoso -AllowedOOFType External
+```
 

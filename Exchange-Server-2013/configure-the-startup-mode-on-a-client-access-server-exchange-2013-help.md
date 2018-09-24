@@ -67,9 +67,13 @@ Para tarefas de gerenciamento adicionais relacionadas aos servidores de acesso p
 
 Este exemplo define o modo de inicialização para um servidor de acesso para cliente chamado `UMCallRouter1` para modo Dual.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode Dual
+```
 
 Este exemplo define o modo de inicialização para um servidor de acesso para cliente chamado `UMCallRouter1` para o modo TLS.
 
-    Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```powershell
+Set-UMCallRouterSettings -Server UMCallRouter1 -UMStartUpMode TLS
+```
 

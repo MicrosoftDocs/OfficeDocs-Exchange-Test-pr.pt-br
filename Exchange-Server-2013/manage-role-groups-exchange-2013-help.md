@@ -97,7 +97,9 @@ Se você tiver um grupo de função que contém as permissões que deseja conced
 
 1.  Armazene o grupo de função que você deseja copiar em uma variável usando a seguinte sintaxe.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+$RoleGroup = Get-RoleGroup <name of role group to copy>
+```
 
 2.  Criar novo grupo de funções e também adicionar membros ao grupo de funções e especificar quem pode delegar o novo grupo de funções para outros usuários, usando a seguinte sintaxe.
     
@@ -116,7 +118,9 @@ Para a sintaxe detalhada e informações sobre o parâmetro, consulte [Get-RoleG
 
 1.  Armazene o grupo de função que você deseja copiar em uma variável usando a seguinte sintaxe.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+$RoleGroup = Get-RoleGroup <name of role group to copy>
+```
 
 2.  Crie novo grupo de função com um escopo personalizado usando a seguinte sintaxe.
     
@@ -137,7 +141,9 @@ Para a sintaxe detalhada e informações sobre o parâmetro, consulte [Get-RoleG
 
 1.  Armazene o grupo de função que você deseja copiar em uma variável usando a seguinte sintaxe.
     
-        $RoleGroup = Get-RoleGroup <name of role group to copy>
+    ```powershell
+$RoleGroup = Get-RoleGroup <name of role group to copy>
+```
 
 2.  Crie novo grupo de função com um escopo personalizado usando a seguinte sintaxe.
     
@@ -220,11 +226,15 @@ Você pode criar uma atribuição de função com nenhum escopo entre uma funç�
 
 Use a seguinte sintaxe para atribuir uma função sem qualquer escopo para um grupo de funções. Um nome de atribuição de função é criado automaticamente se você não especificar uma.
 
-    New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name>
+```powershell
+New-ManagementRoleAssignment -SecurityGroup <role group name> -Role <role name>
+```
 
 Este exemplo atribui a função de gerenciamento de regras de transporte para o grupo de funções de conformidade de Seattle.
 
-    New-ManagementRoleAssignment -SecurityGroup "Seattle Compliance" -Role "Transport Rules"
+```powershell
+New-ManagementRoleAssignment -SecurityGroup "Seattle Compliance" -Role "Transport Rules"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -450,7 +460,9 @@ Para alterar o escopo de uma atribuição de função entre um grupo de funçõe
 
 1.  Para encontrar os nomes de todas as funções de atribuição em um grupo de funções, use o comando a seguir. Ao encaminhar as atribuições de função de gerenciamento ao cmdlet **Format-List**, você poderá exibir o nome completo da atribuição.
     
-        Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+    ```powershell
+Get-ManagementRoleAssignment -RoleAssignee <role group name> | Format-List Name
+```
 
 2.  Localize o nome da atribuição de função que você deseja alterar. Use o nome da atribuição de função na próxima etapa.
 
@@ -506,7 +518,9 @@ Para alterar a lista de delegados em um grupo de função, você pode usar o par
 
 1.  Armazene o grupo de funções em uma variável usando o seguinte comando.
     
-        $RoleGroup = Get-RoleGroup <role group name>
+    ```powershell
+$RoleGroup = Get-RoleGroup <role group name>
+```
 
 2.  Adicione o representante ao grupo de funções armazenado na variável usando o seguinte comando.
     
@@ -522,7 +536,9 @@ Para alterar a lista de delegados em um grupo de função, você pode usar o par
 
 4.  Aplica a nova lista de delegados ao grupo de funções real usando o seguinte comando.
     
-        Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```powershell
+Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+```
 
 Este exemplo adiciona o usuário David Strome como um representante do grupo de função Gerenciamento da Organização.
 
@@ -538,7 +554,9 @@ Para alterar a lista de delegados em um grupo de função, você pode usar o par
 
 1.  Armazene o grupo de funções em uma variável usando o seguinte comando.
     
-        $RoleGroup = Get-RoleGroup <role group name>
+    ```powershell
+$RoleGroup = Get-RoleGroup <role group name>
+```
 
 2.  Remova o representante do grupo de funções armazenado na variável usando o seguinte comando.
     
@@ -554,7 +572,9 @@ Para alterar a lista de delegados em um grupo de função, você pode usar o par
 
 4.  Aplica a nova lista de delegados ao grupo de funções real usando o seguinte comando.
     
-        Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+    ```powershell
+Set-RoleGroup <role group name> -ManagedBy $RoleGroup.ManagedBy
+```
 
 Este exemplo remove o usuário David Strome como um representante do grupo de função Gerenciamento da Organização.
 
@@ -570,7 +590,9 @@ Para verificar que você alterou com êxito a lista de representantes em um grup
 
 1.  No Shell, execute o comando a seguir.
     
-        Get-RoleGroup <role group name> | Format-List ManagedBy
+    ```powershell
+Get-RoleGroup <role group name> | Format-List ManagedBy
+```
 
 2.  Verifique se os representantes listados na propriedade *ManagedBy* incluem somente os representantes que devem ser capazes de gerenciar o grupo de função.
 

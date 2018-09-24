@@ -78,7 +78,7 @@ Para realizar o procedimento a seguir no Exchange 2013, confirme o seguinte:
     > Enquanto os recursos discutem Exchange 2010, Exchange 2013 é suportado para o FIM 2010 R2 SP1. Certifique-se de que você configura <STRONG>extensões</STRONG> no FIM 2010 R2 SP1 para Exchange 2013.
 
     
-    1.  Na página **Configurar Extensões** , em **Configurar nome(s) para exibição da partição**, ao lado de **Configurar para**, selecione **Exchange 2013**. Você verá o campo **URI do Exchange 2013 RPS** . Digite a URI de um servidor de Acesso para Cliente do Exchange 2013 para ter certeza de que a conexão remota do PowerShell está funcionando. A **URI do Exchange 2013 RPS** deve estar no seguinte formato: http://CAS\_Server\_FQDN/Powershell. Clique em **OK**.
+    1.  Na página **Configurar Extensões** , em **Configurar nome(s) para exibição da partição**, ao lado de **Configurar para**, selecione **Exchange 2013**. Você verá o campo **URI do Exchange 2013 RPS** . Digite a URI de um servidor de Acesso para Cliente do Exchange 2013 para ter certeza de que a conexão remota do PowerShell está funcionando. A **URI do Exchange 2013 RPS** deve estar no seguinte formato: http:/<span>/CAS\_Server\_FQDN/Powershell</span>. Clique em **OK**.
         
 
         > [!NOTE]

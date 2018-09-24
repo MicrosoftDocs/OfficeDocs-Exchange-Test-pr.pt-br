@@ -53,7 +53,9 @@ Para criar a credencial ASA como uma conta de computador
     
     Use o cmdlet **Import-Module** para importar o módulo do Active Directory.
     
-        Import-Module ActiveDirectory
+    ```powershell
+Import-Module ActiveDirectory
+```
 
 2.  Use o cmdlet **New-ADComputer** para criar uma nova conta de computador do Active Directory usando esta sintaxe do cmdlet:
     
@@ -71,7 +73,9 @@ Para criar a credencial ASA como uma conta de computador
     
     **Exemplo:** 
     
-        Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+    ```powershell
+Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+```
     
     Onde *EXCH2013ASA* é o nome da conta e o atributo a ser modificada é *msDS-SupportedEncryptionTypes* com um valor decimal de 28, que permite que as seguintes codificações: RC4-HMAC, AES128-CTS-HMAC-SHA1-96, AES256-CTS-HMAC-SHA1-96.
 
@@ -296,11 +300,15 @@ Verifique se que um SPN não ainda estiver associado a uma conta em uma floresta
 
 2.  No prompt de comando, digite o seguinte comando:
     
-        setspn -F -Q <SPN>
+    ```powershell
+setspn -F -Q <SPN>
+```
     
     Onde \< SPN \> é o SPN que você deseja associar a credencial ASA. Por exemplo:
     
-        setspn -F -Q http/mail.corp.tailspintoys.com
+    ```powershell
+setspn -F -Q http/mail.corp.tailspintoys.com
+```
     
     O comando deve retornar nothing. Se ela retorna algo, outra conta já está associada com o SPN. Repita essa etapa uma vez para cada SPN para o qual você deseja associar a credencial ASA.
 
@@ -310,11 +318,15 @@ Associar um SPN uma credencial ASA usando o comando setspn
 
 2.  No prompt de comando, digite o seguinte comando:
     
-        setspn -S <SPN> <Account>$
+    ```powershell
+setspn -S <SPN> <Account>$
+```
     
     Onde \< SPN \> é o SPN que você deseja associar a credencial ASA e \< conta \> é a conta associada a credencial ASA. Por exemplo:
     
-        setspn -S http/mail.corp.tailspintoys.com tailspin\EXCH2013ASA$
+    ```powershell
+setspn -S http/mail.corp.tailspintoys.com tailspin\EXCH2013ASA$
+```
     
     Uma vez para cada SPN para o qual você deseja associar a credencial ASA, execute este comando.
 
@@ -324,11 +336,15 @@ Verifique se que você associados os SPNs as credenciais ASA usando o comando se
 
 2.  No prompt de comando, digite o seguinte comando:
     
-        setspn -L <Account>$
+    ```powershell
+setspn -L <Account>$
+```
     
     Onde \< conta \> é a conta associada a credencial ASA. Por exemplo:
     
-        setspn -L tailspin\EXCH2013ASA$
+    ```powershell
+setspn -L tailspin\EXCH2013ASA$
+```
     
     Você precisará executar este comando uma vez.
 
@@ -390,7 +406,9 @@ Para remover a credencial ASA
 
 1.  Abra o Shell de gerenciamento do Exchange em um servidor Exchange 2013 e execute o seguinte comando:
     
-        Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+    ```powershell
+Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+```
 
 2.  Embora não seja necessário fazer isso imediatamente, você deve reiniciar eventualmente todos os computadores cliente para limpar o cache de tíquetes Kerberos do computador.
 

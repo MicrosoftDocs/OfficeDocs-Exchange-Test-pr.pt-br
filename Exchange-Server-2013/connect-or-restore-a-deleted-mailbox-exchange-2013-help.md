@@ -74,7 +74,7 @@ O procedimento seguinte mostra como conectar uma caixa de correio de usuário ex
     Uma lista de caixas de correio desconectadas no servidor do Exchange selecionado em sua organização do Exchange será exibida.
     
 
-    > [!TIP]
+    > [!NOTE]
     > Essa lista de caixas de correio desconectadas inclui caixas de correio desabilitadas, caixas de correio excluídas e caixas de correio excluídas de forma reversível.
 
 
@@ -94,17 +94,19 @@ O procedimento seguinte mostra como conectar uma caixa de correio de usuário ex
 Use o cmdlet **Connect-Mailbox** no Shell para conectar uma caixa de correio excluída a uma conta de usuário que não está habilitada para email. Você precisa especificar o tipo de caixa de correio que está conectando. Os exemplos a seguir mostram a sintaxe de reconexão de caixas de correio de usuário, vinculadas, de ambiente, de equipamento e compartilhadas. Em todos os exemplos, o parâmetro *Alias* é usado para especificar o alias de email, que é a porção do endereço de email no lado esquerdo do símbolo de arroba (@). Se você não incluir o parâmetro *Alias*, o valor especificado no parâmetro *User* ou *LinkedMasterAccount* será usado para criar o alias do endereço de email da caixa de correio reconectada.
 
 
-> [!TIP]
+> [!NOTE]
 > Conforme mencionado anteriormente, quando você conectar caixas de correio vinculadas, de recurso ou compartilhadas, a conta de usuário do Active Directory à qual está vinculando a caixa de correio deverá ser desabilitada.
 
 
 
 Este exemplo conecta-se a uma caixa de correio de usuário. O parâmetro *Identity* especifica o nome para exibição da caixa de correio excluída mantida no banco de dados de caixa de correio denominado MBXDB01. O parâmetro *User* especifica a conta de usuário do Active Directory para conectar a caixa de correio.
 
-    Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```powershell
+Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Alias robinw
+```
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode também usar os valores das propriedades <CODE>LegacyDN</CODE> ou <CODE>MailboxGuid</CODE> para identificar a caixa de correio excluída.
 
 
@@ -126,7 +128,7 @@ Este exemplo conecta uma caixa de correio compartilhada.
     Connect-Mailbox -Identity "Printer Support" -Database MBXDB01 -User "Corp Printer Support" -Alias corpprint -Shared
 
 
-> [!TIP]
+> [!NOTE]
 > Você pode também usar os valores <CODE>LegacyDN</CODE> ou <CODE>MailboxGuid</CODE> para identificar a caixa de correio excluída.
 
 
@@ -143,7 +145,9 @@ Para verificar se você conectou com êxito uma caixa de correio excluída a uma
 
   - No Shell, execute o comando a seguir.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     O valor de **UserMailbox** da propriedade *RecipientType* indica que a conta de usuário e a caixa de correio estão conectadas. Você pode também executar o comando **Get-Mailbox \<identity\>** para verificar se a caixa de correio estava conectada.
 
@@ -154,7 +158,7 @@ Para verificar se você conectou com êxito uma caixa de correio excluída a uma
 Após uma solicitação de restauração de caixa de correio ser concluída com êxito, ela ficará retida por 30 dias, por padrão, antes de ser removida. Você pode removê-la mais cedo, usando o cmdlet **Remove-StoreMailbox**.
 
 
-> [!TIP]
+> [!NOTE]
 > O EAC não pode ser usado para restaurar uma caixa de correio excluída.
 
 
@@ -183,7 +187,9 @@ Será necessário o GUID da caixa de correio de pasta pública excluída, além 
 
 1.  Obtenha o nome de domínio totalmente qualificado (FQDN) do controlador e a floresta do Active Directory executando o seguinte cmdlet:
     
-        Get-OrganizationConfig | fl OriginatingServer
+    ```powershell
+Get-OrganizationConfig | fl OriginatingServer
+```
 
 2.  Com as informações retornadas pela Etapa 1, pesquise o contêiner Objetos Excluídos no Active Directory pelo GUID da caixa de correio de pasta pública e pelo GUID ou nome do banco de dados da caixa de correio na qual a caixa de correio de pasta pública excluída estava.
     
@@ -208,7 +214,7 @@ Ao descobrir o GUID da caixa de correio de pasta pública excluída e o nome ou 
         Connect-Mailbox -Identity <public folder mailbox GUID> -Database <database name or GUID> -User <mailUserName>
     
 
-    > [!TIP]
+    > [!NOTE]
     > O parâmetro <CODE>Identity</CODE> especifica o objeto de caixa de correio no banco de dados do Exchange para conectar a um objeto de usuário do Active Directory. O exemplo acima especifica o GUID da caixa de correio de pasta pública, mas você também pode usar o valor do Nome de Exibição ou o valor LegacyExchangeDN.
 
 

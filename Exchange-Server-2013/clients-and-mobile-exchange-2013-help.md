@@ -63,7 +63,7 @@ A tabela a seguir contém links para tópicos que irão ajudar você a aprender 
 <td><p>Saiba mais sobre o Outlook Web App, que fornece aos usuários acesso à caixa de correio do Exchange 2013 deles por meio de um navegador.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="mailtips-exchange-2013-help.md">MailTips</a></p></td>
+<td><p><a href="https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips">MailTips</a></p></td>
 <td><p>Saiba mais sobre as Dicas de Email, as mensagens informativas exibidas aos usuários enquanto eles compõem uma mensagem.</p></td>
 </tr>
 </tbody>

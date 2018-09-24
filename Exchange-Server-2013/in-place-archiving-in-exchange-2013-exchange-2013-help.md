@@ -138,7 +138,7 @@ No Exchange 2013, é possível aplicar políticas de arquivo morto a uma caixa d
 
 As mensagens são movidas para uma pasta na caixa de correio de arquivo morto que tem o mesmo nome da pasta de origem na caixa de correio principal. Se uma pasta com o mesmo nome não existir na caixa de correio de arquivo morto, ela será criada quando o Assistente de Pasta Gerenciada mover uma mensagem. A recriação da mesma hierarquia de pastas na caixa de correio de arquivo morto ajuda os usuários a localizarem as mensagens mais facilmente.
 
-Para saber mais sobre políticas de retenção, marcas de retenção e a ação de retenção **Mover para o arquivo morto**, consulte [Marcas e políticas de retenção](retention-tags-and-retention-policies-exchange-2013-help.md).
+Para saber mais sobre políticas de retenção, marcas de retenção e a ação de retenção **Mover para o arquivo morto**, consulte [Marcas e políticas de retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies).
 
 ## Diretiva padrão de MRM
 
@@ -271,7 +271,7 @@ Esta seção explica a funcionalidade entre Arquivos Mortos In-Loco e vários re
 
   - **Pesquisa do Exchange   **A capacidade de pesquisar mensagens rapidamente se torna ainda mais crítica com as caixas de correio de arquivo morto. Para a Pesquisa do Exchange, não há diferença entre a caixa de correio principal e a de arquivo morto. O conteúdo das duas caixas de correio é indexado. Como a caixa de correio de arquivo morto não é armazenada no cache do computador do usuário (mesmo se o Outlook estiver sendo usado no modo em cache do Exchange), os resultados de pesquisa para o arquivo morto sempre serão fornecidos pela Pesquisa do Exchange. Ao pesquisar toda a caixa de correio no Outlook 2010 e posterior e no Outlook Web App, os resultados da pesquisa incluem a caixa de correio principal e a de arquivo morto do usuário.
 
-  - **In-Place eDiscovery**   Quando um gerenciador de descobertas executa uma pesquisa In-Place eDiscovery, as caixas de correio de arquivo morto também são pesquisadas. Não há opção para excluir caixas de correio de arquivo morto ao criar uma pesquisa de descoberta a partir do Centro de Administração do Exchange (EAC). Ao usar o Shell de Gerenciamento do Exchange para criar uma pesquisa de descoberta, você pode excluir o arquivo morto usando a opção *DoNotIncludeArchive*. Para detalhes, consulte [New-MailboxSearch](https://technet.microsoft.com/pt-br/library/dd298064\(v=exchg.150\)). Para obter mais informações, consulte [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md).
+  - **In-Place eDiscovery**   Quando um gerenciador de descobertas executa uma pesquisa In-Place eDiscovery, as caixas de correio de arquivo morto também são pesquisadas. Não há opção para excluir caixas de correio de arquivo morto ao criar uma pesquisa de descoberta a partir do Centro de Administração do Exchange (EAC). Ao usar o Shell de Gerenciamento do Exchange para criar uma pesquisa de descoberta, você pode excluir o arquivo morto usando a opção *DoNotIncludeArchive*. Para detalhes, consulte [New-MailboxSearch](https://technet.microsoft.com/pt-br/library/dd298064\(v=exchg.150\)). Para obter mais informações, consulte [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
     
 
     > [!IMPORTANT]
@@ -279,7 +279,7 @@ Esta seção explica a funcionalidade entre Arquivos Mortos In-Loco e vários re
 
 
 
-  - **Retenção de litígio e In-loco**   Quando uma caixa de correio é colocada em retenção de litígio ou In-loco, a retenção é imposta à caixa de correio principal e à de arquivo morto. Para obter mais informações sobre Retenção In-Loco e Retenção de litígio, consulte [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+  - **Retenção de litígio e In-loco**   Quando uma caixa de correio é colocada em retenção de litígio ou In-loco, a retenção é imposta à caixa de correio principal e à de arquivo morto. Para obter mais informações sobre Retenção In-Loco e Retenção de litígio, consulte [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds).
 
   - **Pasta Itens Recuperáveis   **A caixa de correio de arquivo morto contém sua própria pasta Itens Recuperáveis e está sujeita às mesmas cotas da pasta Itens Recuperáveis que a caixa de correio principal. Para saber mais sobre itens recuperáveis, consulte [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md).
 

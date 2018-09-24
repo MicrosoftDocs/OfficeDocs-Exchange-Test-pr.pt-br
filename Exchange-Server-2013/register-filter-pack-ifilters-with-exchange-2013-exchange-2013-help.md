@@ -27,7 +27,7 @@ Após registrar um IFilter para um tipo de arquivo específico, as regras de tra
 
 
 
-Para outras tarefas de gerenciamento adicionais relacionadas a regras de Transporte, consulte [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md).
+Para outras tarefas de gerenciamento adicionais relacionadas a regras de Transporte, consulte [Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
 
 ## O que você precisa saber antes de começar?
 
@@ -77,7 +77,9 @@ Implantar o Office 2010 Filter Pack consiste em duas etapas principais:
 
 3.  Inicie o Editor do Registro e localize a seguinte subchave do Registro:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+```
 
 4.  Em **CLSID**, adicione uma subchave para arquivos do OneNote da seguinte maneira:
     
@@ -105,7 +107,9 @@ Implantar o Office 2010 Filter Pack consiste em duas etapas principais:
 
 6.  Localize a seguinte chave do Registro:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+```
 
 7.  Em **filtros**, adicione uma subchave para extensões .one da seguinte maneira.
     
@@ -139,7 +143,7 @@ Implantar o Office 2010 Filter Pack consiste em duas etapas principais:
 
 Para verificar se você registrou com êxito os IFilters do Microsoft Office 2010 Filter Pack, faça o seguinte:
 
-1.  Crie uma regra de Transporte com as seguintes propriedades. Para obter instruções detalhadas sobre como criar regras de Transporte, consulte [Gerenciar regras de fluxo de emails](manage-mail-flow-rules-exchange-2013-help.md).
+1.  Crie uma regra de Transporte com as seguintes propriedades. Para obter instruções detalhadas sobre como criar regras de Transporte, consulte [Gerenciar regras de fluxo de emails](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules).
     
       - O remetente é sua caixa de correio.
     
@@ -177,7 +181,9 @@ Este procedimento mostra como implantar o [IFilter do Adobe PDF](https://www.ado
 
 2.  Inicie o Editor do Registro e localize a seguinte subchave:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\CLSID
+```
 
 3.  Em **CLSID**, adicione uma subchave para arquivos PDF, da seguinte maneira:
     
@@ -194,7 +200,9 @@ Este procedimento mostra como implantar o [IFilter do Adobe PDF](https://www.ado
 
 4.  Localize a seguinte chave do Registro:
     
-        HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+    ```powershell
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ExchangeServer\v15\HubTransportRole\filters
+```
 
 5.  Em **filtros**, adicione uma subchave para extensões .pdf, da seguinte maneira:
     

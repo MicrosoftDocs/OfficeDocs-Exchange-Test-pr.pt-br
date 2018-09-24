@@ -112,11 +112,15 @@ Use o procedimento a seguir para habilitar o suporte para os agentes de transpor
 
 1.  Em uma janela do Prompt de comando, no servidor do Exchange 2013 no qual você deseja configurar o suporte a agente de transporte legado, abra o arquivo de configuração de aplicativo apropriado no Bloco de Notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+```
     
     Por exemplo, para abrir o arquivo de configuração EdgeTransport.exe em um servidor de Caixa de Correio, execute o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+```
 
 2.  Localize a chave *\</configuration\>* no fim do arquivo e cole as seguintes chaves antes da chave *\</configuration\>*:
     

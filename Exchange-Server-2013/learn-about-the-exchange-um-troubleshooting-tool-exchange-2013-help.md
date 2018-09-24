@@ -191,7 +191,9 @@ A Ferramenta de Solução de Problemas pode ajudar você a solucionar problemas,
 
 No exemplo a seguir, o modo Gateway é usado para testar o fluxo de chamada em um ambiente que não inclui o Office Communications Server 2007 R2 ou o Lync Server. Este exemplo testa os equipamentos de telefonia, incluindo gateways de VoIP, PBXs e IP PBXs e os componentes de Unificação de Mensagens. Esse exemplo define o modo de segurança VoIP como Unsecured, usa o endereço IP 10.1.1.1 como o próximo salto e inclui um número de ramal nas informações de desvio.
 
-    Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```powershell
+Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```
 
 Voltar ao início
 

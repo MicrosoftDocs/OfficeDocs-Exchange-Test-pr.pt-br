@@ -89,7 +89,9 @@ Nesta etapa, você precisa executar um script do PowerShell para exportar o cert
 
 2.  No Exchange PowerShell em sua organização local do Exchange, execute o script do PowerShell criado na etapa anterior. Por exemplo:
     
-        .\ExportAuthCert.ps1
+    ```powershell
+.\ExportAuthCert.ps1
+```
 
 ## Etapa 4: Carregar o certificado de autorização local no ACS do Azure Active Directory
 
@@ -119,7 +121,9 @@ Em seguida, você precisa usar o Windows PowerShell para carregar o certificado 
 
 3.  Execute o script do PowerShell criado na etapa anterior. Por exemplo:
     
-        .\UploadAuthCert.ps1
+    ```powershell
+.\UploadAuthCert.ps1
+```
 
 4.  Após iniciar o script, uma caixa de diálogo de credenciais é exibida. Insira as credenciais para a conta de administrador de locatário em sua organização do Microsoft Online AD do Azure. Depois de executar o script, deixe o Windows PowerShell para AD do Azure sessão aberta. Você usará isso para executar um script do PowerShell na próxima etapa.
 
@@ -129,7 +133,9 @@ Você precisa executar o script nesta etapa para cada ponto final em sua organiz
 
 Se você não tiver certeza dos pontos finais externos do Exchange em sua organização local do Exchange, será possível obter uma lista dos pontos finais externos de serviços da Web configurados por meio da execução do seguinte comando no Exchange PowerShell em sua organização local do Exchange:
 
-    Get-WebServicesVirtualDirectory | FL ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL ExternalUrl
+```
 
 
 > [!NOTE]
@@ -152,7 +158,9 @@ Se você não tiver certeza dos pontos finais externos do Exchange em sua organi
 
 2.  No Windows PowerShell para Azure Active Directory, execute o script do Windows PowerShell que você criou na etapa anterior. Por exemplo:
     
-        .\RegisterEndpoints.ps1
+    ```powershell
+.\RegisterEndpoints.ps1
+```
 
 ## Etapa 6: criar um IntraOrganizationConnector de sua organização local para o Office 365
 
@@ -212,7 +220,9 @@ Antes de concluir esta etapa, verifique se:
 
 Um *AvailabilityAddressSpace* precisa ser configurado em servidores de Acesso para Cliente pré-Exchange 2013 que apontam para o ponto de extremidade dos Serviços Web do Exchange de seus servidores de Acesso para Cliente do Exchange 2013 SP1 local. Esse ponto de extremidade é o mesmo ponto de extremidade descrito na Etapa 5 ou pode ser determinado executando o seguinte cmdlet em seu servidor local de Acesso para Cliente do Exchange 2013 SP1:
 
-    Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```powershell
+Get-WebServicesVirtualDirectory | FL AdminDisplayVersion,ExternalUrl
+```
 
 
 > [!NOTE]

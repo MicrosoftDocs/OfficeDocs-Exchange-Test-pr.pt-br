@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2015-04-08_
 
 No Microsoft Exchange Server 2013, quando você cria uma regra de diário para mensagens de e-mail de diário enviadas para ou de destinatários ou remetentes em uma organização do Exchange, notificações de correio de voz e chamadas não atendidas que são geradas pelo serviço de Unificação de Mensagens são incluídas. Use os procedimentos neste tópico para ativar ou desativar esse recurso para toda a sua organização.
 
-Procurando outras tarefas de gerenciamento relacionadas a registro no diário? Consulte [Gerenciar diário](manage-journaling-exchange-2013-help.md).
+Procurando outras tarefas de gerenciamento relacionadas a registro no diário? Consulte [Gerenciar diário](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/journaling/manage-journaling).
 
 ## O que você precisa saber antes de começar?
 
@@ -41,11 +41,15 @@ Procurando outras tarefas de gerenciamento relacionadas a registro no diário? C
 
 Este exemplo desabilita o registro no diário de notificações de caixa postal e chamadas perdidas com a configuração do parâmetro *VoicemailJournalingEnabled* para `$false`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $false
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $false
+```
 
 Este exemplo habilita o registro no diário de notificações de correio de voz e chamadas não atendidas pela configuração do mesmo parâmetro como `$true`.
 
-    Set-TransportConfig -VoicemailJournalingEnabled $true
+```powershell
+Set-TransportConfig -VoicemailJournalingEnabled $true
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-TransportConfig](https://technet.microsoft.com/pt-br/library/bb124151\(v=exchg.150\)).
 
@@ -53,5 +57,5 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-Transp
 
 [Registro no Diário](journaling-exchange-2013-help.md)
 
-[Gerenciar diário](manage-journaling-exchange-2013-help.md)
+[Gerenciar diário](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/journaling/manage-journaling)
 

@@ -17,13 +17,13 @@ _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2012-10-14_
 
-[Criar uma política de retenção](create-a-retention-policy-exchange-2013-help.md)
+[Criar uma política de retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy)
 
-[Adicionar marcas de retenção com ou remova as marcas de retenção uma política de retenção](add-retention-tags-to-or-remove-retention-tags-from-a-retention-policy-exchange-2013-help.md)
+[Adicionar marcas de retenção com ou remova as marcas de retenção uma política de retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/add-or-remove-retention-tags)
 
-[Aplicar uma política de retenção a caixas de correio](apply-a-retention-policy-to-mailboxes-exchange-2013-help.md)
+[Aplicar uma política de retenção a caixas de correio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/apply-retention-policy)
 
 [Configurar o Assistente de pasta gerenciada](configure-the-managed-folder-assistant-exchange-2013-help.md)
 
-[Retenção local de uma caixa de correio em retenção](place-a-mailbox-on-retention-hold-exchange-2013-help.md)
+[Retenção local de uma caixa de correio em retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold)
 

@@ -25,7 +25,7 @@ _**Tópico modificado em:** 2013-01-18_
 
 
 
-Para mais informações sobre como gerenciar caixas de correio do usuário, consulte [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
+Para mais informações sobre como gerenciar caixas de correio do usuário, consulte [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 Para mais informações relacionadas a POP3 e IMAP4, consulte [POP3 e IMAP4 no Exchange Server 2013](pop3-and-imap4-in-exchange-server-2013-exchange-2013-help.md).
 
@@ -65,11 +65,15 @@ Para mais informações relacionadas a POP3 e IMAP4, consulte [POP3 e IMAP4 no E
 
 Este exemplo ativa o IMAP4 para o usuário Paulo Silva.
 
-    Set-CASMailbox -Identity "John Smith" -IMAPEnabled $true
+```powershell
+Set-CASMailbox -Identity "John Smith" -IMAPEnabled $true
+```
 
 Este exemplo desativa o IMAP4 para o usuário Paulo Silva.
 
-    Set-CASMailbox -Identity "John Smith" -IMAPEnabled $false
+```powershell
+Set-CASMailbox -Identity "John Smith" -IMAPEnabled $false
+```
 
 ## Como saber se funcionou?
 

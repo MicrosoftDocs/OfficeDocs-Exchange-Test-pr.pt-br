@@ -43,11 +43,15 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 1.  Execute o comando abaixo para verificar se o agente Filtro de Conteúdo está instalado e habilitado no servidor Exchange:
     
-        Get-TransportAgent "Content Filter Agent"
+    ```powershell
+Get-TransportAgent "Content Filter Agent"
+```
 
 2.  Execute o seguinte comando para verificar se a filtragem de conteúdo está habilitada:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 Para saber mais, confira [Gerenciar filtragem de conteúdo](manage-content-filtering-exchange-2013-help.md).
 
@@ -59,7 +63,7 @@ Para criar uma caixa de correio de quarentena de spam dedicada, siga estas etapa
 
   - **Criar uma caixa de correio e uma conta de usuário dedicadas**   Recomendamos que você crie uma caixa de correio e uma conta de usuário do Active Directory dedicadas para a caixa de correio de quarentena de spam. Para saber mais, confira [Criar caixas de correio do usuário](create-user-mailboxes-exchange-2013-help.md).
     
-    Você pode aplicar políticas de destinatário, como gerenciamento de registros de mensagens, cotas de caixa de correio e direitos de delegação, de acordo com as necessidades e as políticas de conformidade da organização. Para saber mais, confira [Gerenciamento de registros de mensagens](messaging-records-management-exchange-2013-help.md).
+    Você pode aplicar políticas de destinatário, como gerenciamento de registros de mensagens, cotas de caixa de correio e direitos de delegação, de acordo com as necessidades e as políticas de conformidade da organização. Para saber mais, confira [Gerenciamento de registros de mensagens](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
     
 
     > [!NOTE]
@@ -75,11 +79,15 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Execute o seguinte comando:
 
-    Set-ContentFilterConfig -QuarantineMailbox <SmtpAddress>
+```powershell
+Set-ContentFilterConfig -QuarantineMailbox <SmtpAddress>
+```
 
 Este exemplo envia todas as mensagens que excedem o limite de quarentena de spam para spamQ@contoso.com.
 
-    Set-ContentFilterConfig -QuarantineMailbox spamQ@contoso.com
+```powershell
+Set-ContentFilterConfig -QuarantineMailbox spamQ@contoso.com
+```
 
 ## Como saber se essa etapa funcionou?
 
@@ -87,7 +95,9 @@ Para verificar se a caixa de correio de quarentena de spam foi especificada com 
 
 1.  Execute o seguinte comando:
     
-        Get-ContentFilterConfig | Format-List QuarantineMailbox
+    ```powershell
+Get-ContentFilterConfig | Format-List QuarantineMailbox
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 

@@ -27,7 +27,7 @@ Para saber mais, consulte os seguintes tópicos:
 
   - [Pasta Itens Recuperáveis](recoverable-items-folder-exchange-2013-help.md)
 
-  - [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md)
+  - [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds)
 
 ## O que você precisa saber antes de começar?
 
@@ -47,7 +47,9 @@ Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fór
 
 Este exemplo obtém as estatísticas de pasta para a pasta de itens recuperáveis de Soumya Singhi e exibe a saída em um formato de lista.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```
 
 Este exemplo obtém as estatísticas de pasta para a pasta de itens recuperáveis de Soumya Singhi e exibe o nome da pasta, o caminho da pasta, o número de itens da pasta, e o tamanho da pasta em um formato de tabela.
 

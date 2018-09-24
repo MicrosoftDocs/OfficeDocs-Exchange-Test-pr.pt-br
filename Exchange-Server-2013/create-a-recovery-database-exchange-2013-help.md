@@ -39,7 +39,9 @@ Procurando outras tarefas de gerenciamento relacionadas a bancos de dados de rec
 
 Este exemplo cria o banco de dados de recuperação RDB1 no servidor Caixa de Correio MBX2.
 
-    New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```powershell
+New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```
 
 Este exemplo cria o banco de dados de recuperação RDB2 no servidor Caixa de Correio MBX1 usando um caminho personalizado para o arquivo de banco de dados e a pasta de log.
 
@@ -53,7 +55,9 @@ Para verificar se você criou um banco de dados de recuperação com êxito, fa�
 
   - No Shell, execute este comando para mostrar informações de configuração para uma cópia do banco de dados de recuperação:
     
-        Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```powershell
+Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+```
 
 ## Outras tarefas
 

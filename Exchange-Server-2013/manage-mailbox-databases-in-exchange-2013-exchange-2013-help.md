@@ -59,7 +59,9 @@ Para verificar se você criou com êxito um banco de dados , faça o seguinte:
 
   - No Shell, verifique se o banco de dados foi criado no servidor Mailbox01 executando o seguinte comando.
     
-        Get-MailboxDatabase -Server "Mailbox01"
+    ```powershell
+Get-MailboxDatabase -Server "Mailbox01"
+```
 
 ## Obter propriedades de banco de dados de caixa de correio
 
@@ -85,8 +87,7 @@ No Shell, verifique se todas as suas informações de banco de dados de caixa de
 
 3.  Clique em **Editar** ![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição") para configurar os atributos de um banco de dados de caixas de correio.
 
-4.    
-    Utilize a guia **Geral** para visualizar o status do banco de dados de caixa de correio, incluindo o caminho do banco de dados de caixa de correio, o último backup e o status do banco de dados de caixa de correio:
+4.  Utilize a guia **Geral** para visualizar o status do banco de dados de caixa de correio, incluindo o caminho do banco de dados de caixa de correio, o último backup e o status do banco de dados de caixa de correio:
     
       - <strong>Caminho do banco de dados</strong> Este campo somente de leitura exibe o caminho completo do arquivo (.edb) do banco de dados do Exchange 2013 para o banco de dados de caixa de correio selecionado. Para exibir o caminho inteiro, talvez você precise clicar no caminho e usar a tecla Seta para Direita. Você não pode usar esse campo para alterar o caminho. Para alterar o local dos arquivos de banco de dados, use o cmdlet [Move-DatabasePath](https://technet.microsoft.com/pt-br/library/bb124742\(v=exchg.150\)).
     
@@ -150,7 +151,9 @@ Para verificar se você definiu com êxito os atributos, faça o seguinte:
 
   - No Shell, execute o comando a seguir para recuperar as propriedades de banco de dados de caixa de correio.
     
-        Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+    ```powershell
+Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+```
 
 ## Mover um caminho de banco de dados de caixa de correio
 
@@ -182,7 +185,9 @@ Para verificar se você montou corretamente o banco de dados de caixas de correi
 
   - No Shell, execute o seguinte comando para recuperar as propriedades de todos os bancos de dados de caixas de correio.
     
-        Get-MailboxDatabase -IncludePreExchange2013
+    ```powershell
+Get-MailboxDatabase -IncludePreExchange2013
+```
 
 ## Desmontar um banco de dados de caixa de correio
 
@@ -214,7 +219,9 @@ Para obter informações detalhadas de sintaxes e de parâmetros, confira [Remov
 
 1.  Execute o seguinte comando para remover o banco de dados de caixa de correio MyDatabase.
     
-        Remove-MailboxDatabase -Identity "MyDatabase"
+    ```powershell
+Remove-MailboxDatabase -Identity "MyDatabase"
+```
 
 2.  Quando perguntado se tem certeza de que deseja executar a ação, digite **S**.
 

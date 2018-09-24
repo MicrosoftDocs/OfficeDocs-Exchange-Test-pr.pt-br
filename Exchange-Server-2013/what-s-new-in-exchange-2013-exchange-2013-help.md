@@ -175,7 +175,7 @@ O conector Microsoft Rights Management (RMS connector) é um aplicativo opcional
 
 Para saber mais sobre estes recursos consulte:
 
-[Prevenção de perda de dados](technical-overview-of-dlp-data-loss-prevention-in-exchange.md)
+[Prevenção de perda de dados](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention)
 
 [Conector Rights Management](https://go.microsoft.com/fwlink/p/?linkid=330432)
 
@@ -239,9 +239,9 @@ Gerenciamento de direitos de informação (IRM) é compatível com o modo cripto
 
 O Exchange 2013 inclui os seguintes aprimoramentos para auditoria:
 
-  - **Relatórios de auditoria**   O EAC inclui a funcionalidade de auditoria para que você possa executar relatórios ou exportar entradas do log de auditoria de caixa de correio e o log de auditoria do administrador. O log de auditoria de caixa de correio registra sempre que uma caixa de correio é acessada por alguém diferente da pessoa que possui a caixa de correio. Isso pode ajudá-lo a determinar quem acessou a caixa de correio e o que a pessoa fez. O log de auditoria do administrador grava qualquer ação, com base em um cmdlet do Shell de Gerenciamento do Exchange, executada por um administrador. Isso pode ajudá-lo a solucionar problemas de configuração ou identificar a causa de problemas relacionados à segurança ou à conformidade. Para mais informações, consulte [Relatórios de auditoria do Exchange](exchange-auditing-reports-exchange-2013-help.md).
+  - **Relatórios de auditoria**   O EAC inclui a funcionalidade de auditoria para que você possa executar relatórios ou exportar entradas do log de auditoria de caixa de correio e o log de auditoria do administrador. O log de auditoria de caixa de correio registra sempre que uma caixa de correio é acessada por alguém diferente da pessoa que possui a caixa de correio. Isso pode ajudá-lo a determinar quem acessou a caixa de correio e o que a pessoa fez. O log de auditoria do administrador grava qualquer ação, com base em um cmdlet do Shell de Gerenciamento do Exchange, executada por um administrador. Isso pode ajudá-lo a solucionar problemas de configuração ou identificar a causa de problemas relacionados à segurança ou à conformidade. Para mais informações, consulte [Relatórios de auditoria do Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports).
 
-  - **Exibindo o log de auditoria do administrador**   Em vez de exportar o log de auditoria do administrador, cujo recebimento via mensagem de email pode demorar até 24 horas, você pode exibir as entradas de log de auditoria do administrador no EAC. Para isso, acesse **Gerenciamento de Conformidade** \> **Auditoria** e clique em **Exibir o log de auditoria do administrador**. Serão exibidas até 1.000 entradas em várias páginas. Para restringir a pesquisa, especifique um intervalo de datas. Para saber mais, veja [Exibir o log de auditoria do administrador](view-the-administrator-audit-log-exchange-2013-help.md).
+  - **Exibindo o log de auditoria do administrador**   Em vez de exportar o log de auditoria do administrador, cujo recebimento via mensagem de email pode demorar até 24 horas, você pode exibir as entradas de log de auditoria do administrador no EAC. Para isso, acesse **Gerenciamento de Conformidade** \> **Auditoria** e clique em **Exibir o log de auditoria do administrador**. Serão exibidas até 1.000 entradas em várias páginas. Para restringir a pesquisa, especifique um intervalo de datas. Para saber mais, veja [Exibir o log de auditoria do administrador](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log).
 
 ## Proteção antimalware
 
@@ -269,7 +269,7 @@ Esta seção descreve os aprimoramentos para o gerenciamento de destinatários n
 
   - **Política de nome de grupo**   Os administradores podem agora usar o EAC para criar uma *política de nome de grupo*, que permite padronizar e gerenciar os nomes de grupos de distribuição criados por usuários em sua organização. Você pode exigir que um prefixo e um sufixo específicos sejam adicionados ao nome de um grupo de distribuição quando ele for criado, bem como impedir que palavras específicas sejam usadas. Esse recurso ajuda a minimizar o uso de palavras inadequadas em nomes de grupos.
     
-    Para mais informações, consulte [Criar um diretiva de nomeação de grupo de distribuição](create-a-distribution-group-naming-policy-exchange-2013-help.md).
+    Para mais informações, consulte [Criar um diretiva de nomeação de grupo de distribuição](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy).
 
   - **Controle de mensagens**   Os administradores podem também usar o EAC para acompanhar informações de entrega de mensagens de email enviadas ou recebidas por qualquer usuário na organização. É necessário apenas selecionar uma caixa de correio e procurar mensagens enviadas ou recebidas por um usuário diferente. É possível refinar a pesquisa procurando palavras específicas na linha de assunto. A notificação de entrega resultante acompanha a mensagem por todo o processo de entrega e especifica se ela foi entregue com êxito, se a entrega está pendente ou se não foi entregue.
     

@@ -45,9 +45,9 @@ Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fór
 
 Você pode colocar caixas de correio em retenção para desativar temporariamente o MRM (por exemplo, quando os usuários estiverem de férias). Isso suspende o processamento das políticas de retenção para caixa de correio até que a retenção seja desabilitada. É diferente de colocar caixas de correio em Bloqueio In-loco ou retenção de litígio.
 
-Para obter detalhes sobre como colocar uma caixa de correio em retenção, consulte [Retenção local de uma caixa de correio em retenção](place-a-mailbox-on-retention-hold-exchange-2013-help.md).
+Para obter detalhes sobre como colocar uma caixa de correio em retenção, consulte [Retenção local de uma caixa de correio em retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold).
 
-Para saber mais sobre Bloqueio In-loco e retenção de litígio, veja [Retenção local e Retenção de litígio](in-place-hold-and-litigation-hold-exchange-2013-help.md).
+Para saber mais sobre Bloqueio In-loco e retenção de litígio, veja [Retenção local e Retenção de litígio](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-and-litigation-holds).
 
 ## Remover marcas de retenção das caixas de correio
 
@@ -71,7 +71,9 @@ Você pode impedir que uma diretiva de retenção se aplique a uma caixa de corr
 
 Este exemplo do Shell remove a diretiva de retenção da caixa de correio jpeoples.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 Este exemplo do Shell remove a diretiva de retenção de todas as caixas de correio da organização do Exchange.
 
@@ -111,7 +113,9 @@ Este exemplo remove todas marcas de retenção exceto a etiqueta Nunca Excluir.
 
 Este comando remove a política de retenção Corp-Users de uma organização do Exchange.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 

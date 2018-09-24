@@ -247,7 +247,7 @@ Voltar ao início
 
 ## Configurando o envio de fax
 
-Por padrão, quando você instala o servidor de caixa de correio, o servidor não está configurado para permitir chamadas de fax de entrada para serem processadas ou entregues a um usuário habilitado para UM. Para configurar a Unificação de mensagens com um servidor parceiro de fax, você deve configurar a política de caixa de correio de Unificação de mensagens e configurar a autenticação entre o servidor de caixa de correio e o servidor de parceiro de fax. Para obter mais informações, consulte [Configurando o envio de fax de entrada](setting-up-incoming-faxing-exchange-2013-help.md).
+Por padrão, quando você instala o servidor de caixa de correio, o servidor não está configurado para permitir chamadas de fax de entrada para serem processadas ou entregues a um usuário habilitado para UM. Para configurar a Unificação de mensagens com um servidor parceiro de fax, você deve configurar a política de caixa de correio de Unificação de mensagens e configurar a autenticação entre o servidor de caixa de correio e o servidor de parceiro de fax. Para obter mais informações, consulte [Configurando o envio de fax de entrada](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/set-up-incoming-faxing).
 
 Voltar ao início
 
@@ -281,7 +281,7 @@ Voltar ao início
 
 ## Vários números de telefone DID
 
-Quando você habilita um usuário para Unificação de mensagens, você deve inserir pelo menos um número de ramal único para esse usuário. Você pode adicionar vários números de ramal para um usuário habilitado para Unificação de mensagens usando o Centro de administração do Exchange (EAC). Para obter mais informações, consulte [Adicionar um número de ramal](add-an-extension-number-exchange-2013-help.md).
+Quando você habilita um usuário para Unificação de mensagens, você deve inserir pelo menos um número de ramal único para esse usuário. Você pode adicionar vários números de ramal para um usuário habilitado para Unificação de mensagens usando o Centro de administração do Exchange (EAC). Para obter mais informações, consulte [Adicionar um número de ramal](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/add-extension-number).
 
 Adicionar vários números de ramal é útil quando um usuário habilitado para Unificação de mensagens:
 
@@ -295,7 +295,7 @@ Adição de múltiplas extensões é mais complexo que usando uma extensão úni
 
 Os benefícios do uso de vários números de ramal DID é que um usuário habilitado recebe chamadas de voz em um número de ramal DID e fax ligar em outro número de ramal DID. Usando separado tenha números para caixa postal e chamadas de fax é mais fácil para o usuário.
 
-Se você configurar dois números de ramal DID para um usuário específico, os números de extensão DID podem vir de planos de discagem de Unificação de mensagens separados. Para usar os dois números DID, você pode criar um plano de discagem e usar um servidor de caixa de correio como um servidor dedicado que receberá as chamadas de fax e mensagens de fax encaminhar aos usuários. Para obter mais informações, consulte [Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md).
+Se você configurar dois números de ramal DID para um usuário específico, os números de extensão DID podem vir de planos de discagem de Unificação de mensagens separados. Para usar os dois números DID, você pode criar um plano de discagem e usar um servidor de caixa de correio como um servidor dedicado que receberá as chamadas de fax e mensagens de fax encaminhar aos usuários. Para obter mais informações, consulte [Criar um plano de discagem de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
 Quando você estiver configurando vários números de ramal DID para usuários habilitados para Unificação de mensagens, você tem as seguintes opções:
 

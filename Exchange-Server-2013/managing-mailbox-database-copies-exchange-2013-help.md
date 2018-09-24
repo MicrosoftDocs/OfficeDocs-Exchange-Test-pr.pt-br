@@ -165,7 +165,9 @@ Página de aplicação de patch está disponível para cópias com retardamento 
 
 O comportamento de descarte da cópia com retardamento está desabilitado por padrão e pode ser habilitado pela execução do seguinte comando.
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Uma vez habilitado, o descarte ocorrerá quando houver menos de três cópias. Você pode alterar o valor padrão de 3 modificando o seguinte valor do registro DWORD.
 
@@ -614,11 +616,15 @@ A tabela a seguir lista os parâmetros disponíveis para o script RedistributeAc
 
 Esse exemplo mostra a distribuição de banco de dados para um DAG, incluindo a lista de contagem de preferência.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -ShowDatabaseDistributionByServer | Format-Table
+```
 
 Esse exemplo redistribui e balanceia as cópias de banco de dados de caixa de correio ativas em um DAG usando a preferência de ativação sem solicitar uma entrada.
 
-    RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```powershell
+RedistributeActiveDatabases.ps1 -DagName DAG1 -BalanceDbsByActivationPreference -Confirm:$False
+```
 
 Esse exemplo redistribui e balanceia as cópias de banco de dados de caixa de correio ativas em um DAG usando a preferência de ativação e produz um resumo da distribuição.
 

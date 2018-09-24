@@ -31,11 +31,11 @@ Como garantia adicional, você pode primeiro copiar as mensagens para outra caix
 
   - Você precisa ser atribuído ambas as seguintes funções de gerenciamento para procurar e excluir mensagens nas caixas de correio dos usuários:
     
-      - **Pesquisa de Caixa de Correio**   Essa função permite procurar mensagens em várias caixas de correio da sua organização. Os administradores não têm essa função atribuída por padrão. Para atribuir a si mesmo esta função para que você possa pesquisar caixas de correio, adicione a si mesmo como um membro do grupo de funções do Gerenciamento de Descoberta. Consulte [Atribuir permissões de descoberta eletrônica no Exchange](assign-ediscovery-permissions-in-exchange-exchange-2013-help.md).
+      - **Pesquisa de Caixa de Correio**   Essa função permite procurar mensagens em várias caixas de correio da sua organização. Os administradores não têm essa função atribuída por padrão. Para atribuir a si mesmo esta função para que você possa pesquisar caixas de correio, adicione a si mesmo como um membro do grupo de funções do Gerenciamento de Descoberta. Consulte [Atribuir permissões de descoberta eletrônica no Exchange](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/assign-ediscovery-permissions).
     
       - **Caixa de correio importar e exportar**   Essa função permite que você excluir mensagens da caixa de correio do usuário. Por padrão, essa função não é atribuída a qualquer grupo de funções. Para excluir mensagens de caixas de correio dos usuários, você pode adicionar a função caixa de correio importar e exportar para o grupo de funções de gerenciamento da organização. Para obter mais informações, consulte a seção "Adicionar uma função a um grupo de funções" no [Gerenciar grupos de função](manage-role-groups-exchange-2013-help.md) .
 
-  - Se a caixa de correio a partir do qual você deseja excluir mensagens tiver a recuperação de item único habilitada, primeiro será necessário desabilitar o recurso. Para obter mais informações, consulte [Habilitar ou desabilitar a recuperação de item único para uma caixa de correio](enable-or-disable-single-item-recovery-for-a-mailbox-exchange-2013-help.md).
+  - Se a caixa de correio a partir do qual você deseja excluir mensagens tiver a recuperação de item único habilitada, primeiro será necessário desabilitar o recurso. Para obter mais informações, consulte [Habilitar ou desabilitar a recuperação de item único para uma caixa de correio](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-single-item-recovery).
 
   - Se a caixa de correio a partir do qual você deseja excluir mensagens for colocada em espera, recomendamos que você verifique com o gerenciamento de registros ou o departamento jurídico antes de remover a retenção e excluam o conteúdo de caixa de correio. Depois de obter aprovação, siga as etapas listadas no tópico [Limpar a pasta itens recuperáveis](clean-up-the-recoverable-items-folder-exchange-2013-help.md).
 
@@ -69,7 +69,9 @@ Este exemplo pesquisa na caixa de correio de Isabel Martins mensagens que conten
 
 
 
-    Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -DeleteContent
+```powershell
+Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -DeleteContent
+```
 
 Este exemplo pesquisa na caixa de correio de Isabel Martins mensagens que contenham a frase "Seu extrato bancário" no campo Assunto, copia os resultados da pesquisa para a pasta AprilStewart-DeletedMessages na caixa de correio BackupMailbox e exclui as mensagens da caixa de correio de Isabel.
 

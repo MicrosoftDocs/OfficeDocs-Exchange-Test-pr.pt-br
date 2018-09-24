@@ -51,7 +51,9 @@ Se você não quiser inscrever o servidor de Transporte de Borda em um site do A
     
     O exemplo a seguir cria um arquivo de Inscrição de Borda chamado EdgeSubscriptionInfo.xml na pasta C:\\Meus Documentos. O parâmetro *Force* suprime os prompts que confirmam os comandos que serão desabilitados e os avisos de que os dados de configuração serão substituídos no servidor de Transporte de Borda.
     
-        New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
+    ```powershell
+New-EdgeSubscription -FileName "C:\My Documents\EdgeSubscriptionInfo.xml" -Force
+```
 
 2.  Copie o arquivo de Inscrição de Borda resultante em um servidor de Caixa de Correio no site do Active Directory em que você está inscrevendo o servidor de Transporte de Borda.
 
@@ -71,7 +73,9 @@ Se você não quiser inscrever o servidor de Transporte de Borda em um site do A
 
 4.  No servidor de Caixa de Correio, execute o seguinte comando para iniciar a primeira sincronização do EdgeSync.
     
-        Start-EdgeSynchronization
+    ```powershell
+Start-EdgeSynchronization
+```
 
 5.  Depois de concluir, recomendamos a exclusão do arquivo de Inscrição de Borda do servidor de Transporte de Borda e do servidor de Caixa de Correio. O arquivo de Inscrição de Borda contém informações sobre credenciais usadas durante o processo de comunicação LDAP.
 

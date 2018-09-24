@@ -17,7 +17,7 @@ _**Aplica-se a:** Exchange Online, Exchange Server 2013_
 
 _**Tópico modificado em:** 2016-10-18_
 
-Colocar uma caixa de correio em Retenção de Litígio também preserva todo o conteúdo da caixa de correio, incluindo itens excluídos e versões originais de itens modificados. Ao colocar a caixa de correio de um usuário em Retenção de Litígio, o conteúdo na caixa de correio de arquivo morto do usuário (se habilitada) também é colocado em retenção. Itens excluídos e modificados são preservados por um determinado período, ou até você remover a caixa de correio da Retenção de Litígio. Todos os itens da caixa de correio são retornados em uma pesquisa de [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md).
+Colocar uma caixa de correio em Retenção de Litígio também preserva todo o conteúdo da caixa de correio, incluindo itens excluídos e versões originais de itens modificados. Ao colocar a caixa de correio de um usuário em Retenção de Litígio, o conteúdo na caixa de correio de arquivo morto do usuário (se habilitada) também é colocado em retenção. Itens excluídos e modificados são preservados por um determinado período, ou até você remover a caixa de correio da Retenção de Litígio. Todos os itens da caixa de correio são retornados em uma pesquisa de [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!IMPORTANT]
@@ -39,7 +39,7 @@ Colocar uma caixa de correio em Retenção de Litígio também preserva todo o c
 
   - No Exchange Online, a cota da pasta Itens recuperáveis é automaticamente aumentada para 100 GB quando você coloca uma caixa de correio em Retenção de Litígio. O tamanho padrão dessa pasta é 30 GB.
 
-  - A Retenção de Litígio preserva os itens excluídos e também versões originais de itens modificados até que a retenção seja removida. Opcionalmente, você pode especificar uma duração da retenção, que preserva um item da caixa de correio pelo período de tempo especificado. Se você especificar um período de duração para a retenção, ele é calculado a partir da data que uma mensagem é recebida ou que um item da caixa de correio é criado. Para preservar os itens que atendem aos critérios especificados, use um Bloqueio In-loco para criar uma retenção *baseada em consulta*. Para saber mais, confira [Criar ou remover um bloqueio In-loco](create-or-remove-an-in-place-hold-exchange-2013-help.md).
+  - A Retenção de Litígio preserva os itens excluídos e também versões originais de itens modificados até que a retenção seja removida. Opcionalmente, você pode especificar uma duração da retenção, que preserva um item da caixa de correio pelo período de tempo especificado. Se você especificar um período de duração para a retenção, ele é calculado a partir da data que uma mensagem é recebida ou que um item da caixa de correio é criado. Para preservar os itens que atendem aos critérios especificados, use um Bloqueio In-loco para criar uma retenção *baseada em consulta*. Para saber mais, confira [Criar ou remover um bloqueio In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
   - Para usar o Shell para colocar uma caixa de correio do Exchange Online em retenção, você deve usar o Exchange Online PowerShell. Para saber mais, confira [Conectar-se ao Exchange Online usando o PowerShell Remoto](https://technet.microsoft.com/pt-br/library/jj984289\(v=exchg.150\)).
 
@@ -71,7 +71,9 @@ Voltar ao início
 
 Este exemplo coloca a caixa de correio bsuneja@contoso.com em Retenção de Litígio. Os itens na caixa de correio serão retidos indefinidamente ou até que a retenção seja removida.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true
+```
 
 
 > [!NOTE]
@@ -83,7 +85,9 @@ Este exemplo coloca a caixa de correio bsuneja@contoso.com em Retenção de Lit�
 
 Este exemplo coloca a caixa de correio bsuneja@contoso.com em Retenção de Litígio e preserva itens por 2555 dias (aproximadamente sete anos).
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```
 
 ## Usar o Shell para colocar todas as caixas de correio em Retenção de Litígio por um período específico
 
@@ -103,7 +107,9 @@ Consulte a seção Mais informações para obter exemplos de como usar outras pr
 
 Este exemplo remove a Retenção de Litígio da caixa de correio bsuneja@contoso.com.
 
-    Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```powershell
+Set-Mailbox bsuneja@contoso.com -LitigationHoldEnabled $false
+```
 
 Voltar ao início
 
@@ -153,7 +159,9 @@ Para verificar se você aplicou com sucesso a Retenção de Litígio em uma caix
         Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
     ```
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```powershell
+Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+```
     ```
     ```
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
@@ -162,7 +170,9 @@ Para verificar se você aplicou com sucesso a Retenção de Litígio em uma caix
             Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
     ```
     ```
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+```
     ```
     
     Você pode usar outras propriedades de caixa de correio em um filtro para incluir ou excluir caixas de correio. Para saber mais, confira [Propriedades filtráveis para o parâmetro -Filter](https://technet.microsoft.com/pt-br/library/bb738155\(v=exchg.150\)).

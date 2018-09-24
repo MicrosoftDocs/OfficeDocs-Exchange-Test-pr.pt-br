@@ -63,7 +63,9 @@ Para procurar eventos específicos nas entradas do log de rastreamento de mensag
 
 Para exibir as 1000 entradas de log de controle de mensagens mais recentes no servidor, execute o seguinte comando:
 
-    Get-MessageTrackingLog
+```powershell
+Get-MessageTrackingLog
+```
 
 Este exemplo pesquisa nos logs de controle de mensagens do servidor local todas as entradas de 28/3/2013 8h a 28/3/2013 17h de todos os eventos de **FAIL** nas quais o remetente da mensagem era davi@contoso.com.
 

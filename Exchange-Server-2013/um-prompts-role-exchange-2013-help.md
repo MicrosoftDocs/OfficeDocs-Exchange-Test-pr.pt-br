@@ -37,7 +37,9 @@ Esta função é atribuída a um ou mais grupos de função, por padrão. Para s
 
 Se você quiser exibir uma lista de grupos de funções, usuários ou USGs atribuídos a essa função, use o comando abaixo.
 
-    Get-ManagementRoleAssignment -Role "<role name>"
+```powershell
+Get-ManagementRoleAssignment -Role "<role name>"
+```
 
 ## Atribuições de função comuns e de delegação
 
@@ -154,7 +156,7 @@ Essa função foi configurada para oferecer, a um destinatário de função, tod
 Se você precisar criar uma versão personalizada desta função, você deverá criar uma função como uma filha daquela função e personalizar essa nova função.
 
 
-> [CAUTION]
+> [!CAUTION]
 > As informações a seguir permitem que você execute o gerenciamento avançado de permissões. Personalizar funções de gerenciamento pode aumentar significativamente a complexidade do seu modelo de permissões. Você pode fazer com que determinados recursos parem de funcionar, se você substituir uma função de gerenciamento interna por uma função personalizada configurada incorretamente.
 
 

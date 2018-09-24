@@ -97,45 +97,63 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 Este exemplo mostra como propagar uma cópia do banco de dados DB1 no MBX1.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 Este exemplo mostra como propagar uma cópia do banco de dados DB1 MBX1 usando o MBX2 como o servidor de caixa de correio de origem para a propagação.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2
+```
 
 Este exemplo mostra como propagar uma cópia do banco de dados DB1 no MBX1 sem propagar o catálogo de índice de conteúdo.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -DatabaseOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -DatabaseOnly
+```
 
 Este exemplo mostra como propagar o catálogo de índice de conteúdo para a cópia do banco de dados DB1 MBX1 sem propagar o arquivo de banco de dados.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 ## Copiar manualmente um banco de dados offline
 
 1.  Se o log circular for habilitado para o banco de dados, ele deverá ser desabilitado antes de continuar. É possível desabilitar o log circular de um banco de dados de caixa de correio usando o cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)), conforme mostrado nesse exemplo.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+```
 
 2.  Desmonte o banco de dados. Você pode usar o cmdlet [Dismount-Database](https://technet.microsoft.com/pt-br/library/bb124936\(v=exchg.150\)) , conforme mostrado neste exemplo.
     
-        Dismount-Database DB1 -Confirm $false
+    ```powershell
+Dismount-Database DB1 -Confirm $false
+```
 
 3.  Copie manualmente os arquivos de banco de dados (o arquivo de banco de dados e todos os arquivos de log) para um local de segundo, como uma unidade de disco externa ou compartilhamento de rede.
 
 4.  Monte o banco de dados. Você pode usar o cmdlet [Mount-Database](https://technet.microsoft.com/pt-br/library/aa998871\(v=exchg.150\)) , conforme mostrado neste exemplo.
     
-        Mount-Database DB1
+    ```powershell
+Mount-Database DB1
+```
 
 5.  No servidor que hospedará a cópia, copie os arquivos de banco de dados do compartilhamento de rede ou unidade externo para o mesmo caminho como a cópia do banco de dados ativo. Por exemplo, se o caminho do banco de dados de cópia ativa é D:\\DB1\\DB1.edb e o caminho do arquivo de log é D:\\DB1, copie os arquivos de banco de dados para D:\\DB1 no servidor que irá hospedar a cópia.
 
 6.  Adicione a cópia do banco de dados de caixa de correio usando o cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd298105\(v=exchg.150\)) com o parâmetro *SeedingPostponed* , conforme mostrado neste exemplo.
     
-        Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```powershell
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+```
 
 7.  Se o log circular está habilitado para o banco de dados, habilitá-lo novamente usando o cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)) , conforme mostrado neste exemplo.
     
-        Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+```
 
 ## Como saber se funcionou?
 
@@ -145,7 +163,9 @@ Para verificar se você tiver propagado com êxito uma cópia do banco de dados 
 
   - No Shell, execute o seguinte comando para verificar a cópia do banco de dados de caixa de correio foi propagada com êxito e está íntegra.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+```
     
     O Status e o estado do índice de conteúdo devem ser iguais a Íntegro.
 

@@ -47,7 +47,7 @@ A tabela a seguir lista os limites de pastas públicas no Exchange Server 2013 n
 <tr class="odd">
 <td><p>Quantidade total de caixas de correio de pasta pública</p></td>
 <td><p>100</p></td>
-<td><p>Embora você possa criar mais de 100 caixas de correio de pasta pública, não há suporte para uma quantidade maior. <a href="create-a-public-folder-mailbox-exchange-2013-help.md">Criar uma caixa de correio de pasta pública</a></p></td>
+<td><p>Embora você possa criar mais de 100 caixas de correio de pasta pública, não há suporte para uma quantidade maior. <a href="https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/create-public-folder-mailbox">Criar uma caixa de correio de pasta pública</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Total de pastas públicas na hierarquia</p></td>

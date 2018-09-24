@@ -25,9 +25,9 @@ Selecione um tópico abaixo para começar:
 
 [Movimentação de caixas de correio entre organizações locais e do Exchange Online em implantações híbridas](move-mailboxes-between-on-premises-and-exchange-online-organizations-in-hybrid-deployments-exchange-2013-help.md)
 
-[Configurar pastas públicas locais herdadas para uma implantação híbrida](configure-legacy-on-premises-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurar pastas públicas locais herdadas para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders)
 
-[Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](configure-exchange-2013-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
+[Configurar pastas públicas do Exchange 2013 para uma implantação híbrida](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-modern-hybrid-public-folders)
 
 [Configurar pastas públicas do Exchange Online para uma implantação híbrida](configure-exchange-online-public-folders-for-a-hybrid-deployment-exchange-2013-help.md)
 

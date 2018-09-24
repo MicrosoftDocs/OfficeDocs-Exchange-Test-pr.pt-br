@@ -21,7 +21,7 @@ Você pode usar o EAC e o Shell para configurar os limites de tamanho de mensage
 
 Há outras configurações em uma organização do Exchange que determinam o tamanho máximo de mensagens que uma caixa de correio pode enviar e receber (por exemplo, o tamanho máximo de mensagens configurado em um servidor de caixa de correio). Saiba mais sobre as restrições de tamanho de mensagens no Exchange, inclusive os tipos de limite de tamanho de mensagens, o escopo e a ordem de precedência delas em [Limites de tamanhos de mensagens](message-size-limits-exchange-2013-help.md).
 
-Confira outras tarefas de gerenciamento relacionadas às caixas de correio de usuário em [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
+Confira outras tarefas de gerenciamento relacionadas às caixas de correio de usuário em [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 
 > [!NOTE]
@@ -65,7 +65,9 @@ Confira outras tarefas de gerenciamento relacionadas às caixas de correio de us
 
 Este exemplo define o tamanho máximo de mensagens enviadas como 25 MB e o tamanho máximo de mensagens recebidas como 35 MB para a caixa de correio de Sara Melo.
 
-    Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```powershell
+Set-Mailbox "Debra Garcia" -MaxSendSize 25mb -MaxReceiveSize 35mb
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -85,5 +87,7 @@ Ou
 
 Execute o seguinte comando no Shell.
 
-    Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```powershell
+Get-Mailbox <identity> | fl MaxSendSize,MaxReceiveSize
+```
 

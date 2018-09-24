@@ -44,7 +44,9 @@ _**Tópico modificado em:** 2014-06-16_
     
     Para confirmar todos os arquivos de log não confirmados no banco de dados, em um prompt de comando, execute o seguinte comando:
     
-        ESEUTIL /R <Enn>
+    ```powershell
+ESEUTIL /R <Enn>
+```
     
 
     > [!NOTE]
@@ -58,13 +60,17 @@ _**Tópico modificado em:** 2014-06-16_
 
 3.  Defina o atributo *This database can be over written by restore* usando a seguinte sintaxe.
     
-        Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+    ```powershell
+Set-MailboxDatabase <DatabaseName> -AllowFileRestore $true
+```
 
 4.  Mova os arquivos de banco de dados originais (arquivos .edb, arquivos de log e catálogo de pesquisa no Exchange) para o arquivo de banco de dados quando você criar um novo banco de dados acima.
 
 5.  Monte o banco de dados usando a seguinte sintaxe:
     
-        Mount-Database <DatabaseName>
+    ```powershell
+Mount-Database <DatabaseName>
+```
 
 6.  Depois que o banco de dados estiver montado, modifique as configurações de conta do usuário com o cmdlet[Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) para que a conta aponte para a caixa de correio no novo servidor de caixa de correio. Para mover todos os usuários do banco de dados antigo para o novo banco de dados, use a seguinte sintaxe.
     
@@ -72,7 +78,9 @@ _**Tópico modificado em:** 2014-06-16_
 
 7.  Acione a entrega de todas as mensagens restantes em filas usando a seguinte sintaxe.
     
-        Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+    ```powershell
+Get-Queue <QueueName> | Retry-Queue -Resubmit $true
+```
 
 Depois que a replicação do Active Directory tiver sido concluída, todos os usuários poderão acessar suas caixas de correio no novo servidor do Exchange. Muitos clientes são redirecionados através da descoberta automática. Os usuários Microsoft Office Outlook Web App os usuários são redirecionados automaticamente.
 

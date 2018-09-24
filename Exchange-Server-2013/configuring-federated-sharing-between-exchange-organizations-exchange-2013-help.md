@@ -61,10 +61,7 @@ Conclua as etapas em [Configurar o compartilhamento federado](configure-federate
 
 ## Configurar o compartilhamento de disponibilidade entre organizações do Exchange 2013 e Exchange 2007
 
-  - Configurar compartilhamento federado para a organização do Exchange 2013. Siga as instruções em [Configurar o compartilhamento federado](configure-federated-sharing-exchange-2013-help.md).
-
-  - Siga estas instruções na organização do Exchange 2007:
-    
+  - Configurar compartilhamento federado para a organização do Exchange 2013. Siga as instruções em [Configurar o compartilhamento federado](configure-federated-sharing-exchange-2013-help.md).ção do Active Directoryde
     1.  **Adicionar um servidor Exchange 2010 SP2**
         
         Um servidor Exchange 2010 SP2 com a função de servidor acesso para cliente deve ser instalado na organização do Exchange 2007. Se você tiver servidores Exchange 2010 existentes, eles devem ser atualizados para o Exchange 2010 SP2. Para obter informações sobre como instalar o Exchange 2010 em uma organização do Exchange 2007, consulte [Exchange 2007 - mapa de planejamento para atualização e coexistência](https://go.microsoft.com/fwlink/p/?linkid=268411).
@@ -79,7 +76,7 @@ Conclua as etapas em [Configurar o compartilhamento federado](configure-federate
         
           - **Pré-requisitos** Verifique se sua organização atende aos requisitos para instalação da sincronização do Active Directory.
             
-            Para saber mais, consulte preparar para a sincronização do Active Directoryde [](https://go.microsoft.com/fwlink/p/?linkid=247302)
+            Para saber mais, consulte preparar para a sincronização do Active Directoryde [https://go.microsoft.com/fwlink/p/?LinkId=247302](https://go.microsoft.com/fwlink/p/?linkid=247302)
         
           - **Plano** Noções básicas sobre a Ferramenta de Sincronização de Diretórios do Microsoft Online Services e roteiro de instalação.
             
@@ -124,7 +121,7 @@ Conclua as etapas em [Configurar o compartilhamento federado](configure-federate
         
           - **Pré-requisitos** Verifique se sua organização atende aos requisitos para instalação da sincronização do Active Directory.
             
-            Para saber mais, consulte preparar para a sincronização do Active Directoryde [](https://go.microsoft.com/fwlink/p/?linkid=247302)
+            Para saber mais, consulte preparar para a sincronização do Active Directoryde [https://go.microsoft.com/fwlink/p/?linkid=247302](https://go.microsoft.com/fwlink/p/?linkid=247302)
         
           - **Plano** Noções básicas sobre a Ferramenta de Sincronização de Diretórios do Microsoft Online Services e roteiro de instalação.
             

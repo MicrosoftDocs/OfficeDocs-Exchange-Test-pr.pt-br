@@ -67,7 +67,9 @@ Para recriar o grupo de funções Gerenciamento da Organização como um grupo d
 
 2.  Armazene as credenciais da floresta externa do Active Directory em uma variável.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 3.  Armazene todas as funções atribuídas ao grupo de função do Gerenciamento da Organização em uma variável.
     
@@ -93,7 +95,9 @@ Este exemplo presume que os seguintes valores são usados para cada parâmetro:
 
 Usando os valores anteriores, este exemplo recria o grupo de funções Gerenciamento da Organização como um grupo de função vinculado.
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+```
     $OrgMgmt  = Get-RoleGroup "Organization Management"
     New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup "Organization Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
     Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
@@ -107,11 +111,15 @@ Para recriar os grupos de função internos (que não seja o grupo de funções 
 
 2.  Armazene as credenciais de floresta estrangeira Active Directory em uma variável. Você precisará fazer isso vez.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+$ForeignCredential = Get-Credential
+```
 
 3.  Recupere uma lista de grupos de função usando o cmdlet a seguir.
     
-        Get-RoleGroup
+    ```powershell
+Get-RoleGroup
+```
 
 4.  Para cada grupo de função, que não seja o grupo de funções Gerenciamento da Organização, faça o seguinte.
     
@@ -132,8 +140,12 @@ Este exemplo presume que os seguintes valores são usados para cada parâmetro:
 
 Usando os valores anteriores, este exemplo recria os grupos de funções de gerenciamento de servidor e Gerenciamento de Destinatários como grupos de função vinculado.
 
-    $ForeignCredential = Get-Credential
-    Get-RoleGroup
+```powershell
+$ForeignCredential = Get-Credential
+```
+```powershell
+Get-RoleGroup
+```
     $RoleGroup = Get-RoleGroup "Recipient Management"
     New-RoleGroup "Recipient Management - Linked" -LinkedForeignGroup "Recipient Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
     $RoleGroup = Get-RoleGroup "Server Management"

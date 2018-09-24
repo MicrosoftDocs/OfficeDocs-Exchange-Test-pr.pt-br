@@ -50,7 +50,9 @@ Você pode usar o Shell para obter um resumo da integridade de um servidor que e
 Execute um destes comandos para exibir os conjuntos e as informações de integridade em um servidor que executa o Exchange 2013.
 
 ```
-    Get-HealthReport -Identity <ServerName>
+```powershell
+Get-HealthReport -Identity <ServerName>
+```
 ```
 ```
     Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
@@ -59,10 +61,14 @@ Execute um destes comandos para exibir os conjuntos e as informações de integr
 Execute qualquer um destes comandos para exibir os conjuntos de integridade em um servidor ou em um grupo de disponibilidade de banco de dados com o Exchange 2013 em execução.
 
 ```
-    Get-ExchangeServer | Get-HealthReport -RollupGroup
+```powershell
+Get-ExchangeServer | Get-HealthReport -RollupGroup
 ```
 ```
-    Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
+```
+```powershell
+Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
+```
 ```
 ```
     (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
@@ -76,7 +82,9 @@ Um conjunto de integridade é um grupo de monitores, sondas e respondentes de um
 
 Execute este comando para exibir os conjuntos de integridade em um servidor que executa o Exchange 2013.
 
-    Get-HealthReport -Server <ServerName>
+```powershell
+Get-HealthReport -Server <ServerName>
+```
 
 ## Exibir sondas, monitores e respondentes de um conjunto de integridade
 

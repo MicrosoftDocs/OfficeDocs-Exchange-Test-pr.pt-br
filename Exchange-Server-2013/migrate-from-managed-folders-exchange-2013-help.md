@@ -17,7 +17,7 @@ _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2015-04-07_
 
-No Microsoft Exchange Server 2013, o gerenciamento de registros de mensagem (MRM) é realizado usando marcas de retenção e políticas de retenção. Uma política de retenção é um grupo de marcas de retenção que pode ser aplicado a uma caixa de correio. Para mais detalhes, consulte [Marcas e políticas de retenção](retention-tags-and-retention-policies-exchange-2013-help.md). Pastas gerenciadas, que a tecnologia MRM introduziu no Exchange Server 2007, não são suportadas.
+No Microsoft Exchange Server 2013, o gerenciamento de registros de mensagem (MRM) é realizado usando marcas de retenção e políticas de retenção. Uma política de retenção é um grupo de marcas de retenção que pode ser aplicado a uma caixa de correio. Para mais detalhes, consulte [Marcas e políticas de retenção](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/retention-tags-and-policies). Pastas gerenciadas, que a tecnologia MRM introduziu no Exchange Server 2007, não são suportadas.
 
 Uma caixa de correio que tenha uma diretiva de caixa de correio de pasta gerenciada aplicada pode ser migrada para usar uma diretiva de retenção. Para fazer isso, é preciso criar marcas de retenção equivalentes às pastas gerenciadas vinculadas à diretiva de caixa de correio de pasta gerenciada do usuário.
 
@@ -29,7 +29,7 @@ Uma caixa de correio que tenha uma diretiva de caixa de correio de pasta gerenci
 
 
 > [!TIP]
-> Você pode colocar caixas de correio sob bloqueio local para interromper o processamento das políticas de retenção ou políticas de caixa de correio de pasta gerenciada. Colocar caixas de correio sob bloqueio local pode ser útil em cenários de migração para evitar excluir mensagens ou movê-las para o arquivo morto até que as configurações da nova política sejam testadas nas caixas de correio de teste ou num número pequeno caixas de correio em produção. Para obter detalhes, consulte <A href="place-a-mailbox-on-retention-hold-exchange-2013-help.md">Retenção local de uma caixa de correio em retenção</A>.
+> Você pode colocar caixas de correio sob bloqueio local para interromper o processamento das políticas de retenção ou políticas de caixa de correio de pasta gerenciada. Colocar caixas de correio sob bloqueio local pode ser útil em cenários de migração para evitar excluir mensagens ou movê-las para o arquivo morto até que as configurações da nova política sejam testadas nas caixas de correio de teste ou num número pequeno caixas de correio em produção. Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold">Retenção local de uma caixa de correio em retenção</A>.
 
 
 
@@ -276,7 +276,7 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Ret
 
 
 > [!NOTE]
-> Você pode usar o EAC também para criar marcas de retenção manualmente (sem ser baseado nas configurações em pastas gerenciadas). Para obter detalhes, consulte <A href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</A>.
+> Você pode usar o EAC também para criar marcas de retenção manualmente (sem ser baseado nas configurações em pastas gerenciadas). Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Criar uma política de retenção</A>.
 
 
 
@@ -298,7 +298,7 @@ Entrada "Gerenciamento de registros de mensagem", no tópico [Permissões de pol
 
 
 > [!NOTE]
-> Você também pode usar o EAC para criar uma política de retenção e adicionar marcas de retenção à política. Para obter detalhes, consulte <A href="create-a-retention-policy-exchange-2013-help.md">Criar uma política de retenção</A>.
+> Você também pode usar o EAC para criar uma política de retenção e adicionar marcas de retenção à política. Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy">Criar uma política de retenção</A>.
 
 
 
@@ -314,7 +314,9 @@ Entrada "Aplicando políticas de retenção", no tópico [Permissões de políti
 
 Este exemplo remove a politica da caixa de correio de pasta gerenciada e qualquer pasta da caixa de correio de Ken Kwok. Pastas gerenciadas que possuem qualquer mensagem não são removidas.
 
-    Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```
 
 ## Etapa 4: Aplicar a diretiva de retenção a caixas de correio do usuário
 
@@ -322,13 +324,15 @@ Entrada "Aplicando políticas de retenção", no tópico [Permissões de políti
 
 
 > [!NOTE]
-> Você também pode usar o EAC para aplicar uma política de retenção para os usuários. Para obter detalhes, consulte <A href="apply-a-retention-policy-to-mailboxes-exchange-2013-help.md">Aplicar uma política de retenção a caixas de correio</A>.
+> Você também pode usar o EAC para aplicar uma política de retenção para os usuários. Para obter detalhes, consulte <A href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/apply-retention-policy">Aplicar uma política de retenção a caixas de correio</A>.
 
 
 
 Este exemplo aplica a diretiva de retenção recém-criada RP-Corp à caixa de correio do usuário Ken Kwok.
 
-    Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -346,5 +350,7 @@ Para verificar se você migrou de pastas gerenciadas para políticas de retenç�
     
     Este comando reccupera as marcas de retenção efetivamente aplicadas na caixa de coreeio de April Stewart.
     
-        Get-RetentionPolicyTag -Mailbox astewart
+    ```powershell
+Get-RetentionPolicyTag -Mailbox astewart
+```
 

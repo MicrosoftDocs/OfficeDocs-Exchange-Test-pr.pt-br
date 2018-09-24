@@ -42,7 +42,9 @@ No entanto, se a caixa de correio do sistema de descoberta for excluída acident
     
     Para recriar a caixa de correio do sistema de descoberta, execute o seguinte comando:
     
-        .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```powershell
+.\Setup /preparead /IAcceptExchangeServerLicenseTerms
+```
 
 ## Como saber se funcionou?
 

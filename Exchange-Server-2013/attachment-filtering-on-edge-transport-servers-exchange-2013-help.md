@@ -29,7 +29,9 @@ Você pode usar os seguintes tipos de filtragem de anexos para controlar anexos 
     
     Para ver a lista completa de extensões de nomes de arquivos e tipos de conteúdo que a filtragem de anexos pode detectar, execute o seguinte comando no servidor de Transporte de Borda:
     
-        Get-AttachmentFilterEntry | Format-List
+    ```powershell
+Get-AttachmentFilterEntry | Format-List
+```
 
 Depois de definir quais arquivos procurar, configure a ação a ser realizada nas mensagens com esses anexos. Não é possível especificar ações diferentes para tipos de anexos diferentes. Configure uma das ações a seguir para todas as mensagens que correspondam aos filtros de anexos:
 

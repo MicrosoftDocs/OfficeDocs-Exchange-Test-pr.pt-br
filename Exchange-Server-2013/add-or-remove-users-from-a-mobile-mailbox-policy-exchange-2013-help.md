@@ -120,5 +120,7 @@ Para verificar se você alterou com êxito uma política de caixa de correio de 
 
 2.  No Shell, execute o comando a seguir.
     
-        Get-CASMailbox -Identity tony@contoso.com
+    ```powershell
+Get-CASMailbox -Identity tony@contoso.com
+```
 

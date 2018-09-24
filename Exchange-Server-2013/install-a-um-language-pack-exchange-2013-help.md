@@ -67,7 +67,9 @@ Para tarefas adicionais relacionadas aos idiomas da UM, consulte [Procedimentos 
 
 Este exemplo instala o japonês (ja-JP) UM pacote de idiomas que tenha sido baixado até a pasta D:\\Exchange\\UMLanguagePacks em um servidor de caixa de correio.
 
-    setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```powershell
+setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+```
 
 Este exemplo instala o espanhol do México (es-MX) e alemão (de-DE) UM pacotes de idiomas que foram baixados para a pasta D:\\Exchange\\UMLanguagePacks em um servidor de caixa de correio.
 

@@ -23,7 +23,7 @@ Métricas de grupo é uma coleção dos seguintes dados sobre grupos de distribu
 
   - Número de membros que são externos à sua organização
 
-Dados de métricas de grupo são usados para dar suporte a dicas de email no Microsoft Exchange Server 2013. Dicas de email são mensagens informativas exibidas aos remetentes enquanto eles compõem mensagens. Para obter mais informações sobre dicas de email, incluindo uma lista completa de dicas de email disponíveis no Exchange 2013, consulte [MailTips](mailtips-exchange-2013-help.md).
+Dados de métricas de grupo são usados para dar suporte a dicas de email no Microsoft Exchange Server 2013. Dicas de email são mensagens informativas exibidas aos remetentes enquanto eles compõem mensagens. Para obter mais informações sobre dicas de email, incluindo uma lista completa de dicas de email disponíveis no Exchange 2013, consulte [MailTips](https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 Dados de métricas de grupo são usados pelo dicas de email seguintes:
 

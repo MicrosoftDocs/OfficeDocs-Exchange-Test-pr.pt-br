@@ -73,7 +73,9 @@ Cada cópia do banco de dados de caixa de correio tem suas próprias propriedade
 
 Este exemplo configura uma cópia do banco de dados de caixa de correio com um número de preferência de ativação de 3.
 
-    Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```powershell
+Set-MailboxDatabaseCopy -Identity DB3\EX3 -ActivationPreference 3
+```
 
 Este exemplo configura uma cópia do banco de dados DB1 hospedado no servidor1 com um tempo de retardo de repetição e tempo de retardo de truncamento de 1 dia e um número de preferência de ativação de 2.
 
@@ -87,7 +89,9 @@ Para verificar se você configurou com êxito uma cópia do banco de dados de ca
 
   - No Shell, execute o seguinte comando para exibir informações de configuração de uma cópia do banco de dados.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+```
 
 ## Para saber mais
 

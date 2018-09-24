@@ -45,11 +45,15 @@ Ao remover uma entrada de função de uma função, você remove a capacidade de
 
 Use a sintaxe a seguir para remover uma entrada completa de função de gerenciamento de uma função.
 
-    Remove-ManagementRoleEntry <management role>\<management role entry>
+```powershell
+Remove-ManagementRoleEntry <management role>\<management role entry>
+```
 
 Este exemplo remove o cmdlet **Enable-MailUser** da função Administradores do Servidor de Seattle.
 
-    Remove-ManagementRoleEntry "Seattle Server Administrators\Enable-MailUser"
+```powershell
+Remove-ManagementRoleEntry "Seattle Server Administrators\Enable-MailUser"
+```
 
 Para obter informações detalhadas de sintaxe e parâmetro, consulte [Remove-ManagementRoleEntry](https://technet.microsoft.com/pt-br/library/dd351187\(v=exchg.150\)).
 

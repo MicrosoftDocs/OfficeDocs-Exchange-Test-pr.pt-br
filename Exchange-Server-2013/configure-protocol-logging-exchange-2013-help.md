@@ -89,7 +89,9 @@ Para habilitar ou desabilitar o log em um conector de envio ou um conector de re
 
 Este exemplo habilita o log para o conector de recebimento chamado conexão de Contoso.com de protocolo.
 
-    Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```powershell
+Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```
 
 ## Como saber se funcionou?
 
@@ -97,7 +99,9 @@ Para verificar se você habilitou com êxito ou log de protocolo desativado, fa�
 
 1.  No Shell, execute o comando a seguir:
     
-        <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```command line
+<Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -109,7 +113,9 @@ Para habilitar ou desabilitar o protocolo de logon o conector de envio invisíve
 
 Esse protocolo permite de exemplo logon de dentro da organização de conector de envio no serviço de transporte em um servidor de caixa de correio chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```
 
 ## Como saber se funcionou?
 
@@ -125,11 +131,15 @@ Para verificar que você com êxito habilitada ou desabilitada protocolo logon o
 
 Para habilitar ou desabilitar o protocolo de log a entrega de caixa de correio implícita e invisível conector de envio que existe no serviço de transporte de caixa de correio em um servidor de caixa de correio, execute o seguinte comando:
 
-    Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 Este exemplo habilita o protocolo logon o conector de recebimento de entrega de caixa de correio no serviço de transporte de caixa de correio em um servidor de caixa de correio chamado Mailbox01.
 
-    Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```
 
 ## Como saber se funcionou?
 

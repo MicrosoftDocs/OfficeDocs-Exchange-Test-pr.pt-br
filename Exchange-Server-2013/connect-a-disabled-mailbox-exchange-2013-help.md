@@ -85,7 +85,9 @@ Use o cmdlet **Connect-Mailbox** no Shell para conectar uma conta de usuário a 
 
 Este exemplo conecta uma caixa de correio de usuário. O parâmetro *Identity* especifica a caixa de correio desconectada no banco de dados do Exchange. O parâmetro *User* especifica a conta de usuário do Active Directory à qual a caixa de correio será reconectada.
 
-    Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```powershell
+Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
+```
 
 Este exemplo conecta uma caixa de correio vinculada. O parâmetro *Identity* especifica a caixa de correio desconectada do banco de dados do Exchange. O parâmetro *LinkedMasterAccount* especifica a conta de usuário do Active Directory na floresta de conta à qual deseja reconectar a caixa de correio. O parâmetro *Alias* especifica o alias, que é a parte do endereço de email à esquerda do símbolo arroba (@), para a caixa de correio reconectada.
 
@@ -113,7 +115,9 @@ Para verificar se você conectou com êxito a caixa de correio desabilitada a um
 
   - No Shell, execute o comando a seguir.
     
-        Get-User <identity>
+    ```powershell
+Get-User <identity>
+```
     
     O valor de **UserMailbox** para a propriedade *RecipientType* indica que a conta de usuário e a caixa de correio estão conectadas. Você também pode executar o cmdlet **Get-Mailbox** para verificar se a caixa de correio existe.
 

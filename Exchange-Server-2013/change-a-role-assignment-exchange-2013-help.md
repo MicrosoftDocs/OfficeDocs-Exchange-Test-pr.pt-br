@@ -51,15 +51,21 @@ As atribuições de função são habilitadas por padrão, o que significa que a
 
 Para habilitar uma atribuição de função, use a sintaxe a seguir.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $true
+```
 
 Para desabilitar uma atribuição de função, use a sintaxe a seguir.
 
-    Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```powershell
+Set-ManagementRoleAssignment <role assignment> -Enabled $false
+```
 
 Este exemplo desabilita a atribuição de função Atribuição de Suporte Técnico.
 
-    Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```powershell
+Set-ManagementRoleAssignment "Help Desk Assignment" -Enabled $false
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335173\(v=exchg.150\)).
 
@@ -83,7 +89,9 @@ Para alterar ou adicionar um escopo predefinido em uma atribuição de função,
 
 Este exemplo altera o escopo predefinido na atribuição de função Atribuição de John para MyDistributionGroups.
 
-    Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```powershell
+Set-ManagementRoleAssignment "John's Assignment" - RecipientRelativeWriteScope MyDistributionGroups
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335173\(v=exchg.150\)).
 
@@ -109,7 +117,9 @@ Você pode especificar um novo escopo de filtro de servidor ou de configuração
 
 Para especificar um novo escopo de configuração ou substituir um que já exista, use a sintaxe a seguir.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 Este exemplo adiciona ou altera o escopo de configuração para Servidores de Redmond.
 
@@ -125,11 +135,15 @@ Você pode tanto especificar um novo escopo de filtro de banco de dados ou de co
 
 Para especificar um novo escopo de configuração ou substituir um que já exista, use a sintaxe a seguir.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role scope name>
+```
 
 Este exemplo adiciona ou altera o escopo da configuração nos Bancos de dados de Redmond.
 
-    Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```powershell
+Set-ManagementRoleAssignment "Redmond Database Admins" -CustomConfigWriteScope "Redmond Databases"
+```
 
 Se você quiser manter o mesmo escopo de configuração que está aplicado à atribuição de função, mas quiser alterar o filtro de banco de dados ou a lista de banco de dados no escopo, será preciso alterar o próprio escopo de configuração. Para mais informações sobre como alterar os escopos, consulte [Alterar um escopo de função](change-a-role-scope-exchange-2013-help.md).
 
@@ -141,7 +155,9 @@ Você pode adicionar uma nova OU ou alterar uma OU que já esteja aplicada à at
 
 Para alterar ou adicionar uma nova OU em uma atribuição de função, use a sintaxe a seguir.
 
-    Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope <OU>
+```
 
 Este exemplo adiciona a OU Engenharia\\Usuários no domínio contoso.com à atribuição de função Suporte Técnico de Engenharia.
 

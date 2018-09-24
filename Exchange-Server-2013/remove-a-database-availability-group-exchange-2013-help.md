@@ -51,7 +51,9 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 Este exemplo remove o DAG DAG1.
 
-    Remove-DatabaseAvailabilityGroup -Identity DAG1
+```powershell
+Remove-DatabaseAvailabilityGroup -Identity DAG1
+```
 
 ## Como saber se funcionou?
 
@@ -61,7 +63,9 @@ Para verificar se você removeu o DAG com êxito, siga um dos seguintes procedim
 
   - No Shell, execute o comando a seguir para ver se o DAG ainda existe:
     
-        Get-DatabaseAvailabilityGroup <DAGName>
+    ```powershell
+Get-DatabaseAvailabilityGroup <DAGName>
+```
     
     Se o DAG tiver sido excluído com êxito, o comando acima produzirá uma mensagem de erro indicando que o objeto não pôde ser encontrado.
 

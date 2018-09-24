@@ -67,19 +67,27 @@ Depois de definir limites de conexão, você deve reiniciar os serviços de IMAP
 
 Este exemplo define o limite de conexão para um servidor.
 
-    Set-ImapSettings -Identity CAS01 -MaxConnections Value
+```powershell
+Set-ImapSettings -Identity CAS01 -MaxConnections Value
+```
 
 Este exemplo define o limite de conexão para um endereço IP.
 
-    Set-ImapSettings -Identity CAS01 -MaxConnectionsFromSingleIP Value
+```powershell
+Set-ImapSettings -Identity CAS01 -MaxConnectionsFromSingleIP Value
+```
 
 Este exemplo define o limite de conexão para um usuário.
 
-    Set-ImapSettings -MaxConnectionsPerUser Value
+```powershell
+Set-ImapSettings -MaxConnectionsPerUser Value
+```
 
 Este exemplo define o tamanho máximo de comando.
 
-    Set-ImapSettings -MaxCommandSize Value
+```powershell
+Set-ImapSettings -MaxCommandSize Value
+```
 
 Depois de definir limites de conexão, você deve reiniciar os serviços de IMAP4. Para obter informações sobre como reiniciar os serviços IMAP4, consulte [Iniciar e interromper os serviços de IMAP4](start-and-stop-the-imap4-services-exchange-2013-help.md).
 
@@ -103,7 +111,9 @@ Ou
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Verifique se configurações de conexão estão corretas.
 

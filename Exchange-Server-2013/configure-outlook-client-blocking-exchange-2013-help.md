@@ -156,11 +156,15 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Este exemplo bloqueia todas as versões de Outlook anteriores ao 11.8010.8036.
 
-    Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions "-11.8010.8036"
+```powershell
+Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions "-11.8010.8036"
+```
 
 Este exemplo restaura o acesso a uma caixa de correio que seja bloqueada por uma versão do Outlook.
 
-    Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions $null
+```powershell
+Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions $null
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, confira [Set-CASMailbox](https://technet.microsoft.com/pt-br/library/bb125264\(v=exchg.150\)).
 

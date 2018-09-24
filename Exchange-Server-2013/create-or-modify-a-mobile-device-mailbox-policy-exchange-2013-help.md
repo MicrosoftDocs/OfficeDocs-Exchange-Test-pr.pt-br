@@ -135,5 +135,7 @@ Para verificar se você teve êxito ao editar uma política de caixa de correio 
 
 2.  No Shell, execute o comando a seguir.
     
-        Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```powershell
+Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+```
 

@@ -59,7 +59,9 @@ O parâmetro *IsExcludedFromProvisioning* tem dois valores válidos, `$True` e `
 
 Para excluir um banco de dados de caixa de correio da distribuição automática, use o seguinte comando:
 
-    Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```powershell
+Set-MailboxDatabase <database name> -IsExcludedFromProvisioning $True
+```
 
 Quando um banco de dados de caixa de correio excluído da distribuição automática, a única forma de criar uma caixa de correio no ou mudar uma caixa de correio para o banco de dados é usar o parâmetro *Database* nos cmdlets **New-Mailbox** e **Enable-Mailbox** ou o parâmetro *TargetDatabase* no cmdlet **New-MoveRequest**.
 

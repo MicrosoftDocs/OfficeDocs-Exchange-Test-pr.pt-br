@@ -69,7 +69,9 @@ Para ver mais tarefas de gerenciamento relacionadas às diretivas de compartilha
 
 Este exemplo configura uma URL do proxy da Web em um servidor de Caixa de Correio MAIL01.
 
-    Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```powershell
+Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-ExchangeServer](https://technet.microsoft.com/pt-br/library/bb123716\(v=exchg.150\)).
 
@@ -77,7 +79,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-E
 
 Para verificar se você configurou a URL do proxy Web com êxito, execute o seguinte comando no Shell e verifique as informações sobre o parâmetro *InternetWebProxy*.
 
-    Get-ExchangeServer | format-list
+```powershell
+Get-ExchangeServer | format-list
+```
 
 ## Etapa 2: Usar o Shell para habilitar o diretório virtual de publicação
 
@@ -99,7 +103,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-O
 
 Para verificar se você habilitou o diretório virtual de publicação com êxito, execute o seguinte comando no Shell e verifique as informações sobre o parâmetro *ExternalURL*.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 ## Etapa 3: Criar ou configurar uma política de compartilhamento específica para publicação de calendário da Internet
 
@@ -147,11 +153,15 @@ Este exemplo cria uma política de compartilhamento de publicação de calendár
 
 Este exemplo adiciona a política de compartilhamento de Internet a uma caixa de correio de usuário.
 
-    Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```
 
 Este exemplo adiciona a política de compartilhamento de Internet à unidade organizacional (UO).
 
-    Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd298186\(v=exchg.150\)) e [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -159,7 +169,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-S
 
 Para verificar se você criou a política de compartilhamento com êxito, execute o seguinte comando do Shell para verificar as informações de política de compartilhamento.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 ## Opção 2: Configurar a política para publicação de calendário da Internet de compartilhamento padrão
 
@@ -199,5 +211,7 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-M
 
 Para verificar se você atualizou a Política de Compartilhamento Padrão com êxito e verificar as informações sobre a política de compartilhamento, execute o seguinte comando do Shell.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 

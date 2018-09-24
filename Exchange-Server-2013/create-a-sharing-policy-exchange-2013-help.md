@@ -109,7 +109,9 @@ Você pode editar a política de compartilhamento padrão para permitir que todo
 
   - Este exemplo cria a política de compartilhamento Contoso para o domínio externo federado contoso.com. Essa política permite que os usuários do domínio contoso.com visualizem informações detalhadas de disponibilidade de calendário do usuário. Por padrão, essa diretiva está habilitada.
     
-        New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```powershell
+New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+```
 
   - Este exemplo cria a política de compartilhamento ContosoWoodgrove para dois domínios federados diferentes (contoso.com e woodgrovebank.com) com deferentes ações de compartilhamento configuradas para cada domínio. A política é desabilitada.
     
@@ -119,7 +121,9 @@ Você pode editar a política de compartilhamento padrão para permitir que todo
     
     1.  Defina o URL do proxy Web para MAIL01.
         
-            Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```powershell
+Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+```
     
     2.  Permitir a publicação do diretório virtual no CAS01.
         
@@ -141,7 +145,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
 
 Para verificar se você criou a política de compartilhamento com êxito, execute o seguinte comando do Shell, para verificar as informações de política de compartilhamento.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 
 > [!TIP]

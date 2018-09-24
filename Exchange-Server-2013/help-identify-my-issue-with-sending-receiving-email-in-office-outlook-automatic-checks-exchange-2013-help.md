@@ -50,7 +50,7 @@ Verificaremos para ver se você tem o Microsoft .NET Framework 4.5 instalado. Pa
 <td><p>Acho que meu PC pode não estar configurado corretamente para o Outlook</p></td>
 <td><ol>
 <li><p><a href="https://portal.microsoftonline.com/">Entrar no Office 365</a></p></li>
-<li><p>Selecione Ferramentasde <a href="https://portal.microsoftonline.com/tools"></a></p></li>
+<li><p>Selecione Ferramentasde <a href="https://portal.microsoftonline.com/tools">https://portal.microsoftonline.com/tools</a></p></li>
 <li><p>Selecione <strong>Verifique seu local = PC com o Office 365 Best Practices Analyzer</strong>.</p></li>
 </ol></td>
 </tr>

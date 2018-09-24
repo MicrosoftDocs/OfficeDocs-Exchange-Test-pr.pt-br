@@ -141,7 +141,9 @@ Para alternar entre Active Directory dividir permissões para permissões compar
 
 1.  A partir de um shell de comando Windows, execute o seguinte comando na mídia de instalação Exchange 2013 para desabilitar permissões de divisão de Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+    ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+```
 
 2.  Da Exchange Management Shell, execute os seguintes comandos para adicionar as atribuições da função regular entre a função de criação de destinatário de email e criação de grupos de segurança e função de gerenciamento e os grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários.
     

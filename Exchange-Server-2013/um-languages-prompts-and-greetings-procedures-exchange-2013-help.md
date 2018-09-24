@@ -19,9 +19,9 @@ _**Tópico modificado em:** 2013-04-17_
 
 [Instalar um pacote de idiomas para UM](install-a-um-language-pack-exchange-2013-help.md)
 
-[Definir o idioma padrão em um plano de discagem](set-the-default-language-on-a-dial-plan-exchange-2013-help.md)
+[Definir o idioma padrão em um plano de discagem](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/set-dial-plan-default-language)
 
-[Selecione o idioma para um atendedor automático](select-the-language-for-an-auto-attendant-exchange-2013-help.md)
+[Selecione o idioma para um atendedor automático](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/select-auto-attendant-language)
 
 [Remover um pacote de idiomas de Unificação de mensagens](remove-a-um-language-pack-exchange-2013-help.md)
 
@@ -29,5 +29,5 @@ _**Tópico modificado em:** 2013-04-17_
 
 [Importe prompts personalizados do Exchange 2007 para o Exchange 2013](import-custom-prompts-from-exchange-2007-to-exchange-2013-exchange-2013-help.md)
 
-[Habilitar gravação prompt personalizada usando a interface de usuário de telefone](enable-custom-prompt-recording-using-the-telephone-user-interface-exchange-2013-help.md)
+[Habilitar gravação prompt personalizada usando a interface de usuário de telefone](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 

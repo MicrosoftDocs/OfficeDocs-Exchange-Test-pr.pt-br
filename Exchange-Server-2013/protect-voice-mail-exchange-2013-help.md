@@ -243,7 +243,7 @@ Voltar ao início
 
 ## políticas de caixa de correio de UM
 
-Você pode criar uma política de caixa de correio de Unificação de mensagens para aplicar um conjunto comum de configurações de diretiva de Unificação de MENSAGENS, como configurações de diretiva PIN, restrições de discagem e configurações de caixa postal protegida, a uma coleção de caixas de correio habilitadas para UM. Para saber mais sobre políticas de caixa de correio de Unificação de MENSAGENS, consulte [Gerenciar uma política de caixa de correio de Unificação de mensagens](manage-a-um-mailbox-policy-exchange-2013-help.md).
+Você pode criar uma política de caixa de correio de Unificação de mensagens para aplicar um conjunto comum de configurações de diretiva de Unificação de MENSAGENS, como configurações de diretiva PIN, restrições de discagem e configurações de caixa postal protegida, a uma coleção de caixas de correio habilitadas para UM. Para saber mais sobre políticas de caixa de correio de Unificação de MENSAGENS, consulte [Gerenciar uma política de caixa de correio de Unificação de mensagens](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-voice-mail/manage-um-mailbox-policy).
 
 Você pode usar o EAC ou o cmdlet **Set-UMMailboxPolicy** no Shell para configurar as opções de caixa postal protegida. A tabela a seguir lista as configurações que podem ser configuradas para caixa postal protegida.
 
@@ -293,7 +293,7 @@ Você pode usar o EAC ou o cmdlet **Set-UMMailboxPolicy** no Shell para configur
 </table>
 
 
-Para obter mais informações sobre como gerenciar as configurações de caixa postal protegida, consulte [Procedimentos de caixa postal protegidos](protected-voice-mail-procedures-exchange-2013-help.md) ou [Set-UMMailboxPolicy](https://technet.microsoft.com/pt-br/library/bb124903\(v=exchg.150\)).
+Para obter mais informações sobre como gerenciar as configurações de caixa postal protegida, consulte [Procedimentos de caixa postal protegidos](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/set-up-client-voice-mail-features/protected-voice-mail-procedures) ou [Set-UMMailboxPolicy](https://technet.microsoft.com/pt-br/library/bb124903\(v=exchg.150\)).
 
 Voltar ao início
 

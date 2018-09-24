@@ -168,7 +168,7 @@ No EAC, na seção de **propriedades desta regra**, clique em **endereço de rem
 <td><p><em>HasSenderOverride</em></p>
 <p><em>ExceptIfHasSenderOverride</em></p></td>
 <td><p>n/d</p></td>
-<td><p>Mensagens em que o remetente tenha escolhido substituir uma política de prevenção (DLP) de perda de dados. Para obter mais informações sobre políticas de DLP, consulte <a href="technical-overview-of-dlp-data-loss-prevention-in-exchange.md">Prevenção de perda de dados</a>.</p></td>
+<td><p>Mensagens em que o remetente tenha escolhido substituir uma política de prevenção (DLP) de perda de dados. Para obter mais informações sobre políticas de DLP, consulte <a href="https://docs.microsoft.com/pt-br/exchange/security-and-compliance/data-loss-prevention/data-loss-prevention">Prevenção de perda de dados</a>.</p></td>
 <td><p>Exchange 2013 ou posterior</p></td>
 </tr>
 <tr class="odd">

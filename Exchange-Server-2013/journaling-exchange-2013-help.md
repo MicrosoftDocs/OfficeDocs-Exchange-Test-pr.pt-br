@@ -85,7 +85,7 @@ O Exchange 2013 fornece as seguintes opções de registro no diário:
 
   - **Registro premium no diário**   O registro premium no diário permite que o agente de registro no diário execute um registro mais granular, usando as regras de registro no diário. Em vez de registrar no diário todas as caixas de correio de um banco de dados, você pode configurar as regras de registro no diário para que combinem com as necessidades de sua organização de registrar no diário destinatários individuais ou membros de grupos de distribuição. Para usar o registro no diário premium, você deve ter uma CAL (Licença de Acesso para Cliente) do Exchange Enterprise.
 
-Quando você habilita o registro padrão no diário em um banco de dados de caixa de correio, essas informações são salvas no Active Directory e são lidas pelo agente de Registro no Diário. Similarmente, regras de registro no diário configuradas com o registro no diário premium também são salvas no Active Directory e aplicadas ao agente de Registro no Diário. Para obter mais informações sobre como configurar registros no diário padrão e premium, consulte [Gerenciar diário](manage-journaling-exchange-2013-help.md).
+Quando você habilita o registro padrão no diário em um banco de dados de caixa de correio, essas informações são salvas no Active Directory e são lidas pelo agente de Registro no Diário. Similarmente, regras de registro no diário configuradas com o registro no diário premium também são salvas no Active Directory e aplicadas ao agente de Registro no Diário. Para obter mais informações sobre como configurar registros no diário padrão e premium, consulte [Gerenciar diário](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/journaling/manage-journaling).
 
 Voltar ao início
 

@@ -160,7 +160,9 @@ Os cabeçalhos de X descritos na lista a seguir são exigidos por mensagens no d
 
   - **X-remetente**   Este cabeçalho X substitui o requisito de campo de cabeçalho de mensagem `From` em uma mensagem SMTP típica. Deve existir um campo `X-Sender` que contém um endereço de email. O diretório de reprodução ignora o campo de cabeçalho de mensagem `From` se ele estiver presente, embora o cliente de email do destinatário exibe o valor do campo de cabeçalho de mensagem `From` como o remetente da mensagem. Outros parâmetros geralmente existirem no campo `X-Sender` , conforme mostrado no exemplo a seguir.
     
-        X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```powershell
+X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+```
     
 
     > [!NOTE]
@@ -170,7 +172,9 @@ Os cabeçalhos de X descritos na lista a seguir são exigidos por mensagens no d
 
   - **Receptor de X**   Este cabeçalho X substitui o requisito de campo de cabeçalho de mensagem do `To` em uma mensagem SMTP típica. Pelo menos um campo `X-Receiver` que contém um endereço de email deve existir. Vários campos `X-Receiver` são permitidos para vários destinatários. O diretório de reprodução ignora os campos de cabeçalho de mensagem `To` se estiver presentes, embora o cliente de email do destinatário exibe os valores dos campos de cabeçalho de mensagem `To` como os destinatários da mensagem. Outros parâmetros opcionais podem existir nos campos `X-Receiver` , conforme mostrado no exemplo a seguir.
     
-        X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+    ```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     
 
     > [!NOTE]
@@ -194,7 +198,9 @@ Os cabeçalhos de X descritos na lista a seguir são opcionais para arquivos de 
 
 Este exemplo mostra uma mensagem de texto simples que usa a formatação aceitável para o diretório de repetição.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
     Subject: Optional message subject
     
@@ -202,7 +208,9 @@ Este exemplo mostra uma mensagem de texto simples que usa a formatação aceitá
 
 Também há suporte para o conteúdo MIME nos arquivos de mensagem do diretório de repetição. MIME define uma ampla variedade de conteúdo da mensagem que inclui os idiomas que não podem ser representados em outro conteúdo multimídia, HTML e texto ASCII de 7 bits. Uma descrição completa dos MIME e seus requisitos está além do escopo deste tópico. Este exemplo mostra uma mensagem MIME simple que usa aceitável de formatação para o diretório de repetição.
 
-    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```powershell
+X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+```
     X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
     To: mary@contoso.com
     From: bob@fabrikam.com

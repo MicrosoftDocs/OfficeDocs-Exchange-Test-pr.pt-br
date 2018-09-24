@@ -55,7 +55,9 @@ Para definir as configurações antispam em uma única caixa de correio, use a s
 
 Este exemplo configura a caixa de correio de um usuário chamado Pedro Gonçalves de modo que ela ignore todos os filtros antispam e receba na pasta Lixo Eletrônico do Microsoft Outlook mensagens que estão de acordo ou excedam o limite SCL de 5 da pasta Lixo Eletrônico.
 
-    Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```powershell
+Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```
 
 ## Como saber se funcionou?
 
@@ -91,11 +93,15 @@ Para verificar se os recursos antispam foram configurados com êxito em várias 
 
 Execute o seguinte comando:
 
-    Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```
 
 Este exemplo define o limite de lixo eletrônico da organização como 5.
 
-    Set-OrganizationConfig -SCLJunkThreshold 5
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold 5
+```
 
 ## Como saber se funcionou?
 
@@ -103,7 +109,9 @@ Para verificar se os limites de lixo eletrônico foram configurados com êxito p
 
 1.  Execute o seguinte comando:
     
-        Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```powershell
+Get-OrganizationConfig | Format-List SCLJunkThreshold
+```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 

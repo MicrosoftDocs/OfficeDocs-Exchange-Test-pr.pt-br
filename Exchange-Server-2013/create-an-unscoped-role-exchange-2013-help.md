@@ -1,5 +1,4 @@
-﻿
----
+﻿---
 title: 'Criar uma função sem escopo: Exchange 2013 Help'
 TOCTitle: Criar uma função sem escopo
 ms:assetid: 5a042ccf-4d5f-4609-a91b-21c20d1e6459
@@ -68,11 +67,15 @@ Aqui estão as etapas para criar uma função de nível superior sem escopo:
 
 Funções de nível superior sem escopo não têm uma função pai. É preciso especificar a opção *UnscopedTopLevel* para criar uma função sem um pai. Use a sintaxe a seguir para criar a nova função.
 
-    New-ManagementRole <name of new role> -UnscopedTopLevel
+```powershell
+New-ManagementRole <name of new role> -UnscopedTopLevel
+```
 
 Este exemplo cria a função de nível superior sem escopo de scripts de TI.
 
-    New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```powershell
+New-ManagementRole "IT Scripts" -UnscopedTopLevel
+```
 
 Após ser criada, a função ficará vazia até você adicionar scripts ou cmdlets não-Exchange a ela.
 
@@ -160,7 +163,9 @@ Use a sintaxe a seguir para criar a nova função.
 
 Este exemplo copia a função de Scripts Globais de TI e suas entradas de função de gerenciamento para a função de Scripts de TI de Diagnóstico.
 
-    New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```powershell
+New-ManagementRole -Parent "IT Global Scripts" -Name "Diagnostic IT Scripts"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRole](https://technet.microsoft.com/pt-br/library/dd298073\(v=exchg.150\)).
 

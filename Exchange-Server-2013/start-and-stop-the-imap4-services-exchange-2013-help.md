@@ -59,21 +59,29 @@ Para iniciar os serviços de IMAP4:
 
 1.  No computador que executa a função de servidor acesso para cliente, no Shell, execute o seguinte comando para iniciar o serviço IMAP4 do Microsoft Exchange.
     
-        Start-service msExchangeIMAP4
+    ```powershell
+Start-service msExchangeIMAP4
+```
 
 2.  No computador que executa a função de servidor de caixa de correio, no Shell, execute o seguinte comando para iniciar o serviço de back-end do Microsoft Exchange IMAP4.
     
-        Start-service msExchangeIMAP4BE
+    ```powershell
+Start-service msExchangeIMAP4BE
+```
 
 Para interromper os serviços IMAP4:
 
 1.  No computador que executa a função de servidor acesso para cliente, no Shell, execute o seguinte comando para parar o serviço IMAP4 do Microsoft Exchange.
     
-        Stop-service msExchangeIMAP4
+    ```powershell
+Stop-service msExchangeIMAP4
+```
 
 2.  No computador que executa a função de servidor de caixa de correio, no Shell, execute o seguinte comando para parar o serviço de back-end do Microsoft Exchange IMAP4.
     
-        Stop-service msExchangeIMAP4BE
+    ```powershell
+Stop-service msExchangeIMAP4BE
+```
 
 ## Use net start para iniciar ou interromper os serviços de IMAP4
 
@@ -81,21 +89,29 @@ Para iniciar os serviços de IMAP4:
 
 1.  No computador que executa a função de servidor acesso para cliente, no prompt de comando, execute o seguinte comando para iniciar o serviço IMAP4 do Microsoft Exchange.
     
-        net start msExchangeIMAP4
+    ```powershell
+net start msExchangeIMAP4
+```
 
 2.  No computador que executa a função de servidor de caixa de correio, no prompt de comando, execute o seguinte comando para iniciar o serviço de back-end do Microsoft Exchange IMAP4.
     
-        net start msExchangeIMAP4BE
+    ```powershell
+net start msExchangeIMAP4BE
+```
 
 Para interromper os serviços IMAP4:
 
 1.  No computador que executa a função de servidor acesso para cliente, no prompt de comando, execute o seguinte comando para parar o serviço IMAP4 do Microsoft Exchange.
     
-        Net Stop MSExchangeIMAP4
+    ```powershell
+Net Stop MSExchangeIMAP4
+```
 
 2.  No computador que executa a função de servidor de caixa de correio, no prompt de comando, execute o seguinte comando para parar o serviço de back-end do Microsoft Exchange IMAP4.
     
-        Net Stop MSExchangeIMAP4BE
+    ```powershell
+Net Stop MSExchangeIMAP4BE
+```
 
 ## Como saber se funcionou?
 

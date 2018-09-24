@@ -59,7 +59,9 @@ Para saber mais sobre caixas de correio desconectadas e executar outras tarefas 
 
 Execute o seguinte comando para excluir permanentemente uma caixa de correio ativa e a conta de usuário do Active Directory associada.
 
-    Remove-Mailbox -Identity <identity> -Permanent $true
+```powershell
+Remove-Mailbox -Identity <identity> -Permanent $true
+```
 
 
 > [!NOTE]
@@ -79,7 +81,9 @@ Para verificar se você tiver excluídos permanentemente uma caixa de correio at
 
 3.  Execute o seguinte comando para verificar se a caixa de correio com êxito foi limpo do banco de dados de caixa de correio do Exchange.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+    ```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
     
     Se você limpo com êxito a caixa de correio, o comando não retornará nenhum resultado. Se a caixa de correio não tenha sido removida, o comando retornará informações sobre a caixa de correio.
 
@@ -111,7 +115,9 @@ Este exemplo exclui permanentemente a caixa de correio desabilitada com GUID 2ab
 
 Este exemplo exclui permanentemente a caixa de correio excluída para promoção de Dan do banco de dados de caixa de correio MBD01.
 
-    Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```powershell
+Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```
 
 Este exemplo exclui permanentemente todas as caixas de correio excluídas de forma reversível do banco de dados de caixa de correio MBD01.
 
@@ -123,7 +129,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Remov
 
 Para verificar se você tiver excluído permanentemente uma caixa de correio desconectada e se foi limpo com êxito do banco de dados de caixa de correio do Exchange, execute o seguinte comando.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
 
 Se você limpo com êxito a caixa de correio, o comando não retornará nenhum resultado. Se a caixa de correio não tenha sido removida, o comando retornará informações sobre a caixa de correio.
 

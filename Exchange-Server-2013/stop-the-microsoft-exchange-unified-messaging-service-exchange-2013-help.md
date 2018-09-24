@@ -55,5 +55,7 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a servidores de C
 
 2.  Na caixa **Abrir**, digite o seguinte comando e pressione Enter.
     
-        net stop MSExchangeUM
+    ```powershell
+net stop MSExchangeUM
+```
 

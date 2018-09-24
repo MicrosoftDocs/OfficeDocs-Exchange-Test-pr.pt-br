@@ -115,7 +115,9 @@ O limite de idade de log de auditoria determina por quanto tempo as entradas de 
 
 Este exemplo especifica um limite de idade de dois anos e seis meses.
 
-    Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/pt-br/library/dd298169\(v=exchg.150\)).
 
@@ -125,11 +127,15 @@ Os cmdlets que começam com o verbo **Test** não são registrados em log por pa
 
 Este comando habilita o registro em log de cmdlets **Test**.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```
 
 Este comando desabilita o registro em log de cmdlets **Test**.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/pt-br/library/dd298169\(v=exchg.150\)).
 
@@ -137,17 +143,23 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminA
 
 Para desabilitar o log de auditoria de administrador, use o comando a seguir.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```
 
 ## Habilitar log de auditoria de administrador
 
 Para habilitar o log de auditoria de administrador, use o comando a seguir.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```
 
 ## Exibir as configurações do log de auditoria de administrador
 
 Para exibir as configurações de log de auditoria do administrador configuradas para sua organização, use o comando a seguir.
 
-    Get-AdminAuditLogConfig
+```powershell
+Get-AdminAuditLogConfig
+```
 

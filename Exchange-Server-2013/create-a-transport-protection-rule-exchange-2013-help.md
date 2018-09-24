@@ -76,14 +76,16 @@ Para ver outras tarefas de gerenciamento relacionadas ao IRM (Gerenciamento de D
 
   - Para criar uma regra de proteção de transporte, você precisa ter modelos de RMS existentes em sua implantação do AD RMS. Este exemplo recupera os modelos disponíveis do seu cluster do AD RMS.
     
-        Get-RMSTemplate | format-list
+    ```powershell
+Get-RMSTemplate | format-list
+```
     
     Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-RMSTemplate](https://technet.microsoft.com/pt-br/library/dd297960\(v=exchg.150\)).
 
   - Este exemplo cria a regra de proteção de transporte Protect-BusinessCriticalProject. A regra protege com IRM mensagens que contenham a expressão "Business Critical" no campo Assunto com o modelo **Não Encaminhar**.
     
 
-    > [!TIP]
+    > [!NOTE]
     > O predicado <CODE>SubjectContainsWords</CODE> é usado nesse exemplo. Você pode usar qualquer combinação de predicados de regra de transporte para formar as condições e exceções da regra. Para informações sobre os predicados disponíveis, consulte <A href="mail-flow-rule-conditions-and-exceptions-predicates-in-exchange-2013-exchange-2013-help.md">Condições de regra de transporte (predicados)</A>.
 
     

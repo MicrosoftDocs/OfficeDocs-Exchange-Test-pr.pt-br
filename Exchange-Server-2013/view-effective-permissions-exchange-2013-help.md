@@ -53,11 +53,15 @@ Procurando outras tarefas de gerenciamento relacionadas ao gerenciamento de perm
 
 Para listar todos os usuários que são concedidos as permissões fornecidas por uma função de gerenciamento, use a seguinte sintaxe.
 
-    Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role <role name> -GetEffectiveUsers
+```
 
 Este exemplo lista todos os usuários que são concedidos com permissões fornecidas pela função destinatários de email.
 
-    Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```powershell
+Get-ManagementRoleAssignment -Role "Mail Recipients" -GetEffectiveUsers
+```
 
 Se você deseja alterar as propriedades que são retornadas na lista ou exportar a lista para um arquivo de valores separados por vírgula (. csv), consulte Use o Shell para personalizar a saída e exibi-la posteriormente neste tópico.
 
@@ -85,7 +89,9 @@ Para souber que um usuário recebe permissões de função de cada, você deve u
 
 Este exemplo localiza todas as atribuições de função que concedem permissões para o usuário Kim Akers.
 
-    Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }
+```powershell
+Get-ManagementRoleAssignment -GetEffectiveUsers | Where {     Get-ManagementRoleAssignment -GetEffectiveUsers | Where { $_.EffectiveUserName -Eq "Kim Akers" }.EffectiveUserName -Eq "Kim Akers" }
+```
 
 Se você quiser alterar as propriedades que são retornadas na lista ou exportar a lista para um arquivo CSV, consulte Use o Shell para personalizar a saída e exibi-la posteriormente neste tópico.
 

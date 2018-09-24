@@ -115,7 +115,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Para saber mais, consulte [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
         
         Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 
@@ -151,7 +151,9 @@ Para verificar se você criou uma caixa de correio de usuário com êxito, siga 
 
   - No Shell, execute o comando a seguir para exibir informações sobre a nova caixa de correio de usuário:
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
 
 ## Criar uma caixa de correio para um usuário existente
 
@@ -193,7 +195,7 @@ Também é possível criar caixas de correio para usuários existentes que possu
         
         Para saber mais, consulte [Arquivamento In-loco do Exchange 2013](in-place-archiving-in-exchange-2013-exchange-2013-help.md).
     
-      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](address-book-policies-exchange-2013-help.md).
+      - **Política de catálogo de endereços**   Use essa opção para especificar uma ABP (política de catálogo de endereços) para a caixa de correio. As ABPs contêm um GAL (lista de endereços global), um OAB (catálogo de endereços offline), uma lista de salas e um conjunto de listas de endereços. Quando atribuída aos usuários da caixa de correio, uma ABP fornece a eles acesso a uma GAL personalizada no Outlook e no Outlook Web App. Para saber mais, consulte [Políticas de catálogo de endereços](https://docs.microsoft.com/pt-br/exchange/address-books/address-book-policies/address-book-policies).
         
         Na lista suspense, selecione a política que você deseja associar a esta caixa de correio.
 
@@ -203,13 +205,17 @@ Também é possível criar caixas de correio para usuários existentes que possu
 
 Este exemplo cria uma caixa de correio para o usuário existente estherv@contoso.com no banco de dados do Exchange chamado UsersMailboxDatabase.
 
-    Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```powershell
+Enable-Mailbox estherv@contoso.com -Database UsersMailboxDatabase
+```
 
 É possível usar o cmdlet **Enable-Mailbox** para habilitar para email múltiplos usuários. Isso pode ser feito pela canalização dos resultados do cmdlet **Get-User** para o cmdlet **Enable-Mailbox**. Ao executar o cmdlet **Get-User**, você deve retornar apenas usuários que não estão habilitados para email. Para isso, você precisa especificar o valor Usuário com o parâmetro *RecipientTypeDetails*. Também é possível limitar os resultados retornados usando o parâmetro *Filter* para solicitar somente usuários que atendem aos critérios que você definiu. Depois, canalize os resultados para o cmdlet **Enable-Mailbox**.
 
 Por exemplo, o comando a seguir habilita a caixa de correio de usuários que não tenham sido habilitados para caixa de correio ainda e que tenham um valor na propriedade **UserPrincipalName**, o que ajuda a assegurar que você não converta inadvertidamente uma conta de sistema em uma caixa de correio.
 
-    Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```powershell
+Get-User -RecipientTypeDetails User -Filter { UserPrincipalName -ne $Null } | Enable-Mailbox
+```
 
 Para informações sobre sintaxe e parâmetros, consulte [Enable-Mailbox](https://technet.microsoft.com/pt-br/library/aa998251\(v=exchg.150\)) e [Get-User](https://technet.microsoft.com/pt-br/library/aa996896\(v=exchg.150\)).
 
@@ -223,7 +229,9 @@ Para verificar se você criou uma caixa de correio para um usuário existente co
 
   - No Shell, execute o comando a seguir para exibir informações sobre o novo usuário habilitado para caixa de correio:
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```powershell
+Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+```
     
     Observe que o valor para a propriedade *RecipientTypeDetails* é `UserMailbox`.
 

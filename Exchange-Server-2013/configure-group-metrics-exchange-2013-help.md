@@ -17,7 +17,7 @@ _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2015-04-08_
 
-Dicas de email que fornecem informações sobre o tamanho de grupos de distribuição e grupos dinâmicos de distribuição se baseiam em dados de métricas de grupo. Dados de métricas de grupo são gerados em servidores de caixa de correio designadas. Para obter mais informações sobre as métricas de grupo, consulte [Métricas de grupo e as dicas de email](group-metrics-and-mailtips-exchange-2013-help.md).
+Dicas de email que fornecem informações sobre o tamanho de grupos de distribuição e grupos dinâmicos de distribuição se baseiam em dados de métricas de grupo. Dados de métricas de grupo são gerados em servidores de caixa de correio designadas. Para obter mais informações sobre as métricas de grupo, consulte [Métricas de grupo e as dicas de email](group-metrics-and-https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/mailtips).
 
 Você pode habilitar ou desabilitar a geração de métricas de grupo em um servidor de caixa de correio.
 
@@ -27,7 +27,7 @@ Você pode habilitar ou desabilitar a geração de métricas de grupo em um serv
 
   - Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o Entrada "Métricas de grupo" no tópico [Permissões de destinatários](recipients-permissions-exchange-2013-help.md) .
 
-  - Dados de métricas de grupo são usados somente para as dicas de email. Certifique-se que métricas de grupo que dicas de email estão habilitadas em sua organização. Para obter etapas detalhadas, consulte [Gerenciar dicas de email para relacionamentos da organização](manage-mailtips-for-organization-relationships-exchange-2013-help.md).
+  - Dados de métricas de grupo são usados somente para as dicas de email. Certifique-se que métricas de grupo que dicas de email estão habilitadas em sua organização. Para obter etapas detalhadas, consulte [Gerenciar dicas de email para relacionamentos da organização](https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/mailtips/manage-mailtips-for-organization-relationships).
 
   - Você só pode usar o Shell para executar esse procedimento.
 
@@ -49,11 +49,15 @@ Você pode habilitar ou desabilitar a geração de métricas de grupo em um serv
 
 Para ativar ou desativar a geração de métricas de grupo em um servidor de caixa de correio, execute o seguinte comando:
 
-    Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```powershell
+Set-MailboxServer <ServerIdentity> -ForceGroupMetricsGeneration <$true | $false>
+```
 
 Este exemplo habilita a geração de métricas de grupo em um servidor de caixa de correio chamado MBX1.
 
-    Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```powershell
+Set-MailboxServer MBX1 -ForceGroupMetricsGeneration $true
+```
 
 ## Como saber se funcionou?
 
@@ -61,7 +65,9 @@ Para verificar que você com êxito habilitada ou desabilitada geração de mét
 
 1.  Execute o seguinte comando:
     
-        Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```powershell
+Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+```
 
 2.  Verifique se a configuração exibida é a configuração que você configurou.
 

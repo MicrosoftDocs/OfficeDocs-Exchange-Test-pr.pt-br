@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2015-03-09_
 
 O Gerenciamento de DescobertasO grupo de função de gerenciamento é um dos vários grupos de função internos que constituem o modelo de permissões RBAC (controle de acesso baseado na função) no Microsoft Exchange Server 2013. Aos grupos de funções são atribuídas uma ou mais funções de gerenciamento que contêm as permissões necessárias para executar um determinado conjunto de tarefas. Os membros de um grupo de função recebem acesso para as funções de gerenciamento atribuídas ao respectivo grupo. Para saber mais sobre grupos de função, confira o artigo [Noções básicas sobre grupos de funções de gerenciamento](understanding-management-role-groups-exchange-2013-help.md).
 
-Os administradores ou usuários que sejam membros do grupo de função Gerenciamento de Descobertas podem realizar pesquisas de caixas de correio na organização Exchange para os dados que atenda a critérios específicos e também podem configurar isenções de litígio em caixas de correio. Para obter mais informações, consulte [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md).
+Os administradores ou usuários que sejam membros do grupo de função Gerenciamento de Descobertas podem realizar pesquisas de caixas de correio na organização Exchange para os dados que atenda a critérios específicos e também podem configurar isenções de litígio em caixas de correio. Para obter mais informações, consulte [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 
 > [!IMPORTANT]
@@ -37,7 +37,9 @@ Por padrão, somente membros do grupo de funções de Gerenciamento de Organiza�
 
 Você pode usar o comando a seguir para exibir uma lista de usuários ou USGs que sejam membros deste grupo de função.
 
-    Get-RoleGroupMember "Discovery Management"
+```powershell
+Get-RoleGroupMember "Discovery Management"
+```
 
 Para mais informações sobre os membros de um grupo de função, consulte [View the members of a role group](manage-role-group-members-exchange-2013-help.md) em [Gerenciar membros do grupo de função](manage-role-group-members-exchange-2013-help.md).
 

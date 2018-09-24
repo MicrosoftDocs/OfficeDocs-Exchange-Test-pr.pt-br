@@ -53,5 +53,7 @@ Para tarefas adicionais relacionadas à Unificação de Mensagens e a servidores
 
 Este exemplo define o número de chamadas de voz de entrada, do Outlook Voice Access e de fax que podem ser aceitas por um servidor de Caixa de Correio chamado `MyMailboxServer1` como 50.
 
-    Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```powershell
+Set-UMService -Identity MyMailboxServer1 -MaxCallsAllowed 50
+```
 

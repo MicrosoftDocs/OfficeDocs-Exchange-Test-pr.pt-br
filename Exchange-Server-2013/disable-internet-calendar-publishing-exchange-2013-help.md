@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2014-02-15_
 
 Como desabilitar a publicação de calendário de Internet depende de como você a habilitou. Se você tiver criado uma política de compartilhamento dedicada à publicação de calendário da Internet, você poderá desabilitar a política ou excluí-la totalmente. Se você tiver configurado a publicação de calendário de Internet como uma regra de compartilhamento na política de compartilhamento padrão, basta remover a regra de compartilhamento do domínio **Anônimo**.
 
-Quando você desabilitar a publicação de calendário da Internet, os usuários que podem usar a política de compartilhamento não poderão compartilhar informações de calendário com o domínio **Anônimo** na Internet especificado na política. Entretanto, você não pode excluir ou desabilitar uma política de compartilhamento dedicada à publicação de calendário da Internet, até que todos os usuários provisionados para usar essa política tenham a configuração de política removida de suas caixas de correio. Para detalhes sobre como alterar a configuração de política para um usuário, consulte [Gerenciar caixas de correio do usuário](manage-user-mailboxes-exchange-2013-help.md).
+Quando você desabilitar a publicação de calendário da Internet, os usuários que podem usar a política de compartilhamento não poderão compartilhar informações de calendário com o domínio **Anônimo** na Internet especificado na política. Entretanto, você não pode excluir ou desabilitar uma política de compartilhamento dedicada à publicação de calendário da Internet, até que todos os usuários provisionados para usar essa política tenham a configuração de política removida de suas caixas de correio. Para detalhes sobre como alterar a configuração de política para um usuário, consulte [Gerenciar caixas de correio do usuário](https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
 
 
 > [!NOTE]
@@ -69,11 +69,15 @@ Para saber mais sobre publicação de calendário na Internet e diretivas de com
 
 Este exemplo desabilita a política de compartilhamento de publicação de calendário da Internet chamada **Internet**.
 
-    Set-SharingPolicy -Identity "Internet" -Enabled $false
+```powershell
+Set-SharingPolicy -Identity "Internet" -Enabled $false
+```
 
 Este exemplo exclui uma política de compartilhamento de publicação de calendário da Internet chamada **Internet**.
 
-    Remove-SharingPolicy -Identity "Internet"
+```powershell
+Remove-SharingPolicy -Identity "Internet"
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd297931\(v=exchg.150\)).
 
@@ -81,7 +85,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-S
 
 Para verificar se você removeu ou atualizou a política de compartilhamento com êxito, execute o seguinte comando do Shell e verifique as informações de política de compartilhamento.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 Se você tiver removido a política de compartilhamento de publicação de calendário da Internet dedicada, você não verá a política nos resultados do cmdlet.
 
@@ -105,7 +111,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-S
 
 Este exemplo desabilita os recursos de Anônimo para o diretório virtual do Outlook Web App no servidor de Acesso para Cliente CAS01.
 
-    Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```powershell
+Set-OwaVirtualDirectory -Identity "CAS01" - AnonymousFeaturesEnabled -$false
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/bb123515\(v=exchg.150\)).
 
@@ -113,7 +121,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-O
 
 Para verificar se você desabilitou com êxito os recursos de Anônimo do diretório virtual do Outlook Web App no servidor de Acesso para Cliente, execute este comando do Shell e verifique se o parâmetro *AnonymousFeaturesEnabled* está como `$false`.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/aa998588\(v=exchg.150\)).
 

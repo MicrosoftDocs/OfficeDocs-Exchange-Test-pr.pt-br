@@ -253,7 +253,9 @@ No Exchange 2010, a correção de página não estava disponível para cópias c
 
 O comportamento de descarte da cópia com retardamento está desabilitado por padrão e pode ser habilitado pela execução do seguinte comando.
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ReplayLagManagerEnabled $true
+```
 
 Uma vez habilitado, o descarte ocorrerá quando houver menos de três cópias. Você pode alterar o valor padrão de 3 modificando o seguinte valor do registro DWORD.
 

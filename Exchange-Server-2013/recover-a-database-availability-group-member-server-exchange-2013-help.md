@@ -55,11 +55,15 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 2.  Remova quaisquer cópias de bancos de dados de caixa de correio que existam no servidor que está sendo recuperado usando o cmdlet [Remove-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335119\(v=exchg.150\)):
     
-        Remove-MailboxDatabaseCopy DB1\MBX1
+    ```powershell
+Remove-MailboxDatabaseCopy DB1\MBX1
+```
 
 3.  Remova a configuração de servidores com falha do DAG usando o cmdlet [Remove-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/pt-br/library/dd297956\(v=exchg.150\)):
     
-        Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```powershell
+Remove-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
     
 
     > [!NOTE]
@@ -71,11 +75,15 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 5.  Abra uma janela do Prompt de Comando. Usando a mídia de Instalação original, execute este comando:
     
-        Setup /m:RecoverServer
+    ```powershell
+Setup /m:RecoverServer
+```
 
 6.  Ao término do processo de recuperação da Instalação, adicione o servidor recuperado ao DAG usando o cmdlet [Add-DatabaseAvailabilityGroupServer](https://technet.microsoft.com/pt-br/library/dd298049\(v=exchg.150\)):
     
-        Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+    ```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+```
 
 7.  Após a inclusão do servidor de volta ao DAG, você pode reconfigurar as cópias do banco de dados de caixa de correio usando o cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd298105\(v=exchg.150\)). Se uma das cópias de banco de dados adicionada teve antes tempo de atraso de repetição ou tempo de atraso de truncamento superior a 0, você pode usar os parâmetros *ReplayLagTime* e *TruncationLagTime* do cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd298105\(v=exchg.150\)) para reconfigurar estas definições:
     
@@ -90,11 +98,15 @@ Para verificar que você tiver recuperado com êxito o membro do DAG, faça o se
   - No Shell, execute o seguinte comando para verificar a integridade e o status do membro DAG recuperado.
     
     ```
-       Test-ReplicationHealth <ServerName>
+   ```powershell
+Test-ReplicationHealth <ServerName>
+```
     ``` 
     
     ```
-       Get-MailboxDatabaseCopyStatus -Server <ServerName>
+   ```powershell
+Get-MailboxDatabaseCopyStatus -Server <ServerName>
+```
     ```
 
     Todos os testes de integridade de replicação devem passar com êxito e o status dos bancos de dados e seus índices de conteúdo deve estar íntegro.

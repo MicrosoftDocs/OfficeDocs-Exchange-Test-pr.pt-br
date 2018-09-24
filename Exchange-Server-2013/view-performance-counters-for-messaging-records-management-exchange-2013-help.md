@@ -19,9 +19,9 @@ _**Tópico modificado em:** 2009-12-09_
 
 Você pode usar o Monitor de desempenho (Perfmon.exe) e Windows confiabilidade para selecionar e exibir os contadores de desempenho para mensagens (MRM) de gerenciamento de registros. Usando os contadores de desempenho, é possível monitorar Assistente de pasta gerenciada enquanto ele é executado em processos MRM consomem muitos recursos.
 
-Para obter uma lista de contadores de desempenho para MRM, consulte [Contadores de desempenho para gerenciamento de registros de mensagens](performance-counters-for-messaging-records-management-exchange-2013-help.md).
+Para obter uma lista de contadores de desempenho para MRM, consulte [Contadores de desempenho para gerenciamento de registros de mensagens](performance-counters-for-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
-Procurando outras tarefas relacionadas ao monitoramento MRM? Confira [Gerenciamento de registros de mensagens de monitoramento](monitoring-messaging-records-management-exchange-2013-help.md).
+Procurando outras tarefas relacionadas ao monitoramento MRM? Confira [Gerenciamento de registros de mensagens de monitoramento](monitoring-https://docs.microsoft.com/pt-br/exchange/security-and-compliance/messaging-records-management/messaging-records-management).
 
 ## Use o Monitor de desempenho e confiabilidade do Windows para exibir os contadores de desempenho para MRM
 

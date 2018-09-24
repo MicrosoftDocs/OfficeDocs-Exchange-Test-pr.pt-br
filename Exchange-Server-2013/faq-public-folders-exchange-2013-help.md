@@ -23,7 +23,7 @@ Tem dúvidas sobre pastas públicas que não foram respondidas aqui? Envie um em
 
 ## Perguntas frequentes sobre migração de pasta pública
 
-Esta seção contém perguntas frequentes sobre migração de pasta pública. Para obter mais informações, consulte [Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online](use-batch-migration-to-migrate-legacy-public-folders-to-office-365-and-exchange-online-exchange-online-help.md)ou [Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](use-batch-migration-to-migrate-exchange-2013-public-folders-to-exchange-online-exchange-online-help.md).
+Esta seção contém perguntas frequentes sobre migração de pasta pública. Para obter mais informações, consulte [Usar a migração de lote para migrar pastas públicas para o Exchange 2013 de versões anteriores](use-batch-migration-to-migrate-public-folders-to-exchange-2013-from-previous-versions-exchange-2013-help.md), [Usar a migração de lotes para migrar as pastas públicas herdadas para o Office 365 e para o Exchange Online](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/batch-migration-of-legacy-public-folders)ou [Usar a migração de lote para migrar pastas públicas do Exchange 2013 para o Exchange Online](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/batch-migration-of-exchange-2013-public-folders).
 
 ## Quais são os cenários de migração suportados pasta pública?
 
@@ -53,7 +53,9 @@ O arquivo .csv é usado para determinar o mapeamento entre a hierarquia de orige
 
 Você pode forçar que uma sincronização delta ocorra antes da inicialização, antes de bloquear a origem), executando o seguinte comando do Shell:
 
-    Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```powershell
+Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Resume-PublicFolderMigrationRequest](https://technet.microsoft.com/pt-br/library/jj218689\(v=exchg.150\)).
 
@@ -103,7 +105,9 @@ Para obter mais informações sobre limites de armazenamento de pastas públicas
 
 Execute o seguinte comando:
 
-    Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```powershell
+Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```
 
 Para informações detalhadas sobre sintaxe e parâmetro, consulte [Get-OrganizationConfig](https://technet.microsoft.com/pt-br/library/aa997571\(v=exchg.150\)).
 
@@ -111,9 +115,11 @@ Para informações detalhadas sobre sintaxe e parâmetro, consulte [Get-Organiza
 
 Execute o comando a seguir, para criar a primeira caixa de correio de pasta pública de hierarquia mestre e as caixas de correio de hierarquia secundárias.
 
-    New-Mailbox -PublicFolder -Name <name of public folder>
+```powershell
+New-Mailbox -PublicFolder -Name <name of public folder>
+```
 
-Para saber mais detalhes, consulte [Criar uma pasta pública](create-a-public-folder-exchange-2013-help.md).
+Para saber mais detalhes, consulte [Criar uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ## Nas versões anteriores do Exchange, para cada banco de dados de caixa de correio, havia uma opção para especificar o banco de dados de pasta pública. Como isso irá funcionar no Exchange 2013?
 
@@ -147,7 +153,9 @@ Assim como nas versões anteriores do Exchange, você pode definir limites de re
 
 No Exchange 2007 e no Exchange 2010, era possível especificar quais usuários tinham acesso às pastas públicas específicas. No Exchange 2013, você pode definir a caixa de correio de pasta pública por usuário. Para fazer isso, execute o cmdlet [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) com o parâmetro *DefaultPublicFolderMailbox*.
 
-    Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```powershell
+Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```
 
 ## Se a hierarquia mestre cair, qual será o impacto no usuário?
 

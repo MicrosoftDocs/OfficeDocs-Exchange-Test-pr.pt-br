@@ -29,7 +29,7 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a planos de disca
 
   - Para executar este procedimento ou estes procedimentos, você precisa receber permissões. Para ver de que permissões você precisa, consulte o Entrada "Planos de discagem de UM" no tópico [Permissões de mensagens unificadas](unified-messaging-permissions-exchange-2013-help.md).
 
-  - Antes de executar esses procedimentos, confirme se um plano de discagem URI do SIP foi criado. Para conhecer etapas detalhadas, consulte [Criar um plano de discagem de UM](create-a-um-dial-plan-exchange-2013-help.md).
+  - Antes de executar esses procedimentos, confirme se um plano de discagem URI do SIP foi criado. Para conhecer etapas detalhadas, consulte [Criar um plano de discagem de UM](https://docs.microsoft.com/pt-br/exchange/voice-mail-unified-messaging/connect-voice-mail-system/create-um-dial-plan).
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -87,7 +87,9 @@ Esse exemplo adiciona o servidor de Caixa de Correio chamado `MyMailboxServer` a
 
 Este exemplo adiciona o servidor de Acesso para Cliente chamado `MyClientAccessServer` e um plano de discagem URI do SIP chamado `MySIPDialPlan`. Ele também define o modo inicial como modo Duplo, que habilita o servidor da Acesso para Cliente a aceitar solicitações TCP e TLS.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```
 
 Esse exemplo adiciona o servidor de Acesso para Cliente chamado `MyClientAccessServer` a dois planos de discagem SIP, chamados `MySIPDialPlan` e `MySIPDialPlan2`, e permite que o servidor use endereços IPv4 e IPv6.
 

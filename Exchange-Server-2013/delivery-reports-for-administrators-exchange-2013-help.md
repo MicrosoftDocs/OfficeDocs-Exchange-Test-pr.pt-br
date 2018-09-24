@@ -19,7 +19,7 @@ _**Tópico modificado em:** 2016-12-09_
 
 Com os relatórios de entrega para administradores, você pode controlar as informações de entrega sobre as mensagens enviadas por ou recebidas de qualquer caixa de correio específica em sua organização. Especificamente, os relatórios de entrega para administradores usa o Centro de administração do Exchange (EAC) para executar uma pesquisa direcionada da mensagem logs de rastreamento. A pesquisa sempre destinada a uma caixa de correio específica. Você pode pesquisar mensagens enviadas pela caixa de correio ou enviada à caixa de correio, e você pode filtrar os resultados de pesquisa por assunto da mensagem.
 
-O conteúdo do corpo da mensagem não é retornado em um relatório de entrega, mas a linha de assunto é exibida nos resultados. Se você quiser pesquisar as caixas de correio em sua organização para mensagens de email específicos com base no conteúdo da mensagem, consulte [Descoberta Eletrônica In-loco](in-place-ediscovery-exchange-2013-help.md).
+O conteúdo do corpo da mensagem não é retornado em um relatório de entrega, mas a linha de assunto é exibida nos resultados. Se você quiser pesquisar as caixas de correio em sua organização para mensagens de email específicos com base no conteúdo da mensagem, consulte [Descoberta Eletrônica In-loco](https://docs.microsoft.com/pt-br/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery).
 
 Pesquisas de relatório de entrega pode ser útil nas seguintes situações:
 

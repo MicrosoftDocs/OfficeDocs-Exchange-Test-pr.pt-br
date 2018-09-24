@@ -73,11 +73,15 @@ Depois de definir as configurações de porta e endereço IP para POP3, você de
 
 Este exemplo define o endereço IP e porta de comunicação com Exchange usando POP3 com o Secure Sockets Layer (SSL).
 
-    Set-PopSettings -SSLBindings: IPaddress:Port
+```powershell
+Set-PopSettings -SSLBindings: IPaddress:Port
+```
 
 Este exemplo define o endereço IP e porta de comunicação com Exchange usando POP3 sem criptografia ou a criptografia de segurança de camada de transporte (TLS).
 
-    Set-PopSettings -UnencryptedOrTLSBindings IPaddress:Port
+```powershell
+Set-PopSettings -UnencryptedOrTLSBindings IPaddress:Port
+```
 
 Depois de definir as configurações de porta e endereço IP para POP3, você deve reiniciar o serviço POP3 para que as configurações entrem em vigor. Para obter informações sobre como reiniciar o serviço POP3, consulte [Iniciar e interromper os serviços POP3](start-and-stop-the-pop3-services-exchange-2013-help.md).
 
@@ -89,7 +93,9 @@ Faça o seguinte para verificar que você alterou as configurações de porta e 
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-PopSettings | format-list
+    ```powershell
+Get-PopSettings | format-list
+```
 
 2.  Verifique se que as configurações de *UnencryptedOrTLSBindings* e *SSLBindings* estão corretas.
 
@@ -123,7 +129,9 @@ Depois de definir as configurações de porta e endereço IP para o IMAP4, você
 
 Este exemplo define o endereço IP e porta de comunicação com Exchange usando IMAP4.
 
-    Set-ImapSettings -SSLBindings: IPaddress:Port
+```powershell
+Set-ImapSettings -SSLBindings: IPaddress:Port
+```
 
 Este exemplo define o endereço IP e porta de comunicação com Exchange usando IMAP4 sem criptografia ou a criptografia TLS.
 
@@ -139,7 +147,9 @@ Faça o seguinte para verificar que você alterou as configurações de porta e 
 
 1.  Execute o seguinte comando no Shell.
     
-        Get-ImapSettings | format-list
+    ```powershell
+Get-ImapSettings | format-list
+```
 
 2.  Verifique se que as configurações de *UnencryptedOrTLSBindings* e *SSLBindings* estão corretas.
 

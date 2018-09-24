@@ -314,7 +314,9 @@ Os parâmetros de filtragem e classificação disponíveis no cmdlet **Get-Queue
 
 Este exemplo retorna todas as filas externas não vazias nos servidores de Caixa de Correio do Exchange 2013 chamadas Mailbox01,Mailbox02 e Mailbox03.
 
-    Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```powershell
+Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```
 
 Voltar ao início
 

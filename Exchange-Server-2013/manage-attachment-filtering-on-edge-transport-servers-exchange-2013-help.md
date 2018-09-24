@@ -47,15 +47,21 @@ Quando você habilita ou desabilita o agente de Filtragem de Anexos, a alteraç�
 
 Para desabilitar a filtragem de anexos, execute o seguinte comando:
 
-    Disable-TransportAgent "Attachment Filtering Agent"
+```powershell
+Disable-TransportAgent "Attachment Filtering Agent"
+```
 
 Para habilitar a filtragem de anexos, execute o seguinte comando:
 
-    Enable-TransportAgent "Attachment Filtering Agent"
+```powershell
+Enable-TransportAgent "Attachment Filtering Agent"
+```
 
 Depois de habilitar ou desabilitar a filtragem de anexos, reinicie o serviço de Transporte do Microsoft Exchange executando o seguinte comando:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## Como saber se funcionou?
 
@@ -63,7 +69,9 @@ Para verificar se você habilitou ou desabilitou com êxito a filtragem de anexo
 
 1.  Execute o seguinte comando:
     
-        Get-TransportAgent "Attachment Filtering Agent"
+    ```powershell
+Get-TransportAgent "Attachment Filtering Agent"
+```
 
 2.  Se o valor de **Enabled** for `True`, a filtragem de anexos estará habilitada. Se o valor for `False`, a filtragem de anexos estará desabilitada.
 
@@ -71,19 +79,27 @@ Para verificar se você habilitou ou desabilitou com êxito a filtragem de anexo
 
 As entradas de filtragem de anexos definem os anexos de mensagem que você deseja manter fora de sua organização. Para exibir as entradas de filtragem de anexos usadas pelo agente de Filtragem de Anexos, execute o seguinte comando:
 
-    Get-AttachmentFilterEntry | Format-Table
+```powershell
+Get-AttachmentFilterEntry | Format-Table
+```
 
 Para exibir uma entrada de tipo de conteúdo MIME específica, use a sintaxe a seguir:
 
-    Get-AttachmentFilteringEntry ContentType:<MIMEContentType>
+```powershell
+Get-AttachmentFilteringEntry ContentType:<MIMEContentType>
+```
 
 Por exemplo, para exibir a entrada de tipo de conteúdo para imagens JPEG, execute o seguinte comando:
 
-    Get-AttachmentFilteringEntry ContentType:image/jpeg
+```powershell
+Get-AttachmentFilteringEntry ContentType:image/jpeg
+```
 
 Para exibir uma entrada de nome de arquivo ou de extensão de nome de arquivo específica, use a sintaxe a seguir:
 
-    Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
+```powershell
+Get-AttachmentFilteringEntry FileName:<FileName or FileNameExtension>
+```
 
 Por exemplo, para exibir a entrada de extensão de nome de arquivo para anexos JPEG, execute este comando:
 
@@ -93,15 +109,21 @@ Por exemplo, para exibir a entrada de extensão de nome de arquivo para anexos J
 
 Para adicionar uma entrada de filtragem de anexos que filtre anexos por tipo de conteúdo MIME, use a seguinte sintaxe:
 
-    Add-AttachmentFilterEntry -Name <MIMEContentType> -Type ContentType
+```powershell
+Add-AttachmentFilterEntry -Name <MIMEContentType> -Type ContentType
+```
 
 O exemplo a seguir adiciona uma entrada de tipo de conteúdo MIME para filtrar imagens JPEG.
 
-    Add-AttachmentFilterEntry -Name image/jpeg -Type ContentType
+```powershell
+Add-AttachmentFilterEntry -Name image/jpeg -Type ContentType
+```
 
 Para adicionar uma entrada de filtragem de anexos que filtre anexos por nome de arquivo ou por extensão de nome de arquivo, use a seguinte sintaxe:
 
-    Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
+```powershell
+Add-AttachmentFilterEntry -Name <FileName or FileNameExtension> -Type FileName
+```
 
 O exemplo a seguir filtra anexos com a extensão de nome de arquivo .jpg.
 
@@ -113,7 +135,9 @@ Para verificar se você adicionou com êxito uma entrada de filtragem de anexo, 
 
 1.  Execute o seguinte comando para verificar se a entrada de filtragem existe.
     
-        Get-AttachmentFilterEntry | Format-Table
+    ```powershell
+Get-AttachmentFilterEntry | Format-Table
+```
 
 2.  Envie uma mensagem de teste que contenha um anexo proibido de uma caixa de correio externa para um destinatário interno e verifique se a mensagem foi rejeitada, removida ou excluída.
 
@@ -121,15 +145,21 @@ Para verificar se você adicionou com êxito uma entrada de filtragem de anexo, 
 
 Para remover uma entrada de filtragem de anexos para filtrar anexos por tipo de conteúdo MIME, use a seguinte sintaxe:
 
-    Remove-AttachmentFilterEntry ContentType:<ContentType>
+```powershell
+Remove-AttachmentFilterEntry ContentType:<ContentType>
+```
 
 O exemplo a seguir remove uma entrada de tipo de conteúdo MIME para imagens JPEG.
 
-    Remove-AttachmentFilterEntry ContentType:image/jpeg
+```powershell
+Remove-AttachmentFilterEntry ContentType:image/jpeg
+```
 
 Para remover uma entrada de filtragem de anexos para filtrar anexos por nome de arquivo ou por extensão de nome de arquivo, use a seguinte sintaxe:
 
-    Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
+```powershell
+Remove-AttachmentFilterEntry FileName:<FileName or FileNameExtension>
+```
 
 O exemplo a seguir remove a entrada de nome de arquivo da extensão de nome de arquivo .jpg.
 
@@ -141,7 +171,9 @@ Para verificar se você removeu com êxito uma entrada de filtragem de anexo, fa
 
 1.  Execute o seguinte comando para verificar se a entrada de filtragem foi removida.
     
-        Get-AttachmentFilterEntry | Format-Table
+    ```powershell
+Get-AttachmentFilterEntry | Format-Table
+```
 
 2.  Envie uma mensagem de teste que contenha um anexo permitido de uma caixa de correio externa para um destinatário interno e verifique se a mensagem foi entregue com êxito com o anexo.
 
@@ -149,7 +181,9 @@ Para verificar se você removeu com êxito uma entrada de filtragem de anexo, fa
 
 Para exibir a ação de filtragem de anexo usada quando um anexo proibido for detectado em uma mensagem, execute este comando:
 
-    Get-AttachmentFilterListConfig
+```powershell
+Get-AttachmentFilterListConfig
+```
 
 ## Usar o Shell para configurar a ação de filtragem de anexos
 

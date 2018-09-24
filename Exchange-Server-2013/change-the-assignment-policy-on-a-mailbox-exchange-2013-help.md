@@ -49,11 +49,15 @@ Procurando outras tarefas de gerenciamento relacionadas às permissões? Confira
 
 Para alterar a política de atribuição é atribuída a uma caixa de correio, use a seguinte sintaxe.
 
-    Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```powershell
+Set-Mailbox <mailbox alias or name> -RoleAssignmentPolicy <assignment policy>
+```
 
 Este exemplo define a política de atribuição para o Unified Messaging Users na caixa de correio Brian.
 
-    Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```powershell
+Set-Mailbox Brian -RoleAssignmentPolicy "Unified Messaging Users"
+```
 
 ## Usar o Shell para alterar a política de atribuição em um grupo de caixas de correio atribuída uma política de atribuição específica
 

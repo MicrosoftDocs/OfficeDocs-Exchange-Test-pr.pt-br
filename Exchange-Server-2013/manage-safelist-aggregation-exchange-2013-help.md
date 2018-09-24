@@ -51,7 +51,9 @@ Para configurar a quantidade máxima de remetentes confiáveis e remetentes bloq
 
 Este exemplo configura a caixa de correio john@contoso.com para ter no máximo 2.000 remetentes confiáveis e 200 remetentes bloqueados.
 
-    Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```powershell
+Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```
 
 ## Como saber se funcionou?
 
@@ -69,7 +71,9 @@ No Exchange 2013, a agregação de lista segura é feita automaticamente; logo, 
 
 Este exemplo grava a lista de remetentes confiáveis da caixa de correio john@contoso.com no Active Directory.
 
-    Update-Safelist john@contoso.com -Type SafeSenders
+```powershell
+Update-Safelist john@contoso.com -Type SafeSenders
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, consulte [Update-SafeList](https://technet.microsoft.com/pt-br/library/bb125034\(v=exchg.150\)).
 
@@ -81,11 +85,15 @@ Para verificar se você configurou com êxito a agregação de lista segura, exe
 
 1.  Execute o comando a seguir:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+Get-ContentFilterConfig | Format-List Enabled
+```
 
 2.  Se a saída mostra o parâmetro *Enabled* como `True`, a filtragem de conteúdo está habilitada. Se não for isso, execute o seguinte comando para habilitar a filtragem de conteúdo e o agente Filtro de Conteúdo no servidor do Exchange:
     
-        Set-ContentFilterConfig -Enabled $true
+    ```powershell
+Set-ContentFilterConfig -Enabled $true
+```
 
 ## Etapa 2: (Opcional) Usar o Editor ADSI para verificar a replicação dos dados de agregação da lista segura para servidores de Transporte de Borda
 

@@ -49,7 +49,9 @@ Para ver outras tarefas de gerenciamento relacionadas ao IRM (Gerenciamento de D
 
 Este exemplo habilita a descriptografia de relatório do diário para a organização do Exchange.
 
-    Set-IRMConfiguration -JournalReportDecryptionEnabled $true
+```powershell
+Set-IRMConfiguration -JournalReportDecryptionEnabled $true
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/pt-br/library/dd979792\(v=exchg.150\)).
 
@@ -57,7 +59,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-IRMCon
 
 Este exemplo desabilita a descriptografia de relatório do diário para a organização do Exchange.
 
-    Set-IRMConfiguration -JournalReportDecryptionEnabled $false
+```powershell
+Set-IRMConfiguration -JournalReportDecryptionEnabled $false
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/pt-br/library/dd979792\(v=exchg.150\)).
 

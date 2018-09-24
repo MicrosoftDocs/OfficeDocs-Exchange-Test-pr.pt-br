@@ -97,7 +97,9 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
     
     1.  Desabilite Active Directory dividir permissões executando o comando a seguir a partir da mídia de instalação Exchange 2013.
         
-            setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+```
     
     2.  Reinicie os servidores de Exchange 2013 em sua organização ou aguardar até que o token de acesso Active Directory replicar para todos os servidores de Exchange 2013.
         
@@ -125,11 +127,15 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
     
     3.  Adicione membros ao novo grupo de função usando o seguinte comando.
         
-            Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```powershell
+Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+```
     
     4.  Substitua a lista de representantes no novo grupo de função para que apenas os membros do grupo de função podem adicionar ou remover membros.
         
-            Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```powershell
+Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+```
         
 
         > [!IMPORTANT]
@@ -142,7 +148,9 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
     
     6.  Remova todos os regulares e delegando atribuições de função para a função de criação de destinatário de email que não estejam associadas um novo grupo de funções ou quaisquer outros grupos de função, USGs ou diretas atribuições que você deseja manter usando o seguinte comando.
         
-            Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```powershell
+Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+```
         
 
         > [!NOTE]
@@ -222,7 +230,9 @@ Para alternar entre compartilhados ou RBAC dividir permissões para Active Direc
 
 1.  A partir de um shell de comando Windows, execute o seguinte comando na mídia de instalação Exchange 2013 para permitir que as permissões de divisão de Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```powershell
+setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+```
 
 2.  Se você tiver vários domínios de Active Directory em sua organização, você deve executar `setup.exe /PrepareDomain` em cada domínio filho que contenha servidores Exchange ou objetos ou executar `setup.exe /PrepareAllDomains` a partir de um site que tenha um servidor Active Directory em qualquer domínio.
 
