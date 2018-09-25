@@ -91,7 +91,9 @@ Quando o aplicativo de ciclo de vida no SharePoint fechar uma caixa de correio d
 
 Você pode usar este comando para procurar e remover caixas de correio de site que foram marcadas para exclusão.
 
-    Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
+  ```powershell
+  Get-Mailbox MDEL:* | ?{$_.RecipientTypeDetails -eq "TeamMailbox"} | Remove-Mailbox -Confirm:$false
+  ```
 
 Caixas de correio de site não suportam a retenção no nível do item. A retenção funciona em um nível de projeto para caixas de correio de site, de forma que, quando toda a caixa de correio for excluída, os itens retidos sejam excluídos.
 

@@ -34,8 +34,8 @@ Reinstalar a função de servidor com falha da linha de comando
 2.  Execute o seguinte comando:
     
     ```powershell
-Setup /roles:<Failed Server Role>
-```
+    Setup /roles:<Failed Server Role>
+    ```
     
     Selecione uma ou mais das seguintes funções, em uma lista separada por vírgulas:
     

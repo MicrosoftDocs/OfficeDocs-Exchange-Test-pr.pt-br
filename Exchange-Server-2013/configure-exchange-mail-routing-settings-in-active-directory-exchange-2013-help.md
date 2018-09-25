@@ -66,8 +66,8 @@ Para verificar que você definiu com êxito um custo do Exchange em um link de s
 1.  Execute o seguinte comando:
     
     ```powershell
-Get-AdSiteLink | Format-List Name,ExchangeCost
-```
+    Get-AdSiteLink | Format-List Name,ExchangeCost
+    ```
 
 2.  Verificar que o custo do Exchange está configurado no link de site do Active Directory.
 
@@ -100,8 +100,8 @@ Para verificar se você configurou com êxito um site do Active Directory como u
 1.  Execute o seguinte comando:
     
     ```powershell
-Get-AdSite | Format-List Name,HubSiteEnabled
-```
+    Get-AdSite | Format-List Name,HubSiteEnabled
+    ```
 
 2.  Verifique se que o valor de *HubSiteEnabled* é `True` para o site do Active Directory.
 

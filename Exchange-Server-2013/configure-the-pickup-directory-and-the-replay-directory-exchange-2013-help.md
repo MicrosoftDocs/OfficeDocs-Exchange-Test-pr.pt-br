@@ -45,7 +45,9 @@ Os diretórios de Retirada e Reprodução são utilizados pelo serviço de Trans
 
 Para configurar o diretório de Retirada, use a seguinte sintaxe.
 
+```powershell
     Set-TransportService <ServerIdentity> -PickupDirectoryPath <LocalFilePath> -PickupDirectoryMaxHeaderSize <Size> -PickupDirectoryMaxRecipientsPerMessage <Integer> -PickupDirectoryMaxMessagesPerMinute <Integer>
+```
 
 Este exemplo faz as seguintes alterações para o diretório de Retirada no servidor de Caixa de Correio chamado Exchange01:
 
@@ -59,8 +61,9 @@ Este exemplo faz as seguintes alterações para o diretório de Retirada no serv
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Exchange01 -PickupDirectoryPath "D:\Pickup Directory" -PickupDirectoryMaxHeaderSize 96KB -PickupDirectoryMaxRecipientsPerMessage 250 -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -75,7 +78,9 @@ Este exemplo faz as seguintes alterações para o diretório de Retirada no serv
 
 Para configurar o diretório de repetição, use a seguinte sintaxe.
 
+```powershell
     Set-TransportService <ServerIdentity> -ReplayDirectoryPath "C:\Replay Directory" <LocalFilePath> -PickupDirectoryMaxMessagesPerMinute <Integer>
+```
 
 Este exemplo faz as seguintes alterações para o diretório de Reprodução no servidor de Caixa de Correio chamado Exchange01:
 
@@ -85,8 +90,9 @@ Este exemplo faz as seguintes alterações para o diretório de Reprodução no 
 
 <!-- end list -->
 
+```powershell
     Set-TransportService Exchange01 -ReplayDirectoryPath "D:\Replay Directory" -PickupDirectoryMaxMessagesPerMinute 200
-
+```
 
 > [!NOTE]
 > <UL>
@@ -103,7 +109,8 @@ Para verificar se você configurou com sucesso os diretórios de Retirada e Repr
 
 1.  Execute o seguinte comando:
     
+    ```powershell
         Get-TransportService <ServerIdentity> | Format-List Pickup*,Replay*
-
+    ````
 2.  Verifique se os valores exibidos são os valores que você configurou.
 

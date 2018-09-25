@@ -40,7 +40,7 @@ Como padrão, ao executar a Ferramenta de solução de problemas da UM, são usa
   - Instale a Ferramenta de solução de problemas da UM. Para instruções detalhadas, consulte [Instalação da Ferramenta de Solução de Problemas de UM do Exchange](install-the-exchange-um-troubleshooting-tool-exchange-2013-help.md).
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Se você for usar a ferramenta de solução de problemas UM no modo de <CODE>SIPClient</CODE> , há vários outros Office Communications Server 2007 R2 ou Microsoft Lync Server requisitos e os pré-requisitos. Para obter mais informações, consulte <A href="https://go.microsoft.com/fwlink/p/?linkid=311961">lista de verificação: implantar o Office Communications Server 2007 R2 e o Exchange 2010 Unified Messaging</A> ou <A href="checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help.md">Lista de verificação: Integrar o UM do Exchange 2013 com o Lync Server</A>.
 
 
@@ -48,7 +48,7 @@ Como padrão, ao executar a Ferramenta de solução de problemas da UM, são usa
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -60,12 +60,14 @@ Como padrão, ao executar a Ferramenta de solução de problemas da UM, são usa
 2.  Na janela **Ferramenta de Solução de Problema de UM do Microsoft Exchange 2010**, no prompt, digite o seguinte e aperte Enter.
     
     ```powershell
-$cred=Get-Credential
-```
+    $cred=Get-Credential
+    ```
 
 3.  Na janela **Solicitação de Credencial do Windows PowerShell**, digite o nome de usuário/domínio e a senha e depois clique em **OK**.
 
 4.  Na janela **Ferramenta de Solução de Problemas da UM do Microsoft Exchange 2010**, especifique os parâmetros de cmdlet necessários para testar o fluxo da chamada. Por exemplo:
     
-        Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
+    ```powershell
+    Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
+    ```
 

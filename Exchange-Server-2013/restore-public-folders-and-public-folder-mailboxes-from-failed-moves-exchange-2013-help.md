@@ -55,7 +55,9 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a pastas pública
 
 Este exemplo restaura a pasta pública \\Dev\\CustomerEnagagements para a caixa de correio de pasta pública de destino Development01.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox Development -SourceDatabase MBX_DB01 -TargetMailbox Development01 -AllowLegacyDNMismatch -IncludeFolders \Dev\CustomerEngagements
+  ```powershell
+  New-MailboxRestoreRequest -SourceStoreMailbox Development -SourceDatabase MBX_DB01 -TargetMailbox Development01 -AllowLegacyDNMismatch -IncludeFolders \Dev\CustomerEngagements
+  ```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829875\(v=exchg.150\)).
 
@@ -63,7 +65,9 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Mai
 
 Este exemplo restaura a caixa de correio de pasta pública PF\_Singapore para a nova caixa de correio de pasta pública PF\_Singapore\_Restore.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox PF_Singapore -SourceDatabase MBX_DB01 -TargetMailbox PF_Singapore_Restore -AllowLegacyDNMismatch
+  ```powershell
+  New-MailboxRestoreRequest -SourceStoreMailbox PF_Singapore -SourceDatabase MBX_DB01 -TargetMailbox PF_Singapore_Restore -AllowLegacyDNMismatch
+  ```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829875\(v=exchg.150\)).
 

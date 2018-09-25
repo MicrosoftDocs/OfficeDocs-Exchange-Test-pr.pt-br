@@ -85,7 +85,9 @@ Você pode alterar ou adicionar um escopo relativo predefinido em uma atribuiç�
 
 Para alterar ou adicionar um escopo predefinido em uma atribuição de função, use a sintaxe a seguir.
 
-    Set-ManagementRoleAssignment <assignment name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```powershell
+Set-ManagementRoleAssignment <assignment name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```
 
 Este exemplo altera o escopo predefinido na atribuição de função Atribuição de John para MyDistributionGroups.
 
@@ -101,11 +103,15 @@ Você pode especificar um novo escopo baseado no filtro de destinatário ou alte
 
 Para especificar um novo escopo baseado no filtro de destinatário ou substituir um que já exista, use a sintaxe a seguir.
 
-    Set-ManagementRoleAssignment <assignment name> -CustomRecipientWriteScope <role scope name>
+```powershell
+Set-ManagementRoleAssignment <assignment name> -CustomRecipientWriteScope <role scope name>
+```
 
 Este exemplo adiciona ou altera o escopo baseado no filtro de destinatário para Destinatários de Redmond.
 
-    Set-ManagementRoleAssignment "Redmond Recipient Administrators Assignment" -CustomRecipientWriteScope "Redmond Recipients"
+```powershell
+Set-ManagementRoleAssignment "Redmond Recipient Administrators Assignment" -CustomRecipientWriteScope "Redmond Recipients"
+```
 
 Se você quiser manter o mesmo escopo baseado no filtro de destinatário que está aplicado à atribuição de função mas alterar o filtro de destinatário usado para correspondência dos objetos de destinatário, será preciso alterar o filtro de destinatário no próprio escopo. Para mais informações sobre como alterar os escopos, consulte [Alterar um escopo de função](change-a-role-scope-exchange-2013-help.md).
 
@@ -123,7 +129,9 @@ Set-ManagementRoleAssignment <assignment name> -CustomConfigWriteScope <role sco
 
 Este exemplo adiciona ou altera o escopo de configuração para Servidores de Redmond.
 
-    Set-ManagementRoleAssignment "Redmond Administrators Assignment" -CustomConfigWriteScope "Redmond Servers"
+```powershell
+Set-ManagementRoleAssignment "Redmond Administrators Assignment" -CustomConfigWriteScope "Redmond Servers"
+```
 
 Se você quiser manter o mesmo escopo de configuração que está aplicado à atribuição de função mas alterar o filtro de servidor ou lista de servidor no escopo, será preciso alterar o próprio escopo de configuração. Para mais informações sobre como alterar os escopos, consulte [Alterar um escopo de função](change-a-role-scope-exchange-2013-help.md).
 
@@ -161,7 +169,9 @@ Set-ManagementRoleAssignment <assignment name> -RecipientOrganizationalUnitScope
 
 Este exemplo adiciona a OU Engenharia\\Usuários no domínio contoso.com à atribuição de função Suporte Técnico de Engenharia.
 
-    Set-ManagementRoleAssignment "Engineering Help Desk" -RecipientOrganizationalUnitScope contoso.com/Engineering/Users
+```powershell
+Set-ManagementRoleAssignment "Engineering Help Desk" -RecipientOrganizationalUnitScope contoso.com/Engineering/Users
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335173\(v=exchg.150\)).
 
@@ -177,7 +187,9 @@ Como acontece com escopos de configuração e de destinatário regulares, se voc
 
 Este exemplo altera um escopo de gravação de destinatário exclusivo.
 
-    Set-ManagementRoleAssignment "Exclusive Executive Users" -ExclusiveRecipientWriteScope "Exclusive Executives"
+```powershell
+Set-ManagementRoleAssignment "Exclusive Executive Users" -ExclusiveRecipientWriteScope "Exclusive Executives"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335173\(v=exchg.150\)).
 

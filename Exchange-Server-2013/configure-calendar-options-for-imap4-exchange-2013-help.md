@@ -30,7 +30,7 @@ Para mais informações relacionadas a IMAP4, consulte [POP3 e IMAP4 no Exchange
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -45,7 +45,9 @@ Set-ImapSettings -Identity CAS01 -CalendarItemRetrievalOption iCalendar
 
 Este exemplo permite que os usuários do IMAP4 acessem informações de calendário de um servidor interno.
 
-    Set-ImapSettings -Identity CAS01 -CalendarItemRetrievalOption IntranetUrl 
+  ```powershell
+  Set-ImapSettings -Identity CAS01 -CalendarItemRetrievalOption IntranetUrl 
+  ```
 
 Este exemplo permite que os usuários do IMAP4 acessem informações de calendário na Internet em um servidor interno.
 
@@ -82,4 +84,3 @@ Após definir as opções de calendário para IMAP4, você poderá também:
 [Configurar opções de formato de recuperação mensagem POP3 e IMAP4](configure-pop3-and-imap4-message-retrieval-format-options-exchange-2013-help.md)
 
 [Definir limites de tempo limite de conexão para IMAP4](set-connection-time-out-limits-for-imap4-exchange-2013-help.md)
-

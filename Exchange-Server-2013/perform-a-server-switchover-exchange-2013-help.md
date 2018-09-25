@@ -53,11 +53,15 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Este exemplo realiza uma alternância para o servidor de Caixa de Correio MBX1. O sistema automaticamente seleciona o melhor servidor de caixa de correio para cada banco de dados ativo no MBX1.
 
-    Move-ActiveMailboxDatabase -Server MBX1
+```powershell
+Move-ActiveMailboxDatabase -Server MBX1
+```
 
 Este exemplo realiza uma alternância para o servidor de Caixa de Correio MBX1. Quando o comando estiver completo, o MBX5 hospeda a cópia ativa do banco de dados que estava previamente ativo no MBX4.
 
-    Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```powershell
+Move-ActiveMailboxDatabase -Server MBX4 -ActivateOnServer MBX5
+```
 
 Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Move-ActiveMailboxDatabase](https://technet.microsoft.com/pt-br/library/dd298068\(v=exchg.150\)).
 

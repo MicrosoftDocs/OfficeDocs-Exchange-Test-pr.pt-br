@@ -79,7 +79,9 @@ Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
 
 Para criar todos os Conectores de recebimento no servidor de Caixa de Correio, execute o seguinte comando:
 
-    New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+  ```powershell
+  New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+  ```
 
 Esse exemplo cria o Conector de recebimento chamado WAN no servidor chamado Mailbox01 com as seguintes configurações:
 

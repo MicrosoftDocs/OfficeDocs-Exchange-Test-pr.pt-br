@@ -94,8 +94,8 @@ As etapas a seguir são necessárias para preparar sua organização para a migr
 4.  Você precisa ter o recurso de migração **PAW** habilitados para o locatário do Office 365. Para verificar isso, execute o seguinte comando no PowerShell do Exchange Online:
     
     ```powershell
-Get-MigrationConfig
-```
+    Get-MigrationConfig
+    ```
     
     Se a saída em **recursos** lista **PAW**, então, o recurso está habilitado e você pode continuar a *etapa 3: criar o arquivo. csv*.
     
@@ -112,14 +112,16 @@ O arquivo. csv precisa conter as seguintes colunas:
   - **TargetGroupMailbox**. Endereço SMTP do grupo de destino no Office 365. Você pode executar o seguinte comando para ver o endereço SMTP principal.
     
     ```powershell
-Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
-```
+    Get-UnifiedGroup <alias of the group> | Format-Table PrimarySmtpAddress
+    ```
 
 Um CSV de exemplo:
 
+```powershell
     "FolderPath","TargetGroupMailbox"
     "\Sales","sales@contoso.onmicrosoft.com"
     "\Sales\EMEA","emeasales@contoso.onmicrosoft.com"
+```
 
 Observe que uma pasta de email e uma pasta de calendário podem ser mescladas em um único grupo no Office 365. No entanto, qualquer outro cenário de várias pastas públicas mesclando em um grupo não é suportado dentro de um lote de migração único. Se você precisar mapear várias pastas públicas no mesmo grupo do Office 365, você pode fazer isso executando lotes de migração diferentes, o que devem ser executadas consecutivamente, um após o outro. Você pode ter até 500 entradas em cada lote de migração.
 
@@ -134,21 +136,25 @@ Nesta etapa, você colete informações do seu ambiente do Exchange e, em seguid
 2.  No PowerShell do Exchange Online, use as informações retornadas acima na etapa 1 para executar os seguintes comandos. As variáveis nesses comandos serão os valores da etapa 1.
     
     1.  Passe a credencial de um usuário com permissões de administrador no ambiente do Exchange 2013 para a variável `$Source_Credential`. Quando você eventualmente executa a solicitação de migração no Exchange Online, você usará essa credencial para obter acesso a seus servidores Exchange 2013 para copiar o conteúdo para o Exchange Online.
-        
+
+     ```powershell   
             $Source_Credential = Get-Credential
             <source_domain>\<PublicFolder_Administrator_Account>
+    ```
     
     2.  Use as informações do servidor de proxy MRS do seu ambiente do Exchange 2013 que você anotou na etapa 1 acima e passe o valor para a variável `$Source_RemoteServer`.
         
         ```powershell
-$Source_RemoteServer = "<MRS proxy endpoint>"
-```
+        $Source_RemoteServer = "<MRS proxy endpoint>"
+        ```
 
 3.  No PowerShell do Exchange Online, execute o seguinte comando para criar um ponto de extremidade de migração:
-    
+    ```powershell
         $PfEndpoint = New-MigrationEndpoint -PublicFolderToUnifiedGroup -Name PFToGroupEndpoint -RemoteServer $Source_RemoteServer -Credentials $Source_Credential
+    ```
 
 4.  Execute o seguinte comando para criar um novo lote de migração pública de pasta para o Office 365 de grupo. Neste comando:
+
     
       - **CSVData** é o arquivo. csv criado anteriormente no *etapa 3: criar o arquivo. csv*. Certifique-se de fornecer o caminho completo para esse arquivo. Se o arquivo foi movido por qualquer motivo, certifique-se de verificar e usar o novo local.
     
@@ -159,14 +165,15 @@ $Source_RemoteServer = "<MRS proxy endpoint>"
       - **PublicFolderToUnifiedGroup** é o parâmetro para indicar que se trata de uma pasta pública para o lote de migração do Office 365 grupos.
     
     <!-- end list -->
-    
+    ```powershell
         New-MigrationBatch -Name PublicFolderToGroupMigration -CSVData (Get-Content <path to .csv file> -Encoding Byte) -PublicFolderToUnifiedGroup -SourceEndpoint $PfEndpoint.Identity [-NotificationEmails <email addresses for migration notifications>] [-AutoStart]
+    ```
 
 5.  Inicie a migração, executando o seguinte comando no PowerShell do Exchange Online. Observe que essa etapa é necessária somente se o parâmetro `-AutoStart` não foi usado durante a criação do lote acima na etapa 4.
     
     ```powershell
-Start-MigrationBatch PublicFolderToGroupMigration
-```
+    Start-MigrationBatch PublicFolderToGroupMigration
+    ```
 
 Enquanto as migrações de lote precisam ser criadas usando o cmdlet `New-MigrationBatch` em PowerShell do Exchange Online, o progresso da migração pode ser exibido e gerenciado no Centro de administração do Exchange. Você também pode exibir o progresso da migração, executando os cmdlets [Get-MigrationBatch](https://technet.microsoft.com/pt-br/library/jj219164\(v=exchg.150\)) e [Get-MigrationUser](https://technet.microsoft.com/pt-br/library/jj218702\(v=exchg.150\)) . O cmdlet `New-MigrationBatch` inicia um usuário de migração para cada caixa de correio de grupo do Office 365 e você pode exibir o status dessas solicitações usando a página de migração de caixa de correio.
 
@@ -196,7 +203,9 @@ O seguinte comando:
 
 <!-- end list -->
 
+```powershell
     .\AddMembersToGroups.ps1 -MappingCsv <path to .csv file> -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 Depois que os usuários tiverem sido adicionados a um grupo no Office 365, eles poderão começar a usá-lo.
 
@@ -221,8 +230,9 @@ O seguinte comando:
   - **Credencial** é o Exchange Online nome de usuário e senha.
 
 <!-- end list -->
-
+```powershell
     .\LockAndSavePublicFolderProperties.ps1 -MappingCsv <path to .csv file> -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 ## Etapa 7: Finalizar a pasta pública à migração de grupos do Office 365
 
@@ -241,8 +251,9 @@ Em seguida, crie um novo lote com o mesmo arquivo CSV, executando o seguinte com
   - **AutoStart** é um parâmetro opcional que, quando usado, inicia o lote de migração assim que ele é criado.
 
 <!-- end list -->
-
+```powershell
     New-MigrationBatch -Name PublicFolderToGroupMigration -CSVData (Get-Content <path to .csv file> -Encoding Byte) -PublicFolderToUnifiedGroup -SourceEndpoint $PfEndpoint.Identity [-NotificationEmails <email addresses for migration notifications>] [-AutoStart]
+```
 
 Depois que o novo lote é criado, inicie a migração, executando o seguinte comando no PowerShell do Exchange Online. Observe que essa etapa será necessária somente se o parâmetro `-AutoStart` não foi usado no comando anterior.
 
@@ -427,8 +438,9 @@ No seu servidor Exchange 2013, execute o seguinte comando. Neste comando:
   - **Credencial** é o Exchange Online nome de usuário e senha.
 
 <!-- end list -->
-
+```powershell
     .\UnlockAndRestorePublicFolderProperties.ps1 -BackupDir <path to backup directory> -ArePublicFoldersOnPremises $true -Credential (Get-Credential)
+```
 
 Lembre-se de que todos os itens adicionados ao grupo do Office 365 ou qualquer operação Editar executadas nos grupos, não são copiados para suas pastas públicas. Portanto, haverá perda de dados, supondo que novos dados foi adicionado enquanto a pasta pública foi um grupo.
 

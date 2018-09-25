@@ -88,8 +88,8 @@ Para verificar se você gerenciou com êxito a associação ao DAG, execute um d
   - No Shell, execute o comando a seguir para exibir as informações de associação ao DAG.
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List Servers
+    ```
 
 ## Para obter mais informações
 

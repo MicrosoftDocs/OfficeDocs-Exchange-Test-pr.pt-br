@@ -634,7 +634,7 @@ Na configuração a seguir, há quatro sub-redes configuradas no DAG: 192.168.0.
 Por padrão, os DAGs realizam a descoberta de todas as redes detectadas e configuradas para uso pelo cluster subjacente. Isso inclui todas as redes iSCSI (Internet SCSI) em uso como resultado do uso do armazenamento iSCSI para um ou mais membros do DAG. Como prática recomendada, o armazenamento iSCSI deve usar redes dedicadas e adaptadores de rede. Essas redes não devem ser gerenciadas pelo DAG ou pelo cluster, ou usadas como redes DAG (MAPI ou replicação). Em vez disso, essas redes devem ser desabilitadas manualmente do uso pelo DAG, para que possam ser dedicadas ao tráfego de armazenamento iSCSI. Para impedir que redes iSCSI sejam detectadas e usadas como redes DAG, configure o DAG para ignorar quaisquer redes iSCSI detectadas no momento usando o cmdlet [Set-DatabaseAvailabilityGroupNetwork](https://technet.microsoft.com/pt-br/library/dd298008\(v=exchg.150\)), como neste exemplo:
 
 ```powershell
-  Set-DatabaseAvailabilityGroupNetwork -Identity DAG2\DAGNetwork02 -ReplicationEnabled:$false -IgnoreNetwork:$true
+Set-DatabaseAvailabilityGroupNetwork -Identity DAG2\DAGNetwork02 -ReplicationEnabled:$false -IgnoreNetwork:$true
 ```
 
 Este comando também irá desativar a rede para uso pelo cluster. Embora as redes iSCSI continuem aparecendo como redes do DAG, elas não serão usadas para MAPI ou tráfego de replicação após a execução do comando acima.

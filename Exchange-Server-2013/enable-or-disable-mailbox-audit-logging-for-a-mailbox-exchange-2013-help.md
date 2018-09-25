@@ -103,5 +103,6 @@ Para verificar que você com êxito habilitada para uma caixa de correio do log 
 
 Este exemplo recupera as configurações de caixa de correio Ben Smith e canaliza as configurações de auditoria especificado, incluindo o limite de idade de log de auditoria, para o cmdlet **Format-List** .
 
+```powershell
     Get-Mailbox "Ben Smith" | Format-List *audit*
-
+```

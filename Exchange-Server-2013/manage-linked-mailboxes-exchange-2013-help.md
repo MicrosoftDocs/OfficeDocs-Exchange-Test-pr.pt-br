@@ -116,7 +116,9 @@ A figura a seguir ilustra a relação entre a conta de usuário vinculado usado 
 
 Este exemplo cria uma caixa de correio vinculada de Ayla Kol na floresta de recursos do Exchange da CONTOSO. Domínio FABRIKAM é na floresta de conta. O administrador conta FABRIKAM \\administrator é usado para acessar o controlador de domínio vinculado.
 
-    New-Mailbox -Name "Ayla Kol" -LinkedDomainController "DC1_FABRIKAM" -LinkedMasterAccount " FABRIKAM\aylak" -OrganizationalUnit Users -UserPrincipalName aylak@contoso.com -LinkedCredential:(Get-Credential FABRIKAM\administrator)
+  ```powershell
+  New-Mailbox -Name "Ayla Kol" -LinkedDomainController "DC1_FABRIKAM" -LinkedMasterAccount " FABRIKAM\aylak" -OrganizationalUnit Users -UserPrincipalName aylak@contoso.com -LinkedCredential:(Get-Credential FABRIKAM\administrator)
+  ```
 
 Para obter informações sobre sintaxes e parâmetros, consulte [New-Mailbox](https://technet.microsoft.com/pt-br/library/aa997663\(v=exchg.150\)).
 
@@ -128,9 +130,9 @@ Para verificar se você criou com êxito uma caixa de correio vinculada, siga um
 
   - No Shell, execute o seguinte comando para exibir informações sobre a nova caixa de correio vinculada.
     
-    ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
-```
+  ```powershell
+  Get-Mailbox <Name> | FL Name,RecipientTypeDetails,IsLinked,LinkedMasterAccount
+  ```
 
 ## Alterar propriedades de caixa de correio vinculada
 
@@ -378,15 +380,21 @@ Aqui estão alguns exemplos de como usar o Shell para alterar propriedades de ca
 
 Este exemplo usa o comando **Get-Mailbox** para localizar todas as caixas de correio vinculadas na organização.
 
-    Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')}
+  ```powershell
+  Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')}
+  ```
 
 Este exemplo usa o comando **Set-Mailbox** para limitar o número de destinatários permitido em para:, Cc: e Cco: linhas de uma mensagem de email como 500. Esse limite é aplicável a todas as caixas de correio vinculadas na organização.
 
-    Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | Set-Mailbox -RecipientLimits 500
+  ```powershell
+  Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | Set-Mailbox -RecipientLimits 500
+  ```
 
 Este exemplo altera a conta principal vinculada na floresta fabrikam.com conta que está associada uma caixa de correio vinculada em uma floresta do Exchange.
 
-    Set-Mailbox -Identity "Ayla Kol" -LinkedDomainController DC1.fabrikam.com -LinkedMasterAccount "fabrikam\robinw" -LinkedCredential:(Get-Credential fabrikam\administrator)
+  ```powershell
+  Set-Mailbox -Identity "Ayla Kol" -LinkedDomainController DC1.fabrikam.com -LinkedMasterAccount "fabrikam\robinw" -LinkedCredential:(Get-Credential fabrikam\administrator)
+  ```
 
 ## Como saber se funcionou?
 
@@ -396,11 +404,13 @@ Para verificar que você alterou com êxito propriedades para uma caixa de corre
 
   - No Shell, use o cmdlet **Get-Mailbox** para verificar as alterações. Uma vantagem de usar o Shell é que você pode visualizar várias propriedades para várias caixas de correio vinculadas. No exemplo acima onde o limite de destinatários foi alterado, executando o seguinte comando verificará o novo valor.
     
-        Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | fl Name,RecipientLimits
+    ```powershell
+    Get-Mailbox -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'LinkedMailbox')} | fl Name,RecipientLimits
+    ```
     
     No exemplo acima onde a conta principal vinculada foi alterada, execute o seguinte comando para verificar o novo valor.
     
     ```powershell
-Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
-```
+    Get-Mailbox "Ayla Kol" | fl LinkedMasterAccount
+    ```
 

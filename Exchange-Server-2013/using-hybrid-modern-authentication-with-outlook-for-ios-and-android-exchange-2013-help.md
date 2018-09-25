@@ -176,8 +176,8 @@ In order to block other mobile device clients (such as the native mail client in
 1.  You can leverage the built-in Exchange mobile device access rules and block all mobile devices from connecting by setting the following in the Exchange Management Shell:
     
     ```powershell
-Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
-```
+    Set-ActiveSyncOrganizationSettings -DefaultAccessLevel Block
+    ```
 
 2.  You can leverage an on-premises conditional access policy within Intune after installing the on-premises Exchange connector. For more information, see [Create a conditional access policy for Exchange on-premises and legacy Exchange Online Dedicated](https://docs.microsoft.com/intune/conditional-access-exchange-create#configure-exchange-on-premises-access).
 
@@ -220,15 +220,18 @@ If you have not enabled hybrid Modern Authentication, then review and implement 
 If you have already enabled hybrid Modern Authentication to support other versions of Outlook, including Outlook for Mac, for your on-premises users as outlined in [How to configure Exchange Server on-premises to use hybrid Modern Authentication](https://support.office.com/article/how-to-configure-exchange-server-on-premises-to-use-hybrid-modern-authentication-cef3044d-d4cb-4586-8e82-ee97bd3b14ad?), there are only a few additional steps you must take:
 
 1.  Create an Exchange device access allow rule to allow Exchange Online to connect to your on-premises environment using the ActiveSync protocol:
-    
+
+    ```powershell  
         If ((Get-ActiveSyncOrganizationSettings).DefaultAccessLevel -ne "Allow") {New-ActiveSyncDeviceAccessRule -Characteristic DeviceType -QueryString "OutlookService" -AccessLevel Allow}
+    ```
     
     Note that device management through the on-premises Exchange Admin Center is not possible. Intune is required to manage mobile devices.
 
 2.  Create an Exchange device access rule that prevents users from connecting to the on-premises environment with Outlook for iOS and Android with basic authentication over the Exchange ActiveSync protocol:
-    
+
+    ```powershell    
         New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
-    
+    ```
 
     > [!NOTE]
     > Once this rule is created, users who are using Outlook for iOS and Android with Basic authentication will be blocked.
@@ -359,7 +362,7 @@ Upon token expiration, the client will attempt to use the refresh token to obtai
 
 **A:**  Yes, a user can bypass AutoDetect at any time and manually configure the connection using Basic authentication over the Exchange ActiveSync protocol. To ensure that the user does not establish a connection to your on-premises environment via a mechanism that does not support Azure Active Directory Conditional Access or Intune app protection policies, the on-premises Exchange Administrator needs to configure an Exchange device access rule that blocks the ActiveSync connection. To do this, type the following command in the Exchange Management Shell:
 
-``` 
+```powershell 
  New-ActiveSyncDeviceAccessRule -Characteristic DeviceModel -QueryString "Outlook for iOS and Android" -AccessLevel Block
 ```
 
@@ -387,13 +390,15 @@ In either scenario, verify that your on-premises environment is correctly config
 
 When you review the output from the script, you should be seeing the following from AutoDiscover:
 
+```powershell
     {
         "Protocol": "activesync",
         "Url": "https://mail.contoso.com/Microsoft-Server-ActiveSync"
     }
-
+```
 The on-premises ActiveSync endpoint should return the following response, where the WWW-Authenticate header includes an authorization\_uri:
 
+```powershell
     Content-Length →0
     Date →Mon, 29 Jan 2018 19:51:46 GMT
     Server →Microsoft-IIS/10.0 Microsoft-HTTPAPI/2.0
@@ -401,6 +406,7 @@ The on-premises ActiveSync endpoint should return the following response, where 
     Www-Authenticate →Basic realm="mail.contoso.com"
     X-Powered-By →ASP.NET
     request-id →5ca2c827-5147-474c-8457-63c4e5099c6e
+```
 
 If the AutoDiscover or ActiveSync responses are not similar to the above examples, you can investigate the following as possible causes:
 
@@ -413,8 +419,8 @@ If the AutoDiscover or ActiveSync responses are not similar to the above example
 4.  If the ActiveSync endpoint does not contain an authorization\_uri value, verify that the EvoSTS authentication server is configured as the default endpoint using Exchange Management Shell:
     
     ```powershell
-Get-AuthServer EvoSts | fl IsDefaultAuthorizationEndpoint
-```
+    Get-AuthServer EvoSts | fl IsDefaultAuthorizationEndpoint
+    ```
 
 5.  If the ActiveSync endpoint does not contain a WWW-Authenticate header, then a device in front of Exchange may be responding to the query.
 
@@ -428,6 +434,7 @@ There are a few scenarios that can result in data being stale in Outlook for iOS
 
 With SSL/TLS offloading, tokens are issued for a specific uri and that value includes the protocol value ("https://"). When the load balancer offloads SSL/TLS, the request Exchange receives comes in via HTTP, resulting in a claim mismatch due to the protocol value being http://. The following is an example of a response header from a Fiddler trace:
 
+```powershell
     Content-Length →0
     Date →Mon, 29 Jan 2018 19:51:46 GMT
     Server →Microsoft-IIS/10.0 Microsoft-HTTPAPI/2.0
@@ -436,14 +443,16 @@ With SSL/TLS offloading, tokens are issued for a specific uri and that value inc
     X-Powered-By →ASP.NET
     request-id →2323088f-8838-4f97-a88d-559bfcf92866
     x-ms-diagnostics →2000003;reason="The hostname component of the audience claim value is invalid. Expected 'https://mail.contoso.com'. Actual 'http://mail.contoso.com'.";error_category="invalid_resource"
+```
 
 As specified above in the section *Technical and licensing requirements*, SSL/TLS offloading is not supported for OAuth flows.
 
 For EvoSTS Certificate Metadata, the certifricate metadata leveraged by EvoSTS is occasionally updated in Office 365. The Exchange on-premises arbitration mailbox that has the organization capability of “OrganizationCapabilityManagement” is responsible for detecting the changes and for updating the corresponding metadata on-premises; this process executes every eight hours.
 
 Exchange Administrators can find this mailbox by executing the following cmdlet using Exchange Management Shell:
-
+```powershell
     $x=get-mailbox -arbitration | ? {$_.PersistedCapabilities -like "OrganizationCapabilityManagement"};Get-MailboxDatabaseCopyStatus $x.database.name
+```
 
 On the server hosting the database for the OrganizationCapabilityManagement arbitration mailbox, review the application event logs for events with a source of **MSExchange AuthAdmin**. The events should tell you if Exchange was able to refresh the metadata. If the metadata is out of date, you can manually refresh it with this ccmdlet:
 

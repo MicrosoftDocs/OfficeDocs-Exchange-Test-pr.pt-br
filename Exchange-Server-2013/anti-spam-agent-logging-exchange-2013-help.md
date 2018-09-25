@@ -274,7 +274,9 @@ Cd $env:ExchangeInstallPath\Scripts
 
 Para executar o script na pasta Scripts, use a seguinte sintaxe:
 
-    .\Get-AntiSpamFilteringReport.ps1 -report <ReportValue> [<OptionalParameters>]
+```powershell
+.\Get-AntiSpamFilteringReport.ps1 -report <ReportValue> [<OptionalParameters>]
+```
 
 Para obter detalhes sobre como usar o script, execute o seguinte comando:
 
@@ -283,4 +285,3 @@ Get-Help -Detailed .\Get-AntiSpamFilteringReport.ps1
 ```
 
 Voltar ao início
-

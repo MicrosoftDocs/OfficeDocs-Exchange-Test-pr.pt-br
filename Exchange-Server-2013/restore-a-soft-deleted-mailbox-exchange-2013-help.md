@@ -41,13 +41,17 @@ Para saber mais sobre caixas de correio excluída e realize outras tarefas de ge
 
   - Execute o seguinte comando para verificar se a caixa de correio excluída por software que você deseja se conectar a uma conta de usuário ainda existe no banco de dados de caixa de correio e não for uma caixa de correio desabilitada.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```
     
     A caixa de correio excluída deve existir no banco de dados de caixa de correio e o valor da propriedade *DisconnectReason* deve ser `SoftDeleted`. Se a caixa de correio foi removida do banco de dados, o comando não retornará nenhum resultado.
     
     Como alternativa, execute o seguinte comando para exibir todas as caixas de correio excluída na sua organização.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | fl DisplayName,DisconnectReason,DisconnectDate
+    ```
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -61,15 +65,21 @@ Depois que uma caixa de correio excluída é restaurada, a caixa de correio é m
 
 Para criar uma solicitação de restauração de caixa de correio, você precisará usar o nome para exibição, GUID, da caixa de correio ou herdada diferenciados (DN) do nome da caixa de correio excluída. Use o cmdlet **Get-MailboxStatistics** para exibir os valores das propriedades **DisplayName**, **MailboxGuid**e **LegacyDN** para a caixa de correio excluída por software que você deseja restaurar. Por exemplo, execute o seguinte comando para retornar essas informações para todas as caixas de correio desabilitadas e excluída em sua organização.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "SoftDeleted"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "SoftDeleted"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 Este exemplo restaura uma caixa de correio do excluída, que é identificada pelo nome da exibição no parâmetro *SourceStoreMailbox* e está localizada em MBXDB01 caixa de correio banco de dados, na caixa de correio de destino chamado Debra Garcia. O parâmetro *AllowLegacyDNMismatch* é usado para a caixa de correio de origem possa ser restaurada uma caixa de correio que não tem o mesmo valor DN Herdado como caixa de correio excluída.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox "Debra Garcia" -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox "Debra Garcia" -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 Este exemplo restaura arquivamento excluída da caixa de correio do Pilar Pinilla, que é identificada pelo GUID da caixa de correio, para sua caixa de correio de arquivo morto atual. O parâmetro *AllowLegacyDNMismatch* não é necessário porque uma caixa de correio principal e sua caixa de correio correspondente do arquivo morto tem o mesmo DN Herdado.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox dc35895a-a628-4bba-9aa9-650f5cdb9ae7 -SourceDatabase MBXDB02 -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox dc35895a-a628-4bba-9aa9-650f5cdb9ae7 -SourceDatabase MBXDB02 -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829875\(v=exchg.150\)).
 

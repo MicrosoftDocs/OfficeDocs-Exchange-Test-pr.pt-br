@@ -87,28 +87,32 @@ Um arquivo de mensagem copiado para o diretório de retirada deve atender aos se
 
 Este exemplo mostra uma mensagem de texto simples que usa a formatação aceitável para o diretório de retirada.
 
-    To: mary@contoso.com
-    From: bob@fabrikam.com
-    Subject: Message subject
-    
-    This is the body of the message.
+  ```html
+  To: mary@contoso.com
+  From: bob@fabrikam.com
+  Subject: Message subject
+  
+  This is the body of the message.
+  ```
 
 Também há suporte para o conteúdo MIME nos arquivos de mensagem do diretório de retirada. MIME define uma ampla variedade de conteúdo da mensagem que inclui os idiomas que não podem ser representados em outro conteúdo multimídia, HTML e texto ASCII de 7 bits. Uma descrição completa dos MIME e seus requisitos está além do escopo deste tópico. Este exemplo mostra uma mensagem MIME simple que usa aceitável de formatação para o diretório de retirada.
 
-    To: mary@contoso.com
-    From: bob@fabrikam.com
-    Subject: Message subject
-    MIME-Version: 1.0
-    Content-Type: text/html; charset="iso-8859-1"
-    Content-Transfer-Encoding: 7bit
-    
-    <HTML><BODY>
-    <TABLE>
-    <TR><TD>cell 1</TD><TD>cell 2</TD></TR>
-    <TR><TD>cell 3</TD><TD>cell 4</TD></TR>
-    </TABLE>
+  ```html
+  To: mary@contoso.com
+  From: bob@fabrikam.com
+  Subject: Message subject
+  MIME-Version: 1.0
+  Content-Type: text/html; charset="iso-8859-1"
+  Content-Transfer-Encoding: 7bit
+  
+  <HTML><BODY>
+  <TABLE>
+  <TR><TD>cell 1</TD><TD>cell 2</TD></TR>
+  <TR><TD>cell 3</TD><TD>cell 4</TD></TR>
+  </TABLE>
 
-    </BODY></HTML>
+  </BODY></HTML>
+  ```
 
 Voltar ao início
 
@@ -130,7 +134,9 @@ O diretório de retirada remove qualquer um dos seguintes campos de cabeçalho d
 
 O diretório de retirada adiciona seu próprio campo de cabeçalho de `Received` a uma mensagem como parte do processo de envio de mensagem. No campo de cabeçalho de `Received` é aplicado no seguinte formato.
 
-    Received: from localhost by Pickup with Microsoft SMTP Server id <ExchangeServerVersion><datetime>
+  ```powershell
+  Received: from localhost by Pickup with Microsoft SMTP Server id <ExchangeServerVersion><datetime>
+  ```
 
 O diretório de retirada modifica os seguintes campos de cabeçalho de mensagem se eles estão ausentes ou incorretos:
 
@@ -161,8 +167,8 @@ Os cabeçalhos de X descritos na lista a seguir são exigidos por mensagens no d
   - **X-remetente**   Este cabeçalho X substitui o requisito de campo de cabeçalho de mensagem `From` em uma mensagem SMTP típica. Deve existir um campo `X-Sender` que contém um endereço de email. O diretório de reprodução ignora o campo de cabeçalho de mensagem `From` se ele estiver presente, embora o cliente de email do destinatário exibe o valor do campo de cabeçalho de mensagem `From` como o remetente da mensagem. Outros parâmetros geralmente existirem no campo `X-Sender` , conforme mostrado no exemplo a seguir.
     
     ```powershell
-X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
-```
+    X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
+    ```
     
 
     > [!NOTE]
@@ -173,8 +179,8 @@ X-Sender: <bob@fabrikam.com> BODY=7bit RET=HDRS ENVID=12345ABCD auth=<someAuth>
   - **Receptor de X**   Este cabeçalho X substitui o requisito de campo de cabeçalho de mensagem do `To` em uma mensagem SMTP típica. Pelo menos um campo `X-Receiver` que contém um endereço de email deve existir. Vários campos `X-Receiver` são permitidos para vários destinatários. O diretório de reprodução ignora os campos de cabeçalho de mensagem `To` se estiver presentes, embora o cliente de email do destinatário exibe os valores dos campos de cabeçalho de mensagem `To` como os destinatários da mensagem. Outros parâmetros opcionais podem existir nos campos `X-Receiver` , conforme mostrado no exemplo a seguir.
     
     ```powershell
-X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
-```
+    X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
+    ```
     
 
     > [!NOTE]
@@ -201,31 +207,37 @@ Este exemplo mostra uma mensagem de texto simples que usa a formatação aceitá
 ```powershell
 X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
 ```
-    X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
-    Subject: Optional message subject
+
+```powershell
+X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345AB auth=<someAuth>
+Subject: Optional message subject
     
-    This is the body of the message.
+This is the body of the message.
+```
 
 Também há suporte para o conteúdo MIME nos arquivos de mensagem do diretório de repetição. MIME define uma ampla variedade de conteúdo da mensagem que inclui os idiomas que não podem ser representados em outro conteúdo multimídia, HTML e texto ASCII de 7 bits. Uma descrição completa dos MIME e seus requisitos está além do escopo deste tópico. Este exemplo mostra uma mensagem MIME simple que usa aceitável de formatação para o diretório de repetição.
 
 ```powershell
 X-Receiver: <mary@contoso.com> NOTIFY=NEVER ORcpt=mary@contoso.com
 ```
-    X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
-    To: mary@contoso.com
-    From: bob@fabrikam.com
-    Subject: Optional message subject
-    MIME-Version: 1.0
-    Content-Type: text/html; charset="iso-8859-1"
-    Content-Transfer-Encoding: 7bit
     
-    <HTML><BODY>
-    <TABLE>
-    <TR><TD>cell 1</TD><TD>cell 2</TD></TR>
-    <TR><TD>cell 3</TD><TD>cell 4</TD></TR>
-    </TABLE>
+```html
+X-Sender: <bob@fabrikam.com> BODY=7bit ENVID=12345ABCD auth=<someAuth>
+To: mary@contoso.com
+From: bob@fabrikam.com
+Subject: Optional message subject
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
 
-    </BODY></HTML>
+<HTML><BODY>
+<TABLE>
+<TR><TD>cell 1</TD><TD>cell 2</TD></TR>
+<TR><TD>cell 3</TD><TD>cell 4</TD></TR>
+</TABLE>
+
+</BODY></HTML>
+```
 
 Voltar ao início
 
@@ -235,7 +247,9 @@ Do diretório de repetição exclui campo de cabeçalho da mensagem de `Bcc` no 
 
 O diretório de reprodução adiciona seu próprio campo de cabeçalho de mensagem `Received` a uma mensagem como parte do processo de envio de mensagem. O campo de cabeçalho de mensagem recebido é aplicado no seguinte formato.
 
-    Received: from <ReceivingServerName> by Replay with <ExchangeServerVersion><DateTime>
+  ```powershell
+  Received: from <ReceivingServerName> by Replay with <ExchangeServerVersion><DateTime>
+  ```
 
 O diretório de reprodução modifica os seguintes campos de cabeçalho de mensagem no cabeçalho da mensagem:
 

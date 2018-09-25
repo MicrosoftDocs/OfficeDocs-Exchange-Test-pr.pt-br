@@ -106,12 +106,14 @@ Você pode abrir os arquivos de instantâneo de mensagens usando o bloco de nota
 
 Cada arquivo de instantâneo de mensagem inicia com cabeçalhos que são adicionados ao conteúdo da mensagem e o agente de transporte e o evento de SMTP que o arquivo de instantâneo de mensagem se refere de lista. Esses cabeçalhos começam com `X-CreatedBy: MessageSnapshot-Begin injected headers` e terminarem com `X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers`. Esses cabeçalhos são substituídos em cada arquivo de instantâneo de mensagem por cada agente de transporte subsequentes e o evento SMTP. Este é um exemplo dos cabeçalhos que são adicionados a um arquivo de mensagem de email:
 
-    X-CreatedBy: MessageSnapshot-Begin injected headers
-    X-MessageSnapshot-UTC-Time: 2013-01-23T23:20:18.138Z
-    X-MessageSnapshot-Record-Id: 21474836486
-    X-MessageSnapshot-Source: OnSubmittedMessageX-Sender: michelle@nwtraders.com
-    X-Receiver: chris@contoso.com
-    X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers
+```powershell
+X-CreatedBy: MessageSnapshot-Begin injected headers
+X-MessageSnapshot-UTC-Time: 2013-01-23T23:20:18.138Z
+X-MessageSnapshot-Record-Id: 21474836486
+X-MessageSnapshot-Source: OnSubmittedMessageX-Sender: michelle@nwtraders.com
+X-Receiver: chris@contoso.com
+X-EndOfInjectedXHeaders: MessageSnapshot-End injected headers
+```
 
 Após os cabeçalhos de instantâneo de mensagem, o arquivo contém o conteúdo da mensagem incluindo todos os cabeçalhos de mensagem original. Se um agente de transporte modifica o conteúdo da mensagem, as alterações aparecem integradas com a mensagem. Como a mensagem é processada por cada agente de transporte, as alterações feitas por cada agente são aplicadas ao conteúdo da mensagem. Se um agente de transporte não altera o conteúdo da mensagem, o instantâneo de mensagem que é criado por que esses operadores será idêntico à mensagem instantâneo criado pelo agente de transporte anterior.
 

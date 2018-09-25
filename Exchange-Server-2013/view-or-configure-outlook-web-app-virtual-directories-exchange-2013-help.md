@@ -11,8 +11,6 @@ ms.translationtype: MT
 
 # Exibir ou configurar diretórios virtuais do Outlook Web App
 
- 
-
 _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2013-08-12_
@@ -20,7 +18,7 @@ _**Tópico modificado em:** 2013-08-12_
 Você pode usar o EAC ou o Shell para exibir ou configurar as propriedades de um diretório virtual do Outlook Web App.
 
 
-> [!WARNING]
+> [!WARNING]  
 > No Exchange Online, os administradores não podem exibir ou configurar diretórios virtuais do Outlook Web App.
 
 
@@ -46,7 +44,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -92,7 +90,7 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
       - **Usar autenticação baseada em formulários**   A autenticação baseada em formulários fornece segurança aprimorada para diretórios virtuais do Outlook Web App. A autenticação baseada em formulários cria uma página de entrada para o Outlook Web App. Você pode configurar o tipo de prompt de entrada usado pela autenticação baseada em formulários. Por exemplo, você pode configurar a autenticação baseada em formulários para exigir que os usuários forneçam informações sobre o domínio e o nome de usuário, no formato domínio\\nome do usuário na página de entrada do Outlook Web App.
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > A autenticação baseada em formulários não fornece um canal seguro, a menos que a SSL tenha sido habilitada.
 
         
@@ -108,14 +106,14 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
     Na guia **Recursos**, especifique os recursos que você deseja habilitar ou desabilitar para usuários do Outlook Web App em um diretório virtual.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > As configurações de recursos para usuários individuais substituem as configurações do diretório virtual. É possível alterar as configurações de segmentação de cada usuário usando o cmdlet <STRONG>Set-CASMailbox</STRONG> ou usando as diretivas de caixa de correio do Outlook Web App. Para mais informações, consulte <A href="https://docs.microsoft.com/pt-br/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies">Diretivas de caixa de correio do Outlook Web App</A>.
 
     
     Use as caixas de seleção para habilitar ou desabilitar recursos. Por padrão, são exibidos os recursos mais comuns. Para ver todos os recursos que podem ser habilitados ou desabilitados, clique em **Mais opções**.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > A opção para habilitar ou desabilitar a versão padrão do Outlook Web App usando a caixa de seleção <STRONG>Cliente Premium</STRONG> foi substituída e será removida das configurações. A versão padrão do Outlook Web App está sempre habilitada.
 
 
@@ -137,7 +135,9 @@ Se você usar o EAC para exibir as propriedades de um diretório virtual do Outl
 
 Este exemplo habilita a autenticação baseada em formulários no diretório virtual padrão do Outlook Web App do servidor Contoso.
 
-    set-OwaVirtualDirectory -Identity "Contoso\owa (default web site)" -FormsAuthentication $true
+```powershell
+set-OwaVirtualDirectory -Identity "Contoso\owa (default web site)" -FormsAuthentication $true
+```
 
 Para obter mais informações sobre sintaxe e parâmetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/bb123515\(v=exchg.150\)).
 
@@ -151,7 +151,9 @@ Get-OWAVirtualDirectory
 
 Este exemplo permite a exibição das propriedades de um diretório virtual do Outlook Web App no site de IIS padrão no servidor Exchange local.
 
-    Get-OWAVirtualDirectory -identity "<Exchange Server Name>\owa (default web site)"
+```powershell
+Get-OWAVirtualDirectory -identity "<Exchange Server Name>\owa (default web site)"
+```
 
 Este exemplo permite a exibição das propriedades de todos os diretórios virtuais do Outlook Web App em um site de IIS em um servidor Exchange específico.
 
@@ -176,4 +178,3 @@ Para confirmar se você teve êxito ao editar um diretório virtual do Outlook W
 2.  Clique no botão **Editar** para exibir as propriedades do diretório virtual.
 
 3.  Clique em **Salvar** ou **Cancelar**, para fechar a página de Propriedades.
-

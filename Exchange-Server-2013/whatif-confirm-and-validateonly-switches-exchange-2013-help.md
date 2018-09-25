@@ -39,7 +39,9 @@ The *WhatIf* switch instructs the command to which it is applied to run but only
 
 When you run a command together with the *WhatIf* switch, you put the *WhatIf* switch at the end of the command, as in the following example:
 
+```powershell
     New-AcceptedDomain -Name "Contoso Domain" -DomainName "contoso.com" -WhatIf 
+```
 
 When you run this example command, the following text is returned by the Shell:
 
@@ -79,11 +81,13 @@ Get-JournalRule | Enable-JournalRule -Confirm
 
 When you run this example command, the following confirmation prompt is returned by the Shell:
 
+```powershell
     Confirm
     Are you sure you want to perform this action?
     Enabling journal rule "Litigation Journal Rule".
     [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help
     (default is "Y"):
+```
 
 The confirmation prompt gives you the following choices:
 

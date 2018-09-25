@@ -53,13 +53,9 @@ Para tarefas adicionais relacionadas aos idiomas da UM, consulte [Procedimentos 
 
 2.  Clique duas vezes a UMLanguagePack. arquivo *\<CultureCode\>.exe* . Por exemplo, para o pacote de idioma alemão UM, você pode baixar o arquivo denominado UMLanguagePack.de-DE.exe.
 
-3.  
-    
-    No Assistente de instalação Exchange 2013, na página **Contrato de licença**, leia os termos do contrato, selecione **eu aceito os termos do contrato de licença** e clique em **Avançar**.
+3.  No Assistente de instalação Exchange 2013, na página **Contrato de licença**, leia os termos do contrato, selecione **eu aceito os termos do contrato de licença** e clique em **Avançar**.
 
-4.  
-    
-    Na página **Pacote de Idiomas para Unificação de Mensagens**, verifique se o idioma correto está listado na janela **O(s) seguinte(s) Pacote(s) de Idiomas para Unificação de Mensagens será(ão) instalados** e clique em **Instalar**.
+4.  Na página **Pacote de Idiomas para Unificação de Mensagens**, verifique se o idioma correto está listado na janela **O(s) seguinte(s) Pacote(s) de Idiomas para Unificação de Mensagens será(ão) instalados** e clique em **Instalar**.
 
 5.  Clique em **Concluir** para concluir a instalação do pacote de idiomas para UM.
 
@@ -74,7 +70,7 @@ setup.exe /AddUmLanguagePack:ja-JP /s:d:\Exchange\UMLanguagePacks /IAcceptExchan
 Este exemplo instala o espanhol do México (es-MX) e alemão (de-DE) UM pacotes de idiomas que foram baixados para a pasta D:\\Exchange\\UMLanguagePacks em um servidor de caixa de correio.
 
 ```powershell
-    setup.exe /AddUmLanguagePack:es-MX,de-DE /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
+setup.exe /AddUmLanguagePack:es-MX,de-DE /s:d:\Exchange\UMLanguagePacks /IAcceptExchangeServerLicenseTerms
 ```
 
 > [!WARNING]

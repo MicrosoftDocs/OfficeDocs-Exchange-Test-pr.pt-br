@@ -74,8 +74,8 @@ Para verificar se você removeu com êxito uma cópia do banco de dados de caixa
   - No Shell, execute o seguinte comando para verificar a remoção da cópia.
     
     ```powershell
-Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
-```
+    Get-MailboxDatabase <DatabaseName> | Format-List DatabaseCopies
+    ```
     
     A cópia passiva removida não está mais listada.
 

@@ -11,8 +11,6 @@ ms.translationtype: MT
 
 # Adicionar uma entrada de função a uma função de nível superior sem escopo
 
- 
-
 _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2012-10-03_
@@ -20,10 +18,8 @@ _**Tópico modificado em:** 2012-10-03_
 Você poderá adicionar scripts e cmdlets não-Exchange a funções de gerenciamento de nível superior sem escopo se quiser disponibilizar novos scripts ou cmdlets não-Exchange a funções sem escopo existentes. Esses scripts e cmdlets não-Exchange são adicionados como entradas de função de gerenciamento a funções de gerenciamento de nível superior sem escopo. Eles podem ser usados por essas entradas de função de nível superior sem escopo ou qualquer função sem escopo derivada de funções de nível superior. Para obter mais informações sobre entradas de função sem escopo, consulte [Noções básicas sobre funções de gerenciamento](understanding-management-roles-exchange-2013-help.md).
 
 
-> [!NOTE]
+> [!NOTE]  
 > Se você quiser alterar uma entrada de função em uma função de gerenciamento que contenha cmdlets do Exchange, consulte <A href="change-a-role-entry-exchange-2013-help.md">Alterar uma entrada de função</A>.
-
-
 
 Procurando outras tarefas de gerenciamento relacionadas a funções? Consulte [Permissões avançadas](advanced-permissions-exchange-2013-help.md).
 
@@ -44,10 +40,8 @@ Procurando outras tarefas de gerenciamento relacionadas a funções? Consulte [P
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
-
-
 
 ## O que você deseja fazer?
 
@@ -61,16 +55,18 @@ O script deve residir no diretório Scripts no caminho de instalação do Micros
 
 Depois de copiar o script para os servidores apropriados do Exchange 2013 e decidir quais parâmetros do script devem ser usados, crie a entrada de função usando a sintaxe a seguir.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```
 
 Este exemplo adiciona o script BulkProvisionUsers.ps1 à função Scripts de TI com os parâmetros *Name* e *Location*.
 
-    Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```
 
-
-> [!NOTE]
+> [!NOTE]    
 > O cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> realiza uma validação básica para garantir que você tenha adicionado apenas os parâmetros existentes no script. Entretanto, nenhuma outra validação é realizada depois que a entrada de função for adicionada. Se parâmetros forem adicionados ou removidos posteriormente, você terá que atualizar manualmente as entradas de função que contenham o script.
-
 
 
 ## Adicionar uma entrada de função de cmdlet não-Exchange a uma função de nível superior sem escopo
@@ -83,17 +79,18 @@ Se você adicionar cmdlets que não sejam do Exchange à nova função, os cmdle
 
 Após instalar o snap-in do Windows PowerShell que contém os cmdlets nos servidores do Exchange 2013 apropriados e decidir quais parâmetros do cmdlet devem ser usados, crie a entrada de função usando a sintaxe a seguir.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```
 
 Este exemplo adiciona o cmdlet **Set-WidgetConfiguration** no snap-in Contoso.Admin.Cmdlets à função Widget Cmdlets com os parâmetros *Database* e *Size*.
 
-    Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```
 
-
-> [!NOTE]
+> [!NOTE]  
 > O cmdlet <STRONG>Add-ManagementRoleEntry</STRONG> realiza uma validação básica para garantir que você tenha adicionado apenas os parâmetros existentes no cmdlet. Entretanto, nenhuma outra validação é realizada depois que a entrada de função for adicionada. Se o cmdlet for alterado posteriormente, e se parâmetros forem adicionados ou removidos, você terá que atualizar manualmente as entradas de função que contenham o cmdlet.
-
-
 
 ## Outras tarefas
 
@@ -108,4 +105,3 @@ Após adicionar uma entrada de função ou uma função de nível superior sem e
 [Adicionar uma função a um usuário ou USG](add-a-role-to-a-user-or-usg-exchange-2013-help.md)
 
 [Remover uma função de um usuário ou USG](remove-a-role-from-a-user-or-usg-exchange-2013-help.md)
-

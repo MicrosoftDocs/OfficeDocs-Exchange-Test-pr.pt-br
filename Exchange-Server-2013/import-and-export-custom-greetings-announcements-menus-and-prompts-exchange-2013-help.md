@@ -63,23 +63,31 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a atendedores aut
 
 Este exemplo importa um arquivo chamado welcomegreeting. wav de d:\\UMPrompts para o de plano de discagem de Unificação de mensagens `MyUMDialPlan`de saudação bem-vindo.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```powershell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 Este exemplo importa o arquivo de saudação de boas-vindas denominado welcomegreeting. wav de d:\\UMPrompts para a Unificação de mensagens auto attendant `MyUMAutoAttendant`.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```powershell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 ## Use o Shell para exportar saudações personalizadas, anúncios, menus e prompts de UM planos de discagem e atendedores automáticos de um
 
 Este exemplo exporta a saudação de boas-vindas para o de plano de discagem de Unificação de mensagens `MyUMDialPlan` e salvará como o arquivo denominado welcomegreeting.
 
-    $prompt = Export-UMPrompt -PromptFileName "customgreeting.wav�? -UMDialPlan MyUMDialPlan
-    set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```powershell
+$prompt = Export-UMPrompt -PromptFileName "customgreeting.wav�? -UMDialPlan MyUMDialPlan
+set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
 Este exemplo exporta a saudação de boas-vindas do horário comercial para a Unificação de mensagens auto attendant `MYUMAutoAttendant` e salvará como o arquivo denominado BusinessHoursWelcomeGreeting.wav.
 
-    $prompt = Export-UMPrompt -BusinessHoursWelcomeGreeting -UMAutoAttendant MyUMAutoAttendant
-    set-content -Path "d:\UMPrompts\BusinessHoursWelcomeGreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```powershell
+$prompt = Export-UMPrompt -BusinessHoursWelcomeGreeting -UMAutoAttendant MyUMAutoAttendant
+set-content -Path "d:\UMPrompts\BusinessHoursWelcomeGreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 

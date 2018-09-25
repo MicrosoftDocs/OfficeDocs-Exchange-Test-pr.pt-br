@@ -235,26 +235,32 @@ Para todos os limites de tamanho de mensagem, você precisa definir valores que 
 
 1.  Abra os arquivos Web. config apropriados no bloco de notas. Por exemplo, para abrir os arquivos Web. config para os clientes Serviços Web do Exchange, execute os seguintes comandos:
     
+    ```powershell
         Notepad %ExchangeInstallPath%ClientAccess\exchweb\ews\web.config
         Notepad %ExchangeInstallPath%FrontEnd\HttpProxy\ews\web.config
+    ```
 
 2.  Encontre as chaves relevantes nos arquivos Web. config apropriado conforme descrito nas tabelas anteriormente no tópico. Por exemplo, para clientes Serviços Web do Exchange, encontre a chave *maxAllowedContentLength* nos arquivos e todas as instâncias de 14 do valor `maxReceivedMessageSize="67108864"` no arquivo de `web.config` nos servidores de caixa de correio.
     
+    ```powershell
         <requestLimits maxAllowedContentLength="67108864" />
         ...maxReceivedMessageSize="67108864"...
-    
+    ```
+
     Por exemplo, para permitir um tamanho máximo de mensagem com codificação Base64 de aproximadamente 64 MB, altere todas as instâncias de `67108864` para `89478486` (64\*4/3\*1048756):
     
+    ```powershell
         <requestLimits maxAllowedContentLength="89478486" />
         ...maxReceivedMessageSize="89478486"...
+    ```
 
 3.  Quando tiver terminado, salve e feche os arquivos Web. config.
 
 4.  Reinicie o IIS executando o seguinte comando:
     
     ```powershell
-IISReset /noforce
-```
+    IISReset /noforce
+    ```
 
 ## Configurar os limites de tamanho de mensagem específicos para o cliente da linha de comando
 
@@ -268,14 +274,17 @@ Em vez de usar o bloco de notas, você também pode configurar os limites de tam
 
 **ActiveSync**
 
+```powershell
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/Microsoft-Server-ActiveSync/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:30000000
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/Microsoft-Server-ActiveSync/" -section:system.web/httpRuntime /maxRequestLength:10240
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/Microsoft-Server-ActiveSync/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:30000000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/Microsoft-Server-ActiveSync/" -section:system.web/httpRuntime /maxRequestLength:10240
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/Microsoft-Server-ActiveSync/" -section:appSettings /[key='MaxDocumentDataSize'].value:10240000
+```
 
 **Serviços Web do Exchange**
 
+```powershell
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/ews/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /customBinding.[name='EWSAnonymousHttpsBinding'].httpsTransport.maxReceivedMessageSize:67108864
@@ -292,9 +301,11 @@ Em vez de usar o bloco de notas, você também pode configurar os limites de tam
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /customBinding.[name='EWSWSSecurityX509CertHttpBinding'].httpTransport.maxReceivedMessageSize:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /webHttpBinding.[name='EWSStreamingNegotiateHttpsBinding'].maxReceivedMessageSize:67108864
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/ews/" -section:system.serviceModel/bindings /webHttpBinding.[name='EWSStreamingNegotiateHttpBinding'].maxReceivedMessageSize:67108864
+```
 
 **Outlook Web App**
 
+```powershell
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/owa/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:35000000
     %windir%\system32\inetsrv\appcmd.exe set config "Default Web Site/owa/" -section:system.web/httpRuntime /maxRequestLength:35000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.webServer/security/requestFiltering /requestLimits.maxAllowedContentLength:35000000
@@ -303,6 +314,7 @@ Em vez de usar o bloco de notas, você também pode configurar os limites de tam
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.serviceModel/bindings /webHttpBinding.[name='httpBinding'].maxReceivedMessageSize:35000000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.serviceModel/bindings /webHttpBinding.[name='httpsBinding'].readerQuotas.maxStringContentLength:35000000
     %windir%\system32\inetsrv\appcmd.exe set config "Exchange Back End/owa/" -section:system.serviceModel/bindings /webHttpBinding.[name='httpBinding'].readerQuotas.maxStringContentLength:35000000
+```
 
 ## Como saber se funcionou?
 

@@ -66,8 +66,8 @@ Para verificar que você com êxito habilitada ou desabilitada geração de mét
 1.  Execute o seguinte comando:
     
     ```powershell
-Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
-```
+    Get-MailboxServer <ServerIdentity> | Format-List ForceGroupMetricsGeneration
+    ```
 
 2.  Verifique se a configuração exibida é a configuração que você configurou.
 

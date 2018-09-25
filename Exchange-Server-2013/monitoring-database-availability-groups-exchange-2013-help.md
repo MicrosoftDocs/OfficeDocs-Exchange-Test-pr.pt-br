@@ -369,13 +369,17 @@ O script suporta parâmetros que permitem personalizar seu comportamento e sua s
 
 Este exemplo coleta métricas para todos os bancos de dados que correspondem a DB\* (o que inclui um caractere curinga) no DAG DAG1. Depois da coleta das métricas, um relatório HTML é gerado e exibido.
 
+```powershell
     CollectOverMetrics.ps1 -DatabaseAvailabilityGroup DAG1 -Database:"DB*" -GenerateHTMLReport -ShowHTMLReport
+```
 
 Os seguintes exemplos demonstram maneiras de filtrar o relatório HTML resumido. O primeiro usa o parâmetro *Database*, que recebe uma lista de nomes de bancos de dados. O relatório resumido resultante conterá dados apenas sobre esses bancos de dados. Os dois próximos exemplos usam a opção *ReportFilter*. O último exemplo filtra todos os bancos de dados padrão.
 
+```powershell
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -Database MailboxDatabase123,MailboxDatabase456
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { $_.DatabaseName -notlike "Mailbox Database*" }
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { ($_.ActiveOnStart -like "ServerXYZ*") -and ($_.ActiveOnEnd -notlike "ServerXYZ*") }
+```
 
 ## Script CollectReplicationMetrics.ps1
 
@@ -462,5 +466,7 @@ CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:
 
 O seguinte exemplo lê os dados de todos os arquivos que correspondem a CounterData\* e gera um relatório resumido.
 
+```powershell
     CollectReplicationMetrics.ps1 -SummariseFiles (dir CounterData*) -Mode ProcessOnly -ReportPath
+```
 

@@ -53,35 +53,47 @@ Quando você exporta uma mensagem de uma fila para um arquivo, a mensagem não �
 
 Para exportar uma mensagem a partir de um fila específica, execute o seguinte comando:
 
-    Export-Message -Identity <MessageIdentity> | AssembleMessage -Path <FilePath>\<FileName>.eml
+```powershell
+Export-Message -Identity <MessageIdentity> | AssembleMessage -Path <FilePath>\<FileName>.eml
+```
 
 Este exemplo exporta uma cópia da mensagem que possui o valor de **InternalMessageID** 1234 que está localizada no servidor chamado Mailbox01 para o arquivo nomeado export.eml in no caminho D:\\Contoso Export.
 
-    Export-Message -Identity Exchange01\Contoso.com\1234 | AssembleMessage -Path "D:\Contoso Export\export.eml"
+```powershell
+Export-Message -Identity Exchange01\Contoso.com\1234 | AssembleMessage -Path "D:\Contoso Export\export.eml"
+```
 
 ## Usar o Shell para exportar todas as mensagens de uma fila específica
 
 Para exportar todas as mensagens a partir de uma fila específica e usar o valor de **InternetMessageID** de cada mensagem como o nome do arquivo, use a sintaxe a seguir.
 
-    Get-Message -Queue <QueueIdentity> | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Queue <QueueIdentity> | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Observe que o valor de **InternetMessageID** contém parênteses (\> e \<), que precisam ser removidos por não serem permitidos nos nomes do arquivo.
 
 Este exemplo exporta uma cópia de todas as mensagens da fila de entrega do contoso.com no servidor de nome Mailbox01 para o diretório local de nome D:\\Contoso Export.
 
-    Get-Message -Queue Mailbox01\Contoso.com | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Queue Mailbox01\Contoso.com | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 ## Usar o Shell para exportar mensagens específicas de todas as filas de um servidor
 
 Para exportar mensagens específicas de todas as filas em um servidor e usar o valor de **InternetMessageID** de cada mensagem como o nome de arquivo, use a sintaxe a seguir.
 
-    Get-Message -Filter {<MessageFilter>} [-Server <ServerIdentity>] | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Filter {<MessageFilter>} [-Server <ServerIdentity>] | ForEach-Object {$Temp=<Path>+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 Observe que o valor de **InternetMessageID** contém parênteses (\> e \<), que precisam ser removidos por não serem permitidos nos nomes do arquivo.
 
 Este exemplo exporta uma cópia de todas as mensagens dos remetentes no domínio contoso.com a partir de todas as filas no servidor de nome Mailbox01 para o diretório local de nome D:\\Contoso Export.
 
-    Get-Message -Filter {FromAddress -like "*@contoso.com"} -Server Mailbox01 | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```powershell
+Get-Message -Filter {FromAddress -like "*@contoso.com"} -Server Mailbox01 | ForEach-Object {$Temp="D:\Contoso Export\"+$_.InternetMessageID+".eml";$Temp=$Temp.Replace("<","_");$Temp=$Temp.Replace(">","_");Export-Message $_.Identity | AssembleMessage -Path $Temp}
+```
 
 
 > [!NOTE]

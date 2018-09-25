@@ -32,7 +32,7 @@ A funcionalidade de ID de remetente é fornecida pelo agente ID do Remetente. A 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -54,7 +54,7 @@ Set-SenderIDConfig -Enabled $true
 ```
 
 
-> [!NOTE]
+> [!NOTE]  
 > Quando você desabilita a ID de Remetente, o agente de ID de Remetente subjacente permanece habilitado. Para desabilitar o agente de ID de Remetente, execute o comando: <CODE>Disable-TransportAgent "Sender ID Agent"</CODE>.
 
 
@@ -66,8 +66,8 @@ Para verificar se você habilitou ou desabilitou com êxito a ID de Remetente, f
 1.  Execute o seguinte comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List Enabled
-```
+    Get-SenderIDConfig | Format-List Enabled
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -92,8 +92,8 @@ Para verificar se você configurou com êxito a ação da ID de Remetente para a
 1.  Execute o seguinte comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List SpoofedDomainAction
-```
+    Get-SenderIDConfig | Format-List SpoofedDomainAction
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -120,8 +120,8 @@ Para verificar se você configurou com êxito a ação da ID de Remetente para e
 1.  Execute o seguinte comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List TempErrorAction
-```
+    Get-SenderIDConfig | Format-List TempErrorAction
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -129,15 +129,21 @@ Get-SenderIDConfig | Format-List TempErrorAction
 
 Para substituir os valores existentes, execute o seguinte comando:
 
-    Set-SenderIDConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenderDomains <domain1,domain2...>
+```powershell
+Set-SenderIDConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 Este exemplo configura o agente da ID de Remetente para ignorar a verificação da ID de Remetente para as mensagens enviadas para kim@contoso.com e john@contoso.com e para ignorar a verificação da ID de Remetente para mensagens enviadas do domínio fabrikam.com.
 
-    Set-SenderIDConfig -BypassedRecipients kim@contoso.com,john@contoso.com -BypassedSenderDomains fabrikam.com
+```powershell
+Set-SenderIDConfig -BypassedRecipients kim@contoso.com,john@contoso.com -BypassedSenderDomains fabrikam.com
+```
 
 Para adicionar ou remover entradas sem modificar quaisquer valores existentes, execute este comando:
 
-    Set-SenderIDConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```powershell
+Set-SenderIDConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 Este exemplo configura o agente da ID de Remetente com as seguintes informações:
 
@@ -147,7 +153,9 @@ Este exemplo configura o agente da ID de Remetente com as seguintes informaçõe
 
 <!-- end list -->
 
-    Set-SenderIDConfig -BypassedRecipients @{Add="chris@contoso.com","michelle@contoso.com"} -BypassedSenderDomains @{Remove="tailspintoys.com"}
+```powershell
+Set-SenderIDConfig -BypassedRecipients @{Add="chris@contoso.com","michelle@contoso.com"} -BypassedSenderDomains @{Remove="tailspintoys.com"}
+```
 
 ## Como saber se funcionou?
 
@@ -156,8 +164,7 @@ Para verificar se você configurou com êxito as exceções de domínios de dest
 1.  Execute o seguinte comando:
     
     ```powershell
-Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
-```
+    Get-SenderIDConfig | Format-List BypassedRecipients,BypassedSenderDomains
+    ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
-

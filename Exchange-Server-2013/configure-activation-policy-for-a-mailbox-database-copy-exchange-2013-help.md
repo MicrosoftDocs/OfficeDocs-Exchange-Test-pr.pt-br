@@ -39,15 +39,11 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 ## Usar o EAC para configurar a política de ativação para uma cópia de banco de dados de caixa de correio
 
-1.  
-    
-    Na EAC, vá até **Servidores** \> **Bancos de dados**.
+1.  Na EAC, vá até **Servidores** \> **Bancos de dados**.
 
 2.  Selecione os bancos de dados que você deseja configurar.
 
-3.  
-    
-    No painel Detalhes, em **Cópias de Banco de Dados**, localize a cópia de banco de dados que você deseja configurar e clique em **Suspender**.
+3.  No painel Detalhes, em **Cópias de Banco de Dados**, localize a cópia de banco de dados que você deseja configurar e clique em **Suspender**.
 
 4.  Opcionalmente, adicione um comentário e marque a caixa que diz **Esta cópia pode ser ativada somente por intervenção manual**.
 
@@ -98,12 +94,12 @@ Para verificar se você configurou com êxito a política de ativação, faça o
   - No Shell, execute o seguinte comando, para verificar as configurações de ativação para uma cópia do banco de dados.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```
 
   - No Shell, execute o seguinte comando, para verificar as configurações de ativação para um membro do DAG.
     
     ```powershell
-Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
-```
+    Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```
 

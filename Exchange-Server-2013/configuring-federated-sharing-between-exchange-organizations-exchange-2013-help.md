@@ -92,7 +92,9 @@ Conclua as etapas em [Configurar o compartilhamento federado](configure-federate
         
         Para configurar o espaço de endereçamento de disponibilidade, no servidor de Acesso para Cliente do Exchange 2010 na organização do Exchange 2007, execute este comando no Shell de Gerenciamento do Exchange:
         
-            Add-AvailabilityAddressSpace -AccessMethod InternalProxy -ProxyUrl https://<Exchange 2010 CAS server name>/ews/exchange.asmx -ForestName <SMTP domain of the remote Exchange organization> -UseServiceAccount $True
+          ```powershell
+          Add-AvailabilityAddressSpace -AccessMethod InternalProxy -ProxyUrl https://<Exchange 2010 CAS server name>/ews/exchange.asmx -ForestName <SMTP domain of the remote Exchange organization> -UseServiceAccount $True
+          ```
         
         Para detalhadas sobre sintaxe e informações de parâmetro, consulte Add-AvailabilityAddressSpacede [](https://go.microsoft.com/fwlink/p/?linkid=268413)
 
