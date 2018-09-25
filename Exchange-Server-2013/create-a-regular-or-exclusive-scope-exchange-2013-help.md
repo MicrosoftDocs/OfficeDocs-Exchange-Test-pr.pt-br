@@ -65,11 +65,15 @@ Para obter mais informações sobre filtros de escopo de gerenciamento, consulte
 
 Use a seguinte sintaxe para criar um escopo de filtro de restrição de domínio com uma UO de base.
 
-    New-ManagementScope -Name <scope name> -RecipientRestrictionFilter <filter query> [-RecipientRoot <OU>]
+```powershell
+New-ManagementScope -Name <scope name> -RecipientRestrictionFilter <filter query> [-RecipientRoot <OU>]
+```
 
 Este exemplo cria um escopo que inclui todas as caixas de correio dentro do contoso.com/Sales UO.
 
-    New-ManagementScope -Name "Mailboxes in Sales OU" -RecipientRestrictionFilter { RecipientType -eq 'UserMailbox' } -RecipientRoot "contoso.com/Sales OU"
+```powershell
+New-ManagementScope -Name "Mailboxes in Sales OU" -RecipientRestrictionFilter { RecipientType -eq 'UserMailbox' } -RecipientRoot "contoso.com/Sales OU"
+```
 
 
 > [!NOTE]  
@@ -93,7 +97,9 @@ New-ManagementScope -Name <scope name> -ServerRestrictionFilter <filter query>
 
 Este exemplo cria um escopo que inclui todos os servidores dentro do ' CN = Redmond, CN = Sites, CN = Configuration, DC = contoso, DC = com' site do AD (Active Directory ).
 
-    New-ManagementScope -Name "Servers in Seattle AD site" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+```powershell
+New-ManagementScope -Name "Servers in Seattle AD site" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementScope](https://technet.microsoft.com/pt-br/library/dd335137\(v=exchg.150\)).
 
@@ -135,7 +141,9 @@ New-ManagementScope -Name <scope name> -DatabaseRestrictionFilter <filter query>
 
 Este exemplo cria um escopo que inclui todos os bancos de dados que contêm a cadeia de caracteres "Executivo" na propriedade **Name** do banco de dados.
 
-    New-ManagementScope -Name "Executive Databases" -DatabaseRestrictionFilter { Name -Like '*Executive*' }
+```powershell
+New-ManagementScope -Name "Executive Databases" -DatabaseRestrictionFilter { Name -Like '*Executive*' }
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementScope](https://technet.microsoft.com/pt-br/library/dd335137\(v=exchg.150\)).
 
@@ -175,11 +183,15 @@ Qualquer escopo que você criou com o cmdlet **New-ManagementScope** pode ser de
 
 Este exemplo cria um destinatário baseado em filtro escopo exclusivo que corresponde a qualquer usuário do departamento de executivos.
 
-    New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive
+```powershell
+New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive
+```
 
 Por padrão, quando um escopo exclusivo é criado, é necessário que reconhece que você criou um escopo exclusivo e que você esteja ciente do impacto que um escopo exclusivo tem sobre atribuições de função existente que não são exclusivas. Se você quiser suprime o aviso, você pode usar a opção *Force* . Este exemplo cria o mesmo escopo, como no exemplo anterior, mas sem aviso.
 
-    New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive -Force
+```powershell
+New-ManagementScope "Executive Users Exclusive Scope" -RecipientRestrictionFilter { Department -Eq "Executives" } -Exclusive -Force
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementScope](https://technet.microsoft.com/pt-br/library/dd335137\(v=exchg.150\)).
 

@@ -57,9 +57,9 @@ Para verificar se você removeu com êxito o relacionamento de organização, pr
 
   - Execute o seguinte comando do Shell para verificar se as informações de relacionamento da organização foram removidas.
     
-    ```powershell
-Get-OrganizationRelationship | Format-List
-```
+  ```powershell
+  Get-OrganizationRelationship | Format-List
+  ```
 
 
 > [!TIP]

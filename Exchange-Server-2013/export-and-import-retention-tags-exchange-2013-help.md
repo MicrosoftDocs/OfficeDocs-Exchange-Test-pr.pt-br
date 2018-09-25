@@ -64,8 +64,8 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas ao MRM (Gerenciam
 1.  Execute este comando Shell de Gerenciamento do Exchange para alterar o diretório para a subpasta de **Scripts** no seu caminho de instalação Exchange.
     
     ```powershell
-Cd $Env:ExchangeInstallPath\Scripts
-```
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Execute o script Export-RetentionTags.ps1 para exportar as marcas de retenção para um arquivo .xml.
     
@@ -75,8 +75,8 @@ Cd $Env:ExchangeInstallPath\Scripts
 
     
     ```powershell
-.\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
-```
+    .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## Como saber se funcionou?
 
@@ -91,8 +91,8 @@ Para confirmar se você exportou as marcas de retenção e as políticas de rete
 1.  Execute este comando Shell de Gerenciamento do Exchange para alterar o diretório para a subpasta de **Scripts** no seu caminho de instalação Exchange.
     
     ```powershell
-Cd $Env:ExchangeInstallPath\Scripts
-```
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Execute o script Import-RetentionTags.ps1 para importar as marcas de retenção de um arquivo .xml exportado anteriormente.
     
@@ -107,8 +107,8 @@ Cd $Env:ExchangeInstallPath\Scripts
 
     
     ```powershell
-.\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
-```
+    .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## Como saber se funcionou?
 

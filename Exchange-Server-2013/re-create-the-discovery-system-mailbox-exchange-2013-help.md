@@ -36,22 +36,20 @@ No entanto, se a caixa de correio do sistema de descoberta for excluída acident
 2.  Use o Shell para habilitar a caixa de correio do sistema de descoberta.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Você não pode usar o EAC para habilitar a caixa de correio do sistema de descoberta.<BR>O comando a seguir deve ser executado do mesmo diretório onde você extraiu da mídia de instalação do Exchange.
 
     
     Para recriar a caixa de correio do sistema de descoberta, execute o seguinte comando:
     
     ```powershell
-.\Setup /preparead /IAcceptExchangeServerLicenseTerms
-```
+    .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Como saber se funcionou?
 
 Para verificar se você criou com êxito novamente a caixa de correio do sistema de descoberta, use o cmdlet **Get-Mailbox** com a opção *Arbitration* para recuperar caixas de correio do sistema. Exiba os resultados do comando para verificar se a caixa de correio do sistema `SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}` foi criado novamente.
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
-
-

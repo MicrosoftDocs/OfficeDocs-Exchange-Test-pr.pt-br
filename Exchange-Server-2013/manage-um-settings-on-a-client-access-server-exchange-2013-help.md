@@ -61,7 +61,9 @@ Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClient
 
 Esse exemplo define a porta de escuta de protocolo TCP SIP como 5077 e o modo de inicialização como modo Dual em um servidor de Acesso para Cliente chamado `MyClientAccessServer`.
 
+```powershell
     Set-UMCallRouterSettings  -Server MyClientAccessServer-SipTCPListeningPort 5077 -UMStartUpMode -Dual 
+```
 
 ## Use o Shell para visualizar as propriedades do servidor de Acesso para Cliente
 

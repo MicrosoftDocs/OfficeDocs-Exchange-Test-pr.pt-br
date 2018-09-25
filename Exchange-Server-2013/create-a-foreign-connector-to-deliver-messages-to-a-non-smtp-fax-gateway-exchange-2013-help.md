@@ -49,7 +49,9 @@ Interessado em cenários em que esse procedimento é usado? Consulte os seguinte
 
 1.  Execute o seguinte comando para criar o conector estrangeiro:
     
-        New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
+      ```powershell
+      New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
+      ```
     
     Neste exemplo, Hub01 e Hub02 são servidores de origem em sua organização que você designa para enviar mensagens ao sistema estrangeiro. O uso de mais de um servidor de origem oferece tolerância a falhas.
 
@@ -73,7 +75,7 @@ Você cria um diretório para usar como diretório de recebimento em seu sistema
 
 1.  Execute o seguinte script para especificar o diretório de recebimento de seu conector estrangeiro (mude o valor do parâmetro *DropDirectory* para um caminho apropriado ao seu ambiente):
     
-    ```powershell
+```powershell
 Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
 ```
 

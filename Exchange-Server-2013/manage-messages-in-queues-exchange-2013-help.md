@@ -61,7 +61,9 @@ Uma mensagem enviada para vários destinatários pode estar localizada em mais d
 
 Para remover mensagens de filas, use a seguinte sintaxe.
 
-    Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
+```powershell
+Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
+```
 
 Este exemplo remove mensagens nas filas com o assunto "Win Big" sem enviar uma notificação de falha na entrega.
 
@@ -117,7 +119,9 @@ Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 
 Este exemplo retoma todas as mensagens que estão sendo enviadas de qualquer remetente no domínio Contoso.com.
 
-    Resume-Message -Filter {FromAddress -eq "*contoso.com"}
+```powershell
+Resume-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 Este exemplo retoma a mensagem com o ID de mensagem 3 na fila inacessível no servidor Hub01.
 
@@ -163,7 +167,9 @@ Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
 
 Este exemplo suspende todas as mensagens nas filas que provêm de qualquer remetente no domínio contoso.com.
 
-    Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
+```powershell
+Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 Este exemplo suspende a mensagem com a ID de mensagem 3 da fila que não pode ser acessada no servidor Mailbox01:
 

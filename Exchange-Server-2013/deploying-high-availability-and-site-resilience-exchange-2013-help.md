@@ -172,11 +172,15 @@ O administrador decidiu criar um script de interface de linha de comando do Win
 
 Os seguintes comandos são usados no script:
 
-    New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer CAS1 -WitnessDirectory C:\DAGWitness\DAG1.contoso.com -DatabaseAvailabilityGroupIPAddresses 192.168.1.8,192.168.2.8
+```powershell
+New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer CAS1 -WitnessDirectory C:\DAGWitness\DAG1.contoso.com -DatabaseAvailabilityGroupIPAddresses 192.168.1.8,192.168.2.8
+```
 
 O comando anterior cria um DAG chamado DAG1, configura o CAS1 para agir como servidor testemunha, configura um diretório testemunha específico (C:\\DAGWitness\\DAG1.contoso.com) e configura dois endereços IP para o DAG (um para cada sub-rede na rede MAPI).
 
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGWitness\DAG1.contoso.com -AlternateWitnessServer CAS4
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory C:\DAGWitness\DAG1.contoso.com -AlternateWitnessServer CAS4
+```
 
 O comando anterior configura o DAG1 para usar um servidor testemunha alternativo CAS4 e um diretório testemunha alternativo no CAS4 que usa o mesmo caminho configurado no CAS1.
 
@@ -184,12 +188,12 @@ O comando anterior configura o DAG1 para usar um servidor testemunha alternativo
 > [!NOTE]
 > Não é necessário usar o mesmo caminho; a Contoso optou por fazer isso para padronizar a configuração.
 
-
-
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX3
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX2
-    Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX4
+```powershell
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX1
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX3
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX2
+Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer MBX4
+```
 
 Os comandos anteriores adicionam cada um dos servidores de caixa de correio, um de cada vez, ao DAG. Os comandos também instalam o componente de Cluster de Failover do Windows em cada servidor de caixa de correio (caso ainda não esteja instalado), cria um cluster de failover e ingressa cada servidor de caixa de correio no cluster recém-criado.
 
@@ -217,39 +221,48 @@ Para criar essa configuração, o administrador executa vários comandos.
 
 No MBX1, execute os seguintes comandos.
 
-    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX2
-    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX4
-    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ReplayLagTime 3.00:00:00 -SeedingPostponed
-    Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -SuspendComment "Seed from MBX4" -Confirm:$False
-    Update-MailboxDatabaseCopy -Identity DB1\MBX3 -SourceServer MBX4
-    Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -ActivationOnly
+
+```powershell
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX2
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX4
+Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -ReplayLagTime 3.00:00:00 -SeedingPostponed
+Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -SuspendComment "Seed from MBX4" -Confirm:$False
+Update-MailboxDatabaseCopy -Identity DB1\MBX3 -SourceServer MBX4
+Suspend-MailboxDatabaseCopy -Identity DB1\MBX3 -ActivationOnly
+```
 
 No MBX2, execute os seguintes comandos.
 
-    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX1
-    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX3
-    Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ReplayLagTime 3.00:00:00 -SeedingPostponed
-    Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -SuspendComment "Seed from MBX3" -Confirm:$False
-    Update-MailboxDatabaseCopy -Identity DB2\MBX4 -SourceServer MBX3
-    Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -ActivationOnly
+```powershell
+Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX1
+Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX3
+Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ReplayLagTime 3.00:00:00 -SeedingPostponed
+Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -SuspendComment "Seed from MBX3" -Confirm:$False
+Update-MailboxDatabaseCopy -Identity DB2\MBX4 -SourceServer MBX3
+Suspend-MailboxDatabaseCopy -Identity DB2\MBX4 -ActivationOnly
+```
 
 No MBX3, execute os seguintes comandos.
 
-    Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX4
-    Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX2
-    Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00 -SeedingPostponed
-    Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -SuspendComment "Seed from MBX2" -Confirm:$False
-    Update-MailboxDatabaseCopy -Identity DB3\MBX1 -SourceServer MBX2
-    Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -ActivationOnly
+```powershell
+Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX4
+Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX2
+Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX1 -ReplayLagTime 3.00:00:00 -SeedingPostponed
+Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -SuspendComment "Seed from MBX2" -Confirm:$False
+Update-MailboxDatabaseCopy -Identity DB3\MBX1 -SourceServer MBX2
+Suspend-MailboxDatabaseCopy -Identity DB3\MBX1 -ActivationOnly
+```
 
 No MBX3, execute os seguintes comandos.
 
-    Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX3
-    Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX1
-    Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX2 -ReplayLagTime 3.00:00:00 -SeedingPostponed
-    Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -SuspendComment "Seed from MBX1" -Confirm:$False
-    Update-MailboxDatabaseCopy -Identity DB4\MBX2 -SourceServer MBX1
-    Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -ActivationOnly
+```powershell
+Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX3
+Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX1
+Add-MailboxDatabaseCopy -Identity DB4 -MailboxServer MBX2 -ReplayLagTime 3.00:00:00 -SeedingPostponed
+Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -SuspendComment "Seed from MBX1" -Confirm:$False
+Update-MailboxDatabaseCopy -Identity DB4\MBX2 -SourceServer MBX1
+Suspend-MailboxDatabaseCopy -Identity DB4\MBX2 -ActivationOnly
+```
 
 Nos exemplos anteriores para o cmdlet **Add-MailboxDatabaseCopy**, o parâmetro *ActivationPreference* não foi especificado. A tarefa incrementa automaticamente o número de preferência de ativação a cada cópia adicionada. O banco de dados original sempre tem um número de preferência igual a 1. A primeira cópia adicionada com o cmdlet **Add-MailboxDatabaseCopy** recebe automaticamente um número de preferência igual a 2. Presumindo que nenhuma cópia seja removida, a próxima cópia adicionada recebe o número 3, e assim por diante. Logo, nos exemplos anteriores, a cópia passiva no mesmo datacenter da cópia ativa tem número de preferência de ativação 2; a cópia passiva sem atraso no datacenter remoto tem número de preferência de ativação 3, e a cópia passiva com atraso no datacenter remoto tem número de preferência de ativação 4.
 

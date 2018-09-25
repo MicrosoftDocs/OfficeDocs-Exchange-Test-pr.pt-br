@@ -110,28 +110,34 @@ Você pode editar a política de compartilhamento padrão para permitir que todo
   - Este exemplo cria a política de compartilhamento Contoso para o domínio externo federado contoso.com. Essa política permite que os usuários do domínio contoso.com visualizem informações detalhadas de disponibilidade de calendário do usuário. Por padrão, essa diretiva está habilitada.
     
     ```powershell
-New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
-```
+      New-SharingPolicy -Name "Contoso" -Domains contoso.com: CalendarSharingFreeBusyDetail
+    ```
 
   - Este exemplo cria a política de compartilhamento ContosoWoodgrove para dois domínios federados diferentes (contoso.com e woodgrovebank.com) com deferentes ações de compartilhamento configuradas para cada domínio. A política é desabilitada.
     
-        New-SharingPolicy -Name "ContosoWoodgrove" -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'woodgrovebank.com: CalendarSharingFreeBusyDetail -Enabled $false
+    ```powershell
+      New-SharingPolicy -Name "ContosoWoodgrove" -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'woodgrovebank.com: CalendarSharingFreeBusyDetail -Enabled $false
+    ```
 
   - Este exemplo cria a política de compartilhamento Anonymous para uma organização do Exchange com o servidor de Acesso para Cliente CAS01 e o servidor de Caixa de Correio MAIL01 com a ação de compartilhamento configurada para informações de disponibilidade de calendário limitadas. Essa política permite que usuários em sua organização do Exchange convidem usuários com acesso à Internet para visualizar suas informações de disponibilidade de calendário enviando a eles um link. A política é habilitada.
     
     1.  Defina o URL do proxy Web para MAIL01.
         
         ```powershell
-Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
-```
+          Set-ExchangeServer -Identity "Mail01" -InternetWebProxy "<Webproxy URL>"
+        ```
     
     2.  Permitir a publicação do diretório virtual no CAS01.
         
-            Set-OwaVirtualDirectory -Identity "CAS01" -ExternalURL "<URL for CAS01>" -CalendarPublishingEnabled $true
-    
+        ```powershell
+          et-OwaVirtualDirectory -Identity "CAS01" -ExternalURL "<URL for CAS01>" -CalendarPublishingEnabled $true
+        ```
+
     3.  Criar a política de compartilhamento Anônima e configurar o compartilhamento de informações de calendário limitado.
         
-            New-SharingPolicy -Name "Anonymous" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+        ```powershell
+          New-SharingPolicy -Name "Anonymous" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+        ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 
@@ -146,7 +152,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
 Para verificar se você criou a política de compartilhamento com êxito, execute o seguinte comando do Shell, para verificar as informações de política de compartilhamento.
 
 ```powershell
-Get-SharingPolicy <policy name> | format-list
+  Get-SharingPolicy <policy name> | format-list
 ```
 
 

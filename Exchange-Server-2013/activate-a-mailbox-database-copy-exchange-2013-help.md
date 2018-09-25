@@ -99,9 +99,9 @@ Para verificar se você ativou com êxito uma cópia do banco de dados de caixa 
 
   - No Shell, execute este comando para mostrar informações de status para uma cópia do banco de dados.
     
-    ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+  ```powershell
+  Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+  ```
 
 ## Para saber mais
 

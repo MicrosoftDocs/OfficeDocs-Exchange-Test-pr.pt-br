@@ -55,9 +55,12 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a servidores de C
 
 Este exemplo permite que um servidor de Caixa de Correio `UMMBXr-05x.contoso.com` atenda sua chamada de voz, fax, chamadas de atendedor automático e do Outlook Voice Access a partir de gateways VoIP, PBXs IP, PBXs habilitados para SIP e SBCs, além de gravar a alteração no registro no servidor UMMBX-05x .
 
+```powershell
     Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```
 
 Este exemplo evita que um servidor de Caixa de Correio `UMMBX-05x.contoso.com` atenda sua chamada de voz, fax, chamadas de atendedor automático e do Outlook Voice Access a partir de gateways VoIP, PBXs IP, PBXs habilitados para SIP e SBCs, além de gravar a alteração apenas no Active Directory.
 
+```powershell
     Set-ServerComponentState -Component UnifiedMessaging -Identity UMMBX-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
-
+```

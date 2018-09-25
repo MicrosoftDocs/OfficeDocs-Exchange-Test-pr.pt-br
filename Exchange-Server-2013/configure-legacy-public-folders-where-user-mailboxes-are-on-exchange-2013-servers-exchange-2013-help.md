@@ -43,13 +43,15 @@ Usuários cujas caixas postais estão no Exchange Server 2013 ou Exchange Server
     
     Para o Exchange 2010, execute o seguinte comando. Este comando exclui o banco de dados de caixa de correio do balanceador de carga de provisionamento de caixa de correio. Isso evita que novas caixas de correio sejam automaticamente adicionadas a esse banco de dados.
     
-        New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true 
+    ```powershell
+    New-MailboxDatabase -Server <PFServerName_with_CASRole> -Name <NewMDBforPFs> -IsExcludedFromProvisioning $true 
+    ```
     
     Para o Exchange 2007, execute o seguinte comando:
     
     ```powershell
-New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
-```
+    New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBforPFs>
+    ```
     
 
     > [!NOTE]
@@ -59,20 +61,19 @@ New-MailboxDatabase -StorageGroup "<PFServerName>\StorageGroup>" -Name <NewMDBfo
 
 3.  Crie uma caixa de correio de proxy no novo banco de dados de caixa de correio e oculte a caixa de correio do catálogo de endereços. O SMTP desta caixa de correio será devolvido pela Descoberta Automática como o SMTP *DefaultPublicFolderMailbox*, de modo que, ao resolver esse SMTP, o cliente possa acessar o servidor Exchange herdado para acesso à pasta pública.
     
-    ```
-        New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
-    ```
-    ```    
     ```powershell
-Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
-```
+    New-Mailbox -Name <PFMailbox1> -Database <NewMDBforPFs> 
+    ```
+    
+    ```powershell
+    Set-Mailbox -Identity <PFMailbox1> -HiddenFromAddressListsEnabled $true
     ```
 
 4.  Para o Exchange 2010, habilite a Descoberta Automática para retornar as caixas de correio de pasta pública de proxy. Esta etapa não é necessária para o Exchange 2007.
     
     ```powershell
-Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
-```
+    Set-MailboxDatabase <NewMDBforPFs> -RPCClientAccessServer <PFServerName_with_CASRole>
+    ```
 
 5.  Repita as etapas anteriores para cada servidor de pasta pública em sua organização.
 
@@ -82,7 +83,9 @@ A etapa final deste procedimento é configurar as caixas de correio de usuário 
 
 Permita que os usuários locais do Exchange Server 2013 acessem as pastas públicas herdadas. Você apontará para todas as caixas de correio de pasta pública de proxy que criou na [Step 2: Make remote public folders discoverable](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/set-up-legacy-hybrid-public-folders). Execute o seguinte comando a partir de um servidor do Exchange 2013 com a CU5 ou a atualização mais recente.
 
-    Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
+```powershell
+Set-OrganizationConfig -PublicFoldersEnabled Remote -RemotePublicFolderMailboxes ProxyMailbox1,ProxyMailbox2,ProxyMailbox3
+```
 
 
 > [!NOTE]

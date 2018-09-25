@@ -46,7 +46,8 @@ Por padrão, você não poderá selecionar esses campos no Microsoft Outlook. Pa
 ## Etapa 1: use o bloco de notas para criar um formulário personalizado do Outlook
 
 1.  Abra o bloco de notas e copie o seguinte código no documento.
-    
+
+    ```powershell
         [Description]
         MessageClass=IPM.Note
         CLSID={00020D31-0000-0000-C000-000000000046}
@@ -117,6 +118,7 @@ Por padrão, você não poderá selecionar esses campos no Microsoft Outlook. Pa
         NmidPropset={00020D0C-0000-0000-C000-000000000046}
         NmidInteger=1
         Value=1000000000000000
+    ```
 
 2.  Salve o arquivo na pasta Office Forms usando os seguintes valores:
     
@@ -132,8 +134,9 @@ Por padrão, você não poderá selecionar esses campos no Microsoft Outlook. Pa
     
     Por exemplo, para uma versão em inglês dos EUA de 32 bits do Outlook 2013 instalada em uma versão de 64 bits do Windows, salve o arquivo como:
     
+    ```powershell
         "C:\Program Files (x86)\Microsoft Office\Office15\Forms\1033\QTNE.cfg"
-    
+    ```
 
     > [!NOTE]
     > Se o controle de acesso do usuário do Windows (UAC) impedir que você salve o arquivo no local correto, salve-o primeiro em um local temporário e, em seguida, copie-o.

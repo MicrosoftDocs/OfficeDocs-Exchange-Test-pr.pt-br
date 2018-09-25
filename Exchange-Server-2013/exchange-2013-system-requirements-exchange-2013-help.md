@@ -283,7 +283,12 @@ A tabela a seguir lista os sistemas operacionais compatíveis com o Exchange 201
 > <LI>
 > <P><STRONG>Windows Server 2008 R2</STRONG>&nbsp;&nbsp;&nbsp;Reinstale o Windows Server e selecione a opção <STRONG>Instalação Completa</STRONG>.</P>
 > <LI>
-> <P><STRONG>Windows Server 2012 R2</STRONG>&nbsp;ou <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;Converta o seu servidor para o modo Windows Server Core em uma instalação completa executando o comando a seguir.</P><PRE><CODE>Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart</CODE></PRE></LI></UL>
+> <P><STRONG>Windows Server 2012 R2</STRONG>&nbsp;ou <STRONG>Windows Server 2012</STRONG>&nbsp;&nbsp;Converta o seu servidor para o modo Windows Server Core em uma instalação completa executando o comando a seguir.</P>
+  ```powershell
+    Install-WindowsFeature Server-Gui-Mgmt-Infra, Server-Gui-Shell -Restart
+  ```  
+> </LI>
+> </UL>
 
 
 

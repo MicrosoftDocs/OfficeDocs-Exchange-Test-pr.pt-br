@@ -34,7 +34,7 @@ Para personalizar as configurações de limitação para aplicar somente a usuá
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -55,15 +55,12 @@ Set-ThrottlingPolicyAssociation -Identity tonysmith -ThrottlingPolicy ITStaffPol
 
 Você não precisa usar o cmdlet **Set-ThrottlingPolicyAssociation** para associar um usuário uma política. Os comandos a seguir mostram outra maneira para associar a diretiva de limitação ITStaffPolicy de tonysmith.
 
-``` 
 ```powershell
 $b = Get-ThrottlingPolicy ITStaffPolicy
 ```
-``` 
-``` 
+
 ```powershell
 Set-Mailbox -Identity tonysmith -ThrottlingPolicy $b
-```
 ``` 
 
 Para obter mais informações sobre sintaxe e parâmetros, consulte [New-ThrottlingPolicy](https://technet.microsoft.com/pt-br/library/dd351045\(v=exchg.150\)) e [Set-ThrottlingPolicyAssociation](https://technet.microsoft.com/pt-br/library/ff459231\(v=exchg.150\)).
@@ -75,24 +72,23 @@ Para verificar se você criou com êxito a política de limitação de regulares
 1.  Execute o seguinte comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Verifique se o regulares limitação política que você acabou de criar está listado na coluna que mostra o objeto GlobalThrottlingPolicy.
 
 3.  Execute o seguinte comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Verifique se as propriedades para a nova política Regular correspondem o valor ou valores que você configurou.
 
 5.  Execute o seguinte comando.
     
     ```powershell
-Get-ThrottlingPolicyAssociation
-```
+    Get-ThrottlingPolicyAssociation
+    ```
 
 6.  Verifique se a nova política Regular está associada com o usuário ou usuários você associados a ele.
-

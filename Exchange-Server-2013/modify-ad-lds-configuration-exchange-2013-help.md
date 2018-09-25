@@ -85,7 +85,9 @@ Os parâmetros da tabela a seguir estão disponíveis para o script **ConfigureA
 
 Este exemplo altera a porta LDAP usada pelo AD LDS para 5000. O E comercial (&) faz parte da sintaxe do comando.
 
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000
+```
 
 Este exemplo faz as seguintes alterações na configuração do AD LDS. O E comercial (&) faz parte da sintaxe do comando. Observe os dois pontos (:) usados entre cada parâmetro e seu valor:
 
@@ -98,6 +100,7 @@ Este exemplo faz as seguintes alterações na configuração do AD LDS. O E come
   - Altera o caminho de dados para D:\\Exchange Server\\Data\\ADLDS
 
 <!-- end list -->
-
+```powershell
     & $env:ExchangeInstallPath\Scripts\ConfigureAdam.ps1 -LdapPort:5000 -SslPort:5001 -LogPath:"D:\Exchange Server\Data\ADLDS" -DataPath:"D:\Exchange Server\Data\ADLDS"
+```
 

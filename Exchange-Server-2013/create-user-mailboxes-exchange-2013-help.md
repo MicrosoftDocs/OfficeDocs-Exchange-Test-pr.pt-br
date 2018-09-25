@@ -139,7 +139,9 @@ Este exemplo cria uma nova conta de usuário e caixa de correio para Pilar Pinil
 
 <!-- end list -->
 
+```powershell
     New-Mailbox -Alias pilarp -Name "Pilar Pinilla" -FirstName Pilar -LastName Pinilla -DisplayName "Pilar Pinilla" -UserPrincipalName pilarp@contoso.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
+```
 
 Para obter informações sobre sintaxes e parâmetros, consulte [New-Mailbox](https://technet.microsoft.com/pt-br/library/aa997663\(v=exchg.150\)).
 
@@ -152,8 +154,8 @@ Para verificar se você criou uma caixa de correio de usuário com êxito, siga 
   - No Shell, execute o comando a seguir para exibir informações sobre a nova caixa de correio de usuário:
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
 
 ## Criar uma caixa de correio para um usuário existente
 
@@ -230,8 +232,8 @@ Para verificar se você criou uma caixa de correio para um usuário existente co
   - No Shell, execute o comando a seguir para exibir informações sobre o novo usuário habilitado para caixa de correio:
     
     ```powershell
-Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
-```
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress
+    ```
     
     Observe que o valor para a propriedade *RecipientTypeDetails* é `UserMailbox`.
 

@@ -51,7 +51,9 @@ Para fins de segurança, algumas organizações podem querer restringir o acesso
 
 Este exemplo desabilita o acesso ao EAC no servidor CAS01.
 
+  ```powershell
     Set-ECPVirtualDirectory -Identity "CAS01\ecp (default web site)" -AdminEnabled $false
+  ```
 
 Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Set-EcpVirtualDirectory](https://technet.microsoft.com/pt-br/library/dd297991\(v=exchg.150\)).
 

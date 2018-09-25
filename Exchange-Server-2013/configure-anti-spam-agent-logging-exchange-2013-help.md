@@ -32,7 +32,7 @@ Log de agente registra as ações executadas pelos agentes de antispam específi
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -41,7 +41,9 @@ Log de agente registra as ações executadas pelos agentes de antispam específi
 
 Execute o seguinte comando:
 
-    Set-TransportService <ServerIdentity> -AgentLogEnabled <$true | $false> -AgentLogMaxAge <dd.hh:mm:ss> -AgentLogMaxDirectorySize <Size> -AgentLogMaxFileSize <Size> -AgentLogPath <LocalFilePath>
+```powershell
+Set-TransportService <ServerIdentity> -AgentLogEnabled <$true | $false> -AgentLogMaxAge <dd.hh:mm:ss> -AgentLogMaxDirectorySize <Size> -AgentLogMaxFileSize <Size> -AgentLogPath <LocalFilePath>
+```
 
 Este exemplo define o agente de seguir as configurações de log no servidor de caixa de correio chamado Mailbox01:
 
@@ -55,10 +57,12 @@ Este exemplo define o agente de seguir as configurações de log no servidor de 
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
+  ```powershell
+  Set-TransportService Mailbox01 -AgentLogPath "D:\Anti-Spam Agent Log" -AgentLogMaxFileSize 20MB -AgentLogMaxDirectorySize 400MB -AgentLogMaxAge 14.00:00:00
+  ```
 
 
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>Se você definir o parâmetro <EM>AgentLogPath</EM> como o valor <CODE>$null</CODE>, você efetivamente desabilitar o log de agente. No entanto, se você definir <EM>AgentLogPath</EM> como <CODE>$null</CODE> quando o valor do parâmetro <EM>AgentLogEnabled</EM> é <CODE>$true</CODE>, erros de log de eventos são gerados. O método preferencial para desabilitar o log de agente é definida <EM>AgentLogEnabled</EM> como <CODE>$false</CODE>.</P>
@@ -75,7 +79,8 @@ Para verificar se você configurou com êxito agente anti-spam log, faça o segu
 
 1.  No Shell, execute o comando a seguir:
     
-        Get-TransportService <ServerIdentity> | Format-List AgentLog*
+      ```powershell
+      Get-TransportService <ServerIdentity> | Format-List AgentLog*
+      ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
-

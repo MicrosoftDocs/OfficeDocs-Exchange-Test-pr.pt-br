@@ -77,8 +77,9 @@ Executar o script `Sync-MailPublicFoldersCloudToOnprem.ps1` sincronizará as pas
 
 1.  No servidor Exchange 2013, execute o seguinte comando para sincronizar habilitados para email a pastas públicas do Exchange Online/Office 365 para o seu local local Active Directory.
     
-        Sync-MailPublicFoldersCloudToOnprem.ps1 -Credential (Get-Credential)
-    
+    ```powershell
+      Sync-MailPublicFoldersCloudToOnprem.ps1 -Credential (Get-Credential)
+    ```
     Onde `Credential` é o seu nome de usuário do Office 365 e senha.
 
 
@@ -95,8 +96,10 @@ Executar o script `Import-PublicFolderMailboxes.ps1` importará objetos de caixa
 
 1.  No servidor Exchange 2013, execute o seguinte comando para importar objetos de caixa de correio de pasta pública da nuvem para seu local Active Directory.
     
-        Import-PublicFolderMailboxes.ps1 -Credential (Get-Credential)
-    
+    ```powershell
+      Import-PublicFolderMailboxes.ps1 -Credential (Get-Credential)
+    ```
+
     Onde `Credential` é o seu nome de usuário do Office 365 e senha.
     
 
@@ -107,8 +110,9 @@ Executar o script `Import-PublicFolderMailboxes.ps1` importará objetos de caixa
 
 2.  Habilite a Exchange 2013 na organização local acessar as pastas públicas Exchange Online.
     
-        Set-OrganizationConfig -PublicFoldersEnabled Remote
-
+    ```powershell
+      Set-OrganizationConfig -PublicFoldersEnabled Remote
+    ```
 
 > [!TIP]
 > Você deve aguardar até que a sincronização do ActiveDirectory concluiu para ver as alterações. Esse processo pode levar até 3 horas para ser concluída. Se você não quiser aguarde as sincronizações recorrentes que ocorrem a cada três horas, você pode forçar sincronização de diretórios, a qualquer momento. Para obter etapas detalhadas para forçar a sincronização de diretórios, consulte <A href="http://technet.microsoft.com/en-us/library/jj151771.aspx">Forçar sincronização de diretórios</A>.

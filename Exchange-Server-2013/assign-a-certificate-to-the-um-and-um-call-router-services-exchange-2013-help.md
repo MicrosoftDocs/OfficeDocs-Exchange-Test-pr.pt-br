@@ -59,5 +59,7 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas ao gerenciamento 
 
 Este exemplo atribui um certificado para os serviços de Unificação de mensagens e o roteador de chamada UM.
 
-    Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+  ```powershell
+  Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+  ```
 

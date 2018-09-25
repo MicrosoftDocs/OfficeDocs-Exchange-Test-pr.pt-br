@@ -36,7 +36,7 @@ Para tarefas de gerenciamento adicionais relacionadas a políticas de endereço 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!WARNING]
+> [!WARNING]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -49,9 +49,7 @@ Para tarefas de gerenciamento adicionais relacionadas a políticas de endereço 
 
 2.  Na exibição de lista, selecione a política de endereço de email que você deseja alterar e clique em **Editar**![Ícone de edição](images/JJ218640.6f53ccb2-1f13-4c02-bea0-30690e6ea71d(EXCHG.150).gif "Ícone de edição").
 
-3.  
-    
-    Na **Diretiva de endereço de Email**, clique em **Aplicar para** e modifique as configurações.
+3.  Na **Diretiva de endereço de Email**, clique em **Aplicar para** e modifique as configurações.
 
 ## Usar o EAC para alterar a prioridade da política de endereço de email
 
@@ -65,13 +63,12 @@ Um usuário pode ter vários endereços de email de proxy para a mesma conta de 
 
 Este exemplo edita a política de endereço de email South East Offices que atualmente inclui destinatários na Geórgia, Alabama e Louisiana a incluir também destinatários no Texas.
 
-    Set-EmailAddressPolicy -Identity "South East Offices" -ConditionalStateorProvince "Georgia","Alabama","Louisiana","Texas"
+```powershell
+Set-EmailAddressPolicy -Identity "South East Offices" -ConditionalStateorProvince "Georgia","Alabama","Louisiana","Texas"
+```
 
-
-> [!NOTE]
+> [!NOTE]  
 > Embora a política de endereço de email já é aplicada aos destinatários na Geórgia, Alabama e Louisiana, você deve inclui-los no parâmetro porque o parâmetro substitui os valores; ele não acrescente valores já existentes.
 
 
-
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-EmailAddressPolicy](https://technet.microsoft.com/pt-br/library/bb124517\(v=exchg.150\)).
-

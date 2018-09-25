@@ -44,8 +44,8 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a caixas de corre
   - Para exibir o valor da propriedade *Identity* para todas as solicitações de restauração de caixa de correio, execute o seguinte comando.
     
     ```powershell
-Get-MailboxRestoreRequest | Format-Table Identity
-```
+    Get-MailboxRestoreRequest | Format-Table Identity
+    ```
     
     Você pode usar esse valor de identity para especificar uma solicitação de restauração de caixa de correio específica quando você estiver executando os procedimentos neste tópico.
 
@@ -170,15 +170,21 @@ Get-MailboxRestoreRequestStatistics -Identity danp\MailboxRestore1
 
 Este exemplo retorna as estatísticas de caixa de correio de Dan Park e exporta o relatório para um arquivo. csv.
 
-    Get-MailboxRestoreRequestStatistics -Identity "Dan Park\MailboxRestore" | Export-CSV \\SERVER01\RestoreRequest_Reports\DanPark_Restorestats.csv
+```powershell
+Get-MailboxRestoreRequestStatistics -Identity "Dan Park\MailboxRestore" | Export-CSV \\SERVER01\RestoreRequest_Reports\DanPark_Restorestats.csv
+```
 
 Este exemplo retorna informações adicionais sobre a solicitação de restauração de caixa de correio do Pilar Pinilla usando o parâmetro *IncludeReport* e Canalizando os resultados para o cmdlet **Format-List** .
 
-    Get-MailboxRestoreRequestStatistics -Identity "Pilar Pinilla\MailboxRestore" -IncludeReport | Format-List 
+```powershell
+Get-MailboxRestoreRequestStatistics -Identity "Pilar Pinilla\MailboxRestore" -IncludeReport | Format-List 
+```
 
 Este exemplo retorna informações adicionais de todas as solicitações de restauração com um status de `Failed`, utilizando o parâmetro *IncludeReport* e em seguida salvando as informações no arquivo AllRestoreReports.txt no local no qual o comando está sendo executado.
 
-    Get-MailboxRestoreRequest -Status Failed | Get-MailboxRestoreRequestStatistics -IncludeReport | Format-List > AllRestoreReports.txt
+```powershell
+Get-MailboxRestoreRequest -Status Failed | Get-MailboxRestoreRequestStatistics -IncludeReport | Format-List > AllRestoreReports.txt
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-MailboxRestoreRequestStatistics](https://technet.microsoft.com/pt-br/library/ff829912\(v=exchg.150\)) e [Get-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829907\(v=exchg.150\)).
 
@@ -423,7 +429,9 @@ Set-MailboxRestoreRequest -Identity "Debra Garcia\MailboxRestore1" -BadItemLimit
 
 Este exemplo especifica que a solicitação de restauração de caixa de correio do Florence Flipo MailboxRestore1 pula 100 itens corrompidos. Porque o valor de *BadItemLimit* é maior que 50, o parâmetro *AcceptLargeDataLoss* deve ser especificado.
 
-    Set-MailboxRestoreRequest -Identity "Florence Flipo\MailboxRestore1" -BadItemLimit 100 -AcceptLargeDataLoss
+```powershell
+Set-MailboxRestoreRequest -Identity "Florence Flipo\MailboxRestore1" -BadItemLimit 100 -AcceptLargeDataLoss
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829909\(v=exchg.150\)).
 
@@ -445,7 +453,9 @@ Suspend-MailboxRestoreRequest -Identity "Pilar Pinilla\MailboxRestore1"
 
 Este exemplo suspende todas as solicitações em andamento de restauração por recuperar primeiramente todas as solicitações que têm um status de `InProgress`e, em seguida, canalizar a saída para o cmdlet **Suspend-MailboxRestoreRequest** e incluindo o comentário suspenso "Resume após a manutenção de FY13Q2".
 
-    Get-MailboxRestoreRequest -Status InProgress | Suspend-MailboxRestoreRequest -SuspendComment "Resume after FY13Q2 Maintenance"
+```powershell
+Get-MailboxRestoreRequest -Status InProgress | Suspend-MailboxRestoreRequest -SuspendComment "Resume after FY13Q2 Maintenance"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Suspend-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829906\(v=exchg.150\)).
 

@@ -87,9 +87,7 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 4.  No painel de detalhes, em **Cópias de banco de dados**, clique em **Atualizar** sob a cópia passiva do banco de dados que deseja propagação.
 
-5.  
-    
-    Por padrão, a cópia ativa do banco de dados é usada como o banco de dados de origem para propagação. Se você preferir usar uma cópia passiva do banco de dados para propagação, clique em **Procurar...** para selecionar o servidor que contém a cópia passiva do banco de dados que você deseja usar para a fonte.
+5.  Por padrão, a cópia ativa do banco de dados é usada como o banco de dados de origem para propagação. Se você preferir usar uma cópia passiva do banco de dados para propagação, clique em **Procurar...** para selecionar o servidor que contém a cópia passiva do banco de dados que você deseja usar para a fonte.
 
 6.  Clique em **Salvar** para atualizar a cópia passiva do banco de dados.
 
@@ -124,36 +122,36 @@ Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
 1.  Se o log circular for habilitado para o banco de dados, ele deverá ser desabilitado antes de continuar. É possível desabilitar o log circular de um banco de dados de caixa de correio usando o cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)), conforme mostrado nesse exemplo.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```
 
 2.  Desmonte o banco de dados. Você pode usar o cmdlet [Dismount-Database](https://technet.microsoft.com/pt-br/library/bb124936\(v=exchg.150\)) , conforme mostrado neste exemplo.
     
     ```powershell
-Dismount-Database DB1 -Confirm $false
-```
+    Dismount-Database DB1 -Confirm $false
+    ```
 
 3.  Copie manualmente os arquivos de banco de dados (o arquivo de banco de dados e todos os arquivos de log) para um local de segundo, como uma unidade de disco externa ou compartilhamento de rede.
 
 4.  Monte o banco de dados. Você pode usar o cmdlet [Mount-Database](https://technet.microsoft.com/pt-br/library/aa998871\(v=exchg.150\)) , conforme mostrado neste exemplo.
     
     ```powershell
-Mount-Database DB1
-```
+    Mount-Database DB1
+    ```
 
 5.  No servidor que hospedará a cópia, copie os arquivos de banco de dados do compartilhamento de rede ou unidade externo para o mesmo caminho como a cópia do banco de dados ativo. Por exemplo, se o caminho do banco de dados de cópia ativa é D:\\DB1\\DB1.edb e o caminho do arquivo de log é D:\\DB1, copie os arquivos de banco de dados para D:\\DB1 no servidor que irá hospedar a cópia.
 
 6.  Adicione a cópia do banco de dados de caixa de correio usando o cmdlet [Add-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd298105\(v=exchg.150\)) com o parâmetro *SeedingPostponed* , conforme mostrado neste exemplo.
     
     ```powershell
-Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
-```
+    Add-MailboxDatabaseCopy -Identity DB1 -MailboxServer MBX3 -SeedingPostponed
+    ```
 
 7.  Se o log circular está habilitado para o banco de dados, habilitá-lo novamente usando o cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)) , conforme mostrado neste exemplo.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```
 
 ## Como saber se funcionou?
 
@@ -164,8 +162,8 @@ Para verificar se você tiver propagado com êxito uma cópia do banco de dados 
   - No Shell, execute o seguinte comando para verificar a cópia do banco de dados de caixa de correio foi propagada com êxito e está íntegra.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     O Status e o estado do índice de conteúdo devem ser iguais a Íntegro.
 

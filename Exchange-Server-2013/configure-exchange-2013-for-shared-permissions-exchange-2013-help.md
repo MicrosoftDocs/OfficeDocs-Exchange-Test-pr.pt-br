@@ -81,23 +81,29 @@ Para configurar permissões compartilhadas no grupo de funções Gerenciamento d
 
 1.  Adicione delegação atribuições de função para a função de criação de destinatário de email e a função de criação de grupos de segurança e a associação ao grupo de funções Gerenciamento da Organização usando os seguintes comandos.
     
-        New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management" -Delegating
-        New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management" -Delegating
+```powershell
+New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management" -Delegating
+New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management" -Delegating
+```
     
 
-    > [!NOTE]
-    > Grupo de função (neste procedimento, o grupo de funções administradores Active Directory ) que possui delegando atribuições de função para a função de criação de destinatário de email e criação de grupos de segurança e a associação de função deve ser atribuído a função de gerenciamento de função para executar o cmdlet <STRONG>New-ManagementRoleAssignment</STRONG> . O destinatário da função que pode delegar a função de gerenciamento de função deve atribuir essa função ao grupo de função de administradores de Active Directory.
+> [!NOTE]
+> Grupo de função (neste procedimento, o grupo de funções administradores Active Directory ) que possui delegando atribuições de função para a função de criação de destinatário de email e criação de grupos de segurança e a associação de função deve ser atribuído a função de gerenciamento de função para executar o cmdlet <STRONG>New-ManagementRoleAssignment</STRONG> . O destinatário da função que pode delegar a função de gerenciamento de função deve atribuir essa função ao grupo de função de administradores de Active Directory.
 
 
 
 2.  Adicione as atribuições da função regular para a função de criação de destinatário de email para os grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários usando os seguintes comandos.
     
-        New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
-        New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Recipient Management"
+```powershell
+New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
+New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Recipient Management"
+```
 
 3.  Adicione uma atribuição de função regular para a função de criação de grupos de segurança e a associação ao grupo de funções Gerenciamento da Organização usando o seguinte comando.
     
-        New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
+```powershell
+New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -115,11 +121,15 @@ Para remover Exchange-permissões de divisão relacionados dos administradores A
 
 1.  Remova o regulares e delegando atribuições da função que atribuir a função de criação de destinatário de email para o grupo de funções ou grupo de segurança universal (USG) que contém os administradores Active Directory como membros usando o seguinte comando. Esse comando usa o grupo de funções administradores Active Directory como um exemplo. A opção *WhatIf* permite ver quais atribuições de função serão removidas. Remover o comutador *WhatIf* e execute o comando novamente para remover as atribuições de função.
     
-        Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+```powershell
+Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+```
 
 2.  Remova o regulares e delegando atribuições da função que atribuir a função de criação de grupos de segurança e a associação ao grupo de função ou USG que contém os administradores Active Directory como membros usando o seguinte comando. Esse comando usa o grupo de funções administradores Active Directory como um exemplo. A opção *WhatIf* permite ver quais atribuições de função serão removidas. Remover o comutador *WhatIf* e execute o comando novamente para remover as atribuições de função.
     
-        Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+```powershell
+Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -EQ "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+```
 
 3.  Opcional. Se você deseja remover todas as permissões de Exchange dos administradores Active Directory, você pode remover o grupo de função ou o USG nos quais eles são membros. Para obter mais informações sobre como remover um grupo de funções, consulte [Gerenciar grupos de função](manage-role-groups-exchange-2013-help.md).
 
@@ -141,15 +151,17 @@ Para alternar entre Active Directory dividir permissões para permissões compar
 
 1.  A partir de um shell de comando Windows, execute o seguinte comando na mídia de instalação Exchange 2013 para desabilitar permissões de divisão de Active Directory.
     
-    ```powershell
+```powershell
 setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
 ```
 
 2.  Da Exchange Management Shell, execute os seguintes comandos para adicionar as atribuições da função regular entre a função de criação de destinatário de email e criação de grupos de segurança e função de gerenciamento e os grupos de função Gerenciamento da Organização e Gerenciamento de Destinatários.
     
-        New-ManagementRoleAssignment "Mail Recipient Creation_Organization Management" -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
-        New-ManagementRoleAssignment "Security Group Creation and Membership_Org Management" -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
-        New-ManagementRoleAssignment "Mail Recipient Creation_Recipient Management" -Role "Mail Recipient Creation" -SecurityGroup "Recipient Management"
+```powershell
+New-ManagementRoleAssignment "Mail Recipient Creation_Organization Management" -Role "Mail Recipient Creation" -SecurityGroup "Organization Management"
+New-ManagementRoleAssignment "Security Group Creation and Membership_Org Management" -Role "Security Group Creation and Membership" -SecurityGroup "Organization Management"
+New-ManagementRoleAssignment "Mail Recipient Creation_Recipient Management" -Role "Mail Recipient Creation" -SecurityGroup "Recipient Management"
+```
 
 3.  Reinicie os servidores de Exchange 2013 em sua organização.
     

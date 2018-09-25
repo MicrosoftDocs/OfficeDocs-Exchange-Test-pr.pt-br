@@ -36,7 +36,7 @@ Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedime
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -45,10 +45,11 @@ Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedime
 
 Este exemplo cria a regra de proteção de Outlook Project Contoso. A regra protege as mensagens enviadas para o grupo de distribuição de ContosoPMs com o modelo de AD RMS Business Critical.
 
-    New-OutlookProtectionRule -Name "Project Contoso" -SentTo "DL-ContosoPMs@contoso.com" -ApplyRightsProtectionTemplate "Business Critical"
+```powershell
+New-OutlookProtectionRule -Name "Project Contoso" -SentTo "DL-ContosoPMs@contoso.com" -ApplyRightsProtectionTemplate "Business Critical"
+```
 
-
-> [!NOTE]
+> [!NOTE]  
 > Quando você usa o predicado <CODE>SentTo</CODE> para uma regra de proteção de Outlook e especificar um grupo de distribuição, somente as mensagens endereçadas ao grupo de distribuição no para, Cc ou Cco campos são protegidas por IRM. Proteção de IRM não é aplicada às mensagens endereçadas a membros individuais do grupo de distribuição.
 
 
@@ -66,7 +67,7 @@ Para verificar se você criou com êxito uma regra de proteção do Outlook, fa�
   - Use Outlook 2010 para criar uma mensagem de teste que atenda a condição da regra e certificar-se de que a regra for acionada no cliente.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Pode levar algum tempo para que uma regra de proteção do Outlook esteja disponível no Outlook.
 
 

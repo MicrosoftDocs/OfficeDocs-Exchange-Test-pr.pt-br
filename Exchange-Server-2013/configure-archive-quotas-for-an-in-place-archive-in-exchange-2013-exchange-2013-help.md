@@ -75,5 +75,7 @@ Para verificar se você habilitou com êxito em um arquivo morto local para uma 
 
   - No Shell, execute o seguinte comando para exibir informações sobre o arquivo de cota.
     
-        Get-Mailbox <Name> | FL Name,Archive*Quota
+    ```powershell
+    Get-Mailbox <Name> | FL Name,Archive*Quota
+    ```
 

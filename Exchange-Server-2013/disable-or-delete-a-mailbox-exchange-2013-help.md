@@ -141,19 +141,19 @@ Quando você executa esse comando, uma mensagem é exibida que pede para você c
 
 Aqui estão alguns exemplos de comandos para desabilitar as caixas de correio.
 
-```
+
 ```powershell
 Disable-Mailbox danj
 ```
+
+```powershell
+Disable-Mailbox "Conf Room 31/1234 (12)"
 ```
-```
-    Disable-Mailbox "Conf Room 31/1234 (12)"
-```
-```
+
 ```powershell
 Disable-Mailbox sharedmbx@contoso.com
 ```
-```
+
 
 ## Como saber se funcionou?
 
@@ -165,7 +165,9 @@ Para confirmar se você desabilitou uma caixa de correio com êxito, siga um des
 
   - No Shell, execute o comando a seguir.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```
     
     O valor de `Disabled` na propriedade *DisconnectReason* indica que a caixa de correio está desabilitada.
     
@@ -178,8 +180,8 @@ Para confirmar se você desabilitou uma caixa de correio com êxito, siga um des
   - No Shell, execute o comando a seguir.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     O valor para a propriedade *RecipientType* é `User`, em vez de `UserMailbox`, que é o valor para usuários com caixas de correio habilitadas. Isso também confirma que a caixa de correio está desabilitada, mas a conta de usuário é mantida.
 
@@ -211,19 +213,16 @@ Quando você executa esse comando, uma mensagem é exibida que pede para você c
 
 Aqui estão alguns exemplos de comandos para excluir caixas de correio.
 
-```
 ```powershell
 Remove-Mailbox pilarp@contoso.com
 ```
-```
-```
-    Remove-Mailbox "Fleet Van (16)"
+
+```powershell
+Remove-Mailbox "Fleet Van (16)"
 ```
 
-```
 ```powershell
 Remove-Mailbox corpprint
-```
 ```
 
 ## Como saber se funcionou?
@@ -238,7 +237,9 @@ Ou
 
 1.  Execute o seguinte comando para verificar se a caixa de correio foi excluída.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisconnectReason,DisconnectDate
+    ```
     
     O valor `Disabled` na propriedade *DisconnectReason* indica que a caixa de correio foi excluída.
     
@@ -251,8 +252,8 @@ Ou
 2.  Execute o seguinte comando para verificar se a conta de usuário do Active Directory foi excluída.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     O comando retornará um erro que diz que o usuário não foi encontrado, confirmando que a conta foi excluída.
 

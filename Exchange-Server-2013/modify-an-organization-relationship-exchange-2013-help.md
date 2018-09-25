@@ -84,18 +84,24 @@ Para tarefas de gerenciamento adicionais relacionadas à dederação, consulte [
 ## Usar o Shell para modificar um relacionamento da organização
 
   - Este exemplo adiciona o nome de domínio service.contoso.com ao relacionamento da organização Contoso.
-    
+      
+      ```powershell
         $domains = (Get-OrganizationRelationship Contoso).DomainNames
         $domains += 'service.contoso.com'
         Set-OrganizationRelationship -Identity Contoso -DomainNames $domains
+      ```
 
   - Este exemplo desabilita o relacionamento da organização Contoso.
-    
+      
+      ```powershell
         Set-OrganizationRelationship -Identity Contoso -Enabled $false
+      ```
 
   - Este exemplo habilita o acesso a informações de disponibilidade do calendário para o relacionamento de organização WoodgroveBank e define o nível de acesso como `AvailabilityOnly` (Informações de disponibilidade de calendário somente com hora).
     
+      ```powershell
         Set-OrganizationRelationship -Identity Contoso -FreeBusyAccessEnabled $true -FreeBusyAccessLevel AvailabilityOnly
+      ```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-OrganizationRelationship](https://technet.microsoft.com/pt-br/library/ee332343\(v=exchg.150\)) e [Set-OrganizationRelationship](https://technet.microsoft.com/pt-br/library/ee332326\(v=exchg.150\)).
 
@@ -103,8 +109,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-O
 
 Para verificar se você atualizou o relacionamento da organização com êxito, execute o comando do Shell a seguir e verifique as informações do relacionamento da organização:
 
+```powershell
     Get-OrganizationRelationship | format-list
-
+```
 
 > [!TIP]
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.

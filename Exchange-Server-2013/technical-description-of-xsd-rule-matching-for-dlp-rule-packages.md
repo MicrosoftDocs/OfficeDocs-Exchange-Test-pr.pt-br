@@ -23,23 +23,25 @@ Este tópico descreve técnicas para correspondência de padrões e elementos de
 
 O elemento `Match` é usado dentro dos elementos `Pattern` e `Evidence` para representar a palavra-chave, expressão regular ou função que deve corresponder. A definição da correspondência em si é armazenada fora do elemento `Rule` e é referenciada através do atributo exigido `idRef`. Vários elementos `Match` podem ser incluídos em uma definição de Padrão que pode ser incluída diretamente no elemento `Pattern` ou combinado usando-se o elemento `Any` para definir a semântica de correspondência.
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <Rules packageId="...">
-            ...
-    <Entity id="...">
-      <Pattern confidenceLevel="85">
-                 <IdMatch idRef="FormattedSSN" />
-                 <Match idRef="USDate" />
-                 <Match idRef="USAddress" />
-      </Pattern>
-    </Entity>
-            ...
-             <Keyword id="FormattedSSN "> ... </Keyword>
-             <Regex id=" USDate "> ... </Regex>
-             <Regex id="USAddress"> ... </Regex>
-            ...
-    
-    </Rules>
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<Rules packageId="...">
+        ...
+<Entity id="...">
+    <Pattern confidenceLevel="85">
+                <IdMatch idRef="FormattedSSN" />
+                <Match idRef="USDate" />
+                <Match idRef="USAddress" />
+    </Pattern>
+</Entity>
+        ...
+            <Keyword id="FormattedSSN "> ... </Keyword>
+            <Regex id=" USDate "> ... </Regex>
+            <Regex id="USAddress"> ... </Regex>
+        ...
+
+</Rules>
+```
 
 ## Definir correspondências baseadas em palavras-chave
 
@@ -52,26 +54,27 @@ A correspondência pode ser executada usando uma correspondência exata ou algor
 > Use o estilo de correspondência baseada em constantes sobre regex para uma melhor eficiência e desempenho. Use a correspondência de regex somente em casos onde as correspondências baseadas em constantes não são suficientes e a flexibilidade de expressões regulares é necessária.
 
 
-
-    <Keyword id="Word_Example">
-        <Group matchStyle="word">
-           <Term>card verification</Term>
-           <Term>cvn</Term>
-           <Term>cid</Term>
-           <Term>cvc2</Term>
-           <Term>cvv2</Term>
-           <Term>pin block</Term>
-           <Term>security code</Term>
-        </Group>
-    </Keyword>
-    ...
-    <Keyword id="String_Example">
-        <Group matchStyle="string">
-           <Term>card</Term>
-           <Term>pin</Term>
-           <Term>security</Term>
-        </Group>
-    </Keyword>
+```xml
+<Keyword id="Word_Example">
+    <Group matchStyle="word">
+        <Term>card verification</Term>
+        <Term>cvn</Term>
+        <Term>cid</Term>
+        <Term>cvc2</Term>
+        <Term>cvv2</Term>
+        <Term>pin block</Term>
+        <Term>security code</Term>
+    </Group>
+</Keyword>
+...
+<Keyword id="String_Example">
+    <Group matchStyle="string">
+        <Term>card</Term>
+        <Term>pin</Term>
+        <Term>security</Term>
+    </Group>
+</Keyword>
+```
 
 ## Definir de expressão regular com base em correspondência
 
@@ -198,17 +201,19 @@ Um outro método comum de correspondência é baseado em expressões regulares. 
 
 O elemento Regex tem um atributo "id" que é usado como uma referência para as regras de Entidade ou Afinidade correspondentes. Um único elemento Regex pode ser referenciado em várias regras de Entidade e Afinidade. A expressão Regex é definida como o valor do elemento Regex.
 
-    <Regex id="CCRegex">
-         \bcc\#\s|\bcc\#\:\s
-    </Regex>
-    ...
-    <Regex id="ItinFormatted">
-        (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-       ]\d{4})(?:$|[\s\,]|\.\s)
-    </Regex>
-    ...
-    <Regex id="NorthCarolinaDriversLicenseNumber">
-        (^|\s|\:)(\d{1,8})($|\s|\.\s)
-    </Regex>
+```xml
+<Regex id="CCRegex">
+        \bcc\#\s|\bcc\#\:\s
+</Regex>
+...
+<Regex id="ItinFormatted">
+    (?:^|[\s\,\:])(?:9\d{2})[- ](?:[78]\d[-       ]\d{4})(?:$|[\s\,]|\.\s)
+</Regex>
+...
+<Regex id="NorthCarolinaDriversLicenseNumber">
+    (^|\s|\:)(\d{1,8})($|\s|\.\s)
+</Regex>
+```
 
 ## Combinar vários elementos de correspondência
 
@@ -223,7 +228,8 @@ O atributo opcional minMatches pode ser usado (padrão = 1) para definir o núme
     Corresponder um subconjunto exato dos elementos filhos de Match
 
 <!-- end list -->
-```
+
+```xml
     <Any minMatches="3" maxMatches="3">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -231,7 +237,7 @@ O atributo opcional minMatches pode ser usado (padrão = 1) para definir o núme
     </Any>
 ```
 
-```
+```xml
     <Any maxMatches="0">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -239,7 +245,7 @@ O atributo opcional minMatches pode ser usado (padrão = 1) para definir o núme
     </Any>
 ```
 
-```
+```xml
     <Any minMatches="1" maxMatches="1">
         <Match idRef="USDate" />
         <Match idRef="USAddress" />
@@ -260,32 +266,34 @@ Para regras de base de entidade, outra opção de aumentar a confiança é defin
 
 <!-- end list -->
 
-    <Entity id="..." patternsProximity="300" >
-        <Pattern confidenceLevel="65">
-            <IdMatch idRef="UnformattedSSN" />
-            <Any maxMatches="1">
-                <Match idRef="USDate" />
-                <Match idRef="USAddress" />
-                <Match idRef="Name" />
-            </Any>
-        </Pattern>
-        <Pattern confidenceLevel="75">
-            <IdMatch idRef="UnformattedSSN" />
-            <Any minMatches="2" maxMatches="2">
-                <Match idRef="USDate" />
-                <Match idRef="USAddress" />
-                <Match idRef="Name" />
-            </Any>
-        </Pattern>
-        <Pattern confidenceLevel="85">
-            <IdMatch idRef="UnformattedSSN" />
-            <Any minMatches="3">
-                <Match idRef="USDate" />
-                <Match idRef="USAddress" />
-                <Match idRef="Name" />
-            </Any>
-        </Pattern>
-    </Entity>
+```xml
+<Entity id="..." patternsProximity="300" >
+    <Pattern confidenceLevel="65">
+        <IdMatch idRef="UnformattedSSN" />
+        <Any maxMatches="1">
+            <Match idRef="USDate" />
+            <Match idRef="USAddress" />
+            <Match idRef="Name" />
+        </Any>
+    </Pattern>
+    <Pattern confidenceLevel="75">
+        <IdMatch idRef="UnformattedSSN" />
+        <Any minMatches="2" maxMatches="2">
+            <Match idRef="USDate" />
+            <Match idRef="USAddress" />
+            <Match idRef="Name" />
+        </Any>
+    </Pattern>
+    <Pattern confidenceLevel="85">
+        <IdMatch idRef="UnformattedSSN" />
+        <Any minMatches="3">
+            <Match idRef="USDate" />
+            <Match idRef="USAddress" />
+            <Match idRef="Name" />
+        </Any>
+    </Pattern>
+</Entity>
+```
 
 ## Exemplo: Regra Seguro Social dos EUA
 
@@ -305,18 +313,20 @@ Essa seção inclui uma descrição introdutória para se autorar uma regra corr
 
 Em seguida, traduza a descrição para a representação do esquema de Regra:
 
-    <Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77"
-             patternsProximity="300" RecommendedConfidence="85">
-        <Pattern confidenceLevel="85">
-          <IdMatch idRef="FormattedSSN" />
-          <Any minMatches="1">
-              <Match idRef="SSNKeywords" />
-              <Match idRef="USDate" />
-              <Match idRef="USAddress" />
-              <Match idRef="Name" />
-          </Any>
-        </Pattern>
-    </Entity>
+```xml
+<Entity id="a44669fe-0d48-453d-a9b1-2cc83f2cba77"
+            patternsProximity="300" RecommendedConfidence="85">
+    <Pattern confidenceLevel="85">
+        <IdMatch idRef="FormattedSSN" />
+        <Any minMatches="1">
+            <Match idRef="SSNKeywords" />
+            <Match idRef="USDate" />
+            <Match idRef="USAddress" />
+            <Match idRef="Name" />
+        </Any>
+    </Pattern>
+</Entity>
+```
 
 ## Para obter mais informações
 

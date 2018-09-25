@@ -49,7 +49,9 @@ Para saber mais sobre caixas de correio desconectadas e executar outras tarefas 
 
   - Para verificar se a caixa de correio excluída à qual deseja conectar uma conta de usuário existe no banco de dados de caixa de correio e não é uma caixa de correio excluída de forma reversível, execute o seguinte comando.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```
     
     A caixa de correio excluída precisa existir no banco de dados de caixa de correio, e o valor da propriedade *DisconnectReason* precisa ser `Disabled`. Se a caixa de correio tiver sido limpa a partir do banco de dados, o comando não retornará nenhum resultado.
 
@@ -113,19 +115,27 @@ Connect-Mailbox -Identity "Paul Cannon" -Database MBXDB01 -User "Robin Wood" -Al
 
 Este exemplo conecta uma caixa de correio vinculada. O parâmetro *Identity* especifica a caixa de correio excluída no banco de dados de caixa de correio denominado MBXDB02. O parâmetro *LinkedMasterAccount* especifica a contas de usuário do Active Directory na floresta de conta à qual deseja conectar a caixa de correio. O parâmetro *LinkedDomainController* especifica um controlador de domínio na floresta de contas.
 
-    Connect-Mailbox -Identity "Temp User" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount danpark@fabrikam.com -Alias dpark
+```powershell
+Connect-Mailbox -Identity "Temp User" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount danpark@fabrikam.com -Alias dpark
+```
 
 Este exemplo conecta uma caixa de correio de sala.
 
-    Connect-Mailbox -Identity "rm2121" -Database "MBXResourceDB" -User "Conference Room 2121" -Alias ConfRm2121 -Room
+```powershell
+Connect-Mailbox -Identity "rm2121" -Database "MBXResourceDB" -User "Conference Room 2121" -Alias ConfRm2121 -Room
+```
 
 Este exemplo conecta uma caixa de correio de equipamento.
 
-    Connect-Mailbox -Identity "MotorPool01" -Database "MBXResourceDB" -User "Van01 (12 passengers)" -Alias van01 -Equipment
+```powershell
+Connect-Mailbox -Identity "MotorPool01" -Database "MBXResourceDB" -User "Van01 (12 passengers)" -Alias van01 -Equipment
+```
 
 Este exemplo conecta uma caixa de correio compartilhada.
 
-    Connect-Mailbox -Identity "Printer Support" -Database MBXDB01 -User "Corp Printer Support" -Alias corpprint -Shared
+```powershell
+Connect-Mailbox -Identity "Printer Support" -Database MBXDB01 -User "Corp Printer Support" -Alias corpprint -Shared
+```
 
 
 > [!NOTE]
@@ -146,8 +156,8 @@ Para verificar se você conectou com êxito uma caixa de correio excluída a uma
   - No Shell, execute o comando a seguir.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     O valor de **UserMailbox** da propriedade *RecipientType* indica que a conta de usuário e a caixa de correio estão conectadas. Você pode também executar o comando **Get-Mailbox \<identity\>** para verificar se a caixa de correio estava conectada.
 
@@ -167,15 +177,21 @@ Após uma solicitação de restauração de caixa de correio ser concluída com 
 
 Para criar uma solicitação de restauração de caixa de correio, é preciso usar o nome para exibição, a GUID da caixa de correio ou o nome diferenciado (DN) herdado da caixa de correio excluída. Use o **Get-MailboxStatistics** cmdlet para exibir os valores das propriedades `DisplayName`, `MailboxGuid` e `LegacyDN` da caixa de correio excluída que você deseja restaurar. Por exemplo, execute o seguinte comando para retornar essas informações de todas as caixas de correio excluídas na sua organização.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "Disabled"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {$_.DisconnectReason -eq "Disabled"} | fl DisplayName,MailboxGuid,LegacyDN,Database
+```
 
 Este exemplo restaura uma caixa de correio excluída, que é identificada pelo parâmetro *SourceStoreMailbox* e está localizada no banco de dados de caixa de correio MBXDB01, para a caixa de correio de destino Lara Cardoso. O parâmetro *AllowLegacyDNMismatch* é usado para que a caixa de correio de origem possa ser restaurada para uma caixa de correio diferente que não tenha o mesmo valor de DN herdado.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox e4890ee7-79a2-4f94-9569-91e61eac372b -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox e4890ee7-79a2-4f94-9569-91e61eac372b -SourceDatabase MBXDB01 -TargetMailbox "Debra Garcia" -AllowLegacyDNMismatch
+```
 
 Este exemplo restaura a caixa de correio de arquivo morto excluída de Brenda Fernandes para sua caixa de correio de arquivo morto atual. O parâmetro *AllowLegacyDNMismatch* não é necessário porque uma caixa de correio principal e sua caixa de correio de arquivo morto correspondente têm o mesmo DN herdado.
 
-    New-MailboxRestoreRequest -SourceStoreMailbox "Personal Archive - Pilar Pinilla" -SourceDatabase "MDB01" -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```powershell
+New-MailboxRestoreRequest -SourceStoreMailbox "Personal Archive - Pilar Pinilla" -SourceDatabase "MDB01" -TargetMailbox pilarp@contoso.com -TargetIsArchive
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829875\(v=exchg.150\)).
 
@@ -188,8 +204,8 @@ Será necessário o GUID da caixa de correio de pasta pública excluída, além 
 1.  Obtenha o nome de domínio totalmente qualificado (FQDN) do controlador e a floresta do Active Directory executando o seguinte cmdlet:
     
     ```powershell
-Get-OrganizationConfig | fl OriginatingServer
-```
+    Get-OrganizationConfig | fl OriginatingServer
+    ```
 
 2.  Com as informações retornadas pela Etapa 1, pesquise o contêiner Objetos Excluídos no Active Directory pelo GUID da caixa de correio de pasta pública e pelo GUID ou nome do banco de dados da caixa de correio na qual a caixa de correio de pasta pública excluída estava.
     
@@ -203,15 +219,21 @@ Ao descobrir o GUID da caixa de correio de pasta pública excluída e o nome ou 
 
 1.  Crie um novo objeto do Active Directory executando os seguintes comandos (você pode ser solicitado a fornecer credenciais apropriadas):
     
-        New-MailUser <mailUserName> -ExternalEmailAddress <emailAddress> 
+    ```powershell
+    New-MailUser <mailUserName> -ExternalEmailAddress <emailAddress> 
+    ```
         
-        Get-MailUser <mailUserName> | Disable-MailUser
+    ```powershell
+    Get-MailUser <mailUserName> | Disable-MailUser
+    ```
     
     Onde `<mailUserName>`, `<emailAddress>` e `<mailUserName>` são valores que você escolher. Você precisará usar o mesmo valor de `<mailUserName>` na próxima etapa.
 
 2.  Conecte a caixa de correio de pasta pública excluída ao objeto do Active Directory que você acabou de criar executando o comando a seguir:
     
-        Connect-Mailbox -Identity <public folder mailbox GUID> -Database <database name or GUID> -User <mailUserName>
+    ```powershell
+    Connect-Mailbox -Identity <public folder mailbox GUID> -Database <database name or GUID> -User <mailUserName>
+    ```
     
 
     > [!NOTE]
@@ -221,7 +243,9 @@ Ao descobrir o GUID da caixa de correio de pasta pública excluída e o nome ou 
 
 3.  Execute `Update-StoreMailboxState` na caixa de correio de pasta pública usando o exemplo a seguir como base:
     
-        Update-StoreMailboxState -Identity <public folder mailbox GUID> -Database <database name or GUID>
+    ```powershell
+    Update-StoreMailboxState -Identity <public folder mailbox GUID> -Database <database name or GUID>
+    ```
     
     Como na Etapa 2, o parâmetro `Identity` aceitará valores do GUID, Nome para Exibição ou LegacyExchangeDN para a caixa de correio de pasta pública.
 

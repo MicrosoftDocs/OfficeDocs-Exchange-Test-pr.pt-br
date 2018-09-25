@@ -47,7 +47,9 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Instale o agente Roteamento ABP executando o seguinte comando. Este é o comando e a sintaxe exatos que você precisará usar.
 
-    Install-TransportAgent -Name "ABP Routing Agent" -TransportAgentFactory "Microsoft.Exchange.Transport.Agent.AddressBookPolicyRoutingAgent.AddressBookPolicyRoutingAgentFactory" -AssemblyPath $env:ExchangeInstallPath\TransportRoles\agents\AddressBookPolicyRoutingAgent\Microsoft.Exchange.Transport.Agent.AddressBookPolicyRoutingAgent.dll
+```powershell
+Install-TransportAgent -Name "ABP Routing Agent" -TransportAgentFactory "Microsoft.Exchange.Transport.Agent.AddressBookPolicyRoutingAgent.AddressBookPolicyRoutingAgentFactory" -AssemblyPath $env:ExchangeInstallPath\TransportRoles\agents\AddressBookPolicyRoutingAgent\Microsoft.Exchange.Transport.Agent.AddressBookPolicyRoutingAgent.dll
+```
 
 Você receberá um aviso de que o serviço Transporte precisa ser reiniciado para que suas alterações entrem em vigor, mas execute a Etapa 2 primeiro, para que reinicie apenas uma vez o serviço Transporte.
 
@@ -72,14 +74,14 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 1.  Reinicie o serviço de Transporte executando o comando a seguir.
     
     ```powershell
-Restart-Service MSExchangeTransport
-```
+    Restart-Service MSExchangeTransport
+    ```
 
 2.  Após a reinicialização do serviço, verifique se o agente Roteamento ABP está instalado e habilitado executando o seguinte cmdlet.
     
     ```powershell
-Get-TransportAgent
-```
+    Get-TransportAgent
+    ```
     
     Se o agente Roteamento ABP estiver listado, ele estará corretamente instalado.
 

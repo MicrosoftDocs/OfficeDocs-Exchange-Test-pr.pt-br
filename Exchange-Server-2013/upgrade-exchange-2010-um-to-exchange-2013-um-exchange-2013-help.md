@@ -30,7 +30,7 @@ Quando você está atualizando uma organização do Microsoft Exchange 2010 com 
   - Verifique se instalou e configurou corretamente os servidores de Acesso para Cliente executando o serviço Roteador de Chamadas de Unificação de Mensagens do Microsoft Exchange (Roteador de Chamadas de UM) e os servidores de Caixa de Correio executando o serviço de Unificação de Mensagens (UM) do Microsoft Exchange. Para saber mais sobre serviços de UM, consulte [Serviços de Unificação de mensagens](um-services-exchange-2013-help.md).
     
 
-    > [!WARNING]
+    > [!WARNING]  
     > Você deve implantar ao menos um servidor de Caixa de Correio do Exchange 2013 em sua organização antes de configurar os gateways de VoIP ou PBXs IP para enviar o SIP de UM e tráfego de RTP aos servidores de Acesso para Cliente do Exchange 2013.
 
 
@@ -38,7 +38,7 @@ Quando você está atualizando uma organização do Microsoft Exchange 2010 com 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -99,23 +99,31 @@ Ao exportar e importar saudações personalizadas, anúncios, menus e prompts do
 
 Este exemplo exporta a saudação de boas-vindas do plano de discagem da UM `MyUMDialPlan` e a salva como o arquivo `welcomegreeting.wav`.
 
-    $prompt = Export-UMPrompt -PromptFileName "customgreeting.wav" -UMDialPlan MyUMDialPlan
-    set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```powershell
+$prompt = Export-UMPrompt -PromptFileName "customgreeting.wav" -UMDialPlan MyUMDialPlan
+set-content -Path "d:\DialPlanPrompts\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
 Este exemplo importa o arquivo de saudação de boas-vindas `welcomegreeting.wav` de d:\\UMPrompts para o plano de discagem da UM `MyUMDialPlan`.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```powershell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMDialPlan MyUMDialPlan -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 Este exemplo exporta uma saudação personalizada para o atendedor automático da UM `MyUMAutoAttendant` e a salva como o arquivo `welcomegreetingbackup.wav`.
 
-    Export-UMPrompt -PromptFileName "welcomegreeting.wav" -UMAutoAttendant MyUMAutoAttendant
-    set-content -Path "e:\UMPromptsBackup\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```powershell
+Export-UMPrompt -PromptFileName "welcomegreeting.wav" -UMAutoAttendant MyUMAutoAttendant
+set-content -Path "e:\UMPromptsBackup\welcomegreeting.wav" -Value $prompt.AudioData -Encoding Byte
+```
 
 Este exemplo importa o arquivo de saudação de boas-vindas `welcomegreeting.wav` de d:\\UMPrompts para o atendedor automático de UM `MyUMAutoAttendant`.
 
-    [byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
-    Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```powershell
+[byte[]]$c = Get-content -Path "d:\UMPrompts\welcomegreeting.wav" -Encoding Byte -ReadCount 0
+Import-UMPrompt -UMAutoAttendant MyUMAutoAttendant -PromptFileName "welcomegreeting.wav" -PromptFileData $c
+```
 
 Para saber mais sobre os prompts personalizados para UM, consulte:
 
@@ -158,19 +166,19 @@ Para habilitar a UM a fim de criptografar dados enviados entre seus servidores d
     6.  Verifique se os domínios incluídos estão corretos e selecione **Concluir**.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Ao usar o EAC para criar um certificado, você não receberá uma solicitação para habilitar os serviços para o certificado. Após a criação do certificado, você poderá usar o EAC para habilitar os serviços. Para obter mais informações sobre como habilitar um certificado para os serviços, consulte <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Atribuir um certificado para os serviços de Unificação de mensagens e o roteador de chamada UM</A>.
 
     
     Crie um certificado autoassinado do Exchange executando o seguinte comando no Shell.
     
-        New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+    ```powershell
+    New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
+    ```
     
 
     > [!NOTE]  
     > Se você especificar os serviços que deseja habilitar usando o parâmetro <EM>Services</EM>, você receberá uma solicitação para habilitar os serviços para o certificado que você criou. Nesse exemplo, você receberá uma solicitação para habilitar o certificado para os serviços Unificação de Mensagens e Roteador de Chamada para Unificação de Mensagens. Para obter mais informações sobre como habilitar um certificado para os serviços, consulte <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Atribuir um certificado para os serviços de Unificação de mensagens e o roteador de chamada UM</A>.
-
-
 
   - Importe o certificado que será usado em todos os servidores de Caixa de Correio e Acesso para Cliente do Exchange 2013 em sua organização. Se você usar o certificado autoassinado do Exchange 2013, será necessário copiar o certificado, importá-lo nos gateways VoIP, IP PBXs ou PBXs habilitado para SIP. Se você usar o certificado autoassinado a partir do Exchange 2010, o SAN (Nome Alternativo da Entidade) deverá conter os nomes de computador de todos os servidores do Exchange 2013. Se você tiver servidores de Unificação de Mensagens do Exchange 2010 em sua organização, poderá usar o certificado autoassinado do Exchange 2013, mas será necessário adicionar os nomes de computadores dos servidores de UM do Exchange 2010 para o SAN no certificado do Exchange 2013.
 
@@ -184,7 +192,9 @@ Para habilitar a UM a fim de criptografar dados enviados entre seus servidores d
     
     Habilite um certificado autoassinado do Exchange executando o seguinte comando no Shell.
     
-        Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+    ```powershell
+    Enable-ExchangeCertificate -Thumbprint 5113ae0233a72fccb75b1d0198628675333d010e -Services 'UM, UMCallRouter'
+    ```
 
   - Configure quaisquer planos de discagem de UM novos ou existentes como SIP Protegido ou Protegido.
 
@@ -248,7 +258,9 @@ Configure o modo de inicialização de UM em um servidor de Caixa de Correio do 
 
 Configure o modo de inicialização de UM em um servidor de Caixa de Correio do Exchange 2013 executando o seguinte comando no Shell.
 
-    Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```powershell
+Set-UMService -Identity MyUMServer -ExternalHostFqdn host.external.contoso.com -IPAddressFamily Any -UMStartupMode Dual
+```
 
 ## Etapa 7: Criar ou configurar planos de discagem de UM existentes
 
@@ -296,7 +308,9 @@ Se for necessário, você pode configurar um plano de discagem de UM existente u
 
 Se for necessário, você pode configurar um plano de discagem de UM existente usando o Shell:
 
-    Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```powershell
+Set-UMDialplan -Identity MyDialPlan -AccessTelephoneNumbers 4255551234 -AudioCodec Wma -CallAnsweringRulesEnabled $false -OutsideLineAccessCode 9 -VoIPSecurity SIPSecured
+```
 
 Quando você implantou a Unificação de Mensagens do Exchange 2010, precisou adicionar um servidor de Unificação de Mensagens a um plano de discagem UM para poder responder às chamadas recebidas. Isso não é mais necessário. No Exchange 2013, os servidores de Acesso para Cliente e de Caixa de Correio não podem ser vinculados a um ramal telefônico ou plano de discagem E.164, mas precisa estar vinculado a planos de discagem URI do SIP. Os servidores de Acesso para Cliente e de Caixa de Correio responderão todas as chamadas de entrada de todos os tipos de planos de discagem.
 
@@ -340,7 +354,9 @@ Para configurar um gateway IP da UM usando o EAC:
 
 Para configurar um gateway IP da UM existente no Shell, executando o seguinte comando no Shell.
 
-    Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
+```powershell
+Set-UMIPGateway -Identity MyUMIPGateway -Address fe80::39bd:88f7:6969:d223%11 -IPAddressFamily Any -Status Disabled -OutcallsAllowed $false
+```
 
 ## Etapa 9: Criar um grupo de busca de UM
 
@@ -366,10 +382,12 @@ Se for necessário, crie um grupo de busca de UM usando o EAC, da seguinte manei
 
 Se for necessário, você pode criar um grupo de busca de UM executando o seguinte comando no Shell.
 
-    New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
+```powershell
+New-UMHuntGroup -Name MyUMHuntGroup -PilotIdentifier 5551234,55555 -UMDialPlan MyUMDialPlan -UMIPGateway MyUMIPGateway
+```
 
 
-> [!TIP]
+> [!TIP]  
 > Não é possível configurar ou alterar as configurações de um grupo de busca de UM. Se você quiser alterar as configurações de um grupo de busca de UM, é necessário excluí-lo e adicionar um novo grupo de busca de UM com as configurações corretas.
 
 
@@ -404,7 +422,9 @@ Se for necessário, crie um atendedor automático da UM usando o EAC, da seguint
 
 Se for necessário, você pode criar um atendedor automático de UM executando o seguinte comando no Shell.
 
-    New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+```powershell
+New-UMAutoAttendant -Name MyUMAutoAttendant -UMDialPlan MyUMDialPlan -PilotIdentifierList 56000,56100 -SpeechEnabled $true -Status Enabled
+```
 
 Se for necessário, você pode configurar um atendedor automático existente usando o EAC, da seguinte maneira:
 
@@ -414,7 +434,9 @@ Se for necessário, você pode configurar um atendedor automático existente usa
 
 Se for necessário, você pode configurar um atendedor automático de UM existente executando o seguinte comando no Shell.
 
-    Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
+```powershell
+Set-UMAutoAttendant -Identity MySpeechEnabledAA -DTMFFallbackAutoAttendant MyDTMFAA -OperatorExtension 50100 -AfterHoursTransferToOperatorEnabled $true -StaroutToDialPlanEnabled $true
+```
 
 ## Etapa 11: Criar ou configurar políticas de caixa de correio de UM
 
@@ -429,7 +451,7 @@ Se for necessário, crie uma política de caixa de correio de UM usando o EAC:
 3.  Na página **Nova Política de Caixa de Correio da UM** , na caixa **Nome**, digite o nome da política de caixa de correio da UM.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Use essa caixa para especificar um nome exclusivo para a política de caixa de correio de UM. Esse é um nome de exibição que aparece no EAC. Se for necessário alterar o nome de exibição da diretiva de caixa de correio de UM depois que ela foi criada, primeiro você deverá excluir a diretiva de caixa de correio de UM existente e, em seguida, criar outra diretiva de caixa de correio de UM com o nome adequado. Não é possível excluir uma política de caixa de correio da UM se houver usuários habilitados para UM associados a ela. O nome da política de caixa de correio da UM é obrigatório, mas é usado apenas para fins de exibição. Como a sua organização pode utilizar várias políticas de caixa de correio de UM, recomendamos que você use nomes significativos para elas. O comprimento máximo para um nome de política de caixa de correio de UM é de 64 caracteres e pode conter espaços. Entretanto, não pode incluir nenhum dos seguintes caracteres: " / \ [ ] : ; | = , + * ? &lt; &gt;.
 
 
@@ -456,7 +478,9 @@ Se for necessário, você pode configurar uma política de caixa de correio de U
 
 Se for necessário, você pode configurar uma política de caixa de correio de UM existente executando o seguinte comando no Shell.
 
-    Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
+```powershell
+Set-UMMailboxPolicy -Identity MyUMMailboxPolicy -LogonFailuresBeforePINReset 8 -MaxLogonAttempts 12 -MinPINLength 8 -PINHistoryCount 10 -PINLifetime 60 -ResetPINText "The PIN used to allow you access to your mailbox using Outlook Voice Access has been reset."
+```
 
 ## Etapa 12: Mover caixas de correio habilitadas para UM existentes para o Exchange 2013
 
@@ -524,7 +548,9 @@ Para habilitar um usuário para Unificação de Mensagens usando o EAC:
 
 Para habilitar um usuário para Unificação de Mensagens usando o Shell, execute o seguinte comando.
 
-    Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
+```powershell
+Enable-UMMailbox -Identity tonysmith@contoso.com -UMMailboxPolicy MyUMMailboxPolicy -Extensions 51234 -PIN 5643892 -NotifyEmail administrator@contoso.com -PINExpired $true
+```
 
 Se for necessário, você poderá configurar um usuário que foi habilitado para UM usando o EAC:
 
@@ -554,7 +580,9 @@ Se for necessário, você poderá configurar um usuário que foi habilitado para
 
 Se for necessário, você pode configurar um usuário que foi habilitado para UM no Shell executando o seguinte comando.
 
-    Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```powershell
+Set-UMMailbox -Identity tony@contoso.com -CallAnsweringAudioCodec Wma -CallAnsweringRulesEnabled $false -FaxEnabled $false -UMSMSNotificationOption VoiceMail
+```
 
 ## Etapa 14: Configurar seus gateways VoIP, IP PBXs e PBXs habilitados para SIP para enviar todas as chamadas de entrada aos servidores de Acesso para Cliente Exchange 2013
 
@@ -597,7 +625,7 @@ Disable-UMServer -Identity MyUMServer -Immediate $true
 ```
 
 
-> [!TIP]
+> [!TIP]  
 > É possível usar o cmdlet <STRONG>Disable-UMServer</STRONG> de um servidor de UM do Exchange 2010 ou o cmdlet <STRONG>Disable-UMService</STRONG> de um servidor de Caixa de Correio do Exchange 2013 para desabilitar o atendimento de chamada.
 
 
@@ -622,10 +650,12 @@ Para remover um servidor de UM do Exchange 2010 de um plano de discagem usando o
 
 Para remover um servidor de UM do Exchange 2010 de um plano de discagem usando o Shell, execute o seguinte comando.
 
-    $dp= Get-UMDialPlan "MySIPDialPlan"
-    $s=Get-UMServer -id MyUMServer
-    $s.dialplans-=$dp.identity
-    Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```powershell
+$dp= Get-UMDialPlan "MySIPDialPlan"
+$s=Get-UMServer -id MyUMServer
+$s.dialplans-=$dp.identity
+Set-UMServer -id MyUMServer -dialplans:$s.dialplans
+```
 
 Neste exemplo, existem três planos de discagem de URI SIP: SipDP1, SipDP2 e SipDP3. Este exemplo remove o servidor de UM chamado `MyUMServer` do plano de discagem SipDP3.
 
@@ -640,7 +670,7 @@ Set-UMServer -id MyUMServer -DialPlans SipDP1
 ```
 
 
-> [!TIP]
+> [!TIP]  
 > É possível usar o cmdlet <STRONG>Set-UMServer</STRONG> no Shell em um servidor de Unificação de Mensagens do Exchange 2010 ou o cmdlet <STRONG>Set-UMService</STRONG> em um servidor de Caixa de Correio do Exchange 2013 para remover um servidor de UM do Exchange 2010 de um ou vários planos de discagem. Por exemplo, para remover um servidor de UM de todos os planos de discagem, execute o seguinte comando: <CODE>Set-UMServer -identity MyUMServer -DialPlans $null</CODE>
 
 
@@ -656,4 +686,3 @@ Depois de configurar a Unificação de Mensagens, verifique o seguinte para gara
   - Os usuários da UM podem ligar para um número do Outlook Voice Access e ouvir emails, itens de calendário e caixa postal.
 
   - A UM está roteando chamadas de fora de sua organização, e você pode fazer uma chamada.
-

@@ -167,7 +167,9 @@ Para fazer com que todos os usuários usem o tema padrão, você deve desabilita
 
 Este exemplo define o tema padrão do Outlook Web App no qual o nome do servidor é `fourthcoffee`, o nome do diretório virtual é `owa`, o nome do site é `default web site` e o tema está na pasta chamada `Custom`.
 
-    set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom 
+```powershell
+set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom 
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/bb123515\(v=exchg.150\)).
 
@@ -175,11 +177,15 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-OwaVir
 
 Este exemplo desabilita a seleção de temas no Outlook Web App no qual o nome do servidor é `fourthcoffee`, o nome do diretório virtual é `owa` e o nome do site é `default web site`.
 
-    set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -themeselectionenabled $false 
+```powershell
+set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -themeselectionenabled $false 
+```
 
 Você também pode concluir os dois comandos ao mesmo tempo como mostra o exemplo a seguir:
 
-    set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom -themeselectionenabled $false
+```powershell
+set-owavirtualdirectory -identity "fourthcoffee\owa (default web site)" -defaulttheme Custom -themeselectionenabled $false
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-OwaVirtualDirectory](https://technet.microsoft.com/pt-br/library/bb123515\(v=exchg.150\)).
 

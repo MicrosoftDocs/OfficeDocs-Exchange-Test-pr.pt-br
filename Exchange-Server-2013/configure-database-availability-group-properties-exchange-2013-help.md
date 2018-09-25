@@ -81,13 +81,12 @@ Set-DatabaseAvailabilityGroup -Identity DAG1 -WitnessDirectory C:\DAG1DIR
 
 Este exemplo configura previamente o servidor testemunha alternativo CAS3 e um diretório testemunha alternativo C:\\DAGFileShareWitnesses\\DAG1.contoso.com para o DAG chamado DAG1.
 
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory 
 ```
-    Set-DatabaseAvailabilityGroup -Identity DAG1 -AlternateWitnessDirectory 
-```
-```
+
 ```powershell
 C:\DAGFileShareWitnesses\DAG1.contoso.com -AlternateWitnessServer CAS3
-```
 ```
 
 Este exemplo configura um DAG chamado DAG1 para utilizar Dynamic Host Configuration Protocol (DHCP) a fim de obter um endereço IP.
@@ -120,7 +119,6 @@ Este exemplo configura como 63132 a porta de replicação do DAG chamado DAG1.
 Set-DatabaseAvailabilityGroup -Identity DAG1 -ReplicationPort 63132
 ```
 
-
 > [!NOTE]
 > Após alterar a porta de replicação padrão de um DAG, você deverá modificar manualmente as exceções do Firewall do Windows em cada membro do DAG, a fim de permitir a comunicação pela porta especificada.
 
@@ -133,8 +131,8 @@ Para verificar se você configurou com êxito o DAG, faça o seguinte:
   - No Shell, execute o comando a seguir para exibir as configurações do DAG e verificar se o DAG foi configurado com êxito.
     
     ```powershell
-Get-DatabaseAvailabilityGroup <DAGName> | Format-List
-```
+    Get-DatabaseAvailabilityGroup <DAGName> | Format-List
+    ```
 
 ## Para obter mais informações
 

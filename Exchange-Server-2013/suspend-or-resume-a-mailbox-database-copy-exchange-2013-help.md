@@ -98,6 +98,6 @@ Para verificar que você tenha suspensa ou retomada uma cópia do banco de dados
   - No Shell, execute este comando para mostrar informações de status para uma cópia do banco de dados.
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 

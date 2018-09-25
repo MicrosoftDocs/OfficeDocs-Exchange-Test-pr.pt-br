@@ -57,7 +57,9 @@ Para verificar se você configurou com êxito Assistente de pasta gerenciada, us
 
 Este comando recupera todos os servidores de caixa de correio na organização e emite o propriedades workcycle do Assistente de pasta gerenciada em cada servidor no formato de tabela. A opção de *Auto* é usada para ajustar automaticamente a largura da coluna.
 
-    Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```powershell
+Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```
 
 ## Use o Shell para iniciar o Assistente de pasta gerenciada
 

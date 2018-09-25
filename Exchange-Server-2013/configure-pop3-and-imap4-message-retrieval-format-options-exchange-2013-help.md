@@ -131,8 +131,8 @@ Faça o seguinte para verificar se você definiu com êxito as configurações d
 1.  Execute o seguinte comando no Shell.
     
     ```powershell
-Get-PopSettings | format-list
-```
+    Get-PopSettings | format-list
+    ```
 
 2.  Verifique se a configuração do *MessageRetrievalMimeFormat* está correta.
 
@@ -230,8 +230,8 @@ Faça o seguinte para verificar se você definiu com êxito as configurações d
 1.  Execute o seguinte comando no Shell.
     
     ```powershell
-Get-ImapSettings | format-list
-```
+    Get-ImapSettings | format-list
+    ```
 
 2.  Verifique se a configuração do *MessageRetrievalMimeFormat* está correta.
 
@@ -301,8 +301,8 @@ Faça o seguinte para verificar se você definiu com êxito as opções de forma
 1.  Execute o seguinte comando no Shell.
     
     ```powershell
-Get-CAS Mailbox <identity> | format-list
-```
+    Get-CAS Mailbox <identity> | format-list
+    ```
 
 2.  Verifique se o valor para *PopMessagesRetrievalMimeFormat* está correto.
 
@@ -372,8 +372,8 @@ Faça o seguinte para verificar se você definiu com êxito as opções de forma
 1.  Execute o seguinte comando no Shell.
     
     ```powershell
-Get-CAS Mailbox <identity> | format-list
-```
+    Get-CAS Mailbox <identity> | format-list
+    ```
 
 2.  Verifique se o valor para *ImapMessagesRetrievalMimeFormat* está correto.
 

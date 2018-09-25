@@ -82,16 +82,16 @@ Para verificar se você desabilitou com êxito o email para um usuário de email
 3.  No Shell, execute o comando a seguir.
     
     ```powershell
-Get-MailUser
-```
+    Get-MailUser
+    ```
     
     O usuário de email para o qual você desabilitou o email não será listado nos resultados porque esse cmdlet retorna apenas usuários habilitados para email.
 
 4.  No Shell, execute o comando a seguir.
     
     ```powershell
-Get-User
-```
+    Get-User
+    ```
     
     O usuário de email para o qual você desabilitou o email será listado nos resultados porque esse cmdlet retorna todos os objetos de usuário do Active Directory.
 
@@ -112,11 +112,14 @@ Enable-MailUser -Identity "Sanjay Shah" -ExternalEmailAddress renev@tailspintoys
 Ao habilitar usuários para email em lote, primeiro, você exporta a lista de usuários que não estão habilitados para email para um arquivo CSV (valores separados por vírgula) e depois adiciona os endereços de email externos ao arquivo CSV usando um editor de texto como o Bloco de Notas ou um aplicativo de planilha como o Microsoft Excel. Depois, você usa o arquivo CSV atualizado no comando do Shell para habilitar para email os usuários listados no arquivo CSV.
 
 1.  Execute o seguinte comando para exportar uma lista de usuários existentes que não estejam habilitados para email ou que não possuem uma caixa de correio na sua organização para um arquivo na área de trabalho do administrador chamado UsersToMailEnable.csv.
-    
+   
+    ```powershell
         Get-User | Where { $_.RecipientType -eq "User" } | Out-File "C:\Users\Administrator\Desktop\UsersToMailEnable.csv"
-    
+    ```
+
     O arquivo resultante será similar ao seguinte arquivo.
     
+    ```powershell
         Name            RecipientType
         ----            -------------
         Guest           User
@@ -129,6 +132,7 @@ Ao habilitar usuários para email em lote, primeiro, você exporta a lista de us
         Spencer Low     User
         Toni Poe        User
         ...
+    ```
 
 2.  Faça as seguintes alterações no arquivo CSV:
     
@@ -140,6 +144,7 @@ Ao habilitar usuários para email em lote, primeiro, você exporta a lista de us
     
     O arquivo CSV atualizado deve ser similar ao seguinte:
     
+    ```powershell
         Name,EmailAddress
         David Pelton,davidp@contoso.com
         Kim Akers,kakers@tailspintoys.com
@@ -148,11 +153,14 @@ Ao habilitar usuários para email em lote, primeiro, você exporta a lista de us
         Spencer Low,spencerl@fouthcoffee.com
         Toni Poe,tonip@contoso.com
         ...
+    ```
 
 3.  Execute o seguinte comando para usar os dados no arquivo CSV para habilitar para email usuários listados no arquivo.
     
+    ```powershell
         Import-CSV "C:\Users\Administrator\Desktop\UsersToMailEnable.csv" | ForEach-Object {Enable-MailUser -Identity $_.Name -ExternalEmailAddress $_.EmailAddress}
-    
+    ```
+
     Os resultados do comando exibem informações sobre os novos usuários habilitados para email.
 
 ## Como saber se funcionou?
@@ -170,6 +178,6 @@ Para verificar se você habilitou para email com êxito usuários do Active Dire
   - No Shell, execute o comando abaixo para exibir informações sobre novos usuários de email.
     
     ```powershell
-Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
-```
+    Get-MailUser | Format-Table Name,RecipientTypeDetails,ExternalEmailAddress
+    ```
 

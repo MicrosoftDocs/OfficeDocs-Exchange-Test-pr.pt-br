@@ -126,8 +126,8 @@ Para mais informações sobre como gerenciar o Exchange 2013, confira [Centro de
 
     
     ```powershell
-Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
-```
+    Setup.exe /Role:ManagementTools /IAcceptExchangeServerLicenseTerms
+    ```
 
 Para saber mais, confira [Instalar o Exchange 2013 usando o modo autônomo](install-exchange-2013-using-unattended-mode-exchange-2013-help.md).
 

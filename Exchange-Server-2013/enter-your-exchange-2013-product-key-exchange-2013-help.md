@@ -113,10 +113,13 @@ Para usar o Shell a fim de verificar se você licenciou com êxito o servidor co
 1.  Abra o shell.
 
 2.  Execute o comando a seguir para exibir o status de licenciamento de um servidor específico do Exchange.
-    
+
+```powershell    
         Get-ExchangeServer ExServer01 | Format-Table Edition,*Trial*
+```
 
 3.  (Opcional) Execute o comando a seguir para exibir o status de licenciamento de todos os servidores do Exchange da sua organização.
-    
-        Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
 
+```powershell    
+        Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
+```

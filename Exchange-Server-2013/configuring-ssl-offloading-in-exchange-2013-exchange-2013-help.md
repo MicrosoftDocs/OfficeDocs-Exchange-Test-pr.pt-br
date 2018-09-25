@@ -88,28 +88,28 @@ Para habilitar o descarregamento SSL para o Outlook Web App, você precisa remov
       - Usando a linha de comando, digite o comando a seguir e pressione Enter.
         
         ```powershell
-appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
-```
+        appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
+        ```
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeOWAAppPool
-```
+        appcmd Recycle AppPool MSExchangeOWAAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeOWAAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeOWAAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -126,8 +126,8 @@ Para habilitar o descarregamento SSL para EAC, você precisa remover a exigênci
       - Usando a linha de comando, digite o comando a seguir e pressione Enter.
         
         ```powershell
-appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
-```
+        appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
+        ```
         
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
@@ -135,20 +135,20 @@ appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeECPAppPool
-```
+        appcmd Recycle AppPool MSExchangeECPAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeECPAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeECPAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -164,7 +164,9 @@ Descarregamento SSL para o Outlook Anywhere está habilitado por padrão. Outloo
     
       - Usando o Shell de Gerenciamento do Exchange, clique em **Iniciar** e, no menu **Iniciar**, clique em **Shell de Gerenciamento do Exchange**. Na janela, digite o seguinte comando e pressione Enter:
         
-            Set-OutlookAnywhere -Identity ClientAccessServer1\Rpc* -Externalhostname ClientAccessServer1.contoso.com -ExternalClientsRequireSsl:$True -ExternalClientAuthenticationMethod Basic
+        ```powershell
+        Set-OutlookAnywhere -Identity ClientAccessServer1\Rpc* -Externalhostname ClientAccessServer1.contoso.com -ExternalClientsRequireSsl:$True -ExternalClientAuthenticationMethod Basic
+        ```
 
   - **Etapa 2**   Por padrão, o descarregamento SSL está habilitado. No entanto, você pode usar EAC ou o Shell de Gerenciamento do Exchange se o descarregamento SSL tiver sido desabilitado e você quiser habilitá-lo.
     
@@ -172,7 +174,9 @@ Descarregamento SSL para o Outlook Anywhere está habilitado por padrão. Outloo
     
       - Usando o Shell, digite o seguinte comando e pressione Enter.
         
-            Set-OutlookAnywhere -Identity ClientAccessServer1\Rpc* -SSLOffloading $true
+        ```powershell
+        Set-OutlookAnywhere -Identity ClientAccessServer1\Rpc* -SSLOffloading $true
+        ```
 
   - **Etapa 3**   Por padrão, **Exigir SSL** não está selecionado no diretório virtual **Rpc**, mas se você quiser verificar se o SSL está desabilitado, use o Gerenciador de Serviços de Informações da Internet (IIS).
     
@@ -183,20 +187,20 @@ Descarregamento SSL para o Outlook Anywhere está habilitado por padrão. Outloo
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeRpcProxyFrontEndAppPool
-```
+        appcmd Recycle AppPool MSExchangeRpcProxyFrontEndAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeRpcProxyFrontEndAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeRpcProxyFrontEndAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -219,28 +223,28 @@ Para habilitar o descarregamento SSL para o Catálogo de Endereços Offline (OAB
       - Usando a linha de comando, digite o comando a seguir e pressione Enter.
         
         ```powershell
-appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
-```
+        appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
+        ```
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeOABAppPool
-```
+        appcmd Recycle AppPool MSExchangeOABAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeOABAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeOABAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -256,27 +260,29 @@ Para habilitar o descarregamento SSL para o Exchange ActiveSync (EAS), você pre
     
       - Usando a linha de comando, digite o comando a seguir e pressione Enter.
         
-            appcmd set config "Default Web Site/MSExchangeSyncAppPool" /section:access /sslFlags:None /commit:APPHOST
+          ```powershell
+          appcmd set config "Default Web Site/MSExchangeSyncAppPool" /section:access /sslFlags:None /commit:APPHOST
+          ```
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeSyncAppPool
-```
+        appcmd Recycle AppPool MSExchangeSyncAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeSyncAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeSyncAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -293,28 +299,28 @@ Para habilitar o descarregamento SSL para Serviços Web do Exchange (EWS), você
       - Usando a linha de comando, digite o comando a seguir e pressione Enter.
         
         ```powershell
-appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
-```
+        appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
+        ```
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeServicesAppPool
-```
+        appcmd Recycle AppPool MSExchangeServicesAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeServicesAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeServicesAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -331,28 +337,28 @@ Para habilitar o descarregamento SSL para o serviço Descoberta Automática, voc
       - Usando a linha de comando, digite o comando a seguir e pressione Enter.
         
         ```powershell
-appcmd set config "Default Web Site/autodiscover" /section:access /sslFlags:None /commit:APPHOST
-```
+        appcmd set config "Default Web Site/autodiscover" /section:access /sslFlags:None /commit:APPHOST
+        ```
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeAutodiscoverAppPool
-```
+        appcmd Recycle AppPool MSExchangeAutodiscoverAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeAutodiscoverAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeAutodiscoverAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -379,28 +385,28 @@ Para habilitar o descarregamento SSL para clientes do Outlook, você precisa rem
       - Usando a linha de comando, digite o comando a seguir e pressione Enter.
         
         ```powershell
-appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
-```
+        appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
+        ```
 
   - **Etapa 2**   Você precisa reciclar o pool de aplicativos correto ou reiniciar os Serviços de Informações da Internet usando um dos métodos a seguir:
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-appcmd Recycle AppPool MSExchangeMapiFrontEndAppPool
-```
+        appcmd Recycle AppPool MSExchangeMapiFrontEndAppPool
+        ```
     
       - Usando um cmdlet do Windows PowerShell, digite o comando a seguir e pressione Enter.
         
         ```powershell
-IIS:\>Restart-WebAppPool MSExchangeMapiFrontEndAppPool
-```
+        IIS:\>Restart-WebAppPool MSExchangeMapiFrontEndAppPool
+        ```
     
       - Usando uma linha de comando: Vá para **Iniciar** \> **Executar**, digite **cmd** e depois pressione Enter. Na janela Prompt de Comando, digite o comando a seguir e pressione ENTER.
         
         ```powershell
-iisreset /noforce
-```
+        iisreset /noforce
+        ```
     
       - Usando o Gerenciador dos Serviços de Informações da Internet (IIS): No Gerenciador de Serviços de Informações da Internet (IIS), no painel **Ações**, clique em **Reiniciar**.
 
@@ -418,15 +424,18 @@ Se você estiver trabalhando com uma organização grande com múltiplos servido
 
 **Usando Set-WebConfigurationProperty**
 
-    Set-OutlookAnywhere -Identity MyServer\Rpc* -Externalhostname MyServer.mail.contoso.com -ExternalClientsRequireSsl $True -ExternalClientAuthenticationMethod Basic
-    Set-OutlookAnywhere -Identity MyServer\Rpc* -SSLOffloading $true
-    Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS:  -Location "Default Web Site/OWA"
-    Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/ecp"
-    Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/EWS"
-    Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/Autodiscover"
-    Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/Microsoft-Server-ActiveSync"
-    Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/OAB"
-    Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/MAPI"
+```powershell
+Set-OutlookAnywhere -Identity MyServer\Rpc* -Externalhostname MyServer.mail.contoso.com -ExternalClientsRequireSsl $True -ExternalClientAuthenticationMethod Basic
+Set-OutlookAnywhere -Identity MyServer\Rpc* -SSLOffloading $true
+Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS:  -Location "Default Web Site/OWA"
+Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/ecp"
+Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/EWS"
+Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/Autodiscover"
+Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/Microsoft-Server-ActiveSync"
+Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/OAB"
+Set-WebConfigurationProperty -Filter //security/access -name sslflags -Value "None" -PSPath IIS: -Location "Default Web Site/MAPI"
+```
+
 ```powershell
 iisreset /noforce
 ```
@@ -438,16 +447,18 @@ iisreset /noforce
 > Para que as entradas do cmdlet <STRONG>Set-OutlookAnywhere</STRONG> , substitua "Meuservidor" pelo nome do seu servidor de acesso para cliente (es).
 
 
+```powershell
+Set-OutlookAnywhere -Identity MyServer\Rpc* -Externalhostname MyServer.mail.contoso.com -ExternalClientsRequireSsl $True -ExternalClientAuthenticationMethod Basic
+Set-OutlookAnywhere -Identity MyServer\Rpc* -SSLOffloading $true
+&$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
+&$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
+&$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
+&$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/Autodiscover" /section:access /sslFlags:None /commit:APPHOST
+&$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/Microsoft-Server-ActiveSync" /section:access /sslFlags:None /commit:APPHOST
+&$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
+&$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
+```
 
-    Set-OutlookAnywhere -Identity MyServer\Rpc* -Externalhostname MyServer.mail.contoso.com -ExternalClientsRequireSsl $True -ExternalClientAuthenticationMethod Basic
-    Set-OutlookAnywhere -Identity MyServer\Rpc* -SSLOffloading $true
-    &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/owa" /section:access /sslFlags:None /commit:APPHOST
-    &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/ecp" /section:access /sslFlags:None /commit:APPHOST
-    &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/EWS" /section:access /sslFlags:None /commit:APPHOST
-    &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/Autodiscover" /section:access /sslFlags:None /commit:APPHOST
-    &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/Microsoft-Server-ActiveSync" /section:access /sslFlags:None /commit:APPHOST
-    &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/OAB" /section:access /sslFlags:None /commit:APPHOST
-    &$env:systemroot\system32\inetsrv\appcmd set config "Default Web Site/MAPI" /section:access /sslFlags:None /commit:APPHOST
 ```powershell
 iisreset /noforce
 ```

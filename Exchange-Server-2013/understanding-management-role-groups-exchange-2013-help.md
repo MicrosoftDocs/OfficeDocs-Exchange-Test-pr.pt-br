@@ -257,7 +257,9 @@ Para mais informações sobre como gerenciar a delegação de grupo de funções
 
 Como mencionado anteriormente, um grupo de função é composto de várias camadas. Para ajudá-lo a entender o que acontece quando um grupo de função é criado, considere o seguinte exemplo, que cria um novo grupo de função.
 
+```powershell
     New-RoleGroup -Name "Seattle Recipient Management" -Roles "Mail Recipients", "Distribution Groups", "Move Mailboxes", "UM Mailboxes" -CustomRecipientWriteScope "Seattle Users", -ManagedBy "Brian", "David", "Katie" -Members "Ray", "Jenn", "Maria", "Chris", "Maija", "Carter", "Jenny", "Sam", "Lukas", "Isabel", "Katie"
+```
 
 Quando o comando anterior é executado, acontece o seguinte:
 

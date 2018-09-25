@@ -91,11 +91,15 @@ O script deve residir no diretório `RemoteScripts` no caminho de instalação d
 
 Depois de copiar o script para os servidores apropriados do Exchange 2013 e decidir quais parâmetros do script devem ser usados, crie a entrada de função usando a sintaxe a seguir.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<script filename> -Parameters <parameter 1, parameter 2, parameter...> -Type Script -UnscopedTopLevel
+```
 
 Este exemplo adiciona o script BulkProvisionUsers.ps1 à função Scripts de TI com os parâmetros *Name* e *Location*.
 
-    Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "IT Scripts\BulkProvisionUsers.ps1" -Parameters Name, Location -Type Script -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -113,11 +117,15 @@ Se você adicionar cmdlets que não sejam do Exchange à nova função, os cmdle
 
 Após instalar o snap-in do Windows PowerShell que contém os cmdlets nos servidores do Exchange 2013 apropriados e decidir quais parâmetros do cmdlet devem ser usados, crie a entrada de função usando a sintaxe a seguir.
 
-    Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry <unscoped top-level role name>\<cmdlet name> -PSSnapinName <snap-in name> -Parameters <parameter 1, parameter 2, parameter...> -Type Cmdlet -UnscopedTopLevel
+```
 
 Este exemplo adiciona o cmdlet **Set-WidgetConfiguration** no snap-in Contoso.Admin.Cmdlets à função Widget Cmdlets com os parâmetros *Database* e *Size*.
 
-    Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```powershell
+Add-ManagementRoleEntry "Widget Cmdlets\Set-WidgetConfiguration" -PSSnapinName Contoso.Admin.Cmdlets -Parameters Database, Size -Type Cmdlet -UnscopedTopLevel
+```
 
 
 > [!NOTE]
@@ -159,7 +167,9 @@ Funções novas filhas sem escopo podem ter como base funções sem escopo exist
 
 Use a sintaxe a seguir para criar a nova função.
 
-    New-ManagementRole -Parent <existing unscoped role to copy> -Name <name of new unscoped role>
+```powershell
+New-ManagementRole -Parent <existing unscoped role to copy> -Name <name of new unscoped role>
+```
 
 Este exemplo copia a função de Scripts Globais de TI e suas entradas de função de gerenciamento para a função de Scripts de TI de Diagnóstico.
 

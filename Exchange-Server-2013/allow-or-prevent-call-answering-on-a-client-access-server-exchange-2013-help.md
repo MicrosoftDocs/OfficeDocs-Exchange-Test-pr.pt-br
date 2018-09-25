@@ -55,9 +55,12 @@ Para tarefas de gerenciamento adicionais relacionadas a servidores acesso para c
 
 Este exemplo habilita um servidor de acesso para cliente `UMCallRouter-05x.contoso.com` para atendimento de voz de entrada, fax, atendedor automático e Outlook Voice Access chama a partir de gateways VoIP, IP PBXs, SBCs e PBXs habilitados para SIP e grava as alterações no registro no UMCallRouter-05 x server.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Active -LocalOnly
+```
 
 Este exemplo impede que um servidor de acesso para cliente `UMCallRouter-05x.contoso.com` de atendimento de voz de entrada, fax, atendedor automático e Outlook Voice Access chamadas de gateways VoIP, IP PBXs, SBCs e PBXs habilitados para SIP e grava as alterações para o Active Directory.
 
-    Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
-
+```powershell
+Set-ServerComponentState -Component UnifiedMessaging -Identity UMCallRouter-05x.contoso.com -Requester Maintenance -State Inactive -RemoteOnly
+```

@@ -65,7 +65,9 @@ Use o procedimento a seguir para importar um modelo de política DLP personaliza
 
 Este exemplo importa um arquivo de modelo de política DLP personalizado no arquivo C:\\My Documents\\DLP backup. Importando um conjunto de política DLP a partir de um arquivo XML, remove ou substitui todas as políticas de DLP pré-existente que foram definidas em sua organização. Verifique se você tem um backup do seu conjunto atual de política DLP antes de importar e substituir as políticas de DLP atuais.
 
-    Import-DlpPolicyCollection -FileData ([Byte[]]$(Get-Content -Path " C:\My Documents\DLP Backup.xml " -Encoding Byte -ReadCount 0))
+```powershell
+Import-DlpPolicyCollection -FileData ([Byte[]]$(Get-Content -Path " C:\My Documents\DLP Backup.xml " -Encoding Byte -ReadCount 0))
+```
 
 ## Para obter mais informações
 
