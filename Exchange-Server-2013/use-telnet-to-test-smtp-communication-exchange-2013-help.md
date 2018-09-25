@@ -110,11 +110,11 @@ Neste exemplo, os seguintes valores são usados:
 > <P>Os comandos no Cliente Telnet não diferenciam maiúsculas de minúsculas. Os verbos do comando SMTP estão em maiúsculas por questões de clareza.</P>
 > <LI>
 > <P>Não é possível usar a tecla Backspace depois de conectar ao servidor SMTP de destino dentro da sessão Telnet. Se você cometer um erro ao digitar um comando SMTP, deverá pressionar Enter e digitar o comando novamente. Comandos SMTP não reconhecidos ou erros de sintaxe resultam em uma mensagem de erro semelhante à seguinte:</P>
-</LI></UL>
-
->  ```powershell
->  500 5.3.3 Unrecognized command
->  ```
+> 
+> ```powershell
+> 500 5.3.3 Unrecognized command
+> ```
+> </LI></UL>
 
 
 
