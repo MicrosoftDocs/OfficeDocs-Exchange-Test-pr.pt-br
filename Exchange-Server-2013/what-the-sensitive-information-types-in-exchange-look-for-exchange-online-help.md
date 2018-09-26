@@ -2805,7 +2805,6 @@ Prevenção de perda de dados (DLP) no Exchange inclui 80 tipos de informações
 </ul></li>
 <li><p>A soma de verificação passa.</p></li>
 </ul>
-<pre><code>    
 
 ```Command&nbsp;Line
   <!-- EU Debit Card Number -->
