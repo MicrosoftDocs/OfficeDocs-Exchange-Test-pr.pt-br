@@ -964,7 +964,7 @@ Alguns cmdlets podem usar escopos de configuração que não sejam imediatamente
 
 Escopos de banco de dados foram introduzidos no Microsoft Exchange 2010 Service Pack 1 (SP1) e continuam a ter suporte no Exchange 2013. Versões do Exchange antes da Exchange 2010 SP1 suportam apenas escopos de destinatário e escopos de configuração do servidor. Quando você cria um novo escopo de banco de dados em um Exchange 2010 SP1 ou posterior server, você receberá o seguinte aviso:
 
-  ```
+  ```powershell
     WARNING: Database management scopes will only be applied when a user connects to a server running Exchange 2010 SP1 or later. Servers running a version of Exchange prior to Exchange 2010 SP1 won't apply any roles from a role assignment linked to a database scope. Database management scopes also won't be visible to the Get-ManagementScope cmdlet when it's run from a pre-Exchange 2010 SP1 server.
   ```
 

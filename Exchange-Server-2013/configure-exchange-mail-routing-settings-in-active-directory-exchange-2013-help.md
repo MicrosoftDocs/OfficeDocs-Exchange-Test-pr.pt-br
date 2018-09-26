@@ -43,7 +43,7 @@ Determine o nome do link de site IP do Active Directory para o qual deseja defin
 
 Para definir um custo específicas do Exchange em um link de site do Active Directory, execute o seguinte comando:
 
-``` 
+```powershell 
  Set-AdSiteLink <ADSiteLinkIdentity> -ExchangeCost <Integer | $null>
 ```
 

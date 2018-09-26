@@ -68,7 +68,11 @@ A tabela a seguir descreve as informações do filtro que podem constar em um re
 <li><p><strong>PermError</strong> A gravação de DNS é inválida, como um erro no formato de gravação.</p></li>
 </ul>
 <p>O carimbo ID de Remetente é exibido como um Cabeçalho X no envelope da mensagem, da seguinte forma:</p>
-<pre><code>X-MS-Exchange-Organization-SenderIdResult:&lt;status&gt;</code></pre>
+
+```powershell
+X-MS-Exchange-Organization-SenderIdResult:<status>
+```
+
 <p>Para obter mais informações sobre ID de Remetente, consulte <a href="sender-id-exchange-2013-help.md">ID de remetente</a>.</p></td>
 </tr>
 <tr class="even">

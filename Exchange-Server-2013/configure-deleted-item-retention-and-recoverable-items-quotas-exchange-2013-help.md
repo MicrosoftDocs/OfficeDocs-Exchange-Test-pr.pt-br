@@ -83,7 +83,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-M
 
 Este exemplo configura um aviso de cota de 12 GB e uma cota de itens recuperáveis de 15 GB para caixa de correio de April Stewart de itens recuperáveis.
 
-    Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
+  ```powershell
+  Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
+  ```
 
 
 > [!NOTE]

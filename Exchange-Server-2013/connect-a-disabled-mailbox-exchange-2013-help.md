@@ -43,7 +43,9 @@ Para saber mais sobre caixas de correio desconectadas e executar outras tarefas 
 
   - Execute o seguinte comando para verificar se a caixa de correio desabilitada à qual você deseja conectar uma conta de usuário existe no banco de dados de caixa de correio e se não se trata de uma caixa de correio excluída por software.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,Database,DisconnectReason
+    ```
     
     Para poder conectar uma caixa de correio desabilitada, ela deve existir no banco de dados de caixas de correio e o valor da propriedade *DisconnectReason* deve ser `Disabled`. Se a caixa de correio tiver sido eliminada do banco de dados, o comando não retornará resultados.
 
@@ -91,11 +93,15 @@ Connect-Mailbox -Identity "Jeffrey Zeng" -Database MBXDB01 -User "Jeffrey Zeng"
 
 Este exemplo conecta uma caixa de correio vinculada. O parâmetro *Identity* especifica a caixa de correio desconectada do banco de dados do Exchange. O parâmetro *LinkedMasterAccount* especifica a conta de usuário do Active Directory na floresta de conta à qual deseja reconectar a caixa de correio. O parâmetro *Alias* especifica o alias, que é a parte do endereço de email à esquerda do símbolo arroba (@), para a caixa de correio reconectada.
 
-    Connect-Mailbox -Identity "Kai Axford" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount kai.axford@fabrikam.com -Alias kaia
+```powershell
+Connect-Mailbox -Identity "Kai Axford" -Database MBXDB02 -LinkedDomainController FabrikamDC01 -LinkedMasterAccount kai.axford@fabrikam.com -Alias kaia
+```
 
 Este exemplo conecta uma caixa de correio compartilhada.
 
-    Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
+```powershell
+Connect-Mailbox -Identity "Corporate Shared Mailbox" -Database "Mailbox Database 03" -User "Corporate Shared Mailbox" -Alias corpshared -Shared
+```
 
 
 > [!NOTE]
@@ -116,8 +122,8 @@ Para verificar se você conectou com êxito a caixa de correio desabilitada a um
   - No Shell, execute o comando a seguir.
     
     ```powershell
-Get-User <identity>
-```
+    Get-User <identity>
+    ```
     
     O valor de **UserMailbox** para a propriedade *RecipientType* indica que a conta de usuário e a caixa de correio estão conectadas. Você também pode executar o cmdlet **Get-Mailbox** para verificar se a caixa de correio existe.
 
