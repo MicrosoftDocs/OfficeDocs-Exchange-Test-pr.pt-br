@@ -109,7 +109,9 @@ Execute os seguintes comandos do Shell para gerenciar outros aspectos de uma con
     
     Este exemplo exibe os certificados anteriores, atuais e futuros usados pela confiança de federação "Autenticação do Azure AD".
     
-        Get-FederationTrust "Azure AD authentication" | Select Org*certificate
+    ```powershell
+    Get-FederationTrust "Azure AD authentication" | Select Org*certificate
+    ```
 
 3.  **Verificar o status dos certificados de federação**
     

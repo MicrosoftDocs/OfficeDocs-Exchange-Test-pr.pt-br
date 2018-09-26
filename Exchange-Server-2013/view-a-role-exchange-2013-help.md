@@ -83,7 +83,9 @@ Get-ManagementRole | Format-Table <property 1>, <property 2...>
 
 Este exemplo retorna uma lista de todas as funções em sua organização e inclui a propriedade **Name** e qualquer propriedade com a palavra **Implicit** no começo do nome da propriedade.
 
-    Get-ManagementRole | Format-Table Name, Implicit*
+```powershell
+Get-ManagementRole | Format-Table Name, Implicit*
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-ManagementRole](https://technet.microsoft.com/pt-br/library/dd351125\(v=exchg.150\)).
 

@@ -53,9 +53,9 @@ Este exemplo cria a política de provisionamento padrão SM\_ProvisioningPolicy 
 
 <!-- end list -->
 
-    ```powershell
-    New-SiteMailboxProvisioningPolicy -Name SM_ProvisioningPolicy -IsDefault -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB -MaxReceiveSize 50MB
-    ```
+```powershell
+New-SiteMailboxProvisioningPolicy -Name SM_ProvisioningPolicy -IsDefault -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB -MaxReceiveSize 50MB
+```
 
 ## Exibir as configurações de uma política de provisionamento de caixa de correio de site
 
@@ -81,9 +81,9 @@ Set-SiteMailboxProvisioningPolicy -Identity Default -MaxReceiveSize 25MB
 
 Este exemplo altera a cota de alerta para 9,5 GB e a proibição da quota de envio e de recebimento para 10 GB.
 
-    ```powershell
-    Set-SiteMailboxProvisioningPolicy -Identity Default -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB
-    ```
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -IssueWarningQuota 9GB -ProhibitSendReceiveQuota 10GB
+```
 
 ## Configurar um prefixo de nome de caixa de correio da equipe
 
@@ -91,9 +91,9 @@ Quando uma nova caixa de correio da equipe é criada, por padrão seu endereço 
 
 Este exemplo desabilita a nomenclatura de prefixo ao configurar o parâmetro *DefaultAliasPrefixEnabled* como $false.
 
-    ```powershell
-    Set-SiteMailboxProvisioningPolicy -Identity Default -DefaultAliasPrefixEnabled $false -AliasPrefix $null
-    ```
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -DefaultAliasPrefixEnabled $false -AliasPrefix $null
+```
 
 Este exemplo altera a política de provisionamento padrão e define *AliasPrefix* como FOREST01.
 
@@ -101,9 +101,9 @@ Este exemplo altera a política de provisionamento padrão e define *AliasPrefix
 > [!NOTE]
 > Para implantações com várias florestas, é recomendável que um prefixo diferente seja usado em cada floresta para impedir conflitos quando objetos sejam sincronizados entre florestas, no caso de que caixas de correio da equipe tiverem sido criadas com o mesmo nome em duas ou mais florestas.
 
-    ```powershell
-    Set-SiteMailboxProvisioningPolicy -Identity Default -AliasPrefix FOREST01 -DefaultAliasPrefixEnabled $false
-    ```
+```powershell
+Set-SiteMailboxProvisioningPolicy -Identity Default -AliasPrefix FOREST01 -DefaultAliasPrefixEnabled $false
+```
 
 > [!NOTE]
 > No caso de uma implantação híbrida onde você tiver o Exchange local e no Office 365, todas caixas de correio da equipe baseadas em nuvem serão criadas com o prefixo <STRONG>SMO-</STRONG>. Os prefixos são diferentes no Office 365 e no Exchange local de forma que clientes híbridos não experimentem conflitos caso as caixas de correio da equipe sejam criadas em ambos os locais e então sincronizadas entre locais. O parâmetro AliasPrefix tem precedência sobre o parâmetro DefaultAliasPrefixEnabled; portanto, se o parâmetro <EM>AliasPrefix</EM> for definido como uma cadeia de caracteres válida e não nula, cada nova caixa de correio da equipe terá essa cadeia de caracteres como prefixo do alias.

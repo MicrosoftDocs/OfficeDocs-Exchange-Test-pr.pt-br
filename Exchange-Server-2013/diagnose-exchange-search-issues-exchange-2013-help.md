@@ -87,7 +87,9 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 4.  **Verificar a integridade de indexação de cópia de banco de dados**   O índice de conteúdo é íntegro? Use o cmdlet **Get-MailboxDatabaseCopyStatus** para verificar a integridade de indexação do conteúdo de uma cópia de banco de dados.
     
-        Get-MailboxDatabaseCopyStatus -Server $env:ComputerName | Format-Table Name,Status,ContentIndex* -Auto
+    ```powershell
+    Get-MailboxDatabaseCopyStatus -Server $env:ComputerName | Format-Table Name,Status,ContentIndex* -Auto
+    ```
     
     Para informações detalhadas sobre sintaxes e parâmetros, consulte [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/pt-br/library/dd298044\(v=exchg.150\)).
 

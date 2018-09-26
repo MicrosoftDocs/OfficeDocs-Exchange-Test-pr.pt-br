@@ -279,7 +279,7 @@ Get-AzureVnetConnection -VNetName "Azure Site" | Format-Table LocalNetworkSiteNa
 
 Se ambos os encapsulamento estiverem em execução, a saída deste comando irá parecer com o seguinte.
 
-```
+```powershell
 LocalNetworkSiteName    ConnectivityState
 
 --------------------    -----------------

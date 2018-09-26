@@ -310,7 +310,9 @@ Get-IPBlockListProvider "Contoso IP Block List Provider" | Format-List Name,Enab
 
 Para adicionar um provedor de lista de IPs Bloqueados, use esta sintaxe:
 
-    Add-IPBlockListProvider -Name "<Descriptive Name>" -LookupDomain <FQDN> [-Priority <Integer>] [-Enabled <$true | $false>] [-AnyMatch <$true | $false>] [-BitmaskMatch <IPAddress>] [-IPAddressesMatch <IPAddressStatusCode1,IPAddressStatusCode2...>] [-RejectionResponse "<Custom Text>"]
+  ```powershell
+  Add-IPBlockListProvider -Name "<Descriptive Name>" -LookupDomain <FQDN> [-Priority <Integer>] [-Enabled <$true | $false>] [-AnyMatch <$true | $false>] [-BitmaskMatch <IPAddress>] [-IPAddressesMatch <IPAddressStatusCode1,IPAddressStatusCode2...>] [-RejectionResponse "<Custom Text>"]
+  ```
 
 Este exemplo cria um provedor chamado "Contoso IP Block List Provider" (Provedor de lista de IPs Bloqueados da Contoso) com as seguintes opções:
 

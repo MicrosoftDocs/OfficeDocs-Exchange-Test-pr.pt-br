@@ -102,7 +102,9 @@ Para verificar se você configurou com êxito log de tabela de roteamento, faça
 
 4.  Reinicie o serviço de Transporte do Microsoft Exchange executando o seguinte comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Como saber se funcionou?
 

@@ -69,7 +69,9 @@ New-ManagementScope -Name <scope name> -DatabaseList <database 1>, <database 2..
 
 Esse exemplo cria um escopo que se aplica somente aos bancos de dados Banco de Dados 1, Banco de Dados 2 e Banco de Dados 3.
 
-    New-ManagementScope -Name "Accounting databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```powershell
+New-ManagementScope -Name "Accounting databases" -DatabaseList "Database 1", "Database 2", "Database 3"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementScope](https://technet.microsoft.com/pt-br/library/dd335137\(v=exchg.150\)).
 

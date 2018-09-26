@@ -35,8 +35,10 @@ The *Identity* parameter is also considered a positional parameter. The first ar
 
 The following example shows the use of the *Identity* parameter by using the Receive connector's unique *Name* parameter value. This example also shows how you can omit the *Identity* parameter name because *Identity* is a positional parameter.
 
-    Get-ReceiveConnector -Identity "From the Internet"
-    Get-ReceiveConnector "From the Internet"
+```powershell
+Get-ReceiveConnector -Identity "From the Internet"
+Get-ReceiveConnector "From the Internet"
+```
 
 Like all objects in Exchange 2013, this Receive connector can also be referred to by its unique GUID. For example, if the Receive connector named `"From the Internet"` is also assigned the GUID `63d64005-42c5-4f8f-b310-14f6cb125bf3`, you can also retrieve the Receive connector by using the following command:
 
@@ -90,15 +92,21 @@ Mail Recipients\Set-Mailbox
 
 The `Mail Recipients\Set-Mailbox` role entry is one of several entries on the `Mail Recipients` role. To view all the role entries on the `Mail Recipients` role, you can use the following command:
 
-    Get-ManagementRoleEntry "Mail Recipients\*"
+```powershell
+Get-ManagementRoleEntry "Mail Recipients\*"
+```
 
 To view all the role entries on the `Mail Recipients` role that contain the string "`Mailbox`", use the following command:
 
-    Get-ManagementRoleEntry "Mail Recipients\*Mailbox*"
+```powershell
+Get-ManagementRoleEntry "Mail Recipients\*Mailbox*"
+```
 
 To view all the management roles where **Set-Mailbox** is one of the role entries, use the following command:
 
-    Get-ManagementRoleEntry *\Set-Mailbox
+```powershell
+Get-ManagementRoleEntry *\Set-Mailbox
+```
 
 With role entries you can use the wildcard character in a variety of ways to query Exchange 2013 for the information you're interested in.
 

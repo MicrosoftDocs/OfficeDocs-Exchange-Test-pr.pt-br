@@ -48,13 +48,13 @@ Importing and exporting files requires a specific syntax because Mailbox and Cli
 The syntax to import files in Exchange 2013 is used any time you want to send a file to a cmdlet running on an Exchange 2013 server from your local computer or server. Cmdlets that accept data from a file on your local computer will have a parameter called *FileData* (or something similar). To determine the correct parameter to use, see the Help information for the cmdlet you're using.
 
 The Shell must know what file you want to send to the Exchange 2013 cmdlet, and what parameter will accept the data. To do so, use the following syntax.
-
+```powershell
     <Cmdlet> -FileData ([Byte[]]$(Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0))
-
+```
 For example, the following command imports the file C:\\MyData.dat into the *FileData* parameter on the **Import-SomeData** fictional cmdlet.
-
+```powershell
     Import-SomeData -FileData (Byte[]]$(Get-Content -Path "C:\MyData.dat" -Encoding Byte -ReadCount 0))
-
+```
 The following actions occur when the command is run:
 
 1.  The command is accepted by remote Shell.
@@ -70,10 +70,10 @@ The following actions occur when the command is run:
 6.  On the remote Exchange 2013 server, the **Import-SomeData** cmdlet is run, and the data stored in the temporary object created by the **Get-Content** cmdlet is passed to the *FileData* parameter. The **Import-SomeData** cmdlet processes the input and performs whatever actions are required.
 
 Some cmdlets use the following alternate syntax that accomplishes the same thing as the preceding syntax.
-
+```powershell
     [Byte[]]$Data = Get-Content -Path <local path to file> -Encoding Byte -ReadCount 0
     Import-SomeData -FileData $Data
-
+```
 The same process happens with this alternate syntax. The only difference is instead of performing the entire operation at once, the data retrieved from the local file is stored in a variable that can be referenced after it's created. The variable is then used in the import command to pass the contents of the local file to the **Import-SomeData** cmdlet. Using this two-step process is useful when you want to use the data from the local file in more than one command.
 
 There are limitations that you must consider when importing files. For more information, see "Limitations on importing files" later in this topic.
