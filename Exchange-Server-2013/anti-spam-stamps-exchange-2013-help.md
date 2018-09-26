@@ -29,7 +29,9 @@ Você pode exibir os carimbos antispam usando o Microsoft Outlook. Para mais inf
 
 O relatório antispam é um resumo dos resultados dos filtros antispam aplicados a um email. O agente do Filtro de Conteúdo aplica esse carimbo ao envelope da mensagem na forma de um Cabeçalho X, como descrito a seguir:
 
+```powershell
     X-MS-Exchange-Organization-Antispam-Report: DV:<DATVersion>;CW:CustomList;PCL:PhishingVerdict <verdict>;P100:PhishingBlock;PP:Presolve;SID:SenderIDStatus <status>;TIME:<SendReceiveDelta>;MIME:MimeCompliance 
+```
 
 A tabela a seguir descreve as informações do filtro que podem constar em um relatório antispam.
 
@@ -91,14 +93,19 @@ A tabela a seguir descreve as informações do filtro que podem constar em um re
 <p>O valor do PCL pode variar de 1 a 8. Uma classificação de PCL de 1 a 3 retorna um status de <code>Neutral</code>. Isso significa que o conteúdo da mensagem provavelmente não é phishing. Uma classificação PCL de 4 a 8 retorna um status de <code>Suspicious</code>. Isso significa que a mensagem provavelmente é phishing.</p>
 <p>Os valores são usados para determinar que ação o Outlook toma em relação às mensagens. O Outlook usa o carimbo PCL para bloquear o conteúdo de mensagens suspeitas.</p>
 <p>O carimbo de PCL é exibido como um cabeçalho X no envelope da mensagem, como descrito a seguir:</p>
-<pre><code>X-MS-Exchange-Organization-PCL:&lt;status&gt;</code></pre></td>
-</tr>
+
+```powershell 
+X-MS-Exchange-Organization-PCL:&lt;status&gt;
+```
 <tr class="even">
 <td><p>SCL</p></td>
 <td><p>O SCL (nível de confiança de spam) da mensagem exibe a classificação da mensagem, com base em seu conteúdo. O agente do Filtro de Conteúdo usa a tecnologia Microsoft SmartScreen para avaliar o conteúdo de uma mensagem e atribuir uma classificação SCL a cada mensagem. O valor de SCL está entre 0 e 9, em que 0 é considerado a menor probabilidade de spam e 9 é considerado a maior probabilidade de spam. As ações que o Exchange e o Outlook adotam dependem das configurações de limites de SCL.</p>
 <p>Esse carimbo é exibido como um cabeçalho X no envelope da mensagem, como descrito a seguir:</p>
-<pre><code>X-MS-Exchange-Organization-SCL:&lt;status&gt;</code></pre>
-<p>Para obter mais informações sobre ações e limites de SCL, consulte <a href="spam-confidence-level-threshold-exchange-2013-help.md">Limite do Nível de Confiança de Spam</a>.</p></td>
+
+```powershell 
+X-MS-Exchange-Organization-SCL
+```
+Para obter mais informações sobre ações e limites de SCL, consulte <a href="spam-confidence-level-threshold-exchange-2013-help.md">Limite do Nível de Confiança de Spam</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CW</p></td>

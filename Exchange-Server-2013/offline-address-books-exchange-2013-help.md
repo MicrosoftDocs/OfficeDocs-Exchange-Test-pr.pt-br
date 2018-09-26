@@ -43,7 +43,9 @@ Considerações do OAB
 
 No Exchange 2007 e Exchange 2010, você pode usar o cmdlet **Move-OfflineAddressBook** para mover a geração do OAB para outro servidor de caixa de correio. Exchange 2013 suporta apenas o OAB (versão 4). Essa é a mesma versão que era o padrão no Exchange 2010. Você não pode configurar o Exchange 2013 para gerar as outras versões do OAB e a geração do OAB ocorre no servidor de caixa de correio em que a caixa de correio da organização reside. Portanto, para mover a geração do OAB no Exchange 2013, você deve mover a caixa de correio da organização. Você só pode mover a geração do OAB para outro banco de dados de caixa de correio do Exchange 2013. Você não pode mover a geração do OAB para uma versão anterior do Exchange. Para localizar a caixa de correio de organização do Exchange 2013 OAB, execute o seguinte comando no Shell:
 
-    Get-Mailbox -Arbitration | where {$_.PersistedCapabilities -like "*oab*"}
+  ```powershell
+  Get-Mailbox -Arbitration | where {$_.PersistedCapabilities -like "*oab*"}
+  ```
 
 Então, você pode usar os cmdlets **MoveRequest** para mover a caixa de correio.
 

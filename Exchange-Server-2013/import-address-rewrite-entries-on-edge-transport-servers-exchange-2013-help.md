@@ -11,8 +11,6 @@ ms.translationtype: MT
 
 # Entradas em servidores de transporte de borda de reconfiguração de endereço de importação
 
- 
-
 _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2015-03-09_
@@ -99,7 +97,7 @@ Cada linha abaixo da linha de cabeçalho representa uma entrada de reconfiguraç
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -116,20 +114,26 @@ Ao criar o arquivo CSV, leve os seguintes itens em consideração:
 
 O exemplo a seguir mostra como um arquivo CSV pode ser preenchido com os parâmetros opcionais *ExceptionList* e *OutboundOnly* incluídos:
 
-    Name,InternalAddress,ExternalAddress,ExceptionList,OutboundOnly
-    "Wingtip UK",*.wingtiptoys.co.uk,tailspintoys.com,"legal.wingtiptoys.co.uk,finance.wingtiptoys.co.uk,support.wingtiptoys.co.uk",True
-    "Wingtip USA",*.wingtiptoys.com,tailspintoys.com,"legal.wingtiptoys.com,finance.wingtiptoys.com,support.wingtiptoys.com,corp.wingtiptoys.com",True
-    "Wingtip Canada",*.wingtiptoys.ca,tailspintoys.com,"legal.wingtiptoys.ca,finance.wingtiptoys.ca,support.wingtiptoys.ca",True
+```powershell
+Name,InternalAddress,ExternalAddress,ExceptionList,OutboundOnly
+"Wingtip UK",*.wingtiptoys.co.uk,tailspintoys.com,"legal.wingtiptoys.co.uk,finance.wingtiptoys.co.uk,support.wingtiptoys.co.uk",True
+"Wingtip USA",*.wingtiptoys.com,tailspintoys.com,"legal.wingtiptoys.com,finance.wingtiptoys.com,support.wingtiptoys.com,corp.wingtiptoys.com",True
+"Wingtip Canada",*.wingtiptoys.ca,tailspintoys.com,"legal.wingtiptoys.ca,finance.wingtiptoys.ca,support.wingtiptoys.ca",True
+```
 
 ## Etapa 2: Importar o arquivo CSV
 
 Para importar o arquivo CSV, use a sintaxe a seguir:
 
-    Import-Csv <FileNameAndPath> | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```powershell
+Import-Csv <FileNameAndPath> | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```
 
 Este exemplo importa as entradas de reconfiguração de endereço de C:\\My Documents\\ImportAddressRewriteEntries.csv.
 
-    Import-Csv "C:\My Documents\ImportAddressRewriteEntries.csv" | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```powershell
+Import-Csv "C:\My Documents\ImportAddressRewriteEntries.csv" | ForEach {New-AddressRewriteEntry -Name $_.Name -InternalAddress $_.InternalAddress -ExternalAddress $_.ExternalAddress -OutboundOnly ([Bool]::Parse($_.OutboundOnly)) -ExceptionList $_.ExceptionList}
+```
 
 ## Como saber se essa etapa funcionou?
 
@@ -138,4 +142,3 @@ Para verificar se as entradas de reconfiguração de endereço foram importadas 
 1.  Para ver todas as entradas de reconfiguração de endereço, execute o comando `Get-AddressRewriteEntry`.
 
 2.  Para ver detalhes específicos sobre uma entrada de reconfiguração de endereço específica, execute o comando `Get-AddressRewriteEntry <AddressRewriteIdentity> | Format-List`
-

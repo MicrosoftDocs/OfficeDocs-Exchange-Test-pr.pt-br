@@ -51,13 +51,15 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 1.  Observe todas as configurações de tempo de retardo ou retardo de truncamento para todas as cópias do banco de dados de caixa de correio sendo movidas. É possível obter essas informações usando o cmdlet [Get-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb124924\(v=exchg.150\)), conforme mostrado nesse exemplo.
     
-        Get-MailboxDatabase DB1 | Format-List *lag*
+    ```powershell
+    Get-MailboxDatabase DB1 | Format-List *lag*
+    ```
 
 2.  Se o log circular for habilitado para o banco de dados, ele deverá ser desabilitado antes de continuar. É possível desabilitar o log circular de um banco de dados de caixa de correio usando o cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)), conforme mostrado nesse exemplo.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
+    ```
 
 3.  Remova todas as cópias de banco de dados de caixa de correio para o banco de dados sendo movido. Para obter etapas detalhadas, consulte [Remover uma cópia do banco de dados de caixa de correio](remove-a-mailbox-database-copy-exchange-2013-help.md). Após a remoção de todas as cópias, preserve os arquivos de log de banco de dados e de transação de cada servidor a partir do qual a cópia de banco de dados está sendo removida movendo-os para outro local. Esses arquivos estão sendo preservados para que as cópias de banco de dados não exijam o reenvio após terem sido adicionadas novamente.
 
@@ -77,20 +79,22 @@ Set-MailboxDatabase DB1 -CircularLoggingEnabled $false
 
 8.  Em cada servidor que existe uma cópia do banco de dados de caixa de correio sendo movido, execute os seguintes comandos para interromper e reiniciar os serviços de índice de conteúdo.
     
-        Net stop MSExchangeFastSearch
-        Net start MSExchangeFastSearch
+    ```powershell
+    Net stop MSExchangeFastSearch
+    Net start MSExchangeFastSearch
+    ```
 
 9.  Opcionalmente, habilite o log circular usando o cmdlet [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)), como mostrado nesse exemplo.
     
     ```powershell
-Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
-```
+    Set-MailboxDatabase DB1 -CircularLoggingEnabled $true
+    ```
 
 10. Reconfigure quaisquer valores definidos anteriormente para tempo de retardo de repetição ou tempo de retardo de truncamento usando o cmdlet [Set-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd298104\(v=exchg.150\)), como mostrado neste exemplo.
     
     ```powershell
-Set-MailboxDatabaseCopy DB1\MBX2 -ReplayLagTime 00:15:00
-```
+    Set-MailboxDatabaseCopy DB1\MBX2 -ReplayLagTime 00:15:00
+    ```
 
 11. À medida que cada cópia for adicionada, recomendamos verificar a integridade e o status da cópia antes de adicionar a próxima cópia. Você pode verificar a integridade e o status por:
     
@@ -121,8 +125,8 @@ Para verificar se você moveu com êxito o caminho de uma cópia de banco de dad
   - No Shell, execute o comando a seguir para verificar se a cópia do banco de dados de caixa de correio foi criada e está íntegra:
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     O Status e o estado do índice de conteúdo devem ser iguais a Íntegro.
 

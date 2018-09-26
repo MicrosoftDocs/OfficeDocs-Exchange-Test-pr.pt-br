@@ -113,7 +113,9 @@ Quando você usa o parâmetro *CmdletParameters*, pode optar por incluir o parâ
 
 Para retornar uma lista de funções que contenham os parâmetros que você especificar, use a sintaxe a seguir.
 
+```powershell
     Get-ManagementRole [-Cmdlet <cmdlet>] -CmdletParameters <parameter 1>, <parameter 2...>
+```
 
 Este exemplo retorna uma lista de funções que contenham os parâmetros *Database* e *Server*, independente dos cmdlets em que existam.
 

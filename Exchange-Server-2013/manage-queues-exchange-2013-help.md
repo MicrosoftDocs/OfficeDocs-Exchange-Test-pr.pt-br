@@ -51,7 +51,9 @@ No Microsoft Exchange Server 2013, você pode usar o Visualizador de Filas na Ca
 
 Para exibir filas, use a seguinte sintaxe.
 
-    Get-Queue [-Filter <Filter> -Server <ServerIdentity> -Include <Internal | External | Empty | DeliveryType> -Exclude <Internal | External | Empty | DeliveryType>]
+```powershell
+Get-Queue [-Filter <Filter> -Server <ServerIdentity> -Include <Internal | External | Empty | DeliveryType> -Exclude <Internal | External | Empty | DeliveryType>]
+```
 
 Este exemplo exibe informações básicas sobre todas as filas não vazias no servidor de Caixa de Correio do Exchange 2013 chamado Mailbox01.
 
@@ -77,7 +79,9 @@ O cmdlet **Get-QueueDigest** oferece uma exibição agregada de alto nível do e
 
 Para exibir informações de resumo sobre filas em vários servidores Exchange, execute o seguinte comando:
 
-    Get-QueueDigest <-Server <ServerIdentity1,ServerIdentity2,..> | -Dag <DagIdentity1,DagIdentity2...> | -Site <ADSiteIdentity1,ADSiteIdentity2...> | -Forest> [-Filter <Filter>]
+```powershell
+Get-QueueDigest <-Server <ServerIdentity1,ServerIdentity2,..> | -Dag <DagIdentity1,DagIdentity2...> | -Site <ADSiteIdentity1,ADSiteIdentity2...> | -Forest> [-Filter <Filter>]
+```
 
 Este exemplo exibe informações de resumo sobre as filas em todos os servidores de Caixa de Correio do Exchange 2013 no site do Active Directory chamado FirstSite, onde a contagem de mensagens é superior a 100.
 
@@ -119,7 +123,9 @@ Ao continuar uma fila, você reinicia as atividades de saída de uma fila cujo s
 
 Para continuar filas, use a seguinte sintaxe.
 
-    Resume-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```powershell
+Resume-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```
 
 Este exemplo retoma todas as filas no servidor local com um status Suspenso.
 
@@ -169,7 +175,9 @@ Quando um servidor de transporte não puder se conectar ao próximo salto, a fil
 
 Para repetir filas, use a seguinte sintaxe.
 
-    Retry-Queue <-Identity QueueIdentity | -Filter QueueFilter [-Server ServerIdentity]>
+```powershell
+Retry-Queue <-Identity QueueIdentity | -Filter QueueFilter [-Server ServerIdentity]>
+```
 
 Este exemplo repete todas as filas no servidor local com o status Repetir.
 
@@ -205,7 +213,9 @@ O reenvio de uma fila é semelhante a repeti-la, exceto que as mensagens são en
 
 Para reenviar mensagens, use a sintaxe a seguir.
 
-    Retry-Queue <-Identity QueueIdentity | -Filter {Status -eq "Retry"} -Server ServerIdentity> -Resubmit $true
+```powershell
+Retry-Queue <-Identity QueueIdentity | -Filter {Status -eq "Retry"} -Server ServerIdentity> -Resubmit $true
+```
 
 Este exemplo reenvia todas as mensagens localizadas em todas as filas de entrega com o status Repetir no servidor denominado Mailbox01.
 
@@ -248,20 +258,20 @@ Para reenviar uma mensagem da fila de mensagens suspeitas, execute as etapas a s
 1.  Localize a identidade da mensagem ao executar o comando a seguir.
     
     ```powershell
-Get-Message -Queue Poison | Format-Table Identity
-```
+    Get-Message -Queue Poison | Format-Table Identity
+    ```
 
 2.  Use a identidade da mensagem da etapa anterior no comando a seguir.
     
     ```powershell
-Resume-Message <PoisonMessageIdentity>
-```
+    Resume-Message <PoisonMessageIdentity>
+    ```
     
     Este exemplo retoma uma mensagem da fila de mensagens suspeitas que tem o valor de Identidade da mensagem 222.
     
     ```powershell
-Resume-Message 222
-```
+    Resume-Message 222
+    ```
 
 ## Como saber se funcionou?
 
@@ -293,7 +303,9 @@ Se você suspender a fila de mensagens inacessíveis, os itens não serão reenv
 
 Para suspender uma fila, use a sintaxe a seguir.
 
-    Suspend-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```powershell
+Suspend-Queue <-Identity QueueIdentity | -Filter {QueueFilter} [-Server ServerIdentity]>
+```
 
 Este exemplo suspende todas as filas do servidor local que tiverem uma contagem de mensagens igual ou superior a 1.000 e o status Repetir.
 

@@ -49,11 +49,15 @@ Como garantia adicional, você pode primeiro copiar as mensagens para outra caix
 
 Este exemplo pesquisa na caixa de correio de Isabel Martins mensagens que contenham a frase "Seu extrato bancário" no campo Assunto e registra em log os resultados da pesquisa na pasta SearchAndDeleteLog da caixa de correio do administrador. As mensagens não são copiadas para a caixa de correio de destino ou excluídas dela.
 
+```powershell
     Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
+```
 
 Este exemplo procura todas as caixas de correio na organização para mensagens que têm qualquer tipo de arquivo anexado que contém a palavra "Troia" no nome de arquivo e envia uma mensagem de log para a caixa de correio do administrador.
 
+```powershell
     Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery attachment:trojan* -TargetMailbox administrator -TargetFolder "SearchAndDeleteLog" -LogOnly -LogLevel Full
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Search-Mailbox](https://technet.microsoft.com/pt-br/library/dd298173\(v=exchg.150\)).
 
@@ -75,11 +79,15 @@ Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statem
 
 Este exemplo pesquisa na caixa de correio de Isabel Martins mensagens que contenham a frase "Seu extrato bancário" no campo Assunto, copia os resultados da pesquisa para a pasta AprilStewart-DeletedMessages na caixa de correio BackupMailbox e exclui as mensagens da caixa de correio de Isabel.
 
+```powershell
     Search-Mailbox -Identity "April Stewart" -SearchQuery 'Subject:"Your bank statement"' -TargetMailbox "BackupMailbox" -TargetFolder "AprilStewart-DeletedMessages" -LogLevel Full -DeleteContent
+```
 
 Este exemplo procura todas as caixas de correio na organização para mensagens com a linha de assunto "Download esse arquivo" e, em seguida, exclui-los permanentemente.
 
+```powershell
     Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery 'Subject:"Download this file"' -DeleteContent
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Search-Mailbox](https://technet.microsoft.com/pt-br/library/dd298173\(v=exchg.150\)).
 

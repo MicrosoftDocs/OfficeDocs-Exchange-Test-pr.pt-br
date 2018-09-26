@@ -60,8 +60,8 @@ Para verificar se você criou com êxito um banco de dados , faça o seguinte:
   - No Shell, verifique se o banco de dados foi criado no servidor Mailbox01 executando o seguinte comando.
     
     ```powershell
-Get-MailboxDatabase -Server "Mailbox01"
-```
+    Get-MailboxDatabase -Server "Mailbox01"
+    ```
 
 ## Obter propriedades de banco de dados de caixa de correio
 
@@ -152,8 +152,8 @@ Para verificar se você definiu com êxito os atributos, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as propriedades de banco de dados de caixa de correio.
     
     ```powershell
-Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
-```
+    Get-MailboxDatabase -Identity MailboxDatabase01 -Status | Format-List
+    ```
 
 ## Mover um caminho de banco de dados de caixa de correio
 
@@ -186,8 +186,8 @@ Para verificar se você montou corretamente o banco de dados de caixas de correi
   - No Shell, execute o seguinte comando para recuperar as propriedades de todos os bancos de dados de caixas de correio.
     
     ```powershell
-Get-MailboxDatabase -IncludePreExchange2013
-```
+    Get-MailboxDatabase -IncludePreExchange2013
+    ```
 
 ## Desmontar um banco de dados de caixa de correio
 
@@ -220,8 +220,8 @@ Para obter informações detalhadas de sintaxes e de parâmetros, confira [Remov
 1.  Execute o seguinte comando para remover o banco de dados de caixa de correio MyDatabase.
     
     ```powershell
-Remove-MailboxDatabase -Identity "MyDatabase"
-```
+    Remove-MailboxDatabase -Identity "MyDatabase"
+    ```
 
 2.  Quando perguntado se tem certeza de que deseja executar a ação, digite **S**.
 

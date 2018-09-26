@@ -73,11 +73,15 @@ Os exemplos a seguir são cenários nos quais a sua organização do Exchange po
 
 Para criar um novo domínio autoritativo, use a seguinte sintaxe.
 
-    New-AcceptedDomain -Name "<Unique Name>" -DomainName <SMTP domain> -DomainType Authoritative
+```powershell
+New-AcceptedDomain -Name "<Unique Name>" -DomainName <SMTP domain> -DomainType Authoritative
+```
 
 Por exemplo, para criar um novo domínio autoritativo chamado "subsidiária de Fourth Coffee" para o domínio fourthcoffee.com, execute o seguinte comando:
 
-    New-AcceptedDomain -Name "Fourth Coffee subsidiary" -DomainName fourthcoffee.com -DomainType Authoritative
+```powershell
+New-AcceptedDomain -Name "Fourth Coffee subsidiary" -DomainName fourthcoffee.com -DomainType Authoritative
+```
 
 ## Como saber se essa etapa funcionou?
 
@@ -119,11 +123,15 @@ No Shell, você usa dois comandos separados: um comando para modificar a políti
 
 Para alterar o endereço de email primário existente e manter o endereço de email primário antigo como um endereço proxy, execute o seguinte comando:
 
-    Set-EmailAddressPolicy <EmailAddressPolicyIdentity> -EnabledEmailAddressTemplates SMTP:<NewPrimaryEmailAddress>,smtp:<OldPrimaryEmailAddress>
+```powershell
+Set-EmailAddressPolicy <EmailAddressPolicyIdentity> -EnabledEmailAddressTemplates SMTP:<NewPrimaryEmailAddress>,smtp:<OldPrimaryEmailAddress>
+```
 
 Por exemplo, vamos supor que a política de endereço de email em sua organização use o formato de endereços de email *useralias*`@contoso.com`. Esse exemplo altera o domínio do endereço primário (responder para) na política de endereço de email chamada "Política Padrão" para `@fourthcoffee.com` e mantém o endereço de resposta primário antigo no domínio `@contoso.com` como um endereço proxy (secundário).
 
-    Set-EmailAddressPolicy "Default Policy" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com,smtp:@contoso.com
+```powershell
+Set-EmailAddressPolicy "Default Policy" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com,smtp:@contoso.com
+```
 
 
 > [!NOTE]
@@ -183,9 +191,7 @@ Para criar endereços de email adicionais que serão usados como endereço de em
 
 6.  Clique em **Exibir destinatários aos quais a política se aplica** para exibir os destinatários aos quais a política se aplica.
 
-7.  
-    
-    Clique em **Salvar** para salvar suas alterações e criar a diretiva.
+7.  Clique em **Salvar** para salvar suas alterações e criar a diretiva.
 
 8.  Você receberá um aviso de que a política de endereço de email não será aplicada até você a atualizar. Após a sua criação, selecione-a e, no painel de detalhes, clique em **Aplicar**.
 
@@ -193,11 +199,15 @@ Para criar endereços de email adicionais que serão usados como endereço de em
 
 Para substituir o endereço de email primário de um grupo filtrado de destinatários, use o seguinte comando:
 
-    New-EmailAddressPolicy -Name <Policy Name> -Priority <Integer> -IncludedRecipients <RecipientTypes> <Conditional Recipient Properties> -EnabledEmailAddressTemplates SMTP:@<NewPrimaryEmailAddress>
+```powershell
+New-EmailAddressPolicy -Name <Policy Name> -Priority <Integer> -IncludedRecipients <RecipientTypes> <Conditional Recipient Properties> -EnabledEmailAddressTemplates SMTP:@<NewPrimaryEmailAddress>
+```
 
 Este exemplo cria uma política de endereço de email chamada "Destinatários de Fourth Coffee", atribui essa política aos usuários de caixa de correio no departamento Fourth Coffee e define a prioridade mais alta para essa política de endereço de email, de modo que a política seja aplicada primeiro. Observe que o endereço de email primário antigo não é preservado para esses destinatários e, portanto, não podem receber email em seus endereços de email primários antigos.
 
-    New-EmailAddressPolicy -Name "Fourth Coffee Recipients" -Priority 1 -IncludedRecipients MailboxUsers -ConditionalDepartment "Fourth Coffee" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com
+```powershell
+New-EmailAddressPolicy -Name "Fourth Coffee Recipients" -Priority 1 -IncludedRecipients MailboxUsers -ConditionalDepartment "Fourth Coffee" -EnabledEmailAddressTemplates SMTP:@fourthcoffee.com
+```
 
 Para aplicar a nova política de endereço de email aos destinatários afetados, execute o seguinte comando:
 

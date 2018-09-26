@@ -74,8 +74,8 @@ Para verificar se você configurou com sucesso o endereço postmaster externo, f
 1.  Execute o seguinte comando no servidor da Caixa de Correio para verificar o valor do endereço postmaster externo:
     
     ```powershell
-Get-TransportConfig | Format-List ExternalPostmasterAddress
-```
+    Get-TransportConfig | Format-List ExternalPostmasterAddress
+    ```
 
 2.  A partir de uma conta de endereço externo, envie uma mensagem para sua organização do Exchange que irá gerar uma notificação de status de entrega (DSN). Por exemplo, você pode configurar uma regra de transporte para enviar uma notificação de não entrega (NDR) para uma mensagem daquele remetente que contenha palavras-chave específicas. Verifique se o endereço de email do remetente no DSN corresponde ao valor que você especificou.
 

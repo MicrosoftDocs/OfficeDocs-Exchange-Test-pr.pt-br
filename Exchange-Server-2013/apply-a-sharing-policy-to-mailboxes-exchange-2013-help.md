@@ -64,18 +64,20 @@ Para saber mais sobre compartilhamento federado, consulte [Compartilhamento](sha
 Este exemplo aplica a política de compartilhamento Contoso a uma caixa de correio única para o usuário Barbara.
 
 ```powershell
-Set-Mailbox -Identity Barbara -SharingPolicy "Contoso"
+  Set-Mailbox -Identity Barbara -SharingPolicy "Contoso"
 ```
 
 Este exemplo especifica que todas as caixas de correio de usuário do departamento de Marketing devem usar a política de compartilhamento Marketing da Contoso.
 
 ```powershell
-Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "Contoso Marketing"
+  Get-Mailbox -Filter {Department -eq "Marketing"} | Set-Mailbox -SharingPolicy "Contoso Marketing"
 ```
 
 Este exemplo retorna todas as caixas de correio que tenham a política de compartilhamento Contoso aplicada e organiza os usuários em uma tabela que exibe apenas seus aliases e endereços de email.
 
-    Get-Mailbox -ResultSize unlimited | Where {$_.SharingPolicy -eq "Contoso" } | format-table Alias, EmailAddresses
+```powershell
+  Get-Mailbox -ResultSize unlimited | Where {$_.SharingPolicy -eq "Contoso" } | format-table Alias, EmailAddresses
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) e [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)).
 
@@ -88,8 +90,8 @@ Para verificar se você aplicou com êxito a política de compartilhamento a uma
   - Execute o seguinte comando do Shell para verificar se a política de compartilhamento foi atribuída a uma caixa de correio de usuário. Verifique se a política de compartilhamento correta está listada no parâmetro *SharingPolicy*.
     
     ```powershell
-Get-Mailbox <user name> | format-list
-```
+    Get-Mailbox <user name> | format-list
+    ```
 
 
 > [!TIP]

@@ -30,7 +30,7 @@ O log de conectividade grava a atividade de conexão de saída que é usada para
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -57,7 +57,9 @@ O log de conectividade grava a atividade de conexão de saída que é usada para
 
 Para configurar o log de conectividade, execute o seguinte comando:
 
-    <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ConnectivityLogEnabled <$true | $false> -ConnectivityLogMaxAge <dd.hh:mm:ss> -ConnectivityLogMaxDirectorySize <Size> -ConnectivityLogMaxFileSize <Size> -ConnectivityLogPath <LocalFilePath>
+```powershell
+<Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ConnectivityLogEnabled <$true | $false> -ConnectivityLogMaxAge <dd.hh:mm:ss> -ConnectivityLogMaxDirectorySize <Size> -ConnectivityLogMaxFileSize <Size> -ConnectivityLogPath <LocalFilePath>
+```
 
 Este exemplo define estas configurações de log de conectividade no serviço de Transporte no servidor de Caixa de Correio chamado Mailbox01:
 
@@ -71,10 +73,11 @@ Este exemplo define estas configurações de log de conectividade no serviço de
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -ConnectivityLogPath "D:\Hub Connectivity Log" -ConnectivityLogMaxFileSize 20MB -ConnectivityLogMaxDirectorySize 1.5GB -ConnectivityLogMaxAge 45.00:00:00
+```powershell
+Set-TransportService Mailbox01 -ConnectivityLogPath "D:\Hub Connectivity Log" -ConnectivityLogMaxFileSize 20MB -ConnectivityLogMaxDirectorySize 1.5GB -ConnectivityLogMaxAge 45.00:00:00
+```
 
-
-> [!NOTE]
+> [!NOTE]  
 > <UL>
 > <LI>
 > <P>Para definir as configurações do log de conectividade no serviço de Transporte de Caixa de Correio em um servidor de Caixa de Correio, use o cmdlet <STRONG>Set-MailboxTransportService</STRONG>. Para definir as configurações do log de conectividade no serviço de Transporte de Front End em um servidor de Acesso para Cliente, use o cmdlet <STRONG>Set-FrontEndTransportService</STRONG>.</P>
@@ -91,7 +94,8 @@ Para verificar se você configurou com êxito o log de conectividade, faça o se
 
 1.  No Shell, execute o comando a seguir:
     
-        <Get-TransportService | Get-FrontEndTransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List ConnectivityLog*
+      ```powershell
+      <Get-TransportService | Get-FrontEndTransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List ConnectivityLog*
+      ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
-

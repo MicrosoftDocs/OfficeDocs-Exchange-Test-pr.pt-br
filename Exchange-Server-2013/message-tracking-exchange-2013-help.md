@@ -555,7 +555,7 @@ Voltar ao início
 Uma mensagem sem eventos enviada entre dois usuários gera várias entradas no log de controle de mensagens. Você pode ver os resultados usando o cmdlet **Get-MessageTrackingLog**. Para saber mais, confira [Logs de rastreamento de mensagens de pesquisa](search-message-tracking-logs-exchange-2013-help.md).
 
 Este é um exemplo condensado das entradas de log de controle de mensagens criadas quando o usuário chris@contoso.com envia com êxito uma mensagem de teste para o usuário michelle@contoso.com. Os dois usuários têm caixas de correio no mesmo servidor.
-
+```powershell
     EventId    Source      Sender            Recipients             MessageSubject
     -------    ------      ------            ----------             --------------
     NOTIFYMAPI STOREDRIVER                   {}
@@ -566,7 +566,7 @@ Este é um exemplo condensado das entradas de log de controle de mensagens criad
     AGENTINFO  AGENT       chris@contoso.com {michelle@contoso.com} test
     SEND       SMTP        chris@contoso.com {michelle@contoso.com} test
     DELIVER    STOREDRIVER chris@contoso.com {michelle@contoso.com} test
-
+```
 Voltar ao início
 
 ## Problemas de segurança relacionados ao log de controle de mensagens

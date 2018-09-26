@@ -22,13 +22,13 @@ Para executar uma instalação autônoma, você deve instalar o Microsoft Exchan
 Recomendamos que a função Transporte de Borda seja instalada na rede de perímetro fora da floresta interna Active Directory da sua organização. Mesmo sendo possível instalar a função de servidor Transporte de Borda em um computador que faz parte de um domínio, isso irá habilitar apenas o gerenciamento de domínio de recursos e configurações Windows. A função de Transporte de Borda por si só não usa propriamente Active Directory. Em vez disso, ela usa o recurso Active Directory Lightweight Directory Services (AD LDS) Windows para armazenar a configuração e informações sobre o destinatário. Para obter mais informações sobre a função de Transporte de Borda, consulte [Servidores de Transporte de Borda](edge-transport-servers-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Você já ouviu falar do Assistente de Implantação do Exchange Server? É uma ferramenta online gratuita que ajuda a implantar rapidamente o Exchange 2013 em sua organização. Ele faz algumas perguntas e cria uma lista de verificação de implantação personalizada para você. Se você quiser saber mais sobre ele, consulte <A href="exchange-server-deployment-assistant-exchange-2013-help.md">Assistente de implantação do Exchange Server</A>.
 
 
 
 
-> [!NOTE]
+> [!NOTE]  
 > Depois de instalar qualquer função de servidor em um computador executando o Exchange 2013, não será possível usar o assistente de Instalação do Exchange 2013&nbsp;para adicionar outras funções de servidor ao computador. Se você quiser adicionar mais funções de servidor a um computador, use Adicionar ou Remover Programas no Painel de Controle ou Setup.exe na janela de prompt de comando.<BR>A função Transporte de Borda não pode ser instalada no mesmo computador que tiver as funções de servidor de Caixa de Correio e Acesso para Cliente instaladas.
 
 
@@ -48,7 +48,7 @@ As informações a seguir se aplicam a todas as funções de servidor do Exchang
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!CAUTION]
+> [!CAUTION]  
 > Depois de instalar o Exchange em um servidor, não altere o nome do servidor. Não há suporte para renomear o servidor após a instalação de uma função de servidor Exchange.
 
 
@@ -80,7 +80,7 @@ As informações a seguir se aplicam à função de servidor de Transporte de Bo
 ## Use o Setup.exe para instalar o Exchange 2013 no modo autônomo
 
 
-> [!NOTE]
+> [!NOTE]  
 > Para baixar a versão mais recente do Exchange 2013, consulte <A href="updates-for-exchange-2013-exchange-2013-help.md">Atualizações para o Exchange 2013</A>.
 
 
@@ -92,24 +92,26 @@ As informações a seguir se aplicam à função de servidor de Transporte de Bo
 3.  No prompt de comando, execute o comando aplicável para a sua organização.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Se o Controle de Acesso de Usuário (UAC) estiver habilitado, você deverá executar o <CODE>Setup.exe</CODE> em um prompt de comando elevado.
 
     
-        Setup.exe [/Mode:<setup mode>] [/IAcceptExchangeServerLicenseTerms]
-        [/Roles:<server roles to install>] [/InstallWindowsComponents] 
-        [/OrganizationName:<name for the new Exchange organization>] 
-        [/TargetDir:<target directory>] [/SourceDir:<source directory>]
-        [/UpdatesDir:<directory from which to install updates>] 
-        [/DomainController:<FQDN of domain controller>] [/DisableAMFiltering]
-        [/AnswerFile:<filename>] [/DoNotStartTransport] 
-        [/EnableErrorReporting] [/CustomerFeedbackEnabled:<True | False>] 
-        [/AddUmLanguagePack:<UM language pack name>] 
-        [/RemoveUmLanguagePack:<UM language pack name>] 
-        [/NewProvisionedServer:<server>] [/RemoveProvisionedServer:<server>] 
-        [/MdbName:<mailbox database name>] [/DbFilePath:<Edb file path>] 
-        [/LogFolderPath:<log folder path>] [/ActiveDirectorySplitPermissions:<True | False>]
-        [/TenantOrganizationConfig:<path>]
+      ```powershell
+      Setup.exe [/Mode:<setup mode>] [/IAcceptExchangeServerLicenseTerms]
+      [/Roles:<server roles to install>] [/InstallWindowsComponents] 
+      [/OrganizationName:<name for the new Exchange organization>] 
+      [/TargetDir:<target directory>] [/SourceDir:<source directory>]
+      [/UpdatesDir:<directory from which to install updates>] 
+      [/DomainController:<FQDN of domain controller>] [/DisableAMFiltering]
+      [/AnswerFile:<filename>] [/DoNotStartTransport] 
+      [/EnableErrorReporting] [/CustomerFeedbackEnabled:<True | False>] 
+      [/AddUmLanguagePack:<UM language pack name>] 
+      [/RemoveUmLanguagePack:<UM language pack name>] 
+      [/NewProvisionedServer:<server>] [/RemoveProvisionedServer:<server>] 
+      [/MdbName:<mailbox database name>] [/DbFilePath:<Edb file path>] 
+      [/LogFolderPath:<log folder path>] [/ActiveDirectorySplitPermissions:<True | False>]
+      [/TenantOrganizationConfig:<path>]
+      ```
 
 4.  Os arquivos de instalação são copiados localmente para o computador em que você está instalando o Exchange 2013.
 
@@ -182,4 +184,3 @@ Para verificar se instalou com sucesso o Exchange 2013, consulte [Verificar uma 
 Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542), ou [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=285351).
 
 Você encontrou o que você está procurando? Por favor, separe um minuto do seu tempo para [enviar seus comentários para nós](mailto:exsetuphelpfeedback@microsoft.com?subject=exchange%202013%20setup%20help%20feedback) sobre as informações que você estava esperando encontrar.
-

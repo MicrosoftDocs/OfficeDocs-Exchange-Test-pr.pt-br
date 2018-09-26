@@ -67,14 +67,15 @@ O servidor de Acesso para Cliente no qual habilitar o ponto de extremidade do Pr
 
 O comando a seguir habilita o ponto de extremidade do Proxy MRS em um servidor de Acesso para Cliente chamado EXCH-SRV-01.
 
-    Set-WebServicesVirtualDirectory -Identity "EXCH-SRV-01\EWS (Default Web Site)" -MRSProxyEnabled $true
+```powershell
+Set-WebServicesVirtualDirectory -Identity "EXCH-SRV-01\EWS (Default Web Site)" -MRSProxyEnabled $true
+```
 
 O comando a seguir habilita o ponto de extremidade do Proxy MRS em todos os servidores de Acesso para Cliente da sua organização do Exchange.
 
 ```powershell
 Get-WebServicesVirtualDirectory | Set-WebServicesVirtualDirectory -MRSProxyEnabled $true
 ```
-
 
 > [!IMPORTANT]
 > Conforme afirmado anteriormente, o ponto de extremidade do Proxy MRS deve estar habilitado em cada servidor de Acesso para Cliente de sua organização. Execute o comando anterior após adicionar um novo servidor de Acesso para Cliente à sua organização.
@@ -105,14 +106,12 @@ Outra maneira de verificar se o ponto de extremidade do Proxy MRS está habilita
 
 O exemplo a seguir testa a conexão com um servidor na floresta corp.contoso.com.
 
-```
 ```powershell
 $Credentials = Get-Credential
 ```
-```
 
-```
-    Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
+```powershell
+Test-MigrationServerAvailability -ExchangeRemoteMove -Autodiscover -EmailAddress administrator@corp.contoso.com -Credentials $Credentials
 ```
 
 Para executar este comando com êxito, o ponto de extremidade do Proxy MRS deve estar habilitado.

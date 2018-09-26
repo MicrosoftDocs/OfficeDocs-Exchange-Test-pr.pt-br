@@ -63,17 +63,19 @@ Os cmdlets acima exportados toda a *coleção de regras*, que inclui as regras 5
 
 3.  Procure **Func\_credit\_card** localizar a definição de regra do número do cartão de crédito. (No XML, nomes de regra não podem conter espaços, para que os espaços geralmente são substituídos por sublinhados e nomes de regra às vezes são abreviados. Um exemplo disso é a regra de número de Seguridade Social de EUA, qual será abreviado "SSN." A regra número cartão de crédito XML deve parecer com o seguinte código de exemplo.
     
-        <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
-               patternsProximity="300" recommendedConfidence="85">
-              <Pattern confidenceLevel="85">
-               <IdMatch idRef="Func_credit_card" />
-                <Any minMatches="1">
-                  <Match idRef="Keyword_cc_verification" />
-                  <Match idRef="Keyword_cc_name" />
-                  <Match idRef="Func_expiration_date" />
-                </Any>
-              </Pattern>
-            </Entity>
+  ```powershell
+  <Entity id="50842eb7-edc8-4019-85dd-5a5c1f2bb085"
+          patternsProximity="300" recommendedConfidence="85">
+        <Pattern confidenceLevel="85">
+          <IdMatch idRef="Func_credit_card" />
+          <Any minMatches="1">
+            <Match idRef="Keyword_cc_verification" />
+            <Match idRef="Keyword_cc_name" />
+            <Match idRef="Func_expiration_date" />
+          </Any>
+        </Pattern>
+      </Entity>
+  ```
 
 Agora que você tiver localizado a definição da regra de número de cartão de crédito no XML, você pode personalizar o XML da regra para atender suas necessidades. (Para um atualizador nas definições XML, consulte o Glossário de termos no final deste tópico.)
 
@@ -83,7 +85,8 @@ Primeiro, você precisa criar um novo tipo de informações confidenciais, porqu
 
 Todas as definições de regras XML são criadas no seguinte modelo geral. Você precisa para copiar e colar o XML de definição do número de cartão de crédito no modelo, modificar alguns valores (Observe "..." espaços reservados no exemplo a seguir) e, em seguida, carregue o XML modificado como uma nova regra que pode ser usada em políticas.
 
-    <?xml version="1.0" encoding="utf-16"?>
+  ```xml
+  <?xml version="1.0" encoding="utf-16"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
       <RulePack id=". . .">
         <Version major="1" minor="0" build="0" revision="0" />
@@ -109,10 +112,12 @@ Todas as definições de regras XML são criadas no seguinte modelo geral. Você
     
        </Rules>
     </RulePackage>
+  ```
 
 Agora, você ter algo parecido com o XML a seguir. Como pacotes de regras e regras são identificadas por seus GUIDs exclusivos, você precisará gere dois GUIDs: uma para o pacote de regras e outra para substituir o GUID da regra número de cartão de crédito. (O GUID para a ID da entidade do exemplo de código a seguir é aquele para nossa definição de regra interna, é necessário substituir com um novo). Há várias maneiras para gerar GUIDs, mas você pode executá-la facilmente no PowerShell digitando **\[guid\]::NewGuid()**.
 
-    <?xml version="1.0" encoding="utf-16"?>
+  ```xml
+  <?xml version="1.0" encoding="utf-16"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
       <RulePack id="8aac8390-e99f-4487-8d16-7f0cdee8defc">
         <Version major="1" minor="0" build="0" revision="0" />
@@ -149,22 +154,26 @@ Agora, você ter algo parecido com o XML a seguir. Como pacotes de regras e regr
     
        </Rules>
     </RulePackage>
+  ```
 
 ## Remover a exigência de evidência corroborativa de um tipo de informações confidenciais
 
 Agora que você tem um novo tipo de informações confidenciais que você está capaz de carregar ao seu ambiente de Exchange, a próxima etapa é tornar a regra mais específica. Modificar a regra para que ele procura apenas um número de 16 dígitos passa a soma de verificação, mas não exige a evidência adicional (corroborativa) (por exemplo, palavras-chave). Para fazer isso, você precisa remover a parte do XML que procura a evidência corroborativa. Evidência corroborativa é muito útil em reduzir os falsos positivos porque geralmente, há determinadas palavras-chave ou uma data de validade perto do número de cartão de crédito. Se você remover essa evidência, você também deve ajustar você tem certeza que você encontrou um número de cartão de crédito reduzindo o **confidenceLevel**, que é de 85 no exemplo.
 
-    <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="300"
+  ```powershell
+  <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="300"
           <Pattern confidenceLevel="85">
             <IdMatch idRef="Func_credit_card" />
           </Pattern>
         </Entity>
+  ```
 
 ## Procurar por palavras-chave que são específicas para sua organização
 
 Talvez você queira exigem a evidência corroborativa mas deseja diferente ou adicional de palavras-chave e talvez você queira alterar onde procurar por essa evidência. Você pode ajustar o **patternsProximity** para expandir ou reduzir a janela para a evidência corroborativa em torno do número de 16 dígitos. Para adicionar sua próprias palavras-chave, você precisará definir uma lista de palavra-chave e a referência a ele dentro de sua regra. O XML a seguir adiciona as palavras-chave "empresa cartão" e "Contoso cartão" para que qualquer mensagem que contém essas frases dentro de 150 caracteres de um número de cartão de crédito será identificada como um número de cartão de crédito.
 
-    <Rules>
+  ```xml
+  <Rules>
     <! -- Modify the patternsProximity to be "150" rather than "300." -->
         <Entity id="db80b3da-0056-436e-b0ca-1f4cf7080d1f" patternsProximity="150" recommendedConfidence="85">
           <Pattern confidenceLevel="85">
@@ -185,6 +194,7 @@ Talvez você queira exigem a evidência corroborativa mas deseja diferente ou ad
             <Term caseSensitive="false">Contoso card</Term>
           </Group>
         </Keyword>
+  ```
 
 ## Carregar sua regra
 

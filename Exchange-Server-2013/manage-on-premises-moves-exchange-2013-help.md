@@ -84,8 +84,8 @@ Para verificar se você concluiu com êxito a migração, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as informações de movimentação de caixa de correio.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/pt-br/library/jj218695\(v=exchg.150\)).
 
@@ -111,14 +111,14 @@ Faça logon no EAC e execute as seguintes etapas:
 
 Este exemplo cria um lote de migração para uma movimentação local, em que as caixas de correio no arquivo .csv especificado são movidas para um banco de dados de caixa de correio diferente. Esse arquivo .csv contém uma única coluna, que inclui o endereço de e-mail de cada uma das caixas de correio que serão movidas. O cabeçalho desta coluna deve ser nomeado **EmailAddress**. O lote de migração neste exemplo deve ser iniciado manualmente usando o cmdlet **Start-MigrationBatch** ou o Centro de Administração do Exchange (EAC). De forma alternativa, você pode usar o parâmetro *AutoStart* para iniciar o lote de migração automaticamente.
 
-```
+```powershell
     New-MigrationBatch -Local -Name LocalMove1 -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\LocalMove1.csv")) -TargetDatabases MBXDB2 -TimeZone "Pacific Standard Time"
 ```
-```
+
 ```powershell
 Start-MigrationBatch -Identity LocalMove1
 ```
-```
+
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-MigrationBatch](https://technet.microsoft.com/pt-br/library/jj219166\(v=exchg.150\)) e [Start-MigrationBatch](https://technet.microsoft.com/pt-br/library/jj219165\(v=exchg.150\)).
 
@@ -131,8 +131,8 @@ Para verificar se você concluiu com êxito a migração, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as informações de movimentação de caixa de correio.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/pt-br/library/jj218695\(v=exchg.150\)).
 
@@ -169,8 +169,8 @@ Para verificar se você concluiu com êxito a migração, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as informações de movimentação de caixa de correio.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/pt-br/library/jj218695\(v=exchg.150\)).
 
@@ -178,7 +178,7 @@ Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.
 
 Este exemplo configura o ponto de extremidade da migração e cria uma movimentação em lote entre florestas, da floresta de origem para a floresta de destino, usando um arquivo .csv.
 
-```
+```powershell
 New-MigrationEndpoint -Name Fabrikam -ExchangeRemote -Autodiscover -EmailAddress tonysmith@fabrikam.com -Credentials (Get-Credential fabrikam\tonysmith)  
     
     $csvData=[System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\batch.csv")
@@ -202,8 +202,8 @@ Para verificar se você concluiu com êxito a migração, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as informações de movimentação de caixa de correio.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/pt-br/library/jj218695\(v=exchg.150\)).
 
@@ -234,8 +234,8 @@ Para verificar se você concluiu com êxito a migração, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as informações de movimentação de caixa de correio.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/pt-br/library/jj218695\(v=exchg.150\)).
 
@@ -243,7 +243,9 @@ Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.
 
 Este exemplo move a caixa de correio principal e a caixa de correio de arquivo morto de Ayla para bancos de dados separados. O banco de dados principal é movido para DB01 e o arquivo é movido para DB03.
 
+```powershell
     New-MoveRequest -Identity 'ayla@humongousinsurance.com' -TargetDatabase DB01 -ArchiveTargetDatabase -DB03
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-MigrationBatch](https://technet.microsoft.com/pt-br/library/jj219166\(v=exchg.150\)) e [New-MoveRequest](https://technet.microsoft.com/pt-br/library/dd351123\(v=exchg.150\)).
 
@@ -254,8 +256,8 @@ Para verificar se você concluiu com êxito a migração, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as informações de movimentação de caixa de correio.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/pt-br/library/jj218695\(v=exchg.150\)).
 
@@ -275,7 +277,9 @@ Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.
 
 Este exemplo move a caixa de correio principal de Lisa para o banco de dados de caixa de correio DB01 e define o limite para itens inválidos como `100`. Para definir um limite amplo para itens inválidos, é necessário usar o parâmetro *AcceptLargeDataLoss*.
 
+```powershell
     New-MoveRequest -Identity 'Lisa' -PrimaryOnly -TargetDatabase "DB01" -BadItemLimit 100 -AcceptLargeDataLoss
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-MigrationBatch](https://technet.microsoft.com/pt-br/library/jj219166\(v=exchg.150\)) e [New-MoveRequest](https://technet.microsoft.com/pt-br/library/dd351123\(v=exchg.150\)).
 
@@ -286,8 +290,8 @@ Para verificar se você concluiu com êxito a migração, faça o seguinte:
   - No Shell, execute o comando a seguir para recuperar as informações de movimentação de caixa de correio.
     
     ```powershell
-Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
-```
+    Get-MigrationUserStatistics -Identity BatchName -Status | Format-List
+    ```
 
 Para mais informações, consulte [Get-MigrationUserStatistics](https://technet.microsoft.com/pt-br/library/jj218695\(v=exchg.150\)).
 

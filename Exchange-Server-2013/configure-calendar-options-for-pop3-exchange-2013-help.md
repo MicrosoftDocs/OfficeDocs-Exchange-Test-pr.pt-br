@@ -45,7 +45,9 @@ Set-PopSettings -Identity CAS01 -CalendarItemRetrievalOption iCalendar
 
 Este exemplo habilita usuários POP3 acessar informações de calendário de um servidor interno.
 
+```powershell
     Set-PopSettings -Identity CAS01 -CalendarItemRetrievalOption IntranetUrl 
+```
 
 Este exemplo habilita usuários POP3 acessar informações do calendário da Internet em um servidor externo.
 

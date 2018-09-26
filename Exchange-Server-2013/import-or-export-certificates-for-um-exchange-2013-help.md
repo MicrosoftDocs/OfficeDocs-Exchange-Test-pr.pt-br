@@ -67,7 +67,9 @@ Para saber mais sobre outras tarefas de gerenciamento de certificados para Unifi
 
 Este exemplo exporta o certificado com a impressão digital A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC para um arquivo, depois que você é solicitado a fornecer nome de usuário e senha.
 
-    $file = Export-ExchangeCertificate -Thumbprint A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC -BinaryEncoded:$true -Password (Get-Credential).password
+  ```powershell
+  $file = Export-ExchangeCertificate -Thumbprint A36DE2B9B62980A717EBD0C3052F5F0B08FBFFCC -BinaryEncoded:$true -Password (Get-Credential).password
+  ```
 
 Esse exemplo faz o seguinte:
 
@@ -79,13 +81,12 @@ Esse exemplo faz o seguinte:
 
 <!-- end list -->
 
-```
+```powershell
     $file = Get-ExchangeCertificate -DomainName umcorp.northwindtraders.com | Export-ExchangeCertificate -BinaryEncoded:$true -Password (Get-Credential).password
 ```
-```
+
 ```powershell
 Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding Byte
-```
 ```
 
 ## Usar o EAC para importar um certificado
@@ -100,5 +101,7 @@ Set-Content -Path "d:\umcerts\selfsigned.pfx" -Value $file.FileData =Encoding By
 
 Este exemplo importa um certificado do arquivo de certificado d:\\certificates\\exchange\\SelfSignedUMCert.pfx depois que você fornece nome de usuário e senha.
 
-    Import-ExchangeCertificate -FileData ([Byte[]]$(Get-Content -Path d:\certificates\exchange\SelfSignedUMCert.pfx -Encoding Byte -ReadCount 0)) -Password:(Get-Credential).password
+  ```powershell
+  Import-ExchangeCertificate -FileData ([Byte[]]$(Get-Content -Path d:\certificates\exchange\SelfSignedUMCert.pfx -Encoding Byte -ReadCount 0)) -Password:(Get-Credential).password
+  ```
 

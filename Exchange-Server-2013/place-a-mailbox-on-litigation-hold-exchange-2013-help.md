@@ -95,7 +95,9 @@ A sua organização pode exigir que todos os dados de caixas de correio sejam pr
 
 Este exemplo coloca todas as caixas de correio de usuários na organização em Retenção de Litígio por um ano (365 dias).
 
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 365
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 365
+```
 
 O exemplo usa o cmdlet [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\))para recuperar todas as caixas de correio na organização, especifica um filtro de destinatários para incluir todas as caixas de correio de usuários e, então, envia essa lista ao cmdlet [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) para ativar a Retenção de Litígio e definir a duração da retenção.
 
@@ -131,11 +133,15 @@ Para verificar se você aplicou com sucesso a Retenção de Litígio em uma caix
 
   - No Shell, execute um destes comandos:
     
-        Get-Mailbox <name of mailbox> | FL LitigationHold*
+    ```powershell
+    Get-Mailbox <name of mailbox> | FL LitigationHold*
+    ```
     
     ou
     
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,LitigationHold*
+    ```powershell
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | FL Name,LitigationHold*
+    ```
     
     Se uma caixa de correio é colocada em Retenção de Litígio indefinidamente, o valor da propriedade *LitigationHoldDuration* é definido como `Unlimited`.
 
@@ -155,26 +161,26 @@ Para verificar se você aplicou com sucesso a Retenção de Litígio em uma caix
     
     Eis alguns exemplos de usar os cmdlets **Get-Mailbox** e **Get-Recipient** para obter um subconjunto de caixas de correio com base em propriedades de usuário ou de caixa de correio comuns. Esses exemplos supõem que as propriedades de caixa de correio relevantes (como *CustomAttributeN* ou *Department*) foram preenchidas.
     
-    ```
-        Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
-    ```
-    ```
     ```powershell
-Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-```
-    ```
-    ```
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
-    ```
-    ```
-            Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
-    ```
-    ```
-    ```powershell
-Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
-```
+    Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
     ```
     
+    ```powershell
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+    ```
+    
+    ```powershell
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
+    ```
+    
+    ```powershell
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
+    ```
+
+    ```powershell
+    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+    ```
+        
     Você pode usar outras propriedades de caixa de correio em um filtro para incluir ou excluir caixas de correio. Para saber mais, confira [Propriedades filtráveis para o parâmetro -Filter](https://technet.microsoft.com/pt-br/library/bb738155\(v=exchg.150\)).
 
 Voltar ao início

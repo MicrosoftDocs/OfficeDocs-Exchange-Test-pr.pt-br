@@ -58,13 +58,17 @@ Para atribuir uma credencial de autenticação específica para o controlador de
 
 
 1.  Execute os seguintes comandos para obter as credenciais de floresta local e floresta remota.
-    
-        $LocalCredentials = Get-Credential
-        $RemoteCredentials = Get-Credential
+
+    ```powershell    
+      $LocalCredentials = Get-Credential
+      $RemoteCredentials = Get-Credential
+    ```
 
 2.  Em seguida, execute os seguintes comandos para passar as informações de credenciais aos parâmetros *LocalForestCredential* e *RemoteForestCredential* no script Prepare-MoveRequest.ps1.
     
-        Prepare-MoveRequest.ps1 -Identity JohnSmith@Fabrikan.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials
+    ```powershell
+      Prepare-MoveRequest.ps1 -Identity JohnSmith@Fabrikan.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials  -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials
+    ```
 
 ## Conjunto de parâmetros do script
 
@@ -166,20 +170,22 @@ A tabela a seguir descreve o parâmetro definido para o script.
 
 ## Exemplos
 
-Esta seção contém vários exemplos de como você pode usar o script Prepare-MoveRequest.ps1.
-
 ## Exemplo: Único usuário habilitado para email vinculado
 
 Este exemplo apresenta um único usuário vinculado e habilitado para email na floresta local quando há confiança de floresta entre a floresta remota e a floresta local.
 
 1.  Execute os seguintes comandos para obter as credenciais de floresta local e floresta remota.
     
+    ```powershell
         $LocalCredentials = Get-Credential
         $RemoteCredentials = Get-Credential
+    ```
 
 2.  Depois, execute o seguinte comando para passar as informações de credenciais aos parâmetros *LocalForestCredential* e *RemoteForestCredential* no script Prepare-MoveRequest.ps1.
     
+    ```powershell
         Prepare-MoveRequest.ps1 -Identity JamesAlvord@Contoso.com -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $RemoteCredentials -LocalForestDomainController DC001.Contoso.com -LocalForestCredential $LocalCredentials -LinkedMailUser 
+    ```
 
 ## Exemplo: Pipelining
 
@@ -188,13 +194,15 @@ Este exemplo suporta pipelining caso você forneça uma lista de identidades de 
 1.  Execute o seguinte comando.
     
     ```powershell
-$UserCredentials = Get-Credential
-```
+       $UserCredentials = Get-Credential
+    ```
 
 2.  Execute o seguinte comando para passar as informações de credenciais ao parâmetro *RemoteForestCredential* no script Prepare-MoveRequest.ps1.
     
-        "IanP@Contoso.com", "JoeAn@Contoso.com" | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
-
+    ```powershell
+       "IanP@Contoso.com", "JoeAn@Contoso.com" | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
+    ```
+        
 ## Exemplo: Usar um arquivo. csv para criar usuários habilitados para email em massa
 
 Você pode gerar um arquivo .csv que contém uma lista de identidades de caixa de correio da floresta de origem, a qual permite canalizar o conteúdo desse arquivo no script para criar usuários de destino em massa habilitados para email.
@@ -214,13 +222,15 @@ Este exemplo chama um arquivo .csv para criar usuários de destino em massa habi
 1.  Execute o seguinte comando para obter as credenciais de floresta remota.
     
     ```powershell
-$UserCredentials = Get-Credential
-```
+        $UserCredentials = Get-Credential
+    ```
 
 2.  Execute o seguinte comando para passar as informações de credenciais ao parâmetro *RemoteForestCredential* no script Prepare-MoveRequest.ps1.
     
+    ```powershell
         Import-Csv Test.csv | Prepare-MoveRequest.ps1 -RemoteForestDomainController DC001.Fabrikam.com -RemoteForestCredential $UserCredentials
-
+    ```
+    
 ## Comportamento do script por objeto de destino
 
 Esta seção descreve como o script se comporta em relação aos vários cenários para objetos de destino.

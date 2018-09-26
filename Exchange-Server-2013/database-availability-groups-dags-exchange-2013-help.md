@@ -61,18 +61,22 @@ Durante a criação, o DAG recebe um nome exclusivo e um ou mais endereços IP e
 
 Este exemplo mostra como usar o Shell para criar um DAG com um ponto de acesso administrativo do cluster que terá três servidores. Dois servidores (EX1 e EX2) estão na mesma sub-rede (10.0.0.0), e o terceiro servidor (EX3) está em uma sub-rede diferente (192.168.0.0).
 
+  ```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses 10.0.0.5,192.168.0.5
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
+  ```
 
 Os comandos usados para criar um DAG sem um ponto de acesso administrativo do cluster são muito semelhantes:
 
+  ```powershell
     New-DatabaseAvailabilityGroup -Name DAG1 -WitnessServer EX4 -DatabaseAvailabilityGroupIPAddresses ([System.Net.IPAddress])::None
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX1
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX2
     Add-DatabaseAvailabilityGroupServer -Identity DAG1 -MailboxServer EX3
-
+  ```
+  
 O cluster de DAG1 é criado quando EX1 é adicionado ao DAG. Durante a criação de cluster, o cmdlet **Add-DatabaseAvailabilityGroupServer** recupera os endereços IP configurados para o DAG e ignora os que não correspondem a nenhuma das sub-redes encontradas em EX1. No primeiro exemplo acima, o cluster do DAG1 é criado com um endereço IP 10.0.0.5 e 192.168.0.5 é ignorado. No segundo exemplo acima, o valor do parâmetro *DatabaseAvailabilityGroupIPAddresses* instrui a tarefa a criar um cluster de failover para o DAG que não tem um ponto de acesso administrativo do cluster. Assim, o cluster é criado com um recurso de endereço de IP ou de nome de recurso no grupo de recursos principais do cluster.
 
 Em seguida, EX2 é adicionado, e o cmdlet **Add-DatabaseAvailabilityGroupServer** recupera novamente os endereços IP configurados para o DAG. Não são feitas alterações nos endereços IP do cluster, pois EX2 está na mesma sub-rede de EX1.

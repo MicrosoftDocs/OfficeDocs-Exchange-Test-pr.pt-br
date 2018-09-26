@@ -83,8 +83,10 @@ Arquivamento in-loco ajuda você a recuperar o controle de dados de mensagens da
 
 Este exemplo cria o usuário Chris Ashton no Active Directory, cria a caixa de correio no banco de dados de caixa de correio DB01 e habilita um arquivo morto. A senha deve ser redefinida no próximo logon. Para definir o valor inicial da senha, este exemplo cria uma variável ($password), solicita que você insira uma senha e atribui a senha à variável como um objeto SecureString.
 
-    $password = Read-Host "Enter password" -AsSecureString
-    New-Mailbox -UserPrincipalName chris@contoso.com -Alias chris -Archive -Database "DB01" -Name ChrisAshton -OrganizationalUnit Users -Password $password -FirstName Chris -LastName Ashton -DisplayName "Chris Ashton" 
+```powershell
+$password = Read-Host "Enter password" -AsSecureString
+New-Mailbox -UserPrincipalName chris@contoso.com -Alias chris -Archive -Database "DB01" -Name ChrisAshton -OrganizationalUnit Users -Password $password -FirstName Chris -LastName Ashton -DisplayName "Chris Ashton" 
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Mailbox](https://technet.microsoft.com/pt-br/library/aa997663\(v=exchg.150\)).
 
@@ -96,7 +98,9 @@ Para verificar se você criou com êxito uma caixa de correio de usuário, com u
 
   - No Shell, execute o comando a seguir, para exibir informações sobre a nova caixa de correio de usuário e o arquivo morto.
     
-        Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress,*Archive*
+    ```powershell
+    Get-Mailbox <Name> | FL Name,RecipientTypeDetails,PrimarySmtpAddress,*Archive*
+    ```
 
   - No Shell, use o cmdlet **Test-ArchiveConnectivity**, para testar a conectividade ao arquivo morto. Para obter um exemplo de como testar a conectividade do arquivo morto, consulte a seção Exemplos em [Test-ArchiveConnectivity](https://technet.microsoft.com/pt-br/library/hh529914\(v=exchg.150\)).
 
@@ -130,7 +134,9 @@ Enable-Mailbox "Tony Smith" -Archive
 
 Este exemplo recupera caixas de correio no banco de dados DB01 que não têm um arquivo morto local ou baseado em nuvem habilitado, além de não terem um nome começando com DiscoverySearchMailbox. Ele canaliza o resultado do cmdlet **Enable-Mailbox**, para habilitar o arquivo morto para todas as caixas de correio no banco de dados de caixa de correio DB01.
 
-    Get-Mailbox -Database DB01 -Filter {ArchiveGuid -Eq $null -AND ArchiveDomain -eq $null -AND Name -NotLike "DiscoverySearchMailbox*"} | Enable-Mailbox -Archive
+```powershell
+Get-Mailbox -Database DB01 -Filter {ArchiveGuid -Eq $null -AND ArchiveDomain -eq $null -AND Name -NotLike "DiscoverySearchMailbox*"} | Enable-Mailbox -Archive
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Enable-Mailbox](https://technet.microsoft.com/pt-br/library/aa998251\(v=exchg.150\)) e [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)).
 
@@ -142,7 +148,9 @@ Para verificar se você habilitou com êxito em um arquivo morto local para uma 
 
   - No Shell, execute o comando a seguir para exibir informações sobre o novo arquivo morto.
     
-        Get-Mailbox <Name> | FL Name,*Archive*
+    ```powershell
+    Get-Mailbox <Name> | FL Name,*Archive*
+    ```
 
   - No Shell, use o cmdlet **Test-ArchiveConnectivity**, para testar a conectividade ao arquivo morto. Para um exemplo de como testar a conectividade do arquivo morto, veja os Exemplos em [Test-ArchiveConnectivity](https://technet.microsoft.com/pt-br/library/hh529914\(v=exchg.150\)).
 
@@ -190,7 +198,9 @@ Para verificar se você desabilitou com êxito um arquivo morto, faça o seguint
 
   - No Shell, execute o comando a seguir para verificar as propriedades do arquivo morto para o usuário de caixa de correio.
     
-        Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
+    ```powershell
+    Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
+    ```
     
     Se o arquivo morto estiver desabilitado, os seguintes valores serão retornados, para propriedades relativas a arquivo morto.
     
@@ -247,11 +257,15 @@ Quando você desabilitar uma caixa de correio de arquivo morto, ele se tornará 
 
 1.  Se você não souber o nome do arquivo morto, você poderá exibi-lo no Shell, executando o seguinte comando. Este exemplo recupera o banco de dados de caixa de correio DB01, envia-o em pipe para o cmdlet **Get-MailboxStatistics** para recuperar estatísticas de caixa de correio para todas as caixas de correio no banco de dados e então usa o cmdlet **Where-Object** para filtrar os resultados e recuperar uma lista de arquivos mortos desconectados. O comando mostra informações adicionais sobre cada arquivo morto, como a GUID e a contagem de itens.
     
-        Get-MailboxDatabase "DB01" | Get-MailboxStatistics | Where {($_.DisconnectDate -ne $null) -and ($_.IsArchiveMailbox -eq $true)} | Format-List
+    ```powershell
+    Get-MailboxDatabase "DB01" | Get-MailboxStatistics | Where {($_.DisconnectDate -ne $null) -and ($_.IsArchiveMailbox -eq $true)} | Format-List
+    ```
 
 2.  Conecte o arquivo morto à caixa de correio principal. Este exemplo conecta o arquivo de Chris Ashton à caixa de correio principal de Chris Ashton e usa o GUID como a identidade do arquivo morto.
     
-        Enable-Mailbox -ArchiveGuid "8734c04e-981e-4ccf-a547-1c1ac7ebf3e2" -ArchiveDatabase "DB01" -Identity "Chris Ashton"
+    ```powershell
+    Enable-Mailbox -ArchiveGuid "8734c04e-981e-4ccf-a547-1c1ac7ebf3e2" -ArchiveDatabase "DB01" -Identity "Chris Ashton"
+    ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 
@@ -265,5 +279,7 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os se
 
 Para verificar se você conectou com êxito um arquivo morto desconectado a um usuário de caixa de correio, execute este comando do Shell, para recuperar as propriedades do arquivo morto do usuário de caixa de correio e verificar os valores retornados para as propriedades *ArchiveGuid* e *ArchiveDatabase*:
 
-    Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
+```powershell
+Get-Mailbox -Identity "Chris Ashton" | Format-List *Archive*
+```
 

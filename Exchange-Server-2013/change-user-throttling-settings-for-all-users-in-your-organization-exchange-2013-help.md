@@ -56,16 +56,16 @@ Para verificar se você criou a política de limitação de organização com ê
 1.  Execute o seguinte comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 2.  Verifique se a organização limitação política que você acabou de criar está listada na coluna que mostra o objeto GlobalThrottlingPolicy.
 
 3.  Execute o seguinte comando.
     
     ```powershell
-Get-ThrottlingPolicy | Format-List
-```
+    Get-ThrottlingPolicy | Format-List
+    ```
 
 4.  Verifique se as propriedades para a nova política de organização correspondem o valor ou valores que você configurou.
 

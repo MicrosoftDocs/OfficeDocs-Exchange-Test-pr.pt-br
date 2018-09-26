@@ -57,7 +57,9 @@ O acompanhamento de mensagens registra a atividade de transporte de SMTP de toda
 
 Para configurar o acompanhamento de mensagens, execute o seguinte comando:
 
-    Set-TransportService <ServerIdentity> -MessageTrackingLogEnabled <$true | $false> -MessageTrackingLogMaxAge <dd.hh:mm:ss> -MessageTrackingLogMaxDirectorySize <Size> -MessageTrackingLogMaxFileSize <Size> -MessageTrackingLogPath <LocalFilePath> -MessageTrackingLogSubjectLoggingEnabled <$true|$false>
+  ```powershell
+  Set-TransportService <ServerIdentity> -MessageTrackingLogEnabled <$true | $false> -MessageTrackingLogMaxAge <dd.hh:mm:ss> -MessageTrackingLogMaxDirectorySize <Size> -MessageTrackingLogMaxFileSize <Size> -MessageTrackingLogPath <LocalFilePath> -MessageTrackingLogSubjectLoggingEnabled <$true|$false>
+  ```
 
 Este exemplo define as seguintes configurações do log de acompanhamento de mensagens no servidor de Caixa de Correio chamado Mailbox01:
 
@@ -71,7 +73,9 @@ Este exemplo define as seguintes configurações do log de acompanhamento de men
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -MessageTrackingLogPath "D:\Hub Message Tracking Log" -MessageTrackingLogMaxFileSize 20MB -MessageTrackingLogMaxDirectorySize 1.5GB -MessageTrackingLogMaxAge 45.00:00:00
+  ```powershell
+  Set-TransportService Mailbox01 -MessageTrackingLogPath "D:\Hub Message Tracking Log" -MessageTrackingLogMaxFileSize 20MB -MessageTrackingLogMaxDirectorySize 1.5GB -MessageTrackingLogMaxAge 45.00:00:00
+  ```
 
 
 > [!TIP]
@@ -103,7 +107,9 @@ Para verificar se você configurou com êxito o acompanhamento de mensagens, fa�
 
 1.  No Shell, execute o comando a seguir:
     
-        Get-TransportService <ServerIdentity> | Format-List MessageTrackingLog*
+  ```powershell
+  Get-TransportService <ServerIdentity> | Format-List MessageTrackingLog*
+  ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 

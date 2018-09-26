@@ -66,9 +66,10 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
         > [!WARNING]
         > Para facilitar a execução de scripts do Shell, copie e cole o código em um editor de texto como o Bloco de Notas e salve o código com a extensão .ps1.
+        
 
 
-        ```
+        ```csharp
         # Make sure to update the following $tenantDomain with your Office 365 tenant domain.
         
         $tenantDomain = "Fabrikam.com"
@@ -132,7 +133,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
         O resultado esperado deve se parecer com a seguinte saída.
 		
-	    ```
+	    ```powershell
         Configured Certificate Thumbprint is: 7595DBDEA83DACB5757441D44899BCDB9911253C
         Exporting certificate...
         Complete.
@@ -145,7 +146,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
   -  **Etapa 2: configurar o Office 365 para se comunicar com o Exchange 2013 local.** Configure o servidor do Office 365 com o qual o Exchange Server 2013 se comunicará para que seja um aplicativo parceiro. Por exemplo, se o Exchange Server 2013 local precisa se comunicar com o Office 365, é preciso configurar o Exchange para que ele seja um aplicativo parceiro. Um aplicativo parceiro é qualquer aplicativo com o qual o Exchange 2013 pode trocar tokens de segurança diretamente, sem ter que atravessar um servidor de token de segurança terceirizado. Os administradores locais do Exchange 2013 devem usar o seguinte script do Shell de Gerenciamento do Exchange para configurar o locatário do Office 365 com o qual o Exchange 2013 se comunicará para que ele seja um aplicativo parceiro. Durante a execução, um prompt será exibido para inserir o nome de usuário e a senha de administrador do domínio do locatário do Office 365. Por exemplo, administrador@fabrikam.com. Certifique-se de atualizar o valor do *$CertFile* com a localização do certificado, caso ele não tenha sido criado a partir do script anterior. Para fazer isso, copie e cole o seguinte código.
     
-        ```
+        ```csharp
         # Make sure to update the following $CertFile with the path to the cert if not using the previous script.
         
         $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -181,7 +182,7 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
         O resultado esperado deve ser o seguinte.
 		
-	    ```
+	    ```powershell
         Please enter the administrator user name and password of the Office 365 tenant domain...
         Adding a key to Service Principal...
         Complete.
@@ -191,32 +192,36 @@ Para configurar uma autenticação de servidor para servidor de uma implantaçã
 
 Após a configuração da autenticação OAuth das etapas anteriores ter sido realizada com êxito, um administrador local precisa habilitar o uso de proxy para notificações por push usando o seguinte script. Certifique-se de atualizar o valor de *$tenantDomain* com o nome do seu domínio. Para fazer isso, copie e cole o seguinte código.
 
-    $tenantDomain = "Fabrikam.com"
-    Enable-PushNotificationProxy -Organization:$tenantDomain
+```powershell
+$tenantDomain = "Fabrikam.com"
+Enable-PushNotificationProxy -Organization:$tenantDomain
+```
 
 O resultado esperado deve se parecer com a seguinte saída.
 
-    RunspaceId        : 4f2eb5cc-b696-482f-92bb-5b254cd19d60
-    DisplayName       : On Premises Proxy app
-    Enabled           : True
-    Organization      : fabrikam.com
-    Uri               : https://outlook.office365.com/PushNotifications
-    Identity          : OnPrem-Proxy
-    IsValid           : True
-    ExchangeVersion   : 0.20 (15.0.0.0)
-    Name              : OnPrem-Proxy
-    DistinguishedName : CN=OnPrem-Proxy,CN=Push Notifications Settings,CN=First Organization,CN=Microsoft
-                        Exchange,CN=Services,CN=Configuration,DC=Domain,DC=extest,DC=microsoft,DC=com
-    Guid              : 8b567958-58a4-403c-a8f0-524d7f1e9279
-    ObjectCategory    : fabrikam.com/Configuration/Schema/ms-Exch-Push-Notifications-App
-    ObjectClass       : {top, msExchPushNotificationsApp}
-    WhenChanged       : 8/27/2013 7:23:47 PM
-    WhenCreated       : 8/14/2013 1:30:27 PM
-    WhenChangedUTC    : 8/28/2013 2:23:47 AM
-    WhenCreatedUTC    : 8/14/2013 8:30:27 PM
-    OrganizationId    :
-    OriginatingServer : server.fabrikam.com
-    ObjectState       : Unchanged
+```powershell
+RunspaceId        : 4f2eb5cc-b696-482f-92bb-5b254cd19d60
+DisplayName       : On Premises Proxy app
+Enabled           : True
+Organization      : fabrikam.com
+Uri               : https://outlook.office365.com/PushNotifications
+Identity          : OnPrem-Proxy
+IsValid           : True
+ExchangeVersion   : 0.20 (15.0.0.0)
+Name              : OnPrem-Proxy
+DistinguishedName : CN=OnPrem-Proxy,CN=Push Notifications Settings,CN=First Organization,CN=Microsoft
+                    Exchange,CN=Services,CN=Configuration,DC=Domain,DC=extest,DC=microsoft,DC=com
+Guid              : 8b567958-58a4-403c-a8f0-524d7f1e9279
+ObjectCategory    : fabrikam.com/Configuration/Schema/ms-Exch-Push-Notifications-App
+ObjectClass       : {top, msExchPushNotificationsApp}
+WhenChanged       : 8/27/2013 7:23:47 PM
+WhenCreated       : 8/14/2013 1:30:27 PM
+WhenChangedUTC    : 8/28/2013 2:23:47 AM
+WhenCreatedUTC    : 8/14/2013 8:30:27 PM
+OrganizationId    :
+OriginatingServer : server.fabrikam.com
+ObjectState       : Unchanged
+```
 
 ## Verifique se as notificações por push estão funcionando
 
@@ -234,7 +239,7 @@ Após a conclusão das etapas anteriores, as notificações por push podem ser t
 
   - **Habilitando o monitoramento.** Como método alternativo para testar as notificações por push, ou para investigar o motivo de falhas nas notificações, habilite o monitoramento em um servidor de caixa de correio em sua organização. Os administradores de servidor do Exchange 2013 local devem invocar o monitoramento de proxy das notificações por push usando o seguinte script. Para fazer isso, copie e cole o seguinte código.
     
-    ```
+    ```csharp
     # Send a push notification to verify connectivity.
     
     $s = Get-ExchangeServer | ?{$_.ServerRole -match "Mailbox"}
@@ -260,7 +265,7 @@ Após a conclusão das etapas anteriores, as notificações por push podem ser t
     
     O resultado esperado deve se parecer com a seguinte saída.
     
-    ```
+    ```powershell
         ResultType : Succeeded
         Error      :
         Exception  :

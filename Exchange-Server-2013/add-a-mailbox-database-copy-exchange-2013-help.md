@@ -49,15 +49,11 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 ## Usar o EAC para adicionar uma cópia do banco de dados de caixa de correio
 
-1.  
-    
-    Na EAC, vá até **Servidores** \> **Bancos de dados**.
+1.  Na EAC, vá até **Servidores** \> **Bancos de dados**.
 
 2.  Selecione o banco de dados que você deseja copiar e clique em ![Adicionar cópia do banco de dados](images/Dd298080.435c15ff-abf2-4de8-b280-f053db1afa13(EXCHG.150).gif "Adicionar cópia do banco de dados").
 
-3.  
-    
-    Na página **Adicionar a cópia do banco de dados de caixa de correio**, clique em **Procurar …**, selecione o servidor de caixa de correio que hospedará a cópia do banco de dados e clique em **Okey**.
+3.  Na página **Adicionar a cópia do banco de dados de caixa de correio**, clique em **Procurar …**, selecione o servidor de caixa de correio que hospedará a cópia do banco de dados e clique em **Okey**.
 
 4.  Se desejar, configure o **número de preferência de ativação** para a cópia do banco de dados.
 
@@ -83,7 +79,9 @@ Add-MailboxDatabaseCopy -Identity DB2 -MailboxServer MBX4 -ActivationPreference 
 
 Este exemplo adiciona uma cópia do banco de dados de caixa de correio DB3 para o servidor de caixa de correio MBX5. Tempo de retardo de repetição é definido como 3 dias, tempo de retardo de truncamento é deixado no valor padrão de zero e a preferência de ativação é configurada com um valor de `4`.
 
+```powershell
     Add-MailboxDatabaseCopy -Identity DB3 -MailboxServer MBX5 -ReplayLagTime 3.00:00:00 -ActivationPreference 4
+```
 
 ## Como saber se funcionou?
 
@@ -94,8 +92,8 @@ Para verificar se você criou com êxito uma cópia do banco de dados de caixa d
   - No Shell, execute o comando a seguir para verificar se a cópia do banco de dados de caixa de correio foi criada e está íntegra:
     
     ```powershell
-Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
-```
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName>
+    ```
     
     O Status e o estado do índice de conteúdo devem ser iguais a Íntegro.
 

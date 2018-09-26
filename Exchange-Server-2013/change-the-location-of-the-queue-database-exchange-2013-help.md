@@ -94,24 +94,30 @@ O local do banco de dados de fila e os logs de transações do banco de dados de
 2.  Em uma janela de prompt de comando, abra o arquivo EdgeTransport.exe.config no bloco de notas executando o seguinte comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 3.  Modifique as chaves a seguintes na seção `<appSettings>` .
     
-        <add key="QueueDatabasePath" value="<LocalPath>" />
-        <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```powershell
+    <add key="QueueDatabasePath" value="<LocalPath>" />
+    <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```
     
     Por exemplo, para criar um novo banco de dados de fila em D:\\Queue\\QueueDB e novos logs de transação D:\\Queue\\QueueLogs, use os seguintes valores:
     
-        <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
-        <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```powershell
+    <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
+    <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```
 
 4.  Quando terminar, salve e feche o arquivo EdgeTransport.exe.config.
 
 5.  Reinicie o serviço de Transporte do Microsoft Exchange executando o seguinte comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Como saber se funcionou?
 
@@ -140,26 +146,30 @@ Use o procedimento a seguir para mover os logs de transações e de banco de dad
 2.  Em uma janela de prompt de comando, abra o arquivo EdgeTransport.exe.config no bloco de notas executando o seguinte comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
-```
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 3.  Modifique as chaves a seguir na seção `<appSettings>` :
     
-        <add key="QueueDatabasePath" value="<LocalPath>" />
-        <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```powershell
+    <add key="QueueDatabasePath" value="<LocalPath>" />
+    <add key="QueueDatabaseLoggingPath" value="<LocalPath>" />
+    ```
     
     Por exemplo, para alterar o local do banco de dados de fila para D:\\Queue\\QueueDB e os logs de transação para D:\\Queue\\QueueLogs, use os seguintes valores:
     
-        <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
-        <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```powershell
+    <add key="QueueDatabasePath" value="D:\Queue\QueueDB" />
+    <add key="QueueDatabaseLoggingPath" value="D:\Queue\QueueLogs" />
+    ```
 
 4.  Quando terminar, salve e feche o arquivo EdgeTransport.exe.config.
 
 5.  Pare o serviço de transporte do Microsoft Exchange executando o seguinte comando:
     
     ```powershell
-net stop MSExchangeTransport
-```
+    net stop MSExchangeTransport
+    ```
 
 6.  Mova os arquivos de banco de dados existente Mail.que e Trn.chk do local original para o novo local.
 
@@ -168,8 +178,8 @@ net stop MSExchangeTransport
 8.  Inicie o serviço de transporte do Microsoft Exchange executando o seguinte comando:
     
     ```powershell
-net start MSExchangeTransport
-```
+    net start MSExchangeTransport
+    ```
 
 ## Como saber se funcionou?
 

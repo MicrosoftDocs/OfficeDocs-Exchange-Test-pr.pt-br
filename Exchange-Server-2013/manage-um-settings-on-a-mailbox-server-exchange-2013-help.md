@@ -57,11 +57,15 @@ Set-UMService -Identity MyMailboxServer -DialPlans $null
 
 Este exemplo adiciona o servidor de Caixa de Correio sob o nome `MyMailboxServer` para um plano de discagem de UM SIP sob o nome `MySIPDialPlanName` e também define o número máximo de chamadas de voz entrantes
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150 
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150 
+```
 
 Este exemplo define o modo de inicialização como Duplo em um servidor de Caixa de Correio chamado `MyUMServer`.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```
 
 ## Usar o Shell para exibir as propriedades do servidor de Caixa de Correio
 

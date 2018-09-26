@@ -93,7 +93,9 @@ Get-ExchangeServer | format-list
 
 Este exemplo habilita a publicação do diretório virtual no Servidor de Acesso para Cliente CAS01.
 
+```powershell
     Set-OwaVirtualDirectory -Identity "CAS01\owa (Default Web Site)" -ExternalUrl "<URL for CAS01>" -CalendarEnabled $true
+```
 
 Onde a identidade `CAS01\owa (Default Web Site)` é o nome do servidor e o diretório virtual do Outlook Web App.
 
@@ -149,7 +151,9 @@ Se você deseja criar uma política de compartilhamento específica para publica
 
 Este exemplo cria uma política de compartilhamento de publicação de calendário na Internet chamada "Internet" e configura a política para compartilhar somente informações de disponibilidade. A política é habilitada.
 
-    New-SharingPolicy -Name "Internet" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```powershell
+New-SharingPolicy -Name "Internet" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 Este exemplo adiciona a política de compartilhamento de Internet a uma caixa de correio de usuário.
 
@@ -203,7 +207,9 @@ Se você deseja configurar a política de compartilhamento padrão para publica�
 
 Esse exemplo atualiza a Política de Compartilhamento Padrão e configura a política de maneira que sejam compartilhadas somente informações de disponibilidade. A política é habilitada.
 
+```powershell
     Set-SharingPolicy -Name "Default Sharing Policy" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -212,6 +218,6 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-M
 Para verificar se você atualizou a Política de Compartilhamento Padrão com êxito e verificar as informações sobre a política de compartilhamento, execute o seguinte comando do Shell.
 
 ```powershell
-Get-SharingPolicy <policy name> | format-list
+    Get-SharingPolicy <policy name> | format-list
 ```
 

@@ -41,9 +41,10 @@ O log de protocolo permite que você analise as conexões POP3 e IMAP4 em seu am
 
 Este exemplo habilita o registro em log de protocolo para POP3 ou IMAP4 no servidor de Acesso para Cliente CAS01.
 
+```powershell
     Set-ImapSettings -Server "CAS01" -ProtocolLogEnabled $true
     Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true
-
+```
 
 > [!NOTE]
 > Após alterar as configurações de log de protocolo para POP3 ou IMAP4, será necessário reiniciar o serviço que estiver em uso: POP3 ou IMAP4. Para obter informações sobre como reiniciar os serviços POP3 e IMAP4, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar e interromper os serviços POP3</A> e <A href="start-and-stop-the-imap4-services-exchange-2013-help.md">Iniciar e interromper os serviços de IMAP4</A>.
@@ -56,9 +57,10 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-I
 
 Este exemplo desabilita o registro em log de protocolo para POP3 ou IMAP4 no servidor de Acesso para Cliente CAS01.
 
+```powershell
     Set-ImapSettings -Server "CAS01" -protocolLogEnabled $false
     Set-PopSettings -Server "CAS01" -protocolLogEnabled $false
-
+```
 
 > [!NOTE]
 > Após alterar as configurações de log de protocolo para POP3 ou IMAP4, será necessário reiniciar o serviço que estiver em uso: POP3 ou IMAP4. Para obter informações sobre como reiniciar os serviços POP3 e IMAP4, consulte <A href="start-and-stop-the-pop3-services-exchange-2013-help.md">Iniciar e interromper os serviços POP3</A> e <A href="start-and-stop-the-imap4-services-exchange-2013-help.md">Iniciar e interromper os serviços de IMAP4</A>.
@@ -74,8 +76,8 @@ Para modificar as configurações de registro em log de POP3 ou IMAP4, execute o
   - *LogFileLocation*   Esse parâmetro especifica o local dos arquivos de log de protocolo POP3 ou IMAP4. Por padrão, os arquivos de log com protocolo POP3 se encontram no diretório C:\\Arquivos de Programas\\Microsoft\\Exchange Server\\V15\\Logging\\Pop3. Esse exemplo ativa o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01. Ele também altera o diretório de registro em log de protocolo POP3 para C:\\Pop3Logging.
     
     ```powershell
-Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\Pop3Logging"
-```
+    Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\Pop3Logging"
+    ```
 
   - *LogFileRollOverSettings*   Esse parâmetro define com qual frequência o registro em log do protocolo POP3 ou IMAP4 cria um novo arquivo de log. Por padrão, o novo arquivo de log é criado a cada dia. Os valores possíveis são:
     
@@ -90,22 +92,22 @@ Set-PopSettings -Server "CAS01" -ProtocolLogEnabled $true -LogFileLocation "C:\P
     Esta configuração só é aplicável quando o valor do parâmetro *LogPerFileSizeQuota* for definido como . Esse exemplo altera o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01 para criar um novo arquivo de log a cada hora.
     
     ```powershell
-Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
-```
+    Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 0 -LogFileRollOverSettings Hourly
+    ```
 
   - *LogPerFileSizeQuota*   Esse parâmetro define o tamanho máximo de um arquivo de log de protocolo POP3 ou IMAP4 em bytes. Por padrão, esse valor é definido como zero. Quando este valor está definido como zero, um novo arquivo de log de protocolo é criado na frequência especificada pelo parâmetro *LogFileRollOverSettings*.
     
     Esse exemplo altera o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01 para criar um novo arquivo de log quando um arquivo de log atingir 2 MB.
     
     ```powershell
-Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
-```
+    Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota 2000000
+    ```
     
     Esse exemplo altera o registro em log do protocolo POP3 no servidor de Acesso para Cliente CAS01 para usar o mesmo arquivo de log, independentemente de seu tamanho e sua data de criação.
     
     ```powershell
-Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
-```
+    Set-PopSettings -Server "CAS01" -LogPerFileSizeQuota unlimited
+    ```
 
 
 > [!NOTE]

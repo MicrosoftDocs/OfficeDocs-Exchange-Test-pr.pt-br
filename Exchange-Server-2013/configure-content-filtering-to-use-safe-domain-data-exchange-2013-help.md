@@ -46,20 +46,22 @@ Recomendamos que você não modifique a configuração padrão na maioria dos ca
 1.  Na janela de Prompt de comando, abra o arquivo de MSExchangeMailboxAssistants.exe.config no bloco de notas executando o seguinte comando:
     
     ```powershell
-Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
-```
+    Notepad %ExchangeInstallPath%Bin\MSExchangeMailboxAssistants.exe.config
+    ```
 
 2.  Localize a chave *\</appsettings\>* no final do arquivo e cole a seguinte chave antes da tecla *\</appsettings\>* :
     
     ```command line
-<add key="IncludeSafeDomains" value="true" />
-```
+    <add key="IncludeSafeDomains" value="true" />
+    ```
 
 3.  Quando tiver terminado, salve e feche o arquivo MSExchangeMailboxAssistants.exe.config.
 
 4.  Reinicie o serviço de assistentes de caixa de correio do Microsoft Exchange executando o seguinte comando:
     
+    ```powershell
         net stop MSExchangeMailboxAssistants && net start MSExchangeMailboxAssistants
+    ```
 
 ## Como saber se funcionou?
 

@@ -69,11 +69,15 @@ Você pode criar uma atribuição de função com nenhum escopo. Quando você fi
 
 Use a seguinte sintaxe para atribuir uma função a um USG sem qualquer escopo.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name>
+```
 
 Este exemplo atribui a função de servidores do Exchange para o USG SeattleAdmins.
 
-    New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers"
+```powershell
+New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -83,11 +87,15 @@ Se um escopo relativo predefinido atende aos seus requisitos de negócios, você
 
 Use a seguinte sintaxe para atribuir uma função a um USG com um escopo predefinido.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -RecipientRelativeWriteScope < MyDistributionGroups | Organization | Self >
+```
 
 Este exemplo atribui a função de servidores do Exchange para o USG SeattleAdmins e aplica o escopo da organização predefinido.
 
-    New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers" -RecipientRelativeWriteScope Organization
+```powershell
+New-ManagementRoleAssignment -Name "Exchange Servers_SeattleAdmins" -SecurityGroup SeattleAdmins -Role "Exchange Servers" -RecipientRelativeWriteScope Organization
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -99,11 +107,15 @@ Antes de adicionar um escopo para uma atribuição de função, você precisará
 
 Use a seguinte sintaxe para atribuir uma função a um USG com um escopo de baseado em filtro de destinatário.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup < USG> -Role <role name> -CustomRecipientWriteScope <role scope name>
+```
 
 Este exemplo atribui a função destinatários de email para o USG de administradores do destinatário Seattle e aplica o escopo de destinatários de Seattle.
 
-    New-ManagementRoleAssignment -Name "Mail Recipients_Seattle Recipient Admins" -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -CustomRecipientWriteScope "Seattle Recipients"
+```powershell
+New-ManagementRoleAssignment -Name "Mail Recipients_Seattle Recipient Admins" -SecurityGroup "Seattle Recipient Admins" -Role "Mail Recipients" -CustomRecipientWriteScope "Seattle Recipients"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -115,11 +127,15 @@ Antes de adicionar um escopo para uma atribuição de função, você precisará
 
 Use a seguinte sintaxe para atribuir uma função a um USG com um escopo de configuração.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -CustomConfigWriteScope <role scope name>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -CustomConfigWriteScope <role scope name>
+```
 
 Este exemplo atribui a função de servidores do Exchange para o USG MailboxAdmins e aplica o escopo de servidores de caixa de correio.
 
-    New-ManagementRoleAssignment -Name "Exchange Servers_MailboxAdmins" -SecurityGroup MailboxAdmins -Role "Exchange Servers" -CustomConfigWriteScope "Mailbox Servers"
+```powershell
+New-ManagementRoleAssignment -Name "Exchange Servers_MailboxAdmins" -SecurityGroup MailboxAdmins -Role "Exchange Servers" -CustomConfigWriteScope "Mailbox Servers"
+```
 
 O exemplo anterior mostra como adicionar uma atribuição de função com um escopo de configuração do servidor. A sintaxe para adicionar um escopo de configuração do banco de dados é o mesmo. Você especificar o nome de um escopo de banco de dados, em vez de um escopo de servidor.
 
@@ -131,11 +147,15 @@ Se desejar fazer o escopo de escopo de gravação da função a uma unidade orga
 
 Use a seguinte sintaxe para atribuir uma função a um USG e restringir o escopo de gravação de uma função como uma OU específica.
 
-    New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```powershell
+New-ManagementRoleAssignment -Name <assignment name> -SecurityGroup <USG> -Role <role name> -RecipientOrganizationalUnitScope <OU>
+```
 
 Este exemplo atribui função destinatários de email para o USG SalesRecipientAdmins e escopos a atribuição a vendas/usuários OU no domínio contoso.com.
 
-    New-ManagementRoleAssignment -Name "Mail Recipients_SalesRecipientAdmins" -SecurityGroup SalesRecipientAdmins -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```powershell
+New-ManagementRoleAssignment -Name "Mail Recipients_SalesRecipientAdmins" -SecurityGroup SalesRecipientAdmins -Role "Mail Recipients" -RecipientOrganizationalUnitScope contoso.com/sales/users
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -153,7 +173,9 @@ Quando você executa esse procedimento, os destinatários da função a atribuí
 
 Este exemplo atribui a função destinatários de email para o USG de administradores de usuário protegido e aplica o escopo exclusivo de usuários protegido.
 
-    New-ManagementRoleAssignment -Name "Mail Recipients_Protected User Admins" -SecurityGroup "Protected User Admins" -Role "Mail Recipients" -ExclusiveRecipientWriteScope "Protected Users"
+```powershell
+New-ManagementRoleAssignment -Name "Mail Recipients_Protected User Admins" -SecurityGroup "Protected User Admins" -Role "Mail Recipients" -ExclusiveRecipientWriteScope "Protected Users"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 

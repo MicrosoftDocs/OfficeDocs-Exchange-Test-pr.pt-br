@@ -47,7 +47,9 @@ O rastreamento de pipeline captura cópias de mensagens de email à medida que e
 
 Use a sintaxe a seguir para configurar o endereço do remetente do rastreamento de pipeline.
 
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingSenderAddress <SMTPAddress | "<>">
+```
 
 Este exemplo configura o rastreamento de pipeline a fim de capturar instantâneos de todas as mensagens enviadas pelo remetente chris@contoso.com no serviço de Transporte no servidor de Caixa de Correio chamado Mailbox01.
 
@@ -73,7 +75,9 @@ A pasta do rastreamento de pipeline padrão não existe até que você habilite 
 
 Use a sintaxe a seguir para configurar a pasta de rastreamento de pipeline.
 
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingPath <LocalFilePath>
+```
 
 Esse exemplo define a pasta de rastreamento de pipeline para o serviço de Transporte no servidor de Caixa de Correio chamado Mailbox01 como D:\\Hub\\Pipeline Tracing.
 
@@ -87,7 +91,9 @@ Por padrão, o rastreamento de pipeline está desabilitado em todos os servidore
 
 Use a seguinte sintaxe para ativar o rastreamento de pipeline.
 
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $true
+```
 
 Esse exemplo habilita o rastreamento de pipeline no serviço de Transporte no servidor de Caixa de Correio chamado Mailbox01.
 
@@ -101,7 +107,9 @@ Para verificar se você configurou com êxito o rastreamento de pipeline, faça 
 
 1.  Execute o seguinte comando:
     
+    ```powershell
         <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracing*
+    ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -113,7 +121,9 @@ Devido às preocupações de espaço em disco e segurança associadas ao rastrea
 
 Use a seguinte sintaxe para desabilitar o rastreamento de pipeline.
 
+```powershell
     <Set-TransportService | Set-MailboxTransportService> <ServerIdentity> -PipelineTracingEnabled $false
+```
 
 Esse exemplo desabilita o rastreamento de pipeline no serviço de Transporte no servidor de Caixa de Correio chamado Mailbox01.
 
@@ -126,8 +136,10 @@ Set-TransportService Mailbox01 -PipelineTracingEnabled $false
 Para verificar se você desabilitou com êxito o rastreamento de pipeline, faça o seguinte:
 
 1.  Execute o seguinte comando:
-    
+
+    ```powershell
         <Get-TransportService | Get-MailboxTransportService> <ServerIdentity> | Format-List PipelineTracingEnabled
+    ```
 
 2.  Verifique se o valor do parâmetro *PipelineTracingEnabled* é $false.
 

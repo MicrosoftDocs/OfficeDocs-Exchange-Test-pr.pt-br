@@ -65,11 +65,15 @@ Se você decidir particionar o processamento de emails de entrada e de saída en
 
   - Para o servidor de Transporte de Borda de saída, execute o seguinte comando no servidor de Caixa de Correio.
     
-        New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $false -CreateInternetSendConnector $true
+    ```powershell
+    New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $false -CreateInternetSendConnector $true
+    ```
 
   - Para o servidor de Transporte de Borda de entrada, execute o seguinte comando no servidor de Caixa de Correio.
     
-        New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $true -CreateInternetSendConnector $false
+    ```powershell
+    New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInboundSendConnector $true -CreateInternetSendConnector $false
+    ```
 
 ## Direcionar emails de saída para um host inteligente
 
@@ -77,13 +81,17 @@ Se a sua organização do Exchange direcionar todos os emails de saída por meio
 
 Execute o seguinte comando no servidor de Caixa de Correio a fim de suprimir a criação automática do conector de Envio para a Internet.
 
-    New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInternetSendConnector $false
+```powershell
+New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeServerSubscription.xml" -Encoding Byte -ReadCount 0)) -Site "Site-A" -CreateInternetSendConnector $false
+```
 
 Depois que o processo de Inscrição de Borda for concluído, crie manualmente um conector de Envio para a Internet. Crie o cnector de Evio dentro da organização do Exchange e selecione a Inscrição de Borda como o servidor de origem para o conector. Selecione o tipo de uso `Custom` e configure um ou mais hosts inteligentes. O novo conector de Envio será replicado para a instância do AD LDS no servidor de Transporte de Borda na próxima vez que o EdgeSync sincronizar os dados de configuração. É possível forçar a sincronização imediata do EdgeSync executando o cmdlet **Start-EdgeSynchronization** em um servidor de Caixa de Correio.
 
 Exemplo: Usar o Shell para configurar um conector de Envio para um servidor de Transporte de Borda inscrito a fim de direcionar mensagens para todos os espaços de endereçamento da Internet por meio de um host inteligente. Execute esta tarefa em um servidor de Caixa de Correio dentro da organização do Exchange, não no servidor de Transporte de Borda.
 
-    New-SendConnector -Name "EdgeSync - Site-A to Internet" -Usage Custom -AddressSpaces SMTP:*;100 -DNSRoutingEnabled $false -SmartHosts 192.168.10.1 -SmartHostAuthMechanism None -SourceTransportServers EdgeSubscriptionName
+```powershell
+New-SendConnector -Name "EdgeSync - Site-A to Internet" -Usage Custom -AddressSpaces SMTP:*;100 -DNSRoutingEnabled $false -SmartHosts 192.168.10.1 -SmartHostAuthMechanism None -SourceTransportServers EdgeSubscriptionName
+```
 
 
 > [!IMPORTANT]

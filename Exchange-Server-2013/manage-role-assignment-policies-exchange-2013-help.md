@@ -67,7 +67,9 @@ New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign>
 
 Este exemplo cria a política de atribuição explícita limitado configuração de caixa de correio e atribui as funções `MyBaseOptions`, `MyAddressInformation`e `MyDisplayName` a ela.
 
-    New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+  ```powershell
+  New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName
+  ```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [New-RoleAssignmentPolicy](https://technet.microsoft.com/pt-br/library/dd638101\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ New-RoleAssignmentPolicy <assignment policy name> -Roles <roles to assign> -IsDe
 
 Este exemplo cria a política de atribuição padrão limitado configuração de caixa de correio e atribui as funções `MyBaseOptions`, `MyAddressInformation`e `MyDisplayName` a ela.
 
-    New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+  ```powershell
+  New-RoleAssignmentPolicy "Limited Mailbox Configuration" -Roles MyBaseOptions, MyAddressInformation, MyDisplayName -IsDefault
+  ```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [New-RoleAssignmentPolicy](https://technet.microsoft.com/pt-br/library/dd638101\(v=exchg.150\)).
 
@@ -275,11 +279,15 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-RoleA
 
 Para criar uma atribuição de função de gerenciamento entre uma função e uma diretiva de atribuição, use a seguinte sintaxe.
 
-    New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+  ```powershell
+  New-ManagementRoleAssignment -Name <role assignment name> -Role <role name> -Policy <assignment policy name>
+  ```
 
 Este exemplo cria a atribuição de função usuários de Seattle - caixa postal entre a função de MyVoicemail e a diretiva de atribuição de usuários de Seattle.
 
-    New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+  ```powershell
+  New-ManagementRoleAssignment -Name "Seattle Users - Voicemail" -Role MyVoicemail -Policy "Seattle Users"
+  ```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd335193\(v=exchg.150\)).
 
@@ -307,11 +315,15 @@ Esse procedimento usa o pipelining. Para obter mais informações sobre o pipeli
 
 Para remover uma função de uma diretiva de atribuição, use a seguinte sintaxe.
 
-    Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
+  ```powershell
+  Get-ManagementRoleAssignment -RoleAssignee <assignment policy name> -Role <role name> | Remove-ManagementRoleAssignment
+  ```
 
 Este exemplo remove a função de gerenciamento de MyVoicemail, que permite que os usuários gerenciem suas opções de caixa postal, da política de atribuição de usuários de Seattle.
 
-    Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
+  ```powershell
+  Get-ManagementRoleAssignment -RoleAssignee "Seattle Users" -Role MyVoicemail | Remove-ManagementRoleAssignment
+  ```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Remove-ManagementRoleAssignment](https://technet.microsoft.com/pt-br/library/dd351205\(v=exchg.150\)).
 

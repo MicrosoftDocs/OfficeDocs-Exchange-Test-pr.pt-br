@@ -86,9 +86,9 @@ Este exemplo cria a caixa de correio compartilhada Departamento de Vendas e conc
 > [!TIP]
 > Este exemplo assume que você já criou o grupo de segurança MarketingSG e o que o grupo de segurança está habilitado para email. Consulte <A href="https://docs.microsoft.com/pt-br/exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups">Gerenciar grupos de segurança habilitados para email</A>.
 
-
-
-    New-Mailbox -Shared -Name "Sales Department" -DisplayName "Sales Department" -Alias Sales | Set-Mailbox -GrantSendOnBehalfTo MarketingSG | Add-MailboxPermission -User MarketingSG -AccessRights FullAccess -InheritanceType All
+```powershell
+New-Mailbox -Shared -Name "Sales Department" -DisplayName "Sales Department" -Alias Sales | Set-Mailbox -GrantSendOnBehalfTo MarketingSG | Add-MailboxPermission -User MarketingSG -AccessRights FullAccess -InheritanceType All
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-Mailbox](https://technet.microsoft.com/pt-br/library/aa997663\(v=exchg.150\)).
 

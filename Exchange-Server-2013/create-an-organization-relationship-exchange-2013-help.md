@@ -81,11 +81,15 @@ Este exemplo cria um relacionamento de organização com Contoso, Ltd com as seg
 
 <!-- end list -->
 
-    New-OrganizationRelationship -Name "Contoso" -DomainNames "contoso.com","northamerica.contoso.com","europe.contoso.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel LimitedDetails
+  ```powershell
+  New-OrganizationRelationship -Name "Contoso" -DomainNames "contoso.com","northamerica.contoso.com","europe.contoso.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel LimitedDetails
+  ```
 
 Este exemplo tenta descobrir automaticamente informações de configuração de descoberta da organização do Exchange externa Contoso.com, utilizando os nomes de domínio fornecidos no cmdlet **Get-FederationInformation**. Se você usar esse método para criar seu relacionamento de organização, primeiro verifique se criou um identificador de organização, usando o cmdlet **Set-FederatedOrganizationIdentifier**.
 
-    Get-FederationInformation -DomainName Contoso.com | New-OrganizationRelationship -Name "Contoso" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -LimitedDetails
+  ```powershell
+  Get-FederationInformation -DomainName Contoso.com | New-OrganizationRelationship -Name "Contoso" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -LimitedDetails
+  ```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-FederationInformation](https://technet.microsoft.com/pt-br/library/dd351221\(v=exchg.150\)) e [New-OrganizationRelationship](https://technet.microsoft.com/pt-br/library/ee332357\(v=exchg.150\)).
 
@@ -103,7 +107,9 @@ Este exemplo cria um relacionamento de organização com Fourth Coffee. Neste ex
 
 <!-- end list -->
 
-    New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -AvailabilityOnly -TargetAutodiscoverEpr "https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity" -TargetApplicationUri "mail.fourthcoffee.com"
+  ```powershell
+  New-OrganizationRelationship -Name "Fourth Coffee" -DomainNames "fourthcoffee.com" -FreeBusyAccessEnabled $true -FreeBusyAccessLevel -AvailabilityOnly -TargetAutodiscoverEpr "https://mail.fourthcoffee.com/autodiscover/autodiscover.svc/wssecurity" -TargetApplicationUri "mail.fourthcoffee.com"
+  ```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-OrganizationRelationship](https://technet.microsoft.com/pt-br/library/ee332357\(v=exchg.150\)).
 

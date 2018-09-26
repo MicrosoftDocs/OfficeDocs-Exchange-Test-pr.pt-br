@@ -67,7 +67,9 @@ Se um grupo de distribuição tiver sido criado e configurado como grupo de supe
     
     Este exemplo adiciona a caixa de correio Federada ao grupo de distribuição ADRMSSuperUsers.
     
-        Add-DistributionGroupMember ADRMSSuperUsers -Member FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042
+    ```powershell
+    Add-DistributionGroupMember ADRMSSuperUsers -Member FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042
+    ```
 
 Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Add-DistributionGroupMember](https://technet.microsoft.com/pt-br/library/bb124340\(v=exchg.150\)).
 
@@ -102,7 +104,9 @@ Após usar o AD RMS para configurar um grupo de super usuários, você pode usar
     > O módulo do PowerShell ADRMSAdmin está disponível no Windows Server 2008 R2 ou posterior.
 
     
-        Import-Module ADRMSAdmin
-        New-PSDrive -Name MyRmsAdmin -PsProvider AdRmsAdmin -Root https://localhost 
-        Get-ItemProperty -Path MyRmsAdmin:\SecurityPolicy\SuperUser
+    ```powershell
+    Import-Module ADRMSAdmin
+    New-PSDrive -Name MyRmsAdmin -PsProvider AdRmsAdmin -Root https://localhost 
+    Get-ItemProperty -Path MyRmsAdmin:\SecurityPolicy\SuperUser
+    ```
 
