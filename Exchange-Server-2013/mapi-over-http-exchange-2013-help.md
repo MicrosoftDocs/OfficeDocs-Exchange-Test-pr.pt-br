@@ -207,9 +207,11 @@ O exemplo a seguir testa a conexão MAPI sobre HTTP do servidor Exchange chamado
 
 Um teste bem-sucedido retorna um resultado semelhante ao exemplo a seguir:
 
+```powershell
     MonitorIdentity                                          StartTime              EndTime                Result      Error     Exception
     ---------------                                          ---------              -------                ------      -----     ---------
     OutlookMapiHttp.Protocol\OutlookMapiHttpSelfTestProbe    2/14/2014 7:15:00 AM   2/14/2014 7:15:10 AM   Succeeded
+```
 
 Para obter mais informações, consulte [Test-OutlookConnectivity](https://technet.microsoft.com/pt-br/library/dd638082\(v=exchg.150\)).
 
