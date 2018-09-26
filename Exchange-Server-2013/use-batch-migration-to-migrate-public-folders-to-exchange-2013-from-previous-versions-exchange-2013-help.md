@@ -333,8 +333,10 @@ As etapas para migrar pastas públicas do Exchange 2007 são diferentes das etap
 
 2.  No servidor Exchange 2013, execute o seguinte comando:
     
+    ```powershell
         New-MigrationBatch -Name PFMigration -SourcePublicFolderDatabase (Get-PublicFolderDatabase -Server <Source server name>) -CSVData (Get-Content <Folder to mailbox map path> -Encoding Byte) -NotificationEmails <email addresses for migration notifications> -BadItemLimit $BadItemLimitCount 
-
+    ```
+    
 3.  Inicie a migração usando o seguinte comando:
     
     ```powershell
