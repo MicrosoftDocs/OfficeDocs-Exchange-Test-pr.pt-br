@@ -126,7 +126,8 @@ Se a cópia do banco de dados de caixa de correio for a única, é preciso propa
 
 Pode demorar um pouco para a Pesquisa do Exchange propagar novamente o catálogo do índice de conteúdo. Execute o seguinte comando para exibir o status do processo de propagação.
 
+```powershell
     Get-MailboxDatabaseCopyStatus | FL Name,*Index*
-
+```
 Quando a nova propagação do catálogo de pesquisa estiver em andamento, o valor da propriedade *ContentIndexState* será **Crawling** (Rastreando). Quando a nova propagação estiver concluída, esse valor será alterado para **Healthy** (Adequado).
 
