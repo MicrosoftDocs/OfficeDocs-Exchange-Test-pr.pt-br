@@ -69,8 +69,8 @@ Quando o DAG não estiver em modo DAC, as ativações específicas para encerrar
     
     ```powershell
         net stop clussvc
-    ```
         cluster <DAGName> node <DAGMemberName> /forcecleanup
+    ```
 
 2.  Os membros DAG no segundo datacenter devem agora ser reiniciados e, em seguida, usados para concluir o processo de remoção do segundo datacenter. Pare o serviço de cluster em cada membro DAG no segundo datacenter executando o seguinte comando em cada membro:
     
