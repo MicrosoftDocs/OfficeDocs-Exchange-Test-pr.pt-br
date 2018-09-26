@@ -47,15 +47,21 @@ Para conhecer mais tarefas de gerenciamento relacionadas a servidores de Caixa d
 
 Este exemplo realiza testes operacionais e de conectividade no servidor de Caixa de Correio local e depois exibe as informações de conectividade de VoIP (Voz sobre IP).
 
-    Test-UMConnectivity
+```powershell
+Test-UMConnectivity
+```
 
 Este exemplo testa a capacidade do servidor de Acesso para Cliente local de escutar solicitações SIP não criptografadas recebidas na porta TCP 5060.
 
-    Test-UMConnectivity -ListenPort 5060
+```powershell
+Test-UMConnectivity -ListenPort 5060
+```
 
 Este exemplo testa a capacidade do servidor de Acesso para Cliente local de escutar solicitações SIP criptografadas recebidas na porta TCP 5061.
 
-    Test-UMConnectivity -ListenPort 5061
+```powershell
+Test-UMConnectivity -ListenPort 5061
+```
 
 
 > [!NOTE]

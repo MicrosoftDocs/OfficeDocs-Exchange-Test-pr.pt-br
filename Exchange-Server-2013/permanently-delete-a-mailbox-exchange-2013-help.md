@@ -32,7 +32,7 @@ Para saber mais sobre caixas de correio desconectadas e executar outras tarefas 
   - [Conectar-se ou restaurar uma caixa de correio excluída](connect-or-restore-a-deleted-mailbox-exchange-2013-help.md)
 
 
-> [!NOTE]
+> [!NOTE]  
 > Você não pode usar o EAC para excluir permanentemente uma caixa de correio ativa ou uma caixa de correio desconectada.
 
 
@@ -46,7 +46,7 @@ Para saber mais sobre caixas de correio desconectadas e executar outras tarefas 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -59,10 +59,12 @@ Para saber mais sobre caixas de correio desconectadas e executar outras tarefas 
 
 Execute o seguinte comando para excluir permanentemente uma caixa de correio ativa e a conta de usuário do Active Directory associada.
 
-    Remove-Mailbox -Identity <identity> -Permanent $true
+```powershell
+Remove-Mailbox -Identity <identity> -Permanent $true
+```
 
 
-> [!NOTE]
+> [!NOTE]  
 > Se você não incluir o parâmetro <EM>Permanent</EM> , caixa de correio excluída é mantido no banco de dados de caixa de correio por 30 dias, por padrão, antes de serem excluídos permanentemente.
 
 
@@ -79,7 +81,9 @@ Para verificar se você tiver excluídos permanentemente uma caixa de correio at
 
 3.  Execute o seguinte comando para verificar se a caixa de correio com êxito foi limpo do banco de dados de caixa de correio do Exchange.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+    ```powershell
+    Get-MailboxDatabase | Get-MailboxStatistics | Where {         Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+    ```
     
     Se você limpo com êxito a caixa de correio, o comando não retornará nenhum resultado. Se a caixa de correio não tenha sido removida, o comando retornará informações sobre a caixa de correio.
 
@@ -91,31 +95,40 @@ Existem dois tipos de caixas de correio desconectadas: desabilitado e excluída.
 
 Execute o seguinte comando para determinar se uma caixa de correio desconectada estiver desabilitada ou excluída.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,MailboxGuid,Database,DisconnectReason
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" } | fl DisplayName,MailboxGuid,Database,DisconnectReason
+```
 
 O valor da propriedade *DisconnectReason* para caixas de correio desconectadas será `Disabled` ou `SoftDeleted`.
 
 Você pode executar o seguinte comando para exibir o tipo de todas as caixas de correio desconectadas na sua organização.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -ne $null } | fl DisplayName,MailboxGuid,Database,DisconnectReason
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -ne $null } | fl DisplayName,MailboxGuid,Database,DisconnectReason
+```
 
 
-> [!WARNING]
+> [!WARNING]  
 > Quando você usa o cmdlet <STRONG>Remove-StoreMailbox</STRONG> para excluir permanentemente uma caixa de correio desconectada, todo o seu conteúdo é removido do banco de dados de caixa de correio e a perda de dados é permanente.
-
 
 
 Este exemplo exclui permanentemente a caixa de correio desabilitada com GUID 2ab32ce3-fae1-4402-9489-c67e3ae173d3 do banco de dados de caixa de correio MBD01.
 
-    Remove-StoreMailbox -Database MBD01 -Identity "2ab32ce3-fae1-4402-9489-c67e3ae173d3" -MailboxState Disabled
+```powershell
+Remove-StoreMailbox -Database MBD01 -Identity "2ab32ce3-fae1-4402-9489-c67e3ae173d3" -MailboxState Disabled
+```
 
 Este exemplo exclui permanentemente a caixa de correio excluída para promoção de Dan do banco de dados de caixa de correio MBD01.
 
-    Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```powershell
+Remove-StoreMailbox -Database MBD01 -Identity "Dan Jump" -MailboxState SoftDeleted
+```
 
 Este exemplo exclui permanentemente todas as caixas de correio excluídas de forma reversível do banco de dados de caixa de correio MBD01.
 
-    Get-MailboxStatistics -Database MBD01 | where {$_.DisconnectReason -eq "SoftDeleted"} | ForEach {Remove-StoreMailbox -Database $_.Database -Identity $_.MailboxGuid -MailboxState SoftDeleted}
+```powershell
+Get-MailboxStatistics -Database MBD01 | where {$_.DisconnectReason -eq "SoftDeleted"} | ForEach {Remove-StoreMailbox -Database $_.Database -Identity $_.MailboxGuid -MailboxState SoftDeleted}
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Remove-StoreMailbox](https://technet.microsoft.com/pt-br/library/ff829913\(v=exchg.150\)) e [Get-MailboxStatistics](https://technet.microsoft.com/pt-br/library/bb124612\(v=exchg.150\)).
 
@@ -123,7 +136,8 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Remov
 
 Para verificar se você tiver excluído permanentemente uma caixa de correio desconectada e se foi limpo com êxito do banco de dados de caixa de correio do Exchange, execute o seguinte comando.
 
-    Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }
+```powershell
+Get-MailboxDatabase | Get-MailboxStatistics | Where {     Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "<display name>" }.DisplayName -eq "<display name>" }
+```
 
 Se você limpo com êxito a caixa de correio, o comando não retornará nenhum resultado. Se a caixa de correio não tenha sido removida, o comando retornará informações sobre a caixa de correio.
-

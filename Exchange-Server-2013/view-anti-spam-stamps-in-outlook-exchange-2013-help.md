@@ -42,10 +42,12 @@ Você pode usar o Microsoft Outlook para exibir os carimbos antispam que o Micro
 2.  Na seção de **marcas** da faixa de opções, clique no ícone de **Opções** para exibir a caixa de diálogo de **Propriedades** da mensagem.
 
 3.  Na caixa de diálogo **Propriedades**, na seção **cabeçalhos da Internet**, use a barra de rolagem para exibir os carimbos antispam, conforme mostrado no exemplo a seguir.
-    
+
+```powershell  
         X-MS-Exchange-Organization-PCL:7
         X-MS-Exchange-Organization-SCL:6
         X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
+```
 
 ## Usar o Outlook 2007 para exibir os carimbos antispam
 
@@ -54,8 +56,10 @@ Você pode usar o Microsoft Outlook para exibir os carimbos antispam que o Micro
 2.  Na guia **mensagem**, no grupo de **Opções**, clique em **Opções de mensagem**.
 
 3.  Na caixa de diálogo **Opções de mensagem**, na seção **cabeçalhos da Internet**, use a barra de rolagem para exibir os carimbos antispam, conforme mostrado no exemplo a seguir.
-    
+
+```powershell   
         X-MS-Exchange-Organization-PCL:7
         X-MS-Exchange-Organization-SCL:6
         X-MS-Exchange-Organization-Antispam-Report: DV:3.1.3924.1409;SID:SenderIDStatus Fail;PCL:PhishingLevel SUSPICIOUS;CW:CustomList;PP:Presolved;TIME:TimeBasedFeatures
+```
 

@@ -53,7 +53,9 @@ Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fór
 
 Este exemplo exclui permanentemente os itens da pasta de itens recuperáveis de Gurinder Singh e também copia os itens na pasta GurinderSingh-RecoverableItems na caixa de correio de pesquisa de descoberta (uma caixa de correio descoberta criada pelo Exchange instalação).
 
-    Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+```powershell
+Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+```
 
 
 > [!NOTE]
@@ -92,31 +94,45 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
     > Se o parâmetro <EM>UseDatabaseQuotaDefaults</EM> é definido como <CODE>$true</CODE>, as configurações de cota anterior não serão aplicadas. As configurações de cota correspondente configuradas no banco de dados de caixa de correio são aplicadas, mesmo se configurações individuais de caixa de correio são preenchidas.
 
     
-        Get-Mailbox "Gurinder Singh" | Format-List RecoverableItemsQuota, RecoverableItemsWarningQuota, ProhibitSendQuota, ProhibitSendReceiveQuota, UseDatabaseQuotaDefaults, RetainDeletedItemsFor, UseDatabaseRetentionDefaults
+    ```powershell
+    Get-Mailbox "Gurinder Singh" | Format-List RecoverableItemsQuota, RecoverableItemsWarningQuota, ProhibitSendQuota, ProhibitSendReceiveQuota, UseDatabaseQuotaDefaults, RetainDeletedItemsFor, UseDatabaseRetentionDefaults
+    ```
 
 2.  Recupere as configurações de acesso de caixa de correio para a caixa de correio. Certifique-se observar essas configurações para uso futuro.
     
-        Get-CASMailbox "Gurinder Singh" | Format-List EwsEnabled, ActiveSyncEnabled, MAPIEnabled, OWAEnabled, ImapEnabled, PopEnabled
+    ```powershell
+    Get-CASMailbox "Gurinder Singh" | Format-List EwsEnabled, ActiveSyncEnabled, MAPIEnabled, OWAEnabled, ImapEnabled, PopEnabled
+    ```
 
 3.  Recupere o tamanho atual da pasta itens recuperáveis. Observe o tamanho, de modo que você pode elevar as citações na etapa 6.
     
-        Get-MailboxFolderStatistics "Gurinder Singh" -FolderScope RecoverableItems | Format-List Name,FolderAndSubfolderSize
+    ```powershell
+    Get-MailboxFolderStatistics "Gurinder Singh" -FolderScope RecoverableItems | Format-List Name,FolderAndSubfolderSize
+    ```
 
 4.  Recupere a configuração atual de Assistente de pasta gerenciada do ciclo de trabalho. Certifique-se observar a configuração para uso futuro.
     
-        Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```powershell
+    Get-MailboxServer "My Mailbox Server" | Format-List Name,ManagedFolderWorkCycle
+    ```
 
 5.  Desabilite o acesso do cliente à caixa de correio para certificar-se de que não há alterações podem ser feitas aos dados de caixa de correio para a duração deste procedimento.
     
-        Set-CASMailbox "Gurinder Singh" -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
+    ```powershell
+    Set-CASMailbox "Gurinder Singh" -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
+    ```
 
 6.  Para certificar-se de que nenhum item será excluído da pasta itens recuperáveis, aumentar a cota de itens recuperáveis, aumentar a cota de aviso de itens recuperáveis e definir o período de retenção de item excluído como um valor maior que o tamanho atual da pasta de itens recuperáveis do usuário. Isso é particularmente importante para preservar as mensagens para caixas de correio colocadas em retenção In-loco ou retenção de litígio. É recomendável elevar essas configurações para duas vezes seu tamanho atual.
     
-        Set-Mailbox "Gurinder Singh" -RecoverableItemsQuota 50Gb -RecoverableItemsWarningQuota 50Gb -RetainDeletedItemsFor 3650 -ProhibitSendQuota 50Gb -ProhibitSendRecieveQuota 50Gb -UseDatabaseQuotaDefaults $false -UseDatabaseRetentionDefaults $false
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -RecoverableItemsQuota 50Gb -RecoverableItemsWarningQuota 50Gb -RetainDeletedItemsFor 3650 -ProhibitSendQuota 50Gb -ProhibitSendRecieveQuota 50Gb -UseDatabaseQuotaDefaults $false -UseDatabaseRetentionDefaults $false
+    ```
 
 7.  Desative o Assistente de pasta gerenciada no servidor de caixa de correio.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```powershell
+    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle $null
+    ```
     
 
     > [!IMPORTANT]
@@ -126,9 +142,10 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 8.  Desabilitar a recuperação de item único e remova a caixa de correio de litígio.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $false -LitigationHoldEnabled $false
+    ```
     
-
     > [!IMPORTANT]
     > Após executar este comando, pode demorar até uma hora para desabilitar a recuperação de item único ou litígio. Recomendamos que você execute a próxima etapa somente depois este período.
 
@@ -136,11 +153,15 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 9.  Copie os itens da pasta itens recuperáveis para uma pasta na caixa de correio de pesquisa de descoberta e exclua o conteúdo da caixa de correio de origem.
     
-        Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+    ```powershell
+    Search-Mailbox -Identity "Gurinder Singh" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+    ```
     
     Se você precisar excluir somente as mensagens que correspondam às condições especificadas, use o parâmetro *SearchQuery* para especificar as condições. Este exemplo exclui mensagens que tenham a cadeia de caracteres "Your bank statement" no campo **assunto**.
     
-        Search-Mailbox -Identity "Gurinder Singh" -SearchQuery "Subject:'Your bank statement'" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+    ```powershell
+    Search-Mailbox -Identity "Gurinder Singh" -SearchQuery "Subject:'Your bank statement'" -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "GurinderSingh-RecoverableItems" -DeleteContent
+    ```
     
 
     > [!NOTE]
@@ -150,8 +171,9 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
 
 10. Se a caixa de correio foi colocada em retenção de litígio ou tinha a recuperação de item único habilitada anteriormente, habilitá-los novamente.
     
-        Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
-    
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -SingleItemRecoveryEnabled $true -LitigationHoldEnabled $true
+    ```
 
     > [!IMPORTANT]
     > Após executar este comando, pode demorar até uma hora para habilitar a recuperação de item único ou litígio. Recomendamos que você deseja habilitar o Assistente de pasta gerenciada e permite o acesso de cliente (etapas 11 e 12) somente após este período.
@@ -176,15 +198,21 @@ Este procedimento copia os itens da pasta de itens recuperáveis de Gurinder Sin
     
     Neste exemplo, a caixa de correio é removida da retenção, o período de retenção de item excluído é redefinido para o valor padrão de 14 dias e a cota de itens recuperáveis está configurada para usar o mesmo valor como o banco de dados de caixa de correio. Se os valores que você anotou na etapa 1 forem diferentes, você deve usar os parâmetros anteriores para especificar cada valor e defina o parâmetro *UseDatabaseQuotaDefaults* como `$false`. Se os parâmetros de*and UseDatabaseRetentionDefaultsRetainDeletedItemsFor*foram definidos anteriormente como um valor diferente, você deve revertê-las para os valores indicados na etapa 1.
     
-        Set-Mailbox "Gurinder Singh" -RetentionHoldEnabled $false -RetainDeletedItemsFor 14 -RecoverableItemsQuota unlimited -UseDatabaseQuotaDefaults $true
+    ```powershell
+    Set-Mailbox "Gurinder Singh" -RetentionHoldEnabled $false -RetainDeletedItemsFor 14 -RecoverableItemsQuota unlimited -UseDatabaseQuotaDefaults $true
+    ```
 
 12. Ative o Assistente de pasta gerenciada, definindo o ciclo de trabalho de volta para o valor que você anotou na etapa 4. Este exemplo define o ciclo de trabalho para um dia.
     
-        Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```powershell
+    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+    ```
 
 13. Habilite acesso para cliente.
     
-        Set-CASMailbox -ActiveSyncEnabled $true -EwsEnabled $true -MAPIEnabled $true -OWAEnabled $true -ImapEnabled $true -PopEnabled $true
+    ```powershell
+    Set-CASMailbox -ActiveSyncEnabled $true -EwsEnabled $true -MAPIEnabled $true -OWAEnabled $true -ImapEnabled $true -PopEnabled $true
+    ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 
@@ -210,5 +238,7 @@ Para verificar que você tenha limpos com êxito a pasta itens recuperáveis de 
 
 Este exemplo recupera o tamanho da pasta itens recuperáveis e contagem de um item e suas subpastas na pasta e cada subpasta.
 
-    Get-MailboxFolderStatistics -Identity "Gurinder Singh" -FolderScope RecoverableItems | Format-Table Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders -Auto
+```powershell
+Get-MailboxFolderStatistics -Identity "Gurinder Singh" -FolderScope RecoverableItems | Format-Table Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders -Auto
+```
 

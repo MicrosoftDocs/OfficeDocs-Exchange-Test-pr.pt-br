@@ -41,9 +41,13 @@ Escopos da função de gerenciamento determinam quais objetos são disponibiliza
 
 Para remover um escopo, use a seguinte sintaxe.
 
-    Remove-ManagementScope <scope name>
+```powershell
+Remove-ManagementScope <scope name>
+```
 
 Por exemplo, para remover o escopo de "Servidores de Dublin", use o seguinte comando.
 
-    Remove-ManagementScope "Dublin Servers"
+```powershell
+Remove-ManagementScope "Dublin Servers"
+```
 

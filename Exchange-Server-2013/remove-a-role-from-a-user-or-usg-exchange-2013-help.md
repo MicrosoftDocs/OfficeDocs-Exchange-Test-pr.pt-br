@@ -41,17 +41,25 @@ Procurando outras tarefas de gerenciamento relacionadas a funções? Consulte [P
 
 Se você souber o nome da atribuição de função que você deseja remover, use a seguinte sintaxe.
 
-    Remove-ManagementRoleAssignment <assignment name>
+```powershell
+Remove-ManagementRoleAssignment <assignment name>
+```
 
 Por exemplo, para remover a atribuição de função "Camada 2 ajuda mesa atribuição", use o seguinte comando.
 
-    Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```powershell
+Remove-ManagementRoleAssignment "Tier 2 Help Desk Assignment"
+```
 
 Se você não souber o nome da atribuição de função, você pode usar a seguinte sintaxe.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee <user or USG> -Role <role name> -Delegating <$true | $false> | Remove-ManagementRoleAssignment 
+```
 
 Por exemplo, se você deseja remover a atribuição da função regular de destinatários de email do usuário davids, use o seguinte comando.
 
+```powershell
     Get-ManagementRoleAssignment -RoleAssignee davids -Role "Mail Recipients" -Delegating $false | Remove-ManagementRoleAssignment
+```
 

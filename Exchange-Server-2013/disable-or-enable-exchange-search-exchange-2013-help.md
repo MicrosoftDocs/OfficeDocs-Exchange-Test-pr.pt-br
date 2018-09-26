@@ -52,13 +52,14 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 
 Este comando desabilita a Pesquisa do Exchange para um banco de dados de caixa de correio chamado EXCH01.
-
+```powershell
     Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $false
+```
 
 Este comando habilita a Pesquisa do Exchange para um banco de dados de caixa de correio chamado EXCH01.
-
+```powershell
     Set-MailboxDatabase "Mailbox Database (EXCH01)" -IndexEnabled $true
-
+```
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)).
 
 ## Desabilitar ou habilitar a Pesquisa do Exchange para um servidor de caixa de correio
@@ -89,17 +90,21 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Execute os seguintes comandos para interromper e desabilitar o serviço de Pesquisa do Microsoft Exchange.
 
+
+```powershell
+Stop-Service MSExchangeFastSearch
 ```
-    Stop-Service MSExchangeFastSearch
-```
-```
-    Set-Service MSExchangeFastSearch -StartupType Disabled
+
+```powershell
+Set-Service MSExchangeFastSearch -StartupType Disabled
 ```
 Execute os seguintes comandos para configurar o serviço de Pesquisa do Exchange de modo ele seja iniciado automaticamente e depois inicie o serviço.
 
+
+```powershell
+Set-Service MSExchangeFastSearch -StartupType Automatic
 ```
-    Set-Service MSExchangeFastSearch -StartupType Automatic
-```
-```
-    Start-Service MSExchangeFastSearch
+
+```powershell
+Start-Service MSExchangeFastSearch
 ```

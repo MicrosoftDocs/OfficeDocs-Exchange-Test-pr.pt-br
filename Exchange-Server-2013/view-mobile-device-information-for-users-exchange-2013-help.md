@@ -51,5 +51,7 @@ Você pode usar o cmdlet **Get-MobileDevice** para visualizar uma lista de dispo
 
 1.  Execute o seguinte comando.
     
-        Get-MobileDevice -Mailbox useralias
+  ```powershell
+  Get-MobileDevice -Mailbox useralias
+  ```
 

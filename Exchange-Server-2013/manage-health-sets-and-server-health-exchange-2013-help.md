@@ -49,23 +49,28 @@ Você pode usar o Shell para obter um resumo da integridade de um servidor que e
 
 Execute um destes comandos para exibir os conjuntos e as informações de integridade em um servidor que executa o Exchange 2013.
 
+
+```powershell
+Get-HealthReport -Identity <ServerName>
 ```
-    Get-HealthReport -Identity <ServerName>
-```
-```
-    Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
+
+```powershell
+Get-ServerHealth -Identity <ServerName> | Format-Table Server,CurrentHealthSetState,Name,HealthSetName,AlertValue,HealthGroupName -Auto
 ```
 
 Execute qualquer um destes comandos para exibir os conjuntos de integridade em um servidor ou em um grupo de disponibilidade de banco de dados com o Exchange 2013 em execução.
 
+
+```powershell
+Get-ExchangeServer | Get-HealthReport -RollupGroup
 ```
-    Get-ExchangeServer | Get-HealthReport -RollupGroup
+
+```powershell
+Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
 ```
-```
-    Get-ExchangeServer | Get-HealthReport -RollupGroup -HealthSetName <HealthSet>
-```
-```
-    (Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
+
+```powershell
+(Get-DatabaseAvailabiltyGroup <DAGName>).Servers | Get-HealthReport -RollupGroup
 ```
 
 ## Exibir uma lista de conjuntos de integridade
@@ -76,7 +81,9 @@ Um conjunto de integridade é um grupo de monitores, sondas e respondentes de um
 
 Execute este comando para exibir os conjuntos de integridade em um servidor que executa o Exchange 2013.
 
-    Get-HealthReport -Server <ServerName>
+```powershell
+Get-HealthReport -Server <ServerName>
+```
 
 ## Exibir sondas, monitores e respondentes de um conjunto de integridade
 
@@ -86,7 +93,9 @@ Um conjunto de integridade é um grupo de monitores, sondas e respondentes de um
 
 Execute este comando para exibir sondas, monitores e respondentes associados a um conjunto de integridade, em um servidor executando o Exchange 2013.
 
-    Get-MonitoringItemIdentity -Server <ServerName> -Identity <HealthSetName> | Format-Table Identity,ItemType,Name -Auto
+```powershell
+Get-MonitoringItemIdentity -Server <ServerName> -Identity <HealthSetName> | Format-Table Identity,ItemType,Name -Auto
+```
 
 ## Exibir uma lista de monitores e respectivos estados vigentes
 
@@ -96,5 +105,7 @@ A integridade de um monitor é relatada por meio do "pior caso" no conjunto de i
 
 Execute este comando para exibir uma lista dos monitores e respectiva integridade vigente em um servidor que executa o Exchange 2013.
 
-    Get-ServerHealth -HealthSet <HealthSetName> -Server <ServerName> | Format-Table Name, AlertValue -Auto
+```powershell
+Get-ServerHealth -HealthSet <HealthSetName> -Server <ServerName> | Format-Table Name, AlertValue -Auto
+```
 

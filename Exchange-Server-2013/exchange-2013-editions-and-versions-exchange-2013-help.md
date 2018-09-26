@@ -37,7 +37,9 @@ Para obter uma lista de versões do Exchange 2013 e informações sobre como bai
 
 Para ver o número de compilação da versão atual do Exchange 2013, execute o seguinte comando no Shell de Gerenciamento do Exchange.
 
-    Get-ExchangeServer | fl name,edition,admindisplayversion
+```powershell
+Get-ExchangeServer | fl name,edition,admindisplayversion
+```
 
 ## Tipos de licença do Exchange 2013
 

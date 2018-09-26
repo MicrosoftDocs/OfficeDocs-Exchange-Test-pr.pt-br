@@ -51,11 +51,15 @@ Procurando outras tarefas de gerenciamento relacionadas a escopos de função? C
 
 Para alterar o nome de um escopo, use a seguinte sintaxe.
 
-    Set-ManagementScope <current scope name> -Name <new scope name>
+```powershell
+Set-ManagementScope <current scope name> -Name <new scope name>
+```
 
 Este exemplo altera o escopo de servidores de Seattle para servidores do Exchange de Seattle.
 
-    Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```powershell
+Set-ManagementScope "Seattle Servers" -Name "Seattle Exchange Servers"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-ManagementScope](https://technet.microsoft.com/pt-br/library/dd297996\(v=exchg.150\)).
 
@@ -63,11 +67,15 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-Manag
 
 Para alterar o filtro de destinatário em um escopo, use a seguinte sintaxe.
 
-    Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```powershell
+Set-ManagementScope <scope name> -RecipientRestrictionFilter { <new recipient filter> }
+```
 
 Este exemplo altera o filtro de destinatário para corresponder todos os objetos de destinatário cuja propriedade **Company** é definida como contoso.
 
-    Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```powershell
+Set-ManagementScope "Company Scope" -RecipientRestrictionFilter { Company -eq 'contoso' }
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-ManagementScope](https://technet.microsoft.com/pt-br/library/dd297996\(v=exchg.150\)).
 
@@ -77,11 +85,15 @@ Para obter mais informações sobre filtros de destinatários e para ver uma lis
 
 Para alterar a raiz da unidade Organizacional em um escopo, use a seguinte sintaxe.
 
-    Set-ManagementScope <scope name> -RecipientRoot <OU>
+```powershell
+Set-ManagementScope <scope name> -RecipientRoot <OU>
+```
 
 Este exemplo altera a raiz da unidade Organizacional para a UO de usuários de vendas da América do Norte/vendas sob o domínio contoso.com.
 
-    Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```powershell
+Set-ManagementScope "Sales Users" -RecipientRoot "contoso.com/North America/Sales"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-ManagementScope](https://technet.microsoft.com/pt-br/library/dd297996\(v=exchg.150\)).
 
@@ -89,11 +101,15 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-Manag
 
 Para alterar o filtro do servidor em um escopo, use a seguinte sintaxe.
 
-    Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```powershell
+Set-ManagementScope <scope name> -ServerRestrictionFilter { <new server filter> }
+```
 
 Este exemplo altera o filtro do servidor para fazer a correspondência de todos os objetos de servidor em que a propriedade **ServerSite** é definida como ' CN = Redmond, CN = Sites, CN = Configuration, DC = contoso, DC = com ".
 
-    Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+  ```powershell
+  Set-ManagementScope "Company Scope" -ServerRestrictionFilter { ServerSite -eq 'CN=Redmond,CN=Sites,CN=Configuration,DC=contoso,DC=com' }
+  ```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-ManagementScope](https://technet.microsoft.com/pt-br/library/dd297996\(v=exchg.150\)).
 
@@ -115,11 +131,15 @@ Você não pode alterar a lista de servidores em um escopo. Se você precisar al
 
 Para alterar o filtro de banco de dados em um escopo, use a seguinte sintaxe.
 
-    Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```powershell
+Set-ManagementScope <scope name> -DatabaseRestrictionFilter { <new database filter> }
+```
 
 Este exemplo altera o filtro de banco de dados para coincidir com todos os objetos de banco de dados cuja propriedade **Name** contiver a cadeia de caracteres "Executivo".
 
-    Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+  ```powershell
+  Set-ManagementScope "Database Executive Scope" -DatabaseRestrictionFilter { Name -Like "*Executive*" }
+  ```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-ManagementScope](https://technet.microsoft.com/pt-br/library/dd297996\(v=exchg.150\)).
 

@@ -53,11 +53,15 @@ Você pode exibir os detalhes de um escopo canalizando a saída do cmdlet **Get-
 
 Para exibir detalhes de um escopo específico, use a sintaxe a seguir.
 
-    Get-ManagementScope <scope name> | Format-List
+```powershell
+Get-ManagementScope <scope name> | Format-List
+```
 
 Este exemplo recupera os detalhes do escopo Servidores de Seattle.
 
-    Get-ManagementScope "Seattle Servers" | Format-List
+```powershell
+Get-ManagementScope "Seattle Servers" | Format-List
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-ManagementScope](https://technet.microsoft.com/pt-br/library/dd298180\(v=exchg.150\)).
 
@@ -65,7 +69,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-Manage
 
 Este exemplo obtém uma lista de escopos na sua organização.
 
-    Get-ManagementScope
+```powershell
+Get-ManagementScope
+```
 
 Este cmdlet recupera escopos exclusivos e regulares. Se você só quiser retornar escopos exclusivos ou escopos regulares, consulte "Listar apenas os escopos exclusivos ou regulares" mais adiante neste tópico.
 
@@ -77,7 +83,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-Manage
 
 Este exemplo obtém uma lista de escopos órfãos.
 
-    Get-ManagementScope -Orphan
+```powershell
+Get-ManagementScope -Orphan
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-ManagementScope](https://technet.microsoft.com/pt-br/library/dd298180\(v=exchg.150\)).
 
@@ -85,15 +93,21 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-Manage
 
 Por padrão, o cmdlet **Get-ManagementScope** retorna uma lista de escopos que contém escopos exclusivos e regulares. Se você quiser retornar apenas escopos exclusivos ou apenas escopos regulares, use a sintaxe a seguir.
 
-    Get-ManagementScope -Exclusive < $true | $false >
+```powershell
+Get-ManagementScope -Exclusive < $true | $false >
+```
 
 Este exemplo retorna apenas os escopos exclusivos.
 
-    Get-ManagementScope -Exclusive $true
+```powershell
+Get-ManagementScope -Exclusive $true
+```
 
 Este exemplo retorna uma lista contendo apenas escopos regulares.
 
-    Get-ManagementScope -Exclusive $false
+```powershell
+Get-ManagementScope -Exclusive $false
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-ManagementScope](https://technet.microsoft.com/pt-br/library/dd298180\(v=exchg.150\)).
 

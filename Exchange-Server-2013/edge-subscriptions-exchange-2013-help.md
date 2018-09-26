@@ -117,7 +117,9 @@ Para mais informações sobre contas ESRA e como elas são usadas para ajudar a 
 
 Este exemplo inscreve um servidor de Transporte de Borda no site especificado e cria automaticamente o conector de Envio da Internet e o conector de Envio a partir do servidor de Transporte de Borda para os servidores de Caixa de Correio.
 
-    New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
+  ```powershell
+  New-EdgeSubscription -FileData ([byte[]]$(Get-Content -Path "C:\EdgeSubscriptionInfo.xml" -Encoding Byte -ReadCount 0)) -CreateInternetSendConnector $true -CreateInboundSendConnector $true -Site "Default-First-Site-Name" 
+  ```
 
 
 > [!NOTE]  
@@ -127,7 +129,9 @@ Este exemplo inscreve um servidor de Transporte de Borda no site especificado e 
 
 Este exemplo exporta um arquivo de Inscrição de Borda.
 
-    New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```powershell
+New-EdgeSubscription -FileName "C:\EdgeSubscriptionInfo.xml"
+```
 
 
 > [!NOTE]  

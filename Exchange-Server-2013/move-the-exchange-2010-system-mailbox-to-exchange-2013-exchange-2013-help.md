@@ -41,7 +41,9 @@ Para mais informações sobre a atualização para o Exchange 2013, consulte os 
 
   - Execute o comando a seguir no Exchange 2013 para obter a identidade e a versão dos servidores Exchange e dos bancos de dados da caixa de correio que contém as caixas de correio do sistema na sua organização.
     
-        Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+    ```powershell
+      Get-Mailbox -Arbitration | FL Name,DisplayName,ServerName,Database,AdminDisplayVersion
+    ```
     
     A propriedade **AdminDisplayVersion** indica a versão do Exchange que o servidor está executando. O valor `Version 14.x` indica Exchange 2010; o valor `Version 15.x` indica Exchange 2013.
 
@@ -83,18 +85,24 @@ Para mais informações sobre a atualização para o Exchange 2013, consulte os 
 
 Primeiro execute o comando a seguir no Exchange 2013 para obter os nomes e as versões de todos os bancos de dados de caixa de correio na sua organização.
 
-    Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```powershell
+Get-MailboxDatabase -IncludePreExchange2013 | FL Name,Server,AdminDisplayVersion
+```
 
 Após identificar o nome dos bancos de dados de caixa de correio na sua organização, execute o seguinte comando no Exchange 2013 para mover a caixa de correio do sistema do Microsoft Exchange para um banco de dados localizado em um servidor do Exchange 2013.
 
+  ```powershell
     Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | New-MoveRequest -TargetDatabase <name of Exchange 2013 database>
+  ```
 
 ## Como saber se funcionou?
 
 Para verificar se você moveu com sucesso a caixa de correio do sistema do Microsoft Exchange para um banco de dados de caixa de correio localizado no servidor Exchange 2013, execute o comando a seguir no Shell.
 
+  ```powershell
     Get-Mailbox -Arbitration -Identity "SystemMailbox{e0dc1c29-89c3-4034-b678-e6c29d823ed9}" | FL Database,ServerName,AdminDisplayVersion
-
+  ```
+  
 Se o valor da propriedade **AdminDisplayVersion** for **Versão 15.x (Compilação xxx.x)**, isto verifica se a caixa de correio do sistema reside em um banco de dados que está localizado em um servidor do Exchange 2013.
 
 Após mover a caixa de correio do sistema do Microsoft Exchange para o Exchange 2013, você também será capaz de realizar com sucesso as seguintes tarefas administrativas:

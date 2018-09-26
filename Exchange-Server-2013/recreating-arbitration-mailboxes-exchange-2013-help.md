@@ -97,11 +97,15 @@ Para recriar a caixa de correio de arbitragem FederatedEmail.4c1f4d8b-8179-4148-
 
 1.  Se qualquer caixa de correio de arbitragem estiver ausente, execute o seguinte comando:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  Em Shell de Gerenciamento do Exchange, execute o seguinte:
     
+    ```powershell
         Enable-Mailbox -Arbitration -Identity "FederatedEmail.4c1f4d8b-8179-4148-93bf-00a95fa1e042"
+    ```
 
 ## Recriar a caixa de correio do Microsoft Exchange aprovação Assistant
 
@@ -109,11 +113,15 @@ Para recriar a caixa de correio de arbitragem SystemMailbox {1f05a927-9350-4efe-
 
 1.  Se qualquer caixa de correio de arbitragem estiver ausente, execute o seguinte comando:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  Em Shell de Gerenciamento do Exchange, execute o seguinte:
     
+    ```powershell
         Get-User | Where-Object {$_.Name -like "SystemMailbox{1f05a927-7709-4e35-9dbe-d0f608fb781a}"} | Enable-Mailbox -Arbitration
+    ```
 
 ## Recriar a caixa de correio de migração do Microsoft Exchange
 
@@ -121,15 +129,21 @@ Para recriar a caixa de correio de arbitragem Migration.8f3e7716-2011-43e4-96b1-
 
 1.  Se qualquer caixa de correio de arbitragem estiver ausente, execute o seguinte comando:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  Em Shell de Gerenciamento do Exchange, execute o seguinte:
     
+    ```powershell
         Enable-Mailbox -Arbitration -Identity "Migration.8f3e7716-2011-43e4-96b1-aba62d229136"
+    ```
 
 3.  No Shell de Gerenciamento do Exchange, defina as capacidades persistentes (msExchCapabilityIdentifiers) executando o seguinte comando:
     
+    ```powershell
         Set-Mailbox "Migration.8f3e7716-2011-43e4-96b1-aba62d229136" -Arbitration -Management:$True -Force
+    ```
 
 ## Recriar a caixa de correio do sistema de descoberta do Microsoft Exchange
 
@@ -137,7 +151,9 @@ Para recriar a caixa de correio de arbitragem SystemMailbox {e0dc1c29-89c3-4034-
 
 1.  Execute o comando a seguir:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Recriar a caixa de correio de organização do Microsoft Exchange para OABs
 
@@ -145,25 +161,35 @@ Para recriar a caixa de correio de arbitragem SystemMailbox {bb558c35-97f1-4cb9-
 
 1.  Se qualquer caixa de correio de arbitragem estiver ausente, execute o seguinte comando:
     
+    ```powershell
         .\Setup /preparead /IAcceptExchangeServerLicenseTerms
+    ```
 
 2.  Em Shell de Gerenciamento do Exchange, execute o seguinte:
     
+    ```powershell
         Enable-Mailbox -Arbitration -Identity "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}"
+    ```
 
 3.  No Shell de Gerenciamento do Exchange, defina as capacidades persistentes (msExchCapabilityIdentifiers) executando o seguinte comando:
     
+    ```powershell
         Get-Mailbox "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}" -Arbitration | Set-Mailbox -Arbitration -UMGrammar:$True -OABGen:$True -GMGen:$True -ClientExtensions:$True -MessageTracking:$True -PstProvider:$True -MaxSendSize 1GB -Force
+    ```
 
 Quando terminar, se você executar o comando `$OABMBX = Get-Mailbox "SystemMailbox{bb558c35-97f1-4cb9-8ff7-d53741dc928c}" -Arbitration (Get-ADUser $OABMBX.SamAccountName -Properties *).msExchCapabilityIdentifiers` , você verá que 46, 47 e 51 estão ausentes. Execute o seguinte comando para adicionar todos os recursos de volta:
 
+```powershell
     Set-ADUser $OABMBX.SamAccountName -Add @{"msExchCapabilityIdentifiers"="40","42","43","44","47","51","52","46"}
+```
 
 ## Como saber se funcionou?
 
 Para verificar se você criou com êxito novamente a caixa de correio de arbitragem, use o cmdlet **Get-Mailbox** com a opção *Arbitration* para recuperar caixas de correio do sistema.
 
+```powershell
     Get-Mailbox -Arbitration | Format-Table Name, DisplayName
+```
 
 Exiba os resultados do comando para verificar que essa caixa de correio do sistema apropriado, seja pelo nome ou o nome de exibição da tabela acima, foi criada novamente.
 

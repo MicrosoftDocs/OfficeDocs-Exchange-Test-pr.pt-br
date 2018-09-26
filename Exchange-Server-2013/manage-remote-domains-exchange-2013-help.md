@@ -36,7 +36,7 @@ Se você remover uma entrada de domínio remoto, as configurações para transfe
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -47,15 +47,21 @@ Se você remover uma entrada de domínio remoto, as configurações para transfe
 
 Para criar uma nova entrada de domínio remoto, use a sintaxe a seguir.
 
-    New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```powershell
+New-RemoteDomain -Name <Descriptive Name> -DomainName <SMTP address space>
+```
 
 Este exemplo cria uma entrada de domínio remoto para mensagens enviadas ao domínio contoso.com.
 
-    New-RemoteDomain -Name Contoso -DomainName contoso.com
+```powershell
+New-RemoteDomain -Name Contoso -DomainName contoso.com
+```
 
 Este exemplo cria uma entrada de domínio remoto para mensagens enviadas para o domínio fabrikam.com e todos os subdomínios.
 
-    New-RemoteDomain -Name Fabrikam -DomainName *.fabrikam.com
+```powershell
+New-RemoteDomain -Name Fabrikam -DomainName *.fabrikam.com
+```
 
 ## Como saber se funcionou?
 
@@ -81,11 +87,15 @@ Para configurar domínios remotos para cenários específicos, consulte os segui
 
 Para remover uma entrada de domínio remoto, use a sintaxe a seguir.
 
-    Remove-RemoteDomain <RemoteDomainName>
+```powershell
+Remove-RemoteDomain <RemoteDomainName>
+```
 
 Este exemplo remove a entrada de domínio remoto chamada Contoso
 
-    Remove-RemoteDomain Contoso
+```powershell
+Remove-RemoteDomain Contoso
+```
 
 ## Como saber se funcionou?
 

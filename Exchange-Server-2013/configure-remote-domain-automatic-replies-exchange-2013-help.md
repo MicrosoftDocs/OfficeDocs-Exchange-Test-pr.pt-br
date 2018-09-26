@@ -41,9 +41,13 @@ Você pode usar o cmdlet **Set-RemoteDomain** para configurar as propriedades de
 
 Este exemplo permite respostas automáticas ao domínio remoto chamado Contoso. Essa configuração será desmarcada por padrão.
 
-    Set-RemoteDomain Contoso -AutoReplyEnabled $true
+```powershell
+Set-RemoteDomain Contoso -AutoReplyEnabled $true
+```
 
 Este exemplo permite respostas automáticas ao domínio remoto. Essa configuração será desmarcada por padrão.
 
-    Set-RemoteDomain Contoso -AutoForwardEnabled $true
+```powershell
+Set-RemoteDomain Contoso -AutoForwardEnabled $true
+```
 

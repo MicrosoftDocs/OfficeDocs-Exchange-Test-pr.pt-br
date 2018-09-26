@@ -191,7 +191,9 @@ A Ferramenta de Solução de Problemas pode ajudar você a solucionar problemas,
 
 No exemplo a seguir, o modo Gateway é usado para testar o fluxo de chamada em um ambiente que não inclui o Office Communications Server 2007 R2 ou o Lync Server. Este exemplo testa os equipamentos de telefonia, incluindo gateways de VoIP, PBXs e IP PBXs e os componentes de Unificação de Mensagens. Esse exemplo define o modo de segurança VoIP como Unsecured, usa o endereço IP 10.1.1.1 como o próximo salto e inclui um número de ramal nas informações de desvio.
 
-    Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```powershell
+Test-ExchangeUMCallFlow -Mode Gateway -VoIPSecurity Unsecured -NextHop 10.1.1.1 -Diversion 12345
+```
 
 Voltar ao início
 
@@ -199,7 +201,9 @@ Voltar ao início
 
 A Ferramenta de Solução de Problemas de UM pode ser usada em implantações locais ou entre instalações incluindo o Office Communications Server 2007 R2 ou o Microsoft Lync Server quando o modo SIPClient estiver configurado. O exemplo a seguir usa o modo SIPClient e testa o fluxo de chamada com um plano de discagem de UM seguro em um ambiente que contenha servidores do Office Communications Server 2007 R2 ou do Lync Server. Por padrão, quando você executa a Ferramenta de Solução de Problemas UM, ela usa as credenciais do usuário conectado no momento ao computador. Ao executar o exemplo a seguir, você será solicitado a informar as credenciais que deseja usar ao executar a Ferramenta de Solução de Problemas UM. Para detalhes, consulte [Definir as credenciais a serem usadas com o Exchange UM ferramenta de solução](set-the-credentials-to-use-with-the-exchange-um-troubleshooting-tool-exchange-2013-help.md).
 
-    Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+  ```powershell
+  Test-ExchangeUMCallFlow -Mode SIPClient -VoIPSecurity Secured -CallingParty tony@contoso.com -CalledParty david@contoso.com -Credential $get
+  ```
 
 ## Instalando a Ferramenta de Solução de Problemas UM
 

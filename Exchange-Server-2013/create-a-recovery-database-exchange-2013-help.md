@@ -30,7 +30,7 @@ Procurando outras tarefas de gerenciamento relacionadas a bancos de dados de rec
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -39,11 +39,15 @@ Procurando outras tarefas de gerenciamento relacionadas a bancos de dados de rec
 
 Este exemplo cria o banco de dados de recuperação RDB1 no servidor Caixa de Correio MBX2.
 
-    New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```powershell
+New-MailboxDatabase -Recovery -Name RDB1 -Server MBX2
+```
 
 Este exemplo cria o banco de dados de recuperação RDB2 no servidor Caixa de Correio MBX1 usando um caminho personalizado para o arquivo de banco de dados e a pasta de log.
 
-    New-MailboxDatabase -Recovery -Name RDB2 -Server MBX1 -EdbFilePath "C:\Recovery\RDB2\RDB2.EDB" -LogFolderPath "C:\Recovery\RDB2"
+  ```powershell
+  New-MailboxDatabase -Recovery -Name RDB2 -Server MBX1 -EdbFilePath "C:\Recovery\RDB2\RDB2.EDB" -LogFolderPath "C:\Recovery\RDB2"
+  ```
 
 Para informações detalhadas sobre sintaxes e parâmetros, consulte [New-MailboxDatabase](https://technet.microsoft.com/pt-br/library/aa997976\(v=exchg.150\)).
 
@@ -53,9 +57,10 @@ Para verificar se você criou um banco de dados de recuperação com êxito, fa�
 
   - No Shell, execute este comando para mostrar informações de configuração para uma cópia do banco de dados de recuperação:
     
-        Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```powershell
+    Get-MailboxDatabase <RecoveryDatabaseName> | Format-List
+    ```
 
 ## Outras tarefas
 
 Depois de criar um banco de dados de recuperação, você talvez queira restaurar dados usando um banco de dados de recuperação. Para instruções detalhadas, consulte [Restaurar dados usando um banco de dados de recuperação](restore-data-using-a-recovery-database-exchange-2013-help.md).
-

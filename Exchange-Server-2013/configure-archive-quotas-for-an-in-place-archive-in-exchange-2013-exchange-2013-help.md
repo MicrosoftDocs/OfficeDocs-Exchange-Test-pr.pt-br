@@ -61,7 +61,9 @@ Para saber mais sobre arquivos mortos In-loco, consulte [Arquivamento In-loco do
 
 Este exemplo define a cota de arquivo morto de caixa de correio de Chris Ashton como 10 gigabytes (GB), no qual tempo que o usuário receberá uma mensagem de aviso que o arquivo morto In-loco está cheio e ele não mais poderão mover itens para o arquivo morto. Este exemplo também define a cota de aviso de arquivo morto para 9,5 GB, o momento em que o usuário receberá uma mensagem de aviso que o arquivo morto In-loco está quase cheio.
 
-    Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```powershell
+Set-Mailbox -Identity "Chris Ashton" -ArchiveQuota 10GB -ArchiveWarningQuota 9.5GB
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -73,5 +75,7 @@ Para verificar se você habilitou com êxito em um arquivo morto local para uma 
 
   - No Shell, execute o seguinte comando para exibir informações sobre o arquivo de cota.
     
-        Get-Mailbox <Name> | FL Name,Archive*Quota
+    ```powershell
+    Get-Mailbox <Name> | FL Name,Archive*Quota
+    ```
 

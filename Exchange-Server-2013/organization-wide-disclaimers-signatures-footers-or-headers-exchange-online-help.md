@@ -22,7 +22,7 @@ Você pode adicionar um aviso de isenção de responsabilidade, aviso de isenç�
 Para configurar um aviso de isenção de responsabilidade, crie uma regra de transporte que contenha as condições, como quando o remetente estiver em um grupo específico ou quando a mensagem contiver padrões de texto específicos, e o texto a ser adicionado. Para aplicar vários avisos de isenção a uma única mensagem de email, use várias regras de transporte.
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > <UL>
 > <LI>
 > <P>Se quiser que as informações sejam adicionadas somente às mensagens de saída, adicione uma condição, como destinatários localizados fora da organização. Por padrão, as regras de transporte são aplicadas às mensagens de entrada e de saída.</P></LI></UL>
@@ -116,24 +116,44 @@ Eis alguns exemplos de condições e exceções que você pode usar.
 <td><p>Fora de sua organização, se a mensagem original não incluir o texto de isenção de responsabilidade, como &quot;AVISO LEGAL DA CONTOSO&quot;</p></td>
 <td><p>Condição: <strong>O destinatário está localizado em</strong> &gt; <strong>Fora da organização</strong></p>
 <p>Exceção: <strong>Assunto ou corpo da mensagem</strong> &gt; <strong>o assunto ou corpo corresponde a estes padrões de texto</strong> &gt; <strong>AVISO LEGAL DA CONTOSO</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches &quot;CONTOSO LEGAL NOTICE&quot;</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -ExceptIf -SubjectOrBodyMatches "CONTOSO LEGAL NOTICE"
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Mensagens de entrada com anexos executáveis</p></td>
 <td><p>Condição 1: <strong>O remetente está localizado em</strong> &gt; <strong>Fora da organização</strong></p>
 <p>Condição 2: <strong>Qualquer anexo</strong> &gt; <strong>possui conteúdo executável</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -AttachmentHasExecutableContent</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -AttachmentHasExecutableContent
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>O remetente faz parte do departamento de Marketing</p></td>
 <td><p>Condição: <strong>O remetente</strong> &gt; <strong>é um membro deste grupo</strong> &gt; <strong>nome do grupo</strong></p></td>
-<td><pre><code>-FromMemberOf &quot;Marketing Team&quot;</code></pre></td>
+<td>
+
+```powershell
+-FromMemberOf &quot;Marketing Team&quot;
+```
+</td>
 </tr>
 <tr class="even">
 <td><p>Todas as mensagens que vêm de um remetente externo para o grupo Discussão de vendas</p></td>
 <td><p>Condição 1: <strong>O remetente está localizado em</strong> &gt; <strong>Fora da organização</strong></p>
 <p>Condição 2: <strong>A mensagem</strong> &gt; <strong>A caixa Para ou Cc contém essa pessoa</strong> &gt; <strong>nome do grupo</strong></p></td>
-<td><pre><code>-FromScope NotInOrganization -SentTo &quot;Sales Discussion Group&quot; -PrependSubject &quot;Sent to Sales Discussion Group: &quot;</code></pre></td>
+<td>
+
+```powershell
+-FromScope NotInOrganization -SentTo &quot;Sales Discussion Group&quot; -PrependSubject &quot;Sent to Sales Discussion Group: &quot;
+```
+</td>
 </tr>
 <tr class="odd">
 <td><p>Preceder com um anúncio para mensagens enviadas por um mês</p></td>
@@ -196,19 +216,21 @@ Você pode formatar seu aviso de isenção de responsabilidade conforme necessá
 
 Por exemplo, eis um exemplo de um aviso de isenção de responsabilidade em HTML que inclui uma assinatura, uma marca `IMG` e CSS incorporada.
 
-    <div style="font-size:9pt;  font-family: 'Calibri',sans-serif;">
-    %%displayname%%</br>
-    %%title%%</br>
-    %%company%%</br>
-    %%street%%</br>
-    %%city%%, %%state%% %%zipcode%%</div>
-    &nbsp;</br>
-    <div style="background-color:#D5EAFF; border:1px dotted #003333; padding:.8em; ">
-    <div><img alt="Fabrikam"  src="http://fabrikam.com/images/fabrikamlogo.png"></div>
-    <span style="font-size:12pt;  font-family: 'Cambria','times new roman','garamond',serif; color:#ff0000;">HTML Disclaimer Title</span></br>
-    <p style="font-size:8pt; line-height:10pt; font-family: 'Cambria','times roman',serif;">This message contains confidential information and is intended only for the individual(s) addressed in the message. If you are not the named addressee, you should not disseminate, distribute, or copy this e-mail. If you are not the intended recipient, you are notified that disclosing, distributing, or copying this e-mail is strictly prohibited.  </p>
-    <span style="padding-top:10px; font-weight:bold; color:#CC0000; font-size:10pt; font-family: 'Calibri',Arial,sans-serif; "><a href="http://www.fabrikam.com">Fabrikam, Inc. </a></span></br></br>
-    </div>
+  ```HTML
+  <div style="font-size:9pt;  font-family: 'Calibri',sans-serif;">
+  %%displayname%%</br>
+  %%title%%</br>
+  %%company%%</br>
+  %%street%%</br>
+  %%city%%, %%state%% %%zipcode%%</div>
+  &nbsp;</br>
+  <div style="background-color:#D5EAFF; border:1px dotted #003333; padding:.8em; ">
+  <div><img alt="Fabrikam"  src="http://fabrikam.com/images/fabrikamlogo.png"></div>
+  <span style="font-size:12pt;  font-family: 'Cambria','times new roman','garamond',serif; color:#ff0000;">HTML Disclaimer Title</span></br>
+  <p style="font-size:8pt; line-height:10pt; font-family: 'Cambria','times roman',serif;">This message contains confidential information and is intended only for the individual(s) addressed in the message. If you are not the named addressee, you should not disseminate, distribute, or copy this e-mail. If you are not the intended recipient, you are notified that disclosing, distributing, or copying this e-mail is strictly prohibited.  </p>
+  <span style="padding-top:10px; font-weight:bold; color:#CC0000; font-size:10pt; font-family: 'Calibri',Arial,sans-serif; "><a href="http://www.fabrikam.com">Fabrikam, Inc. </a></span></br></br>
+  </div>
+  ```
 
 ## Opções alternativas caso o aviso de isenção de responsabilidade não possa ser adicionado
 
@@ -219,7 +241,7 @@ A lista a seguir descreve cada ação alternativa:
   - **Encapsular**   Se o aviso de isenção de responsabilidade não puder ser inserido na mensagem original, o Exchange incluirá, ou "encapsulará", a mensagem original em um novo envelope de mensagem. Em seguida, o aviso de isenção de responsabilidade será inserido na nova mensagem. Se a mensagem original não puder ser encapsulada em um novo envelope de mensagem, a mensagem original não será entregue. O remetente da mensagem receberá uma notificação de falha na entrega que explicará porquê a mensagem não foi entregue.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Se uma mensagem original for encapsulada em um novo envelope de mensagem, as regras de transporte subsequentes serão aplicadas ao novo envelope de mensagem, e não à mensagem original. Portanto, você deve configurar regras de transporte com ações de aviso de isenção que encapsulam as mensagens originais em um novo corpo de mensagem após a configuração de outras regras de transporte.
 
 
@@ -237,4 +259,3 @@ A lista a seguir descreve cada ação alternativa:
 [Regras de fluxo de emails (regras de transporte) no Exchange Online](https://technet.microsoft.com/pt-br/library/jj919238\(v=exchg.150\)) (Exchange Online)
 
 [Regras de fluxo de emails (regras de transporte) no Exchange Online Protection](https://technet.microsoft.com/pt-br/library/dn271424\(v=exchg.150\)) (Exchange Online Protection)
-

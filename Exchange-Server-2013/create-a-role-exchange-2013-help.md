@@ -53,11 +53,15 @@ Novas funções de gerenciamento são baseadas em funções existentes. Quando v
 
 Use a sintaxe a seguir para criar a nova função.
 
-    New-ManagementRole -Parent <existing role to copy> -Name <name of new role>
+```powershell
+New-ManagementRole -Parent <existing role to copy> -Name <name of new role>
+```
 
 Este exemplo copia a função destinatários de email e suas entradas de função de gerenciamento para a função de destinatários de email de Seattle.
 
-    New-ManagementRole -Parent "Mail Recipients" -Name "Seattle Mail Recipients"
+```powershell
+New-ManagementRole -Parent "Mail Recipients" -Name "Seattle Mail Recipients"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [New-ManagementRole](https://technet.microsoft.com/pt-br/library/dd298073\(v=exchg.150\)).
 

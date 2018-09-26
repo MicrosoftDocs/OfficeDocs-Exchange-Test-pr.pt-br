@@ -55,7 +55,9 @@ Para tarefas de gerenciamento adicionais relacionadas a diretivas de endereço d
 
 Este exemplo remove a diretiva de endereço de email South East Offices.
 
-    Remove-EmailAddressPolicy -Identity "South East Offices"
+```powershell
+Remove-EmailAddressPolicy -Identity "South East Offices"
+```
 
 Digite **Y** para confirmar que você deseja remover a diretiva e pressione ENTER.
 

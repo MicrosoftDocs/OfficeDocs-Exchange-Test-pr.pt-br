@@ -67,24 +67,32 @@ Para recriar o grupo de funções Gerenciamento da Organização como um grupo d
 
 2.  Armazene as credenciais da floresta externa do Active Directory em uma variável.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+    $ForeignCredential = Get-Credential
+    ```
 
 3.  Armazene todas as funções atribuídas ao grupo de função do Gerenciamento da Organização em uma variável.
     
+    ```powershell
         $OrgMgmt  = Get-RoleGroup "Organization Management"
+    ```
 
 4.  Crie o grupo de função vinculado Gerenciamento da Organização e adicione as funções atribuídas ao grupo de funções internas Gerenciamento da Organização.
     
+    ```powershell
         New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
-
+    ```
 5.  Remover todas as atribuições regulares entre o novo grupo de função vinculado Gerenciamento da Organização e a minha \* funções de usuário final.
     
+    ```powershell
         Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
+    ```
 
 6.  Adicione as atribuições de função de delegação entre o novo grupo de função vinculado Gerenciamento da Organização e todas as funções de gerenciamento.
     
+    ```powershell
         Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
-
+    ```
 Este exemplo presume que os seguintes valores são usados para cada parâmetro:
 
   - **LinkedForeignGroup**   `Organization Management Administrators`
@@ -93,12 +101,14 @@ Este exemplo presume que os seguintes valores são usados para cada parâmetro:
 
 Usando os valores anteriores, este exemplo recria o grupo de funções Gerenciamento da Organização como um grupo de função vinculado.
 
-    $ForeignCredential = Get-Credential
+```powershell
+$ForeignCredential = Get-Credential
+
     $OrgMgmt  = Get-RoleGroup "Organization Management"
     New-RoleGroup "Organization Management - Linked" -LinkedForeignGroup "Organization Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $OrgMgmt.Roles
     Get-ManagementRoleAssignment -RoleAssignee "Organization Management - Linked" -Role My* | Remove-ManagementRoleAssignment
     Get-ManagementRole | New-ManagementRoleAssignment -SecurityGroup "Organization Management - Linked" -Delegating
-
+```
 ## Criar todos os outros grupos de função vinculado
 
 Para recriar os grupos de função internos (que não seja o grupo de funções Gerenciamento da Organização ) como grupos de função vinculado, use o procedimento a seguir para cada grupo.
@@ -107,16 +117,22 @@ Para recriar os grupos de função internos (que não seja o grupo de funções 
 
 2.  Armazene as credenciais de floresta estrangeira Active Directory em uma variável. Você precisará fazer isso vez.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+    $ForeignCredential = Get-Credential
+    ```
 
 3.  Recupere uma lista de grupos de função usando o cmdlet a seguir.
     
-        Get-RoleGroup
+    ```powershell
+    Get-RoleGroup
+    ```
 
 4.  Para cada grupo de função, que não seja o grupo de funções Gerenciamento da Organização, faça o seguinte.
     
+    ```powershell
         $RoleGroup = Get-RoleGroup <name of role group to re-create>
         New-RoleGroup "<role group name> - Linked" -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
+    ```
 
 5.  Repita a etapa anterior para cada grupo de funções internas que deseja recriar como um grupo de função vinculado.
 
@@ -132,12 +148,15 @@ Este exemplo presume que os seguintes valores são usados para cada parâmetro:
 
 Usando os valores anteriores, este exemplo recria os grupos de funções de gerenciamento de servidor e Gerenciamento de Destinatários como grupos de função vinculado.
 
-    $ForeignCredential = Get-Credential
-    Get-RoleGroup
+```powershell
+$ForeignCredential = Get-Credential
+Get-RoleGroup
+
     $RoleGroup = Get-RoleGroup "Recipient Management"
     New-RoleGroup "Recipient Management - Linked" -LinkedForeignGroup "Recipient Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
     $RoleGroup = Get-RoleGroup "Server Management"
     New-RoleGroup "Server Management - Linked" -LinkedForeignGroup "Server Management Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles $RoleGroup.Roles
+```
 
 ## Outras tarefas
 

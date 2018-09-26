@@ -55,5 +55,7 @@ Para tarefas de gerenciamento adicionais relacionadas a servidores acesso para c
 
 2.  Na caixa **Abrir**, digite o seguinte comando e pressione Enter.
     
-        net stop MSExchangeUMCR
+  ```powershell
+  net stop MSExchangeUMCR
+  ```
 

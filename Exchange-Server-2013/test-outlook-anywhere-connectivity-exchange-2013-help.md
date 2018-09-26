@@ -43,8 +43,9 @@ Para usar o Shell para testar a conectividade do Outlook Anywhere, use o cmdlet 
 
 Execute o seguinte comando.
 
+```powrshell
     Test-OutlookConnectivity -ProbeIdentity 'OutlookMailboxDeepTestProbe' -MailboxId tony@contoso.com -Hostname contoso.com
-
+```
 
 > [!NOTE]
 > O valor de parâmetro <EM>OutlookMailboxDeepTestProbe</EM> testa a conectividade do servidor de Caixa de Correio. Para testar a conectividade do servidor de Acesso para Cliente, use <EM>OutlookMailboxCTPProbe</EM> para o valor de parâmetro <EM>ProbeIdentity</EM>.

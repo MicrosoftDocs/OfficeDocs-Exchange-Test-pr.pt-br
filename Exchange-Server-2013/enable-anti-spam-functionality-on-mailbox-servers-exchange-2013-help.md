@@ -30,7 +30,7 @@ No Microsoft Exchange Server 2013, os seguintes agentes antispam estão disponí
 Porém, você pode instalar esses agentes antispam em um servidor de caixa de correio usando um script no Shell de Gerenciamento do Exchange. Geralmente, você instalaria os agentes antispam em um servidor de caixa de correio apenas se sua organização aceitasse todas as mensagens de entrada sem filtragem antispam prévia.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Embora o agente Filtro de Destinatários esteja disponíveis em servidores de caixas de correio, você não deve configurá-lo. Quando um filtro de destinatários, em um servidor de caixas de correio, detecta um destinatário inválido ou bloqueado em uma mensagem contendo outros destinatários válidos, a mensagem é rejeitada. Entretanto, o agente do Filtro de Destinatário é ativado por padrão, e não está configurado para bloquear qualquer destinatário. Para obter mais informações, consulte <A href="manage-recipient-filtering-on-edge-transport-servers-exchange-2013-help.md">Gerenciar filtragem por destinatário nos servidores de transporte de borda</A>.
 
 
@@ -48,7 +48,7 @@ O que acontece se você instalar os agentes antispam disponíveis no serviço Tr
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -59,7 +59,9 @@ O que acontece se você instalar os agentes antispam disponíveis no serviço Tr
 
 Execute o seguinte comando:
 
-    & $env:ExchangeInstallPath\Scripts\Install-AntiSpamAgents.ps1
+```powershell
+& $env:ExchangeInstallPath\Scripts\Install-AntiSpamAgents.ps1
+```
 
 ## Como saber se essa etapa funcionou?
 
@@ -69,7 +71,9 @@ Você sabe que essa etapa funcionou quando o script é executado sem erros e ped
 
 Execute o seguinte comando:
 
-    Restart-Service MSExchangeTransport
+```powershell
+Restart-Service MSExchangeTransport
+```
 
 ## Como saber se essa etapa funcionou?
 
@@ -81,11 +85,15 @@ Você precisa especificar os endereços IP dos servidores SMTP internos que deve
 
 Para adicionar os endereços IP de servidores SMTP internos sem afetar os valores existentes, execute este comando:
 
-    Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="<ip address1>","<ip address2>"...}
+```
 
 Este exemplo adiciona os endereços de servidor SMTP internos 10.0.1.10 e 10.0.1.11 à configuração de transporte de sua organização.
 
-    Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```powershell
+Set-TransportConfig -InternalSMTPServers @{Add="10.0.1.10","10.0.1.11"}
+```
 
 ## Como saber se essa etapa funcionou?
 
@@ -93,7 +101,8 @@ Para confirmar se você especificou corretamente o endereço IP de pelo menos um
 
 1.  Execute o seguinte comando:
     
-        Get-TransportConfig | Format-List InternalSMTPServers
+    ```powershell
+    Get-TransportConfig | Format-List InternalSMTPServers
+    ```
 
 2.  Confirme se o endereço IP de pelo menos um servidor SMTP interno válido é exibido.
-

@@ -65,21 +65,29 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 Este exemplo suspende a replicação contínua de uma cópia do banco de dados que db1 hospedado no servidor MBX1. Um comentário opcional também foi especificado.
 
-    Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB1\MBX1 -SuspendComment "Maintenance on MBX1" -Confirm:$False
+```
 
 Este exemplo suspende a ativação de uma cópia do banco de dados que DB2 hospedado no servidor MBX2.
 
-    Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB2\MBX2 -ActivationOnly -Confirm:$False
+```
 
 ## Use o Shell para retomar uma cópia do banco de dados de caixa de correio
 
 Este exemplo retoma uma cópia do banco de dados DB1 do servidor MBX1.
 
-    Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB1\MBX1
+```
 
 Este exemplo retoma uma cópia do banco de dados DB2 no servidor MBX2 para somente a replicação.
 
-    Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB2\MBX2 -ReplicationOnly
+```
 
 ## Como saber se funcionou?
 
@@ -89,5 +97,7 @@ Para verificar que você tenha suspensa ou retomada uma cópia do banco de dados
 
   - No Shell, execute este comando para mostrar informações de status para uma cópia do banco de dados.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List
+    ```
 

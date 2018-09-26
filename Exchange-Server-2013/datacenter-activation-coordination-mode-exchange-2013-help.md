@@ -63,7 +63,9 @@ Realizar uma alternância de datacenter para DAGs que não estejam em modo DAC e
 
 Modo DAC pode ser habilitado somente por meio de Exchange Management Shell. Especificamente, você pode usar o cmdlet [Set-DatabaseAvailabilityGroup](https://technet.microsoft.com/pt-br/library/dd297934\(v=exchg.150\)) para habilitar o modo DAC, conforme ilustrado no exemplo a seguir.
 
-    Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```powershell
+Set-DatabaseAvailabilityGroup -Identity DAG2 -DatacenterActivationMode DagOnly
+```
 
 No exemplo anterior, DAG2 é habilitado para o modo DAC.
 

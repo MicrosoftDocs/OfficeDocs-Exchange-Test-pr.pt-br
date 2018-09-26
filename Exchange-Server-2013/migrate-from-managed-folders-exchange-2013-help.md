@@ -262,6 +262,7 @@ Há dois métodos que você pode usar para esta etapa:
 
 Este exemplo cria marcas de retenção com base nas configurações de conteúdo gerenciado correspondentes mostradas na diretiva de caixa de correio de pasta gerenciada da Contoso.
 
+```powershell
     New-RetentionPolicyTag Corp-DeletedItems -ManagedFolderToUpgrade Corp-DeletedItems
     New-RetentionPolicyTag Corp-SentItems -ManagedFolderToUpgrade Corp-SentItems
     New-RetentionPolicyTag Corp-JunkMail -ManagedFolderToUpgrade Corp-JunkMail
@@ -269,6 +270,7 @@ Este exemplo cria marcas de retenção com base nas configurações de conteúdo
     New-RetentionPolicyTag 30Days -ManagedFolderToUpgrade 30Days
     New-RetentionPolicyTag 5Years -ManagedFolderToUpgrade 5Years
     New-RetentionPolicyTag NeverExpire -ManagedFolderToUpgrade NeverExpire
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-RetentionPolicyTag](https://technet.microsoft.com/pt-br/library/dd335226\(v=exchg.150\)).
 
@@ -281,7 +283,7 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-Ret
 
 
 Este exemplo cria marcas de retenção com base nas pastas gerenciadas e nas configurações de conteúdo gerenciado correspondentes mostradas na diretiva de caixa de correio de pasta gerenciada da Contoso. As configurações de retenção são especificadas manualmente sem o uso do parâmetro *ManagedFolderToUpgrade*.
-
+```powershell
     New-RetentionPolicyTag Corp-DeletedItems -Type DeletedItems -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction DeleteAndAllowRecovery
     New-RetentionPolicyTag Corp-SentItems -Type SentItems -RetentionEnabled $true -AgeLimitforRetention 1825 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag Corp-JunkMail -Type JunkMail -RetentionEnabled $true -AgeLimitforRetention 30 -RetentionAction PermanentlyDelete
@@ -289,6 +291,7 @@ Este exemplo cria marcas de retenção com base nas pastas gerenciadas e nas con
     New-RetentionPolicyTag 30Days -Type Personal -RetentionEnabled $true -AgeLimitForRetention 30 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag 5Years -Type Personal -RetentionEnabled $true -AgeLimitForRetention 1825 -RetentionAction MoveToDeletedItems
     New-RetentionPolicyTag NeverExpire -Type Personal -RetentionEnabled $false
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-RetentionPolicyTag](https://technet.microsoft.com/pt-br/library/dd335226\(v=exchg.150\)).
 
@@ -303,8 +306,9 @@ Entrada "Gerenciamento de registros de mensagem", no tópico [Permissões de pol
 
 
 Este exemplo cria uma diretiva de retenção RP-Corp e vincula as marcas de retenção recém-criadas à diretiva.
-
+```powershell
     New-RetentionPolicy RP-Corp -RetentionPolicyTagLinks Corp-DeletedItems,Corp-SentItems,Corp-JunkMail,Corp-EntireMailbox,30Days,NeverExpire
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-RetentionPolicy](https://technet.microsoft.com/pt-br/library/dd297970\(v=exchg.150\)).
 
@@ -314,7 +318,9 @@ Entrada "Aplicando políticas de retenção", no tópico [Permissões de políti
 
 Este exemplo remove a politica da caixa de correio de pasta gerenciada e qualquer pasta da caixa de correio de Ken Kwok. Pastas gerenciadas que possuem qualquer mensagem não são removidas.
 
-    Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RemoveManagedFolderAndPolicy RP-Corp
+```
 
 ## Etapa 4: Aplicar a diretiva de retenção a caixas de correio do usuário
 
@@ -328,7 +334,9 @@ Entrada "Aplicando políticas de retenção", no tópico [Permissões de políti
 
 Este exemplo aplica a diretiva de retenção recém-criada RP-Corp à caixa de correio do usuário Ken Kwok.
 
-    Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```powershell
+Set-Mailbox -Identity Kwok -RetentionPolicy RP-Corp
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -339,12 +347,15 @@ Para verificar se você migrou de pastas gerenciadas para políticas de retenç�
   - Gere um relatório de todas as caixas de correio de usuário e da política de retenção aplicada aos mesmos.
     
     Este comando recupera a política de retenção aplicada a todas as caixas de correio em uma organização e o status de retenção.
-    
+    ```powershell
         Get-Mailbox -ResultSize unlimited -Filter {Name -NotLike "DiscoverySearch*�?} | Format-Table Name,RetentionPolicy,RetentionHoldEnabled -Auto
+    ```
 
   - Após o Assitente de Pasta Gerenciada ter processado uma caixa de correio com uma política de retenção, use o cmdlet [Get-RetentionPolicyTag](https://technet.microsoft.com/pt-br/library/dd298009\(v=exchg.150\)) para recuperar as marcas de retenção provisionadas na caixa de correio do usuário.
     
     Este comando reccupera as marcas de retenção efetivamente aplicadas na caixa de coreeio de April Stewart.
     
-        Get-RetentionPolicyTag -Mailbox astewart
+    ```powershell
+    Get-RetentionPolicyTag -Mailbox astewart
+    ```
 

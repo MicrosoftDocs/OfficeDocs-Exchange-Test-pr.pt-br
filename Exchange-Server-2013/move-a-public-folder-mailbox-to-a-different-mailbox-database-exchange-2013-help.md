@@ -47,7 +47,9 @@ O cmdlet **New-MoveRequest** coloca na fila a caixa de correio de pasta pública
 
 Este exemplo inicial a solicitação para mover para a caixa de correio de pasta pública PF\_SanFrancisco para o banco de dados de caixa de correio MBX\_DB01.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-MoveRequest](https://technet.microsoft.com/pt-br/library/dd351123\(v=exchg.150\)).
 
@@ -57,19 +59,25 @@ Durante o estágio final da solicitação de movimentação, quando ele está na
 
 Este exemplo começa solicitação para mover para a caixa de correio de pasta pública PF\_SanFrancisco para o banco de dados de caixa de correio MBX\_DB01, e suspende-a quando a solicitação para mover estiver pronta para ser finalizada.
 
-    New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```powershell
+New-MoveRequest -Identity "PF_SanFrancisco" -TargetDatabase MBX_DB01 -SuspendWhenReadyToComplete
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [New-MoveRequest](https://technet.microsoft.com/pt-br/library/dd351123\(v=exchg.150\)).
 
 Este exemplo recupera o status da movimentação que está ocorrendo na caixa de correio para a caixa de correio de pasta pública PF\_SanFrancisco.
 
-    Get-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Get-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Get-MoveRequest](https://technet.microsoft.com/pt-br/library/dd335227\(v=exchg.150\)).
 
 Quando a solicitação para mover atingir o status de Suspensa, você pode continuar a solicitação. Este exemplo continua a solicitação para mover para a caixa de correio de pasta pública PF\_SanFrancisco.
 
-    Resume-MoveRequest -Identity "PF_SanFrancisco"
+```powershell
+Resume-MoveRequest -Identity "PF_SanFrancisco"
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Resume-MoveRequest](https://technet.microsoft.com/pt-br/library/ee332320\(v=exchg.150\)).
 
@@ -77,7 +85,9 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [Resume-
 
 Para verificar que a solicitação para mover foi criada com sucesso, execute o seguinte comando:
 
-    Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```powershell
+Get-MoveRequestStatistics -Identity PF_SanFrancisco | Format-List Status
+```
 
 Um status de `Completed` indica que a solicitação de movimentação foi realizada com êxito.
 

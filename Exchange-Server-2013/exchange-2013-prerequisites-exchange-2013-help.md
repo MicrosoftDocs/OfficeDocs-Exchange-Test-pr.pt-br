@@ -85,11 +85,15 @@ Após ter instalado o software listado acima, execute as seguintes etapas para i
     
       - Em um computador com Windows Server 2012 R2 ou Windows Server 2012, execute o seguinte comando.
         
-            Install-WindowsFeature RSAT-ADDS
+        ```powershell
+        Install-WindowsFeature RSAT-ADDS
+        ```
     
       - Em um computador com Windows Server 2008 R2 SP1, execute o seguinte comando.
         
-            Add-WindowsFeature RSAT-ADDS
+        ```powershell
+        Add-WindowsFeature RSAT-ADDS
+        ```
 
 ## Pré-requisitos do Windows Server 2012 R2 e Windows Server 2012
 
@@ -111,7 +115,9 @@ Faça o seguinte para instalar as funções e os recursos de Windows necessário
 
 2.  Execute o seguinte comando para instalar os componentes necessários do Windows.
     
-        Install-WindowsFeature AS-HTTP-Activation, Desktop-Experience, NET-Framework-45-Features, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Clustering-CmdInterface, RSAT-Clustering-Mgmt, RSAT-Clustering-PowerShell, Web-Mgmt-Console, WAS-Process-Model, Web-Asp-Net45, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext45, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, Windows-Identity-Foundation, RSAT-ADDS
+    ```powershell
+    Install-WindowsFeature AS-HTTP-Activation, Desktop-Experience, NET-Framework-45-Features, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Clustering-CmdInterface, RSAT-Clustering-Mgmt, RSAT-Clustering-PowerShell, Web-Mgmt-Console, WAS-Process-Model, Web-Asp-Net45, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext45, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, Windows-Identity-Foundation, RSAT-ADDS
+    ```
 
 Após ter instalado as funções e os recursos de sistema operacional, instale os seguintes softwares na ordem mostrada:
 
@@ -137,7 +143,9 @@ Faça o seguinte para instalar as funções e os recursos de Windows necessário
 
 2.  Execute o seguinte comando para instalar os componentes necessários do Windows.
     
-        Install-WindowsFeature ADLDS
+    ```powershell
+    Install-WindowsFeature ADLDS
+    ```
 
 Instale a versão do Microsoft .NET Framework que corresponde à versão do Exchange 2013 que você está instalando:
 
@@ -171,11 +179,15 @@ Faça o seguinte para instalar as funções e os recursos de Windows necessário
 
 2.  Execute o seguinte comando para carregar o módulo Gerenciador de Servidores.
     
-        Import-Module ServerManager
+    ```powershell
+    Import-Module ServerManager
+    ```
 
 3.  Execute o seguinte comando para instalar os componentes necessários do Windows.
     
-        Add-WindowsFeature Desktop-Experience, NET-Framework, NET-HTTP-Activation, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Web-Server, WAS-Process-Model, Web-Asp-Net, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, RSAT-ADDS
+    ```powershell
+    Add-WindowsFeature Desktop-Experience, NET-Framework, NET-HTTP-Activation, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Web-Server, WAS-Process-Model, Web-Asp-Net, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Lgcy-Mgmt-Console, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, RSAT-ADDS
+    ```
 
 Após ter instalado as funções e os recursos de sistema operacional, instale os seguintes softwares na ordem mostrada:
 
@@ -213,11 +225,15 @@ Faça o seguinte para instalar as funções e os recursos de Windows necessário
 
 2.  Execute o seguinte comando para carregar o módulo Gerenciador de Servidores.
     
-        Import-Module ServerManager
+    ```powershell
+    Import-Module ServerManager
+    ```
 
 3.  Execute o seguinte comando para instalar os componentes necessários do Windows.
     
-        Add-WindowsFeature NET-Framework, ADLDS
+    ```powershell
+    Add-WindowsFeature NET-Framework, ADLDS
+    ```
 
 Após ter instalado as funções e os recursos de sistema operacional, instale os seguintes softwares na ordem mostrada:
 

@@ -53,7 +53,9 @@ O arquivo .csv é usado para determinar o mapeamento entre a hierarquia de orige
 
 Você pode forçar que uma sincronização delta ocorra antes da inicialização, antes de bloquear a origem), executando o seguinte comando do Shell:
 
-    Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```powershell
+Resume-PublicFolderMigrationRequest \PublicFolderMigration
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Resume-PublicFolderMigrationRequest](https://technet.microsoft.com/pt-br/library/jj218689\(v=exchg.150\)).
 
@@ -63,7 +65,9 @@ Como parte do processo de migração, um arquivo .csv é gerado (usando o script
 
 O arquivo .csv de entrada pode ser gerado executando-se o script `AggregatePFData.ps1`, localizado no diretório \<*Diretório de Instalação do Exchange*\>\\V15\\Scripts. Execute o script desta forma:
 
-    .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+  ```powershell
+  .\AggregatePFData.ps1 | Select-Object -property @{Name="FolderName"; Expression = {$_.Identity}}, @{Name="FolderSize"; Expression = {$_.TotalItemSize.Value.ToBytes()}} | Export-CSV -Path <Path followed by the name of the CSV>
+  ```
 
 ## As permissões de pasta pública existentes são migradas?
 
@@ -103,7 +107,9 @@ Para obter mais informações sobre limites de armazenamento de pastas públicas
 
 Execute o seguinte comando:
 
-    Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```powershell
+Get-OrganizationConfig | Format-List RootPublicFolderMailbox
+```
 
 Para informações detalhadas sobre sintaxe e parâmetro, consulte [Get-OrganizationConfig](https://technet.microsoft.com/pt-br/library/aa997571\(v=exchg.150\)).
 
@@ -111,7 +117,9 @@ Para informações detalhadas sobre sintaxe e parâmetro, consulte [Get-Organiza
 
 Execute o comando a seguir, para criar a primeira caixa de correio de pasta pública de hierarquia mestre e as caixas de correio de hierarquia secundárias.
 
-    New-Mailbox -PublicFolder -Name <name of public folder>
+```powershell
+New-Mailbox -PublicFolder -Name <name of public folder>
+```
 
 Para saber mais detalhes, consulte [Criar uma pasta pública](https://docs.microsoft.com/pt-br/exchange/collaboration-exo/public-folders/create-public-folder).
 
@@ -147,7 +155,9 @@ Assim como nas versões anteriores do Exchange, você pode definir limites de re
 
 No Exchange 2007 e no Exchange 2010, era possível especificar quais usuários tinham acesso às pastas públicas específicas. No Exchange 2013, você pode definir a caixa de correio de pasta pública por usuário. Para fazer isso, execute o cmdlet [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) com o parâmetro *DefaultPublicFolderMailbox*.
 
-    Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```powershell
+Set-Mailbox -Identity kweku@contoso.com -DefaultPublicFolderMailbox "PF_Administration"
+```
 
 ## Se a hierarquia mestre cair, qual será o impacto no usuário?
 

@@ -67,7 +67,9 @@ Você pode alterar a política de caixa de correio de dispositivo móvel de um �
 
 1.  No Shell, execute o comando a seguir.
     
-        Set-CASMailbox -Identity tony@contoso.com -ActiveSyncMailboxPolicy "Sales" 
+```powershell
+Set-CASMailbox -Identity tony@contoso.com -ActiveSyncMailboxPolicy "Sales" 
+```
 
 ## Como saber se funcionou?
 
@@ -77,7 +79,9 @@ Para verificar se você alterou com êxito uma política de caixa de correio de 
 
 2.  No Shell, execute o comando a seguir.
     
-        Get-CASMailbox -Identity tony@contoso.com 
+```powershell
+Get-CASMailbox -Identity tony@contoso.com 
+```
 
 ## Alterar a política de caixa de correio de dispositivo móvel para vários usuários ao mesmo tempo
 
@@ -103,12 +107,13 @@ Você pode usar o Shell para alterar a política de caixa de correio do disposit
 
 1.  No Shell, execute o comando a seguir.
     
-        Get-Mailbox | where { $_.CustomAttribute1 -match "Manager"
-         } | Set-CASMailbox -activesyncmailboxpolicy(Get-ActiveSyncMailboxPolicy "Contoso").Identity
+  ```powershell
+  Get-Mailbox | where { $_.CustomAttribute1 -match "Manager"
+  } | Set-CASMailbox -activesyncmailboxpolicy(Get-ActiveSyncMailboxPolicy "Contoso").Identity
+  ```
     
-
-    > [!NOTE]
-    > Você pode usar <CODE>CustomAttribute1</CODE> em substituição a qualquer das propriedades no objeto de <STRONG>Get-Mailbox</STRONG>. Para exibir a lista completa, digite: <CODE>Get-Mailbox username |fl</CODE>.
+  > [!NOTE]
+  > Você pode usar <CODE>CustomAttribute1</CODE> em substituição a qualquer das propriedades no objeto de <STRONG>Get-Mailbox</STRONG>. Para exibir a lista completa, digite: <CODE>Get-Mailbox username |fl</CODE>.
 
 
 
@@ -120,5 +125,7 @@ Para verificar se você alterou com êxito uma política de caixa de correio de 
 
 2.  No Shell, execute o comando a seguir.
     
-        Get-CASMailbox -Identity tony@contoso.com
+```powershell
+Get-CASMailbox -Identity tony@contoso.com
+```
 

@@ -72,22 +72,28 @@ A ferramenta de solução de problemas de UM do Microsoft Exchange 2010 é um cm
 2.  Clique com o botão direito do mouse em **Windows PowerShell** e, no menu pop-up, selecione **Executar como administrador**.
 
 3.  No prompt de comando do Windows PowerShell, vá para a pasta onde a Ferramenta de Solução de Problemas de UM foi instalada e execute o seguinte.
-    
-        C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -psconsolefile .\Microsoft.Exchange.UM.TroubleshootingToolsnapin.psc1 -noexit -command ". '.\Microsoft.Exchange.UM.TroubleshootingTool.ps1' "
 
+    ```powershell
+        C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -psconsolefile .\Microsoft.Exchange.UM.TroubleshootingToolsnapin.psc1 -noexit -command ". '.\Microsoft.Exchange.UM.TroubleshootingTool.ps1' "
+    ```
 4.  Se você está executando a Ferramenta de Solução de Problemas de UM no Windows Vista, Windows 7, ou Windows 8, no prompt de comando do Windows PowerShell, execute o seguinte.
     
-        Set-ExecutionPolicy RemoteSigned
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    ```
 
 5.  No menu **Início**, abra a **Ferramenta de Solução de Problemas de UM do Microsoft Exchange 2010**.
 
 6.  Na janela **Ferramenta de Solução de Problemas da UM do Microsoft Exchange 2010**, no prompt, digite o seguinte e pressione Enter.
     
-        $cred=Get-Credential
+    ```powershell
+    $cred=Get-Credential
+    ```
 
 7.  Na janela **Solicitação de Credencial do Windows PowerShell**, digite o nome e a senha do domínio/usuário e depois clique em **OK**.
 
 8.  Na janela **Ferramenta de Solução de Problemas da UM do Microsoft Exchange 2010**, especifique os parâmetros de cmdlet necessários para testar o fluxo da chamada. Por exemplo:
-    
-        Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
 
+    ```powershell
+        Test-ExchangeUMCallFlow -Mode SIPClient -CallingParty tonysmith@contoso.com - CalledParty jamiestark@contoso.com NextHop ocsfe.contoso.com -Credential $cred
+    ```

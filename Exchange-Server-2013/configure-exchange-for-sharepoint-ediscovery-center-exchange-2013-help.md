@@ -47,7 +47,9 @@ Este tópico mostra como configurar a autenticação de servidor-para-servidor e
 
 Execute o comando abaixo para definir o Exchange 2013 como um emissor confiável de token de segurança no SharePoint 2013.
 
+```powershell
     New-SPTrustedSecurityTokenIssuer -Name Exchange -MetadataEndPoint https://<Exchange Server Name or FQDN>/autodiscover/metadata/json/1
+```
 
 ## Etapa 2: Configurar a autenticação de servidor para servidor para o SharePoint 2013 em um servidor que executa o Exchange 2013
 
@@ -55,8 +57,10 @@ Execute esta etapa em um servidor Exchange 2013. Para executar este procedimento
 
 Execute este comando para configurar o aplicativo de parceiro do SharePoint.
 
+```powershell
     cd c:\'Program Files'\Microsoft\'Exchange Server'\V15\Scripts
     .\Configure-EnterprisePartnerApplication.ps1 -AuthMetadataUrl <path to SharePoint AuthMetadataUrl> -ApplicationType SharePoint
+```
 
 ## Etapa 3: Adicionar usuários autorizados ao grupo de funções Gerenciamento de Descoberta
 

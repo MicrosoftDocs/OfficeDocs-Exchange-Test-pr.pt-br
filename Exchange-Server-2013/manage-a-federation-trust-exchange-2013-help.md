@@ -83,11 +83,15 @@ Para tarefas de gerenciamento adicionais relacionadas à Federação, consulte [
 
 1.  Este exemplo remove o domínio service.contoso.com da federação de confiança.
     
-        Remove-FederatedDomain -DomainName service.contoso.com
+    ```powershell
+    Remove-FederatedDomain -DomainName service.contoso.com
+    ```
 
 2.  Este exemplo adiciona o domínio marketing.contoso.com à confiança de federação.
     
-        Add-FederatedDomain -DomainName marketing.contoso.com
+    ```powershell
+    Add-FederatedDomain -DomainName marketing.contoso.com
+    ```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Remove-FederatedDomain](https://technet.microsoft.com/pt-br/library/dd298128\(v=exchg.150\)) e [Add-FederatedDomain](https://technet.microsoft.com/pt-br/library/dd351208\(v=exchg.150\)).
 
@@ -97,31 +101,41 @@ Execute os seguintes comandos do Shell para gerenciar outros aspectos de uma con
     
     Esse exemplo exibe o OrgID federado e informações relacionadas da organização do Exchange, incluindo domínios federados e status.
     
-        Get-FederatedOrganizationIdentifier
+    ```powershell
+    Get-FederatedOrganizationIdentifier
+    ```
 
 2.  **Exibir certificados de confiança de federação**
     
     Este exemplo exibe os certificados anteriores, atuais e futuros usados pela confiança de federação "Autenticação do Azure AD".
     
-        Get-FederationTrust "Azure AD authentication" | Select Org*certificate
+    ```powershell
+    Get-FederationTrust "Azure AD authentication" | Select Org*certificate
+    ```
 
 3.  **Verificar o status dos certificados de federação**
     
     Este exemplo exibe o status de certificados de federação em todos os servidores de Caixa de Correio e Acesso para Cliente.
     
-        Test-FederationTrustCertificate
+    ```powershell
+    Test-FederationTrustCertificate
+    ```
 
 4.  **Configurar a confiança de federação para usar um certificado como o próximo certificado**
     
     Este exemplo configura a confiança de federação "Autenticação do Azure AD" para usar o certificado com a miniatura fornecida como o próximo certificado. Depois que o certificado for implantado em todos os servidores do Exchange na organização,você poder usar a opção *PublishCertificate* para configurar a confiança de federação para usar esse certificado como o atual.
     
-        Set-FederationTrust "Azure AD authentication" -Thumbprint AC00F35CBA8359953F4126E0984B5CCAFA2F4F17
+    ```powershell
+    Set-FederationTrust "Azure AD authentication" -Thumbprint AC00F35CBA8359953F4126E0984B5CCAFA2F4F17
+    ```
 
 5.  **Configurar a confiança de federação para usar o próximo certificado como o certificado atual**
     
     Este exemplo configura a autenticação do Azure AD de confiança de federação para usar o próximo certificado como o certificado atual e publicá-lo para o sistema de autenticação AD do Azure.
     
-        Set-FederationTrust "Azure AD authentication" -PublishFederationCertificate
+    ```powershell
+    Set-FederationTrust "Azure AD authentication" -PublishFederationCertificate
+    ```
     
 
     > [!WARNING]
@@ -133,7 +147,9 @@ Execute os seguintes comandos do Shell para gerenciar outros aspectos de uma con
     
     Este exemplo atualiza os metadados de Federação e o certificado do sistema de autenticação AD do Azure para a autenticação de Azure AD de confiança de Federação.
     
-        Set-FederationTrust "Azure AD authentication" -RefreshMetadata
+    ```powershell
+    Set-FederationTrust "Azure AD authentication" -RefreshMetadata
+    ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 
@@ -153,11 +169,15 @@ Para verificar o sucesso, execute o seguinte procedimento:
 
 1.  Execute o seguinte comando do Shell para verificar as informações de confiança de federação.
     
-        Get-FederationTrust | format-list
+    ```powershell
+    Get-FederationTrust | format-list
+    ```
 
 2.  Execute o comando do Shell para verificar se as informações de federação podem ser recuperadas da sua organização. Por exemplo, verifique se os domínios sales.contoso.com e marketing.contoso.com são retornados no parâmetro *DomainNames*.
     
-        Get-FederationInformation -DomainName <your primary sharing domain>
+    ```powershell
+    Get-FederationInformation -DomainName <your primary sharing domain>
+    ```
 
 
 > [!TIP]

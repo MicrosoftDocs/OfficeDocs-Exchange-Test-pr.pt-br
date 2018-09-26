@@ -69,7 +69,9 @@ Para ver mais tarefas de gerenciamento relacionadas às diretivas de compartilha
 
 Este exemplo configura uma URL do proxy da Web em um servidor de Caixa de Correio MAIL01.
 
-    Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```powershell
+Set-ExchangeServer -Identity "MAIL01" -InternetWebProxy "<Webproxy URL>"
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-ExchangeServer](https://technet.microsoft.com/pt-br/library/bb123716\(v=exchg.150\)).
 
@@ -77,7 +79,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-E
 
 Para verificar se você configurou a URL do proxy Web com êxito, execute o seguinte comando no Shell e verifique as informações sobre o parâmetro *InternetWebProxy*.
 
-    Get-ExchangeServer | format-list
+```powershell
+Get-ExchangeServer | format-list
+```
 
 ## Etapa 2: Usar o Shell para habilitar o diretório virtual de publicação
 
@@ -89,7 +93,9 @@ Para verificar se você configurou a URL do proxy Web com êxito, execute o segu
 
 Este exemplo habilita a publicação do diretório virtual no Servidor de Acesso para Cliente CAS01.
 
+```powershell
     Set-OwaVirtualDirectory -Identity "CAS01\owa (Default Web Site)" -ExternalUrl "<URL for CAS01>" -CalendarEnabled $true
+```
 
 Onde a identidade `CAS01\owa (Default Web Site)` é o nome do servidor e o diretório virtual do Outlook Web App.
 
@@ -99,7 +105,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-O
 
 Para verificar se você habilitou o diretório virtual de publicação com êxito, execute o seguinte comando no Shell e verifique as informações sobre o parâmetro *ExternalURL*.
 
-    Get-OwaVirtualDirectory | format-list
+```powershell
+Get-OwaVirtualDirectory | format-list
+```
 
 ## Etapa 3: Criar ou configurar uma política de compartilhamento específica para publicação de calendário da Internet
 
@@ -143,15 +151,21 @@ Se você deseja criar uma política de compartilhamento específica para publica
 
 Este exemplo cria uma política de compartilhamento de publicação de calendário na Internet chamada "Internet" e configura a política para compartilhar somente informações de disponibilidade. A política é habilitada.
 
-    New-SharingPolicy -Name "Internet" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```powershell
+New-SharingPolicy -Name "Internet" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 Este exemplo adiciona a política de compartilhamento de Internet a uma caixa de correio de usuário.
 
-    Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -Identity <user name> -SharingPolicy "Internet"
+```
 
 Este exemplo adiciona a política de compartilhamento de Internet à unidade organizacional (UO).
 
-    Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```powershell
+Set-Mailbox -OrganizationalUnit <OU name> -SharingPolicy "Internet"
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd298186\(v=exchg.150\)) e [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -159,7 +173,9 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [New-S
 
 Para verificar se você criou a política de compartilhamento com êxito, execute o seguinte comando do Shell para verificar as informações de política de compartilhamento.
 
-    Get-SharingPolicy <policy name> | format-list
+```powershell
+Get-SharingPolicy <policy name> | format-list
+```
 
 ## Opção 2: Configurar a política para publicação de calendário da Internet de compartilhamento padrão
 
@@ -191,7 +207,9 @@ Se você deseja configurar a política de compartilhamento padrão para publica�
 
 Esse exemplo atualiza a Política de Compartilhamento Padrão e configura a política de maneira que sejam compartilhadas somente informações de disponibilidade. A política é habilitada.
 
+```powershell
     Set-SharingPolicy -Name "Default Sharing Policy" -Domains 'Anonymous: CalendarSharingFreeBusySimple' -Enabled $true
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -199,5 +217,7 @@ Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-M
 
 Para verificar se você atualizou a Política de Compartilhamento Padrão com êxito e verificar as informações sobre a política de compartilhamento, execute o seguinte comando do Shell.
 
+```powershell
     Get-SharingPolicy <policy name> | format-list
+```
 

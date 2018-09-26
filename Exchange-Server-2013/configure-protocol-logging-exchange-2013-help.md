@@ -85,11 +85,15 @@ Para verificar que você usou com êxito o EAC para definir as configurações d
 
 Para habilitar ou desabilitar o log em um conector de envio ou um conector de recebimento de protocolo, execute o seguinte comando:
 
-    <Set-SendConnector |Set-ReceiveConnector> <ConnectorIdentity> -ProtocolLoggingLevel <Verbose | None>
+```powershell
+<Set-SendConnector |Set-ReceiveConnector> <ConnectorIdentity> -ProtocolLoggingLevel <Verbose | None>
+```
 
 Este exemplo habilita o log para o conector de recebimento chamado conexão de Contoso.com de protocolo.
 
-    Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```powershell
+Set-ReceiveConnector "Connection from Contoso.com" -ProtocolLoggingLevel Verbose
+```
 
 ## Como saber se funcionou?
 
@@ -97,7 +101,9 @@ Para verificar se você habilitou com êxito ou log de protocolo desativado, fa�
 
 1.  No Shell, execute o comando a seguir:
     
-        <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```command line
+    <Get-SendConnector |Get-ReceiveConnector> | Format-List Name,ProtocolLoggingLevel
+    ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -105,11 +111,15 @@ Para verificar se você habilitou com êxito ou log de protocolo desativado, fa�
 
 Para habilitar ou desabilitar o protocolo de logon o conector de envio invisíveis e implícita dentro da organização que existe no serviço de transporte em um servidor de caixa de correio e no serviço Front End Transport em um servidor de acesso para cliente, execute o seguinte comando:
 
-    <Set-TransportService | Set-FrontEndTransportService> -IntraOrgConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+<Set-TransportService | Set-FrontEndTransportService> -IntraOrgConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 Esse protocolo permite de exemplo logon de dentro da organização de conector de envio no serviço de transporte em um servidor de caixa de correio chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-TransportService Mailbox01 -IntraOrgConnectorProtocolLoggingLevel Verbose
+```
 
 ## Como saber se funcionou?
 
@@ -117,7 +127,9 @@ Para verificar que você com êxito habilitada ou desabilitada protocolo logon o
 
 1.  No Shell, execute o comando a seguir:
     
-        <Get-TransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List IntraOrgConnectorProtocolLoggingLevel
+    ```powershell
+    <Get-TransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List IntraOrgConnectorProtocolLoggingLevel
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -125,11 +137,15 @@ Para verificar que você com êxito habilitada ou desabilitada protocolo logon o
 
 Para habilitar ou desabilitar o protocolo de log a entrega de caixa de correio implícita e invisível conector de envio que existe no serviço de transporte de caixa de correio em um servidor de caixa de correio, execute o seguinte comando:
 
-    Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```powershell
+Set-MailboxTransportService -MailboxDeliveryConnectorProtocolLoggingLevel <Verbose | None>
+```
 
 Este exemplo habilita o protocolo logon o conector de recebimento de entrega de caixa de correio no serviço de transporte de caixa de correio em um servidor de caixa de correio chamado Mailbox01.
 
-    Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```powershell
+Set-MailboxTransportService Mailbox01 -MailboxDeliveryConnectorProtocolLoggingLevel Verbose
+```
 
 ## Como saber se funcionou?
 
@@ -137,7 +153,9 @@ Para verificar que você com êxito habilitada ou desabilitada protocolo logon o
 
 1.  No Shell, execute o comando a seguir:
     
-        Get-MailboxTransportService <ServerIdentity> | Format-List MailboxDeliveryConnectorProtocolLoggingLevel
+    ```powershell
+    Get-MailboxTransportService <ServerIdentity> | Format-List MailboxDeliveryConnectorProtocolLoggingLevel
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -145,7 +163,9 @@ Para verificar que você com êxito habilitada ou desabilitada protocolo logon o
 
 Para definir as configurações de log de protocolo, execute o seguinte comando:
 
-    <Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ReceiveProtocolLogPath <LocalFilePath> -SendProtocolLogPath <LocalFilePath> -ReceiveProtocolLogMaxFileSize <Size> -SendProtocolLogMaxFileSize <Size> -ReceiveProtocolLogMaxDirectorySize <Size> -SendProtocolLogMaxDirectorySize <Size> -ReceiveProtocolLogMaxAge <dd.hh:mm:ss> -SendProtocolLogMaxAge <dd.hh:mm:ss>
+```powershell
+<Set-TransportService | Set-MailboxTransportService | Set-FrontEndTransportService> <ServerIdentity> -ReceiveProtocolLogPath <LocalFilePath> -SendProtocolLogPath <LocalFilePath> -ReceiveProtocolLogMaxFileSize <Size> -SendProtocolLogMaxFileSize <Size> -ReceiveProtocolLogMaxDirectorySize <Size> -SendProtocolLogMaxDirectorySize <Size> -ReceiveProtocolLogMaxAge <dd.hh:mm:ss> -SendProtocolLogMaxAge <dd.hh:mm:ss>
+```
 
 Este exemplo define o protocolo de seguir as configurações de log no serviço de transporte no servidor de caixa de correio chamado Mailbox01:
 
@@ -159,7 +179,9 @@ Este exemplo define o protocolo de seguir as configurações de log no serviço 
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -ReceiveProtocolLogPath "D:\Hub Receive SMTP Log" -SendProtocolLogPath "D:\Hub Send SMTP Log" -ReceiveProtocolLogMaxFileSize 20MB -SendProtocolLogMaxFileSize 20MB -ReceiveProtocolLogMaxDirectorySize 400MB -SendProtocolLogMaxDirectorySize 400MB -ReceiveProtocolLogMaxAge 45.00:00:00 -SendProtocolLogMaxAge 45.00:00:00
+```powershell
+Set-TransportService Mailbox01 -ReceiveProtocolLogPath "D:\Hub Receive SMTP Log" -SendProtocolLogPath "D:\Hub Send SMTP Log" -ReceiveProtocolLogMaxFileSize 20MB -SendProtocolLogMaxFileSize 20MB -ReceiveProtocolLogMaxDirectorySize 400MB -SendProtocolLogMaxDirectorySize 400MB -ReceiveProtocolLogMaxAge 45.00:00:00 -SendProtocolLogMaxAge 45.00:00:00
+```
 
 
 > [!NOTE]
@@ -179,7 +201,9 @@ Para verificar se você configurou com êxito as configurações de log do proto
 
 1.  No Shell, execute o comando a seguir:
     
-        <Get-TransportService | Get-MailboxTransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List SendConnectorProtocolLog*,ReceiveConnectorProtocolLog*
+    ```powershell
+    <Get-TransportService | Get-MailboxTransportService | Get-FrontEndTransportService> <ServerIdentity> | Format-List SendConnectorProtocolLog*,ReceiveConnectorProtocolLog*
+    ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 

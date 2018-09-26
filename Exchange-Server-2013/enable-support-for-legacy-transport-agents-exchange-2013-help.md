@@ -112,20 +112,26 @@ Use o procedimento a seguir para habilitar o suporte para os agentes de transpor
 
 1.  Em uma janela do Prompt de comando, no servidor do Exchange 2013 no qual você deseja configurar o suporte a agente de transporte legado, abra o arquivo de configuração de aplicativo apropriado no Bloco de Notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\<AppConfigFile>
+    ```
     
     Por exemplo, para abrir o arquivo de configuração EdgeTransport.exe em um servidor de Caixa de Correio, execute o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Localize a chave *\</configuration\>* no fim do arquivo e cole as seguintes chaves antes da chave *\</configuration\>*:
     
+    ```powershell
         <startup useLegacyV2RuntimeActivationPolicy="true">
            <supportedRuntime version="v4.0" />
            <supportedRuntime version="v3.5" />
            <supportedRuntime version="v3.0" />
            <supportedRuntime version="v2.0" />
         </startup>
+    ```
 
 3.  Quando tiver terminado, salve e feche o arquivo de configuração do aplicativo.
 
@@ -133,11 +139,15 @@ Use o procedimento a seguir para habilitar o suporte para os agentes de transpor
 
 5.  Reinicie o serviço associado do Windows executando o seguinte comando:
     
+    ```powershell
         net stop <service> && net start <service>
+    ```   
     
     Por exemplo, se você modificar o arquivo EdgeTransport.exe.config, terá que reiniciar o serviço Transporte do Microsoft Exchange executando o seguinte comando:
-    
+
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 6.  Repita a etapa 5 para reiniciar os serviços associados aos outros arquivos de configuração de aplicativo modificados.
 
@@ -145,5 +155,6 @@ Use o procedimento a seguir para habilitar o suporte para os agentes de transpor
 
 Você vai saber que este procedimento funciona se o agente de transporte legado for instalado com êxito. Se tentar instalar um agente de transporte legado sem seguir os procedimentos deste tópico, você receberá um erro semelhante ao seguinte:
 
+```powershell
     Mixed mode assembly is built against version '<version>' of the runtime and cannot be loaded in the 4.0 runtime without additional configuration information.
-
+```

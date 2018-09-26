@@ -77,8 +77,10 @@ Você criar uma nova diretiva de caixa de correio de dispositivo móvel usando o
 
 1.  No Shell, execute o comando a seguir.
     
+    ```powershell
         New-MobileDeviceMailboxPolicy -Name:"Management" -AllowBluetooth:$true -AllowBrowser:$true -AllowCamera:$true -AllowPOPIMAPEmail:$false -PasswordEnabled:$true -AlphanumericPasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:10 -AllowWiFi:$true -AllowStorageCard:$true -AllowPOPIMAPEmail:$false
-
+    ```
+        
 ## Como saber se funcionou?
 
 Para verificar se você criou com êxito uma política de caixa de correio de dispositivo móvel, use uma das seguintes opções:
@@ -87,7 +89,9 @@ Para verificar se você criou com êxito uma política de caixa de correio de di
 
 2.  No Shell, execute o comando a seguir.
     
+    ```powershell
         Get-MobileDeviceMailboxPolicy -Identity <PolicyName> 
+    ```
 
 ## Editar uma política existente de caixa de correio de dispositivo móvel
 
@@ -124,8 +128,10 @@ Você pode usar o Shell para editar uma política de caixa de correio de disposi
 
 
 1.  No Shell, execute o comando a seguir.
-    
+
+    ```powershell
         Set-MobileDeviceMailboxPolicy -Identity:Default -DevicePasswordEnabled:$true -AlphanumericDevicePasswordRequired:$true -PasswordRecoveryEnabled:$true -MaxEmailAgeFilter:ThreeDays -AllowWiFi:$false -AllowStorageCard:$true -AllowPOPIMAPEmail:$false -IsDefault:$true -AllowTextMessaging:$true -Confirm:$true
+    ```
 
 ## Como saber se funcionou?
 
@@ -135,5 +141,7 @@ Para verificar se você teve êxito ao editar uma política de caixa de correio 
 
 2.  No Shell, execute o comando a seguir.
     
+    ```powershell
         Get-MobileDeviceMailboxPolicy -Identity <PolicyName>
+    ```
 

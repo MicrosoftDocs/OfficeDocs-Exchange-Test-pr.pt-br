@@ -39,7 +39,9 @@ _**Tópico modificado em:** 2015-04-08_
 
 Use o cmdlet **Set-OrganizationConfig** para habilitar ou desabilitar o MailTips em sua organização. As Dicas de Email são habilitadas por padrão, quando você instala uma nova organização do Exchange. Este exemplo mostra como habilitar MailTips em sua organização.
 
-    Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```powershell
+Set-OrganizationConfig -MailTipsAllTipsEnabled $true
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-OrganizationConfig](https://technet.microsoft.com/pt-br/library/aa997443\(v=exchg.150\)).
 

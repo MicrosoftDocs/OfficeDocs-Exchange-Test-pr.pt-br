@@ -30,7 +30,7 @@ No Microsoft Exchange Server 2013, você pode configurar intervalos de repetiç�
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -43,27 +43,35 @@ Para configurar a contagem de repetição de falha de fila, o intervalo de repet
 
 1.  Em uma janela de prompt de comando no servidor de caixa de correio ou servidor de transporte de borda, abra o arquivo EdgeTransport.exe.config no bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Localize as chaves a seguir na seção `<appSettings>` .
     
-        <add key="QueueGlitchRetryCount" value="<Integer>" />
-        <add key="QueueGlitchRetryInterval" value="<hh:mm:ss>" />
-        <add key="MailboxDeliveryQueueRetryInterval" value="<hh:mm:ss>" />
-        <add key="MaxIdleTimeBeforeResubmit" value="<hh:mm:ss>" />
+    ```command&nbsp;line
+    <add key="QueueGlitchRetryCount" value="<Integer>" />
+    <add key="QueueGlitchRetryInterval" value="<hh:mm:ss>" />
+    <add key="MailboxDeliveryQueueRetryInterval" value="<hh:mm:ss>" />
+    <add key="MaxIdleTimeBeforeResubmit" value="<hh:mm:ss>" />
+    ```
     
     Este exemplo altera o problema de fila repetir contagem como 6, o intervalo de repetição de falha de fila para 30 segundos, o intervalo de repetição de fila de entrega da caixa de correio para 3 minutos e o tempo ocioso máximo até reenvia final do intervalo de seis horas.
     
-        <add key="QueueGlitchRetryCount" value="6" />
-        <add key="QueueGlitchRetryInterval" value="00:00:30" />
-        <add key="MailboxDeliveryQueueRetryInterval" value="00:03:00" />
-        <add key="MaxIdleTimeBeforeResubmit" value="6:00:00" />
+    ```command&nbsp;line
+    <add key="QueueGlitchRetryCount" value="6" />
+    <add key="QueueGlitchRetryInterval" value="00:00:30" />
+    <add key="MailboxDeliveryQueueRetryInterval" value="00:03:00" />
+    <add key="MaxIdleTimeBeforeResubmit" value="6:00:00" />
+    ````
 
 3.  Quando tiver terminado, salve e feche o arquivo EdgeTransport.exe.config.
 
 4.  Reinicie o serviço de Transporte do Microsoft Exchange executando o seguinte comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Configurar as tentativas de repetição Falha transitória, o intervalo de repetição de falha transitória e o intervalo de repetição de falha de conexão de saída
 
@@ -85,7 +93,9 @@ O intervalo de repetição de falha de conexão de saída Especifica o intervalo
 
 Use a sintaxe a seguir para configurar as tentativas de repetição Falha transitória, o intervalo de repetição de falha transitória e o intervalo de repetição de falha de conexão de saída no serviço de transporte em um servidor de caixa de correio ou em um servidor de transporte de borda.
 
-    Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```
 
 Este exemplo altera os valores a seguir no servidor de caixa de correio chamado Mailbox01: no servidor de transporte de borda Exchange01.
 
@@ -97,13 +107,12 @@ Este exemplo altera os valores a seguir no servidor de caixa de correio chamado 
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
+```powershell
+Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
+```
 
-
-> [!NOTE]
+> [!NOTE]  
 > Os parâmetros <EM>TransientFailureRetryCount</EM> e <EM>TransientFailureRetryInterval</EM> também estão disponíveis no cmdlet <STRONG>Set-FrontEndTransportService</STRONG> para o serviço de Front End Transport nos servidores de acesso para cliente.
-
-
 
 ## Configurar as tentativas de repetição Falha transitória, o intervalo de repetição de falha transitória e o intervalo de repetição de falha de conexão de saída
 
@@ -119,7 +128,9 @@ Este exemplo altera os valores a seguir no servidor de caixa de correio chamado 
 
 Use a sintaxe a seguir para configurar as tentativas de repetição Falha transitória, o intervalo de repetição de falha transitória e o intervalo de repetição de falha de conexão de saída no serviço de transporte em um servidor de caixa de correio ou em um servidor de transporte de borda.
 
-    Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -TransientFailureRetryCount <Integer> -TransientFailureRetryInterval <hh:mm:ss> -OutboundConnectionFailureRetryInterval <dd.hh:mm:ss>
+```
 
 Este exemplo altera os valores a seguir no servidor de caixa de correio chamado Mailbox01: no servidor de transporte de borda Exchange01.
 
@@ -131,13 +142,12 @@ Este exemplo altera os valores a seguir no servidor de caixa de correio chamado 
 
 <!-- end list -->
 
-    Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
+```powershell
+Set-TransportService Mailbox01 -TransientFailureRetryCount 8 -TransientFailureRetryInterval 00:01:00 -OutboundConnectionFailureRetryInterval 00:45:00
+```
 
-
-> [!NOTE]
+> [!NOTE]  
 > Os parâmetros <EM>TransientFailureRetryCount</EM> e <EM>TransientFailureRetryInterval</EM> também estão disponíveis no cmdlet <STRONG>Set-FrontEndTransportService</STRONG> para o serviço de Front End Transport nos servidores de acesso para cliente.
-
-
 
 ## Use o Shell para configurar o intervalo de repetição de mensagem
 
@@ -145,18 +155,22 @@ Por padrão, o intervalo de repetição de mensagem é `00:15:00` ou 15 minutos.
 
 Use a sintaxe a seguir para definir o intervalo de repetição de mensagem.
 
-    Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageRetryInterval <dd.hh:mm:ss>
+```
 
 Este exemplo altera o intervalo de repetição de mensagem como 20 minutos no servidor de caixa de correio chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```powershell
+Set-TransportService Mailbox01 -MessageRetryInterval 00:20:00
+```
 
 ## Definir as configurações de tempo limite DSN de atraso
 
 Você pode usar o EAC ou o Shell para configurar o intervalo de tempo limite de notificação de DSN de atraso. Essa configuração é aplicada somente o servidor de transporte de local. Você só pode usar o Shell para habilitar ou desabilitar o envio de mensagens DSN atraso para remetentes internos e externos. Essas configurações são aplicadas a todos os servidores de transporte na sua organização.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Nos servidores de transporte de Hub Exchange 2007, todos os parâmetros <EM>ExternalDSN*</EM> e <EM>InternalDSN*</EM> estão disponíveis no cmdlet <STRONG>Set-TransportServer</STRONG> , não o cmdlet <STRONG>Set-TransportConfig</STRONG> . Se você tiver quaisquer servidores de transporte de Hub Exchange 2007 em sua organização, você precisará fazer alterações nesses valores usando o cmdlet <STRONG>Set-TransportServer</STRONG> em cada servidor de transporte de Hub Exchange 2007.
 
 
@@ -173,25 +187,35 @@ Você pode usar o EAC ou o Shell para configurar o intervalo de tempo limite de 
 
 Use a sintaxe a seguir para definir o intervalo de repetição de mensagem.
 
-    Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -DelayNotificationTimeout <dd.hh:mm:ss>
+```
 
 Este exemplo altera o intervalo de tempo limite de notificação do atraso DSN mensagem como seis horas no servidor de caixa de correio chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```powershell
+Set-TransportService Mailbox01 -DelayNotificationTimeout 06:00:00
+```
 
 ## Usar o Shell para habilitar ou desabilitar o envio de notificações de DSN atraso aos remetentes das mensagens interno ou externo
 
 Use a sintaxe a seguir para definir as configurações de notificação de DSN de atraso.
 
-    Set-TransportConfig -ExternalDelayDSNEnabled <$true | $false> -InternalDelayDSNEnabled <$true |$false>
+```powershell
+Set-TransportConfig -ExternalDelayDSNEnabled <$true | $false> -InternalDelayDSNEnabled <$true |$false>
+```
 
 Este exemplo impede que o envio de mensagens de notificação do atraso DSN para remetentes externos.
 
-    Set-TransportConfig -ExternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -ExternalDelayDSNEnabled $false
+```
 
 Este exemplo impede que o envio de mensagens de notificação de DSN atraso para remetentes internos.
 
-    Set-TransportConfig -InternalDelayDSNEnabled $false
+```powershell
+Set-TransportConfig -InternalDelayDSNEnabled $false
+```
 
 ## Configurar o intervalo de tempo limite de expiração de mensagem
 
@@ -207,9 +231,12 @@ Este exemplo impede que o envio de mensagens de notificação de DSN atraso para
 
 Para configurar o intervalo de tempo limite de expiração de mensagem, use a seguinte sintaxe.
 
-    Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```powershell
+Set-TransportService <ServerIdentity> -MessageExpirationTimeout <dd.hh:mm:ss>
+```
 
 Este exemplo altera o intervalo de tempo limite de expiração de mensagem para 4 dias no servidor Exchange chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
-
+```powershell
+Set-TransportService Mailbox01 -MessageExpirationTimeout 4.00:00:00
+```

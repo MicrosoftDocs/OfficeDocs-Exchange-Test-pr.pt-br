@@ -45,11 +45,15 @@ Quando a funcionalidade de filtragem de remetente está habilitada em um servido
 
 Para desabilitar a filtragem de remetente, execute o seguinte comando:
 
-    Set-SenderFilterConfig -Enabled $false
+```powershell
+Set-SenderFilterConfig -Enabled $false
+```
 
 Para habilitar a filtragem de remetente, execute o seguinte comando:
 
-    Set-SenderFilterConfig -Enabled $true
+```powershell
+Set-SenderFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -63,7 +67,9 @@ Para verificar que você tiver com êxito habilitou ou desabilitou a filtragem d
 
 1.  Execute o seguinte comando:
     
-        Get-SenderFilterConfig | Format-List Enabled
+    ```powershell
+    Get-SenderFilterConfig | Format-List Enabled
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -71,16 +77,20 @@ Para verificar que você tiver com êxito habilitou ou desabilitou a filtragem d
 
 Para substituir os valores existentes, execute o seguinte comando:
 
+```powershell
     Set-SenderFilterConfig -BlockedSenders <sender1,sender2...> -BlockedDomains <domain1,domain2...> -BlockedDomainsAndSubdomains <domain1,domain2...>
+```
 
 Este exemplo configura o agente Filtro de remetente para bloquear mensagens de kim@contoso.com e john@contoso.com, as mensagens do domínio fabrikam.com e mensagens do northwindtraders.com e todos os seus subdomínios.
 
+```powershell
     Set-SenderFilterConfig -BlockedSenders kim@contoso.com,john@contoso.com -BlockedDomains fabrikam.com -BlockedDomainsAndSubdomains northwindtraders.com
+```
 
 Para adicionar ou remover entradas sem modificar quaisquer valores existentes, execute este comando:
-
+```powershell
     Set-SenderFilterConfig -BlockedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BlockedDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...} -BlockedDomainsAndSubdomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
-
+```
 Este exemplo configura o agente Filtro de remetente com as seguintes informações:
 
   - Adicione chris@contoso.com e michelle@contoso.com à lista de remetentes existentes que são bloqueados.
@@ -90,16 +100,18 @@ Este exemplo configura o agente Filtro de remetente com as seguintes informaçõ
   - Adicione blueyonderairlines.com à lista de domínios existentes do remetente e subdomínios que são bloqueados.
 
 <!-- end list -->
-
+```powershell
     Set-SenderFilterConfig -BlockedSenders @{Add="chris@contoso.com","michelle@contoso.com"} -BlockedDomains @{Remove="tailspintoys.com"} -BlockedDomainsAndSubdomains @{Add="blueyonderairlines.com"}
-
+```
 ## Como saber se funcionou?
 
 Para verificar se você configurou com êxito remetentes bloqueados, faça o seguinte:
 
 1.  Execute o seguinte comando:
     
-        Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```powershell
+    Get-SenderFilterConfig | Format-List BlockedSenders,BlockedDomains,BlockedDomainsAndSubdomains
+    ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -107,11 +119,15 @@ Para verificar se você configurou com êxito remetentes bloqueados, faça o seg
 
 Para habilitar ou desabilitar a mensagem de bloqueio com remetentes em branco, execute o seguinte comando:
 
-    Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingenabled <$true | $false>
+```
 
 Este exemplo configura o agente de filtro de remetente para bloquear mensagens que não especificar um remetente em MAIL FROM: comando SMTP:
 
-    Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```powershell
+Set-SenderFilterConfig -BlankSenderBlockingEnabled $true
+```
 
 ## Como saber se funcionou?
 
@@ -119,7 +135,9 @@ Para verificar que você com êxito habilitada ou desabilitada bloqueio mensagen
 
 1.  Execute o seguinte comando:
     
-        Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```powershell
+    Get-SenderFilterConfig | Format-List BlankSenderBlockingEnabled
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 

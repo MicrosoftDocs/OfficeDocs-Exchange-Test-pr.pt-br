@@ -53,22 +53,30 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a planos de disca
 
 Este exemplo remove um servidor de Caixa de Correio chamado `MyMailboxServer` do plano de discagem URI SIP chamado `MySIPDialPlan`.
 
+```powershell
     $dp= Get-UMDialPlan "MySIPDialPlan"
     $s=Get-UMService MyMailboxServer
     $s.dialplans-=$dp.identity
     Set-UMService -id MyMailboxServer -dialplans:$s.dialplans
+```
 
 Neste exemplo, existem três planos de discagem de URI SIP: SipDP1, SipDP2 e SipDP3. Este exemplo remove um servidor de Caixa de Correio chamado `MyMailboxServer` do plano de discagem SipDP3.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1,SipDP2
+```
 
 Neste exemplo, existem dois planos de discagem de URI SIP: SipDP1 e SipDP2. Este exemplo remove um servidor de Caixa de Correio chamado `MyMailboxServer` do plano de discagem SipDP2.
 
-    Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```powershell
+Set-UMService -id MyMailboxServer -DialPlans SipDP1
+```
 
 Este exemplo remove um servidor de Caixa de Correio chamado `MyMailboxServer` de todos os planos de discagem SIP.
 
-    Set-UMService -id MyUMServer -DialPlans $null
+```powershell
+Set-UMService -id MyUMServer -DialPlans $null
+```
 
 ## Usar o EAC para remover um servidor de Acesso para Cliente do plano de discagem URI SIP
 
@@ -84,20 +92,28 @@ Este exemplo remove um servidor de Caixa de Correio chamado `MyMailboxServer` de
 
 Este exemplo remove um servidor de Acesso para Cliente chamado `MyClientAccessServer` do plano de discagem URI SIP chamado `MySIPDialPlan`.
 
+```powershell
     $dp= Get-UMDialPlan "MySIPDialPlan"
     $s=Get-UMCallRouterSettings MyClientAccessServer
     $s.dialplans-=$dp.identity
     Set-UMCallRouterSettings -id MyClientAccessServer -dialplans:$s.dialplans
+```
 
 Neste exemplo, existem três planos de discagem de URI SIP: SipDP1, SipDP2 e SipDP3. Este exemplo remove um servidor de Acesso para Cliente chamado `MyClientAccessServer` do plano de discagem SipDP3.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1,SipDP2
+```
 
 Neste exemplo, existem dois planos de discagem de URI SIP: SipDP1 e SipDP2. Este exemplo remove um servidor de Acesso para Cliente chamado `MyClientAccessServer` do plano de discagem SipDP2.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans SipDP1
+```
 
 Este exemplo remove um servidor de Acesso para Cliente chamado `MyClientAccessServer` de todos os planos de discagem SIP.
 
-    Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
+```powershell
+Set-UMCallRouterSettings -id MyClientAccessServer -DialPlans $null
+```
 

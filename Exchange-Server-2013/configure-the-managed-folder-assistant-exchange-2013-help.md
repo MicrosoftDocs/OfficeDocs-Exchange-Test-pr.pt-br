@@ -45,7 +45,9 @@ Para outras tarefas de gerenciamento relacionadas ao gerenciamento de registros 
 
 Este exemplo configura o Assistente de pasta gerenciada para processar todas as caixas de correio dentro de um dia.
 
-    Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```powershell
+Set-MailboxServer MyMailboxServer -ManagedFolderWorkCycle 1
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-MailboxServer](https://technet.microsoft.com/pt-br/library/aa998651\(v=exchg.150\)).
 
@@ -55,13 +57,17 @@ Para verificar se você configurou com êxito Assistente de pasta gerenciada, us
 
 Este comando recupera todos os servidores de caixa de correio na organização e emite o propriedades workcycle do Assistente de pasta gerenciada em cada servidor no formato de tabela. A opção de *Auto* é usada para ajustar automaticamente a largura da coluna.
 
-    Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```powershell
+Get-MailboxServer | Format-Table Name,ManagedFolderWorkCycle* -Auto
+```
 
 ## Use o Shell para iniciar o Assistente de pasta gerenciada
 
 Este exemplo aciona o Assistente de pasta gerenciada para processar imediatamente a caixa de correio de Morris Cornejo.
 
-    Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```powershell
+Start-ManagedFolderAssistant -Identity morris.cornejo@contoso.com
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Start-ManagedFolderAssistant](https://technet.microsoft.com/pt-br/library/aa998864\(v=exchg.150\)).
 

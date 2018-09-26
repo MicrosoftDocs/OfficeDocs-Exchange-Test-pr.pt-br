@@ -33,7 +33,9 @@ Execute este procedimento para instalar o recurso do Windows neste computador. S
 
 2.  Execute o seguinte comando para instalar o recurso de Windows necessário.
     
-        Install-WindowsFeature RSAT-Clustering-CmdInterface
+    ```powershell
+    Install-WindowsFeature RSAT-Clustering-CmdInterface
+    ```
 
 Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542), ou [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=285351).
 

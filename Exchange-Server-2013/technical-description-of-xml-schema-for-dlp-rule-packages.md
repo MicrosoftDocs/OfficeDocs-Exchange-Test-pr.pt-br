@@ -63,6 +63,7 @@ A definição de regra é construída a partir de três componentes principais:
 
 Três elementos de suportados adicionais são usados que definem os detalhes do processamento e referenciada dentro os componentes principais: palavra-chave, Regex e função. Usando referências, uma única definição dos elementos de suporte, como um número de seguridade social, pode ser usada em várias regras de entidade ou afinidade. A estrutura básica de regra em formato XML pode ser vista da seguinte maneira.
 
+```powershell
     <?xml version="1.0" encoding="utf-8"?>
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
     
@@ -111,6 +112,7 @@ Três elementos de suportados adicionais são usados que definem os detalhes do 
         </LocalizedStrings>
       </Rules>
     </RulePackage>
+```
 
 ## Regras da entidade
 
@@ -136,6 +138,7 @@ Outro elemento sub-recurso opcional do elemento padrão é a correspondência qu
 
 Elementos de correspondência e IdMatch não definem os detalhes do qual o conteúdo deve ser correspondido mas em vez disso, referenciá-lo por meio do atributo idRef. Isso promove a capacidade de reutilização de definições em várias construções de padrão.
 
+```powershell
     <Entity id="..." patternsProximity="300" > 
         <Pattern confidenceLevel="85">
             <IdMatch idRef="FormattedSSN" />
@@ -157,6 +160,7 @@ Elementos de correspondência e IdMatch não definem os detalhes do qual o conte
         </Pattern>
     </Entity> 
 
+```
 O elemento de id da entidade, representado no XML anterior por "..." deve ser um GUID e é referenciado na seção de cadeias de caracteres localizadas.
 
 ## Janela de proximidade do padrão de entidade
@@ -211,6 +215,7 @@ Cada regra de afinidade contém um ou mais elementos de evidência filho que def
 
 Elementos de evidência têm uma ou mais de correspondência ou quaisquer elementos filho. Se todos os filhos de correspondência e quaisquer elementos coincidirem, a evidência for encontrada e o nível de confiança é contribuíram para o cálculo de nível de confiança de regras. A mesma descrição se aplica a correspondência ou quaisquer elementos para regras de afinidade às propriedades de regras da entidade.
 
+```powershell
     <Affinity id="..." 
               evidencesProximity="1000"
               thresholdConfidenceLevel="65">
@@ -231,6 +236,7 @@ Elementos de evidência têm uma ou mais de correspondência ou quaisquer elemen
             </Any> 
         </Evidence>
     </Affinity>
+```
 
 ## Janela de proximidade afinidade
 
@@ -327,6 +333,7 @@ Em seguida, ajuste o nível de confiança para cada padrão ou a evidência nas 
 
 O esquema de regra suporta o armazenamento de nome localizado e uma descrição para cada um dos elementos da entidade e afinidade. Cada elemento da entidade e afinidade deve conter um elemento correspondente na seção LocalizedStrings. Para localizar cada elemento, inclua um elemento de recurso como um filho do elemento LocalizedStrings para armazenar o nome e as descrições para várias localidades para cada elemento. O elemento de recurso inclui um atributo idRef necessários que corresponde ao atributo idRef correspondente para cada elemento que está sendo localizado. Os elementos filho de localidade do elemento de recurso contém o nome localizado e descrições para cada localidade especificada.
 
+```powershell
     <LocalizedStrings>
         <Resource idRef="guid">
             <Locale langcode="en-US" default="true"> 
@@ -343,9 +350,11 @@ O esquema de regra suporta o armazenamento de nome localizado e uma descrição 
             </Locale> 
         </Resource>
     </LocalizedStrings>
+```
 
 ## Pacote de regra de classificação definição de esquema XML
 
+```powershell
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema xmlns:mce="http://schemas.microsoft.com/office/2011/mce"
                targetNamespace="http://schemas.microsoft.com/office/2011/mce" 
@@ -621,6 +630,7 @@ O esquema de regra suporta o armazenamento de nome localizado e uma descrição 
         </xs:simpleContent>
       </xs:complexType>
     </xs:schema>
+```
 
 ## Para obter mais informações
 

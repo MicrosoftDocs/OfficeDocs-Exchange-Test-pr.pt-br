@@ -63,7 +63,9 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas ao MRM (Gerenciam
 
 1.  Execute este comando Shell de Gerenciamento do Exchange para alterar o diretório para a subpasta de **Scripts** no seu caminho de instalação Exchange.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Execute o script Export-RetentionTags.ps1 para exportar as marcas de retenção para um arquivo .xml.
     
@@ -72,7 +74,9 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas ao MRM (Gerenciam
     > Se você estiver importando ou exportando marcas de retenção e políticas de retenção para Exchange Online, será necessário conectar sua sessão do Windows PowerShell para Exchange Online. Para obter detalhes, consulte <A href="https://technet.microsoft.com/pt-br/library/jj984289(v=exchg.150)">Conectar-se ao Exchange Online usando o PowerShell Remoto</A>.
 
     
-        .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+    .\Export-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## Como saber se funcionou?
 
@@ -86,7 +90,9 @@ Para confirmar se você exportou as marcas de retenção e as políticas de rete
 
 1.  Execute este comando Shell de Gerenciamento do Exchange para alterar o diretório para a subpasta de **Scripts** no seu caminho de instalação Exchange.
     
-        Cd $Env:ExchangeInstallPath\Scripts
+    ```powershell
+    Cd $Env:ExchangeInstallPath\Scripts
+    ```
 
 2.  Execute o script Import-RetentionTags.ps1 para importar as marcas de retenção de um arquivo .xml exportado anteriormente.
     
@@ -100,7 +106,9 @@ Para confirmar se você exportou as marcas de retenção e as políticas de rete
     > Ao executar esse script contra Exchange Online, você pode ser solicitado a confirmar que você deseja executar o software de um editor confiável. Verifique se o nome do Editor aparece como <CODE>CN=Microsoft Corporation, OU=MOPR, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</CODE>e clique em <STRONG>R</STRONG> para permitir que o script a ser executado uma vez ou <STRONG>uma</STRONG> para sempre são executados.
 
     
-        .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```powershell
+    .\Import-RetentionTags.ps1 "c:\docs\ExportedRetentionTags.xml"
+    ```
 
 ## Como saber se funcionou?
 

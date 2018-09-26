@@ -315,7 +315,9 @@ Como uma prática recomendada, minimize o número de certificados que você usa 
 
 Para clientes do Outlook Anywhere, recomendamos que você use um único certificado SAN (Nome Alternativo do Requerente) para cada datacenter e inclua vários nomes de host no certificado. Para assegurar a conectividade do Outlook Anywhere após a alternância de um banco de dados, servidor ou datacenter, você deve usar o mesmo Nome Principal do Certificado em cada certificado e configurar o objeto de Configuração do Provedor do Outlook no Active Directory com o mesmo Nome Principal na Forma Padrão Microsoft (msstd). Por exemplo, se usar um Nome Principal do Certificado de mail.contoso.com, você configuraria o atributo da seguinte forma:
 
-    Set-OutlookProvider EXPR -CertPrincipalName "msstd:mail.contoso.com"
+```powershell
+Set-OutlookProvider EXPR -CertPrincipalName "msstd:mail.contoso.com"
+```
 
 Alguns aplicativos que se integram ao Exchange têm requisitos de certificado específicos que podem exigir o uso de certificados adicionais. O Exchange 2013 pode coexistir com o OCS (Office Communications Server). O OCS exige certificados com 1024 bits ou certificados maiores que usam o nome de servidor do OCS para o Nome Principal do Certificado. Como o uso de um nome de servidor do OCS para o Nome Principal do Certificado impediria o Outlook Anywhere de funcionar corretamente, você precisaria usar um certificado adicional e à parte para o ambiente do OCS.
 

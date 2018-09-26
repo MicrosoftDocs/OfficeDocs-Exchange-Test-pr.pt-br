@@ -49,11 +49,15 @@ Para obter mais informações sobre log circular e CRCL, consulte [Exchange Nati
 
 Este exemplo ativa o log circular do banco de dados DB1.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $True
+```
 
 Este exemplo desativa o log circular do banco de dados DB1.
 
-    Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```powershell
+Set-MailboxDatabase DB1 -CircularLoggingEnabled $False
+```
 
 Consulte [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)) para conhecer outros parâmetros de banco de dados de caixa de correio que você pode configurar.
 

@@ -42,7 +42,7 @@ Verify EdgeSync results
   - Você precisa ter um Servidor de borda inscrito em seu site do Active Directory voltado para a Internet. Para obter mais informações, consulte [Configurar o fluxo de mensagens da Internet por meio de um servidor de Transporte de Borda inscrito](configure-internet-mail-flow-through-a-subscribed-edge-transport-server-exchange-2013-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -73,19 +73,27 @@ Depois que você remover a Inscrição de Borda, a sincronização de informaç�
 
 1.  Para remover a Inscrição de Borda do servidor de Transporte de Borda, use a sintaxe a seguir.
     
-        Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```powershell
+    Remove-EdgeSubscription <EdgeTransportServerIdentity>
+    ```
     
     Por exemplo, para remover a Inscrição de Borda do servidor de Transporte de Borda chamado Edge01, execute o comando a seguir.
     
-        Remove-EdgeSubscription Edge01
+    ```powershell
+    Remove-EdgeSubscription Edge01
+    ```
 
 2.  Para remover a Inscrição de Borda do servidor de Caixa de Correio, use a sintaxe a seguir.
     
-        Remove-EdgeSubscription <MailboxServerIdentity>
+    ```powershell
+    Remove-EdgeSubscription <MailboxServerIdentity>
+    ```
     
     Por exemplo, para remover a Inscrição de Borda do servidor de Caixa de Correio chamado Mailbox01, execute o comando a seguir.
     
-        Remove-EdgeSubscription Mailbox01
+    ```powershell
+    Remove-EdgeSubscription Mailbox01
+    ```
 
 Será necessário remover a Inscrição de Borda se:
 
@@ -124,7 +132,7 @@ Ocasionalmente, talvez seja necessário inscrever-se novamente um servidor de Tr
   - As credenciais de ESRA estão comprometidas.
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Para inscrever novamente um servidor de Transporte de Borda, exporte um novo arquivo de Inscrição de Borda para o servidor de Transporte de Borda e, então, importe o arquivo XML em um servidor de Caixa de Correio. Será necessário inscrever novamente o servidor de Transporte de Borda no mesmo site do Active Directory onde ele foi originalmente inscrito. Não é necessário remover primeiro a Inscrição de Borda original; o novo processo de inscrição substituirá a Inscrição de Borda existente.
 
 
@@ -143,7 +151,9 @@ Um EdgeSync manual redefine a programação de sincronização do EdgeSync. A pr
 
 Para executar manualmente o EdgeSync, use a sintaxe a seguir.
 
-    Start-EdgeSynchronization [-Server <MailboxServerIdentity>] [-TargetServer <EdgeTransportServerIdentity> [-ForceFullSync]
+```powershell
+Start-EdgeSynchronization [-Server <MailboxServerIdentity>] [-TargetServer <EdgeTransportServerIdentity> [-ForceFullSync]
+```
 
 O exemplo a seguir inicia o EdgeSync com as seguintes opções:
 
@@ -155,7 +165,9 @@ O exemplo a seguir inicia o EdgeSync com as seguintes opções:
 
 <!-- end list -->
 
-    Start-EdgeSynchronization -Server Mailbox01
+```powershell
+Start-EdgeSynchronization -Server Mailbox01
+```
 
 Este exemplo inicia o EdgeSync com as seguintes opções:
 
@@ -167,7 +179,9 @@ Este exemplo inicia o EdgeSync com as seguintes opções:
 
 <!-- end list -->
 
-    Start-EdgeSynchronization -TargetServer Edge03 -ForceFullSync
+```powershell
+Start-EdgeSynchronization -TargetServer Edge03 -ForceFullSync
+```
 
 ## Verificar os resultados do EdgeSync
 
@@ -181,11 +195,14 @@ A saída criada por esse cmdlet permite que você veja quais objetos não foram 
 
 Para verificar resultados do EdgeSync para um único destinatário, use a sintaxe a seguir no servidor de Caixa de Correio no site Active Directory inscrito.
 
-    Test-EdgeSynchronization -VerifyRecipient <emailaddress>
+```powershell
+Test-EdgeSynchronization -VerifyRecipient <emailaddress>
+```
 
 Este exemplo verifica resultado do EdgeSync para a usuária kate@contoso.com.
 
-    Test-EdgeSynchronization -VerifyRecipient kate@contoso.com
+```powershell
+Test-EdgeSynchronization -VerifyRecipient kate@contoso.com
+```
 
 Voltar ao início
-

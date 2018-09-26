@@ -59,8 +59,9 @@ Este exemplo configura o IRM para permitir que Exchange pesquisa para indexar me
 > Por padrão, o parâmetro <EM>SearchEnabled</EM> é definido para <CODE>$true</CODE>. Para desabilitar a indexação de mensagens protegidas por IRM, defina-o para <CODE>$false</CODE>. Desabilitando a indexação das mensagens protegidas por IRM impede que eles sejam retornadas nos resultados da pesquisa quando os usuários pesquisar suas caixas de correio ou gerentes de descoberta usam In-Place eDiscovery.
 
 
-
+```powershell
     Set-IRMConfiguration -SearchEnabled $true
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/pt-br/library/dd979792\(v=exchg.150\)).
 
@@ -73,8 +74,9 @@ Este exemplo permite que os membros do grupo de função de gerenciamento de des
 > Por padrão, o parâmetro <EM>EDiscoverySuperUserEnabled</EM> é definido para <CODE>$true</CODE>. Para desabilitar o acesso às mensagens protegidas por IRM para membros do grupo de função de gerenciamento de descoberta, defina-o para <CODE>$false</CODE>.
 
 
-
+```powershell
     Set-IRMConfiguration -EDiscoverySuperUserEnabled $true
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-IRMConfiguration](https://technet.microsoft.com/pt-br/library/dd979792\(v=exchg.150\)).
 

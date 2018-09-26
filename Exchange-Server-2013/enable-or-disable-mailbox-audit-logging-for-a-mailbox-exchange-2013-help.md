@@ -61,11 +61,15 @@ Você pode usar o Shell para habilitar ou desabilitar uma caixa de correio do lo
 
 Este exemplo habilita a caixa de correio Ben Smith do log de auditoria de caixa de correio.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditEnabled $true
+```
 
 Este exemplo desabilita a caixa de correio Ben Smith do log de auditoria de caixa de correio.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditEnabled $false
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditEnabled $false
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -75,15 +79,21 @@ Quando a auditoria de caixa de correio log está habilitado para uma caixa de co
 
 Este exemplo especifica que serão registradas as ações de `SendAs` ou `SendOnBehalf` realizadas pelos usuários do representante de caixa de correio Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditDelegate SendAs,SendOnBehalf -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditDelegate SendAs,SendOnBehalf -AuditEnabled $true
+```
 
 Este exemplo especifica que as ações `MessageBind` e `FolderBind` executadas pelos administradores serão registradas para caixa de correio Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditAdmin MessageBind,FolderBind -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditAdmin MessageBind,FolderBind -AuditEnabled $true
+```
 
 Este exemplo especifica que a ação de `HardDelete` executada pelo proprietário da caixa de correio será registrada para caixa de correio Ben Smith.
 
-    Set-Mailbox -Identity "Ben Smith" -AuditOwner HardDelete -AuditEnabled $true
+```powershell
+Set-Mailbox -Identity "Ben Smith" -AuditOwner HardDelete -AuditEnabled $true
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -93,5 +103,6 @@ Para verificar que você com êxito habilitada para uma caixa de correio do log 
 
 Este exemplo recupera as configurações de caixa de correio Ben Smith e canaliza as configurações de auditoria especificado, incluindo o limite de idade de log de auditoria, para o cmdlet **Format-List** .
 
+```powershell
     Get-Mailbox "Ben Smith" | Format-List *audit*
-
+```

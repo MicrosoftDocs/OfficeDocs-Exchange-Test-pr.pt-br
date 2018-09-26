@@ -47,7 +47,9 @@ O Log de Auditoria de Administrador do Microsoft Exchange Server 2013 permite a 
 
 Por padrão, o log de auditoria cria uma entrada de log para cada cmdlet executado. Se você estiver habilitando o log de auditoria pela primeira vez e quiser esse comportamento, não será preciso alterar a lista de auditoria de cmdlet. Se já tiver especificado anteriormente os cmdlets para auditar e agora quiser auditar todos os cmdlets, você poderá auditar todos os cmdlets especificando o caractere curinga de asterisco (\*) com o parâmetro *AdminAuditLogCmdlets* no cmdlet **Set-AdminAuditLogConfig**, conforme exibido no comando a seguir:
 
-    Set-AdminAuditLogConfig -AdminAuditLogCmdlets *
+  ```powershell
+  Set-AdminAuditLogConfig -AdminAuditLogCmdlets *
+  ```
 
 É possível especificar quais cmdlets serão auditados fornecendo uma lista de cmdlets usando o parâmetro *AdminAuditLogCmdlets*. Ao fornecer a lista de cmdlets a serem auditados, você pode indicar cmdlets individuais, cmdlets com caracteres curinga de asterisco(\*) ou uma mistura de ambos. As entradas da lista são separadas por vírgulas. Os seguintes valores são válidos:
 
@@ -61,7 +63,9 @@ Por padrão, o log de auditoria cria uma entrada de log para cada cmdlet executa
 
 Este exemplo audita os cmdlets especificados na lista anterior.
 
-    Set-AdminAuditLogConfig -AdminAuditLogCmdlets New-Mailbox, *TransportRule, *Management*, Set-Transport*
+  ```powershell
+  Set-AdminAuditLogConfig -AdminAuditLogCmdlets New-Mailbox, *TransportRule, *Management*, Set-Transport*
+  ```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/pt-br/library/dd298169\(v=exchg.150\)).
 
@@ -69,7 +73,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminA
 
 Por padrão, o log de auditoria cria uma entrada de log para cada cmdlet executado, independente dos parâmetros especificados. Se você estiver habilitando o log de auditoria pela primeira vez e quiser esse comportamento, não será preciso alterar a lista de auditoria do parâmetro. Se já tiver especificado anteriormente os parâmetros para auditar e agora quiser auditar todos os parâmetros, você poderá fazer isso especificando o caractere curinga de asterisco (\*) com o parâmetro *AdminAuditLogParameters* no cmdlet **Set-AdminAuditLogConfig**, conforme exibido no comando a seguir:
 
-    Set-AdminAuditLogConfig -AdminAuditLogParameters *
+  ```powershell
+  Set-AdminAuditLogConfig -AdminAuditLogParameters *
+  ```
 
 Você pode especificar que parâmetros deseja auditar usando o parâmetro *AdminAuditLogParameters*. Ao fornecer a lista de parâmetros a serem auditados, você pode indicar parâmetros individuais, parâmetros com caracteres curinga de asterisco (\*) ou uma mistura de ambos. As entradas da lista são separadas por vírgulas. Os seguintes valores são válidos:
 
@@ -89,7 +95,9 @@ Você pode especificar que parâmetros deseja auditar usando o parâmetro *Admin
 
 Este exemplo audita os parâmetros especificados na lista anterior.
 
-    Set-AdminAuditLogConfig -AdminAuditLogParameters Database, *Address*, Custom*, *Region
+  ```powershell
+  Set-AdminAuditLogConfig -AdminAuditLogParameters Database, *Address*, Custom*, *Region
+  ```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/pt-br/library/dd298169\(v=exchg.150\)).
 
@@ -115,7 +123,9 @@ O limite de idade de log de auditoria determina por quanto tempo as entradas de 
 
 Este exemplo especifica um limite de idade de dois anos e seis meses.
 
-    Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogAgeLimit 913.00:00:00
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/pt-br/library/dd298169\(v=exchg.150\)).
 
@@ -125,11 +135,15 @@ Os cmdlets que começam com o verbo **Test** não são registrados em log por pa
 
 Este comando habilita o registro em log de cmdlets **Test**.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $True
+```
 
 Este comando desabilita o registro em log de cmdlets **Test**.
 
-    Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```powershell
+Set-AdminAuditLogConfig -TestCmdletLoggingEnabled $False
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminAuditLogConfig](https://technet.microsoft.com/pt-br/library/dd298169\(v=exchg.150\)).
 
@@ -137,17 +151,23 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Set-AdminA
 
 Para desabilitar o log de auditoria de administrador, use o comando a seguir.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $False
+```
 
 ## Habilitar log de auditoria de administrador
 
 Para habilitar o log de auditoria de administrador, use o comando a seguir.
 
-    Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```powershell
+Set-AdminAuditLogConfig -AdminAuditLogEnabled $True
+```
 
 ## Exibir as configurações do log de auditoria de administrador
 
 Para exibir as configurações de log de auditoria do administrador configuradas para sua organização, use o comando a seguir.
 
-    Get-AdminAuditLogConfig
+```powershell
+Get-AdminAuditLogConfig
+```
 

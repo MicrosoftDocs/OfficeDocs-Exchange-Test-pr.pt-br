@@ -63,11 +63,12 @@ Se você não selecionou um certificado autoassinado, você precisará enviar o 
 
 Execute os seguintes comandos.
 
-```
+```powershell
 $reqfile = New-ExchangeCertificate -GenerateRequest -SubjectName "C=US,o=Contoso,cn=contosotocert" -DomainName "contoso.com" -PrivateKeyExportable $true
 ```
-```
-    $reqfile | out-file c:\certreq.txt
+
+```powershell
+$reqfile | out-file c:\certreq.txt
 ```
 
 ## Como saber se funcionou?

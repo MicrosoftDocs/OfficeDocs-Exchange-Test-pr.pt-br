@@ -65,11 +65,15 @@ Para mais informações relacionadas a POP3 e IMAP4, consulte [POP3 e IMAP4 no E
 
 Este exemplo ativa o IMAP4 para o usuário Paulo Silva.
 
-    Set-CASMailbox -Identity "John Smith" -IMAPEnabled $true
+```powershell
+Set-CASMailbox -Identity "John Smith" -IMAPEnabled $true
+```
 
 Este exemplo desativa o IMAP4 para o usuário Paulo Silva.
 
-    Set-CASMailbox -Identity "John Smith" -IMAPEnabled $false
+```powershell
+Set-CASMailbox -Identity "John Smith" -IMAPEnabled $false
+```
 
 ## Como saber se funcionou?
 

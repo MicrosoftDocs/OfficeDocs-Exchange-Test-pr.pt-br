@@ -22,7 +22,7 @@ _**Tópico modificado em:** 2015-07-07_
 As cotas de armazenamento permitem que os administradores controlem o tamanho de caixas de correio e gerenciem o crescimento de bancos de dados de caixa de correio. Quando uma caixa de correio atinge ou excede uma cota de armazenamento especificada, o Exchange envia uma notificação descritiva ao proprietário da caixa de correio.
 
 
-> [!NOTE]
+> [!NOTE]  
 > As cotas de armazenamento são aplicadas em relação ao tamanho de uma determinada caixa de correio conforme definido pela propriedade <CODE>TotalItemSize</CODE> ao executar o cmdlet <CODE>Get-MailboxStatistics</CODE>. Saiba mais em <A href="https://technet.microsoft.com/pt-br/library/bb124612(v=exchg.150)">Get-MailboxStatistics</A>.
 
 
@@ -40,7 +40,7 @@ Este tópico mostra como personalizar as configurações de armazenamento de uma
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>..
 
 
@@ -60,7 +60,7 @@ Este tópico mostra como personalizar as configurações de armazenamento de uma
       - **Emitir aviso em (GB)**   Essa caixa mostra o limite máximo de armazenamento antes de um aviso ser emitido para o usuário. Se o tamanho da caixa de correio atingir ou exceder o valor especificado, o Exchange enviará uma mensagem de aviso para o usuário.
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > A mensagem associada à cota de <STRONG>Aviso de problema</STRONG> não será enviada ao usuário, a menos que o valor dessa configuração seja superior a 50% do valor especificado na cota <STRONG>Proibir envio</STRONG>. Por exemplo, se você definir a cota de <STRONG>Proibir envio</STRONG> para 8 Mb, você deve definir o <STRONG>Aviso de problema</STRONG> da cota para pelo menos 4 MB. Se você não fizer isso, o <STRONG>Aviso de problema</STRONG> mensagem de cota não será enviada.
 
     
@@ -75,16 +75,19 @@ Este tópico mostra como personalizar as configurações de armazenamento de uma
 Este exemplo define as cotas de aviso de problema, proibição de envio e proibição de envio e recebimento para a caixa de correio de Joe Healy em 24,5 GB, 24,75 GB e 25 GB respectivamente.
 
 
-> [!NOTE]
+> [!NOTE]  
 > Para garantir que as configurações personalizadas da caixa de correio sejam usadas em lugar dos padrões de banco de dados da caixa de correio, você deve definir o parâmetro <EM>UseDatabaseQuotaDefaults</EM> como <CODE>$false</CODE>.
 
 
-
-    Set-Mailbox -Identity "Joe Healy" -IssueWarningQuota 24.5gb -ProhibitSendQuota 24.75gb -ProhibitSendReceiveQuota 25gb -UseDatabaseQuotaDefaults $false
+```powershell
+Set-Mailbox -Identity "Joe Healy" -IssueWarningQuota 24.5gb -ProhibitSendQuota 24.75gb -ProhibitSendReceiveQuota 25gb -UseDatabaseQuotaDefaults $false
+```
 
 Este exemplo define as cotas de aviso de problema, proibição de envio e proibição de envio e recebimento para a caixa de correio de Ayla Kol em 900 MB, 950 MB e 1 GB respectivamente e configura a caixa de correio para utilizar configurações personalizadas.
 
-    Set-Mailbox -Identity "Ayla Kol" -IssueWarningQuota 900mb -ProhibitSendQuota 950mb -ProhibitSendReceiveQuota 1gb -UseDatabaseQuotaDefaults $false
+```powershell
+Set-Mailbox -Identity "Ayla Kol" -IssueWarningQuota 900mb -ProhibitSendQuota 950mb -ProhibitSendReceiveQuota 1gb -UseDatabaseQuotaDefaults $false
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, confira [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -106,5 +109,6 @@ Ou
 
 Execute o seguinte comando no Shell.
 
-    Get-Mailbox <identity> | fl IssueWarningQuota,ProhibitSendQuota,ProhibitSendReceiveQuota,UseDatabaseQuotaDefaults
-
+```powershell
+Get-Mailbox <identity> | fl IssueWarningQuota,ProhibitSendQuota,ProhibitSendReceiveQuota,UseDatabaseQuotaDefaults
+```

@@ -44,7 +44,7 @@ Ambos os scripts estão localizados na pasta %ExchangeInstallPath%Scripts.
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -57,11 +57,15 @@ Ambos os scripts estão localizados na pasta %ExchangeInstallPath%Scripts.
 
 2.  Para exportar os dados de configuração do servidor de origem para um arquivo no servidor de origem, use a sintaxe a seguir.
     
-        ./ExportEdgeConfig.ps1 -CloneConfigData:"<configuration file>"
+    ```powershell
+    ./ExportEdgeConfig.ps1 -CloneConfigData:"<configuration file>"
+    ```
     
     Por exemplo, para exportar os dados de configuração de servidor de origem para o arquivo C:\\CloneConfigData.xml, execute o comando a seguir.
     
-        ./ExportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml"
+    ```powershell
+    ./ExportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml"
+    ```
 
 ## Como saber se essa etapa funcionou?
 
@@ -75,11 +79,15 @@ Você saberá que exportou com êxito os dados de configuração de origem para 
 
 3.  Para validar o arquivo de configuração e usar os resultados para criar um arquivo de resposta no servidor de destino, use a sintaxe a seguir.
     
-        ./ImportEdgeConfig.ps1 -CloneConfigData:"<configuration file>" -IsImport $false -CloneConfigAnswer:"<answer file>"
+    ```powershell
+    ./ImportEdgeConfig.ps1 -CloneConfigData:"<configuration file>" -IsImport $false -CloneConfigAnswer:"<answer file>"
+    ```
     
     Por exemplo, para validar o arquivo de configuração C:\\CloneConfigData.xml e criar o arquivo de resposta C:\\CloneConfigAnswer.xml, execute o comando a seguir.
     
-        ./ImportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml" -IsImport $false -CloneConfigAnswer:"C:\CloneConfigAnswer.xml"
+    ```powershell
+    ./ImportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml" -IsImport $false -CloneConfigAnswer:"C:\CloneConfigAnswer.xml"
+    ```
 
 4.  Abra o arquivo de resposta e modifique quaisquer configurações que sejam inválidas para o servidor de destino. Se nenhuma modificação for necessária, o arquivo de resposta não terá entradas. Salve suas alterações.
 
@@ -91,13 +99,16 @@ Você saberá que validou com êxito o arquivo de configuração e que criou um 
 
 Para importar o arquivo de configuração no servidor de destino, use a sintaxe a seguir.
 
-    ./ImportEdgeConfig.ps1 -CloneConfigData:"<Configuration file>" -IsImport $true -CloneConfigAnswer:"<answer file>"
+```powershell
+./ImportEdgeConfig.ps1 -CloneConfigData:"<Configuration file>" -IsImport $true -CloneConfigAnswer:"<answer file>"
+```
 
 Por exemplo, para validar o arquivo de configuração C:\\CloneConfigData.xml usando o arquivo de resposta C:\\CloneConfigAnswer.xml, execute o comando a seguir.
 
-    ./ImportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml" -IsImport $true -CloneConfigAnswer:"C:\CloneConfigAnswer.xml"
+```powershell
+./ImportEdgeConfig.ps1 -CloneConfigData:"C:\CloneConfigData.xml" -IsImport $true -CloneConfigAnswer:"C:\CloneConfigAnswer.xml"
+```
 
 ## Como saber se essa etapa funcionou?
 
 Você saberá que importou com êxito o arquivo de configuração no servidor de destino quando a mensagem de confirmação "A importação das informações de configuração de Borda foi bem-sucedida" aparecer.
-

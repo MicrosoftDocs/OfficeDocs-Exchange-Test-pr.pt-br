@@ -57,7 +57,9 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a planos de disca
 
 Este exemplo adiciona o servidor de Caixa de Correio chamado `MyMailboxServer` a um plano de discagem URI do SIP chamado `MySIPDialPlan` e o impede de aceitar novas chamadas. Ele também define o modo inicial como modo Duplo, que habilita o servidor da Caixa de Correio a aceitar solicitações TCP e TLS.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan -Status Disabled -UMStartupMode Dual
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan -Status Disabled -UMStartupMode Dual
+```
 
 Esse exemplo adiciona o servidor de Caixa de Correio chamado `MyMailboxServer` a dois planos de discagem SIP, chamados `MySIPDialPlan` e `MySIPDialPlan2`, e define o seguinte:
 
@@ -69,7 +71,9 @@ Esse exemplo adiciona o servidor de Caixa de Correio chamado `MyMailboxServer` a
 
 <!-- end list -->
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -MaxCallsAllowed 50 -SipAccessService northamerica.lyncpoolna.contoso.com
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -MaxCallsAllowed 50 -SipAccessService northamerica.lyncpoolna.contoso.com
+```
 
 ## Use o EAC para adicionar um servidor de Acesso para Cliente a um plano de discagem URI do SIP
 
@@ -87,9 +91,13 @@ Esse exemplo adiciona o servidor de Caixa de Correio chamado `MyMailboxServer` a
 
 Este exemplo adiciona o servidor de Acesso para Cliente chamado `MyClientAccessServer` e um plano de discagem URI do SIP chamado `MySIPDialPlan`. Ele também define o modo inicial como modo Duplo, que habilita o servidor da Acesso para Cliente a aceitar solicitações TCP e TLS.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -Server MyClientAccessServer -UMStartupMode Dual
+```
 
 Esse exemplo adiciona o servidor de Acesso para Cliente chamado `MyClientAccessServer` a dois planos de discagem SIP, chamados `MySIPDialPlan` e `MySIPDialPlan2`, e permite que o servidor use endereços IPv4 e IPv6.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan, MySIPDialPlan2 -IPAddressFamily Any -Server MyClientAccessServer
+```
 

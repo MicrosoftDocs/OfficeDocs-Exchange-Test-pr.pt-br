@@ -390,8 +390,9 @@ Valores de atributo no arquivo CSV substituem o valor do parâmetro corresponden
 
 Por exemplo, vamos dizer que você cria um lote no Shell de Gerenciamento do Exchange para principal dos usuários de mover para mover uma empresa entre florestas e caixas de correio de arquivo morto para a floresta de destino com o seguinte comando Shell de Gerenciamento do Exchange.
 
-    New-MigrationBatch -Name CrossForestBatch1 -SourceEndpoint ForestEndpoint1 -TargetDeliveryDomain forest2.contoso.com -TargetDatabases @(EXCH-MBX-02,EXCH-MBX-03) -TargetArchiveDatabases @(EXCH-MBX-A02,EXCH-MBX-A03) -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\CrossForestBatch1.csv")) -AutoStart
-
+```powershell
+New-MigrationBatch -Name CrossForestBatch1 -SourceEndpoint ForestEndpoint1 -TargetDeliveryDomain forest2.contoso.com -TargetDatabases @(EXCH-MBX-02,EXCH-MBX-03) -TargetArchiveDatabases @(EXCH-MBX-A02,EXCH-MBX-A03) -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\CrossForestBatch1.csv")) -AutoStart
+```
 
 > [!NOTE]  
 > Como o padrão é para mover principal e arquivar caixas de correio, você não precisa explicitamente especificá-lo no comando Shell de Gerenciamento do Exchange.
@@ -400,26 +401,32 @@ Por exemplo, vamos dizer que você cria um lote no Shell de Gerenciamento do Exc
 
 Uma parte do arquivo CrossForestBatch1.csv para este lote de migração tem esta aparência:
 
-    EmailAddress,TargetDatabase,TargetArchiveDatabase
-    user1@contoso.com,EXCH-MBX-01,EXCH-MBX-A01
-    user2@contoso.com,,
-    user3@contoso.com,EXCH-MBX-01,
-    ...
+```powershell
+EmailAddress,TargetDatabase,TargetArchiveDatabase
+user1@contoso.com,EXCH-MBX-01,EXCH-MBX-A01
+user2@contoso.com,,
+user3@contoso.com,EXCH-MBX-01,
+...
+```
 
 Como os valores no arquivo CSV substituem os valores para o lote de migração, o principal e caixas de correio de arquivo morto de user1 são movidas para EXCH-MBX-01 e EXCH-MBX-A01, respectivamente, na floresta de destino. O principal e caixas de correio de arquivo morto para Usuário2 são movidas para EXCH-MBX-02 ou EXCH-MBX-03. Caixa de correio primária para user3 é movida EXCH-MBX-01 e a caixa de correio de arquivo morto é movida para EXCH-MBX-A02 ou EXCH-MBX-A03.
 
 Em outro exemplo, vamos supor que você cria um lote para uma migração de movimentação remota de inclusão em uma implantação híbrida para mover caixas de correio de arquivo morto para Exchange Online com o seguinte comando.
 
-    New-MigrationBatch -Name OnBoarding1 -SourceEndpoint RemoteEndpoint1 -TargetDeliveryDomain cloud.contoso.com -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\OnBoarding1.csv")) -MailboxType ArchiveOnly -AutoStart
+```powershell
+New-MigrationBatch -Name OnBoarding1 -SourceEndpoint RemoteEndpoint1 -TargetDeliveryDomain cloud.contoso.com -CSVData ([System.IO.File]::ReadAllBytes("C:\Users\Administrator\Desktop\OnBoarding1.csv")) -MailboxType ArchiveOnly -AutoStart
+```
 
 Mas você também deseja mover as caixas de correio primárias para usuários selecionados, portanto uma parte do arquivo OnBoarding1.csv para este lote de migração se pareceria com este:
 
-    EmailAddress,MailboxType
-    user1@contoso.com,
-    user2@contoso.com,
-    user3@cloud.contoso.com,PrimaryAndArchive
-    user4@cloud.contoso.com,PrimaryAndArchive
-    ...
+```powershell
+EmailAddress,MailboxType
+user1@contoso.com,
+user2@contoso.com,
+user3@cloud.contoso.com,PrimaryAndArchive
+user4@cloud.contoso.com,PrimaryAndArchive
+...
+```
 
 Porque o valor de tipo de caixa de correio no arquivo CSV substitui os valores para o parâmetro *MailboxType* no comando para criar o lote, somente a caixa de correio de arquivo morto para user1 e user2 é migrada para Exchange Online. Mas o principal e caixas de correio de arquivo morto para user3 e user4 são movidas para Exchange Online.
 

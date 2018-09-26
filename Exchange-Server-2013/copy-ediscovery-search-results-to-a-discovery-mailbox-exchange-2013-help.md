@@ -77,19 +77,24 @@ Depois de usar o cmdlet **New-MailboxSearch** para criar uma pesquisa de descobe
 
 Você poderia, por exemplo, execute o seguinte comando para iniciar uma pesquisa de descoberta eletrônica chamada *Fabrikam investigação* para copiar os resultados da pesquisa para a caixa de correio de descoberta especificado.
 
-    Start-MailboxSearch "Fabrikam Investigation"
+```powershell
+Start-MailboxSearch "Fabrikam Investigation"
+```
 
 Se você usou a opção *EstimateOnly* para fazer uma estimativa dos resultados da pesquisa, você precisa remover o comutador antes de copiar os resultados da pesquisa. Você também precisa especificar uma caixa de correio de descoberta para copiar para os resultados de pesquisa. Por exemplo, que você criou uma pesquisa somente estimativa usando o seguinte comando:
 
-    New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeUnsearchableItems
+  ```powershell
+  New-MailboxSearch "FY13 Q2 Financial Results" -StartDate "04/01/2013" -EndDate "06/30/2013" -SourceMailboxes "DG-Finance" -SearchQuery '"Financial" AND "Fabrikam"' -EstimateOnly -IncludeUnsearchableItems
+  ```
 
 Para copiar os resultados da pesquisa para uma caixa de correio de descoberta, você faria execute os seguintes comandos:
 
-```
+```powershell
 Set-MailboxSearch "FY13 Q2 Financial Results" -EstimateOnly $false -TargetMailbox "Discovery Search Mailbox"
 ```
-```
-    Start-MailboxSearch "FY13 Q2 Financial Results"
+
+```powershell
+Start-MailboxSearch "FY13 Q2 Financial Results"
 ```
 
 ## Para obter mais informações sobre como copiar os resultados da pesquisa

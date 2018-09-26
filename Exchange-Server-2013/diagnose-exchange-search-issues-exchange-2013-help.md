@@ -57,7 +57,9 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 2.  **Verificar a configuração do banco de dados de caixa de correio**   O parâmetro *IndexEnabled* está definido como true para o banco de dados de caixa de correio do usuário? Se tiver, vá para a Etapa 3. Do contrário, execute o comando a seguir no Shell para verificar se o sinalizador *IndexEnabled* está definido como true.
     
-        Get-MailboxDatabase | Format-Table Name,IndexEnabled
+    ```powershell
+    Get-MailboxDatabase | Format-Table Name,IndexEnabled
+    ```
     
     Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Get-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb124924\(v=exchg.150\)).
 
@@ -85,13 +87,17 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 4.  **Verificar a integridade de indexação de cópia de banco de dados**   O índice de conteúdo é íntegro? Use o cmdlet **Get-MailboxDatabaseCopyStatus** para verificar a integridade de indexação do conteúdo de uma cópia de banco de dados.
     
-        Get-MailboxDatabaseCopyStatus -Server $env:ComputerName | Format-Table Name,Status,ContentIndex* -Auto
+    ```powershell
+    Get-MailboxDatabaseCopyStatus -Server $env:ComputerName | Format-Table Name,Status,ContentIndex* -Auto
+    ```
     
     Para informações detalhadas sobre sintaxes e parâmetros, consulte [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/pt-br/library/dd298044\(v=exchg.150\)).
 
 5.  **Executar o cmdlet Test-ExchangeSearch**   Se o banco de dados de caixa de correio já tiver sido rastreado, será possível executar o cmdlet **Test-ExchangeSearch** para o banco de dados de caixa de correio ou para uma caixa de correio específica.
     
-        Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+    ```powershell
+    Test-ExchangeSearch -Identity AlanBrewer@contoso.com
+    ```
     
     Para informações detalhadas sobre sintaxes e parâmetros, consulte [Test-ExchangeSearch](https://technet.microsoft.com/pt-br/library/bb124733\(v=exchg.150\)).
 

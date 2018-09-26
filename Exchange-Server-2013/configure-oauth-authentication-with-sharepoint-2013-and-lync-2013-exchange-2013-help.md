@@ -11,8 +11,6 @@ ms.translationtype: MT
 
 # Configurar a autenticação OAuth com o SharePoint 2013 e Lync 2013
 
- 
-
 _**Aplica-se a:** Exchange Server 2013_
 
 _**Tópico modificado em:** 2014-03-03_
@@ -38,7 +36,7 @@ No Exchange 2013, a configuração OAuth com aplicativos de parceiros tais como 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -51,13 +49,17 @@ Depois de configurar a autenticação OAuth do Exchange, o aplicativo de parceir
 
 Este exemplo configura a autenticação OAuth para SharePoint 2013.
 
-    Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
-    Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://sharepoint.contoso.com/_layouts/15/metadata/json/1 -ApplicationType SharePoint
+```powershell
+Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
+Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://sharepoint.contoso.com/_layouts/15/metadata/json/1 -ApplicationType SharePoint
+```
 
 Este exemplo configura a autenticação OAuth para Lync Server 2013.
 
-    Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
-    Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://lync.contoso.com/metadata/json/1 -ApplicationType Lync
+```powershell
+Cd C:\Program Files\Microsoft\Exchange Server\V15\Scripts
+Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl https://lync.contoso.com/metadata/json/1 -ApplicationType Lync
+```
 
 ## Como saber se funcionou?
 
@@ -68,4 +70,3 @@ Para verificar se você configurou com êxito um aplicativo de parceiro empresar
   - Em implantações híbridas, você pode usar a autenticação OAuth entre sua organização local do Exchange 2013 e a organização do Exchange Online. Para obter mais informações, consulte [Usando a autenticação OAuth para suportar a Descoberta Eletrônica em uma implantação híbrida do Exchange](using-oauth-authentication-to-support-ediscovery-in-an-exchange-hybrid-deployment-exchange-2013-help.md).
 
   - Em implantações locais, você pode configurar a autenticação entre servidores entre o Exchange 2013 e o SharePoint 2013 de modo que os administradores e agentes de conformidade possam usar a Central de descoberta eletrônica no SharePoint 2013 para pesquisar caixas de correio do Exchange 2013. Para obter mais informações, consulte [Configurar o Exchange para o SharePoint eDiscovery Center](configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help.md).
-

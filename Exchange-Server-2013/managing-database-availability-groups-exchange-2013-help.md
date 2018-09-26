@@ -423,7 +423,9 @@ Em configurações do adaptador de rede dual, uma rede geralmente é dedicada pa
 
 No Exchange 2010, a configuração manual de redes DAG era necessária em muitos casos. Por padrão no Exchange 2013, as redes DAG são configuradas automaticamente pelo sistema. Antes de criar ou modificar redes DAG, você deve primeiro habilitar o controle manual de redes DAG executando este comando:
 
-    Set-DatabaseAvailabilityGroup <DAGName> -ManualDagNetworkConfiguration $true
+```powershell
+Set-DatabaseAvailabilityGroup <DAGName> -ManualDagNetworkConfiguration $true
+```
 
 Depois de habilitar a configuração manual de redes DAG, você poderá usar o cmdlet **New-DatabaseAvailabilityGroupNetwork** no Shell para criar uma rede do DAG. Para instruções detalhadas sobre como criar uma rede DAG, consulte [Criar uma rede de grupo de disponibilidade do banco de dados](create-a-database-availability-group-network-exchange-2013-help.md).
 
@@ -531,7 +533,9 @@ Na configuração a seguir, há duas sub-redes configuradas no DAG: 192.168.1.0 
 
 Para concluir a configuração do ReplicationDagNetwork01 como a rede de replicação dedicada, desabilite a replicação para MapiDagNetwork executando o seguinte comando.
 
-    Set-DatabaseAvailabilityGroupNetwork -Identity DAG1\MapiDagNetwork -ReplicationEnabled:$false
+```powershell
+Set-DatabaseAvailabilityGroupNetwork -Identity DAG1\MapiDagNetwork -ReplicationEnabled:$false
+```
 
 Depois que a replicação é desabilitada para MapiDagNetwork, o serviço de replicação do Microsoft Exchange usa ReplicationDagNetwork01 para replicação contínua. Se ReplicationDagNetwork01 falhar, o serviço de replicação do Microsoft Exchange volta a usar MapiDagNetwork para replicação contínua. Isso é feito intencionalmente pelo sistema para manter alta disponibilidade.
 
@@ -629,7 +633,9 @@ Na configuração a seguir, há quatro sub-redes configuradas no DAG: 192.168.0.
 
 Por padrão, os DAGs realizam a descoberta de todas as redes detectadas e configuradas para uso pelo cluster subjacente. Isso inclui todas as redes iSCSI (Internet SCSI) em uso como resultado do uso do armazenamento iSCSI para um ou mais membros do DAG. Como prática recomendada, o armazenamento iSCSI deve usar redes dedicadas e adaptadores de rede. Essas redes não devem ser gerenciadas pelo DAG ou pelo cluster, ou usadas como redes DAG (MAPI ou replicação). Em vez disso, essas redes devem ser desabilitadas manualmente do uso pelo DAG, para que possam ser dedicadas ao tráfego de armazenamento iSCSI. Para impedir que redes iSCSI sejam detectadas e usadas como redes DAG, configure o DAG para ignorar quaisquer redes iSCSI detectadas no momento usando o cmdlet [Set-DatabaseAvailabilityGroupNetwork](https://technet.microsoft.com/pt-br/library/dd298008\(v=exchg.150\)), como neste exemplo:
 
-    Set-DatabaseAvailabilityGroupNetwork -Identity DAG2\DAGNetwork02 -ReplicationEnabled:$false -IgnoreNetwork:$true
+```powershell
+Set-DatabaseAvailabilityGroupNetwork -Identity DAG2\DAGNetwork02 -ReplicationEnabled:$false -IgnoreNetwork:$true
+```
 
 Este comando também irá desativar a rede para uso pelo cluster. Embora as redes iSCSI continuem aparecendo como redes do DAG, elas não serão usadas para MAPI ou tráfego de replicação após a execução do comando acima.
 
@@ -661,7 +667,9 @@ O valor padrão é `GoodAvailability`. Se você especificar `BestAvailability` o
 
 O exemplo a seguir configura um servidor de Caixa de Correio com uma configuração *AutoDatabaseMountDial* de `GoodAvailability`.
 
-    Set-MailboxServer -Identity EX1 -AutoDatabaseMountDial GoodAvailability
+```powershell
+Set-MailboxServer -Identity EX1 -AutoDatabaseMountDial GoodAvailability
+```
 
 ## Política de ativação automática de cópia do banco de dados
 
@@ -677,7 +685,9 @@ O parâmetro *DatabaseCopyAutoActivationPolicy* especifica o tipo de ativação 
 
 O exemplo a seguir configura um servidor de Caixa de Correio com uma configuração *DatabaseCopyAutoActivationPolicy* de `Blocked`.
 
-    Set-MailboxServer -Identity EX1 -DatabaseCopyAutoActivationPolicy Blocked
+```powershell
+Set-MailboxServer -Identity EX1 -DatabaseCopyAutoActivationPolicy Blocked
+```
 
 ## Máximo de bancos de dados ativos
 
@@ -689,7 +699,9 @@ O parâmetro *MaximumActiveDatabases* é configurado com um valor numérico de n
 
 O exemplo a seguir configura um servidor de Caixa de Correio para suporte a um máximo de 20 bancos de dados ativos.
 
-    Set-MailboxServer -Identity EX1 -MaximumActiveDatabases 20
+```powershell
+Set-MailboxServer -Identity EX1 -MaximumActiveDatabases 20
+```
 
 Voltar ao início
 

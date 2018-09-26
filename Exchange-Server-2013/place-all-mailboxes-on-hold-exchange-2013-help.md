@@ -105,7 +105,9 @@ Aqui estão alguns fatores a serem considerados ao decidir o recurso de espera, 
 
 É possível rapidez e facilidade colocar todas as caixas em espera indefinidamente ou por um período especificado usando o Shell. Esse comando coloca todas as caixas de correio em espera por 2555 dias (aproximadamente sete anos).
 
+```powershell
     Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Set-Mailbox -LitigationHoldEnabled $true -LitigationHoldDuration 2555
+```
 
 O exemplo usa o cmdlet [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)) e um filtro de destinatário para recuperar todas as caixas de correio do usuário na organização e, em seguida canaliza toda a lista de caixas de correio para o cmdlet [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) para habilitar a retenção de litígio e especificar uma duração de espera. Para mais informações, consulte [Colocar uma caixa de correio em Retenção de Litígio](place-a-mailbox-on-litigation-hold-exchange-2013-help.md).
 
@@ -129,21 +131,25 @@ Você pode usar o EAC para selecionar até 500 caixas de correio e colocá-las e
     
     Eis alguns exemplos de usar os cmdlets **Get-Mailbox** e **Get-Recipient** para obter um subconjunto de caixas de correio com base em propriedades de usuário ou de caixa de correio comuns. Esses exemplos supõem que as propriedades de caixa de correio relevantes (como *CustomAttributeN* ou *Department*) foram preenchidas.
     
-```
+```powershell
         Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'CustomAttribute15 -eq "OneYearLitigationHold"'
 ```
-```    
-        Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
-```   
-``` 
+  
+```powershell
+    Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'Department -eq "HR"'
+```
+  
+```powershell
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'PostalCode -eq "98052"'
 ```
-```    
+```powershell   
         Get-Recipient -RecipientTypeDetails UserMailbox -ResultSize unlimited -Filter 'StateOrProvince -eq "WA"'
 ```
-```    
-        Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
+ 
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -ne "DiscoveryMailbox"}
 ```
+
 
 Você pode usar outras propriedades de caixa de correio em um filtro para incluir ou excluir caixas de correio. Para saber mais, confira [Propriedades filtráveis para o parâmetro -Filter](https://technet.microsoft.com/pt-br/library/bb738155\(v=exchg.150\)).
 

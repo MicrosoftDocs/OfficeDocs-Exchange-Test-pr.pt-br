@@ -41,7 +41,9 @@ Por padrão, somente membros do grupo de funções de Gerenciamento de Organiza�
 
 Você pode usar o comando a seguir para exibir uma lista de usuários ou USGs que sejam membros deste grupo de função.
 
-    Get-RoleGroupMember "Organization Management"
+```powershell
+Get-RoleGroupMember "Organization Management"
+```
 
 Para mais informações sobre os membros de um grupo de função, consulte [Gerenciar grupos de função](manage-role-groups-exchange-2013-help.md).
 

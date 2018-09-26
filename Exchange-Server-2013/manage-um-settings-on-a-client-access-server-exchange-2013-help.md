@@ -49,23 +49,33 @@ Para conhecer tarefas adicionais relacionadas a servidores de Unificação de Me
 
 Esse exemplo remove um servidor de Acesso para Cliente chamado `MyClientAccessServer` de todos os planos de discagem do Protocolo SIP.
 
-    Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans $null - Server MyClientAccessServer
+```
 
 Este exemplo adiciona o servidor de Acesso para Cliente chamado `MyClientAccessServer` a um plano de discagem de SIP chamado `MySIPDialPlan`, e também define o número máximo de chamadas de voz de entrada.
 
-    Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```powershell
+Set-UMCallRouterSettings -DialPlans MySIPDialPlan -MaxCalls 150 -Server MyClientAccessServer
+```
 
 Esse exemplo define a porta de escuta de protocolo TCP SIP como 5077 e o modo de inicialização como modo Dual em um servidor de Acesso para Cliente chamado `MyClientAccessServer`.
 
+```powershell
     Set-UMCallRouterSettings  -Server MyClientAccessServer-SipTCPListeningPort 5077 -UMStartUpMode -Dual 
+```
 
 ## Use o Shell para visualizar as propriedades do servidor de Acesso para Cliente
 
 Esse exemplo exibe uma lista de todos os servidores de Acesso para Cliente.
 
-    Get-UMCallRouterSettings
+```powershell
+Get-UMCallRouterSettings
+```
 
 Esse exemplo exibe uma lista formatada das propriedades do servidor de Acesso para Cliente.
 
-    Get-UMCallRouterSettings | Format-List
+```powershell
+Get-UMCallRouterSettings | Format-List
+```
 

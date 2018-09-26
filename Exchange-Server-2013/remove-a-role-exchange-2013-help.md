@@ -45,11 +45,15 @@ Procurando outras tarefas de gerenciamento relacionadas a funções? Consulte [P
 
 Para remover uma função sem funções filhas, use a sintaxe a seguir.
 
-    Remove-ManagementRole <role name>
+```powershell
+Remove-ManagementRole <role name>
+```
 
 Este exemplo remove a função Administradores de Servidores de Seattle.
 
-    Remove-ManagementRole "Seattle Server Administrators"
+```powershell
+Remove-ManagementRole "Seattle Server Administrators"
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-ManagementRole](https://technet.microsoft.com/pt-br/library/dd351170\(v=exchg.150\)).
 
@@ -65,13 +69,17 @@ Se uma função que você deseja remover tiver funções filhas, será preciso r
 
 Para garantir que você remova apenas as funções que deseja remover, use a opção *WhatIf* com seu comando para verificar se está tudo certo. Use a sintaxe a seguir.
 
-    Remove-ManagementRole <role name> -Recurse -WhatIf
+```powershell
+Remove-ManagementRole <role name> -Recurse -WhatIf
+```
 
 A opção *WhatIf* realiza o comando sem confirmar as alterações e relata quais funções teriam sido removidas. Para obter mais informações sobre a opção *WhatIf*, consulte [Comutadores WhatIf, Confirm e ValidateOnly](whatif-confirm-and-validateonly-switches-exchange-2013-help.md).
 
 Depois de confirmar que apenas as funções que você deseja remover serão removidas, execute o mesmo comando sem a opção *WhatIf*. Este exemplo remove a função Administradores de Londres e todas as suas funções filhas.
 
-    Remove-ManagementRole "London Administrators" -Recurse
+```powershell
+Remove-ManagementRole "London Administrators" -Recurse
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-ManagementRole](https://technet.microsoft.com/pt-br/library/dd351170\(v=exchg.150\)).
 
@@ -79,7 +87,9 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-Man
 
 Para remover uma função sem escopo, use os mesmos procedimentos em Remove a management role with no child roles e Remove a management role with child roles, anteriormente neste tópico. A única diferença é que, ao remover uma função sem escopo, é preciso especificar a opção *UnScopedTopLevel* ao executar o comando. Este exemplo remove uma função sem escopo e todas as suas funções filhas.
 
-    Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```powershell
+Remove-ManagementRole "Custom IT Scripts" -Recurse -UnScopedTopLevel
+```
 
 Da mesma forma que com outras funções, use a opção *WhatIf* para verificar se você está removendo as funções corretas.
 

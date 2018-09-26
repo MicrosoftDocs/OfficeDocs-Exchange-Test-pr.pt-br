@@ -55,7 +55,9 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 Este exemplo adiciona uma sub-rede de 10.0.0.0 e uma máscara de sub-rede de 255.0.0.0 à rede de DAG MapiDagNetwork no DAG DAG1.
 
-    Set-DatabaseAvailabilityGroupNetwork -Subnets 10.0.0.0/8 -Identity DAG1\MapiDagNetwork
+```powershell
+Set-DatabaseAvailabilityGroupNetwork -Subnets 10.0.0.0/8 -Identity DAG1\MapiDagNetwork
+```
 
 ## Como saber se funcionou?
 
@@ -63,7 +65,9 @@ Para verificar se você configurou com êxito a rede do DAG, faça o seguinte:
 
   - No Shell, execute o comando a seguir para exibir as definições de configuração de rede do DAG e verificar se a rede do DAG foi configurada com êxito.
     
-        Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```powershell
+    Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+    ```
 
 ## Para obter mais informações
 

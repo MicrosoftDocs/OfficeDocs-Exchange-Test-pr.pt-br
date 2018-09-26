@@ -314,7 +314,9 @@ Os parâmetros de filtragem e classificação disponíveis no cmdlet **Get-Queue
 
 Este exemplo retorna todas as filas externas não vazias nos servidores de Caixa de Correio do Exchange 2013 chamadas Mailbox01,Mailbox02 e Mailbox03.
 
-    Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```powershell
+Get-QueueDigest -Server Mailbox01,Mailbox02,Mailbox03 -Include External -Exclude Empty
+```
 
 Voltar ao início
 
@@ -515,11 +517,15 @@ Você pode especificar um filtro que avalia várias expressões usando o operado
 
 Este exemplo exibe uma lista de filas que tenham um destino para qualquer nome de domínio SMTP que termina em Contoso.com e que atualmente contém mais de 500 mensagens.
 
-    Get-Queue -Filter {Identity -like "*contoso.com*" -and MessageCount -gt 500}
+```powershell
+Get-Queue -Filter {Identity -like "*contoso.com*" -and MessageCount -gt 500}
+```
 
 Este exemplo exibe uma lista de mensagens enviadas de qualquer endereço de email no domínio contoso.com que tenham um SCL maior que 5.
 
-    Get-Message -Filter {FromAddress -like "*Contoso.com*" -and SCL -gt 5}
+```powershell
+Get-Message -Filter {FromAddress -like "*Contoso.com*" -and SCL -gt 5}
+```
 
 Voltar ao início
 
@@ -594,15 +600,21 @@ O exemplo a seguir usa script para recuperar a primeira página de resultados, d
 
 1.  Abra o Shell e digite o seguinte comando para recuperar a primeira página de resultados.
     
-        $Results=Get-message -Server mailbox01.contoso.com -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```powershell
+    $Results=Get-message -Server mailbox01.contoso.com -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```
 
 2.  Para definir o objeto indicador, digite o seguinte comando para salvar o último elemento da primeira página em uma variável.
     
-        $temp=$results[$results.length-1]
+    ```powershell
+    $temp=$results[$results.length-1]
+    ```
 
 3.  Para recuperar os próximos 500 objetos no servidor especificado e excluir o objeto indicador, digite o seguinte comando.
     
-        Get-message -Server mailbox01.contoso.com -BookmarkObject:$temp -IncludeBookmark $False -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```powershell
+    Get-message -Server mailbox01.contoso.com -BookmarkObject:$temp -IncludeBookmark $False -ResultSize 500 -SortOrder +FromAddress,-Size
+    ```
 
 Voltar ao início
 

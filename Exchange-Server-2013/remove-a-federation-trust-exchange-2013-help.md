@@ -22,7 +22,7 @@ Uma relação de confiança de Federação estabelece uma relação de confianç
 Para tarefas de gerenciamento adicionais relacionadas às confianças de federação, consulte [Procedimentos de Federação](federation-procedures-exchange-2013-help.md).
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Esse recurso do Exchange Server 2013 não é totalmente compatível com o Office 365 operado pelo 21Vianet na China e pode haver algumas limitações de recurso. Para saber mais, confira o artigo <A href="https://go.microsoft.com/fwlink/?linkid=313640">Saiba mais sobre o Office 365 operado pelo 21Vianet</A>.
 
 
@@ -53,7 +53,9 @@ Para tarefas de gerenciamento adicionais relacionadas às confianças de federa�
 
 Este exemplo remove a confiança de federação.
 
-    Remove-FederationTrust
+```powershell
+Remove-FederationTrust
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Remove-FederationTrust](https://technet.microsoft.com/pt-br/library/dd351153\(v=exchg.150\)).
 
@@ -65,9 +67,10 @@ Para verificar se você removeu com êxito a confiança de federação, faça um
 
   - No Shell, execute o seguinte comando para verificar se informações da confiança de federação não são retornadas para a sua organização do Exchange.
     
-        Get-FederationTrust
+    ```powershell
+    Get-FederationTrust
+    ```
     
     Para informações detalhadas de sintaxes e de parâmetros, consulte [Get-FederationTrust](https://technet.microsoft.com/pt-br/library/dd351262\(v=exchg.150\)).
 
 Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: [Exchange Server](https://go.microsoft.com/fwlink/p/?linkid=60612), [Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=267542), ou [Proteção do Exchange Online](https://go.microsoft.com/fwlink/p/?linkid=285351).
-

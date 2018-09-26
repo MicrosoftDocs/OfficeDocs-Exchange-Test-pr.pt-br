@@ -51,7 +51,9 @@ Para saber mais sobre os modelos de detalhes, consulte [Modelos de detalhes](det
 
 Este restaurações de exemplo o inglês dos Estados Unidos contata o modelo de detalhes.
 
-    Restore-DetailsTemplate -Identity "en-US\Contact"
+```powershell
+Restore-DetailsTemplate -Identity "en-US\Contact"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Restore-DetailsTemplate](https://technet.microsoft.com/pt-br/library/bb125188\(v=exchg.150\)).
 

@@ -61,7 +61,9 @@ Para tarefas de gerenciamento adicionais relacionadas a IRM, consulte [Procedime
 
 Este exemplo habilita a descriptografia de transporte para a organização Exchange 2013. As mensagens que não podem ser descriptografadas são rejeitadas e uma NDR é retornada ao remetente.
 
-    Set-IRMConfiguration -TransportDecryptionSetting Mandatory
+```powershell
+Set-IRMConfiguration -TransportDecryptionSetting Mandatory
+```
 
 Para obter informações detalhadas de sintaxes e de parâmetros, confira [Set-IRMConfiguration](https://technet.microsoft.com/pt-br/library/dd979792\(v=exchg.150\)).
 
@@ -69,7 +71,9 @@ Para obter informações detalhadas de sintaxes e de parâmetros, confira [Set-I
 
 Este exemplo desabilita a descriptografia de transporte para a organização Exchange 2013.
 
-    Set-IRMConfiguration -TransportDecryptionSetting Disabled
+```powershell
+Set-IRMConfiguration -TransportDecryptionSetting Disabled
+```
 
 Para obter informações detalhadas de sintaxes e de parâmetros, confira [Set-IRMConfiguration](https://technet.microsoft.com/pt-br/library/dd979792\(v=exchg.150\)).
 

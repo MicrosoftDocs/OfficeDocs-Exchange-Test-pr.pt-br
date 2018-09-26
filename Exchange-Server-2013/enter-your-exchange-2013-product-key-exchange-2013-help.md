@@ -86,7 +86,9 @@ Esse exemplo usa o cmdlet **set-ExchangeServer** para inserir a chave de produto
 
 
 
-    Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```powershell
+Set-ExchangeServer ExServer01 -ProductKey aaaaa-aaaaa-aaaaa-aaaaa-aaaaa
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte [Set-ExchangeServer](https://technet.microsoft.com/pt-br/library/bb123716\(v=exchg.150\)).
 
@@ -111,10 +113,13 @@ Para usar o Shell a fim de verificar se você licenciou com êxito o servidor co
 1.  Abra o shell.
 
 2.  Execute o comando a seguir para exibir o status de licenciamento de um servidor específico do Exchange.
-    
+
+```powershell    
         Get-ExchangeServer ExServer01 | Format-Table Edition,*Trial*
+```
 
 3.  (Opcional) Execute o comando a seguir para exibir o status de licenciamento de todos os servidores do Exchange da sua organização.
-    
-        Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
 
+```powershell    
+        Get-ExchangeServer | Format-Table Name, Edition, *Trial* -Auto
+```

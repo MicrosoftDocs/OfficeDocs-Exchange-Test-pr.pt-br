@@ -65,11 +65,15 @@ Para mais informações relacionadas a POP3 e IMAP4, consulte [POP3 e IMAP4 no E
 
 Este exemplo habilita POP3 para o usuário John Smith.
 
-    Set-CASMailbox -Identity "John Smith" -POPEnabled $true
+```powershell
+Set-CASMailbox -Identity "John Smith" -POPEnabled $true
+```
 
 Este exemplo desativa POP3 para o usuário John Smith.
 
-    Set-CASMailbox -Identity "John Smith" -POPEnabled $false
+```powershell
+Set-CASMailbox -Identity "John Smith" -POPEnabled $false
+```
 
 ## Como saber se funcionou?
 

@@ -34,7 +34,7 @@ _**Tópico modificado em:** 2015-04-08_
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -47,11 +47,15 @@ _**Tópico modificado em:** 2015-04-08_
 
 Para configurar a quantidade máxima de remetentes confiáveis e remetentes bloqueados, execute este comando:
 
-    Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```powershell
+Set-Mailbox <MailboxIdentity> -MaxSafeSenders <Integer> -MaxBlockedSenders <Integer>
+```
 
 Este exemplo configura a caixa de correio john@contoso.com para ter no máximo 2.000 remetentes confiáveis e 200 remetentes bloqueados.
 
-    Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```powershell
+Set-Mailbox john@contoso.com -MaxSafeSenders 2000 -MaxBlockedSenders 200
+```
 
 ## Como saber se funcionou?
 
@@ -59,7 +63,9 @@ Para verificar se os limites de coleção de lista segura de caixa de correio fo
 
 1.  Execute o comando a seguir:
     
-        Get-Mailbox <Identity> | Format-List Name,Max*Senders
+    ```powershell
+    Get-Mailbox <Identity> | Format-List Name,Max*Senders
+    ```
 
 2.  Verifique se os valores exibidos correspondem aos valores que você configurou.
 
@@ -69,7 +75,9 @@ No Exchange 2013, a agregação de lista segura é feita automaticamente; logo, 
 
 Este exemplo grava a lista de remetentes confiáveis da caixa de correio john@contoso.com no Active Directory.
 
-    Update-Safelist john@contoso.com -Type SafeSenders
+```powershell
+Update-Safelist john@contoso.com -Type SafeSenders
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, consulte [Update-SafeList](https://technet.microsoft.com/pt-br/library/bb125034\(v=exchg.150\)).
 
@@ -81,11 +89,15 @@ Para verificar se você configurou com êxito a agregação de lista segura, exe
 
 1.  Execute o comando a seguir:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Se a saída mostra o parâmetro *Enabled* como `True`, a filtragem de conteúdo está habilitada. Se não for isso, execute o seguinte comando para habilitar a filtragem de conteúdo e o agente Filtro de Conteúdo no servidor do Exchange:
     
-        Set-ContentFilterConfig -Enabled $true
+    ```powershell
+    Set-ContentFilterConfig -Enabled $true
+    ```
 
 ## Etapa 2: (Opcional) Usar o Editor ADSI para verificar a replicação dos dados de agregação da lista segura para servidores de Transporte de Borda
 
@@ -121,5 +133,6 @@ Para testar se a agregação de lista segura está funcionando, é preciso envia
 
 6.  Na conta externa que você criou na etapa 1, envie uma mensagem que inclui a frase bloqueada configurada na etapa 5 para a caixa de correio do Exchange.
     
+    ```powershell
     Se a mensagem for entregue com êxito à sua Caixa de Entrada, a agregação de lista segura está funcionando corretamente.
-
+    ```

@@ -53,25 +53,35 @@ Para criar a credencial ASA como uma conta de computador
     
     Use o cmdlet **Import-Module** para importar o módulo do Active Directory.
     
+    ```powershell
         Import-Module ActiveDirectory
+    ```
 
 2.  Use o cmdlet **New-ADComputer** para criar uma nova conta de computador do Active Directory usando esta sintaxe do cmdlet:
     
+    ```powershell
         New-ADComputer [-Name] <string> [-AccountPassword <SecureString>] [-AllowReversiblePasswordEncryption <System.Nullable[boolean]>] [-Description <string>] [-Enabled <System.Nullable[bool]>]
-    
+    ```
+
     **Exemplo:** 
     
+    ```powershell
         New-ADComputer -Name EXCH2013ASA -AccountPassword (Read-Host 'Enter password' -AsSecureString) -Description 'Alternate Service Account credentials for Exchange' -Enabled:$True -SamAccountName EXCH2013ASA
-    
+    ```
+
     Onde *EXCH2013ASA* é o nome da conta, a descrição *Alternate Service Account credentials for Exchange* é o que quiser seja e o valor para o parâmetro *SamAccountName* , neste caso, *EXCH2013ASA*, precisa ser exclusivo em seu diretório.
 
 3.  Use o cmdlet **Set-ADComputer** para habilitar o suporte de codificação de criptografia AES 256 usado por Kerberos usando esta sintaxe do cmdlet:
     
+    ```powershell
         Set-ADComputer [-Name] <string> [-add @{<attributename>="<value>"]
-    
+    ```
+
     **Exemplo:** 
     
+    ```powershell
         Set-ADComputer EXCH2013ASA -add @{"msDS-SupportedEncryptionTypes"="28"}
+    ```
     
     Onde *EXCH2013ASA* é o nome da conta e o atributo a ser modificada é *msDS-SupportedEncryptionTypes* com um valor decimal de 28, que permite que as seguintes codificações: RC4-HMAC, AES128-CTS-HMAC-SHA1-96, AES256-CTS-HMAC-SHA1-96.
 
@@ -145,12 +155,15 @@ O único método suportado para implantar a credencial ASA é usar o script Roll
 
 3.  Execute o comando a seguir para implantar a credencial ASA no primeiro servidor de acesso para cliente do Exchange 2013:
     
+    ```powershell
         .\RollAlternateServiceAccountPassword.ps1 -ToSpecificServer cas-1.corp.tailspintoys.com -GenerateNewPasswordFor tailspin\EXCH2013ASA$
+    ```
 
 4.  Quando for perguntado se deseja alterar a senha da conta de serviço alternativo, clique em **Sim**.
 
 O exemplo a seguir é um exemplo da saída que tem mostrado ao executar o script RollAlternateServiceAccountPassword.ps1.
 
+```powershell
     ========== Starting at 01/12/2015 10:17:47 ==========
     Creating a new session for implicit remoting of "Get-ExchangeServer" command...
     Destination servers that will be updated:
@@ -190,16 +203,17 @@ O exemplo a seguir é um exemplo da saída que tem mostrado ao executar o script
     Per-server Alternate Service Account configuration as of the time of script completion:
     
     
-       Array: {mail.corp.tailspintoys.com}
+    Array: {mail.corp.tailspintoys.com}
     
     Identity  AlternateServiceAccountConfiguration
     --------  ------------------------------------
     cas-1 Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
-              ...
+            ...
     
     ========== Finished at 01/12/2015 10:20:00 ==========
     
             THE SCRIPT HAS SUCCEEDED
+```
 
 ## Implantar a credencial ASA para outro servidor de acesso para cliente do Exchange 2013
 
@@ -209,12 +223,15 @@ O exemplo a seguir é um exemplo da saída que tem mostrado ao executar o script
 
 3.  Execute o comando a seguir para implantar a credencial ASA para outro servidor de acesso para cliente do Exchange 2013:
     
+    ```powershell
         .\RollAlternateServiceAccountPassword.ps1 -ToSpecificServer cas-2.corp.tailspintoys.com -CopyFrom cas-1.corp.tailspintoys.com
-
+    ```
+    
 4.  Repita a etapa 3 para cada servidor de acesso para cliente que você deseja implantar as credenciais a serem ASA.
 
 O exemplo a seguir é um exemplo da saída que tem mostrado ao executar o script RollAlternateServiceAccountPassword.ps1.
 
+```powershell
     ========== Starting at 01/12/2015 10:34:35 ==========
     Destination servers that will be updated:
     
@@ -255,6 +272,7 @@ O exemplo a seguir é um exemplo da saída que tem mostrado ao executar o script
     ========== Finished at 01/12/2015 10:38:13 ==========
     
             THE SCRIPT HAS SUCCEEDED
+```
 
 ## Verifique se a implantação da credencial ASA
 
@@ -262,23 +280,29 @@ O exemplo a seguir é um exemplo da saída que tem mostrado ao executar o script
 
   - Execute o seguinte comando para verificar as configurações em um servidor de acesso para cliente:
     
+    ```powershell
         Get-ClientAccessServer CAS-3 -IncludeAlternateServiceAccountCredentialStatus | Format-List Name, AlternateServiceAccountConfiguration
+    ```
 
   - Repita a etapa 2 em cada servidor de acesso para cliente onde você deseja verificar a implantação da credencial ASA.
 
 O exemplo a seguir é um exemplo da saída que tem mostrados quando você executar o comando Get-ClientAccessServer acima e nenhuma credencial ASA anterior foi definida.
 
+```powershell
     Name                                 : CAS-1
     AlternateServiceAccountConfiguration : Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
                                            Previous: <Not set>
                                                ...
+```
 
 O exemplo a seguir é um exemplo da saída que tem mostrados quando você executar o comando Get-ClientAccessServer acima e uma credencial ASA definida anteriormente. A credencial ASA anterior e a data e hora que ele foi definido são retornadas.
 
+```powershell
     Name                                 : CAS-3
     AlternateServiceAccountConfiguration : Latest: 1/12/2015 10:19:22 AM, tailspin\EXCH2013ASA$
                                            Previous: 7/15/2014 12:58:35 PM, tailspin\oldSharedServiceAccountName$
                                                ...
+```
 
 ## Associar nomes de entidade de serviço (SPNs) a credencial ASA
 
@@ -296,11 +320,15 @@ Verifique se que um SPN não ainda estiver associado a uma conta em uma floresta
 
 2.  No prompt de comando, digite o seguinte comando:
     
+    ```powershell
         setspn -F -Q <SPN>
+    ```
     
     Onde \< SPN \> é o SPN que você deseja associar a credencial ASA. Por exemplo:
     
+    ```powershell
         setspn -F -Q http/mail.corp.tailspintoys.com
+    ```
     
     O comando deve retornar nothing. Se ela retorna algo, outra conta já está associada com o SPN. Repita essa etapa uma vez para cada SPN para o qual você deseja associar a credencial ASA.
 
@@ -310,11 +338,15 @@ Associar um SPN uma credencial ASA usando o comando setspn
 
 2.  No prompt de comando, digite o seguinte comando:
     
+    ```powershell
         setspn -S <SPN> <Account>$
+    ```
     
     Onde \< SPN \> é o SPN que você deseja associar a credencial ASA e \< conta \> é a conta associada a credencial ASA. Por exemplo:
     
+    ```powershell
         setspn -S http/mail.corp.tailspintoys.com tailspin\EXCH2013ASA$
+    ```
     
     Uma vez para cada SPN para o qual você deseja associar a credencial ASA, execute este comando.
 
@@ -324,11 +356,15 @@ Verifique se que você associados os SPNs as credenciais ASA usando o comando se
 
 2.  No prompt de comando, digite o seguinte comando:
     
+    ```powershell
         setspn -L <Account>$
+    ```
     
     Onde \< conta \> é a conta associada a credencial ASA. Por exemplo:
     
+    ```powershell
         setspn -L tailspin\EXCH2013ASA$
+    ```
     
     Você precisará executar este comando uma vez.
 
@@ -338,11 +374,15 @@ Verifique se que você associados os SPNs as credenciais ASA usando o comando se
 
 2.  Para habilitar a autenticação Kerberos para clientes do Outlook em qualquer lugar, execute o seguinte comando no seu servidor de acesso para cliente:
     
+    ```powershell
         Get-OutlookAnywhere -server CAS-1 | Set-OutlookAnywhere -InternalClientAuthenticationMethod  Negotiate
+    ```
 
 3.  Para habilitar a autenticação Kerberos para MAPI sobre HTTP clientes, execute o seguinte em seu servidor de acesso para cliente do Exchange 2013:
     
+    ```powershell
         Get-MapiVirtualDirectory -Server CAS-1 | Set-MapiVirtualDirectory -IISAuthenticationMethods Ntlm, Negotiate
+    ```
 
 4.  Repita as etapas 2 e 3 para cada servidor de acesso para cliente do Exchange 2013 onde você deseja habilitar a autenticação Kerberos.
 
@@ -370,12 +410,15 @@ Para validar que o Kerberos está funcionando corretamente usando o arquivo de l
 
 1.  Em um editor de texto, navegue até a pasta onde o log de HttpProxy é armazenado. Por padrão, o log é armazenado na seguinte pasta:
     
+
     %ExchangeInstallPath%\\Logging\\HttpProxy\\RpcHttp
 
 2.  Abra o arquivo de log mais recente e procure a palavra **negociar**. A linha no arquivo de log se parecerá com o exemplo a seguir:
     
+    ```powershell
         2014-02-19T13:30:49.219Z,e19d08f4-e04c-42da-a6be-b7484b396db0,15,0,775,22,,RpcHttp,mail.corp.tailspintoys.com,/rpc/rpcproxy.dll,,Negotiate,True,tailspin\Wendy,tailspintoys.com,MailboxGuid~ad44b1e0-e44f-4a16-9396-3a437f594f88,MSRPC,192.168.1.77,EXCH1,200,200,,RPC_OUT_DATA,Proxy,exch2.tailspintoys.com,15.00.0775.000,IntraForest,MailboxGuidWithDomain,,,,76,462,1,,1,1,,0,,0,,0,0,16272.3359,0,0,3,0,23,0,25,0,16280,1,16274,16230,16233,16234,16282,?ad44b1e0-e44f-4a16-9396-3a437f594f88@tailspintoys.com:6001,,BeginRequest=2014-02-19T13:30:32.946Z;BeginGetRequestStream=2014-02-19T13:30:32.946Z;OnRequestStreamReady=2014-02-19T13:30:32.946Z;BeginGetResponse=2014-02-19T13:30:32.946Z;OnResponseReady=2014-02-19T13:30:32.977Z;EndGetResponse=2014-02-19T13:30:32.977Z;,PossibleException=IOException;
-    
+    ```
+
     Se você vir o valor de **AuthenticationType** é **negociar**, então, o servidor está conexões autenticadas com êxito a criação de Kerberos.
 
 ## Manter a credencial ASA
@@ -390,7 +433,9 @@ Para remover a credencial ASA
 
 1.  Abra o Shell de gerenciamento do Exchange em um servidor Exchange 2013 e execute o seguinte comando:
     
+    ```powershell
         Set-ClientAccessServer CAS-1 -RemoveAlternateServiceAccountCredentials
+    ```
 
 2.  Embora não seja necessário fazer isso imediatamente, você deve reiniciar eventualmente todos os computadores cliente para limpar o cache de tíquetes Kerberos do computador.
 

@@ -62,7 +62,9 @@ Procurando outras tarefas de gerenciamento relacionadas a DAGs? Consulte [Gerenc
 
 Este exemplo cria a rede ReplicationDagNetwork02 com uma sub-rede de 10.0.0.0 e uma bitmask de 8 em um DAG chamado DAG1. A replicação é habilitada na rede, e uma descrição opcional da rede também está sendo acrescentada.
 
-    New-DatabaseAvailabilityGroupNetwork -DatabaseAvailabilityGroup DAG1 -Name ReplicationDagNetwork02 -Description "Replication network 2" -Subnets 10.0.0.0/8 -ReplicationEnabled:$True
+  ```powershell
+  New-DatabaseAvailabilityGroupNetwork -DatabaseAvailabilityGroup DAG1 -Name ReplicationDagNetwork02 -Description "Replication network 2" -Subnets 10.0.0.0/8 -ReplicationEnabled:$True
+  ```
 
 ## Como saber se funcionou?
 
@@ -72,7 +74,9 @@ Para verificar se você criou com êxito uma rede do DAG, faça o seguinte:
 
   - No Shell, execute o comando a seguir para exibir as informações de configuração de rede do DAG e verificar se a rede do DAG foi configurada com êxito.
     
-        Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+  ```powershell
+  Get-DatabaseAvailabilityGroupNetwork <DAGNetworkName> | Format-List
+  ```
 
 ## Para obter mais informações
 

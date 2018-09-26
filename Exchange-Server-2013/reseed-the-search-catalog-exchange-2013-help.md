@@ -70,7 +70,9 @@ Use um dos seguintes procedimentos se o banco de dados da caixa de correio estiv
 
 Este exemplo propaga novamente o catálogo do índice de conteúdo da cópia do banco de dados DB1 no servidor de Caixa de Correio MBX1 a partir de qualquer servidor de origem no DAG que tenha uma cópia do banco de dados.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -CatalogOnly
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Update-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335201\(v=exchg.150\)).
 
@@ -78,7 +80,9 @@ Para obter informações detalhadas de sintaxes e parâmetros, consulte [Update-
 
 Este exemplo propaga novamente o catálogo do índice de conteúdo da cópia do banco de dados DB1 no servidor de Caixa de Correio MBX1 a partir do servidor de Caixa de Correio MBX2, que também tem uma cópia do banco de dados.
 
-    Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```powershell
+Update-MailboxDatabaseCopy -Identity DB1\MBX1 -SourceServer MBX2 -CatalogOnly
+```
 
 Para obter informações detalhadas de sintaxes e parâmetros, consulte [Update-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335201\(v=exchg.150\)).
 
@@ -88,12 +92,14 @@ Se a cópia do banco de dados de caixa de correio for a única, é preciso propa
 
 1.  Execute os seguintes comandos para interromper os serviços da Pesquisa do Microsoft Exchange e do Controlador de Host de Pesquisa do Microsoft Exchange.
     
+    
+    ```powershell
+    Stop-Service MSExchangeFastSearch
     ```
-        Stop-Service MSExchangeFastSearch
+    
+    ```powershell
+    Stop-Service HostControllerService
     ```
-    ```    
-        Stop-Service HostControllerService
-    ````
 
 2.  Excluir, mover ou renomear a pasta que contém o catálogo de índice de conteúdo do Exchange. Esta pasta é denominada `%ExchangeInstallPath\Mailbox\<name of mailbox database>_Catalog\<GUID>12.1.Single`. Por exemplo, você pode renomear a pasta `C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\Mailbox Database 0657134726_Catalog\F0627A72-9F1D-494A-839A-D7C915C279DB12.1.Single_OLD`.
     
@@ -105,20 +111,23 @@ Se a cópia do banco de dados de caixa de correio for a única, é preciso propa
 
 3.  Execute os seguintes comandos para reiniciar os serviços da Pesquisa do Microsoft Exchange e do Controlador de Host de Pesquisa do Microsoft Exchange.
     
-```
-        Start-Service MSExchangeFastSearch
-```
-```
-        Start-Service HostControllerService
- ```
 
-Após reiniciar esses serviços, a Pesquisa do Exchange recriará o catálogo de índice de conteúdo.
+    ```powershell
+    Start-Service MSExchangeFastSearch
+    ```
+
+    ```powershell
+    Start-Service HostControllerService
+    ```
+ 
+ Após reiniciar esses serviços, a Pesquisa do Exchange recriará o catálogo de índice de conteúdo.
 
 ## Como saber se funcionou?
 
 Pode demorar um pouco para a Pesquisa do Exchange propagar novamente o catálogo do índice de conteúdo. Execute o seguinte comando para exibir o status do processo de propagação.
 
+```powershell
     Get-MailboxDatabaseCopyStatus | FL Name,*Index*
-
+```
 Quando a nova propagação do catálogo de pesquisa estiver em andamento, o valor da propriedade *ContentIndexState* será **Crawling** (Rastreando). Quando a nova propagação estiver concluída, esse valor será alterado para **Healthy** (Adequado).
 

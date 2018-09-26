@@ -87,7 +87,9 @@ Para verificar se você fez o backup dos dados com êxito, faça o seguinte:
 
   - Execute o seguinte comando no Shell de Gerenciamento do Exchange para verificar se cada banco de dados no volume selecionado teve o backup realizado com êxito:
     
-        Get-MailboxDatabase -Server <ServerName> -Status | fl Name,*FullBackup
+    ```powershell
+      Get-MailboxDatabase -Server <ServerName> -Status | fl Name,*FullBackup
+    ```
     
     As propriedades *SnapshotLastFullBackup* e *LastFullBackup* do banco de dados indicam quando o último backup bem-sucedido foi feito e se foi um backup VSS completo.
 

@@ -49,11 +49,15 @@ Este tópico fornece instruções detalhadas sobre como configurar o serviço Tr
 
 Para configurar o serviço Transporte em um servidor de Caixa de Correio a fim de usar a autenticação do Exchange server desatualizado, execute o seguinte comando:
 
-    Set-TransportService <ServerIdentity> -UseDowngradedExchangeServerAuth $true
+```powershell
+Set-TransportService <ServerIdentity> -UseDowngradedExchangeServerAuth $true
+```
 
 Esse exemplo faz essa alteração de configuração no servidor chamado Mailbox01.
 
-    Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
+```powershell
+Set-TransportService Mailbox01 -UseDowngradedExchangeServerAuth $true
+```
 
 ## Etapa 2: Crie um Conector de recebimento dedicado no servidor de Caixa de Correio para o site de destino do Active Directory
 
@@ -75,7 +79,9 @@ Esse exemplo faz essa alteração de configuração no servidor chamado Mailbox0
 
 Para criar todos os Conectores de recebimento no servidor de Caixa de Correio, execute o seguinte comando:
 
-    New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+  ```powershell
+  New-ReceiveConnector -Name <Name> -Server <ServerIdentity> -RemoteIPRanges <IPAddressRange> -Internal
+  ```
 
 Esse exemplo cria o Conector de recebimento chamado WAN no servidor chamado Mailbox01 com as seguintes configurações:
 
@@ -85,39 +91,53 @@ Esse exemplo cria o Conector de recebimento chamado WAN no servidor chamado Mail
 
 <!-- end list -->
 
-    New-ReceiveConnector -Name WAN -Server Hub01 -RemoteIPRanges 10.0.2.0/24 -Internal
+```powershell
+New-ReceiveConnector -Name WAN -Server Hub01 -RemoteIPRanges 10.0.2.0/24 -Internal
+```
 
 ## Etapa 3: Use o Shell para desabilitar o TLS no Conector de recebimento dedicado
 
 Para desabilitar o TLS no Conector de recebimento, execute o seguinte comando:
 
-    Set-ReceiveConnector <ReceiveConnectorIdentity> -SuppressXAnonymousTLS $true
+```powershell
+Set-ReceiveConnector <ReceiveConnectorIdentity> -SuppressXAnonymousTLS $true
+```
 
 Esse exemplo desabilita o TLS no Conector de recebimento chamado WAN no servidor de Caixa de Correio chamado Mailbox01.
 
-    Set-ReceiveConnector Mailbox01\WAN -SuppressXAnonymousTLS $true
+```powershell
+Set-ReceiveConnector Mailbox01\WAN -SuppressXAnonymousTLS $true
+```
 
 ## Etapa 4: Use o Shell para designar os sites do Active Directory como sites de hub
 
 Para designar um site do Active Directory como um site de hub, execute o seguinte comando:
 
-    Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```powershell
+Set-AdSite <ADSiteIdentity> -HubSiteEnabled $true
+```
 
 Você precisa executar esse procedimento uma vez em cada site do Active Directory com servidores de Caixa de Correio que participam do tráfego não criptografado.
 
 Esse exemplo configura o site do Active Directory chamado Central Office Site 1 como o site de hub.
 
-    Set-AdSite "Central Office Site 1" -HubSiteEnabled $true
+```powershell
+Set-AdSite "Central Office Site 1" -HubSiteEnabled $true
+```
 
 ## Etapa 5: Use o Shell para configurar o caminho de roteamento de menor custo por meio da conexão WAN
 
 Dependendo de como os custos de link de site IP estão configurados no Active Directory, talvez esta etapa não seja necessária. Você precisa verificar se o link de rede com os dispositivos WOC implantados está no caminho de roteamento de menor custo. Para exibir os custos de link de site do Active Directory e os custos de link de site específicos ao Exchange, execute o seguinte comando:
 
-    Get-AdSiteLink
+```powershell
+Get-AdSiteLink
+```
 
 Se o link de rede com os dispositivos WOC implantados não estiver no caminho de roteamento de menor custo, será necessário atribuir um custo específico ao Exchange para o link de site IP específico a fim de assegurar que as mensagens sejam encaminhadas corretamente. Para saber mais sobre esse problema específico, consulte a seção "Configurar custos de link de site do Active Directory específicos do Exchange" em [Cenário: Configurar o Exchange para oferecer suporte a controladores de otimização de WAN](scenario-configure-exchange-to-support-wan-optimization-controllers-exchange-2013-help.md).
 
 Este exemplo configura um custo específico do Exchange de 15 no link de site IP chamado Branch Office 2-Branch Office 1.
 
-    Set-AdSiteLink "Branch Office 2-Branch Office 1" -ExchangeCost 15
+```powershell
+Set-AdSiteLink "Branch Office 2-Branch Office 1" -ExchangeCost 15
+```
 

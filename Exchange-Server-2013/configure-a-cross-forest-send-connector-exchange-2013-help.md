@@ -77,7 +77,9 @@ Depois de criar seu conector de envio, crie um conector de envio da segunda flor
 
 Este exemplo usa o script Enable-CrossForestConnector.ps1 no Shell para definir permissões no conector de envio para uso em uma topologia entre florestas.
 
-    .\Enable-CrossForestConnector.ps1 -Connector "Cross-Forest" -user "ANONYMOUS LOGON"
+```powershell
+.\Enable-CrossForestConnector.ps1 -Connector "Cross-Forest" -user "ANONYMOUS LOGON"
+```
 
 ## Como saber se funcionou?
 

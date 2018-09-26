@@ -61,15 +61,21 @@ Uma mensagem enviada para vários destinatários pode estar localizada em mais d
 
 Para remover mensagens de filas, use a seguinte sintaxe.
 
-    Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
+```powershell
+Remove-Message <-Identity MessageIdentity | -Filter {MessageFilter}> -WithNDR <$true | $false>
+```
 
 Este exemplo remove mensagens nas filas com o assunto "Win Big" sem enviar uma notificação de falha na entrega.
 
-    Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```powershell
+Remove-Message -Filter {Subject -eq "Win Big"} -WithNDR $false
+```
 
 Este exemplo remove a mensagem com a ID de mensagem 3 da fila que não pode ser acessada no servidor Mailbox01 e envia uma notificação de falha na entrega.
 
-    Remove-Message -Identity Mailbox01\Unreachable\3 -WithNDR $true
+```powershell
+Remove-Message -Identity Mailbox01\Unreachable\3 -WithNDR $true
+```
 
 ## Como saber se funcionou?
 
@@ -107,15 +113,21 @@ Para verificar se removeu mensagens de filas com êxito, siga um dos seguintes p
 
 Para retomar mensagens, use a seguinte sintaxe:
 
-    Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Resume-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 Este exemplo retoma todas as mensagens que estão sendo enviadas de qualquer remetente no domínio Contoso.com.
 
-    Resume-Message -Filter {FromAddress -eq "*contoso.com"}
+```powershell
+Resume-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 Este exemplo retoma a mensagem com o ID de mensagem 3 na fila inacessível no servidor Hub01.
 
-    Resume-Message -Identity Hub01\Unreachable\3
+```powershell
+Resume-Message -Identity Hub01\Unreachable\3
+```
 
 Para reenviar mensagens a partir da fila de mensagens suspeitas, faça o seguinte:
 
@@ -149,15 +161,21 @@ Uma mensagem enviada para vários destinatários pode estar localizada em vária
 
 Para suspender mensagens, use a seguinte sintaxe:
 
-    Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```powershell
+Suspend-Message <-Identity MessageIdentity | -Filter {MessageFilter}>
+```
 
 Este exemplo suspende todas as mensagens nas filas que provêm de qualquer remetente no domínio contoso.com.
 
-    Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
+```powershell
+Suspend-Message -Filter {FromAddress -eq "*contoso.com"}
+```
 
 Este exemplo suspende a mensagem com a ID de mensagem 3 da fila que não pode ser acessada no servidor Mailbox01:
 
-    Suspend-Message -Identity Mailbox01\Unreachable\3
+```powershell
+Suspend-Message -Identity Mailbox01\Unreachable\3
+```
 
 ## Como saber se funcionou?
 

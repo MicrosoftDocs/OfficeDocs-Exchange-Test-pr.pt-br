@@ -51,23 +51,33 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas a Unificação de
 
 Este exemplo remove um servidor de Caixa de Entrada sob o nome `MyMailboxServer` de todos os planos de discagem do protocolo SIP.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans $null
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans $null
+```
 
 Este exemplo adiciona o servidor de Caixa de Correio sob o nome `MyMailboxServer` para um plano de discagem de UM SIP sob o nome `MySIPDialPlanName` e também define o número máximo de chamadas de voz entrantes
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150 
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -MaxCalls 150 
+```
 
 Este exemplo define o modo de inicialização como Duplo em um servidor de Caixa de Correio chamado `MyUMServer`.
 
-    Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```powershell
+Set-UMService -Identity MyMailboxServer -DialPlans MySIPDialPlanName -UMStartUpMode -Dual 
+```
 
 ## Usar o Shell para exibir as propriedades do servidor de Caixa de Correio
 
 Este exemplo exibe uma lista de todos os servidores de Caixa de Correio.
 
-    Get-UMService
+```powershell
+Get-UMService
+```
 
 Este exemplo exibe uma lista formatada das propriedades para o servidor de Caixa de Correio sob o nome `MyMailboxServer`.
 
-    Get-UMService -Identity MyMailboxServer | Format-List
+```powershell
+Get-UMService -Identity MyMailboxServer | Format-List
+```
 

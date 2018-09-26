@@ -26,7 +26,7 @@ Microsoft Exchange Server 2013 oferece os seguintes tipos de modelos de permiss�
   - **Permissões de divisão do Active Directory**   Permissões para criar objetos de segurança na partição de domínio Active Directory completamente são removidas do qualquer usuário Exchange, serviço ou servidor. Nenhuma opção é fornecida no RBAC para criar entidades de segurança. Criação de entidades de segurança no Active Directory deve ser executada usando as ferramentas de gerenciamento de Active Directory.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > as permissões de divisão de Active Directory estão disponíveis nas organizações que executa o Microsoft Exchange Server 2010 Service Pack 1 (SP1) ou posterior, ou ambas as versões do ExchangeExchange 2013.
 
 
@@ -60,7 +60,7 @@ Procurando outras tarefas de gerenciamento relacionadas às permissões? Confira
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -97,12 +97,14 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
     
     1.  Desabilite Active Directory dividir permissões executando o comando a seguir a partir da mídia de instalação Exchange 2013.
         
-            setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```powershell
+        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:false
+        ```
     
     2.  Reinicie os servidores de Exchange 2013 em sua organização ou aguardar até que o token de acesso Active Directory replicar para todos os servidores de Exchange 2013.
         
 
-        > [!NOTE]
+        > [!NOTE]    
         > Se você tiver servidores Exchange 2010 em sua organização, você também precisará reiniciar esses servidores.
 
 
@@ -111,60 +113,77 @@ Para configurar permissões de divisão de RBAC, faça o seguinte:
     
     1.  Crie um grupo de funções para os administradores Active Directory. Além de criar o grupo de funções, o comando cria atribuições da função regular entre o novo grupo de função e a função de criação de destinatário de email e criação de grupos de segurança e função de associação.
         
-            New-RoleGroup "Active Directory Administrators" -Roles "Mail Recipient Creation", "Security Group Creation and Membership"
+        ```powershell
+        New-RoleGroup "Active Directory Administrators" -Roles "Mail Recipient Creation", "Security Group Creation and Membership"
+        ```
         
-
-        > [!NOTE]
+        > [!NOTE]  
         > Se desejar que os membros desse grupo de função possam criar atribuições de função, inclua a função de gerenciamento de função. Você não precisa adicionar essa função agora. No entanto, se você nunca deseja atribuir a função de criação de destinatário de email ou a criação de grupos de segurança e a associação de função para os outros destinatários de função, a função de gerenciamento de função deve ser atribuída a esse novo grupo de função. Etapas a seguir configure o grupo de funções administradores Active Directory como o grupo de função única que pode delegar essas funções.
 
     
     2.  Crie delegação atribuições de função entre o novo grupo de função e a função de criação de destinatário de email e criação de grupos de segurança e função de associação usando os seguintes comandos.
         
-            New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Active Directory Administrators" -Delegating
-            New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Active Directory Administrators" -Delegating
+        ```powershell
+        New-ManagementRoleAssignment -Role "Mail Recipient Creation" -SecurityGroup "Active Directory Administrators" -Delegating
+        New-ManagementRoleAssignment -Role "Security Group Creation and Membership" -SecurityGroup "Active Directory Administrators" -Delegating
+        ```
     
     3.  Adicione membros ao novo grupo de função usando o seguinte comando.
         
-            Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```powershell
+        Add-RoleGroupMember "Active Directory Administrators" -Member <user to add>
+        ```
     
     4.  Substitua a lista de representantes no novo grupo de função para que apenas os membros do grupo de função podem adicionar ou remover membros.
         
-            Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```powershell
+        Set-RoleGroup "Active Directory Administrators" -ManagedBy "Active Directory Administrators"
+        ```
         
 
-        > [!IMPORTANT]
+        > [!IMPORTANT]  
         > Membros do grupo de funções Gerenciamento da Organização ou aqueles que são atribuídos a função de gerenciamento de função, seja diretamente ou por meio de outro grupo de funções ou USG, poderá ignorar essa verificação de segurança de representante. Se você deseja impedir que qualquer administrador Exchange adicionando se ao novo grupo de função, você deve removem a atribuição de função entre a função de gerenciamento de função e qualquer administrador Exchange e atribuí-la para outro grupo de função.
 
     
     5.  Encontre todos os regulares e delegando atribuições de função para a função de criação de destinatário de email usando o seguinte comando. O comando exibe apenas as propriedades **Name**, **Role**e **RoleAssigneeName** .
         
-            Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Format-Table Name, Role, RoleAssigneeName -Auto
+        ```powershell
+        Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Format-Table Name, Role, RoleAssigneeName -Auto
+        ```
     
     6.  Remova todos os regulares e delegando atribuições de função para a função de criação de destinatário de email que não estejam associadas um novo grupo de funções ou quaisquer outros grupos de função, USGs ou diretas atribuições que você deseja manter usando o seguinte comando.
         
-            Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```powershell
+        Remove-ManagementRoleAssignment <Mail Recipient Creation role assignment to remove>
+        ```
         
-
-        > [!NOTE]
+        > [!NOTE]  
         > Se você deseja remover todos os regulares e delegando atribuições de função para a função de criação de destinatário de email em qualquer destinatário da função que não seja o grupo de funções administradores Active Directory, use o seguinte comando. A opção <EM>WhatIf</EM> permite ver quais atribuições de função serão removidas. Remover o comutador <EM>WhatIf</EM> e execute o comando novamente para remover as atribuições de função.
 
         
-            Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+        ```powershell
+        Get-ManagementRoleAssignment -Role "Mail Recipient Creation" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+        ```
     
     7.  Encontre todos os regulares e delegando atribuições de função para a função de associação e de criação de grupos de segurança usando o seguinte comando. O comando exibe apenas as propriedades **Name**, **Role**e **RoleAssigneeName** .
         
-            Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Format-Table Name, Role, RoleAssigneeName -Auto
+        ```powershell
+        Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Format-Table Name, Role, RoleAssigneeName -Auto
+        ```
     
     8.  Remova todos os regulares e delegando atribuições de função para a função de associação e de criação de grupos de segurança que não estejam associadas um novo grupo de funções ou quaisquer outros grupos de função, USGs ou diretas atribuições que você deseja manter usando o seguinte comando.
         
-            Remove-ManagementRoleAssignment <Security Group Creation and Membership role assignment to remove>
+        ```powershell
+        Remove-ManagementRoleAssignment <Security Group Creation and Membership role assignment to remove>
+        ```
         
-
-        > [!NOTE]
+        > [!NOTE]  
         > Você pode usar o mesmo comando na observação anterior para remover todos os regulares e delegando atribuições de função para a função de criação de grupos de segurança e a associação no qualquer destinatário da função que não seja o grupo de função de administradores Active Directory, conforme mostrado neste exemplo.
 
         
-            Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+        ```powershell
+        Get-ManagementRoleAssignment -Role "Security Group Creation and Membership" | Where { $_.RoleAssigneeName -NE "Active Directory Administrators" } | Remove-ManagementRoleAssignment -WhatIf
+        ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 
@@ -213,23 +232,21 @@ Você pode configurar sua organização de Exchange 2013 para Active Directory d
 servidores e administradores Exchange apenas será capazes de gerenciar os atributos de Exchange nos entidades de segurança Active Directory existente. No entanto, eles serão capazes de criar e gerenciar Exchange-planos de discagem de objetos específicos, como regras de transporte e Unificação de mensagens.
 
 
-> [!CAUTION]
+> [!CAUTION]  
 > Após habilitar Active Directory dividir permissões, servidores e administradores Exchange não mais poderão criar entidades de segurança no Active Directory e eles não poderão gerenciar a associação de grupo de distribuição. Essas tarefas devem ser executadas usando as ferramentas de gerenciamento de Active Directory com as permissões necessárias Active Directory. Antes de fazer essa alteração, você deve compreender o impacto que haverá nos seus processos de administração e os aplicativos de terceiros que integram com Exchange 2013 e o modelo de permissões de RBAC.<BR>Para obter mais informações, consulte a seção "permissões de divisão deActive Directory " <A href="understanding-split-permissions-exchange-2013-help.md">Compreendendo as permissões de divisão</A>.
-
-
 
 Para alternar entre compartilhados ou RBAC dividir permissões para Active Directory dividir permissões, faça o seguinte:
 
 1.  A partir de um shell de comando Windows, execute o seguinte comando na mídia de instalação Exchange 2013 para permitir que as permissões de divisão de Active Directory.
     
-        setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```powershell
+    setup.exe /PrepareAD /ActiveDirectorySplitPermissions:true
+    ```
 
 2.  Se você tiver vários domínios de Active Directory em sua organização, você deve executar `setup.exe /PrepareDomain` em cada domínio filho que contenha servidores Exchange ou objetos ou executar `setup.exe /PrepareAllDomains` a partir de um site que tenha um servidor Active Directory em qualquer domínio.
 
 3.  Reinicie os servidores de Exchange 2013 em sua organização ou aguardar até que o token de acesso Active Directory replicar para todos os servidores de Exchange 2013.
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > Se você tiver servidores Exchange 2010 em sua organização, você também precisará reiniciar esses servidores.
-
-

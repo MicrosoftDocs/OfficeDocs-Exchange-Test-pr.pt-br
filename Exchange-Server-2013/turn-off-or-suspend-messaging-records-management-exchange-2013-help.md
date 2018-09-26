@@ -57,9 +57,11 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Este exemplo do Shell desvincula a marca de retenção Excluir - 3 Dias da diretiva de retenção Usuários-Corporativos.
 
-    $tags = (Get-RetentionPolicy "Corp-Users").RetentionPolicyTagLinks
-    $tags -= "Deleted Items - 3 Days"
-    Set-RetentionPolicy "Corp-Users" -RetentionPolicyTagLinks $tags
+```powershell
+$tags = (Get-RetentionPolicy "Corp-Users").RetentionPolicyTagLinks
+$tags -= "Deleted Items - 3 Days"
+Set-RetentionPolicy "Corp-Users" -RetentionPolicyTagLinks $tags
+```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Get-RetentionPolicy](https://technet.microsoft.com/pt-br/library/dd298086\(v=exchg.150\)) e [Set-RetentionPolicy](https://technet.microsoft.com/pt-br/library/dd335196\(v=exchg.150\)).
 
@@ -71,15 +73,21 @@ Você pode impedir que uma diretiva de retenção se aplique a uma caixa de corr
 
 Este exemplo do Shell remove a diretiva de retenção da caixa de correio jpeoples.
 
-    Set-Mailbox jpeoples -RetentionPolicy $null.
+```powershell
+Set-Mailbox jpeoples -RetentionPolicy $null.
+```
 
 Este exemplo do Shell remove a diretiva de retenção de todas as caixas de correio da organização do Exchange.
 
-    Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -ne $null} | Set-Mailbox -RetentionPolicy $null
+```powershell
+Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -ne $null} | Set-Mailbox -RetentionPolicy $null
+```
 
 Este exemplo do Shell remove a diretiva de retenção Corp-Finance de todos os usuário de caixas de correio que tenham a diretiva aplicada.
 
-    Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -eq "Corp-Finance"} | Set-Mailbox -RetentionPolicy $null
+```powershell
+Get-Mailbox -ResultSize unlimited -Filter {RetentionPolicy -eq "Corp-Finance"} | Set-Mailbox -RetentionPolicy $null
+```
 
 Para a sintaxe detalhada e informações sobre o parâmetro, consulte [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) e [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)).
 
@@ -103,15 +111,21 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Este exemplo remove todas etiquetas excluídas de uma organização do Exchange exceto a etiqueta Nunca Excluir, que é usada na política ArbitrationMailbox criada pela Instalação do Exchange.
 
-    Get-RetentionPolicyTag | ? {$_.RetentionAction -ne "MoveToArchive" -and $_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```powershell
+Get-RetentionPolicyTag | ? {$_.RetentionAction -ne "MoveToArchive" -and $_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```
 
 Este exemplo remove todas marcas de retenção exceto a etiqueta Nunca Excluir.
 
-    Get-RetentionPolicyTag | ? {$_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```powershell
+Get-RetentionPolicyTag | ? {$_.Name -ne "Never Delete"} | Remove-RetentionPolicyTag
+```
 
 Este comando remove a política de retenção Corp-Users de uma organização do Exchange.
 
-    Remove-RetentionPolicy Corp-Users
+```powershell
+Remove-RetentionPolicy Corp-Users
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 

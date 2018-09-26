@@ -35,7 +35,9 @@ Para obter mais informações sobre como usar e escrever scripts, consulte [Scri
 
 ## Sintaxe
 
-    RollAlternateServiceAccountPassword.ps1 -Scope <Object> -Identity <Object> -Source <Object> -
+```powershell
+RollAlternateServiceAccountPassword.ps1 -Scope <Object> -Identity <Object> -Source <Object> -
+```
 
 ## Descrição detalhada
 
@@ -91,7 +93,9 @@ Recomendamos que você execute o script e verificar se ela funciona corretamente
 
 A saída do script quando você executá-lo interativamente com o sinalizador-verbose deve indicar quais operações de script foram bem-sucedidas. Para confirmar que os servidores de acesso para cliente foram atualizados, você pode verificar o último carimbo de hora modificado na credencial ASA. O exemplo a seguir gera uma lista de servidores de acesso para cliente e a última vez em que a conta de serviço alternativa for atualizada.
 
-    Get-ClientAccessServer -IncludeAlternateServiceAccountCredentialstatus |Fl Name, AlternateServiceAccountConfiguration
+```powershell
+Get-ClientAccessServer -IncludeAlternateServiceAccountCredentialstatus |Fl Name, AlternateServiceAccountConfiguration
+```
 
 Você também pode examinar o log de eventos no computador no qual o script é executado. As entradas de log de eventos para o script são no log de eventos do aplicativo e da fonte *MSExchange Management Application*. A tabela a seguir lista os eventos que são registrados e o que significam os eventos.
 
@@ -239,25 +243,33 @@ Você pode usar o log para confirmar que a tarefa foi executada com êxito.
 
 Este exemplo usa o script para enviar as credenciais para todos os servidores de acesso para cliente na floresta para a instalação pela primeira vez.
 
-    .\RollAlternateserviceAccountPassword.ps1 -ToEntireForest -GenerateNewPasswordFor "Contoso\ComputerAccount$" -Verbose
+```powershell
+.\RollAlternateserviceAccountPassword.ps1 -ToEntireForest -GenerateNewPasswordFor "Contoso\ComputerAccount$" -Verbose
+```
 
 ## Exemplo 2
 
 Este exemplo gera uma nova senha para uma credencial ASA de conta de usuário e distribui a senha para todos os membros da matriz do servidor de acesso para cliente onde o nome corresponde \* \* caixa de correio.
 
-    .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers *mailbox* -GenerateNewPasswordFor "Contoso\UserAccount" -Verbose
+```powershell
+.\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers *mailbox* -GenerateNewPasswordFor "Contoso\UserAccount" -Verbose
+```
 
 ## Exemplo 3
 
 Este exemplo agenda uma tarefa agendada de senha de uma vez por mês automatizado roll chamada "RollAsa do Exchange". Ele atualizará a credencial ASA para todos os servidores de acesso para cliente em toda a floresta com uma nova senha gerado pelo script. A tarefa agendada é criada, mas o script não é executado. Quando a tarefa agendada é executada, o script é executado no modo autônomo.
 
-    .\RollAlternateServiceAccountPassword.ps1 -CreateScheduledTask "Exchange-RollAsa" -ToEntireForest -GenerateNewPasswordFor 'contoso\computerAccount$'
+```powershell
+.\RollAlternateServiceAccountPassword.ps1 -CreateScheduledTask "Exchange-RollAsa" -ToEntireForest -GenerateNewPasswordFor 'contoso\computerAccount$'
+```
 
 ## Exemplo 4
 
 Este exemplo atualiza a credencial ASA para todos os servidores de acesso para cliente pela matriz de servidores de acesso para cliente nomeado CAS01. Ela obtém a credencial da conta de computador do Active Directory ServiceAc1 no domínio Contoso.
 
-    .\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers "CAS01" -GenerateNewPasswordFor "CONTOSO\ServiceAc1$" 
+```powershell
+.\RollAlternateserviceAccountPassword.ps1 -ToArrayMembers "CAS01" -GenerateNewPasswordFor "CONTOSO\ServiceAc1$" 
+```
 
 ## Exemplo 5
 
@@ -265,5 +277,7 @@ Este exemplo mostra como você pode usar o script para distribuir o ASA para um 
 
 Você precisa atualizar a credencial ASA antes que o servidor de acesso para cliente recebe o tráfego. Copie a credencial ASA compartilhada de qualquer servidor de acesso para cliente que já está configurado corretamente. Por exemplo, se servidor A tem atualmente uma credencial ASA de trabalho e servidor B recém adicionada à matriz, você pode usar o script para copiar a credencial (incluindo a senha) de servidor A para servidor B. Isso é útil se o servidor B foi pressionada ou ainda não é um membro da matriz quando a senha foi revertida a última vez.
 
-    .\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```powershell
+.\RollAlternateServiceAccountPassword.ps1 -CopyFrom ServerA -ToSpecificServers ServerB -Verbose
+```
 

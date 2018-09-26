@@ -39,15 +39,11 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 ## Usar o EAC para configurar a política de ativação para uma cópia de banco de dados de caixa de correio
 
-1.  
-    
-    Na EAC, vá até **Servidores** \> **Bancos de dados**.
+1.  Na EAC, vá até **Servidores** \> **Bancos de dados**.
 
 2.  Selecione os bancos de dados que você deseja configurar.
 
-3.  
-    
-    No painel Detalhes, em **Cópias de Banco de Dados**, localize a cópia de banco de dados que você deseja configurar e clique em **Suspender**.
+3.  No painel Detalhes, em **Cópias de Banco de Dados**, localize a cópia de banco de dados que você deseja configurar e clique em **Suspender**.
 
 4.  Opcionalmente, adicione um comentário e marque a caixa que diz **Esta cópia pode ser ativada somente por intervenção manual**.
 
@@ -57,11 +53,15 @@ Procurando outras tarefas de gerenciamento relacionadas a cópias do banco de da
 
 Esse exemplo bloqueia a cópia do banco de dados DB1 no servidor MBX2 para ativação.
 
-    Suspend-MailboxDatabaseCopy -Identity DB1\MBX2 -ActivationOnly
+```powershell
+Suspend-MailboxDatabaseCopy -Identity DB1\MBX2 -ActivationOnly
+```
 
 Esse exemplo retoma a cópia do banco de dados DB1 no servidor MBX2 para ativação.
 
-    Resume-MailboxDatabaseCopy -Identity DB1\MBX2
+```powershell
+Resume-MailboxDatabaseCopy -Identity DB1\MBX2
+```
 
 Para informações detalhadas de sintaxes e de parâmetros, consulte [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd351074\(v=exchg.150\)) ou [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335220\(v=exchg.150\)).
 
@@ -69,15 +69,21 @@ Para informações detalhadas de sintaxes e de parâmetros, consulte [Suspend-Ma
 
 Este exemplo configura as cópias de banco de dados no servidor MBX2 como bloqueadas para ativação.
 
-    Set-MailboxServer -Identity MBX2 -DatabaseCopyAutoActivationPolicy Blocked
+```powershell
+Set-MailboxServer -Identity MBX2 -DatabaseCopyAutoActivationPolicy Blocked
+```
 
 Este exemplo configura as cópias de banco de dados no servidor MBX3 como bloqueadas para ativação fora do site.
 
-    Set-MailboxServer -Identity MBX3 -DatabaseCopyAutoActivationPolicy IntrasiteOnly
+```powershell
+Set-MailboxServer -Identity MBX3 -DatabaseCopyAutoActivationPolicy IntrasiteOnly
+```
 
 Este exemplo configura as cópias de banco de dados no servidor MBX4 como desbloqueadas para ativação.
 
-    Set-MailboxServer -Identity MBX4 -DatabaseCopyAutoActivationPolicy Unrestricted
+```powershell
+Set-MailboxServer -Identity MBX4 -DatabaseCopyAutoActivationPolicy Unrestricted
+```
 
 Para informações detalhadas de sintaxe e de parâmetros, consulte [Suspend-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd351074\(v=exchg.150\)), [Resume-MailboxDatabaseCopy](https://technet.microsoft.com/pt-br/library/dd335220\(v=exchg.150\)) ou [Set-MailboxServer](https://technet.microsoft.com/pt-br/library/aa998651\(v=exchg.150\)).
 
@@ -87,9 +93,13 @@ Para verificar se você configurou com êxito a política de ativação, faça o
 
   - No Shell, execute o seguinte comando, para verificar as configurações de ativação para uma cópia do banco de dados.
     
-        Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```powershell
+    Get-MailboxDatabaseCopyStatus <DatabaseCopyName> | Format-List ActivationSuspended
+    ```
 
   - No Shell, execute o seguinte comando, para verificar as configurações de ativação para um membro do DAG.
     
-        Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```powershell
+    Get-MailboxServer <ServerName> | Format-List DatabaseCopyAutoActivationPolicy
+    ```
 

@@ -33,7 +33,9 @@ Para obter mais informações sobre a federação e relações de confiança de 
 
   - Para ver se seu certificado de Federação existente tiver expirado, execute o seguinte comando no Shell de Gerenciamento do Exchange:
     
-        Get-ExchangeCertificate -Thumbprint (Get-FederationTrust).OrgCertificate.Thumbprint | Format-Table -Auto Thumbprint,NotAfter
+    ```powershell
+    Get-ExchangeCertificate -Thumbprint (Get-FederationTrust).OrgCertificate.Thumbprint | Format-Table -Auto Thumbprint,NotAfter
+    ```
 
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
@@ -51,7 +53,9 @@ Se o certificado de Federação não tiver expirado, você poderá atualizar a c
 
 Execute o seguinte comando no Shell de Gerenciamento do Exchange para criar um novo certificado de Federação:
 
-    $SKI = [System.Guid]::NewGuid().ToString("N"); New-ExchangeCertificate -DomainName 'Federation' -FriendlyName "Exchange Delegation Federation" -Services Federation -SubjectKeyIdentifier $SKI -PrivateKeyExportable $true
+```powershell
+$SKI = [System.Guid]::NewGuid().ToString("N"); New-ExchangeCertificate -DomainName 'Federation' -FriendlyName "Exchange Delegation Federation" -Services Federation -SubjectKeyIdentifier $SKI -PrivateKeyExportable $true
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [New-ExchangeCertificate](https://technet.microsoft.com/pt-br/library/aa998327\(v=exchg.150\)).
 
@@ -67,11 +71,15 @@ Para os outros procedimentos neste tópico, usaremos o valor de impressão digit
 
 Para usar o Shell de Gerenciamento do Exchange para configurar o novo certificado como o certificado de federação, use a seguinte sintaxe:
 
-    Set-FederationTrust -Identity "Microsoft Federation Gateway" -Thumbprint <Thumbprint> -RefreshMetaData
+```powershell
+Set-FederationTrust -Identity "Microsoft Federation Gateway" -Thumbprint <Thumbprint> -RefreshMetaData
+```
 
 Este exemplo usa o de valor de impressão digital do certificado `6A99CED2E4F2B5BE96C5D17D662D217EF58B8F73` da etapa 1.
 
-    Set-FederationTrust -Identity "Microsoft Federation Gateway" -Thumbprint 6A99CED2E4F2B5BE96C5D17D662D217EF58B8F73 -RefreshMetaData
+```powershell
+Set-FederationTrust -Identity "Microsoft Federation Gateway" -Thumbprint 6A99CED2E4F2B5BE96C5D17D662D217EF58B8F73 -RefreshMetaData
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-FederationTrust](https://technet.microsoft.com/pt-br/library/dd298034\(v=exchg.150\)).
 
@@ -83,11 +91,15 @@ Com segurança você pode executar essa etapa agora, porque a prova de proprieda
 
 1.  Encontre os valores necessários para o registro TXT necessário executando o seguinte comando no Shell de Gerenciamento do Exchange:
     
-        Get-FederatedDomainProof -DomainName <Domain> | Format-List Thumbprint,Proof
+    ```powershell
+    Get-FederatedDomainProof -DomainName <Domain> | Format-List Thumbprint,Proof
+    ```
     
     Por exemplo, se o seu domínio federado for contoso.com, execute o seguinte comando:
     
-        Get-FederatedDomainProof -DomainName contoso.com | Format-List Thumbprint,Proof
+    ```powershell
+    Get-FederatedDomainProof -DomainName contoso.com | Format-List Thumbprint,Proof
+    ```
     
     A saída do comando tem esta aparência:
     
@@ -109,7 +121,9 @@ Exchange distribui automaticamente o novo certificado de federação para todos 
 
 Para usar o Shell de Gerenciamento do Exchange para verificar a distribuição do novo certificado de federação, execute o seguinte comando:
 
-    $Servers = Get-ExchangeServer; $Servers | foreach {Get-ExchangeCertificate -Server $_ | Where {$_.Services -match 'Federation'}} | Format-List Identity,Thumbprint,Services,Subject
+```powershell
+$Servers = Get-ExchangeServer; $Servers | foreach {Get-ExchangeCertificate -Server $_ | Where {$_.Services -match 'Federation'}} | Format-List Identity,Thumbprint,Services,Subject
+```
 
 **Observação:**  na Exchange 2010, a saída do cmdlet **Test-FederationCertificate** contém nomes de servidor. A saída do cmdlet no Exchange 2013 ou posterior não inclui os nomes de servidor.
 
@@ -117,7 +131,9 @@ Para usar o Shell de Gerenciamento do Exchange para verificar a distribuição d
 
 Para usar o Shell de Gerenciamento do Exchange para ativar o novo certificado de federação, execute o seguinte comando:
 
-    Set-FederationTrust -Identity "Microsoft Federation Gateway" -PublishFederationCertificate
+```powershell
+Set-FederationTrust -Identity "Microsoft Federation Gateway" -PublishFederationCertificate
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Set-FederationTrust](https://technet.microsoft.com/pt-br/library/dd298034\(v=exchg.150\)).
 
@@ -129,7 +145,9 @@ Para verificar se você tiver atualizado com êxito a confiança de Federação 
 
   - No Shell de Gerenciamento do Exchange, execute o seguinte comando para verificar se o novo certificado está sendo usado:
     
-        Get-FederationTrust | Format-List *priv*
+    ```powershell
+    Get-FederationTrust | Format-List *priv*
+    ```
     
       - A propriedade **OrgPrivCertificate** deve conter a impressão digital do novo certificado de Federação.
     
@@ -137,7 +155,9 @@ Para verificar se você tiver atualizado com êxito a confiança de Federação 
 
   - Na Shell de Gerenciamento do Exchange, substitua *\<user's email address\>* o endereço de email de um usuário na sua organização e execute o seguinte comando para verificar se a relação de confiança de Federação está funcionando:
     
-        Test-FederationTrust -UserIdentity <user's email address>
+    ```powershell
+    Test-FederationTrust -UserIdentity <user's email address>
+    ```
 
 ## Substituir um certificado de Federação expirados
 
@@ -145,21 +165,29 @@ Se o certificado de Federação já tiver expirado, você precisará remover tod
 
 1.  Se você tiver vários domínios federados, você precisa identificar o domínio compartilhado de domínio primário, portanto, você pode remover última. Para usar o Shell de Gerenciamento do Exchange para identificar o domínio compartilhado principal e todos os domínios federados, execute o seguinte comando:
     
-        Get-FederatedOrganizationIdentifier | Format-List AccountNamespace,Domains
+    ```powershell
+    Get-FederatedOrganizationIdentifier | Format-List AccountNamespace,Domains
+    ```
     
     O valor da propriedade **AccountNamespace** contém o domínio compartilhado principal no formato `FYDIBOHF25SPDLT<primary shared domain>`. Por exemplo, em que o valor `FYDIBOHF25SPDLT.contoso.com`, contoso.com é o domínio compartilhado principal.
 
 2.  Remova cada domínio federado que não seja o domínio compartilhado principal executando o seguinte comando no Shell de Gerenciamento do Exchange:
     
-        Remove-FederatedDomain -DomainName <domain> -Force
+    ```powershell
+    Remove-FederatedDomain -DomainName <domain> -Force
+    ```
 
 3.  Após ter removido todos os outros domínios federados, remova o domínio compartilhado principal executando o seguinte comando no Shell de Gerenciamento do Exchange:
     
-        Remove-FederatedDomain -DomainName <domain> -Force
+    ```powershell
+    Remove-FederatedDomain -DomainName <domain> -Force
+    ```
 
 4.  Remova a confiança de federação, executando o seguinte comando no Shell de Gerenciamento do Exchange:
     
-        Remove-FederationTrust "Microsoft Federation Gateway"
+    ```powershell
+    Remove-FederationTrust "Microsoft Federation Gateway"
+    ```
 
 5.  Recrie a relação de confiança de Federação. Para obter instruções, consulte [Criar uma Confiança de Federação](https://technet.microsoft.com/pt-br/library/dd335198\(v=exchg.150\)).
 

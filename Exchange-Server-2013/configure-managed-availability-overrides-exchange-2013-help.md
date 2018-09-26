@@ -49,11 +49,15 @@ Para obter tarefas adicionais de gerenciamento, relacionadas à disponibilidade 
 
 Para criar uma substituição local por um período específico, use a seguinte sintaxe.
 
-    Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Duration <dd.hh:mm:ss>
+```powershell
+Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Duration <dd.hh:mm:ss>
+```
 
 Para criar uma substituição local para uma versão específica de Exchange, use a seguinte sintaxe.
 
-    Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Version <15.01.xxxx.xxx>
+```powershell
+Add-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertyName> -PropertyValue <Value> -Version <15.01.xxxx.xxx>
+```
 
 
 > [!NOTE]
@@ -63,13 +67,18 @@ Para criar uma substituição local para uma versão específica de Exchange, us
 
 Este exemplo adiciona uma substituição local que desabilita o Respondente `ActiveDirectoryConnectivityConfigDCServerReboot` no servidor denominado EXCH03 por 20 dias.
 
-    Add-ServerMonitoringOverride -Server EXCH03 -Identity "AD\ActiveDirectoryConnectivityConfigDCServerReboot" -ItemType Responder -PropertyName Enabled -PropertyValue 0 -Duration 20.00:00:00
+```powershell
+Add-ServerMonitoringOverride -Server EXCH03 -Identity "AD\ActiveDirectoryConnectivityConfigDCServerReboot" -ItemType Responder -PropertyName Enabled -PropertyValue 0 -Duration 20.00:00:00
+```
+
 
 ## Como saber se funcionou?
 
 Para verificar se você criou com êxito uma substituição local, use o cmdlet **Get-ServerMonitoringOverride** para exibir a lista de substituições locais:
 
-    Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```powershell
+Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```
 
 a substituição deve aparecer na lista.
 
@@ -77,17 +86,23 @@ a substituição deve aparecer na lista.
 
 Para remover uma substituição local, use a seguinte sintaxe.
 
-    Remove-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <PropertytoRemove>
+```powershell
+Remove-ServerMonitoringOverride -Server <ServerName> -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <PropertytoRemove>
+```
 
 Este exemplo remove a substituição de local existente do Respondente `ActiveDirectoryConnectivityConfigDCServerReboot` a Exchange conjunto de integridade do servidor EXCH01.
 
-    Remove-ServerMonitoringOverride -Server EXCH01 -Identity Exchange\ActiveDirectoryConnectivityConfigDCServerReboot -ItemType Responder -PropertyName Enabled
+```powershell
+Remove-ServerMonitoringOverride -Server EXCH01 -Identity Exchange\ActiveDirectoryConnectivityConfigDCServerReboot -ItemType Responder -PropertyName Enabled
+```
 
 ## Como verifico se isso funcionou?
 
 Para verificar se você removeu com êxito uma substituição local, use o cmdlet **Get-ServerMonitoringOverride** para exibir a lista de substituições locais:
 
-    Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```powershell
+Get-ServerMonitoringOverride  -Server <ServerIdentity> | Format-List
+```
 
 a substituição removida não deve estar na lista.
 
@@ -95,12 +110,15 @@ a substituição removida não deve estar na lista.
 
 Para criar uma substituição global por um período específico, use a seguinte sintaxe.
 
-    Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -Duration <dd.hh:mm:ss>
+```powershell
+Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -Duration <dd.hh:mm:ss>
+```
 
 Para criar uma substituição global para uma versão específica de Exchange, use a seguinte sintaxe.
 
-    Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -ApplyVersion <15.01.xxxx.xxx>
-
+```powershell
+Add-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <Probe | Monitor | Responder | Maintenance> -PropertyName <PropertytoOverride> -PropertyValue <NewPropertyValue> -ApplyVersion <15.01.xxxx.xxx>
+```
 
 > [!NOTE]
 > Quando você cria a substituição, os valores usados no parâmetro <EM>Identity</EM> diferenciam maiúsculas de minúsculas.
@@ -109,17 +127,23 @@ Para criar uma substituição global para uma versão específica de Exchange, u
 
 Este exemplo adiciona uma substituição global que desabilita a investigação `OnPremisesInboundProxy` por 30 dias.
 
-    Add-GlobalMonitoringOverride -Identity "FrontendTransport\OnPremisesInboundProxy" -ItemType Probe -PropertyName Enabled -PropertyValue 0 -Duration 30.00:00:00
+```powershell
+Add-GlobalMonitoringOverride -Identity "FrontendTransport\OnPremisesInboundProxy" -ItemType Probe -PropertyName Enabled -PropertyValue 0 -Duration 30.00:00:00
+```
 
 Este exemplo adiciona uma substituição global que desabilita o Respondente `StorageLogicalDriveSpaceEscalate` para todos os servidores executando a versão de Exchange 15.01.0225.042.
 
-    Add-GlobalMonitoringOverride -Identity "MailboxSpace\StorageLogicalDriveSpaceEscalate" -PropertyName Enabled -PropertyValue 0 -ItemType Responder -ApplyVersion "15.01.0225.042"
+```powershell
+Add-GlobalMonitoringOverride -Identity "MailboxSpace\StorageLogicalDriveSpaceEscalate" -PropertyName Enabled -PropertyValue 0 -ItemType Responder -ApplyVersion "15.01.0225.042"
+```
 
 ## Como saber se funcionou?
 
 Para verificar se você criou com êxito uma substituição global, use o cmdlet **Get-GlobalMonitoringOverride** para exibir a lista de substituições globais:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 a substituição deve aparecer na lista.
 
@@ -127,17 +151,23 @@ a substituição deve aparecer na lista.
 
 Para remover uma substituição global, use a seguinte sintaxe.
 
-    Remove-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <OverriddenProperty>
+```powershell
+Remove-GlobalMonitoringOverride -Identity <HealthSetName>\<MonitoringItemName>[\<TargetResource>] -ItemType <ExistingItemTypeValue> -PropertyName <OverriddenProperty>
+```
 
 Este exemplo remove a substituição global existente da propriedade `ExtensionAttributes` da sonda `OnPremisesInboundProxy` no conjunto de integridade `FrontEndTransport` .
 
-    Remove-GlobalMonitoringOverride -Identity FrontEndTransport\OnPremisesInboundProxy -ItemType Probe -PropertyName ExtensionAttributes
+```powershell
+Remove-GlobalMonitoringOverride -Identity FrontEndTransport\OnPremisesInboundProxy -ItemType Probe -PropertyName ExtensionAttributes
+```
 
 ## Como verifico se isso funcionou?
 
 Para verificar se você removeu com êxito uma substituição global, use o cmdlet **Get-GlobalMonitoringOverride** para exibir a lista de substituições globais:
 
-    Get-GlobalMonitoringOverride
+```powershell
+Get-GlobalMonitoringOverride
+```
 
 a substituição removida não deve estar na lista.
 

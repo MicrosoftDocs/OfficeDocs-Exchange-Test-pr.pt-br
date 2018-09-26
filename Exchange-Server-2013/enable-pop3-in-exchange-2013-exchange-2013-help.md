@@ -61,19 +61,27 @@ No computador que executa a função de servidor de Caixa de Correio:
 
 1.  Defina o serviço POP3 do Microsoft Exchange para iniciar automaticamente.
     
-        Set-service msExchangePOP3 -startuptype automatic
+    ```powershell
+    Set-service msExchangePOP3 -startuptype automatic
+    ```
 
 2.  Inicie o serviço POP3 do Microsoft Exchange.
     
-        Start-service msExchangePOP3
+    ```powershell
+    Start-service msExchangePOP3
+    ```
 
 3.  Defina o serviço Back-end do Microsoft Exchange POP3 para iniciar automaticamente.
     
-        Set-service msExchangePOP3BE -startuptype automatic
+    ```powershell
+    Set-service msExchangePOP3BE -startuptype automatic
+    ```
 
 4.  Inicie o serviço Back-end POP3 do Microsoft Exchange.
     
-        Start-service msExchangePOP3BE
+    ```powershell
+    Start-service msExchangePOP3BE
+    ```
 
 ## Como saber se funcionou?
 

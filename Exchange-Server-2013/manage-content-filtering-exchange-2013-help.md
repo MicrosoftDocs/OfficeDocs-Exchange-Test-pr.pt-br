@@ -43,11 +43,15 @@ Filtragem de conteúdo é fornecido pelo agente de Filtro de Conteúdo. O agente
 
 Para desabilitar a filtragem de conteúdo, execute o seguinte comando:
 
-    Set-ContentFilterConfig -Enabled $false
+```powershell
+Set-ContentFilterConfig -Enabled $false
+```
 
 Para habilitar a filtragem de conteúdo, execute o seguinte comando:
 
-    Set-ContentFilterConfig -Enabled $true
+```powershell
+Set-ContentFilterConfig -Enabled $true
+```
 
 
 > [!NOTE]
@@ -61,7 +65,9 @@ Para verificar se você habilitou ou desabilitou com êxito a filtragem de conte
 
 1.  Execute o seguinte comando:
     
-        Get-ContentFilterConfig | Format-List Enabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List Enabled
+    ```
 
 2.  Verifique se o valor da propriedade *Enabled* é exibido.
 
@@ -71,11 +77,15 @@ Por padrão, a funcionalidade de filtragem de conteúdo está habilitada para me
 
 Para desabilitar a filtragem de conteúdo para mensagens externas, execute o seguinte comando:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $false
+```
 
 Para habilitar a filtragem de conteúdo para mensagens externas, execute o seguinte comando:
 
-    Set-ContentFilterConfig -ExternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -ExternalMailEnabled $true
+```
 
 ## Como saber se funcionou?
 
@@ -83,7 +93,9 @@ Para verificar se você habilitou ou desabilitou com êxito a filtragem de conte
 
 1.  Execute o seguinte comando:
     
-        Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List ExternalMailEnabled
+    ```
 
 2.  Verifique o valor da propriedade *ExternalMailEnabled* que é mostrado.
 
@@ -93,11 +105,15 @@ Como prática recomendada, você não deve filtrar mensagens de parceiros confi�
 
 Para habilitar a filtragem de conteúdo para mensagens internas, execute o seguinte comando:
 
-    Set-ContentFilterConfig -InternalMailEnabled $true
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $true
+```
 
 Para desabilitar a filtragem de conteúdo para mensagens internas, execute o seguinte comando:
 
-    Set-ContentFilterConfig -InternalMailEnabled $false
+```powershell
+Set-ContentFilterConfig -InternalMailEnabled $false
+```
 
 ## Como saber se funcionou?
 
@@ -105,7 +121,9 @@ Para verificar se você habilitou ou desabilitou com êxito a filtragem de conte
 
 1.  Execute o seguinte comando:
     
-        Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List InternalMailEnabled
+    ```
 
 2.  Verifique o valor da propriedade *InternalMailEnabled* que é mostrado.
 
@@ -113,7 +131,9 @@ Para verificar se você habilitou ou desabilitou com êxito a filtragem de conte
 
 Para substituir os valores existentes, execute o seguinte comando:
 
+```powershell
     Set-ContentFilterConfig -BypassedRecipients <recipient1,recipient2...> -BypassedSenders <sender1,sender2...> -BypassedSenderDomains <domain1,domain2...>
+```
 
 Este exemplo configura as seguintes exceções na filtragem de conteúdo:
 
@@ -125,11 +145,15 @@ Este exemplo configura as seguintes exceções na filtragem de conteúdo:
 
 <!-- end list -->
 
+```powershell
     Set-ContentFilterConfig -BypassedRecipients laura@contoso.com,julia@contoso.com -BypassedSenders steve@fabrikam.com,cindy@fabrikam.com -BypassedSenderDomains *.nwtraders.com
+```
 
 Para adicionar ou remover entradas sem modificar quaisquer valores existentes, execute este comando:
 
+```powershell
     Set-ContentFilterConfig -BypassedRecipients @{Add="<recipient1>","<recipient2>"...; Remove="<recipient1>","<recipient2>"...} -BypassedSenders @{Add="<sender1>","<sender2>"...; Remove="<sender1>","<sender2>"...} -BypassedSenderDomains @{Add="<domain1>","<domain2>"...; Remove="<domain1>","<domain2>"...}
+```
 
 Este exemplo configura as seguintes exceções na filtragem de conteúdo:
 
@@ -143,7 +167,9 @@ Este exemplo configura as seguintes exceções na filtragem de conteúdo:
 
 <!-- end list -->
 
+```powershell
     Set-ContentFilterConfig -BypassedRecipients @{Add="tiffany@contoso.com","chris@contoso.com"} -BypassedSenders @{Add="joe@fabrikam.com","michelle@fabrikam.com"} -BypassedSenderDomains @{Add="blueyonderairlines.com"; Remove="*.woodgrovebank.com"}
+```
 
 ## Como saber se funcionou?
 
@@ -151,7 +177,9 @@ Para verificar se você configurou com êxito as exceções de destinatário e r
 
 1.  Execute o seguinte comando:
     
+    ```powershell
         Get-ContentFilterConfig | Format-List Bypassed*
+    ```
 
 2.  Verifique se os valores exibidos correspondem às configurações que você especificou.
 
@@ -159,23 +187,33 @@ Para verificar se você configurou com êxito as exceções de destinatário e r
 
 Para adicionar frases e palavras permitidas e bloqueadas, execute o seguinte comando:
 
+```powershell
     Add-ContentFilterPhrase -Influence GoodWord -Phrase <Phrase> -Influence BadWord -Phrase <Phrase>
+```
 
 Este exemplo permite todas as mensagens que contenham a frase "comentário do cliente".
 
-    Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```powershell
+Add-ContentFilterPhrase -Influence GoodWord -Phrase "customer feedback"
+```
 
 Este exemplo bloqueia todas as mensagens que contenham a frase "dica de ações".
 
-    Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```powershell
+Add-ContentFilterPhrase -Influence BadWord -Phrase "stock tip"
+```
 
 Para remover frases permitidas ou bloqueadas, execute o seguinte comando:
 
-    Remove-ContentFilterPhrase -Phrase <Phrase>
+```powershell
+Remove-ContentFilterPhrase -Phrase <Phrase>
+```
 
 Este exemplo remove a frase "dica de ações":
 
-    Remove-ContentFilterPhrase -Phrase "stock tip"
+```powershell
+Remove-ContentFilterPhrase -Phrase "stock tip"
+```
 
 ## Como saber se funcionou?
 
@@ -183,7 +221,9 @@ Para verificar se você configurou com êxito as frases permitidas e bloqueadas,
 
 1.  Execute o seguinte comando:
     
-        Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```powershell
+    Get-ContentFilterPhrase | Format-List Influence,Phrase
+    ```
 
 2.  Verifique se os valores exibidos correspondem às configurações que você especificou.
 
@@ -191,8 +231,9 @@ Para verificar se você configurou com êxito as frases permitidas e bloqueadas,
 
 Para configurar os limites e as ações do nível de confiança de spam (SCL), execute este comando:
 
+```powershell
     Set-ContentFilterConfig -SCLDeleteEnabled <$true | $false> -SCLDeleteThreshold <Value> -SCLRejectEnabled <$true | $false> -SCLRejectThreshold <Value> -SCLQuarantineEnabled <$true | $false> -SCLQuarantineThreshold <Value>
-
+```
 
 > [!NOTE]
 > A ação Excluir tem precedência sobre a ação Rejeitar, e a ação Rejeitar tem precedência sobre a ação Colocar em Quarentena. Assim, o limite do SCL para a ação Excluir deve ser maior do que o limite do SCL para a ação Rejeitar, que, por sua vez, deve ser maior do que o limite do SCL para a ação Colocar em Quarentena. Somente a ação Rejeitar é habilitada por padrão, e ela tem o valor limite de SCL de 7.
@@ -209,7 +250,9 @@ Este exemplo configura os seguintes valores para os limites de SCL:
 
 <!-- end list -->
 
+```powershell
     Set-ContentFilterConfig -SCLDeleteEnabled $true -SCLDeleteThreshold 9 -SCLRejectEnabled $true -SCLRejectThreshold 8 -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```
 
 ## Como saber se funcionou?
 
@@ -217,7 +260,9 @@ Para verificar se você configurou com êxito os limites do SCL, faça o seguint
 
 1.  Execute o seguinte comando:
     
+    ```powershell
         Get-ContentFilterConfig | Format-List SCL*
+    ```
 
 2.  Verifique se os valores exibidos correspondem às configurações que você especificou.
 
@@ -227,11 +272,15 @@ Quando a ação Rejeitar estiver habilitada, você poderá personalizar a respos
 
 Para configurar uma resposta de rejeição personalizada, execute o seguinte comando:
 
-    Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```powershell
+Set-ContentFilterConfig -RejectionResponse "<Custom Text>"
+```
 
 Este exemplo configura o agente de Filtro de Conteúdo para enviar uma resposta de rejeição personalizada.
 
+```powershell
     Set-ContentFilterConfig -RejectionResponse "Your message was rejected because it appears to be SPAM."
+```
 
 ## Como saber se funcionou?
 
@@ -239,7 +288,9 @@ Para verificar se você configurou com êxito a resposta de rejeição, faça o 
 
 1.  Execute o seguinte comando:
     
+    ```powershell
         Get-ContentFilterConfig | Format-List *Reject*
+    ```
 
 2.  Verifique se os valores exibidos correspondem às configurações que você especificou.
 
@@ -249,11 +300,15 @@ A validação de *Carimbo Postal do Outlook* é uma prova computacional de que o
 
 Para desabilitar o Carimbo Postal do Outlook, execute o seguinte comando:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $false
+```
 
 Para habilitar o Carimbo Postal do Outlook, execute o seguinte comando:
 
-    Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```powershell
+Set-ContentFilterConfig -OutlookEmailPostmarkValidationEnabled $true
+```
 
 ## Como saber se funcionou?
 
@@ -261,7 +316,9 @@ Para verificar se você configurou com êxito o Carimbo Postal do Outlook, faça
 
 1.  Execute o seguinte comando:
     
-        Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```powershell
+    Get-ContentFilterConfig | Format-List OutlookEmailPostmarkValidationEnabled
+    ```
 
 2.  Verifique se o valor exibido corresponde às configurações que você especificou.
 

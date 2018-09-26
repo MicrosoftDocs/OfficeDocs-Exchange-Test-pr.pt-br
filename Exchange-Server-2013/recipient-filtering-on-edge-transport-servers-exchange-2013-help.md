@@ -69,7 +69,9 @@ Se o tarpitting não estiver configurado, o servidor Exchange retornará imediat
 
 Para configurar o atraso em que o SMTP retorna o erro `550 5.1.1 User unknown`, você define o intervalo do tarpitting usando o parâmetro *TarpitInterval* no cmdlet **Set-ReceiveConnector**. A sintaxe é:
 
-    Set-ReceiveConnector <Receive Connector> -TarpitInterval <00:00:00 to 00:10:00>
+```powershell
+Set-ReceiveConnector <Receive Connector> -TarpitInterval <00:00:00 to 00:10:00>
+```
 
 O valor padrão é `00:00:05` ou 5 segundos. O nome do conector padrão de Recebimento em um servidor de Transporte de Borda é `Default internal receive connector <server name>`.
 

@@ -70,10 +70,12 @@ Para se conectar a um servidor SMTP de destino usando Telnet na porta 25, você 
     
     A saída do comando se assemelhará à seguinte:
     
-        fabrikam.com mx preference=10, mail exchanger = mail1.fabrikam.com
-        fabrikam.com mx preference=20, mail exchanger = mail2.fabrikam.com
-        mail1.fabrikam.com internet address = 192.168.1.10
-        mail2 fabrikam.com internet address = 192.168.1.20
+    ```powershell
+    fabrikam.com mx preference=10, mail exchanger = mail1.fabrikam.com
+    fabrikam.com mx preference=20, mail exchanger = mail2.fabrikam.com
+    mail1.fabrikam.com internet address = 192.168.1.10
+    mail2 fabrikam.com internet address = 192.168.1.20
+    ```
     
     Você pode usar qualquer um dos nomes de host ou endereços IP que estejam associados aos registros de MX como o servidor SMTP de destino. Um valor menor de preferência indica um servidor SMTP preferencial. Você pode usar vários registros de MX e valores diferentes de preferência para balanceamento de carga e tolerância a falhas.
 
@@ -107,7 +109,12 @@ Neste exemplo, os seguintes valores são usados:
 > <LI>
 > <P>Os comandos no Cliente Telnet não diferenciam maiúsculas de minúsculas. Os verbos do comando SMTP estão em maiúsculas por questões de clareza.</P>
 > <LI>
-> <P>Não é possível usar a tecla Backspace depois de conectar ao servidor SMTP de destino dentro da sessão Telnet. Se você cometer um erro ao digitar um comando SMTP, deverá pressionar Enter e digitar o comando novamente. Comandos SMTP não reconhecidos ou erros de sintaxe resultam em uma mensagem de erro semelhante à seguinte:</P><PRE><CODE>500 5.3.3 Unrecognized command</CODE></PRE></LI></UL>
+> <P>Não é possível usar a tecla Backspace depois de conectar ao servidor SMTP de destino dentro da sessão Telnet. Se você cometer um erro ao digitar um comando SMTP, deverá pressionar Enter e digitar o comando novamente. Comandos SMTP não reconhecidos ou erros de sintaxe resultam em uma mensagem de erro semelhante à seguinte:</P>
+> 
+> ```powershell
+> 500 5.3.3 Unrecognized command
+> ```
+> </LI></UL>
 
 
 
@@ -127,7 +134,9 @@ Neste exemplo, os seguintes valores são usados:
 
 8.  Digite **DATA** e pressione Enter. Você receberá uma resposta semelhante à seguinte:
     
-        354 Start mail input; end with <CLRF>.<CLRF>
+    ```powershell
+    354 Start mail input; end with <CLRF>.<CLRF>
+    ```
 
 9.  Digite **Subject: Test from Contoso** e pressione Enter.
 
@@ -137,11 +146,15 @@ Neste exemplo, os seguintes valores são usados:
 
 12. Pressione Enter, digite um ponto (**.**) e pressione Enter. Você receberá uma resposta semelhante à seguinte:
     
-        250 2.6.0 <GUID> Queued mail for delivery
+    ```powershell
+    250 2.6.0 <GUID> Queued mail for delivery
+    ```
 
 13. Para se desconectar do servidor SMTP de destino, digite **QUIT** e pressione Enter. Você receberá uma resposta semelhante à seguinte:
     
-        221 2.0.0 Service closing transmission channel
+    ```powershell
+    221 2.0.0 Service closing transmission channel
+    ```
 
 14. Para finalizar a sessão Telnet, digite **quit** e pressione Enter.
 

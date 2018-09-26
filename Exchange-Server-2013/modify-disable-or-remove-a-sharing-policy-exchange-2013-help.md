@@ -32,7 +32,7 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!TIP]
+> [!TIP]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -72,7 +72,7 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
 ## Usar o EAC para remover uma política de compartilhamento
 
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Para que uma política de compartilhamento possa ser removida, antes você deve removê-la de todas as caixas de correio de usuários.
 
 
@@ -87,38 +87,36 @@ Para detalhes sobre como criar uma política de compartilhamento, consulte [Cria
 
   - Este exemplo modifica a diretiva de compartilhamento Contoso em contoso.com, que é um domínio externo à organização. Essa diretiva permite aos usuários no domínio Contoso exibir informações simples de disponibilidade.
     
-        Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+    ```powershell
+    Set-SharingPolicy -Identity Contoso -Domains 'sales.contoso.com: CalendarSharingFreeBusySimple'
+    ```
 
   - Este exemplo adiciona um segundo domínio à política de compartilhamento Contoso. Ao adicionar um domínio a uma diretiva existente, inclua quaisquer domínios incluídos previamente.
     
-      ```
-        Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: 
-      ```
-      ```        
-        CalendarSharingFreeBusySimple', 'atlanta.contoso.com: 
-      ```
-      ```
-        CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: 
-      ```
-      ```
-        CalendarSharingFreeBusyReviewer'
-      ```
+    ```powershell
+    Set-SharingPolicy -Identity Contoso -Domains 'contoso.com: CalendarSharingFreeBusySimple', 'atlanta.contoso.com: CalendarSharingFreeBusyReviewer', 'beijing.contoso.com: CalendarSharingFreeBusyReviewer'
+    ```
+
   - Este exemplo define a política de compartilhamento Contoso como a política de compartilhamento padrão.
     
-        Set-SharingPolicy -Identity Contoso -Default $True
+    ```powershell
+    Set-SharingPolicy -Identity Contoso -Default $True
+    ```
 
   - Este exemplo desabilita a política de compartilhamento Contoso.
     
-        Set-SharingPolicy -Identity "Contoso" -Enabled $False
+    ```powershell
+    Set-SharingPolicy -Identity "Contoso" -Enabled $False
+    ```
 
   - O primeiro exemplo remove a política de compartilhamento Contoso. O segundo exemplo remove a política de compartilhamento Contoso e suprime a confirmação de que você deseja remover a política.
     
-      ```
-        Remove-SharingPolicy -Identity Contoso
-      ```
-      ```    
-        Remove-SharingPolicy -Identity Contoso -Confirm
-      ```
+    ```powershell
+    Remove-SharingPolicy -Identity Contoso
+    ```
+
+    ```powershell
+    Remove-SharingPolicy -Identity Contoso -Confirm
+    ```
 
 Para obter informações detalhadas sobre sintaxe e parâmetros, consulte [Set-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd297931\(v=exchg.150\)) e [Remove-SharingPolicy](https://technet.microsoft.com/pt-br/library/dd351071\(v=exchg.150\)).
-

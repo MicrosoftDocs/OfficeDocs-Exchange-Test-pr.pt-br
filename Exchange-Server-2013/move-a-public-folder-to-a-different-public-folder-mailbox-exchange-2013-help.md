@@ -53,7 +53,9 @@ Para gerenciamento adicional tarefas relacionadas a pastas públicas consulte [P
 
 Este exemplo inicia a solicitação de movimentação de \\CustomerEnagagements a pasta pública da caixa de correio de pasta pública DeveloperReports para DeveloperReports01
 
-    New-PublicFolderMoveRequest -Folders \DeveloperReports\CustomerEngagements -TargetMailbox DeveloperReports01
+```powershell
+New-PublicFolderMoveRequest -Folders \DeveloperReports\CustomerEngagements -TargetMailbox DeveloperReports01
+```
 
 
 > [!NOTE]
@@ -67,7 +69,9 @@ Para detalhadas informações sintaxe e parâmetros, consulte [New-PublicFolderM
 
 Este exemplo inicia a solicitação de movimentação de pastas públicas na ramificação de pastas públicas \\Dev na caixa de correio de pasta pública de destino DeveloperReports01. Este exemplo não moverá \\Dev de pasta pública.
 
-    New-PublicFolderMoveRequest -Folders \Dev\CustomerEngagements,\Dev\RequestsforChange,\Dev\Usability -TargetMailbox DeveloperReports01
+```powershell
+New-PublicFolderMoveRequest -Folders \Dev\CustomerEngagements,\Dev\RequestsforChange,\Dev\Usability -TargetMailbox DeveloperReports01
+```
 
 
 > [!NOTE]
@@ -81,15 +85,21 @@ Para detalhadas informações sintaxe e parâmetros, consulte [New-PublicFolderM
 
 Este exemplo usa o script `Move-PublicFolderBranch.ps1` para mover uma ramificação de pastas públicas. Isso inicia a solicitação de movimentação para \\Dev a pasta pública e todas as suas subpastas na caixa de correio de pasta pública DeveloperReports01. O script está localizado na pasta scripts e deve ser executado a partir desta localização.
 
-    CD $env:ExchangeInstallPath\scripts
+```powershell
+CD $env:ExchangeInstallPath\scripts
+```
     
-    .\Move-PublicFolderBranch.ps1 -FolderRoot \Dev -TargetPublicFolderMailbox DeveloperReports01
+```powershell
+.\Move-PublicFolderBranch.ps1 -FolderRoot \Dev -TargetPublicFolderMailbox DeveloperReports01
+```
 
 ## Como saber se funcionou?
 
 Para verificar se a solicitação de movimentação de pasta pública foi bem-sucedida, execute o comando a seguir:
 
-    Get-PublicFolderMoveRequest | Format-List Status
+```powershell
+Get-PublicFolderMoveRequest | Format-List Status
+```
 
 Um status de `Completed` indica que a solicitação de movimentação foi realizada com êxito.
 

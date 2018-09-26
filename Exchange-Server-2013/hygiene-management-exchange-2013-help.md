@@ -31,7 +31,9 @@ Por padrão, somente membros do grupo de funções de Gerenciamento de Organiza�
 
 Você pode usar o comando a seguir para exibir uma lista de usuários ou USGs (Grupos de Segurança Universal) que sejam membros deste grupo de função.
 
-    Get-RoleGroupMember "Hygiene Management"
+```powershell
+Get-RoleGroupMember "Hygiene Management"
+```
 
 Para obter mais informações sobre os membros de um grupo de função, consulte a seção "Exibir os membros de um grupo de funções" no [Gerenciar membros do grupo de função](manage-role-group-members-exchange-2013-help.md).
 

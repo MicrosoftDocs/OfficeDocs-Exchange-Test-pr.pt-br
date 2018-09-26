@@ -36,13 +36,17 @@ Uma *caixa de correio desconectada* é um objeto de caixa de correio no banco de
     
     Para identificar as caixas de correio desabilitadas em sua organização, execute o seguinte comando no Shell.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "Disabled" } | ft DisplayName,Database,DisconnectDate
+      ```powershell
+      Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "Disabled" } | ft DisplayName,Database,DisconnectDate
+      ```
 
   - **Caixas de correio excluídas por software**   Quando uma caixa de correio é movida para um banco de dados de caixa de correio diferente, o Exchange não exclui totalmente a caixa de correio do banco de dados de caixa de correio de origem quando a mudança estiver concluída. Em vez disso, a caixa de correio do banco de dados de caixa de correio de origem é alternada para um estado *excluído por software*. Como caixas de correio desabilitadas, as caixas de correio excluídas por software são mantidas no banco de dados de origem até que o período de retenção de caixa de correio excluída expire ou até que o cmdlet **Remove-StoreMailbox** seja usado para limpar a caixa de correio.
     
     Execute o seguinte comando para identificar caixas de correio excluídas de forma reversível em sua organização.
     
-        Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | ft DisplayName,Database,DisconnectDate
+      ```powershell
+      Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisconnectReason -eq "SoftDeleted" } | ft DisplayName,Database,DisconnectDate
+      ```
 
 **Sumário**
 

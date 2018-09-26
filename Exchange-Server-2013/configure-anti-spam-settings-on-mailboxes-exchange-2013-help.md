@@ -51,19 +51,25 @@ Você pode definir configurações antispam específicas em caixas de correio in
 
 Para definir as configurações antispam em uma única caixa de correio, use a seguinte sintaxe.
 
+```powershell
     Set-Mailbox <MailboxIdentity> -AntispamBypassEnabled <$true | $false> -RequireSenderAuthenticationEnabled <$true | $false> -SCLDeleteEnabled <$true | $false | $null> -SCLDeleteThreshold <0-9 | $null> -SCLJunkEnabled <$true | $false | $null > -SCLJunkThreshold <0-9 | $null> -SCLQuarantineEnabled <$true | $false | $null > -SCLQuarantineThreshold <0-9 | $null> -SCLRejectEnabled <$true | $false | $null > -SCLRejectThreshold <0-9 | $null>
+```
 
 Este exemplo configura a caixa de correio de um usuário chamado Pedro Gonçalves de modo que ela ignore todos os filtros antispam e receba na pasta Lixo Eletrônico do Microsoft Outlook mensagens que estão de acordo ou excedam o limite SCL de 5 da pasta Lixo Eletrônico.
 
-    Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```powershell
+Set-Mailbox "Jeff Phillips" -AntispamBypassEnabled $true -SCLJunkEnabled $true -SCLJunkThreshold 4
+```
 
 ## Como saber se funcionou?
 
 Para verificar se os recursos antispam foram configurados com êxito em uma única caixa de correio, faça o seguinte:
 
 1.  Execute o seguinte comando:
-    
+
+    ```powershell 
         Get-Mailbox <MailboxIdentity> | Format-List SCL*,Bypass*,*SenderAuth*
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 
@@ -71,19 +77,25 @@ Para verificar se os recursos antispam foram configurados com êxito em uma úni
 
 Para definir todas as configurações antispam em várias caixas de correio, use a seguinte sintaxe.
 
+```powershell 
     Get-Mailbox [<Filter>]| Set-Mailbox <Anti-Spam Settings>
+```
 
 Este exemplo habilita o limite de quarentena do SCL com um valor 7 em todas as caixas de correio no contêiner Usuários no domínio Contoso.com.
 
+```powershell 
     Get-Mailbox -OrganizationalUnit Contoso.com/Users | Set-Mailbox -SCLQuarantineEnabled $true -SCLQuarantineThreshold 7
+```
 
 ## Como saber se funcionou?
 
 Para verificar se os recursos antispam foram configurados com êxito em várias caixas de correio, faça o seguinte:
 
 1.  Execute o seguinte comando:
-    
+
+    ```powershell 
         Get-Mailbox [<Filter>] | Format-List Name,SCL*,*SenderAuth*
+    ```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -91,11 +103,15 @@ Para verificar se os recursos antispam foram configurados com êxito em várias 
 
 Execute o seguinte comando:
 
-    Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold <Integer>
+```
 
 Este exemplo define o limite de lixo eletrônico da organização como 5.
 
-    Set-OrganizationConfig -SCLJunkThreshold 5
+```powershell
+Set-OrganizationConfig -SCLJunkThreshold 5
+```
 
 ## Como saber se funcionou?
 
@@ -103,7 +119,9 @@ Para verificar se os limites de lixo eletrônico foram configurados com êxito p
 
 1.  Execute o seguinte comando:
     
-        Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```powershell
+    Get-OrganizationConfig | Format-List SCLJunkThreshold
+    ```
 
 2.  Verifique se o valor apresentado é o valor que você configurou.
 

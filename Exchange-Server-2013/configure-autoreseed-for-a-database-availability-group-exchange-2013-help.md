@@ -53,17 +53,23 @@ A primeira etapa envolve configurar os diretórios raiz para os bancos de dados 
 
 Este exemplo ilustra como configurar o caminho raiz para os bancos de dados.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabasesRootFolderPath "C:\ExchDbs"
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabasesRootFolderPath "C:\ExchDbs"
+```
 
 Este exemplo ilustra como configurar o caminho raiz para os volumes de armazenamento.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagVolumesRootFolderPath "C:\ExchVols"
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagVolumesRootFolderPath "C:\ExchVols"
+```
 
 ## Como saber se essa etapa funcionou?
 
 Para verificar se você configurou com êxito os caminhos raiz para bancos de dados e volumes, execute este comando:
 
+```powershell
     Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 A saída para *AutoDagDatabasesRootFolderPath* e *AutoDagVolumesRootFolderPath* deve refletir os caminhos configurados.
 
@@ -73,13 +79,17 @@ Em seguida, configure o número de bancos de dados por volume (*AutoDagDatabaseC
 
 Este exemplo ilustra como definir essa configuração de Nova Propagação Automática para um DAG configurado com 4 bancos de dados por volume.
 
-    Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```powershell
+Set-DatabaseAvailabilityGroup DAG1 -AutoDagDatabaseCopiesPerVolume 4
+```
 
 ## Como saber se essa etapa funcionou?
 
 Para verificar se você configurou com êxito o número de bancos de dados por volume, execute este comando.
 
+```powershell
     Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+```
 
 A saída para *AutoDagDatabaseCopiesPerVolume* deve refletir o valor configurado.
 
@@ -87,7 +97,7 @@ A saída para *AutoDagDatabaseCopiesPerVolume* deve refletir o valor configurado
 
 Primeiro, crie os diretórios que correspondem aos diretórios raiz configurados na Etapa 1. O exemplo a seguir mostra como criar os diretórios padrão usando o prompt de comando.
 
-``` 
+```powershell
     md C:\ExchangeDatabases  
     md C:\ExchangeVolumes
 ``` 
@@ -96,7 +106,9 @@ Primeiro, crie os diretórios que correspondem aos diretórios raiz configurados
 
 Para verificar se você configurou com êxito os diretórios raiz para bancos de dados e volumes, execute este comando:
 
+```powershell
     Dir C:\
+```
 
 Os diretórios criados devem aparecer na lista de saída.
 
@@ -104,11 +116,13 @@ Os diretórios criados devem aparecer na lista de saída.
 
 Para cada volume que será usado para os bancos de dados (incluindo volumes sobressalentes), use o aplicativo Gerenciamento de Disco do Windows (diskmgmt.msc) para montar cada volume em uma pasta montada em C:\\ExchangeVolumes\\. Por exemplo, se houver 2 volumes com bancos de dados e 1 volume sobressalente, monte os volumes para as seguintes pastas montadas:
 
+```powershell
   - C:\\ExchangeVolumes\\Volume1
 
   - C:\\ExchangeVolumes\\Volume2
 
   - C:\\ExchangeVolumes\\Volume3
+```
 
 Os nomes das pastas montadas podem ser qualquer nome de pasta, desde que as pastas sejam montadas sob o caminho do volume raiz.
 
@@ -116,7 +130,9 @@ Os nomes das pastas montadas podem ser qualquer nome de pasta, desde que as past
 
 Para verificar se você montou com êxito as pastas de volume, execute este comando:
 
+```powershell
     Dir C:\
+```
 
 Os volumes montados devem aparecer na lista de saída.
 
@@ -124,25 +140,31 @@ Os volumes montados devem aparecer na lista de saída.
 
 Em seguida, crie os diretórios de banco de dados no caminho de raiz C:\\ExchangeDatabases. Este exemplo ilustra como criar diretórios para uma configuração de armazenamento de 4 bancos de dados em cada volume.
 
-``` 
-    md c:\ExchangeDatabases\db001
-``` 
-``` 
-    md c:\ExchangeDatabases\db002
-``` 
-``` 
-    md c:\ExchangeDatabases\db003
-``` 
 
-``` 
+```powershell
+    md c:\ExchangeDatabases\db001
+```
+
+```powershell
+    md c:\ExchangeDatabases\db002
+```
+
+```powershell
+    md c:\ExchangeDatabases\db003
+```
+
+```powershell
     md c:\ExchangeDatabases\db004
-``` 
+```
+
 
 ## Como saber se essa etapa funcionou?
 
 Para verificar se você montou com êxito as pastas de banco de dados, execute este comando:
 
+```powershell
     Dir C:\ExchangeDatabases
+```
 
 Os diretórios criados devem aparecer na lista de saída.
 
@@ -150,13 +172,17 @@ Os diretórios criados devem aparecer na lista de saída.
 
 Crie os pontos de montagem para cada banco de dados e vincule o ponto de montagem ao volume correto. Por exemplo, a pasta montada para db001 deve ser em C:\\ExchangeDatabases\\db001. Você pode usar diskmgmt.msc ou mountvol.exe para fazer isso. Este exemplo ilustra como montar db001 para C:\\ExchangeDatabases\\db001 usando mountvol.exe.
 
+```powershell
     Mountvol.exe c:\ExchangeDatabases\db001 \\?\Volume (GUID)
+```
 
 ## Como saber se essa etapa funcionou?
 
 Para verificar se você criou com êxito os pontos de montagem dos bancos de dados, execute este comando.
 
+```powershell
     Mountvol.exe C:\ExchangeDatabases\db001 /L
+```
 
 O volume montado deve aparecer na lista de pontos de montagem.
 
@@ -170,37 +196,48 @@ C:\\\< *NomeDaPastaDoBancoDeDados*\>\\*NomeDoBancoDeDados*\\\<*NomeDoBancoDeDado
 
 Este exemplo ilustra como criar diretórios para 4 bancos de dados que serão armazenados no Volume 1:
 
-``` 
+
+```powershell
     md c:\ExchangeDatabases\db001\db001.db
-``` 
-``` 
+```
+
+```powershell
     md c:\ExchangeDatabases\db001\db001.log
-``` 
-``` 
+```
+
+```powershell
     md c:\ExchangeDatabases\db002\db002.db
-``` 
-``` 
+```
+
+```powershell
     md c:\ExchangeDatabases\db002\db002.log
-``` 
-``` 
+```
+
+```powershell
     md c:\ExchangeDatabases\db003\db003.db
-``` 
-``` 
+```
+
+```powershell
     md c:\ExchangeDatabases\db003\db003.log
-``` 
-``` 
+```
+
+```powershell
     md c:\ExchangeDatabases\db004\db004.db
-``` 
-``` 
+```
+
+```powershell
     md c:\ExchangeDatabases\db004\db004.log
-``` 
+```
+
 Repita os comandos acima para bancos de dados em cada volume.
 
 ## Como saber se essa etapa funcionou?
 
 Para verificar se você criou com êxito a estrutura de diretório de bancos de dados, execute este comando.
 
-    Dir C:\ExchangeDatabases /s
+```powershell
+    Dir c:\ExchangeDatabases /s
+```
 
 Os diretórios criados devem aparecer na lista de saída.
 
@@ -208,13 +245,17 @@ Os diretórios criados devem aparecer na lista de saída.
 
 Crie bancos de dados com caminhos de log e de banco de dados configurados com as pastas apropriadas. Este exemplo ilustra como criar um banco de dados que é armazenado no diretório e na estrutura de ponto de montagem recém-criados.
 
+```powershell
     New-MailboxDatabase -Name db001 -Server MBX1 -LogFolderPath C:\ExchangeDatabases\db001\db001.log -EdbFilePath C:\ExchangeDatabases\db001\db001.db\db001.edb
+```
 
 ## Como saber se essa etapa funcionou?
 
 Para verificar se você criou com êxito os banco de dados na pasta a adequada, execute este comando:
 
+```powershell
     Get-MailboxDatabase db001 | Format List *path*
+```
 
 As propriedades de banco de dados que são retornadas devem indicar que o arquivo de banco de dados e os arquivos de log estão sendo armazenados nas pastas acima.
 
@@ -224,13 +265,18 @@ Para verificar se você configurou a Nova Propagação Automática para um DAG, 
 
 1.  Execute o seguinte comando para verificar se o DAG está configurado corretamente.
     
+    ```powershell
         Get-DatabaseAvailabilityGroup DAG1 | Format-List *auto*
+    ```
 
 2.  Execute o comando a seguir para verificar se a estrutura de diretório está configurada corretamente (abaixo, estão os caminhos padrão; se necessário, substitua os caminhos pelos caminhos que você está usando).
     
-``` 
-        Dir c:\ExchangeDatabases /s
-``` 
-```     
-        Dir c:\ExchangeVolumes /s
-``` 
+
+```powershell
+    Dir c:\ExchangeDatabases /s
+```
+    
+```powershell
+    Dir c:\ExchangeVolumes /s
+```
+

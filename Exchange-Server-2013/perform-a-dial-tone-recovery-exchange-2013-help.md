@@ -47,15 +47,21 @@ O uso da portabilidade de sinal de linha permite que os usuários tenham uma cai
 
 2.  Use o cmdlet [New-MailboxDatabase](https://technet.microsoft.com/pt-br/library/aa997976\(v=exchg.150\)) para criar um banco de dados de sinal de linha, como mostrado neste exemplo.
     
-        New-MailboxDatabase -Name DTDB1 -EdbFilePath D:\DialTone\DTDB1.EDB
+    ```powershell
+    New-MailboxDatabase -Name DTDB1 -EdbFilePath D:\DialTone\DTDB1.EDB
+    ```
 
 3.  Use o cmdlet [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)) para mover as caixas de correio do usuário hospedadas no banco de dados sendo recuperado, como mostrado neste exemplo.
     
-        Get-Mailbox -Database DB1 | Set-Mailbox -Database DTDB1
+    ```powershell
+    Get-Mailbox -Database DB1 | Set-Mailbox -Database DTDB1
+    ```
 
 4.  Use o cmdlet [Mount-Database](https://technet.microsoft.com/pt-br/library/aa998871\(v=exchg.150\)) para montar o banco de dados para que os computadores clientes possam acessar o banco de dados e enviar e receber mensagens, como mostrado neste exemplo.
     
-        Mount-Database -Identity DTDB1
+    ```powershell
+    Mount-Database -Identity DTDB1
+    ```
 
 5.  Crie um banco de dados de recuperação (RDB) e restaure ou copie o banco de dados e os arquivos de log contendo os dados que deseja recuperar no RDB. Para obter etapas detalhadas, consulte [Criar um banco de dados de recuperação](create-a-recovery-database-exchange-2013-help.md).
 
@@ -63,45 +69,53 @@ O uso da portabilidade de sinal de linha permite que os usuários tenham uma cai
 
 7.  Monte o RDB e use o cmdlet [Dismount-Database](https://technet.microsoft.com/pt-br/library/bb124936\(v=exchg.150\)) para desmontá-lo, como mostrado neste exemplo.
     
-```
+    ```powershell
         Mount-Database -Identity RDB1  
 
         Dismount-Database -Identity RDB1
-```
+    ```
 
 8.  Após a desmontagem do RDB, move o banco de dados atual e os arquivos de log que estão na pasta RDB para um local seguro. Isso é feito como preparação para trocar o banco de dados recuperado pelo banco de dados de sinal de linha.
 
 9.  Desmonte o banco de dados de sinal de linha, como mostrado neste exemplo. Observe que os usuários finais terão uma interrupção no serviço quando você desmontar esse banco de dados.
     
-        Dismount-Database -Identity DTDB1
+    ```powershell
+    Dismount-Database -Identity DTDB1
+    ```
 
 10. Mova o banco de dados e os arquivos de log da pasta do banco de dados de sinal de linha para a pasta do RDB.
 
 11. Mova o banco de dados e os arquivos de log do local seguro que contém o banco de dados recuperado para a pasta do banco de dados de sinal de linha e monte o banco de dados, como mostrado neste exemplo.
     
-        Mount-Database -Identity DTDB1
+    ```powershell
+    Mount-Database -Identity DTDB1
+    ```
     
     Isso encerra a interrupção de serviço para os seus usuários finais. Eles poderão acessar o banco de dados de produção original e enviar e receber mensagens.
 
 12. Monte o RDB, como mostrado neste exemplo.
     
-        Mount-Database -Identity RDB1
+    ```powershell
+    Mount-Database -Identity RDB1
+    ```
 
 13. Use os cmdlets [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)) e [New-MailboxRestoreRequest](https://technet.microsoft.com/pt-br/library/ff829875\(v=exchg.150\)) para exportar os dados do RDB e importá-los no banco de dados recuperado, como mostrado neste exemplo. Essa ação importará todas as mensagens enviadas e recebidas, com o uso do banco de dados de sinal de linha no banco de dados de produção.
     
-```
+
+    ```powershell
         $mailboxes = Get-Mailbox -Database DTDB1
-```
-```    
+    ```
+
+    ```powershell
         $mailboxes | %{ New-MailboxRestoreRequest -SourceStoreMailbox $_.ExchangeGuid -SourceDatabase RDB1 -TargetMailbox $_ }
-```
+    ```
 
 14. Após o término da operação de restauração, você poderá desmontar e remover o RDB, como mostrado neste exemplo.
     
-```
+    ```powershell
         Dismount-Database -Identity RDB1  
         Remove-MailboxDatabase -Identity RDB1
-```
+    ```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, consulte os seguintes tópicos:
 

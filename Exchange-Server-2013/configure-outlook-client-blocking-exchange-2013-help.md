@@ -156,11 +156,15 @@ Para executar este procedimento ou estes procedimentos, você precisa receber pe
 
 Este exemplo bloqueia todas as versões de Outlook anteriores ao 11.8010.8036.
 
-    Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions "-11.8010.8036"
+```powershell
+Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions "-11.8010.8036"
+```
 
 Este exemplo restaura o acesso a uma caixa de correio que seja bloqueada por uma versão do Outlook.
 
-    Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions $null
+```powershell
+Set-CASMailbox -Identity adam@contoso.com -MAPIBlockOutlookVersions $null
+```
 
 Para informações detalhadas sobre sintaxes e parâmetros, confira [Set-CASMailbox](https://technet.microsoft.com/pt-br/library/bb125264\(v=exchg.150\)).
 
@@ -174,9 +178,9 @@ Este exemplo bloqueia Outlook clientes anteriores à versão 12.0.0 de acessar a
 > [!IMPORTANT]
 > Os valores usados com o parâmetro <EM>BlockedClientVersions</EM> são exemplos. Para determinar as versões de software corretas do cliente, analise os arquivos de log do Acesso para Cliente RPC em <CODE>%ExchangeInstallPath%Logging\RPC Client Access</CODE>.
 
-
-
-    Set-RpcClientAccess -Server CAS01 -BlockedClientVersions "0.0.0-5.65535.65535;7.0.0;8.02.4-11.65535.65535"
+  ```powershell
+  Set-RpcClientAccess -Server CAS01 -BlockedClientVersions "0.0.0-5.65535.65535;7.0.0;8.02.4-11.65535.65535"
+  ```
 
 Para detalhadas de sintaxes e de definição do parâmetro, consulte [Set-RpcClientAccess](https://technet.microsoft.com/pt-br/library/dd351072\(v=exchg.150\)).
 

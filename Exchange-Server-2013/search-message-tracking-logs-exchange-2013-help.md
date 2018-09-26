@@ -59,21 +59,29 @@ Você pode usar o cmdlet **Get-MessageTrackingLog** no Shell de Gerenciamento do
 
 Para procurar eventos específicos nas entradas do log de rastreamento de mensagens, use a seguinte sintaxe.
 
-    Get-MessageTrackingLog [-Server <ServerIdentity.] [-ResultSize <Integer> | Unlimited] [-Start <DateTime>] [-End <DateTime>] [-EventId <EventId>] [-InternalMessageId <InternalMessageId>] [-MessageId <MessageId>] [-MessageSubject <Subject>] [-Recipients <RecipientAddress1,RecipientAddress2...>] [-Reference <Reference>] [-Sender <SenderAddress>]
+```powershell
+Get-MessageTrackingLog [-Server <ServerIdentity.] [-ResultSize <Integer> | Unlimited] [-Start <DateTime>] [-End <DateTime>] [-EventId <EventId>] [-InternalMessageId <InternalMessageId>] [-MessageId <MessageId>] [-MessageSubject <Subject>] [-Recipients <RecipientAddress1,RecipientAddress2...>] [-Reference <Reference>] [-Sender <SenderAddress>]
+```
 
 Para exibir as 1000 entradas de log de controle de mensagens mais recentes no servidor, execute o seguinte comando:
 
-    Get-MessageTrackingLog
+```powershell
+Get-MessageTrackingLog
+```
 
 Este exemplo pesquisa nos logs de controle de mensagens do servidor local todas as entradas de 28/3/2013 8h a 28/3/2013 17h de todos os eventos de **FAIL** nas quais o remetente da mensagem era davi@contoso.com.
 
-    Get-MessageTrackingLog -ResultSize Unlimited -Start "3/28/2013 8:00AM" -End "3/28/2013 5:00PM" -EventId "Fail" -Sender "pat@contoso.com"
+```powershell
+Get-MessageTrackingLog -ResultSize Unlimited -Start "3/28/2013 8:00AM" -End "3/28/2013 5:00PM" -EventId "Fail" -Sender "pat@contoso.com"
+```
 
 ## Use o Shell para controlar a saída de uma pesquisa de log de controle de mensagens
 
 Use a sintaxe a seguir:
 
-    Get-MessageTrackingLog <SearchFilters> | <Format-Table | Format-List> [<FieldNames>] [<OutputFileOptions>]
+```powershell
+Get-MessageTrackingLog <SearchFilters> | <Format-Table | Format-List> [<FieldNames>] [<OutputFileOptions>]
+```
 
 Este exemplo pesquisa nos logs de controle de mensagens usando os seguintes critérios de pesquisa:
 
@@ -87,7 +95,9 @@ Este exemplo pesquisa nos logs de controle de mensagens usando os seguintes crit
 
 <!-- end list -->
 
-    Get-MessageTrackingLog -EventId Send | Format-List Send*,Recipient* > "D:\Send Search.txt"
+```powershell
+Get-MessageTrackingLog -EventId Send | Format-List Send*,Recipient* > "D:\Send Search.txt"
+```
 
 ## Use o Shell para procurar nos logs de controle de mensagens entradas de mensagens em vários servidores
 
@@ -95,7 +105,9 @@ Normalmente, o valor no campo do cabeçalho **MessageID:**  permanece constante 
 
 Para procurar todas as entradas de log de ​​controle de mensagens para uma mensagem específica em todos os servidores de Caixa de Correio, use a seguinte sintaxe.
 
-    Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId <MessageID> | Select-Object <CommaSeparatedFieldNames> | Sort-Object -Property <FieldName>
+```powershell
+Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId <MessageID> | Select-Object <CommaSeparatedFieldNames> | Sort-Object -Property <FieldName>
+```
 
 Este exemplo pesquisa nos logs de controle de mensagens em todos os servidores de caixa de correio do Exchange 2013 usando os seguintes critérios de pesquisa:
 
@@ -107,7 +119,9 @@ Este exemplo pesquisa nos logs de controle de mensagens em todos os servidores d
 
 <!-- end list -->
 
-    Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com | Select-Object Timestamp,ServerHostname,ClientHostname,Source,EventId,Recipients | Sort-Object -Property Timestamp
+```powershell
+Get-ExchangeServer | where {$_.isHubTransportServer -eq $true -or $_.isMailboxServer -eq $true} | Get-MessageTrackingLog -MessageId ba18339e-8151-4ff3-aeea-87ccf5fc9796@mailbox01.contoso.com | Select-Object Timestamp,ServerHostname,ClientHostname,Source,EventId,Recipients | Sort-Object -Property Timestamp
+```
 
 ## Use o EAC para pesquisar os logs de controle de mensagens
 

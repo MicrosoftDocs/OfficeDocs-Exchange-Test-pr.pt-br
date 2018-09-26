@@ -67,7 +67,9 @@ Para obter mais informações sobre a retenção de itens excluídos, a pasta It
 
 Este exemplo configura a caixa de correio de April Stewart para reter itens excluídos por 30 dias.
 
-    Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```powershell
+Set-Mailbox -Identity - "April Stewart" -RetainDeletedItemsFor 30
+```
 
 Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-Mailbox](https://technet.microsoft.com/pt-br/library/bb123981\(v=exchg.150\)).
 
@@ -81,7 +83,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-M
 
 Este exemplo configura um aviso de cota de 12 GB e uma cota de itens recuperáveis de 15 GB para caixa de correio de April Stewart de itens recuperáveis.
 
-    Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
+  ```powershell
+  Set-Mailbox -Identity "April Stewart" -RecoverableItemsWarningQuota 12GB -RecoverableItemsQuota 15GB -UseDatabaseQuotaDefaults $false
+  ```
 
 
 > [!NOTE]
@@ -101,7 +105,9 @@ Para obter informações detalhadas sobre sintaxes e parâmetros, confira [Set-M
 
 Este exemplo configura um período de retenção de item excluído de 10 dias para o banco de dados de caixa de correio MDB2.
 
-    Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```powershell
+Set-MailboxDatabase -Identity MDB2 -DeletedItemRetention 10
+```
 
 Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)).
 
@@ -115,7 +121,9 @@ Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Set-
 
 Este exemplo configura um aviso de cota de 15 GB e uma cota de itens recuperáveis de 20 GB no banco de dados de caixa de correio MDB2 de itens recuperáveis.
 
-    Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```powershell
+Set-MailboxDatabase -Identity MDB2 -RecoverableItemsWarningQuota 15GB -RecoverableItemsQuota 20GB
+```
 
 Para obter informações detalhadas de sintaxes e de parâmetros, consulte [Set-MailboxDatabase](https://technet.microsoft.com/pt-br/library/bb123971\(v=exchg.150\)).
 

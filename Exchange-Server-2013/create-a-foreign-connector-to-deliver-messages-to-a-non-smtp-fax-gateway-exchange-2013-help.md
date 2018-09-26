@@ -49,7 +49,9 @@ Interessado em cenários em que esse procedimento é usado? Consulte os seguinte
 
 1.  Execute o seguinte comando para criar o conector estrangeiro:
     
-        New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
+      ```powershell
+      New-ForeignConnector -Name "Contoso Foreign Connector" -AddressSpaces "X400:c=US;a=Fabrikam;P=Contoso;5" -SourceTransportServers Hub01,Hub02
+      ```
     
     Neste exemplo, Hub01 e Hub02 são servidores de origem em sua organização que você designa para enviar mensagens ao sistema estrangeiro. O uso de mais de um servidor de origem oferece tolerância a falhas.
 
@@ -59,7 +61,9 @@ Depois de criar o conector estrangeiro, você pode configurar os diretórios de 
 
 Para confirmar se o conector estrangeiro foi criado com êxito, execute este comando:
 
-    Get-ForeignConnector | Format-List Name
+```powershell
+Get-ForeignConnector | Format-List Name
+```
 
 Verifique se o nome do conector estrangeiro que você criou aparece.
 
@@ -71,13 +75,17 @@ Você cria um diretório para usar como diretório de recebimento em seu sistema
 
 1.  Execute o seguinte script para especificar o diretório de recebimento de seu conector estrangeiro (mude o valor do parâmetro *DropDirectory* para um caminho apropriado ao seu ambiente):
     
-        Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
+```powershell
+Set-ForeignConnector "Contoso Foreign Connector" -DropDirectory "C:\Drop Directory"
+```
 
 ## Como saber se essa etapa funcionou?
 
 Para confirmar se você configurou o diretório de recebimento corretamente, execute este script de cmdlet para confirmar o valor do parâmetro *DropDirectory*:
 
-    Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```powershell
+Get-ForeignConnector "Contoso Foreign Connector" | Format-List
+```
 
 Depois de criar seu conector estrangeiro e especificar o diretório de recebimento, você pode enviar uma mensagem usando o servidor de Caixa de Correio no qual você criou o conector estrangeiro e confirmar se um arquivo é entregue ao diretório de recebimento.
 
@@ -91,7 +99,9 @@ Para obter instruções detalhadas para configurar o diretório de recebimento, 
 
 Para confirmar se você configurou o diretório de retirada corretamente, execute este comando para confirmar o valor do parâmetro *PickupDirectoryPath*:
 
-    Get-TransportService | Format-List PickupDirectoryPath
+```powershell
+Get-TransportService | Format-List PickupDirectoryPath
+```
 
 ## Etapa 4: Usar o Shell para configurar o diretório de repetição do serviço Transporte em um servidor de Caixa de Correio
 
@@ -103,7 +113,9 @@ Para obter instruções detalhadas para configurar o diretório de recebimento, 
 
 Para confirmar se você configurou o diretório de repetição corretamente, execute este comando para confirmar o valor do parâmetro *ReplayDirectoryPath*:
 
-    Get-TransportService | Format-List ReplayDirectoryPath
+```powershell
+Get-TransportService | Format-List ReplayDirectoryPath
+```
 
 ## Para obter mais informações
 

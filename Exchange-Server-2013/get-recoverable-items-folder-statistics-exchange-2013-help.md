@@ -47,11 +47,15 @@ Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fór
 
 Este exemplo obtém as estatísticas de pasta para a pasta de itens recuperáveis de Soumya Singhi e exibe a saída em um formato de lista.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-List
+```
 
 Este exemplo obtém as estatísticas de pasta para a pasta de itens recuperáveis de Soumya Singhi e exibe o nome da pasta, o caminho da pasta, o número de itens da pasta, e o tamanho da pasta em um formato de tabela.
 
-    Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-Table Name,FolderPath,ItemsInFolder,FolderAndSubfolderSize
+```powershell
+Get-MailboxFolderStatistics -Identity "Soumya Singhi" -FolderScope RecoverableItems | Format-Table Name,FolderPath,ItemsInFolder,FolderAndSubfolderSize
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-MailboxFolderStatistics](https://technet.microsoft.com/pt-br/library/aa996762\(v=exchg.150\)).
 
@@ -59,7 +63,9 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailb
 
 Este exemplo recupera uma lista de todas as caixas de correio colocadas em retenção de litígio e recupera as estatísticas de pasta de caixa de correio para a pasta itens recuperáveis e suas subpastas para cada caixa de correio. As propriedades de **FolderAndSubfolderSize** e **Identity** (identidade de pasta de caixa de correio) são exibidas em formato de tabela.
 
-    Get-Mailbox -ResultSize Unlimited -Filter {LitigationHoldEnabled -eq $true} | Get-MailboxFolderStatistics | Format-Table Identity,FolderAndSubfolderSize
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {LitigationHoldEnabled -eq $true} | Get-MailboxFolderStatistics | Format-Table Identity,FolderAndSubfolderSize
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailbox](https://technet.microsoft.com/pt-br/library/bb123685\(v=exchg.150\)) e [Get-MailboxFolderStatistics](https://technet.microsoft.com/pt-br/library/aa996762\(v=exchg.150\)).
 
@@ -67,9 +73,12 @@ Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Mailb
 
 Este exemplo exibe a cota e a cota de aviso para a pasta itens recuperáveis para uma caixa de correio do usuário. O exemplo também recupera informações sobre um litígio ou um bloqueio In-loco é colocado na caixa de correio.
 
-    Get-Mailbox -Identity <identity of mailbox> | Format-List RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```powershell
+Get-Mailbox -Identity <identity of mailbox> | Format-List RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```
 
 Este exemplo exibe a cota e a cota de aviso para a pasta itens recuperáveis para todas as caixas de correio do usuário em sua organização. O exemplo também recupera informações sobre a isenção.
 
-    Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Format-List Name,RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
-
+```powershell
+Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"} | Format-List Name,RecoverableItems*,LitigationHoldEnabled,InPlaceHolds
+```

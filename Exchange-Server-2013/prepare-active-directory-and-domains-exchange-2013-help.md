@@ -87,7 +87,9 @@ Quando você estiver pronto, faça o seguinte para estender seu esquema do Activ
 
 3.  Execute o seguinte comando para estender o esquema:
     
-        Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareSchema /IAcceptExchangeServerLicenseTerms
+    ```
 
 Após a Instalação terminar de estender o esquema, será necessário aguardar enquanto o Active Directory replica as alterações a todos os controladores de domínio. Se você quiser verificar o andamento da replicação, use a ferramenta `repadmin`. A `Repadmin` está incluída como parte do recurso Ferramentas de Serviços de Domínio do Active Directory no Windows Server 2012 R2, Windows Server 2012 e no Windows Server 2008 R2. Para saber mais sobre como usar essa ferramenta, confira [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -122,8 +124,9 @@ Quando você estiver pronto, faça o seguinte para prepara o Active Directory pa
 1.  Abra uma janela do Prompt de comando do Windows e vá até onde você baixou os arquivos de instalação do Exchange.
 
 2.  Execute o comando a seguir:
-    
+    ```powershell
         Setup.exe /PrepareAD /OrganizationName:"<organization name>" /IAcceptExchangeServerLicenseTerms
+    ```
 
 Após a Instalação terminar de preparar o Active Directory para Exchange, será necessário aguardar enquanto o Active Directory replica as alterações a todos os seus controladores de domínio. Se você quiser verificar o andamento da replicação, use a ferramenta `repadmin`. A `repadmin` está incluída como parte do recurso Ferramentas de Serviços de Domínio do Active Directory no Windows Server 2012 R2, Windows Server 2012 e Windows Server 2008 R2. Para saber mais sobre como usar a ferramenta, confira [Repadmin](https://go.microsoft.com/fwlink/p/?linkid=257879).
 
@@ -149,7 +152,9 @@ Quando você estiver pronto, faça o seguinte para preparar todos os domínios e
 
 2.  Execute o comando a seguir:
     
-        Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```powershell
+    Setup.exe /PrepareAllDomains /IAcceptExchangeServerLicenseTerms
+    ```
 
 ## Deixe-me escolher quais domínios do Active Directory eu quero preparar
 
@@ -174,8 +179,9 @@ Quando você estiver pronto, faça o seguinte para preparar um domínio individu
 1.  Abra uma janela do Prompt de comando do Windows e vá até onde você baixou os arquivos de instalação do Exchange.
 
 2.  Execute o seguinte comando. Inclua o FQDN do domínio que você deseja preparar. Se você quiser preparar o domínio no qual você está executando o comando, não será necessário incluir o FQDN.
-    
+    ```powershell
         Setup.exe /PrepareDomain:<FQDN of the domain you want to prepare> /IAcceptExchangeServerLicenseTerms
+    ```
 
 3.  Repita as etapas para cada domínio do Active Directory no qual você instalará um servidor do Exchange ou onde os usuários habilitados para email estarão localizados.
 

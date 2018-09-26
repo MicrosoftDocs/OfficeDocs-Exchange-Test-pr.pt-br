@@ -179,7 +179,9 @@ Conclua as etapas a seguir para configurar MAPI sobre HTTP para sua organizaçã
     
     Por exemplo, para configurar o diretório virtual MAPI padrão no servidor Exchange local configurando o valor da URL interna como https://contoso.com/mapi e o método de autenticação como `Negotiate`, execute o seguinte comando:
     
+    ```powershell
         Set-MapiVirtualDirectory -Identity "Contoso\mapi (Default Web Site)" -InternalUrl https://Contoso.com/mapi -IISAuthenticationMethods Negotiate
+    ```
 
 2.  **Configuração de certificado**   O certificado digital usado por seu ambiente Exchange deve incluir os mesmos valores de *InternalURL* e de *ExternalURL* definidos no diretório virtual MAPI. Para obter mais informações sobre o gerenciamento de certificados do Exchange 2013, consulte [Certificados digitais e SSL](digital-certificates-and-ssl-exchange-2013-help.md). Verifique se o certificado do Exchange é confiável na estação de trabalho cliente do Outlook e se não há erros de certificados, especialmente quando você acessa as URLs configuradas no diretório virtual MAPI.
 
@@ -189,7 +191,9 @@ Conclua as etapas a seguir para configurar MAPI sobre HTTP para sua organizaçã
     
     Execute o seguinte comando:
     
+    ```powershell
         Set-OrganizationConfig -MapiHttpEnabled $true
+    ```
 
 ## Testar conexões MAPI sobre HTTP
 
@@ -197,13 +201,17 @@ Você pode testar a conexão MAPI sobre HTTP de ponta a ponta usando o cmdlet **
 
 O exemplo a seguir testa a conexão MAPI sobre HTTP do servidor Exchange chamado ContosoMail.
 
+```powershell
     Test-OutlookConnectivity -RunFromServerId ContosoMail -ProbeIdentity OutlookMapiHttpSelfTestProbe
+```
 
 Um teste bem-sucedido retorna um resultado semelhante ao exemplo a seguir:
 
+```powershell
     MonitorIdentity                                          StartTime              EndTime                Result      Error     Exception
     ---------------                                          ---------              -------                ------      -----     ---------
     OutlookMapiHttp.Protocol\OutlookMapiHttpSelfTestProbe    2/14/2014 7:15:00 AM   2/14/2014 7:15:10 AM   Succeeded
+```
 
 Para obter mais informações, consulte [Test-OutlookConnectivity](https://technet.microsoft.com/pt-br/library/dd638082\(v=exchg.150\)).
 

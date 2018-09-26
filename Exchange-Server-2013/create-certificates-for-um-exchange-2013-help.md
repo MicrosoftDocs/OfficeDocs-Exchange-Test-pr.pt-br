@@ -81,7 +81,9 @@ Para conhecer tarefas de gerenciamento adicionais relacionadas ao gerenciamento 
 
 Este exemplo cria uma nova solicitação de certificado do Exchange para um servidor de Caixa de Correio chamado `MyMailboxServer` com um nome amigável de `CertUM`.
 
+```powershell
     New-ExchangeCertificate -FriendlyName 'CertUM' -GenerateRequest -PrivateKeyExportable $true -KeySize '2048' -DomainName '*.northwindtraders.com' -SubjectName 'C=US,S=wa,L=redmond,O=northwindtraders,OU=servers,CN= northwindtraders.com' -Server 'MyMailboxServer'
+```
 
 ## Use o EAC para criar um certificado autoassinado para UM
 
@@ -107,8 +109,9 @@ Este exemplo cria uma nova solicitação de certificado do Exchange para um serv
 
 Este exemplo cria um novo certificado autoassinado do Exchange para um servidor de Caixa de Correio chamado `MyMailboxServer` com um nome amigável de `UMCert`.
 
+```powershell
     New-ExchangeCertificate -Services 'UM, UMCallRouter' -DomainName '*.northwindtraders.com' -FriendlyName 'UMSelfSigned' -SubjectName 'C=US,S=WA,L=Redmond,O=Northwindtraders,OU=Servers,CN= Northwindtraders.com' -PrivateKeyExportable $true
-
+```
 
 > [!TIP]
 > Ao especificar os serviços que você deseja habilitar usando o parâmetro <EM>Services</EM>, você deverá atribuir esses serviços. Neste exemplo, você deverá habilitar o certificado para os serviços de UM e de Roteador de Chamadas de UM. Para mais informações sobre como habilitar um certificado para serviços, veja <A href="assign-a-certificate-to-the-um-and-um-call-router-services-exchange-2013-help.md">Atribuir um certificado para os serviços de Unificação de mensagens e o roteador de chamada UM</A>.

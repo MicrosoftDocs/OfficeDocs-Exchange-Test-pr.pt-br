@@ -43,25 +43,31 @@ _**Tópico modificado em:** 2014-12-16_
 
 1.  Em uma janela do Prompt de Comando, abra o arquivo de configuração de aplicativo EdgeTransport.exe.config no Bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Localize as chaves a seguir na seção `<appSettings>`.
     
-        <add key="PriorityQueuingEnabled" value="false" />
-        <add key="MaxPerDomainHighPriorityConnections" value="3" />
-        <add key="MaxPerDomainNormalPriorityConnections" value="15" />
-        <add key="MaxPerDomainLowPriorityConnections" value="2" />
-        <add key="HighPriorityMessageExpirationTimeout" value="8:00:00" />
-        <add key="NormalPriorityMessageExpirationTimeout" value="2.00:00:00" />
-        <add key="LowPriorityMessageExpirationTimeout" value="2.00:00:00" />
-        <add key="HighPriorityDelayNotificationTimeout" value="00:30:00" />
-        <add key="NormalPriorityDelayNotificationTimeout" value="4:00:00" />
-        <add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
-        <add key="MaxHighPriorityMessageSize" value="250KB" />
+    ```powershell
+    <add key="PriorityQueuingEnabled" value="false" />
+    <add key="MaxPerDomainHighPriorityConnections" value="3" />
+    <add key="MaxPerDomainNormalPriorityConnections" value="15" />
+    <add key="MaxPerDomainLowPriorityConnections" value="2" />
+    <add key="HighPriorityMessageExpirationTimeout" value="8:00:00" />
+    <add key="NormalPriorityMessageExpirationTimeout" value="2.00:00:00" />
+    <add key="LowPriorityMessageExpirationTimeout" value="2.00:00:00" />
+    <add key="HighPriorityDelayNotificationTimeout" value="00:30:00" />
+    <add key="NormalPriorityDelayNotificationTimeout" value="4:00:00" />
+    <add key="LowPriorityDelayNotificationTimeout" value="8:00:00" />
+    <add key="MaxHighPriorityMessageSize" value="250KB" />
+    ```
     
     Para habilitar a fila de prioridades no serviço de Transporte no servidor de Caixa de Correio, use o seguinte valor:
     
-        <add key="PriorityQueuingEnabled" value="true" />
+    ```command line
+    <add key="PriorityQueuingEnabled" value="true" />
+    ```
     
     Configure os valores restantes da fila de prioridades ou deixe os valores padrão.
 
@@ -69,7 +75,9 @@ _**Tópico modificado em:** 2014-12-16_
 
 4.  Reinicie o serviço de Transporte do Microsoft Exchange executando o seguinte comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Como saber se funcionou?
 

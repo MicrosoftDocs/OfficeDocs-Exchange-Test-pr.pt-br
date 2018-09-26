@@ -44,8 +44,9 @@ Tabela de roteamento log periodicamente um instantâneo da tabela de roteamento 
 ## Usar o Shell para configurar o log de tabela de roteamento
 
 Execute o seguinte comando:
-
+```powershell
     Set-TransportService <ServerIdentity> -RoutingTableLogMaxAge <dd.hh:mm:ss> -RoutingTableLogMaxDirectorySize <Size>  -RoutingTableLogPath <LocalFilePath>
+```
 
 Este exemplo define as seguintes configurações de log de tabela de roteamento no servidor de caixa de correio chamado Mailbox01:
 
@@ -56,8 +57,9 @@ Este exemplo define as seguintes configurações de log de tabela de roteamento 
   - Define a idade máxima de um arquivo de log de tabela roteamento como 45 dias.
 
 <!-- end list -->
-
+```powershell
     Set-TransportService Mailbox01 -RoutingTableLogPath "D:\Routing Table Log" -RoutingTableLogMaxDirectorySize 70MB -RoutingTableLogMaxAge 45.00:00:00
+```
 
 
 > [!NOTE]
@@ -70,8 +72,9 @@ Este exemplo define as seguintes configurações de log de tabela de roteamento 
 Para verificar se você configurou com êxito log de tabela de roteamento, faça o seguinte:
 
 1.  No Shell, execute o comando a seguir:
-    
+```powershell   
         Get-TransportService <ServerIdentity> | Format-List RoutingTableLog*
+```
 
 2.  Verifique se os valores exibidos são os valores que você configurou.
 
@@ -79,21 +82,29 @@ Para verificar se você configurou com êxito log de tabela de roteamento, faça
 
 1.  Em uma janela do Prompt de Comando, abra o arquivo de configuração de aplicativo EdgeTransport.exe.config no Bloco de notas executando o seguinte comando:
     
-        Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```powershell
+    Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Modifica a seguinte chave na seção `<appSettings>` .
     
-        <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```command line
+    <add key="RoutingConfigReloadInterval" value="<hh:mm:ss>" />
+    ```
     
     Por exemplo, para alterar o intervalo de recálculo automático da tabela de roteamento para 10 horas, use o seguinte valor:
     
-        <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```command line
+    <add key="RoutingConfigReloadInterval" value="10:00:00" />
+    ```
 
 3.  Quando terminar, salve e feche o arquivo EdgeTransport.exe.config.
 
 4.  Reinicie o serviço de Transporte do Microsoft Exchange executando o seguinte comando:
     
-        net stop MSExchangeTransport && net start MSExchangeTransport
+    ```powershell
+    net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 ## Como saber se funcionou?
 

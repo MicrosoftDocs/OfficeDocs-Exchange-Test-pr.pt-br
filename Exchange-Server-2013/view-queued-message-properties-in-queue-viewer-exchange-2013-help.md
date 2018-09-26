@@ -119,7 +119,9 @@ Você pode usar o Visualizador de filas na caixa de ferramentas do Exchange para
 
 Você pode usar o cmdlet **Get-Message** para exibir as propriedades de uma mensagem que atualmente está na fila de entrega. O exemplo a seguir tabula o endereço do remetente, destinatários, assunto e informações de data de recebimento de todas as mensagens que estão em estado retry no momento:
 
-    Get-Message -IncludeRecipientInfo -Filter {Status -eq "Retry"} | Format-Table FromAddress,Recipients,Subject,DateReceived
+```powershell
+Get-Message -IncludeRecipientInfo -Filter {Status -eq "Retry"} | Format-Table FromAddress,Recipients,Subject,DateReceived
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [Get-Message](https://technet.microsoft.com/pt-br/library/bb124738\(v=exchg.150\)).
 

@@ -61,31 +61,43 @@ Por padrão, as filas de entrega que possuem o status de Ativa, Conectando, Pron
 
 1.  Em uma janela do Prompt de Comando, abra o arquivo EdgeTransport.exe.config no Bloco de Notas executando o comando a seguir:
     
+    ```powershell
         Notepad %ExchangeInstallPath%Bin\EdgeTransport.exe.config
+    ```
 
 2.  Adicione uma ou ambas as chaves a seguir na seção `<appSettings>`.
     
+    ```powershell
         <add key="QueueLoggingThreshold" value="<integer>" />
         <add key="QueueLoggingInterval" value="<hh:mm:ss>" />
-    
+    ```
+
     Por exemplo, para definir o valor de **QueueLoggingThreshold** como 1 e o valor de **QueueLoggingInterval** para 30 segundos, use os seguintes valores:
     
+    ```powershell
         <add key="QueueLoggingThreshold" value="1" />
         <add key="QueueLoggingInterval" value="00:00:30" />
+    ```
 
 3.  Ao finalizar, salve e feche o arquivo EdgeTransport.exe.config.
 
 4.  Reinicie o serviço Microsoft Exchange Transport executando o comando a seguir:
     
+    ```powershell
         net stop MSExchangeTransport && net start MSExchangeTransport
+    ```
 
 5.  Para alterar o valor do parâmetro *QueueDiagnosticsAggregationInterval* no Shell de Gerenciamento do Exchange, use a seguinte sintaxe:
     
+    ```powershell
         Set-TransportConfig -QueueDiagnosticsAggregationInterval <hh:mm:ss>
+    ```
     
     Por exemplo, para alterar o valor para 30 segundos, execute o comando a seguir:
     
+    ```powershell
         Set-TransportConfig -QueueDiagnosticsAggregationInterval 00:00:30
+    ```
 
 ## Como saber se funcionou?
 
@@ -95,5 +107,6 @@ Para verificar se você configurou com sucesso o **Get-QueueDigest**, faça o se
 
 2.  Verifique o valor do parâmetro *QueueDiagnosticsAggregationInterval* executando o comando a seguir:
     
+    ```powershell
         Get-TransportConfig | Format-List *queue*
-
+    ```

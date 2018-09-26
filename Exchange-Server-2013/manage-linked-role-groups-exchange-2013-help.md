@@ -63,11 +63,15 @@ Para criar um grupo de função vinculado e atribuir funções de gerenciamento 
 
 1.  Armazene as credenciais da floresta externa do Active Directory em uma variável.
     
-        $ForeignCredential = Get-Credential
+    ```powershell
+    $ForeignCredential = Get-Credential
+    ```
 
 2.  Criar o grupo de função vinculado usando a sintaxe a seguir.
     
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
+    ```
 
 3.  Adicionar ou remover membros ao/do USG externo usando Usuários e Computadores do Active Directory em um computador na floresta externa do Active Directory.
 
@@ -83,8 +87,10 @@ Este exemplo faz o seguinte:
 
 <!-- end list -->
 
+```powershell
     $ForeignCredential = Get-Credential
     New-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -Roles "Transport Rules", "Journaling"
+```
 
 ## Usar o Shell para criar um grupo de função vinculado com um escopo de gerenciamento personalizado
 
@@ -92,11 +98,15 @@ Este exemplo faz o seguinte:
 
 1.  Armazene as credenciais da floresta externa do Active Directory em uma variável.
     
+    ```powershell
         $ForeignCredential = Get-Credential
+    ```
 
 2.  Criar o grupo de função vinculado usando a sintaxe a seguir.
     
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -CustomConfigWriteScope <name of configuration scope> -CustomRecipientWriteScope <name of recipient scope> -LinkedCredential $ForeignCredential -Roles <role1, role2, role3...>
+    ```
 
 3.  Adicionar ou remover membros ao/do USG externo usando Usuários e Computadores do Active Directory em um computador na floresta externa do Active Directory.
 
@@ -112,8 +122,10 @@ Este exemplo faz o seguinte:
 
 <!-- end list -->
 
+```powershell
     $ForeignCredential = Get-Credential
     New-RoleGroup "Seattle Compliance Role Group" -LinkedForeignGroup "Seattle Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -CustomRecipientWriteScope "Seattle Recipients" -Roles "Transport Rules", "Journaling"
+```
 
 Para obter mais informações sobre escopos de gerenciamento, consulte [Noções básicas sobre escopos da função de gerenciamento](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -123,12 +135,15 @@ Você pode criar grupos de função vinculados que usam um escopo de destinatár
 
 1.  Armazene as credenciais da floresta externa do Active Directory em uma variável.
     
+    ```powershell
         $ForeignCredential = Get-Credential
+    ```
 
 2.  Criar o grupo de função vinculado usando a sintaxe a seguir.
     
+    ```powershell
         New-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope <OU name> -Roles <role1, role2, role3...>
-
+    ```
 3.  Adicionar ou remover membros ao/do USG externo usando Usuários e Computadores do Active Directory em um computador na floresta externa do Active Directory.
 
 Este exemplo faz o seguinte:
@@ -143,8 +158,10 @@ Este exemplo faz o seguinte:
 
 <!-- end list -->
 
+```powershell
     $ForeignCredential = Get-Credential
     New-RoleGroup "Executives Compliance Role Group" -LinkedForeignGroup "Executives Compliance Administrators" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential -RecipientOrganizationalUnitScope "Executives OU" -Roles "Transport Rules", "Journaling"
+```
 
 Para obter mais informações sobre escopos de gerenciamento, consulte [Noções básicas sobre escopos da função de gerenciamento](understanding-management-role-scopes-exchange-2013-help.md).
 
@@ -156,11 +173,15 @@ Para alterar o USG externo associado a um grupo de função vinculado, faça o s
 
 1.  Armazene as credenciais da floresta externa do Active Directory em uma variável.
     
+    ```powershell
         $ForeignCredential = Get-Credential
+    ```
 
 2.  Altere o USG externo no grupo de função vinculado existente usando a seguinte sintaxe.
     
+    ```powershell
         Set-RoleGroup <role group name> -LinkedForeignGroup <name of foreign USG> -LinkedDomainController <FQDN of foreign Active Directory domain controller> -LinkedCredential $ForeignCredential 
+    ```
 
 Este exemplo faz o seguinte:
 
@@ -170,6 +191,7 @@ Este exemplo faz o seguinte:
 
 <!-- end list -->
 
+```powershell
     $ForeignCredential = Get-Credential
     Set-RoleGroup "Compliance Role Group" -LinkedForeignGroup "Regulatory Compliance Officers" -LinkedDomainController DC01.users.contoso.com -LinkedCredential $ForeignCredential
-
+```

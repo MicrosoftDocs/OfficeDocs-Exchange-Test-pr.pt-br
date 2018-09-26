@@ -113,15 +113,21 @@ Os exemplos seguintes usam o cmdlet **Get-MailboxDatabaseCopyStatus**. Cada exem
 
 Este exemplo retorna informações de status para todas as cópias do banco de dados DB2.
 
-    Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Identity DB2 | Format-List
+```
 
 Este exemplo retorna o status para todas as cópias de banco de dados no servidor de Caixa de Correio MBX2.
 
-    Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Server MBX2 | Format-List
+```
 
 Este exemplo retorna o status para todas as cópias de banco de dados no servidor de Caixa de Correio local.
 
-    Get-MailboxDatabaseCopyStatus -Local | Format-List
+```powershell
+Get-MailboxDatabaseCopyStatus -Local | Format-List
+```
 
 Para mais informações sobre o uso do cmdlet **Get-MailboxDatabaseCopyStatus**, consulte [Get-MailboxDatabaseCopyStatus](https://technet.microsoft.com/pt-br/library/dd298044\(v=exchg.150\)).
 
@@ -225,7 +231,9 @@ O cmdlet **Test-ReplicationHealth** é projetado para o monitoramento proativo d
 
 Este exemplo usa o cmdlet **Test-ReplicationHealth** para testar a integridade da replicação para o servidor de Caixa de Correio MBX1.
 
-    Test-ReplicationHealth -Identity MBX1
+```powershell
+Test-ReplicationHealth -Identity MBX1
+```
 
 ## Log de eventos do canal Crimson
 
@@ -361,13 +369,17 @@ O script suporta parâmetros que permitem personalizar seu comportamento e sua s
 
 Este exemplo coleta métricas para todos os bancos de dados que correspondem a DB\* (o que inclui um caractere curinga) no DAG DAG1. Depois da coleta das métricas, um relatório HTML é gerado e exibido.
 
+```powershell
     CollectOverMetrics.ps1 -DatabaseAvailabilityGroup DAG1 -Database:"DB*" -GenerateHTMLReport -ShowHTMLReport
+```
 
 Os seguintes exemplos demonstram maneiras de filtrar o relatório HTML resumido. O primeiro usa o parâmetro *Database*, que recebe uma lista de nomes de bancos de dados. O relatório resumido resultante conterá dados apenas sobre esses bancos de dados. Os dois próximos exemplos usam a opção *ReportFilter*. O último exemplo filtra todos os bancos de dados padrão.
 
+```powershell
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -Database MailboxDatabase123,MailboxDatabase456
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { $_.DatabaseName -notlike "Mailbox Database*" }
     CollectOverMetrics.ps1 -SummariseCsvFiles (dir *.csv) -ReportFilter { ($_.ActiveOnStart -like "ServerXYZ*") -and ($_.ActiveOnEnd -notlike "ServerXYZ*") }
+```
 
 ## Script CollectReplicationMetrics.ps1
 
@@ -448,9 +460,13 @@ O script CollectReplicationMetrics.ps1 suporta parâmetros que permitem personal
 
 O seguinte exemplo coleta dados correspondentes a uma hora de todos os servidores no DAG DAG1, amostrados em intervalos de um minuto, e gera um relatório resumido. Além disso, o parâmetro *ReportPath* é usado, o que faz com que o script coloque todos os arquivos no diretório atual.
 
-    CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```powershell
+CollectReplicationMetrics.ps1 -DagName DAG1 -Duration "01:00:00" -Frequency "00:01:00" -ReportPath
+```
 
 O seguinte exemplo lê os dados de todos os arquivos que correspondem a CounterData\* e gera um relatório resumido.
 
+```powershell
     CollectReplicationMetrics.ps1 -SummariseFiles (dir CounterData*) -Mode ProcessOnly -ReportPath
+```
 

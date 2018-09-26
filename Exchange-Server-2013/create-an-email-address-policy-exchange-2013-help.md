@@ -93,7 +93,7 @@ Ao criar uma política, você pode usar os seguintes tipos de endereços de emai
       - ExchangeEndereço proxy da Unificação de Mensagens (endereço proxy do EUM)
     
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > No Exchange, todos os endereços de email não SMTP são considerados endereços personalizados. O Exchange não fornece caixas de diálogo exclusivas ou páginas de propriedades para os tipos de endereços de email X.400, GroupWise ou Lotus Notes. Se um endereço de email personalizado não SMTP for adicionado, será preciso ter os arquivos DLL (biblioteca de vínculo dinâmico) apropriados. Se os arquivos DLL apropriados não forem fornecidos, não será possível criar uma política de endereço de email personalizado. O seguinte erro será registrado no Visualizador de Eventos: "O objeto de descrição de endereço de email no diretório do Microsoft Exchange para o tipo de endereço 'SADF' em máquinas 'i386' está ausente."
 
 
@@ -115,7 +115,7 @@ Para obter instruções detalhadas sobre como criar uma política de endereço d
   - Para informações sobre atalhos de teclado que possam se aplicar aos procedimentos neste tópico, consulte [Atalhos de teclado no Centro de administração do Exchange](keyboard-shortcuts-in-the-exchange-admin-center-exchange-online-protection-help.md).
 
 
-> [!WARNING]
+> [!WARNING]  
 > Está enfrentando problemas? Peça ajuda nos fóruns do Exchange. Visite os fóruns em: <A href="https://go.microsoft.com/fwlink/p/?linkid=60612">Exchange Server</A>, <A href="https://go.microsoft.com/fwlink/p/?linkid=267542">Exchange Online</A>, ou <A href="https://go.microsoft.com/fwlink/p/?linkid=285351">Proteção do Exchange Online</A>.
 
 
@@ -134,21 +134,17 @@ Para obter instruções detalhadas sobre como criar uma política de endereço d
     
       - **Especificar os tipos de destinatários a que este endereço de email se aplicarão**
 
-3.  
-    
-    Clique em **Adicionar uma regra** para restringir os destinatários aos quais esta política será aplicada. Isso cria um demonstrativo Boolean **e**.
+3.  Clique em **Adicionar uma regra** para restringir os destinatários aos quais esta política será aplicada. Isso cria um demonstrativo Boolean **e**.
     
 
-    > [!CAUTION]
+    > [!CAUTION]  
     > Se você aplicar muitas regras, será possível restringir a política de endereço de email até o ponto que ela não contenha nenhum usuário.
 
 
 
 4.  Clique em **Exibir destinatários aos quais a política se aplica** para exibir os destinatários aos quais a política se aplica.
 
-5.  
-    
-    Clique em **Salvar** para salvar suas alterações e criar a diretiva.
+5.  Clique em **Salvar** para salvar suas alterações e criar a diretiva.
 
 6.  Você receberá um aviso de que a política de endereço de email não será aplicada até você a atualizar. Após a sua criação, selecione-a e, no painel de detalhes, clique em **Aplicar**.
 
@@ -156,7 +152,8 @@ Para obter instruções detalhadas sobre como criar uma política de endereço d
 
 Este exemplo cria uma política de endereço de email que inclui usuários de caixa de correio nos escritórios de Sudeste que terão os endereços de email que incluem o sobrenome, combinado com as duas primeiras letras do seu nome.
 
-    New-EmailAddressPolicy -Name "southeast offices" -IncludedRecipients MailboxUsers -ConditionalStateorProvince "Georgia","Alabama","Louisiana" -EnabledEmailAddressTemplates "SMTP:%s%2g@southeast.contoso.com"
+```powershell
+New-EmailAddressPolicy -Name "southeast offices" -IncludedRecipients MailboxUsers -ConditionalStateorProvince "Georgia","Alabama","Louisiana" -EnabledEmailAddressTemplates "SMTP:%s%2g@southeast.contoso.com"
+```
 
 Para detalhadas sobre sintaxe e informações de parâmetro, consulte [New-EmailAddressPolicy](https://technet.microsoft.com/pt-br/library/aa996800\(v=exchg.150\)).
-
